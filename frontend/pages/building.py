@@ -7,6 +7,8 @@ paper-only: no broker orders, no real money.
 """
 from __future__ import annotations
 
+import json
+
 import pandas as pd
 from sqlalchemy import desc, func, select
 
@@ -382,6 +384,20 @@ def _render_reports_panel(st) -> None:
                 st.caption("Report file not present in this deployment yet.")
             else:
                 _render_narrative_report(st, report)
+                st.markdown("**Download this report**")
+                dcols = st.columns(3)
+                dcols[0].download_button(
+                    "JSON", json.dumps(report, indent=2, default=str),
+                    file_name=f"{pick}_research.json", mime="application/json",
+                    key="dl_report_json")
+                for i, fmt in enumerate(("html", "csv")):
+                    text = snapshot_service.load_report_export(pick, row.get("exchange", "NSE"), fmt)
+                    if text:
+                        dcols[i + 1].download_button(
+                            fmt.upper(), text,
+                            file_name=f"{pick}_research.{fmt}",
+                            mime="text/html" if fmt == "html" else "text/csv",
+                            key=f"dl_report_{fmt}")
                 with st.expander("Raw report JSON (export)"):
                     st.json(report)
 
