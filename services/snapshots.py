@@ -29,14 +29,17 @@ REMOTE_TTL_SECONDS = 900  # 15 min: hourly commits stay fresh, API limits safe
 _remote_cache: dict[str, tuple[float, dict | None]] = {}
 
 
-def _fetch_repo_json(repo_relpath: str) -> dict | None:
+def _fetch_repo_json_detail(repo_relpath: str) -> tuple[dict | None, str | None, float]:
     """Fetch one committed JSON file from the GitHub contents API, cached
-    in-process for REMOTE_TTL_SECONDS. None on any failure."""
+    in-process for REMOTE_TTL_SECONDS. Returns (payload, error, checked_at).
+    error is None on success; checked_at is the epoch of the last real
+    network check (the payload itself may come from the TTL cache)."""
     now = time.time()
     cached = _remote_cache.get(repo_relpath)
     if cached is not None and now - cached[0] < REMOTE_TTL_SECONDS:
-        return cached[1]
+        return cached[1], cached[2], cached[0]
     value: dict | None = None
+    error: str | None = None
     try:
         import requests
         url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{repo_relpath}"
@@ -48,9 +51,17 @@ def _fetch_repo_json(repo_relpath: str) -> dict | None:
         )
         if resp.ok:
             value = resp.json()
-    except Exception:
-        value = None
-    _remote_cache[repo_relpath] = (now, value)
+        else:
+            error = f"GitHub API returned HTTP {resp.status_code}"
+    except Exception as exc:
+        error = f"{type(exc).__name__}: {exc}"[:200]
+    _remote_cache[repo_relpath] = (now, value, error)
+    return value, error, now
+
+
+def _fetch_repo_json(repo_relpath: str) -> dict | None:
+    """Payload-only convenience wrapper (scripts and older tests)."""
+    value, _error, _checked = _fetch_repo_json_detail(repo_relpath)
     return value
 
 
@@ -63,19 +74,41 @@ def _load_json_local(path: Path) -> dict | None:
         return None
 
 
-def _load_json_fresh(path: Path, repo_relpath: str) -> dict | None:
+def _load_json_fresh_status(path: Path, repo_relpath: str) -> tuple[dict | None, dict]:
     """Remote-first for the repo's default committed path, local fallback;
-    custom paths (tests) stay local-only."""
+    custom paths (tests) stay local-only. Returns (payload, meta) where meta
+    records where the payload actually came from, so the UI never presents
+    a stale local copy as live data."""
+    meta = {"path": repo_relpath, "source": "missing",
+            "checked_at": None, "fallback_reason": None}
     default = (ROOT / repo_relpath).resolve()
     try:
         is_default = path.resolve() == default
     except OSError:
         is_default = False
     if is_default:
-        remote = _fetch_repo_json(repo_relpath)
+        remote, error, checked_at = _fetch_repo_json_detail(repo_relpath)
+        meta["checked_at"] = checked_at
         if isinstance(remote, dict):
-            return remote
-    return _load_json_local(path)
+            meta["source"] = "github-api"
+            return remote, meta
+        local = _load_json_local(path)
+        if local is not None:
+            meta["source"] = "local-fallback"
+            meta["fallback_reason"] = error or "remote fetch returned no data"
+            return local, meta
+        meta["fallback_reason"] = error
+        return None, meta
+    local = _load_json_local(path)
+    if local is not None:
+        meta["source"] = "local"
+        return local, meta
+    return None, meta
+
+
+def _load_json_fresh(path: Path, repo_relpath: str) -> dict | None:
+    payload, _meta = _load_json_fresh_status(path, repo_relpath)
+    return payload
 
 
 
@@ -170,3 +203,23 @@ def load_report(symbol: str, exchange: str = "NSE",
     """One committed automated research report JSON. None when absent."""
     fname = f"{exchange}_{symbol}.json"
     return _load_json_fresh(directory / fname, f"data/automation/reports/{fname}")
+
+
+def load_automation_feed_status(path: Path = AUTOMATION_FEED_FILE):
+    """(feed, meta) - meta names the real source so the UI can say when it
+    is showing a fallback copy instead of the latest committed feed."""
+    return _load_json_fresh_status(path, "data/automation/alerts_feed.json")
+
+
+def load_ranking_feed_status(path: Path = RANKING_FEED_FILE):
+    return _load_json_fresh_status(path, "data/automation/ranking_feed.json")
+
+
+def load_reports_manifest_status(path: Path = REPORTS_MANIFEST_FILE):
+    return _load_json_fresh_status(path, "data/automation/reports/manifest.json")
+
+
+def load_report_status(symbol: str, exchange: str = "NSE",
+                       directory: Path = REPORTS_DIR):
+    fname = f"{exchange}_{symbol}.json"
+    return _load_json_fresh_status(directory / fname, f"data/automation/reports/{fname}")
