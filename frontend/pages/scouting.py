@@ -47,8 +47,10 @@ def render_stock_scout(st) -> None:
     st.subheader("Full-market universe (NSE + BSE listed equities)")
     st.caption(
         "NSE loads from the official equity master (EQ series); BSE loads from the official "
-        "daily common bhavcopy (all STK instruments), with the scrip-master CSV path as a "
-        "configurable override. Dual-listed companies are deduplicated by ISIN. Per-stock "
+        "daily common bhavcopy - the instruments of the latest trading session (about 5,100 "
+        "STK rows on 18 Nov 2026), not a registry of every listed BSE company; suspended or "
+        "untraded names can be absent, and the scrip-master CSV path remains a configurable "
+        "override. Dual-listed companies are deduplicated by ISIN. Per-stock "
         "fundamentals come from Yahoo Finance (.NS / .BO); symbols Yahoo cannot resolve are "
         "recorded unavailable, never fabricated. Scanning runs in resumable batches: every "
         "stock ends up complete, partial or unavailable, and the coverage count below is "
