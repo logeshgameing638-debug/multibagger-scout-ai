@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-11-19T13:39:20Z",
+  "as_of": "2026-11-19T13:44:55Z",
   "source": "api.mfapi.in (free mirror of AMFI NAV history)",
-  "basis": "Computed on daily NAV history (source: api.mfapi.in, a free mirror of AMFI data), not exchange market price. Informational only - no trade entries, stop-losses or targets are derived from NAV. Market-price technical setups for ETFs remain unavailable on free data. Series adjusted for detected splits before indicator math.",
+  "basis": "Computed on daily NAV history (source: api.mfapi.in, a free mirror of AMFI data), not exchange market price. Informational only - no trade entries, stop-losses or targets are derived from NAV. Market-price technical setups for ETFs remain unavailable on free data. Splits are adjusted only for corporate actions verified against exchange/issuer sources. NAV-change returns exclude dividend/distribution reinvestment and are not investor total returns.",
   "etfs": {
     "NIFTYBEES": {
       "nav": 287.9423,
@@ -21,8 +21,11 @@
       "return_1y_pct": -1.67,
       "status": "ok",
       "scheme_code": 140084,
-      "adjustment": "1 split adjustment(s) applied",
-      "sessions": 2477
+      "adjustment": "adjusted x10 pre-2019-12-19",
+      "sessions": 2477,
+      "adjustment_sources": [
+        "NSE circular CML42873, 11 Dec 2019 (Reliance Nippon Life AM ETF face-value splits, effective 19 Dec 2019); face value 10 -> 1"
+      ]
     },
     "JUNIORBEES": {
       "nav": 776.7307,
@@ -42,7 +45,7 @@
       "return_1y_pct": 3.81,
       "status": "ok",
       "scheme_code": 140085,
-      "adjustment": "no splits detected",
+      "adjustment": "no split adjustment needed",
       "sessions": 2477
     },
     "BANKBEES": {
@@ -63,8 +66,11 @@
       "return_1y_pct": 5.74,
       "status": "ok",
       "scheme_code": 140087,
-      "adjustment": "1 split adjustment(s) applied",
-      "sessions": 2477
+      "adjustment": "adjusted x10 pre-2019-12-19",
+      "sessions": 2477,
+      "adjustment_sources": [
+        "NSE circular CML42873, 11 Dec 2019 (Reliance Nippon Life AM ETF face-value splits, effective 19 Dec 2019); face value 10 -> 1"
+      ]
     },
     "PSUBNKBEES": {
       "nav": 106.5096,
@@ -84,8 +90,11 @@
       "return_1y_pct": 12.8,
       "status": "ok",
       "scheme_code": 140089,
-      "adjustment": "1 split adjustment(s) applied",
-      "sessions": 2477
+      "adjustment": "adjusted x10 pre-2019-12-19",
+      "sessions": 2477,
+      "adjustment_sources": [
+        "NSE circular CML42873, 11 Dec 2019 (Reliance Nippon Life AM ETF face-value splits, effective 19 Dec 2019); face value 10 -> 1"
+      ]
     },
     "INFRABEES": {
       "nav": 985.2918,
@@ -105,7 +114,7 @@
       "return_1y_pct": -0.8,
       "status": "ok",
       "scheme_code": 140102,
-      "adjustment": "no splits detected",
+      "adjustment": "no split adjustment needed",
       "sessions": 2477
     },
     "SHARIABEES": {
@@ -126,7 +135,7 @@
       "return_1y_pct": -8.05,
       "status": "ok",
       "scheme_code": 140094,
-      "adjustment": "no splits detected",
+      "adjustment": "no split adjustment needed",
       "sessions": 2477
     },
     "GOLDBEES": {
@@ -147,8 +156,11 @@
       "return_1y_pct": 6.81,
       "status": "ok",
       "scheme_code": 140088,
-      "adjustment": "1 split adjustment(s) applied",
-      "sessions": 2477
+      "adjustment": "adjusted x100 pre-2019-12-19",
+      "sessions": 2477,
+      "adjustment_sources": [
+        "NSE circular CML42873, 11 Dec 2019 (Reliance Nippon Life AM ETF face-value splits, effective 19 Dec 2019); face value 100 -> 1"
+      ]
     },
     "HNGSNGBEES": {
       "nav": 413.8386,
@@ -168,29 +180,18 @@
       "return_1y_pct": -3.92,
       "status": "ok",
       "scheme_code": 140095,
-      "adjustment": "1 split adjustment(s) applied",
-      "sessions": 2385
+      "adjustment": "adjusted x10 pre-2019-12-19",
+      "sessions": 2385,
+      "adjustment_sources": [
+        "NSE circular CML42873, 11 Dec 2019 (Reliance Nippon Life AM ETF face-value splits, effective 19 Dec 2019); face value 10 -> 1"
+      ]
     },
     "LIQUIDBEES": {
+      "status": "not_meaningful",
+      "scheme_code": 140086,
       "nav": 1000.0,
       "nav_date": "2026-11-18",
-      "ema_20": 1000.0,
-      "ema_50": 1000.0,
-      "ema_200": 1000.0,
-      "rsi_14": 48.1,
-      "trend_vs_ema50": "below",
-      "trend_vs_ema200": "below",
-      "nav_52w_high": 1000.0,
-      "nav_52w_low": 1000.0,
-      "pct_from_52w_high": 0.0,
-      "pct_from_52w_low": 0.0,
-      "return_1m_pct": 0.0,
-      "return_6m_pct": 0.0,
-      "return_1y_pct": 0.0,
-      "status": "ok",
-      "scheme_code": 140086,
-      "adjustment": "no splits detected",
-      "sessions": 3056
+      "reason": "Fixed-NAV distribution product: the NAV is held constant by design and returns are paid out as distributions, so NAV-change indicators do not represent investor total return."
     },
     "CPSEETF": {
       "nav": 25.0233,
@@ -210,7 +211,7 @@
       "return_1y_pct": 16.32,
       "status": "ok",
       "scheme_code": 128751,
-      "adjustment": "no splits detected",
+      "adjustment": "no split adjustment needed",
       "sessions": 631
     },
     "MON100": {
@@ -231,8 +232,11 @@
       "return_1y_pct": 16.88,
       "status": "ok",
       "scheme_code": 114984,
-      "adjustment": "1 split adjustment(s) applied",
-      "sessions": 3850
+      "adjustment": "adjusted x10 pre-2021-06-21",
+      "sessions": 3850,
+      "adjustment_sources": [
+        "Motilal Oswal MF 1:10 unit split; NSE circular CML48556, 11 Jun 2021; Livemint 17 Jun 2021"
+      ]
     },
     "MAFANG": {
       "nav": 153.5377,
@@ -252,7 +256,7 @@
       "return_1y_pct": 10.06,
       "status": "ok",
       "scheme_code": 148927,
-      "adjustment": "no splits detected",
+      "adjustment": "no split adjustment needed",
       "sessions": 1319
     },
     "MIDCAPETF": {
@@ -273,7 +277,7 @@
       "return_1y_pct": 0.77,
       "status": "ok",
       "scheme_code": 149918,
-      "adjustment": "no splits detected",
+      "adjustment": "no split adjustment needed",
       "sessions": 1159
     },
     "ABSLNN50ET": {
@@ -294,8 +298,11 @@
       "return_1y_pct": 3.92,
       "status": "ok",
       "scheme_code": 145881,
-      "adjustment": "1 split adjustment(s) applied",
-      "sessions": 1951
+      "adjustment": "adjusted x10 pre-2021-11-25",
+      "sessions": 1951,
+      "adjustment_sources": [
+        "ABSL MF face value split 10 -> 1, ex-date 25 Nov 2021 (NSE ISIN-change circular; trendlyne corporate actions)"
+      ]
     },
     "PHARMABEES": {
       "nav": 28.9949,
@@ -315,7 +322,7 @@
       "return_1y_pct": 24.61,
       "status": "ok",
       "scheme_code": 149008,
-      "adjustment": "no splits detected",
+      "adjustment": "no split adjustment needed",
       "sessions": 1327
     },
     "SILVER": {
@@ -336,7 +343,7 @@
       "return_1y_pct": 6.39,
       "status": "ok",
       "scheme_code": 149779,
-      "adjustment": "no splits detected",
+      "adjustment": "no split adjustment needed",
       "sessions": 1182
     },
     "MAHKTECH": {
@@ -357,9 +364,9 @@
       "return_1y_pct": -30.42,
       "status": "ok",
       "scheme_code": 149379,
-      "adjustment": "no splits detected",
+      "adjustment": "no split adjustment needed",
       "sessions": 1164
     }
   },
-  "coverage": "17/17 ETFs with NAV indicators"
+  "coverage": "16/17 ETFs with NAV indicators"
 }
