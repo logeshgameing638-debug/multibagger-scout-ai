@@ -5,11 +5,11 @@
     "name": "Cupid Limited",
     "sector": "Consumer Defensive",
     "industry": "Household & Personal Products",
-    "market_cap": 492683689984,
+    "market_cap": 492078628864,
     "website": "https://www.cupidlimited.com"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-19 09:28:24.888916+00:00",
+    "generated_at": "2026-11-19 10:06:27.242309+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -74,40 +74,40 @@
       "2026-03-31",
       "2026-06-30"
     ],
-    "_run_id": 1086
+    "_run_id": 1107
   },
   "4_technical_analysis": {
     "assessment": "bullish",
     "daily": {
       "timeframe": "1d",
-      "last_close": 366.3999938964844,
+      "last_close": 365.95001220703125,
       "emas": {
-        "ema_20": 348.9096222022266,
-        "ema_50": 322.7346799226753,
-        "ema_100": 281.6936339959937,
-        "ema_200": 220.56152180263285
+        "ema_20": 348.86676680323103,
+        "ema_50": 322.7170335819124,
+        "ema_100": 281.6847234674897,
+        "ema_200": 220.55704437288705
       },
       "smas": {
-        "sma_20": 341.44249725341797,
-        "sma_50": 319.60699981689453,
-        "sma_100": 281.38529907226564,
-        "sma_200": 194.88244941711426
+        "sma_20": 341.4199981689453,
+        "sma_50": 319.59800018310546,
+        "sma_100": 281.3807992553711,
+        "sma_200": 194.880199508667
       },
-      "rsi_14": 61.55585130407163,
+      "rsi_14": 61.399251057436025,
       "macd": {
-        "macd_line": 13.467812501202332,
-        "signal_line": 12.186567058090521,
-        "histogram": 1.2812454431118105
+        "macd_line": 13.431916525975282,
+        "signal_line": 12.179387863045111,
+        "histogram": 1.252528662930171
       },
       "adx_14": 20.758515608244622,
       "atr_14": 16.563543743172414,
       "bollinger": {
-        "middle": 341.44249725341797,
-        "upper": 387.38052441855217,
-        "lower": 295.50447008828377
+        "middle": 341.4199981689453,
+        "upper": 387.3069706132683,
+        "lower": 295.53302572462235
       },
-      "volume_sma_20": 13761224.55,
-      "relative_volume": 0.4879563570525415,
+      "volume_sma_20": 13799997.5,
+      "relative_volume": 0.5427780693438531,
       "support": 302.29998779296875,
       "resistance": 393.0,
       "price_structure": {
@@ -134,8 +134,8 @@
     "short_term_report": {
       "timeframe": "daily",
       "trend": "bullish",
-      "rsi_14": 61.55585130407163,
-      "macd_histogram": 1.2812454431118105,
+      "rsi_14": 61.399251057436025,
+      "macd_histogram": 1.252528662930171,
       "breakout": false,
       "breakdown": false
     },
@@ -145,7 +145,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 220.56152180263285,
+      "ema_200_daily": 220.55704437288705,
       "price_vs_ema_200": "above"
     }
   },
@@ -160,7 +160,7 @@
     ],
     "sector": "Consumer Defensive",
     "industry": "Household & Personal Products",
-    "market_cap": 492683689984,
+    "market_cap": 492078628864,
     "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
     "unassessed_areas": [
       "business model detail (needs annual report reading)",
@@ -171,15 +171,15 @@
       "expansion projects / order book",
       "management quality and corporate governance depth"
     ],
-    "_run_id": 1088
+    "_run_id": 1109
   },
   "6_valuation": {
     "multiples": {
-      "pe_trailing": 293.12,
+      "pe_trailing": 292.76,
       "pe_forward": null,
-      "pb": 87.13436,
-      "ev_ebitda": 246.398,
-      "ev_sales": 85.667,
+      "pb": 87.02735,
+      "ev_ebitda": 264.414,
+      "ev_sales": 88.007,
       "peg": null,
       "dividend_yield": 0.0,
       "industry_pe": null
@@ -205,16 +205,350 @@
       }
     },
     "dcf_not_calculated_reason": null,
-    "margin_of_safety_vs_base_case": -140.84597884117824,
-    "current_price": 366.3999938964844,
-    "_run_id": 1089
+    "margin_of_safety_vs_base_case": -140.671775527138,
+    "current_price": 365.95001220703125,
+    "_run_id": 1110
   },
   "7_news_intelligence": {
-    "items": [],
-    "stored_new": 0,
-    "duplicates_skipped": 37,
+    "items": [
+      {
+        "headline": "Cupid Share Price Today: Stock Hits Record High After Nifty Smallcap 250 Inclusion; $10 Million Inflow Seen - India Infoline",
+        "source": "India Infoline",
+        "published": "Wed, 07 Oct 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTGdGa1dHVC1yRXZQbXpHQ2ZHSlBCLTRDaHk1OUtGRWFDSXplakNSNGFBMW85XzUzbWVrLVpfVV84QXJpQWdZTm93M2ZIOE1mbWxwWHVOUUxLc05HTEJjTHd2Q2NxTndFRUliN0JJQjRENEhpWURsMEVJaElJdUt5WVhDQXdqMTFBdUYwYm91blUzNjZTaFNrZ1VsclNRVHRkQzlBak1sWGl2NnFKU3NhX1pJM2E5MmNrSEprdjhpV2NyWE9FWWJaZTVReFpxNl8tVjZocWlRRjJ4akJHNExOUC1pZw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid shares surge 17% in 2 days to record high; what's behind sharp rise? - Business Standard",
+        "source": "Business Standard",
+        "published": "Wed, 30 Sep 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcmRFcFVhRk9CZmhfd3hrTFVyTnZJTUlvams5RHBkSHo5eEwwVnVXc296aDcweFI2QktCYlBuN0RwbktTOGc2Uk5YQklMd1FwQU5tMzlpWlU5cHFuWnViTEtYelZUREY4cmJhMjRhNjZGd0ZBYnFORmhaYVJlamNDUGJtbFRnS2lyY1pGeDZkcTJ4YTdseUlwZlRJeWVoM3VBMFlDUDgtMG1iSWN1b3hKQjhQLUlQc3MxUVE3eTNCbGNHbERxa0xpdFRIdGloczV4cXNobNIB2gFBVV95cUxPYzF0aWdyMEdZOHlMNTduY3N6X0xCOXpnS0p4NnZzMGxxcjRnYUFtTW5BbDhRdUZJMUw3WGI1N1F2S3RZajJLUDQ2M080RkRaR1ZiOUxYMkVVelRPQncyaXFiSXo1QkE3WFhrRzdpQURsTUx2SUxGaDI4ZFpZZmlCNjBqV0s2Rnc0VjNxaWxvVUFnX3k5UDZBemNnZWVKcjBpTWVRQ25BVUVHVXVlRjZBZzZkU0xLU3Z6MVFsSjhjQ0J5RWtNZ0g4Wk45cUFIcjRCQ2t0bkE1OXlpQQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid shares surge 30% in six sessions, hit fresh 52-week high; Here is why stock is rallying - Upstox",
+        "source": "Upstox",
+        "published": "Tue, 06 Oct 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPbUtqanBoU0VmZGRuYVNHNXdVWG43WWpSQVFMQ1NMS3dxQlNnMHA5UVpBLUZEZ05JWXhHYk4zbnpNdUlsa1p5MUo3UV85ZW5Wc0c0TWVwMS1DcGFOcGlzWG9TTDZmSjJ3MjljdFdwcDhPX3JMMVhaWjd4UmhJRVRhZTJfcDZON29zNy14bjA5bXRidE0zUUZtQlZfSWxZMXRVUEZoNkJJNllLZS04RFp1dHRFYXhEUG40eXlxSkI4ZkhvajAwWkFzWUV0TTJCUHlCeVBLejBmeEg1T3NHeTNWU29yWQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid shares reclassified from BSE Group B to Group A - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Sat, 11 Jul 2026 09:55:02 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNHI5QkdYRFEzbEdmamJHWmI1c0thZnBsNlFzdGtZdW14NXZaVUEtOHVDczc1R2F2NWhzY1JJQ0tqMlI2dmlzR0ROamg1YUJfZ3hiWXFudkM2aVJUMVJoRzhPNjNKVzRrQzNSMi1Xa2ljNDFST25LVFBoTmJQdWRPYUpXSVFzeVhObl9IVlY1R3hGYlZlb1dqamtrVWc3Z3ZRUnBVUkp5ODNwOV9QcTV5S09fdmdiTDUyRXc?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid Limited 4:1 Bonus Issue Record Date Fixed As March 9, 2026; Shares Up 11.68% - HDFC Sky",
+        "source": "HDFC Sky",
+        "published": "Mon, 09 Mar 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNndMSTJRT19Ebm54LXkwSXgwZldQM2QzX1FZbUNaTEpBb04wTllCdHVPZ0M2QkZjZTVEMTFVMld4QmhJRERsREZ1WUhlVjhvRWllTkxZcjYwM2V0MFlyNEFKTWptRWw2dHZNX3I5OGV5ZVV2anNCbDhwMnhiNGtua2gzbDBndVBKM19WTUZ6dzlXb2tzdG45WHdKRHNSeFFUVERIRkRXc0o2bVRKR240?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Investors Shouldn't Be Too Comfortable With Cupid's (NSE:CUPID) Earnings - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Sat, 23 May 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONFlUZ3VoN2FmQ2FFaXpvbzlSd2Jjdl9WMkhQb1djS3hqUTFWaGpzV1NMZDdudW9CNWpwTHg0YVJpeGFKaU8yUy10Q2NiR0UzbGRTLV9XbXA4enMxT2hJN2NSVXdfVWtUNVJLRkdFSHdnamZVdDFjejNYOFh6YURmYzFacHFfaTRJTHo2OF9UQVFENEJlRUdCWWhfNGNGTXppQm5mdWNscVlzYnZoNTAzSDdoQXE0ZmFBa2VZSlNkVElubnJtclA2SXhB0gHPAUFVX3lxTE5YaGlxWnRBNXdRU2R3SXFjM1FQX1lXeTduR01pOGd6OUM5bHZMaFljblhMOTFVTmxrZnQ1N1dOTEpoNWg2Ml9tdWF2Q01NYUVRcVBIano4WC1wUWNVcTRPdnJjUlF2RC1nRFhIbGdVZkpHUlZxMHlZVG5XVGFYSGF4aDl4Yzk2ai10VjJTeWZ5QUN4MzdtUE5xUjI2R1d0dVdsTUV1Rnl4SkJPdXZPb3U5YnJMbkNRM0VsZXAxU2ZJU1ZsUWJVUGs4Q2E0Y3BiQQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid Limited (CUPID.NS) Slips 2.70% to \u20b9262.7 \u2014 Support Zone Comes Into Focus - Inside Day Breakout - siam.in",
+        "source": "siam.in",
+        "published": "Mon, 28 Sep 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMlJfS2pqSGxReGlWeUtaZFl3YXcwWmQ0aXVITDRYWk1JYUJfZ21kWTBOQjhWMWJoUzhZenp1NkJNOW5zTHVXWFFsc0VObzlVaXdTUDhRQVhCdHhvY1lMZEdSbWpXdkFwUlNvalZWRkFrcGp2OFFlT05aM3RhdGl1WjVZUkdneEJsTFJnU2NzUmJnaUt6Zm9xX0xseEw5anc0QmM3MzJoTGYzc1JhbW5BcnJB?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid Limited announces 4:1 bonus issue; stock spurts ~10% - India Infoline",
+        "source": "India Infoline",
+        "published": "Fri, 30 Jan 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTVpjWDliLV9qVFZYMmJiRkJlWG4yalc2ZmxxWnpjQXhoMGtTWGt1MWZja0ZwMWNDYXdUTnF3c0UxMHJwZ0VvanEwa2pJSkpFajhJNTktUlgwQjFULWctWjJlMXRYT0lKdjB3TVZTMmM3TVc4MHFpYTJRbVJDV3kwQUg1X09aaTVaRVdUcjV6WDhkaXFCcFF3aGJYRkY3cjRp?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid Limited Bonus Shares To Be Allotted Today; Shares Rise 2.95% - HDFC Sky",
+        "source": "HDFC Sky",
+        "published": "Tue, 10 Mar 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE93dW5LckpnTlFPT2ZTbkVnWklyTUk1cVdZZV9KSkhTc3Z4Tk1PVGNOWXk2UnQ1QkdON1NMNUUwcXV4bGhhQ0RMVlhneHdCb2ZHZDdoa0VXdGVFbTJ6STZ0VEF4bHV6eGxnaDRFeF9lSUtPR3dEWmtJVXkyc3M?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid Limited Submits SEBI Compliance Certificate for Quarter Ended March 31, 2026 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Tue, 31 Mar 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONUJhc1VsOEc1OURyeDg5RDJSTXhhRFhRMURSb24yVlhVeExMdy1jMG9feE0tUEkxVlNRWWFheFl5MUZZVDF2cGczWjlIRG1HT3lzLWhSVzZEZHBOcHl1QlZBbW9WaFBTZVB1bWM3ZmZ1ZTM5RlZVclBFdWtBd1F0OVBEbmE1dUNUeDg4X2swVXdSa1dnSWNHZlQ0cDlDUWx2ajhhbV9Id01KWXJGZDNMMXBOTzNZSUJTdTNtVnNxTHpQQ1JBRFRPU3lJNTJvc2ZYd1Z0Mg?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid shares zoom 15% in weak market; here's why investors are buying - Business Standard",
+        "source": "Business Standard",
+        "published": "Mon, 09 Mar 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOb2N6bUlpMU02QU1vY05kNXI2VDFQNzRWdkpzY2RGT0l2aVcyb21WRkZrYWgzbFRzbDdmSnhEdWVaek1CNW5IeUZLc3RXcUdSUE1zR1laNDlGcmNGSkdwbmtLMUlwOVRTdGt3V29POFd2LTAxRTR4UDk5MHJPTnRDV3djRmhmV0dROEhxVWpXc04xaUtIdDFpYWh4ZjR2azl0SDNCUDRWSzFCanF1Xy1rTi1VNWlGT29zeFZ3LTZDSnB6SVpWWkhzSl9uYmVQRS10REdkdzZVTjQybUpvXzFTM1FDbkZ5bDBYMHhReDhGbVpLd9IB9wFBVV95cUxNczFvYUk3X05tZGxkTUdfMXE2VDlseXFhUDh2SW1qYmlnNEs2VVFjYXRZWndPZkMxdG02M2RYRlpBSFU1UXlteUtuaDJXM2JWSmdSS082ZmtLRmRtTTNUZ1hJRFFHbEloQ2pkd2lPNmpYOV9qMms0Z3p1QlhOMGN4dm1kZk1GV3BwSnVEZlRUN0hTRWJjdlNBeG4wNUJZS0dYLTdaeWhKcGpSUFNzRGxIS1Z2TWowSldmSDZqbUpKbC1ObVhSYmxNNFNnNmdSSmdKYS0xcGxXTEtWcEZDZGQ5N2p0cmhVTGR1ZFk0T3RSUjB1YzZEX19v?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid Limited (CUPID.NS) Gains 2.05% to \u20b9280.70 \u2014 Holds Above Key Support at \u20b9266.66 - Runaway Gap - https://www.siam.in/",
+        "source": "https://www.siam.in/",
+        "published": "Wed, 02 Sep 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZk9ld040eXRUUk5vZlFGU0JHdDdiTlpIZk1Fd2tNOG1HY2JkdmoxQjcwZ2xJcGp3RVNrMk5YY0c3czJjMjRGWUNHeWJjRzdUYjJBOGVfc3hBNDRiX3k3Y1V4SE5UZHQ4WlhqZ2llVHJVNGRRMk5peWNVV01ydDV3OVRDWmNCU0N4Nm5zRkpZWV9jSl9vT3NlRDJIazZHcXNqZ0loYlQ1LUIxNU1KM3FnVm9ybGRiOUNq?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid share price skyrockets 300% in 6 months! Firm confident of exceeding FY26 revenue guidance; check details - Upstox",
+        "source": "Upstox",
+        "published": "Tue, 06 Jan 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNV3ptWDBTZ0t2clhZbXlvOG5BUHVpdWZpR3VJSFJsZzFwd1hFc1AtcGNxYTNEaUZwZHZhZHdIMlVvTGszQmVuX0FzODZSNHg5WmFUOS0yRWdYQUtBNHFBYklSQWtXYXBvMjQ4M2M3SDB2Z3JWQnhzc3FTcUdfY1dPdW52alFWd0I0ZFc2TGFfUG9MZEpCcDllaHdUR3JmVGhlQVBTVUx1c1hwSk1jczRBN21kWW5DLU1waDd2NUtXU1lkOUVzWFFNb1pObXBhNHhaZDR1SHRFSnAzNGxoYTZLaFVIU2k0Rjl6ZTR2N3pzbDBoYktzSld4Q19ZaDE?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid Limited's (NSE:CUPID) largest shareholder, CEO Aditya Halwasiya sees holdings value fall by 6.6% following recent drop - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Tue, 27 Jan 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOFNJTXFwQjlMVktCaXp1bXlXaVE2YXdrVVZDWDdDaVlCTHllWk9BSFBmQk5MWnBrZ0d5ZEMzYXlZU1h0Y3Iyb0FpcWc5Ri1wZURpNXhHLThWNVJYWkFKZXZMSTdMLXBWMXMtU2JqZkdodWxmRW1aSy1SNm8xZFM2dERLWmRYODNoVW1zeUY4RmJSbU1iZVVzVXpSd3ZZOGJ1Y19XdFVaY3hDYlFNWjdtLU5FSjBxckpwU3NJTFhxRDc4TzZrOXJFakZB0gHPAUFVX3lxTE9ac3VxSDRHTWZpSDZNV251WjNWLU1BUWVla0hQaVhRY2s2OEFVMGZIUVZ3eUpoalpYaW5lUm5oT2pGZmI1QTNITV9CanNZRWwxa1RVOS1oeWNhakJSVWE0bXJTWGQyaW54VEpjYW15cDdsaTB2NkNFYnlNSGd5QmNJZk1QSExvQktsTkxPNHZYd2M1OUM3R2pncDRzZV82b1JsOFlfdzAzV08zY0FVRWlnVXRWcEZuTVdwdm5ubTJ3Q0lHVkdSajc1V2Z5ZGVDQQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid Limited Publishes Audited FY26 Financial Results in Newspapers - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Sat, 16 May 2026 08:30:47 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNY1Y1d2dYWGlhOUFvbXpPMFNSVFp2Z1FfZ2pZNnZhZTNNV0pVSWZDNENobmE2T2NpRU4ybHRKWlN3alZwRW1ES2J3SW5Hc0F3NF92QVFWTExZSjV0aUVOR25SaG1meGp2MmNGekRsM1pZLWtYcmU0dzg0SHV5QWpvcDV6cjg2YTZqR25sbGZrUjhrNDB4aHB2UEJTMFNDVWZnd0JMQk9WY3NURzM1X3RQQ1k4YUpjREFmTFBfczRxaUx2ZkdsUVpNMGJfUF9vN0JWVUlvQ2hn?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid shares gain 7% in trade on bourses; check what's fuelling the rally? - Business Standard",
+        "source": "Business Standard",
+        "published": "Thu, 22 Jan 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONHRFcDlSQ3RWZldEd2tTTUhJU2JxMzNkM25jbWdWa3JRYUJOcURzbWQxYXBLNV90ajBCalpnXy1ZM0ZqWFhncjZtSWdLME8xc0xpOEVnYTVHcXdlQ2pOQkpVa2NCbU5jQS0wMndiXy1Zb1lpYlJSWWlTeGtPOXZnMkxOYmp6dmNScUpEXy1GbGlKWERGLU5nMmRwSHRvWUJrbDBxYkRfVzQyZmJtTDBTb28wSHM0cXpsaG9uUmFyLWVMUVpzWk5Cel9TbzVaXzRsaDh2SNIB2gFBVV95cUxOM2gtU0w3b0dqZHpUV0RKU0xiaFowb3NobllCWklSeU1FMzlxcDdqT21jcUl0RFVpcG1BR2FVaVhYb19vYzhrRG1oUkRXdVBibU1EbHdYOGwtUENQMVRHaEV2aGxiajUwc0VkR1huUk1zWWlBQ2tEVDFYNUNTV3lIM2FiLXlKOXBrbUtKbmdoVy1OM0gwNUozS2lVa1dTS0dHSUR0UHViUmtodTlROUE1OExNdlN4LUxNLWEzRWEzTkZLbDU2aGRpVElwakVTU1JtQ0RzekxOM215UQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid Limited Board Meeting Scheduled for January 29, 2026 to Consider Q3FY26 Results and Bonus Shares Proposal - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Fri, 09 Jan 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPTXhZYThOeExUQXdDdndyUTNPVjczclVfUldrWlNHVkhBN0ZydFUxdGNyTzA1S3QtY3ZGTmlIQTNXT183cUN6bHBPMml0aEZsa1VSR2xJVElEeWJpcXpkVjg3V0xOWW41RmFFQi1uR2ZPdm9rSWE2dkJ6MHlvQnFBQlBlNjdaZGs1Njdld09Ga01jUm8teW9CdFJRMnBELWQ4OHkySW1DVG9ybVBRN1dWWWN1S2Z3ZE9KeHR5enhqb0FCRkZVSGZSOWY0cHNhUG92Mmp2NnRnLUV3NFRmZldoTEMtX3ZsWmQ3Zmc5RVBmZWJ5WmROaGQ0ZEhn?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid Limited Allots 4.65 Lakh Equity Shares Under Employee Stock Option Plan 2022 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Tue, 27 Jan 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPRzBNbUVPakxoS2UtTUR5TFN2MGhxSDNzU0czdEJNbS1sTG8yN0JkMkNOR3hEUzJSbzh1UEFZRWpEWjQ4eFJPTFJ6Y1p2dDZBMkpzVjYyd1ZwM0lZemZrNjk0RGlqdEJxUnlpVWwzTDZJYnI0cWhhcldlWG50bWJtSF91dW5OY3QzYlJnU2JxWjhFVVM4dVFjY2ZLT3BaWTJ3V0NTbHNLNl92Qld1azVXX25aRDBwQlNnWTlpQXM5bTlVS2Z3YnVuSWVrbzFuY29rUDlrQnBIeXVFWm5nV0N2aQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid Limited Schedules Board Meeting to Consider Bonus Share Issue on January 29 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Sun, 11 Jan 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdHZDUHNHZVVRVXhnWnJSdHZKeExHSXVUeDNhbGx6Nk9ES0hZZkZxQk80Z0gxcGx2VUp1NmJfVE0wMi10NUcxV0M4UHNiWl9WYk5ORkUzRmFpV09wUnNhMmk0SDVJWjNabHYwTmFhdzN4Y24yVmdYWWo1WHNhb0FBZ1d1Tzk0UkJCMEZoUGc5dkF5VHpEZlFJUU5OM0tSMEI3aVpFa1FpaTh2YW5YYmxwQ2tTTkgtT2lGZmxOeXRvbjRYbDVZR0t5Z19wQnlVbWxYN09RV3FjNUVERllfTkM0?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid Limited Issues Strong Advisory Against Unauthorised Multibagger Messages Under Regulation 30 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Wed, 18 Feb 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQdjVxM3QwblVXc3EyQXJZb1ZGOVEyRm5HUmVjNjhNV0ZURnpHNU9lUnFRNjRDOUQyRGg2YUpfSXZjQTFhX3VYalVmLWo0aDFzZ2xJelpCb2w3Vkd0TEZXTF9qQWwxLVppenM3ckhXVzV6anl0Z05sV0IyRnV3djRNcHRWTkk4dGFpSFFxTHNSbk4xUWkzR1BmT003aHFfUGgwb0NKZVhna1dLemhOTzdhQlZSMGhOZjNfYzY5TmxzQVFpU3M4UFhaemZrODd4VFlKWW9VVUJHMF9HUzlvYTRueHpTMURVMWM?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid Limited Promoter Acquires 6.46 Lakh Equity Shares Through Open Market Purchase - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Thu, 05 Feb 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVzl4MWoyVTNHRVJFMG4zcEkwSW9XQWhLX3Z2NjdMUUZNSk1ld0lndDlzOEszUUljN2VqYzlGWkY1RXp5RWg5Wm1ZMEFrcGE1OFF5amRtYW8zb2VMb2U5Rk1ON3RNOVN2X0lQY0VEVmtHcklRWDhTdGVGNlk3a3NBa2dXbVI0WUtlOEk2V1hueldpSWV1M0I3REZhNi10YTI5NmotOVhxaTFIZGplRzgydzdlNjZRWTc0OGhQeDNXSkw0ZDJWd3RfczkwRHQ4cnROcWpaT0tIZ3c5aU9k?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Up 581% in 2025: Should You Buy Cupid Ltd at its All-Time High? - Equitymaster",
+        "source": "Equitymaster",
+        "published": "Fri, 02 Jan 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQOExvTXlPSDEtdWJDekRJeEZidGN3cHRoUWxmS2lXb0U4OGI3N1VVblJ5S19rQjhZNU4yamQ0cDQ3amRrWlFWU3ZxQmhqUXlTVmpsU1AxR2dMaEpGTnd6Tzc5X3drd2hKbmtzcEV6TjBZcjNfd1M4R2xsVDN1SFJVc0dNY3QzR0U2dXVvQTR4OFFMQzF5bWhqZll3b3BUTV91LWl0VFNEQ3dhTnUwbUt4OTJ0ZFFtMkNxMXlUMTY0b1M3cmhxazhNRWVHU0M?oc=5",
+        "sentiment": "positive",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid Limited (CUPID.NS) stock price, news, quote and history - Yahoo Finance UK",
+        "source": "Yahoo Finance UK",
+        "published": "Sun, 12 Aug 2018 15:13:26 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE56Y3c2TVBkRzhSUGdSZ3M3UzdwSkxyU2E1TXUyZFpHbERlRHdCbGJNQW1ZbE9GT1RkUzBkSWxETTI5bnNDODhJWVQ4RnNkVGZqWXU4SGVSZw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid hits an all-time high as promoter buys 1 mn shares via open market - Business Standard",
+        "source": "Business Standard",
+        "published": "Mon, 15 Sep 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTWVrVno2UEV4M2xmSjVQajdCTWRiQlVjMXBSU2g5bjVMc1RVeUVobW1BczdKVTFiM1NoMnhka1JwbnVXdVRfTWljbXNONF9mTHZ3eUprQXA3VWtwd2VTb2xYRUp5aXJ4UWNZUGZ2QlNOOEg2cWhTT19jbGVoeG1rTEFld1luWC1kUXliQmstNUZyVXFxZlVkUmVKZllyMEs4aEdRY0FlQjhDaWh5Z2F0aGpSZE1zLXJ2ZWZFRnJ4Sk5lUFJfSHdNY3l1RTdOdTU1SEJwYUdR0gHbAUFVX3lxTE1Tem1MLWplTVl1QkFudzVJbXJKdGZhODRYMVNqdS1QY1hRU20yeFFSbW1ERktiRTVpWnBoNmNDOHR0amtYcjVQaWdjeC13YS13RmxHWHJJT1QxdGlJWXA4emdrWDRHZFZma2t3SVlYbmd4cHFEUzJJQ1h3U25vMFhNNzluNjJoZHdBai1yZHBMS3J6RFFkanZWNHRVa21tY0FHZWpoSUsyUVU3dnZMc0FZNWJSU3FWdmFyNDJFUGlGTjFlY0tXM1BGVzAwdEVqTE90Rm84U1pHaTdpQQ?oc=5",
+        "sentiment": "positive",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "CUPID Stock Price and Chart \u2014 NSE:CUPID - TradingView",
+        "source": "TradingView",
+        "published": "Fri, 21 Jul 2017 02:47:25 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkcnRYdXZQMjFWbGRNb3U5c2x2T3RXUzBhRzRqSW05bXZQUTdScVFweHZYdXBnSER0dTM3VEZYdGZ6ZHRfdTVPR3pYSVE5TThSN1FJWFF1ZS1uQQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid Limited (CUPID.NS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "source": "Yahoo! Finance Canada",
+        "published": "Fri, 17 Apr 2020 09:34:10 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBXSmFEOFR2YWJTTzVWNDk5TWJUMlNZOXF2VXc2M0RoQmpQdzN4MXRvMUY1czFHMmR1Q0lTNWFvRzhfNUdadW92R2R1TTdMVkI0dkpXeTVlMA?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid Share Price - Upstox",
+        "source": "Upstox",
+        "published": "Mon, 25 Oct 2021 15:32:03 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Vc0ZKWDlKQlZyTVdYN2xfVU91aGZrMU9HUEF2Ym1VVU9VOWlaWEZSNS1KdTRSU0hiLUUyOGQ5djZGbXZ3bnNoOV9KUXI0by1DZkV5NWUxNDBrLXoydUk0dWJB?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid Ltd. Share Price Today | Cupid Live NSE/BSE - Value Research",
+        "source": "Value Research",
+        "published": "Fri, 25 Mar 2022 08:45:38 GMT",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBibFdWYjVOaDc0Tm96ajc2Vml2QktpcEFtZTJmUmdxd2otLVd2X0pIX3g5NngwTjVqYTVsQkc2YzB5NGM2S3RsZE13S1RTNzdFMWc4NF9GYkFVQno1c3ljSFJkVFd3UTN5S3E0?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid Limited (NSE:CUPID) Stocks Shoot Up 25% But Its P/S Still Looks Reasonable - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Sat, 15 Nov 2025 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNXBGbjFNZHN0cjVscDc2UXhEQV9FQ053TzI1UzdIQkh2YWs0MU5NdVhTcWZXUTBJNEczQ090eE5qOTZFa1JwYndBMFdQTWU5V3ZfbDVWeVBIeFRzWUhEc0pqdC1iY251aE1GNzE2c2JwM1VPRnpHU2VGRjJIR0VNcmhmSTUxeGN0NW1wVjNjckhaZlVFaThMd1VCYlhqNDhlUUJsU2hSMk9GVmRxNjdDaklpM215RnVBSy0zQmRmc3cySmY4ajBqZVZn0gHPAUFVX3lxTE9aS0lnbnFwYWxEbmtYTklIZ2IyZUFSRkZQaWI5V0FnSUZvOE1rLWYtSlhmN1BQdldJbHRhUjdJMWdsQzN3WDRVTUZkUjlyN2ptSmZFZzM4QjhhelNZQmVBdFBIZmpJNUlpVFA3THFRbkhMaHZPQU8yVlNSMjAxMk9GOEM5THZ5cVc5RHBmRDFRcVF5djktWDdheEJRM3k4bllYWkhCOWszNnhoaVpCSEVkQWxyN0VUd0Jtay1ETkpuM1cyNV9qTXdLNTJuSTMwVQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid Limited (CUPID.NS) stock historical prices and data - Yahoo Finance Singapore",
+        "source": "Yahoo Finance Singapore",
+        "published": "Sun, 16 Jun 2024 09:50:02 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ZV21nQUpKYXAwMzNhZ3FORmlVV1FuYVZYM2N3dkFoYmJ6aFJEczhqd3BxVl81QUk0d0tVNzBIQjhMaG9WVTAxTFE0SGJkMXlXV3VJdHZnTmpmWVhuZU9kclV3?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid Ltd Stock Price: Cupid Share Price Today - India Infoline",
+        "source": "India Infoline",
+        "published": "Sun, 11 Jul 2021 04:27:21 GMT",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBlekoyVDJwX19XNGE2a3d0b2YyZUxUcGM5SWNmV0t5WkxicHI4OXhFLUNvTzRld0E3ajVtemxNLVdNYVljd1VSSmdjd3FUV1NtTnpKdG15NmRtcjJaR2t4dXFqOFJ1SkxQNGlv?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid Limited Promoter Boosts Stake with 11 Lakh Share Acquisition - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Fri, 12 Sep 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYnFkTVJEbmVWZzhZUXVTQVlZUlhobjByWXBIRUJEaXVsZHNEUWFYb28xbVlLYW0wMGZPc21DVEQ5MGlzd201eTNUenJhWDY0WF9ja3l5Y2xYUHNVMEQ3a05vZzctQTdZcVQ2dFFzT0RERVluM2lTbTU1LWxHNkJEWTR5dFFtTWxVM1ZaeG02NEZ6SnJ1S0o2Y1d0elc5akotOHNSVmI3YVBDVW51NTg3WUJFMzJGMFk3dHZUaQ?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid Limited (CUPID.NS) stock historical prices and data - Yahoo Finance UK",
+        "source": "Yahoo Finance UK",
+        "published": "Mon, 13 Aug 2018 10:00:16 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5vWTJjX0VONTRiZlJfbGluVkVBc3lQOThhSmg1djRrYmN6S1dLa0hDaV9iVkY4SXktc1Fjck5NUElFa3lpSnp3eE05TVp3ZUhTQTYtbU5TMWRvbHhZNWVEN0Z3?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid (NSEI:CUPID) - Stock Analysis - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Sat, 02 Dec 2017 01:46:41 GMT",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE04N1VlNUxsTkRSMUloY25HdXdUNHMzUXpUZUxQMFptdXpvTDNxclFKS2dUQkdLTTBTaGVHZU5kQXZKbDNQVVh2Yml3N2QyTlhvNnl0STNWYVAzS1g0R0lETTBnSjZEV0Q5N0Z3dDl4TU1SZw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cupid shares fall 2% after 131% rally in 3 months; Stock reclassified to BSE Group \u2018A\u2019 - The Economic Times",
+        "source": "The Economic Times",
+        "published": "Mon, 13 Jul 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPcTFEaFpQcl9Jd015UTYxbzktdlhhdGtXQ2U2eGpPQjFEa0gtMU5qbW5QcVQyQ1doeGlTRzAwenVtbnl2b18wUHBMcVpYSDQxTElLVGc4X2ZvTDJsS2VHZlpEY0ZmV1ZBN21hU25odDJLSnNaTFNRLXlBVjhVOTlELS05a1NhRWM1bExkQjhvN1BZUERJRE5OSmJtUWgtSUNPcVhNYjlsZE9LT3VPM0FwdUNoUjdINFIybmJRSUd1b21jRi1QcWNlMnNiNk5RdGZqTUFuZklzOUpycl9DTHpGU3lzU3VUZTdJdVhN0gHwAUFVX3lxTE5JdVpRSERBX0RtbjJ6Wmhkbl8wYXllVjZPUDQ1V2Zxd290WXEtS25yY0JNQ3F4VktlRkhwQWhWdTJyRENZTmNXc2g5WEFHUkhtb2lpckFiZE1EVzZSYWVfb050dkpMNzl1YTBxc2tkZGRwTWg3djNSdl9MY0ptb3EyblRuNFZQTmUtRXFndTBEUTNZYVhUMmlKalJhdmJHdThsZnlCaFpUSk9xWFM0X1ZtaGlRYjlqQnpmX0FxM1NhUkhjTE1CeWtDNnlvQnhyWHRfYldmcWhpbEE2M2JZM2VPcU1RYUQyOG4zazF5TVVfOQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "FMCG Stock Skyrockets 10% After Reporting 132% YoY Increase in Net Profit and Robust Revenue Growth Guidance - Trade Brains",
+        "source": "Trade Brains",
+        "published": "Thu, 12 Nov 2026 06:00:37 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOVk1SQzBNVGVfNlVtUFJEeDhkOWFsdTk4Sy16a2dPeTRueTJ5bEdlcFhSUm1OR3AwYnhEVkNCNWhNQ1B6NXNQbnN5R1lUdkZTeEk1VlFjTjdkZUY5TVh0bThkVHNKSzBidVN3akc4NmdlcWtwLVVpYjJhS0d0N0NtRlZuTzk1bkhDQzc3VDBNNjhKdUJXZW5ES2NGeFhjMGxEc3dCbjR2bGZDTXpteUxjZVFjZzVlQ2FwbUFOTzJ5QmhHMlhIbXQyS19ZWjV2eEJJeGdZVUxZZXlGSTU4Q1VPc0VFRTFXYmxN?oc=5",
+        "sentiment": "positive",
+        "relevance": "low",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "20% Lower Circuit: Why Did Cupid Shares Crash Today After a 600% Rally? - Trade Brains",
+        "source": "Trade Brains",
+        "published": "Fri, 02 Jan 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM29DTE9BRnJCUlZ2TzZSZVBqX0Q4b29IWmRkMVFHRkl3X3c2d0d0SjVJSVM0SEx0cVBDQ2NWU2ZiaDRqVXBUa1lkT2FXNldlRHNENHpOc1lsRVFRN0VyWjV4dVRESUtSdTZOcjVoZnZNT21EczR2X21nNnJqcGF6amRtWWJQR202cmlPdmJLdHRNZ0F4bWc?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      }
+    ],
+    "stored_new": 37,
+    "duplicates_skipped": 0,
     "note": "headlines are unverified signals, not confirmed financial evidence",
-    "_run_id": 1091
+    "_run_id": 1112
   },
   "8_risk_analysis": {
     "classification": "MODERATE",
@@ -225,7 +559,7 @@
         "evidence": "OCF/net profit 43% (<50%)",
         "source": "yahoo_finance",
         "date": "2026-11-19",
-        "detected_at": "2026-11-19 09:28:24.878103+00:00"
+        "detected_at": "2026-11-19 10:06:26.884979+00:00"
       },
       {
         "category": "high_valuation",
@@ -233,7 +567,7 @@
         "evidence": "trailing P/E 293 (>60)",
         "source": "yahoo_finance",
         "date": "2026-11-19",
-        "detected_at": "2026-11-19 09:28:24.878115+00:00"
+        "detected_at": "2026-11-19 10:06:26.884996+00:00"
       },
       {
         "category": "high_volatility",
@@ -241,7 +575,7 @@
         "evidence": "ATR 4.5% of price (>4%)",
         "source": "computed",
         "date": "2026-11-19",
-        "detected_at": "2026-11-19 09:28:24.878119+00:00"
+        "detected_at": "2026-11-19 10:06:26.885002+00:00"
       }
     ],
     "unassessed_governance_items": [
@@ -253,10 +587,10 @@
       "promoter selling (source unavailable)"
     ],
     "shares_outstanding_growth_yoy": 0.001732055550634614,
-    "atr_pct_of_price": 0.0452061790914002,
+    "atr_pct_of_price": 0.04526176578948114,
     "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
     "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
-    "_run_id": 1090
+    "_run_id": 1111
   },
   "9_fundamental_score": 61.0,
   "10_technical_score": 60.0,
@@ -266,8 +600,8 @@
     "technical_view": {
       "timeframe": "daily",
       "trend": "bullish",
-      "rsi_14": 61.55585130407163,
-      "macd_histogram": 1.2812454431118105,
+      "rsi_14": 61.399251057436025,
+      "macd_histogram": 1.252528662930171,
       "breakout": false,
       "breakdown": false
     },
@@ -286,7 +620,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 220.56152180263285,
+      "ema_200_daily": 220.55704437288705,
       "price_vs_ema_200": "above"
     },
     "business_classification": "average"
@@ -335,7 +669,7 @@
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-19 14:58 IST",
+    "generated_at": "2026-11-19 15:36 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-19 14:56 IST"
   }

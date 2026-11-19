@@ -1,11 +1,61 @@
 {
-  "generated_at": "2026-11-19 14:58 IST",
-  "rotation_last_run_at": "2026-11-19 14:58 IST",
+  "generated_at": "2026-11-19 15:36 IST",
+  "rotation_last_run_at": "2026-11-19 15:36 IST",
   "cycle_started_at": "2026-11-19 09:36 IST",
   "universe_size": 2404,
-  "ranked_count": 525,
+  "ranked_count": 675,
   "excluded_count": 0,
   "top": [
+    {
+      "symbol": "EICHERMOT",
+      "exchange": "NSE",
+      "verdict": "neutral - balanced 64.5, stored risk 0.0",
+      "name": "Eicher Motors Limited",
+      "balanced": 64.5,
+      "long_term": 65.1,
+      "short_term": 63.9,
+      "risk": 0.0,
+      "data_confidence": 72.0,
+      "classification": "neutral",
+      "status": "complete",
+      "data_date": "2026-11-19 15:31 IST",
+      "missing_agents": [],
+      "rank": 1
+    },
+    {
+      "symbol": "EIHOTEL",
+      "exchange": "NSE",
+      "verdict": "strong_technical_trend - balanced 63.5, stored risk 0.0, partial data",
+      "name": "EIH Limited",
+      "balanced": 63.5,
+      "long_term": 61.7,
+      "short_term": 65.3,
+      "risk": 0.0,
+      "data_confidence": 70.0,
+      "classification": "strong_technical_trend",
+      "status": "partial",
+      "data_date": "2026-11-19 15:31 IST",
+      "missing_agents": [
+        "news"
+      ],
+      "rank": 2
+    },
+    {
+      "symbol": "DIVISLAB",
+      "exchange": "NSE",
+      "verdict": "strong_technical_trend - balanced 62.0, stored risk 10.0",
+      "name": "Divi's Laboratories Limited",
+      "balanced": 62.0,
+      "long_term": 60.8,
+      "short_term": 63.2,
+      "risk": 10.0,
+      "data_confidence": 72.0,
+      "classification": "strong_technical_trend",
+      "status": "complete",
+      "data_date": "2026-11-19 15:29 IST",
+      "missing_agents": [],
+      "rank": 3
+    },
     {
       "symbol": "BANCOINDIA",
       "exchange": "NSE",
@@ -20,7 +70,7 @@
       "status": "complete",
       "data_date": "2026-11-19 14:11 IST",
       "missing_agents": [],
-      "rank": 1
+      "rank": 4
     },
     {
       "symbol": "AJAXENGG",
@@ -36,7 +86,7 @@
       "status": "complete",
       "data_date": "2026-11-19 09:57 IST",
       "missing_agents": [],
-      "rank": 2
+      "rank": 5
     },
     {
       "symbol": "BROOKS",
@@ -52,7 +102,7 @@
       "status": "complete",
       "data_date": "2026-11-19 14:17 IST",
       "missing_agents": [],
-      "rank": 3
+      "rank": 6
     },
     {
       "symbol": "COFORGE",
@@ -68,7 +118,7 @@
       "status": "complete",
       "data_date": "2026-11-19 14:55 IST",
       "missing_agents": [],
-      "rank": 4
+      "rank": 7
     },
     {
       "symbol": "ALLDIGI",
@@ -84,7 +134,7 @@
       "status": "complete",
       "data_date": "2026-11-19 09:58 IST",
       "missing_agents": [],
-      "rank": 5
+      "rank": 8
     },
     {
       "symbol": "CUPID",
@@ -100,7 +150,23 @@
       "status": "complete",
       "data_date": "2026-11-19 14:56 IST",
       "missing_agents": [],
-      "rank": 6
+      "rank": 9
+    },
+    {
+      "symbol": "ENDURANCE",
+      "exchange": "NSE",
+      "verdict": "neutral - balanced 60.5, stored risk 0.0",
+      "name": "Endurance Technologies Limited",
+      "balanced": 60.5,
+      "long_term": 60.7,
+      "short_term": 60.3,
+      "risk": 0.0,
+      "data_confidence": 72.0,
+      "classification": "neutral",
+      "status": "complete",
+      "data_date": "2026-11-19 15:33 IST",
+      "missing_agents": [],
+      "rank": 10
     },
     {
       "symbol": "BBOX",
@@ -116,7 +182,23 @@
       "status": "complete",
       "data_date": "2026-11-19 14:11 IST",
       "missing_agents": [],
-      "rank": 7
+      "rank": 11
+    },
+    {
+      "symbol": "ECOSMOBLTY",
+      "exchange": "NSE",
+      "verdict": "neutral - balanced 59.5, stored risk 10.0",
+      "name": "Ecos (India) Mobility & Hospitality Limited",
+      "balanced": 59.5,
+      "long_term": 64.1,
+      "short_term": 54.9,
+      "risk": 10.0,
+      "data_confidence": 72.0,
+      "classification": "neutral",
+      "status": "complete",
+      "data_date": "2026-11-19 15:31 IST",
+      "missing_agents": [],
+      "rank": 12
     },
     {
       "symbol": "ANTHEM",
@@ -132,7 +214,41 @@
       "status": "complete",
       "data_date": "2026-11-19 10:00 IST",
       "missing_agents": [],
-      "rank": 8
+      "rank": 13
+    },
+    {
+      "symbol": "EMAMILTD",
+      "exchange": "NSE",
+      "verdict": "neutral - balanced 59.0, stored risk 0.0",
+      "name": "Emami Limited",
+      "balanced": 59.0,
+      "long_term": 61.0,
+      "short_term": 57.0,
+      "risk": 0.0,
+      "data_confidence": 72.0,
+      "classification": "neutral",
+      "status": "complete",
+      "data_date": "2026-11-19 15:32 IST",
+      "missing_agents": [],
+      "rank": 14
+    },
+    {
+      "symbol": "EVEREADY",
+      "exchange": "NSE",
+      "verdict": "neutral - balanced 58.8, stored risk 10.0, partial data",
+      "name": "Eveready Industries India Limited",
+      "balanced": 58.8,
+      "long_term": 58.2,
+      "short_term": 59.2,
+      "risk": 10.0,
+      "data_confidence": 72.0,
+      "classification": "neutral",
+      "status": "partial",
+      "data_date": "2026-11-19 15:35 IST",
+      "missing_agents": [
+        "valuation"
+      ],
+      "rank": 15
     },
     {
       "symbol": "ACE",
@@ -148,7 +264,7 @@
       "status": "complete",
       "data_date": "2026-11-19 09:38 IST",
       "missing_agents": [],
-      "rank": 9
+      "rank": 16
     },
     {
       "symbol": "DABUR",
@@ -164,7 +280,23 @@
       "status": "complete",
       "data_date": "2026-11-19 14:56 IST",
       "missing_agents": [],
-      "rank": 10
+      "rank": 17
+    },
+    {
+      "symbol": "ETHOSLTD",
+      "exchange": "NSE",
+      "verdict": "strong_technical_trend - balanced 58.5, stored risk 20.0",
+      "name": "Ethos Limited",
+      "balanced": 58.5,
+      "long_term": 53.9,
+      "short_term": 63.1,
+      "risk": 20.0,
+      "data_confidence": 72.0,
+      "classification": "strong_technical_trend",
+      "status": "complete",
+      "data_date": "2026-11-19 15:34 IST",
+      "missing_agents": [],
+      "rank": 18
     },
     {
       "symbol": "BBTC",
@@ -180,7 +312,7 @@
       "status": "complete",
       "data_date": "2026-11-19 14:11 IST",
       "missing_agents": [],
-      "rank": 11
+      "rank": 19
     },
     {
       "symbol": "COLPAL",
@@ -196,7 +328,7 @@
       "status": "complete",
       "data_date": "2026-11-19 14:55 IST",
       "missing_agents": [],
-      "rank": 12
+      "rank": 20
     },
     {
       "symbol": "BLS",
@@ -212,7 +344,41 @@
       "status": "complete",
       "data_date": "2026-11-19 14:15 IST",
       "missing_agents": [],
-      "rank": 13
+      "rank": 21
+    },
+    {
+      "symbol": "DOMS",
+      "exchange": "NSE",
+      "verdict": "neutral - balanced 57.0, stored risk 10.0, partial data",
+      "name": "DOMS Industries Limited",
+      "balanced": 57.0,
+      "long_term": 57.4,
+      "short_term": 56.6,
+      "risk": 10.0,
+      "data_confidence": 72.0,
+      "classification": "neutral",
+      "status": "partial",
+      "data_date": "2026-11-19 15:30 IST",
+      "missing_agents": [
+        "valuation"
+      ],
+      "rank": 22
+    },
+    {
+      "symbol": "ENGINERSIN",
+      "exchange": "NSE",
+      "verdict": "neutral - balanced 56.8, stored risk 20.0",
+      "name": "Engineers India Limited",
+      "balanced": 56.8,
+      "long_term": 59.0,
+      "short_term": 54.4,
+      "risk": 20.0,
+      "data_confidence": 72.0,
+      "classification": "neutral",
+      "status": "complete",
+      "data_date": "2026-11-19 15:33 IST",
+      "missing_agents": [],
+      "rank": 23
     },
     {
       "symbol": "CEMPRO",
@@ -228,7 +394,7 @@
       "status": "complete",
       "data_date": "2026-11-19 14:53 IST",
       "missing_agents": [],
-      "rank": 14
+      "rank": 24
     },
     {
       "symbol": "CPEDU",
@@ -243,176 +409,6 @@
       "classification": "neutral",
       "status": "complete",
       "data_date": "2026-11-19 14:55 IST",
-      "missing_agents": [],
-      "rank": 15
-    },
-    {
-      "symbol": "CMLL",
-      "exchange": "NSE",
-      "verdict": "high_risk - balanced 56.0, stored risk 30.0, partial data",
-      "name": "Caliber Mining and Logistics Limited",
-      "balanced": 56.0,
-      "long_term": 54.4,
-      "short_term": 57.6,
-      "risk": 30.0,
-      "data_confidence": 62.0,
-      "classification": "high_risk",
-      "status": "partial",
-      "data_date": "2026-11-19 14:54 IST",
-      "missing_agents": [
-        "valuation"
-      ],
-      "rank": 16
-    },
-    {
-      "symbol": "DCI",
-      "exchange": "NSE",
-      "verdict": "high_risk,strong_technical_trend - balanced 56.0, stored risk 50.0, partial data",
-      "name": "DC Infotech and Communication Limited",
-      "balanced": 56.0,
-      "long_term": 50.4,
-      "short_term": 61.6,
-      "risk": 50.0,
-      "data_confidence": 72.0,
-      "classification": "high_risk,strong_technical_trend",
-      "status": "partial",
-      "data_date": "2026-11-19 14:57 IST",
-      "missing_agents": [
-        "valuation"
-      ],
-      "rank": 17
-    },
-    {
-      "symbol": "ARIS",
-      "exchange": "NSE",
-      "verdict": "attractive_valuation - balanced 55.5, stored risk 10.0, partial data",
-      "name": "Arisinfra Solutions Limited",
-      "balanced": 55.5,
-      "long_term": 53.7,
-      "short_term": 57.3,
-      "risk": 10.0,
-      "data_confidence": 70.0,
-      "classification": "attractive_valuation",
-      "status": "partial",
-      "data_date": "2026-11-19 09:31 IST",
-      "missing_agents": [
-        "news"
-      ],
-      "rank": 18
-    },
-    {
-      "symbol": "BOSCHLTD",
-      "exchange": "NSE",
-      "verdict": "neutral - balanced 55.5, stored risk 0.0, partial data",
-      "name": "Bosch Limited",
-      "balanced": 55.5,
-      "long_term": 56.9,
-      "short_term": 54.1,
-      "risk": 0.0,
-      "data_confidence": 72.0,
-      "classification": "neutral",
-      "status": "partial",
-      "data_date": "2026-11-19 14:16 IST",
-      "missing_agents": [
-        "valuation"
-      ],
-      "rank": 19
-    },
-    {
-      "symbol": "CHEMBONDCH",
-      "exchange": "NSE",
-      "verdict": "neutral - balanced 55.5, stored risk 20.0",
-      "name": "Chembond Chemicals Limited",
-      "balanced": 55.5,
-      "long_term": 56.1,
-      "short_term": 54.9,
-      "risk": 20.0,
-      "data_confidence": 72.0,
-      "classification": "neutral",
-      "status": "complete",
-      "data_date": "2026-11-19 14:53 IST",
-      "missing_agents": [],
-      "rank": 20
-    },
-    {
-      "symbol": "BRITANNIA",
-      "exchange": "NSE",
-      "verdict": "neutral - balanced 55.0, stored risk 0.0",
-      "name": "Britannia Industries Limited",
-      "balanced": 55.0,
-      "long_term": 55.0,
-      "short_term": 55.0,
-      "risk": 0.0,
-      "data_confidence": 72.0,
-      "classification": "neutral",
-      "status": "complete",
-      "data_date": "2026-11-19 14:16 IST",
-      "missing_agents": [],
-      "rank": 21
-    },
-    {
-      "symbol": "APLLTD",
-      "exchange": "NSE",
-      "verdict": "neutral - balanced 54.5, stored risk 0.0",
-      "name": "Alembic Pharmaceuticals Limited",
-      "balanced": 54.5,
-      "long_term": 55.9,
-      "short_term": 53.1,
-      "risk": 0.0,
-      "data_confidence": 72.0,
-      "classification": "neutral",
-      "status": "complete",
-      "data_date": "2026-11-19 10:00 IST",
-      "missing_agents": [],
-      "rank": 22
-    },
-    {
-      "symbol": "ASKAUTOLTD",
-      "exchange": "NSE",
-      "verdict": "neutral - balanced 54.5, stored risk 10.0, partial data",
-      "name": "ASK Automotive Limited",
-      "balanced": 54.5,
-      "long_term": 55.5,
-      "short_term": 53.5,
-      "risk": 10.0,
-      "data_confidence": 72.0,
-      "classification": "neutral",
-      "status": "partial",
-      "data_date": "2026-11-19 09:33 IST",
-      "missing_agents": [
-        "valuation"
-      ],
-      "rank": 23
-    },
-    {
-      "symbol": "AUROPHARMA",
-      "exchange": "NSE",
-      "verdict": "neutral - balanced 54.5, stored risk 0.0",
-      "name": "Aurobindo Pharma Limited",
-      "balanced": 54.5,
-      "long_term": 54.3,
-      "short_term": 54.7,
-      "risk": 0.0,
-      "data_confidence": 72.0,
-      "classification": "neutral",
-      "status": "complete",
-      "data_date": "2026-11-19 09:34 IST",
-      "missing_agents": [],
-      "rank": 24
-    },
-    {
-      "symbol": "BECTORFOOD",
-      "exchange": "NSE",
-      "verdict": "neutral - balanced 54.5, stored risk 0.0",
-      "name": "Mrs. Bectors Food Specialities Limited",
-      "balanced": 54.5,
-      "long_term": 54.3,
-      "short_term": 54.7,
-      "risk": 0.0,
-      "data_confidence": 72.0,
-      "classification": "neutral",
-      "status": "complete",
-      "data_date": "2026-11-19 14:12 IST",
       "missing_agents": [],
       "rank": 25
     }

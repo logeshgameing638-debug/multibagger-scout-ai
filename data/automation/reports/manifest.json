@@ -1,6 +1,51 @@
 {
-  "generated_at": "2026-11-19 14:58 IST",
+  "generated_at": "2026-11-19 15:36 IST",
   "reports": [
+    {
+      "symbol": "EICHERMOT",
+      "exchange": "NSE",
+      "status": "success",
+      "agent_statuses": {
+        "fundamental": "success",
+        "technical": "success",
+        "business": "success",
+        "valuation": "success",
+        "risk": "success",
+        "news": "success",
+        "scoring": "success"
+      },
+      "file": "data/automation/reports/NSE_EICHERMOT.json"
+    },
+    {
+      "symbol": "EIHOTEL",
+      "exchange": "NSE",
+      "status": "success",
+      "agent_statuses": {
+        "fundamental": "success",
+        "technical": "success",
+        "business": "success",
+        "valuation": "success",
+        "risk": "success",
+        "news": "success",
+        "scoring": "success"
+      },
+      "file": "data/automation/reports/NSE_EIHOTEL.json"
+    },
+    {
+      "symbol": "DIVISLAB",
+      "exchange": "NSE",
+      "status": "success",
+      "agent_statuses": {
+        "fundamental": "success",
+        "technical": "success",
+        "business": "success",
+        "valuation": "success",
+        "risk": "success",
+        "news": "success",
+        "scoring": "success"
+      },
+      "file": "data/automation/reports/NSE_DIVISLAB.json"
+    },
     {
       "symbol": "BANCOINDIA",
       "exchange": "NSE",
@@ -92,7 +137,7 @@
       "file": "data/automation/reports/NSE_CUPID.json"
     },
     {
-      "symbol": "BBOX",
+      "symbol": "ENDURANCE",
       "exchange": "NSE",
       "status": "success",
       "agent_statuses": {
@@ -104,52 +149,7 @@
         "news": "success",
         "scoring": "success"
       },
-      "file": "data/automation/reports/NSE_BBOX.json"
-    },
-    {
-      "symbol": "ANTHEM",
-      "exchange": "NSE",
-      "status": "success",
-      "agent_statuses": {
-        "fundamental": "success",
-        "technical": "success",
-        "business": "success",
-        "valuation": "success",
-        "risk": "success",
-        "news": "success",
-        "scoring": "success"
-      },
-      "file": "data/automation/reports/NSE_ANTHEM.json"
-    },
-    {
-      "symbol": "ACE",
-      "exchange": "NSE",
-      "status": "success",
-      "agent_statuses": {
-        "fundamental": "success",
-        "technical": "success",
-        "business": "success",
-        "valuation": "success",
-        "risk": "success",
-        "news": "success",
-        "scoring": "success"
-      },
-      "file": "data/automation/reports/NSE_ACE.json"
-    },
-    {
-      "symbol": "DABUR",
-      "exchange": "NSE",
-      "status": "success",
-      "agent_statuses": {
-        "fundamental": "success",
-        "technical": "success",
-        "business": "success",
-        "valuation": "success",
-        "risk": "success",
-        "news": "success",
-        "scoring": "success"
-      },
-      "file": "data/automation/reports/NSE_DABUR.json"
+      "file": "data/automation/reports/NSE_ENDURANCE.json"
     }
   ]
 }

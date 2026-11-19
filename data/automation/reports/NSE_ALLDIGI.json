@@ -5,11 +5,11 @@
     "name": "Alldigi Tech Limited",
     "sector": "Industrials",
     "industry": "Specialty Business Services",
-    "market_cap": 12663049216,
+    "market_cap": 12635620352,
     "website": "https://www.alldigitech.com"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-19 09:28:23.312044+00:00",
+    "generated_at": "2026-11-19 10:06:24.328951+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -72,40 +72,40 @@
       "2026-06-30",
       "2026-09-30"
     ],
-    "_run_id": 1079
+    "_run_id": 1100
   },
   "4_technical_analysis": {
     "assessment": "sideways",
     "daily": {
       "timeframe": "1d",
-      "last_close": 831.0,
+      "last_close": 829.2000122070312,
       "emas": {
-        "ema_20": 822.2698852977702,
-        "ema_50": 811.1638948270157,
-        "ema_100": 810.394196559526,
-        "ema_200": 822.1833897398241
+        "ema_20": 822.0984578889161,
+        "ema_50": 811.0933070704286,
+        "ema_100": 810.3585532368929,
+        "ema_200": 822.1654794135259
       },
       "smas": {
-        "sma_20": 818.2600036621094,
-        "sma_50": 800.9350024414063,
-        "sma_100": 809.181499633789,
-        "sma_200": 813.4802517700195
+        "sma_20": 818.1700042724609,
+        "sma_50": 800.8990026855469,
+        "sma_100": 809.1634997558593,
+        "sma_200": 813.4712518310547
       },
-      "rsi_14": 59.06619106143134,
+      "rsi_14": 57.730385416842175,
       "macd": {
-        "macd_line": 10.153490201357727,
-        "signal_line": 10.216808085521913,
-        "histogram": -0.06331788416418682
+        "macd_line": 10.009901431548315,
+        "signal_line": 10.188090331560032,
+        "histogram": -0.17818890001171717
       },
       "adx_14": 24.16704520660074,
       "atr_14": 17.441664998050697,
       "bollinger": {
-        "middle": 818.2600036621094,
-        "upper": 867.5067524454603,
-        "lower": 769.0132548787585
+        "middle": 818.1700042724609,
+        "upper": 867.325215046606,
+        "lower": 769.0147934983158
       },
-      "volume_sma_20": 21649.1,
-      "relative_volume": 0.5319851633555206,
+      "volume_sma_20": 21822.35,
+      "relative_volume": 0.6865438415202763,
       "support": 742.5,
       "resistance": 863.3499755859375,
       "price_structure": {
@@ -132,8 +132,8 @@
     "short_term_report": {
       "timeframe": "daily",
       "trend": "sideways",
-      "rsi_14": 59.06619106143134,
-      "macd_histogram": -0.06331788416418682,
+      "rsi_14": 57.730385416842175,
+      "macd_histogram": -0.17818890001171717,
       "breakout": false,
       "breakdown": false
     },
@@ -143,7 +143,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 822.1833897398241,
+      "ema_200_daily": 822.1654794135259,
       "price_vs_ema_200": "above"
     }
   },
@@ -157,7 +157,7 @@
     ],
     "sector": "Industrials",
     "industry": "Specialty Business Services",
-    "market_cap": 12663049216,
+    "market_cap": 12635620352,
     "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
     "unassessed_areas": [
       "business model detail (needs annual report reading)",
@@ -168,13 +168,13 @@
       "expansion projects / order book",
       "management quality and corporate governance depth"
     ],
-    "_run_id": 1081
+    "_run_id": 1102
   },
   "6_valuation": {
     "multiples": {
-      "pe_trailing": 13.390267,
+      "pe_trailing": 13.382828,
       "pe_forward": null,
-      "pb": 5.0040045,
+      "pb": 4.9931655,
       "ev_ebitda": 9.027,
       "ev_sales": 2.116,
       "peg": 0.15,
@@ -202,26 +202,26 @@
       }
     },
     "dcf_not_calculated_reason": null,
-    "margin_of_safety_vs_base_case": 0.32452235156130976,
-    "current_price": 831.0,
-    "_run_id": 1082
+    "margin_of_safety_vs_base_case": 0.3259854701192073,
+    "current_price": 829.2000122070312,
+    "_run_id": 1103
   },
   "7_news_intelligence": {
     "items": [
-      {
-        "headline": "Alldigi Tech buyback e-voting opens Nov 4 for \u20b948 crore proposal - scanx.trade",
-        "source": "scanx.trade",
-        "published": "Mon, 26 Oct 2026 15:47:30 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTk5uUzEyOExaOTA1RGpCWnVhajVpakZzbEpsTWVZeUl4UTZwTzhNclRxMzZhM3RnMnZwMVp0NFVEb21nZkFaTUJSczdrdWtvbXlFTE8tWkNCMHJJRDliaE82TWxFWjM3VnNXd3R3UUcwbUNBRUVIRlRobk02cjNVVXBLQjZFVDdLQ2hRX24wTXpDRkd2Tmlqd1lHNWJFVjFUbVEyVVM0T3FDZDVZd2QtUEZpTWhXSXBRNnVVZA?oc=5",
-        "sentiment": "positive",
-        "relevance": "high",
-        "verification_status": "unverified"
-      },
       {
         "headline": "Alldigi Tech Limited Proposes \u20b948 Crore Buyback at \u20b91,000 - Multibagg AI",
         "source": "Multibagg AI",
         "published": "Tue, 03 Nov 2026 08:00:00 GMT",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWDBib25BSUY3OXFzMS14OUY5a2ZWaGpZTGpyZmR3WUtTV0wzeG9KWEU2Y21GR09ESWE3dzYwR2tPTWhSd3pkcHBXX3lCNkhlUVpqcGNLZ3VWTlNBR2VtQXMxeFRYVWZHSDBBaS1ZRkpRRFl1eVhvQ1lGcGpnYjROaW4tUUxIMUlmUXpUZGl1NGMxdjJBdDl0OHljdTNxc1hwWWo2TUVHdUZqdw?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Alldigi Tech buyback e-voting opens Nov 4 for \u20b948 crore proposal - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Mon, 26 Oct 2026 15:47:30 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTk5uUzEyOExaOTA1RGpCWnVhajVpakZzbEpsTWVZeUl4UTZwTzhNclRxMzZhM3RnMnZwMVp0NFVEb21nZkFaTUJSczdrdWtvbXlFTE8tWkNCMHJJRDliaE82TWxFWjM3VnNXd3R3UUcwbUNBRUVIRlRobk02cjNVVXBLQjZFVDdLQ2hRX24wTXpDRkd2Tmlqd1lHNWJFVjFUbVEyVVM0T3FDZDVZd2QtUEZpTWhXSXBRNnVVZA?oc=5",
         "sentiment": "positive",
         "relevance": "high",
         "verification_status": "unverified"
@@ -401,7 +401,7 @@
     "stored_new": 21,
     "duplicates_skipped": 0,
     "note": "headlines are unverified signals, not confirmed financial evidence",
-    "_run_id": 1084
+    "_run_id": 1105
   },
   "8_risk_analysis": {
     "classification": "LOW",
@@ -415,10 +415,10 @@
       "promoter selling (source unavailable)"
     ],
     "shares_outstanding_growth_yoy": 0.0,
-    "atr_pct_of_price": 0.020988766543983992,
+    "atr_pct_of_price": 0.02103432795620357,
     "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
     "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
-    "_run_id": 1083
+    "_run_id": 1104
   },
   "9_fundamental_score": 68.0,
   "10_technical_score": 45.0,
@@ -428,8 +428,8 @@
     "technical_view": {
       "timeframe": "daily",
       "trend": "sideways",
-      "rsi_14": 59.06619106143134,
-      "macd_histogram": -0.06331788416418682,
+      "rsi_14": 57.730385416842175,
+      "macd_histogram": -0.17818890001171717,
       "breakout": false,
       "breakdown": false
     },
@@ -448,7 +448,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 822.1833897398241,
+      "ema_200_daily": 822.1654794135259,
       "price_vs_ema_200": "above"
     },
     "business_classification": "average"
@@ -495,7 +495,7 @@
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-19 14:58 IST",
+    "generated_at": "2026-11-19 15:36 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-19 09:58 IST"
   }

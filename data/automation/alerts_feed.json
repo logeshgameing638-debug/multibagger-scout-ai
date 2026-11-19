@@ -1,6 +1,94 @@
 {
-  "generated_at": "2026-11-19 14:58 IST",
+  "generated_at": "2026-11-19 15:36 IST",
   "alerts": [
+    {
+      "symbol": "DENORA",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "DENORA RSI(14) 29 <= 30 (oversold zone)",
+      "data_date": "2026-11-19 15:28 IST",
+      "detected_at": "2026-11-19 15:36 IST"
+    },
+    {
+      "symbol": "DLF",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "DLF RSI(14) 70 >= 70 (overbought zone)",
+      "data_date": "2026-11-19 15:29 IST",
+      "detected_at": "2026-11-19 15:36 IST"
+    },
+    {
+      "symbol": "DOLLEX",
+      "type": "risk_high",
+      "severity": "critical",
+      "message": "DOLLEX stored risk score 70 >= 70 (high stored risk)",
+      "data_date": "2026-11-19 15:30 IST",
+      "detected_at": "2026-11-19 15:36 IST"
+    },
+    {
+      "symbol": "DRREDDY",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "DRREDDY RSI(14) 74 >= 70 (overbought zone)",
+      "data_date": "2026-11-19 15:30 IST",
+      "detected_at": "2026-11-19 15:36 IST"
+    },
+    {
+      "symbol": "ECLERX",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "ECLERX RSI(14) 28 <= 30 (oversold zone)",
+      "data_date": "2026-11-19 15:31 IST",
+      "detected_at": "2026-11-19 15:36 IST"
+    },
+    {
+      "symbol": "ELGIRUBCO",
+      "type": "risk_high",
+      "severity": "critical",
+      "message": "ELGIRUBCO stored risk score 85 >= 70 (high stored risk)",
+      "data_date": "2026-11-19 15:32 IST",
+      "detected_at": "2026-11-19 15:36 IST"
+    },
+    {
+      "symbol": "ELITECON",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "ELITECON RSI(14) 18 <= 30 (oversold zone)",
+      "data_date": "2026-11-19 15:32 IST",
+      "detected_at": "2026-11-19 15:36 IST"
+    },
+    {
+      "symbol": "EMAMILTD",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "EMAMILTD RSI(14) 73 >= 70 (overbought zone)",
+      "data_date": "2026-11-19 15:32 IST",
+      "detected_at": "2026-11-19 15:36 IST"
+    },
+    {
+      "symbol": "EMCURE",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "EMCURE RSI(14) 78 >= 70 (overbought zone)",
+      "data_date": "2026-11-19 15:33 IST",
+      "detected_at": "2026-11-19 15:36 IST"
+    },
+    {
+      "symbol": "EMPOWER",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "EMPOWER RSI(14) 28 <= 30 (oversold zone)",
+      "data_date": "2026-11-19 15:33 IST",
+      "detected_at": "2026-11-19 15:36 IST"
+    },
+    {
+      "symbol": "EXICOM",
+      "type": "risk_high",
+      "severity": "critical",
+      "message": "EXICOM stored risk score 80 >= 70 (high stored risk)",
+      "data_date": "2026-11-19 15:35 IST",
+      "detected_at": "2026-11-19 15:36 IST"
+    },
     {
       "symbol": "CANBK",
       "type": "rsi_overbought",
@@ -219,8 +307,8 @@
     }
   ],
   "stats": {
-    "snapshots_scanned": 525,
-    "new_alerts": 7,
-    "active_alerts": 27
+    "snapshots_scanned": 675,
+    "new_alerts": 11,
+    "active_alerts": 38
   }
 }

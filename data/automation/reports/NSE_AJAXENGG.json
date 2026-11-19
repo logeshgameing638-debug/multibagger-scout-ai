@@ -5,11 +5,11 @@
     "name": "Ajax Engineering Limited",
     "sector": "Industrials",
     "industry": "Farm & Heavy Construction Machinery",
-    "market_cap": 71221043200,
+    "market_cap": 71501348864,
     "website": "https://www.ajax-engg.com"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-19 09:28:17.241832+00:00",
+    "generated_at": "2026-11-19 10:06:15.060625+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -54,7 +54,7 @@
     },
     "ownership": {
       "promoter_or_insider_holding_pct": 0.79995,
-      "institutional_holding_pct": 0.10262,
+      "institutional_holding_pct": 0.1025,
       "promoter_pledge_pct": null
     },
     "red_flags": [],
@@ -73,40 +73,40 @@
       "2026-06-30",
       "2026-09-30"
     ],
-    "_run_id": 1058
+    "_run_id": 1079
   },
   "4_technical_analysis": {
     "assessment": "bullish",
     "daily": {
       "timeframe": "1d",
-      "last_close": 622.5,
+      "last_close": 624.9500122070312,
       "emas": {
-        "ema_20": 573.7634541671928,
-        "ema_50": 569.8977033249244,
-        "ema_100": 566.8923498099155,
-        "ema_200": 566.5799723941258
+        "ema_20": 573.9967886631005,
+        "ema_50": 569.993782235004,
+        "ema_100": 566.9408649031241,
+        "ema_200": 566.6043506250415
       },
       "smas": {
-        "sma_20": 562.8100036621094,
-        "sma_50": 571.3,
-        "sma_100": 570.9610009765624,
-        "sma_200": 542.8234992980957
+        "sma_20": 562.932504272461,
+        "sma_50": 571.3490002441406,
+        "sma_100": 570.9855010986328,
+        "sma_200": 542.8357493591309
       },
-      "rsi_14": 70.87162313990815,
+      "rsi_14": 71.86087633430202,
       "macd": {
-        "macd_line": 9.42411126617776,
-        "signal_line": 1.1350595926672784,
-        "histogram": 8.289051673510482
+        "macd_line": 9.619553835399529,
+        "signal_line": 1.174148106511632,
+        "histogram": 8.445405728887897
       },
       "adx_14": 24.14257174251206,
       "atr_14": 20.807563118112935,
       "bollinger": {
-        "middle": 562.8100036621094,
-        "upper": 611.2038502911082,
-        "lower": 514.4161570331105
+        "middle": 562.932504272461,
+        "upper": 611.9706542569318,
+        "lower": 513.8943542879902
       },
-      "volume_sma_20": 81761.85,
-      "relative_volume": 1.8616017127792484,
+      "volume_sma_20": 82993.9,
+      "relative_volume": 2.1308674492944664,
       "support": 523.75,
       "resistance": 635.0,
       "price_structure": {
@@ -133,8 +133,8 @@
     "short_term_report": {
       "timeframe": "daily",
       "trend": "bullish",
-      "rsi_14": 70.87162313990815,
-      "macd_histogram": 8.289051673510482,
+      "rsi_14": 71.86087633430202,
+      "macd_histogram": 8.445405728887897,
       "breakout": false,
       "breakdown": false
     },
@@ -144,7 +144,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 566.5799723941258,
+      "ema_200_daily": 566.6043506250415,
       "price_vs_ema_200": "above"
     }
   },
@@ -157,7 +157,7 @@
     ],
     "sector": "Industrials",
     "industry": "Farm & Heavy Construction Machinery",
-    "market_cap": 71221043200,
+    "market_cap": 71501348864,
     "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
     "unassessed_areas": [
       "business model detail (needs annual report reading)",
@@ -168,13 +168,13 @@
       "expansion projects / order book",
       "management quality and corporate governance depth"
     ],
-    "_run_id": 1060
+    "_run_id": 1081
   },
   "6_valuation": {
     "multiples": {
-      "pe_trailing": 29.899136,
-      "pe_forward": 21.211817,
-      "pb": 4.7352805,
+      "pe_trailing": 30.016811,
+      "pe_forward": 21.295301,
+      "pb": 4.753917,
       "ev_ebitda": 22.441,
       "ev_sales": 2.802,
       "peg": null,
@@ -202,9 +202,9 @@
       }
     },
     "dcf_not_calculated_reason": null,
-    "margin_of_safety_vs_base_case": -0.25693017933585843,
-    "current_price": 622.5,
-    "_run_id": 1061
+    "margin_of_safety_vs_base_case": -0.2618771581033425,
+    "current_price": 624.9500122070312,
+    "_run_id": 1082
   },
   "7_news_intelligence": {
     "items": [
@@ -233,15 +233,6 @@
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE51TlJIQ3l6eGJSX3I4ZDg1VWhHaDBrcVRnd285c3hRUGxnc2RMS3lkZFdHT3B4Q3YtdHFpVTlFSzhKUGg1WmZlWVY1VXg0WGE1Wkk0NDRMMTV1NGtwcGlVMktUSUplZjJ5QnBkdlNsSnE?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Ajax Engineering Limited Reports Earnings Results for the Second Quarter and Six Months Ended September 30, 2026 - marketscreener.com",
-        "source": "marketscreener.com",
-        "published": "Fri, 06 Nov 2026 08:22:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPSEw3eVU1djYzX2s4dEpPWlgwMS1uNGJHal83bXBDeG5xQ0llRXdleUZEUFBSdGw5ZDhZYk8yM25fX09jR0JWSkU2bXhTZmJ5ZWZrU0FDdmRLbS1iYlZuelVyUkxnY3MxQTk1bnltT3pCWnZvMFB0Y0drMFpfcEhtcDEzTC00RExJUmZwaG9xUDZBYWJCQ2lWc0VVdVJ3eGpaNmpTeURVV2lVUG5FNWpacFk2ZF9pOVJRTUlNS2paUV9yeVVhbm95RXpzODlwVnZ6NVdXRVkzQmFueGNyNjN0dmV1cWNlTVVa?oc=5",
-        "sentiment": "neutral",
-        "relevance": "high",
         "verification_status": "unverified"
       },
       {
@@ -461,10 +452,10 @@
         "verification_status": "unverified"
       }
     ],
-    "stored_new": 28,
+    "stored_new": 27,
     "duplicates_skipped": 0,
     "note": "headlines are unverified signals, not confirmed financial evidence",
-    "_run_id": 1063
+    "_run_id": 1084
   },
   "8_risk_analysis": {
     "classification": "LOW",
@@ -478,10 +469,10 @@
       "promoter selling (source unavailable)"
     ],
     "shares_outstanding_growth_yoy": 0.0,
-    "atr_pct_of_price": 0.03342580420580391,
+    "atr_pct_of_price": 0.033294763919805924,
     "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
     "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
-    "_run_id": 1062
+    "_run_id": 1083
   },
   "9_fundamental_score": 66.0,
   "10_technical_score": 66.0,
@@ -491,8 +482,8 @@
     "technical_view": {
       "timeframe": "daily",
       "trend": "bullish",
-      "rsi_14": 70.87162313990815,
-      "macd_histogram": 8.289051673510482,
+      "rsi_14": 71.86087633430202,
+      "macd_histogram": 8.445405728887897,
       "breakout": false,
       "breakdown": false
     },
@@ -511,7 +502,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 566.5799723941258,
+      "ema_200_daily": 566.6043506250415,
       "price_vs_ema_200": "above"
     },
     "business_classification": "average"
@@ -558,7 +549,7 @@
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-19 14:58 IST",
+    "generated_at": "2026-11-19 15:36 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-19 09:57 IST"
   }

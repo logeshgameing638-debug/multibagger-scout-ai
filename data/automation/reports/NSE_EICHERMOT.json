@@ -1,0 +1,313 @@
+{
+  "1_company_profile": {
+    "symbol": "EICHERMOT",
+    "exchange": "NSE",
+    "name": "Eicher Motors Limited",
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Manufacturers",
+    "market_cap": 2212441882624,
+    "website": "https://eicher.in"
+  },
+  "2_source_and_timestamp": {
+    "generated_at": "2026-11-19 10:06:04.559229+00:00",
+    "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
+    "agent_statuses": {
+      "fundamental": "success",
+      "technical": "success",
+      "business": "success",
+      "valuation": "success",
+      "risk": "success",
+      "news": "success",
+      "scoring": "success"
+    }
+  },
+  "3_financial_analysis": {
+    "is_financial_sector": false,
+    "growth": {
+      "sales_growth_1y": 0.23947080111833882,
+      "sales_cagr_3y": 0.174675251484967,
+      "sales_cagr_5y": null,
+      "profit_growth_1y": 0.16491707572595704,
+      "profit_cagr_3y": 0.23697524323492836,
+      "profit_cagr_5y": null,
+      "eps_growth_1y": 0.16398471868488085
+    },
+    "profitability": {
+      "roe": 0.21972896576315282,
+      "roce": 0.2800641053169934,
+      "operating_margin": 0.21568860414743596,
+      "net_margin": 0.24002668689508944,
+      "gross_margin": 0.4161406101689604
+    },
+    "balance_sheet": {
+      "total_debt": 5139500000.0,
+      "debt_to_equity": 0.02047597325115587,
+      "interest_coverage": 100.28785125122326,
+      "current_ratio": 1.9017293062472382,
+      "working_capital": 45302700000.0
+    },
+    "cash_flow": {
+      "operating_cash_flow": 48048400000.0,
+      "free_cash_flow": 35295800000.0,
+      "ocf_to_net_profit": 0.8711948549743166,
+      "fcf_conversion": 0.7345884566395551
+    },
+    "ownership": {
+      "promoter_or_insider_holding_pct": 0.51465,
+      "institutional_holding_pct": 0.27775,
+      "promoter_pledge_pct": null
+    },
+    "red_flags": [],
+    "annual_periods": [
+      "2022-03-31",
+      "2023-03-31",
+      "2024-03-31",
+      "2025-03-31",
+      "2026-03-31"
+    ],
+    "quarterly_periods": [
+      "2025-03-31",
+      "2025-09-30",
+      "2025-12-31",
+      "2026-03-31",
+      "2026-06-30",
+      "2026-09-30"
+    ],
+    "_run_id": 1051
+  },
+  "4_technical_analysis": {
+    "assessment": "bullish",
+    "daily": {
+      "timeframe": "1d",
+      "last_close": 8058.5,
+      "emas": {
+        "ema_20": 7548.319369788777,
+        "ema_50": 7468.349346589242,
+        "ema_100": 7461.474590230273,
+        "ema_200": 7320.073798745751
+      },
+      "smas": {
+        "sma_20": 7461.7,
+        "sma_50": 7367.82,
+        "sma_100": 7556.11,
+        "sma_200": 7415.2175
+      },
+      "rsi_14": 68.8975731889978,
+      "macd": {
+        "macd_line": 146.23266956170937,
+        "signal_line": 90.13647021574127,
+        "histogram": 56.0961993459681
+      },
+      "adx_14": 33.354460661389254,
+      "atr_14": 215.92855254451436,
+      "bollinger": {
+        "middle": 7461.7,
+        "upper": 8019.347162545566,
+        "lower": 6904.052837454434
+      },
+      "volume_sma_20": 570708.35,
+      "relative_volume": 1.5866755760626248,
+      "support": 6911.0,
+      "resistance": 8140.0,
+      "price_structure": {
+        "structure": "downtrend (lower highs, lower lows)",
+        "higher_highs": false,
+        "higher_lows": false,
+        "lower_highs": true,
+        "lower_lows": true
+      },
+      "trend": "bullish",
+      "trend_strength": "strong",
+      "breakout": false,
+      "breakdown": false,
+      "momentum_divergence": null,
+      "entry_zone": {
+        "low": 6911.0,
+        "high": 7018.96,
+        "basis": "near identified support plus half ATR buffer"
+      },
+      "invalidation_level": 6479.14,
+      "atr_risk_distance": 215.92855254451436,
+      "provisional_last_bar": true
+    },
+    "short_term_report": {
+      "timeframe": "daily",
+      "trend": "bullish",
+      "rsi_14": 68.8975731889978,
+      "macd_histogram": 56.0961993459681,
+      "breakout": false,
+      "breakdown": false
+    },
+    "long_term_report": {
+      "timeframes": [
+        "weekly",
+        "monthly"
+      ],
+      "trend": "sideways",
+      "ema_200_daily": 7320.073798745751,
+      "price_vs_ema_200": "above"
+    }
+  },
+  "5_business_quality": {
+    "classification": "average",
+    "positive_evidence_count": 2,
+    "negative_evidence_count": 0,
+    "evidence": [
+      "ROE 22.0% (>15%): capital allocated effectively",
+      "operating margin 21.6%: pricing power evidence"
+    ],
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Manufacturers",
+    "market_cap": 2212441882624,
+    "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
+    "unassessed_areas": [
+      "business model detail (needs annual report reading)",
+      "industry growth rate",
+      "market share and competitor comparison",
+      "customer concentration",
+      "supplier dependency",
+      "expansion projects / order book",
+      "management quality and corporate governance depth"
+    ],
+    "_run_id": 1053
+  },
+  "6_valuation": {
+    "multiples": {
+      "pe_trailing": 37.059093,
+      "pe_forward": 29.098577,
+      "pb": 8.528361,
+      "ev_ebitda": 33.327,
+      "ev_sales": 7.751,
+      "peg": null,
+      "dividend_yield": 1.06,
+      "industry_pe": null
+    },
+    "valuation_view_vs_industry": null,
+    "dcf": {
+      "scenarios": {
+        "bear": 1573.5637772112004,
+        "base": 2083.9486682632773,
+        "bull": 2401.343900081372
+      },
+      "assumptions": {
+        "base_fcf": 35295800000.0,
+        "growth_rates": {
+          "bear": 0.04,
+          "base": 0.08,
+          "bull": 0.1
+        },
+        "cost_of_equity": 0.13,
+        "terminal_growth": 0.05,
+        "projection_years": 10,
+        "shares_outstanding": 274547616
+      }
+    },
+    "dcf_not_calculated_reason": null,
+    "margin_of_safety_vs_base_case": -2.8669378582706635,
+    "current_price": 8058.5,
+    "_run_id": 1054
+  },
+  "7_news_intelligence": {
+    "items": [],
+    "stored_new": 0,
+    "duplicates_skipped": 34,
+    "note": "headlines are unverified signals, not confirmed financial evidence",
+    "_run_id": 1056
+  },
+  "8_risk_analysis": {
+    "classification": "LOW",
+    "findings": [],
+    "unassessed_governance_items": [
+      "auditor resignation history",
+      "qualified audit opinions",
+      "related-party transactions",
+      "regulatory actions",
+      "promoter pledging (source unavailable)",
+      "promoter selling (source unavailable)"
+    ],
+    "shares_outstanding_growth_yoy": 0.0005475699077720174,
+    "atr_pct_of_price": 0.026795129682262747,
+    "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
+    "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
+    "_run_id": 1055
+  },
+  "9_fundamental_score": 66.0,
+  "10_technical_score": 63.0,
+  "11_data_confidence": 72.0,
+  "12_short_term_assessment": {
+    "score": 63.9,
+    "technical_view": {
+      "timeframe": "daily",
+      "trend": "bullish",
+      "rsi_14": 68.8975731889978,
+      "macd_histogram": 56.0961993459681,
+      "breakout": false,
+      "breakdown": false
+    },
+    "entry_zone": {
+      "low": 6911.0,
+      "high": 7018.96,
+      "basis": "near identified support plus half ATR buffer"
+    },
+    "invalidation_level": 6479.14
+  },
+  "13_long_term_assessment": {
+    "score": 65.1,
+    "trend": {
+      "timeframes": [
+        "weekly",
+        "monthly"
+      ],
+      "trend": "sideways",
+      "ema_200_daily": 7320.073798745751,
+      "price_vs_ema_200": "above"
+    },
+    "business_classification": "average"
+  },
+  "14_investment_thesis": "Eicher Motors Limited (EICHERMOT) is classified as a 'average' business with a bullish technical trend. Balanced research score 64.5/100 (fundamental 66.0, technical 63.0, data confidence 72.0, risk 0/100 higher=worse). Supporting evidence: ROE 22.0% (>15%): capital allocated effectively; operating margin 21.6%: pricing power evidence.",
+  "15_thesis_invalidation": [
+    "Daily close below invalidation level 6479.14 (2x ATR under support)",
+    "Operating cash flow turning negative in the next annual report",
+    "New critical governance or regulatory finding (currently unassessed items must be checked manually)"
+  ],
+  "16_missing_evidence": {
+    "fundamental_gaps": [],
+    "unassessed_governance": [
+      "auditor resignation history",
+      "qualified audit opinions",
+      "related-party transactions",
+      "regulatory actions",
+      "promoter pledging (source unavailable)",
+      "promoter selling (source unavailable)"
+    ],
+    "valuation_gaps": null,
+    "business_unassessed": [
+      "business model detail (needs annual report reading)",
+      "industry growth rate",
+      "market share and competitor comparison",
+      "customer concentration",
+      "supplier dependency",
+      "expansion projects / order book",
+      "management quality and corporate governance depth"
+    ]
+  },
+  "17_sources": [
+    "yahoo_finance (prices, statements, profile)",
+    "rss_news (headlines, unverified)"
+  ],
+  "labels": [
+    "neutral"
+  ],
+  "combined_scores": {
+    "long_term": 65.1,
+    "short_term": 63.9,
+    "balanced": 64.5,
+    "risk_score_higher_is_worse": 0
+  },
+  "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
+  "automation": {
+    "generated_at": "2026-11-19 15:36 IST",
+    "source": "scheduled GitHub Actions run",
+    "rotation_data_date": "2026-11-19 15:31 IST"
+  }
+}

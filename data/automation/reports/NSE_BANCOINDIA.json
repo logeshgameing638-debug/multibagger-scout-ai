@@ -5,11 +5,11 @@
     "name": "Banco Products (India) Limited",
     "sector": "Consumer Cyclical",
     "industry": "Auto Parts",
-    "market_cap": 100984332288,
+    "market_cap": 100891353088,
     "website": "https://www.bancoindia.com"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-19 09:28:15.314807+00:00",
+    "generated_at": "2026-11-19 10:06:12.607576+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -71,40 +71,40 @@
       "2026-06-30",
       "2026-09-30"
     ],
-    "_run_id": 1051
+    "_run_id": 1072
   },
   "4_technical_analysis": {
     "assessment": "bullish",
     "daily": {
       "timeframe": "1d",
-      "last_close": 706.0,
+      "last_close": 705.3499755859375,
       "emas": {
-        "ema_20": 646.089529106393,
-        "ema_50": 625.3795958325793,
-        "ema_100": 624.3280454378764,
-        "ema_200": 624.1194344350866
+        "ema_20": 646.0276220193394,
+        "ema_50": 625.3541046790867,
+        "ema_100": 624.315173667301,
+        "ema_200": 624.1129665304691
       },
       "smas": {
-        "sma_20": 626.1149963378906,
-        "sma_50": 611.8540002441406,
-        "sma_100": 627.9834991455078,
-        "sma_200": 621.3960005187988
+        "sma_20": 626.0824951171875,
+        "sma_50": 611.8409997558593,
+        "sma_100": 627.9769989013672,
+        "sma_200": 621.3927503967285
       },
-      "rsi_14": 72.03531018125648,
+      "rsi_14": 71.7604535634046,
       "macd": {
-        "macd_line": 28.06931954358015,
-        "signal_line": 17.13969102885236,
-        "histogram": 10.929628514727789
+        "macd_line": 28.017465744167794,
+        "signal_line": 17.12932026896989,
+        "histogram": 10.888145475197902
       },
       "adx_14": 28.099742307653806,
-      "atr_14": 25.49896246335231,
+      "atr_14": 25.57753650771615,
       "bollinger": {
-        "middle": 626.1149963378906,
-        "upper": 730.7598263341913,
-        "lower": 521.4701663415899
+        "middle": 626.0824951171875,
+        "upper": 730.6232090326567,
+        "lower": 521.5417812017182
       },
-      "volume_sma_20": 387849.7,
-      "relative_volume": 0.8168060978260393,
+      "volume_sma_20": 389805.4,
+      "relative_volume": 0.9130504605631424,
       "support": 545.0,
       "resistance": 731.5499877929688,
       "price_structure": {
@@ -121,18 +121,18 @@
       "momentum_divergence": null,
       "entry_zone": {
         "low": 545.0,
-        "high": 557.75,
+        "high": 557.79,
         "basis": "near identified support plus half ATR buffer"
       },
-      "invalidation_level": 494.0,
-      "atr_risk_distance": 25.49896246335231,
+      "invalidation_level": 493.84,
+      "atr_risk_distance": 25.57753650771615,
       "provisional_last_bar": true
     },
     "short_term_report": {
       "timeframe": "daily",
       "trend": "bullish",
-      "rsi_14": 72.03531018125648,
-      "macd_histogram": 10.929628514727789,
+      "rsi_14": 71.7604535634046,
+      "macd_histogram": 10.888145475197902,
       "breakout": false,
       "breakdown": false
     },
@@ -142,7 +142,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 624.1194344350866,
+      "ema_200_daily": 624.1129665304691,
       "price_vs_ema_200": "above"
     }
   },
@@ -155,7 +155,7 @@
     ],
     "sector": "Consumer Cyclical",
     "industry": "Auto Parts",
-    "market_cap": 100984332288,
+    "market_cap": 100891353088,
     "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
     "unassessed_areas": [
       "business model detail (needs annual report reading)",
@@ -166,13 +166,13 @@
       "expansion projects / order book",
       "management quality and corporate governance depth"
     ],
-    "_run_id": 1053
+    "_run_id": 1074
   },
   "6_valuation": {
     "multiples": {
-      "pe_trailing": 19.508152,
+      "pe_trailing": 19.49019,
       "pe_forward": null,
-      "pb": 5.424052,
+      "pb": 5.419058,
       "ev_ebitda": 14.08,
       "ev_sales": 2.409,
       "peg": null,
@@ -200,9 +200,9 @@
       }
     },
     "dcf_not_calculated_reason": null,
-    "margin_of_safety_vs_base_case": -1.5826176075760536,
-    "current_price": 706.0,
-    "_run_id": 1054
+    "margin_of_safety_vs_base_case": -1.5802397541807107,
+    "current_price": 705.3499755859375,
+    "_run_id": 1075
   },
   "7_news_intelligence": {
     "items": [
@@ -234,19 +234,19 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Banco Aluminium executes inter-se share transfer, subtly reshaping ownership control - AL Circle",
-        "source": "AL Circle",
-        "published": "Tue, 24 Mar 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcGU3aGdWamFBMXVieTJPS0d5bXBCR0dBLWNBZmx0UFRRN1J3T04tcklTdk5rMUtYUjItNjVNWHZRZGNIRkxOaGVyRHF3Q1hzY0VGNks3cVh1ellLaGpsTF84ektGZjhBZDNKMWRDR0JYVEU4aUxwY0tZR2dtS2VZZS05R3BiQVk3d2JYMjdHQ1JPRzdJWlMtU2d0Q0EzMFQ2Yi1ZcTRCcTdsc3R1dHBmMkNKWFotbHFNM0NfRw?oc=5",
+        "headline": "Banco Products Q4 Revenue Jumps 26% to \u20b91,100 Crore as Profit Dips to \u20b9147 Crore - Sahi",
+        "source": "Sahi",
+        "published": "Thu, 28 May 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX0lnODJHQUJWQ2VCODlRRlg0bVJYQVVlLUcwNGZMenpSVkU0NTJ2ZDdaS0ZiSURTVkxqMDdGRFdFVjgwektodkJKRTliMzVVR2pYSmhZVWN4aVhNUThwYWg0UEJaVVpGejdlejl1c1JIVWYxSDNSdnlWeWpHdDFXQkpvb0ZlcTY5VFVCbHJHWkdKT1ZtVVFUY0VNbUhTbGJKSVp1eWd4MnVMMHBEX21MYUNpTEJWU1U?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
       },
       {
-        "headline": "Banco Products Q4 Revenue Jumps 26% to \u20b91,100 Crore as Profit Dips to \u20b9147 Crore - Sahi",
-        "source": "Sahi",
-        "published": "Thu, 28 May 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX0lnODJHQUJWQ2VCODlRRlg0bVJYQVVlLUcwNGZMenpSVkU0NTJ2ZDdaS0ZiSURTVkxqMDdGRFdFVjgwektodkJKRTliMzVVR2pYSmhZVWN4aVhNUThwYWg0UEJaVVpGejdlejl1c1JIVWYxSDNSdnlWeWpHdDFXQkpvb0ZlcTY5VFVCbHJHWkdKT1ZtVVFUY0VNbUhTbGJKSVp1eWd4MnVMMHBEX21MYUNpTEJWU1U?oc=5",
+        "headline": "Banco Aluminium executes inter-se share transfer, subtly reshaping ownership control - AL Circle",
+        "source": "AL Circle",
+        "published": "Tue, 24 Mar 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcGU3aGdWamFBMXVieTJPS0d5bXBCR0dBLWNBZmx0UFRRN1J3T04tcklTdk5rMUtYUjItNjVNWHZRZGNIRkxOaGVyRHF3Q1hzY0VGNks3cVh1ellLaGpsTF84ektGZjhBZDNKMWRDR0JYVEU4aUxwY0tZR2dtS2VZZS05R3BiQVk3d2JYMjdHQ1JPRzdJWlMtU2d0Q0EzMFQ2Yi1ZcTRCcTdsc3R1dHBmMkNKWFotbHFNM0NfRw?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -270,10 +270,10 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Banco Products (India) Limited (BANCOINDIA.BO) stock price, news, quote and history - Yahoo Finance UK",
-        "source": "Yahoo Finance UK",
-        "published": "Sat, 20 May 2017 21:05:55 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBGbGZyQVJBYjJFQ0ttNkFjdEtRbVBPUmZBT2MwTXE0ZWpwN09LLWxqUXcxUEtBN2kwNml4aDh5M25yUVZVNzE0czhjeWZIQW9fbmM0c3VYWW9ybmNrMFE?oc=5",
+        "headline": "Banco Products (India) Ltd. Share Price Today | Banco Products Live NSE/BSE - Value Research",
+        "source": "Value Research",
+        "published": "Wed, 23 Mar 2022 18:04:03 GMT",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSSjVUU3g3aFpzT3U4eldsd21zVFU2OFNfZXk5M0RVMWFRLU4zMnZFRmZSZ0w5UzZwRHBxOEpCOS1JYkxxV09pakVfSWEwU3FIeXpURzdSOUNDQ2xoQzUzb09OMmtuUF9OdnBIUjh5U3ZjYlF1MzFWNUNxUHAyMjg?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -306,10 +306,10 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Banco Products (India) Limited (BANCOINDIA.NS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-        "source": "Yahoo! Finance Canada",
-        "published": "Fri, 16 Jun 2017 09:07:05 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5FOWhTWVpveW9vLTdJaC1Rck5DMHRyY1N5aHNMcDJLSURiTExPeW0tY3dDbHlwYm8ya0hfeDRfeWtZRkxqR1ZoZlFJRF9NUHRaMHJwWGVKN1VmZl9CZEE?oc=5",
+        "headline": "The recent \u20b95.8b market cap decrease is likely to have disappointed insiders invested in Banco Products (India) Limited (NSE:BANCOINDIA) - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Sat, 10 Jan 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPU1ZoS1NjQVVNNWZZREpqUmJQQ1VjSV9tY1R5dkM5amNfWVllN2UzOFJVY1Q2dmc4MXFRZlowLW1uQUdTQTloVnVDN3RiT3ZIRlMyR1BQdE9TREd4RVNMR0FVSDM2dTNoV3cxeFE1cFlfWW1FWUd2U0ZnMi1mLXYxaDNsbXhHTnlJYlItZ0hDMlM4LTMzTGMtYlFlUTdwWThkN29CUDlYVVpRLWUtSXNPLS1mRl91RWoxanZWNDZoYjloOUo0RWFDQk1WSnJEN1dVUDJOREtoQmRHT0tSekd6T2VJQ3FfN3NOSXfSAe8BQVVfeXFMT29IOUxuVEU5OTdYcXVyTHA1eERHeGxXc2FJenM2YlBvcUFGNFNJem00bk1RLW1pZC0yZndMc3pnYTQ1bzItaHRfYkN2S0dQS0ZfQWRLZjUzSy1MSEFuWHBrX0F5WVR4OGNka2pqU21IZ2xEMTh1TXZhUnRGNlpqN1pqOUNhanpEdmpDNTVzOXFqT2FMSFd0X3A4Y053cDRJTk4zQnY3NzM3WEw1MVJIcTJSN0ppalNLTnpCRGJOT19VSS1JRDUwdkVSb0VSM2ZvelVhQVRpTU85dk5HQ0lCamowQjVYSEpJM2NzUkdwdlE?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -387,19 +387,19 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Banco Products (India) Ltd. Share Price Today | Banco Products Live NSE/BSE - Value Research",
-        "source": "Value Research",
-        "published": "Wed, 23 Mar 2022 18:04:03 GMT",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSSjVUU3g3aFpzT3U4eldsd21zVFU2OFNfZXk5M0RVMWFRLU4zMnZFRmZSZ0w5UzZwRHBxOEpCOS1JYkxxV09pakVfSWEwU3FIeXpURzdSOUNDQ2xoQzUzb09OMmtuUF9OdnBIUjh5U3ZjYlF1MzFWNUNxUHAyMjg?oc=5",
+        "headline": "Banco Products (India) Limited (BANCOINDIA.BO) stock price, news, quote and history - Yahoo Finance UK",
+        "source": "Yahoo Finance UK",
+        "published": "Sat, 20 May 2017 21:05:55 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBGbGZyQVJBYjJFQ0ttNkFjdEtRbVBPUmZBT2MwTXE0ZWpwN09LLWxqUXcxUEtBN2kwNml4aDh5M25yUVZVNzE0czhjeWZIQW9fbmM0c3VYWW9ybmNrMFE?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
       },
       {
-        "headline": "Banco Products (India) Limited (BANCOINDIA.BO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "headline": "Banco Products (India) Limited (BANCOINDIA.NS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
         "source": "Yahoo! Finance Canada",
-        "published": "Mon, 05 Jun 2017 00:34:06 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAtM0dsWjZRWm1kLWoxOEE0VVpVc0UzR1oyMHdIMVc4STBVWnM1ZXdGSG9ZV3M1SWg5cEd5cFN5Y0kxcmMzOTZKcFBCSXhic2w3cUhOdjFDLXc0VHlNQUE?oc=5",
+        "published": "Fri, 16 Jun 2017 09:07:05 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5FOWhTWVpveW9vLTdJaC1Rck5DMHRyY1N5aHNMcDJLSURiTExPeW0tY3dDbHlwYm8ya0hfeDRfeWtZRkxqR1ZoZlFJRF9NUHRaMHJwWGVKN1VmZl9CZEE?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -414,10 +414,10 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "BANCOINDIA Stock Price and Chart \u2014 NSE:BANCOINDIA - TradingView",
-        "source": "TradingView",
-        "published": "Fri, 21 Jul 2017 05:45:49 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5DYlU4WG1VekpwSnJNZ1U5ZTYwR01qeWtjSVo1Q1lJNkpRZGxKMm9xbnE1UTFYYmNaQnFLdE5uYzFfUzRsSWhMSm1xMFEtYkVoS1FoSHQ3ZlBJZkMwT0RLWg?oc=5",
+        "headline": "Banco Products (India) Limited (BANCOINDIA.BO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "source": "Yahoo! Finance Canada",
+        "published": "Mon, 05 Jun 2017 00:34:06 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAtM0dsWjZRWm1kLWoxOEE0VVpVc0UzR1oyMHdIMVc4STBVWnM1ZXdGSG9ZV3M1SWg5cEd5cFN5Y0kxcmMzOTZKcFBCSXhic2w3cUhOdjFDLXc0VHlNQUE?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -429,6 +429,15 @@
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSXJpM20tWEhiX3FLb0FnaWppV2I0UkNtSnJYQmdFY3o5bXo2cExsOTdTelpEamlqbXlYSU1lQXN3M3ZZUElTSnlaWFZsWm9sUzRwREZEZnYxWXc5MlVvdzA1OHFZVTJzZmplLTcwSWYybmJkTzZYV1dIMGlZeUJmcEdjdHVsZ2ZJV2M4LXBnOVZKUmd2SjdTYTR6ZGlBR1B3cldaTTJMMC1WYW9kdi13d1B5RThVcG90VnE0bDdWSWJXbFdkMHc?oc=5",
         "sentiment": "positive",
         "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "BANCOINDIA Stock Price and Chart \u2014 NSE:BANCOINDIA - TradingView",
+        "source": "TradingView",
+        "published": "Fri, 21 Jul 2017 05:45:49 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5DYlU4WG1VekpwSnJNZ1U5ZTYwR01qeWtjSVo1Q1lJNkpRZGxKMm9xbnE1UTFYYmNaQnFLdE5uYzFfUzRsSWhMSm1xMFEtYkVoS1FoSHQ3ZlBJZkMwT0RLWg?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
         "verification_status": "unverified"
       },
       {
@@ -495,10 +504,10 @@
         "verification_status": "unverified"
       }
     ],
-    "stored_new": 32,
+    "stored_new": 33,
     "duplicates_skipped": 0,
     "note": "headlines are unverified signals, not confirmed financial evidence",
-    "_run_id": 1056
+    "_run_id": 1077
   },
   "8_risk_analysis": {
     "classification": "LOW",
@@ -512,10 +521,10 @@
       "promoter selling (source unavailable)"
     ],
     "shares_outstanding_growth_yoy": 0.0,
-    "atr_pct_of_price": 0.03611751057132055,
+    "atr_pct_of_price": 0.036262192376867626,
     "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
     "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
-    "_run_id": 1055
+    "_run_id": 1076
   },
   "9_fundamental_score": 67.0,
   "10_technical_score": 56.0,
@@ -525,17 +534,17 @@
     "technical_view": {
       "timeframe": "daily",
       "trend": "bullish",
-      "rsi_14": 72.03531018125648,
-      "macd_histogram": 10.929628514727789,
+      "rsi_14": 71.7604535634046,
+      "macd_histogram": 10.888145475197902,
       "breakout": false,
       "breakdown": false
     },
     "entry_zone": {
       "low": 545.0,
-      "high": 557.75,
+      "high": 557.79,
       "basis": "near identified support plus half ATR buffer"
     },
-    "invalidation_level": 494.0
+    "invalidation_level": 493.84
   },
   "13_long_term_assessment": {
     "score": 63.7,
@@ -545,14 +554,14 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 624.1194344350866,
+      "ema_200_daily": 624.1129665304691,
       "price_vs_ema_200": "above"
     },
     "business_classification": "average"
   },
   "14_investment_thesis": "Banco Products (India) Limited (BANCOINDIA) is classified as a 'average' business with a bullish technical trend. Balanced research score 61.5/100 (fundamental 67.0, technical 56.0, data confidence 72.0, risk 0/100 higher=worse). Supporting evidence: ROE 28.6% (>15%): capital allocated effectively.",
   "15_thesis_invalidation": [
-    "Daily close below invalidation level 494.0 (2x ATR under support)",
+    "Daily close below invalidation level 493.84 (2x ATR under support)",
     "Operating cash flow turning negative in the next annual report",
     "New critical governance or regulatory finding (currently unassessed items must be checked manually)"
   ],
@@ -592,7 +601,7 @@
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-19 14:58 IST",
+    "generated_at": "2026-11-19 15:36 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-19 14:11 IST"
   }

@@ -1,0 +1,309 @@
+{
+  "1_company_profile": {
+    "symbol": "ENDURANCE",
+    "exchange": "NSE",
+    "name": "Endurance Technologies Limited",
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": 364851298304,
+    "website": "https://www.endurancegroup.com"
+  },
+  "2_source_and_timestamp": {
+    "generated_at": "2026-11-19 10:06:29.476498+00:00",
+    "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
+    "agent_statuses": {
+      "fundamental": "success",
+      "technical": "success",
+      "business": "success",
+      "valuation": "success",
+      "risk": "success",
+      "news": "success",
+      "scoring": "success"
+    }
+  },
+  "3_financial_analysis": {
+    "is_financial_sector": false,
+    "growth": {
+      "sales_growth_1y": 0.26104968974687287,
+      "sales_cagr_3y": 0.18233533922890688,
+      "sales_cagr_5y": null,
+      "profit_growth_1y": 0.1379326836850601,
+      "profit_cagr_3y": 0.2566549098250819,
+      "profit_cagr_5y": null,
+      "eps_growth_1y": 0.13790783720147992
+    },
+    "profitability": {
+      "roe": 0.13912221049523302,
+      "roce": 0.16328292202735728,
+      "operating_margin": 0.0864862603165305,
+      "net_margin": 0.06636819771475992,
+      "gross_margin": 0.38374948134046033
+    },
+    "balance_sheet": {
+      "total_debt": 13266600000.0,
+      "debt_to_equity": 0.19393289108615633,
+      "interest_coverage": 23.591190518308863,
+      "current_ratio": 1.5529526895958927,
+      "working_capital": 19041700000.0
+    },
+    "cash_flow": {
+      "operating_cash_flow": 18507200000.0,
+      "free_cash_flow": 5549100000.0,
+      "ocf_to_net_profit": 1.944625989009257,
+      "fcf_conversion": 0.2998346589435463
+    },
+    "ownership": {
+      "promoter_or_insider_holding_pct": 0.75001,
+      "institutional_holding_pct": 0.20547001,
+      "promoter_pledge_pct": null
+    },
+    "red_flags": [],
+    "annual_periods": [
+      "2022-03-31",
+      "2023-03-31",
+      "2024-03-31",
+      "2025-03-31",
+      "2026-03-31"
+    ],
+    "quarterly_periods": [
+      "2025-09-30",
+      "2025-12-31",
+      "2026-03-31",
+      "2026-06-30",
+      "2026-09-30"
+    ],
+    "_run_id": 1114
+  },
+  "4_technical_analysis": {
+    "assessment": "sideways",
+    "daily": {
+      "timeframe": "1d",
+      "last_close": 2593.800048828125,
+      "emas": {
+        "ema_20": 2478.279748336883,
+        "ema_50": 2525.772990075587,
+        "ema_100": 2581.1199233167445,
+        "ema_200": 2590.9024941734847
+      },
+      "smas": {
+        "sma_20": 2421.535009765625,
+        "sma_50": 2519.777998046875,
+        "sma_100": 2666.0660009765625,
+        "sma_200": 2575.388503417969
+      },
+      "rsi_14": 61.73530072965318,
+      "macd": {
+        "macd_line": 16.188230279875825,
+        "signal_line": -7.533565209508277,
+        "histogram": 23.7217954893841
+      },
+      "adx_14": 27.534785923247192,
+      "atr_14": 76.61080020535249,
+      "bollinger": {
+        "middle": 2421.535009765625,
+        "upper": 2658.7760287163323,
+        "lower": 2184.293990814918
+      },
+      "volume_sma_20": 103370.1,
+      "relative_volume": 2.4087719756486643,
+      "support": 2202.0,
+      "resistance": 2823.0,
+      "price_structure": {
+        "structure": "downtrend (lower highs, lower lows)",
+        "higher_highs": false,
+        "higher_lows": false,
+        "lower_highs": true,
+        "lower_lows": true
+      },
+      "trend": "sideways",
+      "trend_strength": "strong",
+      "breakout": false,
+      "breakdown": false,
+      "momentum_divergence": null,
+      "entry_zone": {
+        "low": 2202.0,
+        "high": 2240.31,
+        "basis": "near identified support plus half ATR buffer"
+      },
+      "invalidation_level": 2048.78,
+      "atr_risk_distance": 76.61080020535249,
+      "provisional_last_bar": true
+    },
+    "short_term_report": {
+      "timeframe": "daily",
+      "trend": "sideways",
+      "rsi_14": 61.73530072965318,
+      "macd_histogram": 23.7217954893841,
+      "breakout": false,
+      "breakdown": false
+    },
+    "long_term_report": {
+      "timeframes": [
+        "weekly",
+        "monthly"
+      ],
+      "trend": "sideways",
+      "ema_200_daily": 2590.9024941734847,
+      "price_vs_ema_200": "above"
+    }
+  },
+  "5_business_quality": {
+    "classification": "insufficient_evidence",
+    "positive_evidence_count": 0,
+    "negative_evidence_count": 0,
+    "evidence": [],
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": 364851298304,
+    "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
+    "unassessed_areas": [
+      "business model detail (needs annual report reading)",
+      "industry growth rate",
+      "market share and competitor comparison",
+      "customer concentration",
+      "supplier dependency",
+      "expansion projects / order book",
+      "management quality and corporate governance depth"
+    ],
+    "_run_id": 1116
+  },
+  "6_valuation": {
+    "multiples": {
+      "pe_trailing": 35.88048,
+      "pe_forward": 26.47147,
+      "pb": 5.0505285,
+      "ev_ebitda": 16.309,
+      "ev_sales": 2.044,
+      "peg": null,
+      "dividend_yield": 0.47,
+      "industry_pe": null
+    },
+    "valuation_view_vs_industry": null,
+    "dcf": {
+      "scenarios": {
+        "bear": 482.861013645691,
+        "base": 639.4768238288802,
+        "bull": 736.8721665417197
+      },
+      "assumptions": {
+        "base_fcf": 5549100000.0,
+        "growth_rates": {
+          "bear": 0.04,
+          "base": 0.08,
+          "bull": 0.1
+        },
+        "cost_of_equity": 0.13,
+        "terminal_growth": 0.05,
+        "projection_years": 10,
+        "shares_outstanding": 140662848
+      }
+    },
+    "dcf_not_calculated_reason": null,
+    "margin_of_safety_vs_base_case": -3.056128310167201,
+    "current_price": 2593.800048828125,
+    "_run_id": 1117
+  },
+  "7_news_intelligence": {
+    "items": [],
+    "stored_new": 0,
+    "duplicates_skipped": 27,
+    "note": "headlines are unverified signals, not confirmed financial evidence",
+    "_run_id": 1119
+  },
+  "8_risk_analysis": {
+    "classification": "LOW",
+    "findings": [],
+    "unassessed_governance_items": [
+      "auditor resignation history",
+      "qualified audit opinions",
+      "related-party transactions",
+      "regulatory actions",
+      "promoter pledging (source unavailable)",
+      "promoter selling (source unavailable)"
+    ],
+    "shares_outstanding_growth_yoy": 0.0,
+    "atr_pct_of_price": 0.0295361241279817,
+    "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
+    "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
+    "_run_id": 1118
+  },
+  "9_fundamental_score": 61.0,
+  "10_technical_score": 60.0,
+  "11_data_confidence": 72.0,
+  "12_short_term_assessment": {
+    "score": 60.3,
+    "technical_view": {
+      "timeframe": "daily",
+      "trend": "sideways",
+      "rsi_14": 61.73530072965318,
+      "macd_histogram": 23.7217954893841,
+      "breakout": false,
+      "breakdown": false
+    },
+    "entry_zone": {
+      "low": 2202.0,
+      "high": 2240.31,
+      "basis": "near identified support plus half ATR buffer"
+    },
+    "invalidation_level": 2048.78
+  },
+  "13_long_term_assessment": {
+    "score": 60.7,
+    "trend": {
+      "timeframes": [
+        "weekly",
+        "monthly"
+      ],
+      "trend": "sideways",
+      "ema_200_daily": 2590.9024941734847,
+      "price_vs_ema_200": "above"
+    },
+    "business_classification": "insufficient_evidence"
+  },
+  "14_investment_thesis": "Endurance Technologies Limited (ENDURANCE) is classified as a 'insufficient_evidence' business with a sideways technical trend. Balanced research score 60.5/100 (fundamental 61.0, technical 60.0, data confidence 72.0, risk 0/100 higher=worse).",
+  "15_thesis_invalidation": [
+    "Daily close below invalidation level 2048.78 (2x ATR under support)",
+    "Operating cash flow turning negative in the next annual report",
+    "New critical governance or regulatory finding (currently unassessed items must be checked manually)"
+  ],
+  "16_missing_evidence": {
+    "fundamental_gaps": [],
+    "unassessed_governance": [
+      "auditor resignation history",
+      "qualified audit opinions",
+      "related-party transactions",
+      "regulatory actions",
+      "promoter pledging (source unavailable)",
+      "promoter selling (source unavailable)"
+    ],
+    "valuation_gaps": null,
+    "business_unassessed": [
+      "business model detail (needs annual report reading)",
+      "industry growth rate",
+      "market share and competitor comparison",
+      "customer concentration",
+      "supplier dependency",
+      "expansion projects / order book",
+      "management quality and corporate governance depth"
+    ]
+  },
+  "17_sources": [
+    "yahoo_finance (prices, statements, profile)",
+    "rss_news (headlines, unverified)"
+  ],
+  "labels": [
+    "neutral"
+  ],
+  "combined_scores": {
+    "long_term": 60.7,
+    "short_term": 60.3,
+    "balanced": 60.5,
+    "risk_score_higher_is_worse": 0
+  },
+  "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
+  "automation": {
+    "generated_at": "2026-11-19 15:36 IST",
+    "source": "scheduled GitHub Actions run",
+    "rotation_data_date": "2026-11-19 15:33 IST"
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "symbol": "EIHOTEL",
+  "exchange": "NSE",
+  "updated_at": "2026-11-19 15:31 IST",
+  "status": "partial",
+  "agent_statuses": {
+    "fundamental": "success",
+    "technical": "success",
+    "business": "success",
+    "valuation": "success",
+    "risk": "success",
+    "news": "failed",
+    "scoring": "success"
+  },
+  "name": "EIH Limited",
+  "scores": {
+    "fundamental": 59.0,
+    "technical": 68.0,
+    "data_confidence": 70.0,
+    "risk": 0.0,
+    "long_term": 61.7,
+    "short_term": 65.3,
+    "balanced": 63.5
+  },
+  "classification": "strong_technical_trend",
+  "explanation": {
+    "fundamental": {
+      "growth": {
+        "points": 8.0,
+        "max": 20,
+        "detail": [
+          "sales_cagr_3y: 3.0/5 (value 0.133 vs threshold 0.08)",
+          "sales_cagr_5y: 0.0/5 (missing input: 0 points)",
+          "profit_cagr_3y: 5.0/5 (value 0.259 vs threshold 0.15)",
+          "profit_cagr_5y: 0.0/5 (missing input: 0 points)"
+        ]
+      },
+      "roe_roce": {
+        "points": 8,
+        "max": 15,
+        "detail": [
+          "roe: 3/8 (value 0.119 vs threshold 0.1)",
+          "roce: 5/7 (value 0.176 vs threshold 0.15)"
+        ]
+      },
+      "debt_balance_sheet": {
+        "points": 15,
+        "max": 15,
+        "detail": [
+          "debt/equity: 8/8 (value 0.048 vs threshold 0.25)",
+          "interest cover: 4/4 (value 45.9 vs threshold 8)",
+          "current ratio: 3/3 (value 2.69 vs threshold 1.5)"
+        ]
+      },
+      "cash_flow": {
+        "points": 15.0,
+        "max": 15,
+        "detail": [
+          "positive OCF: 5.0/5",
+          "positive FCF: 5.0/5",
+          "OCF/net profit: 5/5 (value 1.58 vs threshold 1)"
+        ]
+      },
+      "management_promoter": {
+        "points": 10.0,
+        "max": 15,
+        "detail": [
+          "insider holding 70.7%: 10/10",
+          "promoter pledge unavailable from free sources: 0/5"
+        ]
+      },
+      "valuation": {
+        "points": 3,
+        "max": 10,
+        "detail": [
+          "P/E 26.7 (no industry benchmark): value 26.7 vs threshold 40"
+        ]
+      },
+      "industry_growth": {
+        "points": 0.0,
+        "max": 10,
+        "detail": [
+          "industry growth unavailable from free sources: 0/10"
+        ]
+      }
+    },
+    "technical": {
+      "long_term_trend": {
+        "points": 10,
+        "max": 20,
+        "detail": [
+          "long-term trend: sideways"
+        ]
+      },
+      "ema_alignment": {
+        "points": 8,
+        "max": 15,
+        "detail": [
+          "price above EMA50, partial alignment"
+        ]
+      },
+      "momentum": {
+        "points": 15.0,
+        "max": 15,
+        "detail": [
+          "RSI 56: 7/7 (value 56.2 vs threshold 55)",
+          "MACD histogram positive: 8.0/8"
+        ]
+      },
+      "volume": {
+        "points": 15,
+        "max": 15,
+        "detail": [
+          "relative volume: value 3.07 vs threshold 1.5"
+        ]
+      },
+      "price_structure": {
+        "points": 10,
+        "max": 10,
+        "detail": [
+          "uptrend (higher highs, higher lows)"
+        ]
+      },
+      "support_resistance": {
+        "points": 10,
+        "max": 10,
+        "detail": [
+          "price mid-range between S/R (64% of range)"
+        ]
+      },
+      "breakout_confirmation": {
+        "points": 0,
+        "max": 15,
+        "detail": [
+          "last bar provisional (intraday): breakout confirmation withheld"
+        ]
+      }
+    },
+    "data_confidence": {
+      "source_reliability": {
+        "points": 10,
+        "max": 25,
+        "detail": [
+          "yahoo_finance: ok",
+          "nse_archives: failed/unused",
+          "bse_site: failed/unused",
+          "rss_news: failed/unused"
+        ]
+      },
+      "completeness": {
+        "points": 25.0,
+        "max": 25,
+        "detail": [
+          "0 fundamental metrics missing"
+        ]
+      },
+      "reporting_period": {
+        "points": 20,
+        "max": 20,
+        "detail": [
+          "5 annual periods available (value 5 vs threshold 4)"
+        ]
+      },
+      "freshness_depth": {
+        "points": 15,
+        "max": 15,
+        "detail": [
+          "1236 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+        ]
+      },
+      "cross_source_consistency": {
+        "points": 0.0,
+        "max": 15,
+        "detail": [
+          "not checked: no comparable same-company, same-period values from a second source"
+        ]
+      }
+    },
+    "risk": {
+      "findings_contribution": {
+        "points": 0,
+        "max": 100,
+        "detail": [
+          "no findings"
+        ]
+      },
+      "classification": "LOW",
+      "unassessed_items": [
+        "auditor resignation history",
+        "qualified audit opinions",
+        "related-party transactions",
+        "regulatory actions",
+        "promoter pledging (source unavailable)",
+        "promoter selling (source unavailable)"
+      ]
+    },
+    "labels": [
+      "strong_technical_trend"
+    ],
+    "weights": {
+      "long_term": "0.7F+0.3T",
+      "short_term": "0.7T+0.3F",
+      "balanced": "0.5L+0.5S"
+    }
+  },
+  "technical_daily": {
+    "rsi_14": 56.198834075498425,
+    "breakout": false,
+    "breakdown": false,
+    "support": 281.20001220703125,
+    "resistance": 326.0,
+    "trend": "sideways"
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "symbol": "EXXARO",
+  "exchange": "NSE",
+  "updated_at": "2026-11-19 15:35 IST",
+  "status": "complete",
+  "agent_statuses": {
+    "fundamental": "success",
+    "technical": "success",
+    "business": "success",
+    "valuation": "success",
+    "risk": "success",
+    "news": "success",
+    "scoring": "success"
+  },
+  "name": "Exxaro Tiles Limited",
+  "scores": {
+    "fundamental": 34.0,
+    "technical": 19.0,
+    "data_confidence": 72.0,
+    "risk": 0.0,
+    "long_term": 29.5,
+    "short_term": 23.5,
+    "balanced": 26.5
+  },
+  "classification": "attractive_valuation",
+  "explanation": {
+    "fundamental": {
+      "growth": {
+        "points": 0.0,
+        "max": 20,
+        "detail": [
+          "sales_cagr_3y: 0.0/5 (value -0.0139 below all bands)",
+          "sales_cagr_5y: 0.0/5 (missing input: 0 points)",
+          "profit_cagr_3y: 0.0/5 (value -0.27 below all bands)",
+          "profit_cagr_5y: 0.0/5 (missing input: 0 points)"
+        ]
+      },
+      "roe_roce": {
+        "points": 0.0,
+        "max": 15,
+        "detail": [
+          "roe: 0.0/8 (value 0.0101 below all bands)",
+          "roce: 0.0/7 (value 0.0399 below all bands)"
+        ]
+      },
+      "debt_balance_sheet": {
+        "points": 9.0,
+        "max": 15,
+        "detail": [
+          "debt/equity: 6/8 (value 0.333 vs threshold 0.5)",
+          "interest cover: 0.0/4 (value 1.37 below all bands)",
+          "current ratio: 3/3 (value 1.7 vs threshold 1.5)"
+        ]
+      },
+      "cash_flow": {
+        "points": 15.0,
+        "max": 15,
+        "detail": [
+          "positive OCF: 5.0/5",
+          "positive FCF: 5.0/5",
+          "OCF/net profit: 5/5 (value 11.6 vs threshold 1)"
+        ]
+      },
+      "management_promoter": {
+        "points": 10.0,
+        "max": 15,
+        "detail": [
+          "insider holding 71.3%: 10/10",
+          "promoter pledge unavailable from free sources: 0/5"
+        ]
+      },
+      "valuation": {
+        "points": 0.0,
+        "max": 10,
+        "detail": [
+          "P/E 51.3 (no industry benchmark): value 51.3 below all bands"
+        ]
+      },
+      "industry_growth": {
+        "points": 0.0,
+        "max": 10,
+        "detail": [
+          "industry growth unavailable from free sources: 0/10"
+        ]
+      }
+    },
+    "technical": {
+      "long_term_trend": {
+        "points": 10,
+        "max": 20,
+        "detail": [
+          "long-term trend: sideways"
+        ]
+      },
+      "ema_alignment": {
+        "points": 0,
+        "max": 15,
+        "detail": [
+          "below key EMAs"
+        ]
+      },
+      "momentum": {
+        "points": 0.0,
+        "max": 15,
+        "detail": [
+          "RSI 44: 0.0/7 (value 44.3 below all bands)",
+          "MACD histogram non-positive/missing: 0.0/8"
+        ]
+      },
+      "volume": {
+        "points": 0.0,
+        "max": 15,
+        "detail": [
+          "relative volume: value 0.181 below all bands"
+        ]
+      },
+      "price_structure": {
+        "points": 5,
+        "max": 10,
+        "detail": [
+          "consolidation / mixed"
+        ]
+      },
+      "support_resistance": {
+        "points": 4,
+        "max": 10,
+        "detail": [
+          "near support: watch for breakdown or bounce confirmation"
+        ]
+      },
+      "breakout_confirmation": {
+        "points": 0,
+        "max": 15,
+        "detail": [
+          "last bar provisional (intraday): breakout confirmation withheld"
+        ]
+      }
+    },
+    "data_confidence": {
+      "source_reliability": {
+        "points": 12,
+        "max": 25,
+        "detail": [
+          "yahoo_finance: ok",
+          "nse_archives: failed/unused",
+          "bse_site: failed/unused",
+          "rss_news: ok"
+        ]
+      },
+      "completeness": {
+        "points": 25.0,
+        "max": 25,
+        "detail": [
+          "0 fundamental metrics missing"
+        ]
+      },
+      "reporting_period": {
+        "points": 20,
+        "max": 20,
+        "detail": [
+          "5 annual periods available (value 5 vs threshold 4)"
+        ]
+      },
+      "freshness_depth": {
+        "points": 15,
+        "max": 15,
+        "detail": [
+          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+        ]
+      },
+      "cross_source_consistency": {
+        "points": 0.0,
+        "max": 15,
+        "detail": [
+          "not checked: no comparable same-company, same-period values from a second source"
+        ]
+      }
+    },
+    "risk": {
+      "findings_contribution": {
+        "points": 0,
+        "max": 100,
+        "detail": [
+          "no findings"
+        ]
+      },
+      "classification": "LOW",
+      "unassessed_items": [
+        "auditor resignation history",
+        "qualified audit opinions",
+        "related-party transactions",
+        "regulatory actions",
+        "promoter pledging (source unavailable)",
+        "promoter selling (source unavailable)"
+      ]
+    },
+    "labels": [
+      "attractive_valuation"
+    ],
+    "weights": {
+      "long_term": "0.7F+0.3T",
+      "short_term": "0.7T+0.3F",
+      "balanced": "0.5L+0.5S"
+    }
+  },
+  "technical_daily": {
+    "rsi_14": 44.268036609837495,
+    "breakout": false,
+    "breakdown": false,
+    "support": 5.989999771118164,
+    "resistance": 6.900000095367432,
+    "trend": "bearish"
+  }
+}
