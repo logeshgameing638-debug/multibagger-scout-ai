@@ -137,6 +137,33 @@ def render_building_overview(st) -> None:
 
 # ---------------------------------------------------------------- Floor 00
 
+
+
+def _render_automation_feed(st) -> None:
+    """Scheduled automation feed (market-data-only alerts from GitHub Actions
+    rotation runs). Shown with its run timestamps; cadence is the scheduled
+    batch cadence, not continuous monitoring."""
+    from services import snapshots as snapshot_service
+
+    feed = snapshot_service.load_automation_feed()
+    st.subheader("Automated research alerts (scheduled runs)")
+    if not feed:
+        st.caption("No scheduled automation run has committed alerts yet - the "
+                   "evening rotation job writes this feed after each batch.")
+        return
+    stats = feed.get("stats", {})
+    st.caption(
+        f"Last automation run {feed.get('generated_at', 'unknown')} - "
+        f"scanned {stats.get('snapshots_scanned', 0)} universe snapshots, "
+        f"{stats.get('new_alerts', 0)} new alerts this run. Scheduled-batch "
+        "automation (about one batch per weekday evening IST; runs can be "
+        "delayed), not continuous monitoring. Market-derived research only.")
+    alerts = feed.get("alerts", [])
+    if alerts:
+        st.dataframe(pd.DataFrame(alerts), hide_index=True, use_container_width=True)
+    else:
+        st.caption("No alerts from the latest automation checks.")
+
 def render_floor00(st) -> None:
     _floor_chrome(st, 0)
     status = building_service.command_status()
@@ -161,6 +188,8 @@ def render_floor00(st) -> None:
         st.dataframe(pd.DataFrame(status["sources"]), hide_index=True,
                      use_container_width=True)
     system.render_source_health(st)
+
+    _render_automation_feed(st)
 
     st.subheader("Global activity log")
     events = building_service.activity_log(30)
@@ -321,6 +350,7 @@ def render_floor04(st) -> None:
 
 def render_floor05(st) -> None:
     _floor_chrome(st, 5)
+    _render_automation_feed(st)
     tab_alerts, tab_news = st.tabs(["Alerts", "News monitor"])
     with tab_alerts:
         system.render_alerts(st)
