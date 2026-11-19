@@ -163,10 +163,35 @@ def main() -> None:
                   "reported (Rs crore), not independently audited by us."),
         "profiles": dict(existing),
     }
+    prev_streak = 0
+    if OUT.exists():
+        try:
+            prev_streak = int(json.loads(OUT.read_text()).get("blocked_streak", 0))
+        except Exception:
+            prev_streak = 0
+    if prev_streak >= 2:
+        feed["blocked_streak"] = prev_streak
+        feed["coverage"] = (f"{sum(1 for v in feed['profiles'].values() if v.get('status') == 'ok')}"
+                            f"/{len(feed['profiles'])} profiled companies (source fetch paused: "
+                            f"blocked {prev_streak} consecutive runs; awaiting a working access path)")
+        OUT.write_text(json.dumps(feed, indent=1))
+        print(json.dumps({"paused": True, "blocked_streak": prev_streak}))
+        return
     symbols = ranked_symbols(limit, feed["profiles"])
-    done = kept = 0
+    done = kept = blocked_hits = 0
+    tripped = False
     for sym in symbols:
+        if tripped:
+            break
         prof, outcome = profile_symbol(sym)
+        if outcome == "blocked":
+            blocked_hits += 1
+            if blocked_hits >= 3:
+                # The source is bot-walling automated fetches. Stop now; do
+                # not pace through it. Retry only on a future run, never
+                # inside this one, and only while blocks are not persistent
+                # (see blocked_streak below).
+                tripped = True
         if outcome in ("blocked", "error") and feed["profiles"].get(sym, {}).get("status") == "ok":
             kept += 1  # transient failure: keep last good with its own fetched_at
         else:
@@ -177,7 +202,10 @@ def main() -> None:
     if kept:
         print(f"kept {kept} last-good profiles after transient fetch failures")
     ok = sum(1 for v in feed["profiles"].values() if v.get("status") == "ok")
+    feed["blocked_streak"] = (prev_streak + 1) if (tripped or blocked_hits >= 3) else 0
     note = f"; {kept} last-good kept on transient fetch failure" if kept else ""
+    if tripped:
+        note += "; stopped early: source bot-walling (circuit breaker)"
     feed["coverage"] = f"{ok}/{len(feed['profiles'])} profiled companies (batch of {done} this run{note})"
     OUT.write_text(json.dumps(feed, indent=1))
     print(json.dumps({"written": str(OUT), "coverage": feed["coverage"]}))
