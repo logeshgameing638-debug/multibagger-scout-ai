@@ -66,7 +66,8 @@ function setMeta(id, text) {
 function renderManifest(manifest) {
   setMeta("reports-meta",
     `Reports generated ${manifest.generated_at || "unknown"} by the scheduled automation run ` +
-    `(market-derived research only; not continuous monitoring).`);
+    `(market-derived research only; not continuous monitoring). ` +
+    `A generated status means the run completed; each report names its own missing evidence.`);
   const rows = manifest.reports || [];
   const head = document.querySelector("#reports-table thead");
   const body = document.querySelector("#reports-table tbody");
@@ -79,7 +80,7 @@ function renderManifest(manifest) {
     tr.innerHTML =
       `<td><strong>${esc(r.symbol)}</strong></td>` +
       `<td><span class="badge exchange">${esc(r.exchange || "NSE")}</span></td>` +
-      `<td><span class="badge ${esc(r.status)}">${esc(r.status)}</span></td>` +
+      `<td><span class="badge ${esc(r.status)}">${r.status === "success" ? "generated" : esc(r.status)}</span></td>` +
       `<td>${ok ? "Open narrative report" : esc(r.note || r.error || "unavailable")}</td>`;
     if (ok) tr.addEventListener("click", () => openReport(r));
     body.appendChild(tr);
@@ -158,9 +159,13 @@ async function openReport(row) {
       ["Long term", combined.long_term],
       ["Short term", combined.short_term],
       ["Balanced", combined.balanced],
-      ["Risk (higher=worse)", combined.risk_score_higher_is_worse],
-    ].map(([label, v]) =>
-      `<div class="score-card"><span class="label">${label}</span><span class="value">${fmtScore(v)}</span></div>`
+      ["Risk (higher=worse)", combined.risk_score_higher_is_worse,
+        (risk.unassessed_governance_items || []).length
+          ? `${risk.unassessed_governance_items.length} governance items not assessed - score covers quantitative checks only`
+          : ""],
+    ].map(([label, v, note]) =>
+      `<div class="score-card"><span class="label">${label}</span><span class="value">${fmtScore(v)}</span>` +
+      `${note ? `<span class="card-note">${esc(note)}</span>` : ""}</div>`
     ).join("");
 
     const invalidation = (r["15_thesis_invalidation"] || [])
@@ -216,7 +221,7 @@ async function boot() {
   try {
     const manifest = await fetchJson(FEEDS.manifest);
     renderManifest(manifest);
-    status.textContent = `Research current as of ${manifest.generated_at || "latest run"}`;
+    status.textContent = `Latest batch generated ${manifest.generated_at || "unknown"}; each stock keeps its own data date`;
     status.classList.add("ok");
   } catch (err) {
     failures++;
