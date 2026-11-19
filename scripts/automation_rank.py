@@ -48,8 +48,14 @@ def build_ranking(snapshots: dict[str, dict], state: dict, now: str) -> dict:
             continue
         missing_agents = [name for name, st in (snap.get("agent_statuses") or {}).items()
                           if st != "success"]
+        classification = snap.get("classification") or "unclassified"
+        verdict = (f"{classification} - balanced {balanced:.1f}, "
+                   f"stored risk {scores.get('risk') if scores.get('risk') is not None else 'n/a'}"
+                   + (", partial data" if status == "partial" else ""))
         ranked.append({
             "symbol": symbol,
+            "exchange": snap.get("exchange", "NSE"),
+            "verdict": verdict,
             "name": snap.get("name"),
             "balanced": balanced,
             "long_term": scores.get("long_term"),
