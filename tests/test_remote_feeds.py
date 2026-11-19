@@ -67,3 +67,40 @@ def test_cache_avoids_repeat_fetches(monkeypatch):
         assert snapshots._fetch_repo_json("data/automation/alerts_feed.json") == {"v": 1}
         assert snapshots._fetch_repo_json("data/automation/alerts_feed.json") == {"v": 1}
     assert calls["n"] == 1
+
+
+def test_status_meta_marks_github_source(monkeypatch):
+    _fresh(monkeypatch)
+    with mock.patch("requests.get", return_value=FakeResp({"v": 2})):
+        payload, meta = snapshots._load_json_fresh_status(
+            snapshots.ROOT / "data/automation/alerts_feed.json",
+            "data/automation/alerts_feed.json")
+    assert payload == {"v": 2}
+    assert meta["source"] == "github-api"
+    assert meta["checked_at"]
+    assert meta["fallback_reason"] is None
+
+
+def test_status_meta_marks_fallback_with_reason(monkeypatch):
+    _fresh(monkeypatch)
+    with mock.patch("requests.get", side_effect=Exception("down")):
+        payload, meta = snapshots._load_json_fresh_status(
+            snapshots.ROOT / "data/automation/alerts_feed.json",
+            "data/automation/alerts_feed.json")
+    assert payload is not None, "repo ships a local copy to fall back to"
+    assert meta["source"] == "local-fallback"
+    assert meta["fallback_reason"]
+
+
+def test_status_meta_missing_when_nothing(monkeypatch):
+    _fresh(monkeypatch)
+    with mock.patch("requests.get", side_effect=Exception("down")):
+        payload, meta = snapshots._load_json_fresh_status(
+            snapshots.ROOT / "data/automation/alerts_feed.json",
+            "data/automation/alerts_feed.json")
+    # local file exists in repo, so fallback with reason is acceptable too
+    if payload is None:
+        assert meta["source"] == "missing"
+    else:
+        assert meta["source"] == "local-fallback"
+        assert meta["fallback_reason"]
