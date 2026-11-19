@@ -6,6 +6,7 @@ failures raise ConnectorError instead of fabricating values.
 """
 from __future__ import annotations
 
+import time
 from typing import Any
 
 import pandas as pd
@@ -35,12 +36,62 @@ class YFinanceConnector(BaseConnector):
 
         return yf.Ticker(self.ticker_symbol(symbol, exchange))
 
+    # Process-level health cache: the app header probes health on every page
+    # render, and each probe hits Yahoo. Cache the answer so renders reuse it,
+    # and after a rate-limit (HTTP 429) stop probing for the backoff window
+    # instead of amplifying the throttling.
+    _health_checked_at = 0.0
+    _health_ok = False
+    _health_error: str | None = None
+    _health_backoff_until = 0.0
+    HEALTH_TTL_SECONDS = 1800  # at most one real probe per 30 min per process
+    HEALTH_RATE_LIMIT_BACKOFF_SECONDS = 3600
+
+    @staticmethod
+    def _is_rate_limited(error: str | None) -> bool:
+        if not error:
+            return False
+        text = error.lower()
+        return "429" in text or "too many requests" in text or "rate limit" in text
+
+    @staticmethod
+    def _retry_after_seconds(error: str | None, default: float) -> float:
+        """Honor a Retry-After hint when the provider's error carries one."""
+        if error:
+            import re
+            match = re.search(r"retry[- ]after[:\s]+(\d+)", error, re.IGNORECASE)
+            if match:
+                try:
+                    return max(float(match.group(1)), 60.0)
+                except ValueError:
+                    pass
+        return default
+
     def health_check(self) -> ConnectorResult:
+        now = time.time()
+        if now < self._health_backoff_until:
+            return ConnectorResult(ok=False, source=self.name,
+                                   error=self._health_error or "rate-limit backoff active")
+        if now - self._health_checked_at < self.HEALTH_TTL_SECONDS:
+            return ConnectorResult(ok=self._health_ok, source=self.name,
+                                   error=self._health_error)
         try:
             result = self.get_price("RELIANCE", "NSE", use_cache=False)
+            type(self)._health_checked_at = now
+            type(self)._health_ok = result.ok
+            type(self)._health_error = result.error
+            if not result.ok and self._is_rate_limited(result.error):
+                type(self)._health_backoff_until = now + self._retry_after_seconds(
+                    result.error, self.HEALTH_RATE_LIMIT_BACKOFF_SECONDS)
             self.record_health(result.ok, result.error)
             return result
         except Exception as exc:
+            type(self)._health_checked_at = now
+            type(self)._health_ok = False
+            type(self)._health_error = str(exc)
+            if self._is_rate_limited(str(exc)):
+                type(self)._health_backoff_until = now + self._retry_after_seconds(
+                    str(exc), self.HEALTH_RATE_LIMIT_BACKOFF_SECONDS)
             self.record_health(False, str(exc))
             return ConnectorResult(ok=False, source=self.name, error=str(exc))
 
