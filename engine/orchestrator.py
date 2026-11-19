@@ -326,3 +326,226 @@ def research_company(symbol: str, exchange: str = "NSE", generate_report: bool =
         "reports": report_paths,
         "duration_seconds": (datetime.now(timezone.utc) - started).total_seconds(),
     }
+
+
+# ---------------------------------------------------------------------------
+# per-module rerun
+
+RERUNNABLE_AGENTS = (
+    "fundamental_analysis",
+    "technical_analysis",
+    "business_quality",
+    "valuation",
+    "risk_analysis",
+    "news_intelligence",
+    "scoring",
+)
+
+
+def _stored_agent_data(company_id: int) -> dict[str, dict]:
+    """Latest recorded output data per agent for a company (fresh data is
+    fetched only by the agents that consume raw sources; the rest build on
+    these stored outputs)."""
+    import json as _json
+
+    from sqlalchemy import desc as _desc
+
+    from database.models import AgentOutput, AgentRun
+
+    outputs: dict[str, dict] = {}
+    with session_scope() as session:
+        rows = session.execute(
+            select(AgentRun.agent_name, AgentOutput.output_json)
+            .join(AgentOutput, AgentOutput.run_id == AgentRun.id)
+            .where(AgentOutput.company_id == company_id)
+            .order_by(_desc(AgentOutput.created_at))
+        ).all()
+    for agent_name, payload in rows:
+        if agent_name in outputs:
+            continue
+        try:
+            envelope = _json.loads(payload or "{}")
+        except ValueError:
+            envelope = {}
+        data = envelope.get("data")
+        outputs[agent_name] = data if isinstance(data, dict) else {}
+    return outputs
+
+
+def rerun_agent(symbol: str, exchange: str, agent_name: str) -> dict:
+    """Re-run ONE agent for a company already researched at least once.
+
+    Agents that consume raw sources (fundamental, technical, valuation) fetch
+    those fresh; agents that build on other agents (business, risk, scoring)
+    use the latest stored outputs of those agents. A missing upstream output
+    reaches the agent as missing input and is reported by the agent itself -
+    nothing is invented.
+    """
+    exchange = exchange.upper()
+    symbol = symbol.strip().upper()
+    if agent_name not in RERUNNABLE_AGENTS:
+        return {"symbol": symbol, "exchange": exchange, "agent": agent_name,
+                "status": "failed", "error": f"unknown agent '{agent_name}'"}
+
+    registry = default_registry()
+    yf = registry.get("yahoo_finance")
+
+    with session_scope() as session:
+        company = session.scalar(
+            select(Company).where(Company.symbol == symbol, Company.exchange == exchange)
+        )
+        if company is None:
+            return {"symbol": symbol, "exchange": exchange, "agent": agent_name,
+                    "status": "failed",
+                    "error": "company not in database; run full research first"}
+        company_id = company.id
+        company_name = company.name or symbol
+
+    stored = _stored_agent_data(company_id)
+    started = datetime.now(timezone.utc)
+    input_summary = f"{symbol}:{exchange} single-agent rerun"
+
+    info: dict = {}
+    if agent_name in {"fundamental_analysis", "business_quality", "valuation",
+                      "risk_analysis", "scoring"}:
+        info_result = yf.get_info(symbol, exchange)
+        info = info_result.data if info_result.ok else {}
+
+    if agent_name == "fundamental_analysis":
+        statements_result = yf.get_financial_statements(symbol, exchange)
+        statements = statements_result.data if statements_result.ok else {"annual": {}, "quarterly": {}}
+        if statements_result.ok:
+            _store_statements(company_id, statements, yf.name)
+        result = run_recorded(
+            "fundamental_analysis",
+            lambda: fundamental_agent.analyze(statements, info, info.get("sector")),
+            company_id=company_id, input_summary=input_summary,
+            required_keys=["growth", "profitability", "balance_sheet", "cash_flow"],
+        )
+
+    elif agent_name == "technical_analysis":
+        history_result = yf.get_history(symbol, exchange, period="5y", interval="1d")
+        frame = history_result.data["frame"] if history_result.ok else pd.DataFrame()
+        if history_result.ok:
+            _store_prices(company_id, frame, yf.name)
+        result = run_recorded(
+            "technical_analysis",
+            lambda: technical_agent.analyze(frame),
+            company_id=company_id, input_summary=f"{input_summary} rows={len(frame)}",
+            required_keys=["daily", "assessment"],
+        )
+
+    elif agent_name == "business_quality":
+        result = run_recorded(
+            "business_quality",
+            lambda: business_agent.analyze(stored.get("fundamental_analysis", {}), info),
+            company_id=company_id, input_summary=input_summary,
+            required_keys=["classification"],
+        )
+
+    elif agent_name == "valuation":
+        history_result = yf.get_history(symbol, exchange, period="1mo", interval="1d")
+        price = None
+        if history_result.ok and not history_result.data["frame"].empty:
+            price = float(history_result.data["frame"]["close"].iloc[-1])
+        result = run_recorded(
+            "valuation",
+            lambda: valuation_agent.analyze(info, stored.get("fundamental_analysis", {}), price),
+            company_id=company_id, input_summary=input_summary,
+            required_keys=["multiples"],
+        )
+
+    elif agent_name == "risk_analysis":
+        result = run_recorded(
+            "risk_analysis",
+            lambda: risk_agent.analyze(
+                stored.get("fundamental_analysis", {}),
+                stored.get("technical_analysis", {}),
+                stored.get("valuation", {}),
+                info,
+            ),
+            company_id=company_id, input_summary=input_summary,
+            required_keys=["classification", "findings"],
+        )
+
+    elif agent_name == "news_intelligence":
+        result = run_recorded(
+            "news_intelligence",
+            lambda: news_agent.analyze(company_name, symbol, company_id),
+            company_id=company_id, input_summary=input_summary,
+        )
+
+    else:  # scoring
+        # Sources actually verified during THIS rerun: yahoo (info fetch above)
+        # plus whatever evidence exists in stored outputs. The other free
+        # sources are not re-queried by a single-agent rerun, so they are not
+        # claimed.
+        sources_ok = {
+            "yahoo_finance": bool(info),
+            "nse_archives": False,
+            "bse_site": False,
+            "rss_news": bool(stored.get("news_intelligence")),
+        }
+        news_items = int(stored.get("news_intelligence", {}).get("stored_new", 0) or 0)
+        result = run_recorded(
+            "scoring",
+            lambda: scoring_agent.analyze(
+                stored.get("fundamental_analysis", {}),
+                stored.get("technical_analysis", {}),
+                stored.get("business_quality", {}),
+                stored.get("valuation", {}),
+                stored.get("risk_analysis", {}),
+                sources_ok,
+                news_items=news_items,
+            ),
+            company_id=company_id, input_summary=input_summary,
+            required_keys=["fundamental", "technical", "data_confidence", "risk"],
+        )
+        if result.status in {"success", "partial"} and result.data.get("fundamental"):
+            import json as _json
+
+            f_score = result.data["fundamental"]["score"]
+            t_score = result.data["technical"]["score"]
+            dc_score = result.data["data_confidence"]["score"]
+            r_score = result.data["risk"]["score"]
+            combined = combine_scores(f_score, t_score)
+            labels = classify(
+                combined["balanced"], f_score, t_score, r_score,
+                stored.get("risk_analysis", {}).get("classification"), dc_score,
+                stored.get("business_quality", {}).get("classification"),
+                stored.get("valuation", {}).get("margin_of_safety_vs_base_case"),
+            )
+            explanation = {
+                "fundamental": result.data["fundamental"]["explanation"],
+                "technical": result.data["technical"]["explanation"],
+                "data_confidence": result.data["data_confidence"]["explanation"],
+                "risk": result.data["risk"]["explanation"],
+                "labels": labels,
+                "weights": combined.get("weights"),
+                "provenance": "single-agent scoring rerun over stored outputs",
+            }
+            with session_scope() as session:
+                session.add(ResearchScore(
+                    company_id=company_id,
+                    run_id=result.data.get("_run_id"),
+                    fundamental_score=f_score,
+                    technical_score=t_score,
+                    data_confidence=dc_score,
+                    risk_score=r_score,
+                    long_term_score=combined["long_term"],
+                    short_term_score=combined["short_term"],
+                    balanced_score=combined["balanced"],
+                    classification=",".join(labels),
+                    explanation_json=_json.dumps(explanation, default=str),
+                ))
+
+    return {
+        "symbol": symbol,
+        "exchange": exchange,
+        "agent": agent_name,
+        "status": result.status,
+        "error": result.error,
+        "missing": result.missing,
+        "finished_at": str(result.finished_at),
+        "duration_seconds": (datetime.now(timezone.utc) - started).total_seconds(),
+    }
