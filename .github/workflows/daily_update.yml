@@ -30,21 +30,24 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Skip if a batch already completed today
-        # Scheduled slots only. A manual dispatch always runs. If the 18:30
-        # slot succeeded, the 20:00 backup skips; if it failed or never
-        # fired, the backup does the batch. Concurrency group above also
-        # serializes the two slots, so batches never run concurrently.
+      - name: Skip if a batch already committed today
+        # Freshness definition: one committed rotation batch per UTC day.
+        # Checks for a bot rotation commit today, NOT for a green run: a run
+        # can succeed without committing (failed/empty batch) and a skipped
+        # backup run exits green without committing, so run success must
+        # never count as a landed batch. Scheduled slots only; a manual
+        # dispatch always runs. Concurrency group above serializes the two
+        # slots, so batches never run concurrently.
         id: dupcheck
         if: github.event_name == 'schedule'
         run: |
           today=$(date -u +%F)
           resp=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
             -H "Accept: application/vnd.github+json" \
-            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/daily_update.yml/runs?created=${today}&status=success&per_page=10")
-          others=$(echo "$resp" | jq --argjson self "${{ github.run_id }}" '[.workflow_runs[] | select(.id != $self)] | length')
-          echo "successful runs today excluding self: $others"
-          if [ "$others" -gt 0 ]; then echo "skip=true" >> "$GITHUB_OUTPUT"; else echo "skip=false" >> "$GITHUB_OUTPUT"; fi
+            "https://api.github.com/repos/${{ github.repository }}/commits?author=multibagger-scout-bot&since=${today}T00:00:00Z&per_page=5")
+          n=$(echo "$resp" | jq 'length')
+          echo "bot rotation commits today: $n"
+          if [ "$n" -gt 0 ]; then echo "skip=true" >> "$GITHUB_OUTPUT"; else echo "skip=false" >> "$GITHUB_OUTPUT"; fi
 
       - uses: actions/setup-python@v5
         if: steps.dupcheck.outputs.skip != 'true'
