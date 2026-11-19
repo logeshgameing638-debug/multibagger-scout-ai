@@ -44,15 +44,16 @@ def render_stock_scout(st) -> None:
         if outcome.get("error"):
             st.error(outcome["error"])
 
-    st.subheader("Full-market universe (NSE listed equities; BSE pending)")
+    st.subheader("Full-market universe (NSE + BSE listed equities)")
     st.caption(
-        "Loads the official NSE equity master (EQ series). Currently loaded: NSE only - the BSE "
-        "scrip master is unreachable from this environment (block page), so BSE coverage is "
-        "pending, not silently absent; the URL is configurable in settings. Dual-listed "
-        "companies are deduplicated by ISIN. Scanning runs in resumable batches: every stock "
-        "ends up complete, partial or unavailable, and the coverage count below is against the "
-        "whole loaded universe - a batch is never presented as a full-market result. A "
-        "full-market run takes many hours by design to keep provider load bounded."
+        "NSE loads from the official equity master (EQ series); BSE loads from the official "
+        "daily common bhavcopy (all STK instruments), with the scrip-master CSV path as a "
+        "configurable override. Dual-listed companies are deduplicated by ISIN. Per-stock "
+        "fundamentals come from Yahoo Finance (.NS / .BO); symbols Yahoo cannot resolve are "
+        "recorded unavailable, never fabricated. Scanning runs in resumable batches: every "
+        "stock ends up complete, partial or unavailable, and the coverage count below is "
+        "against the whole loaded universe - a batch is never presented as a full-market "
+        "result. A full-market run takes many hours by design to keep provider load bounded."
     )
     from services import universe as universe_service
 
@@ -72,7 +73,8 @@ def render_stock_scout(st) -> None:
         with st.spinner("Fetching BSE scrip master..."):
             result = universe_service.load_bse_universe()
         if result.get("ok"):
-            st.success(f"BSE universe loaded: {result['added']} new scrips.")
+            st.success(f"BSE universe loaded: {result['added']} new, "
+                       f"{result.get('linked_existing', 0)} matched to existing by ISIN.")
         else:
             st.error(f"BSE universe load failed: {result.get('error')} "
                      "(the BSE master URL is configurable in settings)")
