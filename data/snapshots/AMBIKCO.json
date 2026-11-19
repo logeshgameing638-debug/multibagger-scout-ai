@@ -1,0 +1,8 @@
+{
+  "symbol": "AMBIKCO",
+  "exchange": "NSE",
+  "name": "Ambika Cotton Mills Limited",
+  "updated_at": "2026-11-19 09:26 IST",
+  "status": "unavailable",
+  "error": "OperationalError: (sqlite3.OperationalError) no such table: companies\n[SQL: SELECT companies.id, companies.symbol, companies.exchange, companies.name, companies.sector, companies.industry, companies.market_cap, companies.isin, companies.instrument_type, companies.research_status, companies.researche"
+}
