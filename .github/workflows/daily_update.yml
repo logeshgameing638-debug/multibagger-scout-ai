@@ -10,6 +10,10 @@ on:
   schedule:
     # 18:30 IST = 13:00 UTC, Monday-Friday
     - cron: "0 13 * * 1-5"
+    # backup slot 20:00 IST = 14:30 UTC: catches an evening the 18:30
+    # schedule was lost/delayed by the Actions scheduler. The dedupe guard
+    # below ensures only one batch actually runs per day.
+    - cron: "30 14 * * 1-5"
   workflow_dispatch: {}
 
 permissions:
@@ -26,20 +30,40 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Skip if a batch already completed today
+        # Scheduled slots only. A manual dispatch always runs. If the 18:30
+        # slot succeeded, the 20:00 backup skips; if it failed or never
+        # fired, the backup does the batch. Concurrency group above also
+        # serializes the two slots, so batches never run concurrently.
+        id: dupcheck
+        if: github.event_name == 'schedule'
+        run: |
+          today=$(date -u +%F)
+          resp=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/daily_update.yml/runs?created=${today}&status=success&per_page=10")
+          others=$(echo "$resp" | jq --argjson self "${{ github.run_id }}" '[.workflow_runs[] | select(.id != $self)] | length')
+          echo "successful runs today excluding self: $others"
+          if [ "$others" -gt 0 ]; then echo "skip=true" >> "$GITHUB_OUTPUT"; else echo "skip=false" >> "$GITHUB_OUTPUT"; fi
+
       - uses: actions/setup-python@v5
+        if: steps.dupcheck.outputs.skip != 'true'
         with:
           python-version: "3.11"
           cache: pip
 
       - name: Install dependencies
+        if: steps.dupcheck.outputs.skip != 'true'
         run: pip install -r requirements.txt
 
       - name: Refresh BSE universe from latest bhavcopy
+        if: steps.dupcheck.outputs.skip != 'true'
         # public BSE download; refreshes the committed BSE universe to the
         # latest session. Never fails the run: the committed CSV stays in use.
         run: python scripts/update_bse_universe.py
 
       - name: Run one rotation batch
+        if: steps.dupcheck.outputs.skip != 'true'
         env:
           # measured in CI ~3.4 s/stock: 150 finishes in ~5-9 min, well inside the 16-min budget
           MB_BATCH_SIZE: "150"
@@ -47,29 +71,35 @@ jobs:
         run: python scripts/daily_update.py
 
       - name: Run automation alert checks
+        if: steps.dupcheck.outputs.skip != 'true'
         # market-data-only alerts from committed snapshots; no user state
         run: python scripts/automation_alerts.py
 
       - name: Run automated research ranking
+        if: steps.dupcheck.outputs.skip != 'true'
         # ranked candidate feed from committed snapshots; no user state
         run: python scripts/automation_rank.py
 
       - name: Generate narrative reports for top candidates
+        if: steps.dupcheck.outputs.skip != 'true'
         # bounded re-research of top-K with report exports; no user state
         run: python scripts/automation_reports.py
 
       - name: Rebuild cap-sections feed
+        if: steps.dupcheck.outputs.skip != 'true'
         # cap-group sections + Top 50 from snapshots, AMFI cap map and latest
         # bhavcopy close; never fails the run (last good feed stays committed)
         continue-on-error: true
         run: cd scripts && python build_cap_sections.py
 
       - name: Rebuild ETF-sections feed
+        if: steps.dupcheck.outputs.skip != 'true'
         # curated ETF NAV (AMFI) + close (BSE bhavcopy); never fails the run
         continue-on-error: true
         run: cd scripts && python build_etf_sections.py
 
       - name: Commit snapshots
+        if: steps.dupcheck.outputs.skip != 'true'
         run: |
           git config user.name "multibagger-scout-bot"
           git config user.email "logeshgameing638@gmail.com"
