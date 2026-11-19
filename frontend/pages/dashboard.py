@@ -225,13 +225,13 @@ def render_strip(st, view: dict, frame: pd.DataFrame, source: str) -> None:
     if view.get("sector"):
         chips.append(view["sector"])
     cap = view.get("market_cap")
-    cap_txt = f"Market Cap: Rs.{cap / 1e7:,.1f} Cr" if cap else "Market Cap: n/a"
+    cap_txt = f"Market Cap: ₹{cap / 1e7:,.1f} Cr" if cap else "Market Cap: n/a"
 
     price_txt, chg_html, ts_txt = "n/a", "", "no price data"
     if not frame.empty:
         last = frame.iloc[-1]
         price = float(last["close"])
-        price_txt = f"Rs.{price:,.2f}"
+        price_txt = f"₹{price:,.2f}"
         ts_txt = f"As on {frame.index[-1].strftime('%d %b %Y')} ({source})"
         if len(frame) >= 2:
             prev = float(frame["close"].iloc[-2])
@@ -258,16 +258,19 @@ def render_strip(st, view: dict, frame: pd.DataFrame, source: str) -> None:
             f'<div class="mb-card" style="text-align:right;"><div class="mb-price">{price_txt}</div>'
             f'{chg_html}<div class="muted" style="font-size:0.78rem;">{design.esc(ts_txt)}</div></div>',
             unsafe_allow_html=True)
-        bcols = st.columns(3)
+    bcols = st.columns([1, 1.4, 1])
+    with bcols[0]:
         watchlisted = _is_watchlisted(view.get("company_id"))
-        if bcols[0].button("\u2B50 Watchlist" if not watchlisted else "\u2713 Watchlisted",
+        if st.button("\u2B50 Watchlist" if not watchlisted else "\u2713 Watchlisted",
                            key="strip-watch", disabled=not view.get("in_db"),
                            help=None if view.get("in_db") else "Run full research first"):
             _toggle_watchlist(view)
             st.rerun()
-        if bcols[1].button("\U0001F504 Run full research", key="strip-research"):
+    with bcols[1]:
+        if st.button("\U0001F504 Run full research", key="strip-research", use_container_width=True):
             _run_research(view)
-        if bcols[2].button("\U0001F4C4 Export report", key="strip-export",
+    with bcols[2]:
+        if st.button("\U0001F4C4 Export report", key="strip-export",
                            disabled=not _has_reports(view.get("company_id")),
                            help=None if _has_reports(view.get("company_id"))
                            else "Reports exist after a full research run"):
@@ -354,8 +357,8 @@ def render_overview(st, view: dict, frame: pd.DataFrame, source: str) -> None:
                 ("Industry", view.get("industry") or "n/a")]
         if not frame.empty:
             window = frame.tail(250)
-            rows += [("52 Week High", f"Rs.{float(window['high'].max()):,.2f}"),
-                     ("52 Week Low", f"Rs.{float(window['low'].min()):,.2f}")]
+            rows += [("52 Week High", f"₹{float(window['high'].max()):,.2f}"),
+                     ("52 Week Low", f"₹{float(window['low'].min()):,.2f}")]
         outputs = _latest_agent_outputs(view["company_id"]) if view.get("in_db") else {}
         fund = (outputs.get("fundamental_analysis") or {}).get("data") or {}
         val = (outputs.get("valuation") or {}).get("data") or {}
