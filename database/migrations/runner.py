@@ -12,7 +12,12 @@ from sqlalchemy.orm import Session
 
 from database.models import Base, SchemaMigration
 
-MIGRATIONS = ["database.migrations.m001_initial", "database.migrations.m002_universe", "database.migrations.m003_building"]
+MIGRATIONS = [
+    "database.migrations.m001_initial",
+    "database.migrations.m002_universe",
+    "database.migrations.m003_building",
+    "database.migrations.m004_paper_risk",
+]
 
 
 def applied_versions(engine) -> set[int]:
