@@ -90,3 +90,24 @@ def test_scan_universe_resumable_and_statuses(monkeypatch, fresh_db):
 
     progress = universe.universe_progress()
     assert progress["by_status"].get("complete", 0) >= 2
+
+
+def test_load_bse_universe_dedupes_isin(monkeypatch, fresh_db):
+    with session_scope() as session:
+        session.add(Company(symbol="AAA", exchange="NSE", name="Alpha",
+                            isin="INE000A00001", instrument_type="equity"))
+    rows = [
+        {"symbol": "ALPHABSE", "name": "Alpha", "isin": "INE000A00001", "exchange": "BSE"},
+        {"symbol": "ONLYBSE", "name": "Beta", "isin": "INE000B00002", "exchange": "BSE"},
+    ]
+    monkeypatch.setattr(universe, "default_registry", lambda: _StubRegistry(rows))
+    result = universe.load_bse_universe()
+    assert result["ok"] and result["added"] == 1 and result["linked_existing"] == 1
+    with session_scope() as session:
+        assert session.scalar(select(Company).where(
+            Company.symbol == "ALPHABSE", Company.exchange == "BSE")) is None
+        link = session.scalar(select(ExchangeSymbol).where(
+            ExchangeSymbol.exchange == "BSE", ExchangeSymbol.symbol == "ALPHABSE"))
+        assert link is not None
+        assert session.scalar(select(Company).where(
+            Company.symbol == "ONLYBSE", Company.exchange == "BSE")) is not None
