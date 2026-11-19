@@ -160,10 +160,10 @@ def ema_chart(frame: pd.DataFrame, title: str, height: int = 460) -> "object":
     fig.add_trace(go.Bar(x=frame.index, y=frame["volume"], name="Volume",
                          marker_color="rgba(47,123,255,0.25)", yaxis="y2"))
     fig.update_layout(
-        title=dict(text=title, font=dict(size=14, color="#b9c6dd")),
+        title=dict(text=title, font=dict(size=13, color="#b9c6dd"), y=0.99, yanchor="top"),
         template="plotly_dark", paper_bgcolor="#101a33", plot_bgcolor="#101a33",
-        height=height, margin=dict(l=10, r=10, t=36, b=10),
-        legend=dict(orientation="h", y=1.06, font=dict(size=11)),
+        height=height, margin=dict(l=10, r=10, t=64, b=46),
+        legend=dict(orientation="h", y=-0.18, font=dict(size=10)),
         xaxis=dict(rangeslider=dict(visible=False),
                    rangeselector=dict(
                        buttons=[dict(count=1, label="1M", step="month", stepmode="backward"),
@@ -320,7 +320,7 @@ def _run_research(view: dict) -> None:
 def render_overview(st, view: dict, frame: pd.DataFrame, source: str) -> None:
     scores = view.get("scores") or {}
     classification = view.get("classification")
-    left, right = st.columns([2, 1])
+    left, center, right = st.columns([1.05, 1.9, 1.05])
     with left:
         risk_score = scores.get("risk")
         risk_sub = "higher = more risk"
@@ -352,6 +352,12 @@ def render_overview(st, view: dict, frame: pd.DataFrame, source: str) -> None:
                       '<span class="sub">Run full research or wait for this stock\'s rotation refresh.</span></div>')
         st.markdown('<div class="mb-card"><h4>\U0001F3C6 Research Scores</h4>' + rings
                     + '<div style="height:10px;"></div>' + banner + "</div>", unsafe_allow_html=True)
+    with center:
+        if not frame.empty:
+            st.plotly_chart(ema_chart(frame, f"{view['symbol']} ({source})", height=430),
+                            use_container_width=True)
+        else:
+            st.info("No price history available from free sources for this stock yet.")
     with right:
         rows = [("Sector", view.get("sector") or "n/a"),
                 ("Industry", view.get("industry") or "n/a")]
@@ -373,12 +379,6 @@ def render_overview(st, view: dict, frame: pd.DataFrame, source: str) -> None:
         ]
         st.markdown('<div class="mb-card"><h4>\u2139\uFE0F Company Snapshot</h4>'
                     + design.kv(rows) + "</div>", unsafe_allow_html=True)
-
-    if not frame.empty:
-        st.plotly_chart(ema_chart(frame, f"Price Chart - {view['symbol']} ({source})"),
-                        use_container_width=True)
-    else:
-        st.info("No price history available from free sources for this stock yet.")
 
     c1, c2, c3 = st.columns(3)
     with c1:
@@ -418,8 +418,16 @@ def _insights_html(view: dict) -> str:
         for ratio, agent, name, detail in groups[:2]:
             items.append(("ok", f"{agent}: strong {name.replace('_', ' ')} ({detail.get('points')}/{detail.get('max')})"))
         for ratio, agent, name, detail in groups[-2:]:
-            if ratio < 0.45:
-                items.append(("warn", f"{agent}: weak {name.replace('_', ' ')} ({detail.get('points')}/{detail.get('max')})"))
+            detail_txt = " ".join(str(x) for x in (detail.get("detail") or [])).lower()
+            not_assessed = ("unavailable" in detail_txt or "missing" in detail_txt
+                            or "not applied" in detail_txt or "not assessed" in detail_txt)
+            if not_assessed:
+                items.append(("warn", f"{agent}: {name.replace('_', ' ')} not assessed "
+                                      "(no data from free sources; scores 0 under the formula - "
+                                      "missing input, not measured weakness)"))
+            elif ratio < 0.45:
+                items.append(("warn", f"{agent}: weak {name.replace('_', ' ')} "
+                                      f"({detail.get('points')}/{detail.get('max')})"))
     if not items:
         return '<div class="muted">Insights appear after research data exists for this company.</div>'
     lis = "".join(
