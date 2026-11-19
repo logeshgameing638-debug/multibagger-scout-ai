@@ -86,3 +86,17 @@ def load_automation_feed(path: Path = AUTOMATION_FEED_FILE) -> dict | None:
         return json.loads(path.read_text())
     except (ValueError, OSError):
         return None
+
+
+RANKING_FEED_FILE = ROOT / "data" / "automation" / "ranking_feed.json"
+
+
+def load_ranking_feed(path: Path = RANKING_FEED_FILE) -> dict | None:
+    """The committed automated research ranking from scheduled runs
+    (scripts/automation_rank.py). None when no run has committed yet."""
+    if not path.exists():
+        return None
+    try:
+        return json.loads(path.read_text())
+    except (ValueError, OSError):
+        return None
