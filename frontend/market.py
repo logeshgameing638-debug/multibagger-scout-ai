@@ -90,6 +90,6 @@ def render_sidebar_widget(st, levels: dict, status: dict) -> None:
     st.markdown(
         f'<div class="mb-mkt {cls}"><div class="status">\U0001F4E1 Market Status: {status["status"]}</div>'
         + "".join(rows)
-        + f'<div class="ts">{status["note"]}. Now {status["now"].strftime("%d %b %Y, %H:%M IST")}.</div></div>',
+        + f'<div class="ts">{status["note"]}. Now {status["now"].strftime("%d %b %Y, %H:%M IST")}. Quotes may be delayed.</div></div>',
         unsafe_allow_html=True,
     )
