@@ -62,27 +62,45 @@ def load_nse_universe() -> dict:
 
 
 def load_bse_universe() -> dict:
-    """Load BSE scrips from the configurable master CSV. Honest failure when
-    the master is unavailable."""
+    """Load BSE stocks from the connector (configurable master CSV, falling
+    back to the official daily common bhavcopy). Dual-listed companies are
+    deduplicated by ISIN exactly like the NSE loader. Honest failure when no
+    source is reachable."""
     registry = default_registry()
     result = registry.get("bse_site").get_equity_master()
     if not result.ok:
         return {"ok": False, "error": result.error}
-    added = 0
+    added = linked = 0
     with session_scope() as session:
         for row in result.data:
-            code = row["symbol"]
+            symbol = row["symbol"]
+            isin = row.get("isin") or None
             existing = session.scalar(
-                select(Company).where(Company.symbol == code, Company.exchange == "BSE")
+                select(Company).where(Company.symbol == symbol, Company.exchange == "BSE")
             )
+            if existing is None and isin:
+                twin = session.scalar(select(Company).where(Company.isin == isin))
+                if twin is not None:
+                    if session.scalar(
+                        select(ExchangeSymbol).where(
+                            ExchangeSymbol.exchange == "BSE",
+                            ExchangeSymbol.symbol == symbol,
+                        )
+                    ) is None:
+                        session.add(ExchangeSymbol(
+                            company_id=twin.id, exchange="BSE", symbol=symbol,
+                            source="bse_site",
+                        ))
+                    linked += 1
+                    continue
             if existing is None:
                 session.add(Company(
-                    symbol=code, exchange="BSE",
-                    name=row.get("name") or code,
+                    symbol=symbol, exchange="BSE",
+                    name=row.get("name") or symbol, isin=isin,
                     instrument_type="equity",
                 ))
                 added += 1
-    return {"ok": True, "added": added}
+    return {"ok": True, "added": added, "linked_existing": linked}
 
 
 def universe_progress() -> dict:
