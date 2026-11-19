@@ -14,7 +14,13 @@ on:
     # schedule was lost/delayed by the Actions scheduler. The dedupe guard
     # below ensures only one batch actually runs per day.
     - cron: "30 14 * * 1-5"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: "Rotation batch size for this manual run (default 150; small values prove the pipeline with minimal provider load)"
+        required: false
+        default: "150"
+
 
 permissions:
   contents: write
@@ -81,7 +87,7 @@ jobs:
         if: steps.dupcheck.outputs.skip != 'true'
         env:
           # measured in CI ~3.4 s/stock: 150 finishes in ~5-9 min, well inside the 16-min budget
-          MB_BATCH_SIZE: "150"
+          MB_BATCH_SIZE: ${{ github.event.inputs.batch_size || '150' }}
           MB_MAX_MINUTES: "16"
         run: python scripts/daily_update.py
 
