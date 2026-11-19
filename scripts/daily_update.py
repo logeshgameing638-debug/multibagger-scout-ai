@@ -41,6 +41,14 @@ DEFAULT_TIME_BUDGET_MINUTES = 16
 PER_STOCK_SLEEP_SECONDS = 0.5
 
 
+RATE_LIMIT_STOP_AFTER = 5
+
+
+def _is_rate_limit_error(text: str) -> bool:
+    low = text.lower()
+    return "429" in low or "too many requests" in low or "rate limit" in low
+
+
 def load_universe(path: Path | None = None) -> list[dict]:
     """Read the committed NSE universe list (symbol, name, isin).
 
@@ -236,6 +244,8 @@ def run_batch(batch_size: int = DEFAULT_BATCH_SIZE,
 
     complete = partial = unavailable = system_error = skipped_budget = 0
     processed: list[str] = []
+    consecutive_rate_limits = 0
+    stopped_reason: str | None = None
     for row in batch:
         if time.monotonic() - started > budget_seconds:
             skipped_budget += len(batch) - len(processed)
@@ -262,10 +272,26 @@ def run_batch(batch_size: int = DEFAULT_BATCH_SIZE,
         partial += status == "partial"
         unavailable += status == "unavailable"
         system_error += status == "system_error"
+        # Sustained provider rate limiting: stop the batch rather than keep
+        # hammering a throttled provider. A few isolated 429s are tolerated
+        # (the connector's own retry/backoff handles those); five in a row
+        # means the provider is throttling us.
+        error_text = str(snapshot.get("error") or "")
+        if status == "system_error" and _is_rate_limit_error(error_text):
+            consecutive_rate_limits += 1
+        else:
+            consecutive_rate_limits = 0
+        if consecutive_rate_limits >= RATE_LIMIT_STOP_AFTER:
+            stopped_reason = ("provider rate limiting (HTTP 429); batch stopped "
+                              "early to avoid amplifying throttling")
+            skipped_budget += len(batch) - len(processed)
+            break
         if sleep_seconds:
             time.sleep(sleep_seconds)
 
     state["run_count"] = int(state.get("run_count", 0)) + 1
+    if stopped_reason:
+        state["last_run_stopped_reason"] = stopped_reason
     state["last_run_at"] = _now_ist()
     state["last_run"] = {
         "attempted": len(processed),
