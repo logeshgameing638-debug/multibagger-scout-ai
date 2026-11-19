@@ -278,6 +278,37 @@ class Setting(Base):
     value: Mapped[str] = mapped_column(Text, default="")
 
 
+class PaperOrder(Base):
+    """Simulated order for the paper-trading floor. Never reaches a broker:
+    fills are computed from the latest free price feed and marked SIMULATED."""
+    __tablename__ = "paper_orders"
+    id: Mapped[int] = mapped_column(primary_key=True)
+    symbol: Mapped[str] = mapped_column(String(32), index=True)
+    exchange: Mapped[str] = mapped_column(String(8), default="NSE")
+    side: Mapped[str] = mapped_column(String(8))  # BUY / SELL
+    qty: Mapped[int] = mapped_column(Integer)
+    order_type: Mapped[str] = mapped_column(String(16), default="MARKET")  # simulated MARKET only
+    status: Mapped[str] = mapped_column(String(16), default="open")  # open / filled / cancelled
+    fill_price: Mapped[float | None] = mapped_column(Float, nullable=True)
+    stop_loss: Mapped[float | None] = mapped_column(Float, nullable=True)
+    target: Mapped[float | None] = mapped_column(Float, nullable=True)
+    note: Mapped[str] = mapped_column(Text, default="")
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, index=True)
+    filled_at: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)
+
+
+class Decision(Base):
+    """Floor 07 verdict on a researched company."""
+    __tablename__ = "decisions"
+    id: Mapped[int] = mapped_column(primary_key=True)
+    company_id: Mapped[int | None] = mapped_column(ForeignKey("companies.id"), nullable=True, index=True)
+    symbol: Mapped[str] = mapped_column(String(32), index=True)
+    verdict: Mapped[str] = mapped_column(String(16))  # approved / rejected / watchlist / paper_trade
+    rationale: Mapped[str] = mapped_column(Text, default="")
+    balanced_score: Mapped[float | None] = mapped_column(Float, nullable=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, index=True)
+
+
 class SchemaMigration(Base):
     __tablename__ = "schema_migrations"
     version: Mapped[int] = mapped_column(Integer, primary_key=True)
