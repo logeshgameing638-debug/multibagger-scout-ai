@@ -44,7 +44,7 @@ def test_run_batch_records_every_stock_and_state(tmp_path, monkeypatch):
         "symbol,name,isin\nAAA,Alpha,\nBBB,Beta,\nCCC,Gamma,\n"
     )
 
-    def fake_researcher(symbol: str) -> dict:
+    def fake_researcher(symbol: str, exchange: str = "NSE") -> dict:
         if symbol == "BBB":
             raise RuntimeError("provider down")
         return {"symbol": symbol, "status": "complete", "updated_at": "2026-11-19 18:30 IST"}
