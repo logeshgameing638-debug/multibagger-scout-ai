@@ -133,3 +133,34 @@ def test_floor_activity_running_vs_recent(monkeypatch):
     activity = building_service.floor_activity()
     assert activity[2]["running"] is True
     assert activity[4]["running"] is False  # paper floors never show running
+
+
+def test_position_cap_aggregates_existing_holding(monkeypatch):
+    monkeypatch.setattr(paper_trading, "_latest_price", lambda symbol, exchange: (100.0, "2026-11-19"))
+    first = paper_trading.place_order("ZZA", "NSE", "BUY", 2000)   # 200,000 = 20%
+    assert first["ok"]
+    second = paper_trading.place_order("ZZA", "NSE", "BUY", 2000)  # would total 400,000 > 25%
+    assert not second["ok"]
+    assert "existing" in second["gate"]["reasons"][0]
+    third = paper_trading.place_order("ZZA", "NSE", "BUY", 400)    # 240,000 total <= 25%
+    assert third["ok"]
+
+
+def test_stop_target_close_path_synthetic(monkeypatch):
+    """Synthetic prices (test data, not market quotes): breach then close via SELL."""
+    prices = {"value": 100.0}
+    monkeypatch.setattr(paper_trading, "_latest_price",
+                        lambda symbol, exchange: (prices["value"], "2026-11-19"))
+    buy = paper_trading.place_order("ZZS", "NSE", "BUY", 10, stop_loss=95.0, target=110.0)
+    assert buy["ok"]
+    holding = next(h for h in paper_trading.portfolio_summary()["holdings"]
+                   if h["symbol"] == "ZZS")
+    assert holding["stop_loss"] == 95.0 and holding["target"] == 110.0
+    prices["value"] = 94.0  # synthetic breach of the stop-loss
+    summary = paper_trading.portfolio_summary()
+    h = next(x for x in summary["holdings"] if x["symbol"] == "ZZS")
+    assert h["last_price"] == 94.0 and h["last_price"] <= h["stop_loss"]  # breach visible
+    close = paper_trading.place_order("ZZS", "NSE", "SELL", 10, note="SL close")
+    assert close["ok"] and close["fill_price"] == 94.0
+    assert all(x["symbol"] != "ZZS" for x in paper_trading.portfolio_summary()["holdings"])
+    # round trip returned entry minus synthetic loss: -1000 + 940 = -60 net on this symbol
