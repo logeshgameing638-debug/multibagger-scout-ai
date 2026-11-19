@@ -1,0 +1,97 @@
+:root {
+  --bg: #0b1020;
+  --panel: #121a2e;
+  --panel-edge: #1e2a47;
+  --text: #e8ecf6;
+  --muted: #9aa7c7;
+  --accent: #4f8cff;
+  --good: #2fbf8f;
+  --warn: #e0a63f;
+  --bad: #e05f5f;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  line-height: 1.55;
+}
+.site-header {
+  display: flex; flex-wrap: wrap; gap: 1rem; align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 2rem;
+  background: linear-gradient(120deg, #101a36 0%, #0b1020 70%);
+  border-bottom: 1px solid var(--panel-edge);
+}
+.brand { display: flex; gap: 0.9rem; align-items: center; }
+.brand-mark { font-size: 2rem; }
+.site-header h1 { margin: 0; font-size: 1.45rem; letter-spacing: 0.02em; }
+.tagline { margin: 0; color: var(--muted); font-size: 0.85rem; }
+.header-status { font-size: 0.85rem; color: var(--muted); }
+.header-status.ok { color: var(--good); }
+.header-status.stale { color: var(--warn); }
+.site-nav {
+  display: flex; flex-wrap: wrap; gap: 0.4rem;
+  padding: 0.6rem 2rem;
+  background: var(--panel);
+  border-bottom: 1px solid var(--panel-edge);
+  position: sticky; top: 0; z-index: 10;
+}
+.nav-link {
+  color: var(--muted); text-decoration: none; font-size: 0.9rem;
+  padding: 0.35rem 0.9rem; border-radius: 6px;
+}
+.nav-link:hover { color: var(--text); background: var(--panel-edge); }
+main { max-width: 1100px; margin: 0 auto; padding: 1.5rem 1.25rem 3rem; }
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--panel-edge);
+  border-radius: 12px;
+  padding: 1.4rem 1.6rem;
+  margin-bottom: 1.6rem;
+}
+.panel h2 { margin-top: 0; font-size: 1.15rem; }
+.feed-meta { color: var(--muted); font-size: 0.82rem; margin: 0.2rem 0 0.9rem; }
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+th, td { text-align: left; padding: 0.45rem 0.7rem; border-bottom: 1px solid var(--panel-edge); }
+th { color: var(--muted); font-weight: 600; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; }
+tr.clickable { cursor: pointer; }
+tr.clickable:hover td { background: var(--panel-edge); }
+.badge { display: inline-block; padding: 0.1rem 0.55rem; border-radius: 999px; font-size: 0.75rem; }
+.badge.success { background: rgba(47,191,143,.15); color: var(--good); }
+.badge.partial { background: rgba(224,166,63,.15); color: var(--warn); }
+.badge.error, .badge.system_error { background: rgba(224,95,95,.15); color: var(--bad); }
+.badge.exchange { background: rgba(79,140,255,.15); color: var(--accent); }
+.report-view {
+  margin-top: 1.4rem; padding-top: 1.2rem;
+  border-top: 1px solid var(--panel-edge);
+}
+.report-view.hidden { display: none; }
+.report-view h3 { margin-bottom: 0.2rem; }
+.report-scores { display: flex; flex-wrap: wrap; gap: 0.6rem; margin: 0.8rem 0; }
+.score-card {
+  background: var(--bg); border: 1px solid var(--panel-edge);
+  border-radius: 8px; padding: 0.55rem 0.9rem; min-width: 120px;
+}
+.score-card .label { display: block; color: var(--muted); font-size: 0.72rem; text-transform: uppercase; }
+.score-card .value { font-size: 1.05rem; font-weight: 600; }
+.report-view h4 { margin: 1.1rem 0 0.35rem; font-size: 0.95rem; color: var(--accent); }
+.report-view ul { margin: 0.3rem 0 0.6rem; padding-left: 1.2rem; }
+.report-view .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+@media (max-width: 700px) { .report-view .two-col { grid-template-columns: 1fr; } }
+.kv { font-size: 0.86rem; }
+.kv td:first-child { color: var(--muted); }
+.downloads a {
+  display: inline-block; margin-right: 0.6rem; color: var(--accent);
+  text-decoration: none; font-size: 0.85rem;
+}
+.downloads a:hover { text-decoration: underline; }
+.disclaimer { color: var(--muted); font-size: 0.85rem; border-left: 3px solid var(--warn); padding-left: 0.8rem; }
+.site-footer {
+  display: flex; flex-wrap: wrap; gap: 1rem; justify-content: space-between;
+  padding: 1rem 2rem; color: var(--muted); font-size: 0.8rem;
+  border-top: 1px solid var(--panel-edge);
+}
+.error-box { color: var(--bad); font-size: 0.9rem; padding: 0.8rem 0; }
