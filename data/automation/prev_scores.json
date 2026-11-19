@@ -1,0 +1,1877 @@
+{
+  "20MICRONS": {
+    "balanced": 46.0,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 09:36 IST"
+  },
+  "360ONE": {
+    "balanced": 32.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:36 IST"
+  },
+  "3BBLACKBIO": {
+    "balanced": 47.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:36 IST"
+  },
+  "3IINFOLTD": {
+    "balanced": 28.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:36 IST"
+  },
+  "3MINDIA": {
+    "balanced": 43.8,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:36 IST"
+  },
+  "3PLAND": {
+    "balanced": 31.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:36 IST"
+  },
+  "5PAISA": {
+    "balanced": 29.7,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:36 IST"
+  },
+  "63MOONS": {
+    "balanced": 37.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:36 IST"
+  },
+  "A2ZINFRA": {
+    "balanced": 12.8,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:36 IST"
+  },
+  "AAATECH": {
+    "balanced": 30.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:36 IST"
+  },
+  "AADHARHFC": {
+    "balanced": 24.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:36 IST"
+  },
+  "AAKASH": {
+    "balanced": 18.8,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:36 IST"
+  },
+  "AAREYDRUGS": {
+    "balanced": 37.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:36 IST"
+  },
+  "AARON": {
+    "balanced": 41.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:36 IST"
+  },
+  "AARTECH": {
+    "balanced": 41.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:36 IST"
+  },
+  "AARTIDRUGS": {
+    "balanced": 50.7,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:36 IST"
+  },
+  "AARTIIND": {
+    "balanced": 29.7,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:37 IST"
+  },
+  "AARTIPHARM": {
+    "balanced": 43.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:37 IST"
+  },
+  "AARTISURF": {
+    "balanced": 47.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:37 IST"
+  },
+  "AARVI": {
+    "balanced": 34.8,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:37 IST"
+  },
+  "AASTHA": {
+    "balanced": 41.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:37 IST"
+  },
+  "AAVAS": {
+    "balanced": 30.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:37 IST"
+  },
+  "ABANSENT": {
+    "balanced": 28.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:37 IST"
+  },
+  "ABB": {
+    "balanced": 51.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:37 IST"
+  },
+  "ABBOTINDIA": {
+    "balanced": 43.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:37 IST"
+  },
+  "ABCAPITAL": {
+    "balanced": 37.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:37 IST"
+  },
+  "ABCIND": {
+    "balanced": 37.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:37 IST"
+  },
+  "ABDL": {
+    "balanced": 52.8,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:37 IST"
+  },
+  "ABFRL": {
+    "balanced": 16.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:37 IST"
+  },
+  "ABLBL": {
+    "balanced": 33.5,
+    "classification": "high_risk,attractive_valuation",
+    "updated_at": "2026-11-19 09:37 IST"
+  },
+  "ABMKNO": {
+    "balanced": 31.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:37 IST"
+  },
+  "ABREL": {
+    "balanced": 33.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:37 IST"
+  },
+  "ABSLAMC": {
+    "balanced": 40.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:37 IST"
+  },
+  "ACC": {
+    "balanced": 43.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:37 IST"
+  },
+  "ACCELYA": {
+    "balanced": 43.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:37 IST"
+  },
+  "ACCURACY": {
+    "balanced": 29.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:37 IST"
+  },
+  "ACE": {
+    "balanced": 58.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:38 IST"
+  },
+  "ACEINTEG": {
+    "balanced": 22.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:38 IST"
+  },
+  "ACEVECTOR": {
+    "balanced": 17.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:38 IST"
+  },
+  "ACGL": {
+    "balanced": 50.0,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 09:38 IST"
+  },
+  "ACI": {
+    "balanced": 28.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:38 IST"
+  },
+  "ACL": {
+    "balanced": 23.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:38 IST"
+  },
+  "ACMESOLAR": {
+    "balanced": 36.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:38 IST"
+  },
+  "ACUTAAS": {
+    "balanced": 49.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:38 IST"
+  },
+  "ADANIENSOL": {
+    "balanced": 38.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:38 IST"
+  },
+  "ADANIENT": {
+    "balanced": 31.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:38 IST"
+  },
+  "ADANIGREEN": {
+    "balanced": 40.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:38 IST"
+  },
+  "ADANIPORTS": {
+    "balanced": 52.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:38 IST"
+  },
+  "ADANIPOWER": {
+    "balanced": 47.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:38 IST"
+  },
+  "ADDIND": {
+    "balanced": 27.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:38 IST"
+  },
+  "ADFFOODS": {
+    "balanced": 36.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:38 IST"
+  },
+  "ADL": {
+    "balanced": 38.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:38 IST"
+  },
+  "ADOR": {
+    "balanced": 48.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:38 IST"
+  },
+  "ADROITIND": {
+    "balanced": 46.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:38 IST"
+  },
+  "ADSL": {
+    "balanced": 31.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:38 IST"
+  },
+  "ADVAIT": {
+    "balanced": 41.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:38 IST"
+  },
+  "ADVANCE": {
+    "balanced": 36.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:38 IST"
+  },
+  "ADVANIHOTR": {
+    "balanced": 39.8,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:39 IST"
+  },
+  "ADVENTHTL": {
+    "balanced": 30.0,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 09:39 IST"
+  },
+  "ADVENZYMES": {
+    "balanced": 51.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:39 IST"
+  },
+  "ADVIKCA": {
+    "balanced": 23.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:39 IST"
+  },
+  "AEGISLOG": {
+    "balanced": 43.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:39 IST"
+  },
+  "AEGISVOPAK": {
+    "balanced": 40.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:39 IST"
+  },
+  "AEPL": {
+    "balanced": 36.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:39 IST"
+  },
+  "AEQUS": {
+    "balanced": 32.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:39 IST"
+  },
+  "AEROENTER": {
+    "balanced": 51.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:39 IST"
+  },
+  "AEROFLEX": {
+    "balanced": 43.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:39 IST"
+  },
+  "AERONEU": {
+    "balanced": 42.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:39 IST"
+  },
+  "AEROPLANE": {
+    "balanced": 36.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:39 IST"
+  },
+  "AETHER": {
+    "balanced": 46.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:39 IST"
+  },
+  "AFCONS": {
+    "balanced": 24.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:39 IST"
+  },
+  "AFFLE": {
+    "balanced": 49.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:39 IST"
+  },
+  "AFIL": {
+    "balanced": 41.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:39 IST"
+  },
+  "AFSL": {
+    "balanced": 34.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:39 IST"
+  },
+  "AGARIND": {
+    "balanced": 42.0,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 09:39 IST"
+  },
+  "AGARWALEYE": {
+    "balanced": 46.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:57 IST"
+  },
+  "AGI": {
+    "balanced": 42.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:57 IST"
+  },
+  "AGIIL": {
+    "balanced": 44.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:57 IST"
+  },
+  "AGL": {
+    "balanced": 23.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:57 IST"
+  },
+  "AGRITECH": {
+    "balanced": 21.8,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:57 IST"
+  },
+  "AGROPHOS": {
+    "balanced": 41.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:57 IST"
+  },
+  "AHCL": {
+    "balanced": 40.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:57 IST"
+  },
+  "AHLADA": {
+    "balanced": 34.5,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 09:57 IST"
+  },
+  "AHLEAST": {
+    "balanced": 26.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:57 IST"
+  },
+  "AHLUCONT": {
+    "balanced": 48.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:57 IST"
+  },
+  "AIAENG": {
+    "balanced": 43.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:57 IST"
+  },
+  "AIIL": {
+    "balanced": 44.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:57 IST"
+  },
+  "AIRAN": {
+    "balanced": 39.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:57 IST"
+  },
+  "AIROLAM": {
+    "balanced": 29.8,
+    "classification": "high_risk,attractive_valuation",
+    "updated_at": "2026-11-19 09:57 IST"
+  },
+  "AJANTPHARM": {
+    "balanced": 41.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:57 IST"
+  },
+  "AJAXENGG": {
+    "balanced": 61.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:57 IST"
+  },
+  "AJMERA": {
+    "balanced": 48.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:58 IST"
+  },
+  "AJOONI": {
+    "balanced": 33.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:58 IST"
+  },
+  "AKASH": {
+    "balanced": 24.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:58 IST"
+  },
+  "AKCAPIT": {
+    "balanced": 30.8,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:58 IST"
+  },
+  "AKG": {
+    "balanced": 31.5,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 09:58 IST"
+  },
+  "AKSHAR": {
+    "balanced": 34.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:58 IST"
+  },
+  "AKUMS": {
+    "balanced": 39.2,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 09:58 IST"
+  },
+  "ALANKIT": {
+    "balanced": 38.2,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:58 IST"
+  },
+  "ALBERTDAVD": {
+    "balanced": 33.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:58 IST"
+  },
+  "ALEMBICLTD": {
+    "balanced": 53.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:58 IST"
+  },
+  "ALFREDHE": {
+    "balanced": 44.2,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:58 IST"
+  },
+  "ALGOQUANT": {
+    "balanced": 52.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:58 IST"
+  },
+  "ALICON": {
+    "balanced": 45.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:58 IST"
+  },
+  "ALIVUS": {
+    "balanced": 53.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:58 IST"
+  },
+  "ALKEM": {
+    "balanced": 48.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:58 IST"
+  },
+  "ALKYLAMINE": {
+    "balanced": 37.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:58 IST"
+  },
+  "ALLCARGO": {
+    "balanced": 28.5,
+    "classification": "high_risk,attractive_valuation",
+    "updated_at": "2026-11-19 09:58 IST"
+  },
+  "ALLDIGI": {
+    "balanced": 60.5,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 09:58 IST"
+  },
+  "ALLTIME": {
+    "balanced": 37.8,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:58 IST"
+  },
+  "ALOKINDS": {
+    "balanced": 28.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:58 IST"
+  },
+  "ALPA": {
+    "balanced": 36.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:58 IST"
+  },
+  "ALPINETEX": {
+    "balanced": 41.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:59 IST"
+  },
+  "AMAGI": {
+    "balanced": 33.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:59 IST"
+  },
+  "AMAL": {
+    "balanced": 43.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:59 IST"
+  },
+  "AMANTA": {
+    "balanced": 39.8,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:59 IST"
+  },
+  "AMARJOTHI": {
+    "balanced": 39.8,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:59 IST"
+  },
+  "AMBER": {
+    "balanced": 31.8,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:59 IST"
+  },
+  "AMBICAAGAR": {
+    "balanced": 31.2,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:59 IST"
+  },
+  "AMBIKCO": {
+    "balanced": 42.5,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 09:59 IST"
+  },
+  "AMBUJACEM": {
+    "balanced": 45.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:59 IST"
+  },
+  "AMJLAND": {
+    "balanced": 39.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:59 IST"
+  },
+  "AMNPLST": {
+    "balanced": 46.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:59 IST"
+  },
+  "AMRUTANJAN": {
+    "balanced": 50.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:59 IST"
+  },
+  "ANANDRATHI": {
+    "balanced": 49.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:59 IST"
+  },
+  "ANANTRAJ": {
+    "balanced": 32.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:59 IST"
+  },
+  "ANDHRAPAP": {
+    "balanced": 32.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:59 IST"
+  },
+  "ANDHRSUGAR": {
+    "balanced": 27.7,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 09:59 IST"
+  },
+  "ANDREWYU": {
+    "balanced": 25.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:59 IST"
+  },
+  "ANGELONE": {
+    "balanced": 42.8,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:59 IST"
+  },
+  "ANIKINDS": {
+    "balanced": 35.8,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:59 IST"
+  },
+  "ANNAPURNA": {
+    "balanced": 28.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:59 IST"
+  },
+  "ANNU": {
+    "balanced": 40.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:59 IST"
+  },
+  "ANSALBU": {
+    "balanced": 28.8,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:59 IST"
+  },
+  "ANTELOPUS": {
+    "balanced": 41.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 10:00 IST"
+  },
+  "ANTGRAPHIC": {
+    "balanced": 32.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 10:00 IST"
+  },
+  "ANTHEM": {
+    "balanced": 59.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 10:00 IST"
+  },
+  "ANUHPHR": {
+    "balanced": 38.8,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 10:00 IST"
+  },
+  "ANUP": {
+    "balanced": 44.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 10:00 IST"
+  },
+  "ANURAS": {
+    "balanced": 36.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 10:00 IST"
+  },
+  "AONESTEELS": {
+    "balanced": 19.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 10:00 IST"
+  },
+  "APARINDS": {
+    "balanced": 40.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 10:00 IST"
+  },
+  "APCL": {
+    "balanced": 25.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 10:00 IST"
+  },
+  "APCOTEXIND": {
+    "balanced": 44.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 10:00 IST"
+  },
+  "APEX": {
+    "balanced": 33.2,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 10:00 IST"
+  },
+  "APLAPOLLO": {
+    "balanced": 48.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 10:00 IST"
+  },
+  "APLLTD": {
+    "balanced": 54.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 10:00 IST"
+  },
+  "APOLLO": {
+    "balanced": 47.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 10:00 IST"
+  },
+  "APOLLOHOSP": {
+    "balanced": 47.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 10:00 IST"
+  },
+  "APOLLOPIPE": {
+    "balanced": 47.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 10:00 IST"
+  },
+  "APOLLOTYRE": {
+    "balanced": 45.2,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 09:30 IST"
+  },
+  "APOLSINHOT": {
+    "balanced": 23.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:30 IST"
+  },
+  "APOORVA": {
+    "balanced": 27.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:30 IST"
+  },
+  "APTECHT": {
+    "balanced": 40.8,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:30 IST"
+  },
+  "APTUS": {
+    "balanced": 29.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:30 IST"
+  },
+  "AQYLON": {
+    "balanced": 36.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:30 IST"
+  },
+  "ARCHIDPLY": {
+    "balanced": 28.0,
+    "classification": "high_risk,attractive_valuation",
+    "updated_at": "2026-11-19 09:30 IST"
+  },
+  "ARCHIES": {
+    "balanced": 26.5,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 09:30 IST"
+  },
+  "ARCIL": {
+    "balanced": 27.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:30 IST"
+  },
+  "ARCL": {
+    "balanced": 33.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:30 IST"
+  },
+  "ARDEE": {
+    "balanced": 37.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:31 IST"
+  },
+  "ARE&M": {
+    "balanced": 41.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:31 IST"
+  },
+  "ARFIN": {
+    "balanced": 37.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:31 IST"
+  },
+  "ARHAM": {
+    "balanced": 34.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:31 IST"
+  },
+  "ARIHANT": {
+    "balanced": 47.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:31 IST"
+  },
+  "ARIHANTCAP": {
+    "balanced": 38.2,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:31 IST"
+  },
+  "ARIHANTSUP": {
+    "balanced": 23.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:31 IST"
+  },
+  "ARIS": {
+    "balanced": 55.5,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 09:31 IST"
+  },
+  "ARKADE": {
+    "balanced": 32.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:31 IST"
+  },
+  "ARMANFIN": {
+    "balanced": 24.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:31 IST"
+  },
+  "ARMEE": {
+    "balanced": 37.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:31 IST"
+  },
+  "AROGRANITE": {
+    "balanced": 31.0,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 09:31 IST"
+  },
+  "ARROWGREEN": {
+    "balanced": 43.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:31 IST"
+  },
+  "ARSSBL": {
+    "balanced": 36.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:31 IST"
+  },
+  "ARTEMISMED": {
+    "balanced": 31.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:31 IST"
+  },
+  "ARTNIRMAN": {
+    "balanced": 17.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:31 IST"
+  },
+  "ARVIND": {
+    "balanced": 43.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:31 IST"
+  },
+  "ARVINDFASN": {
+    "balanced": 34.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:31 IST"
+  },
+  "ARVSMART": {
+    "balanced": 44.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:32 IST"
+  },
+  "ARYAMAN": {
+    "balanced": 44.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:32 IST"
+  },
+  "ASAHIINDIA": {
+    "balanced": 40.8,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:32 IST"
+  },
+  "ASAHISONG": {
+    "balanced": 46.2,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 09:32 IST"
+  },
+  "ASAL": {
+    "balanced": 43.7,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:32 IST"
+  },
+  "ASALCBR": {
+    "balanced": 39.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:32 IST"
+  },
+  "ASHAPURMIN": {
+    "balanced": 42.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:32 IST"
+  },
+  "ASHIANA": {
+    "balanced": 49.0,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 09:32 IST"
+  },
+  "ASHIKAG": {
+    "balanced": 19.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:32 IST"
+  },
+  "ASHIMASYN": {
+    "balanced": 25.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:32 IST"
+  },
+  "ASHOKA": {
+    "balanced": 52.5,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 09:32 IST"
+  },
+  "ASHOKAMET": {
+    "balanced": 33.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:32 IST"
+  },
+  "ASHOKLEY": {
+    "balanced": 38.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:32 IST"
+  },
+  "ASIANENE": {
+    "balanced": 33.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:32 IST"
+  },
+  "ASIANHOTNR": {
+    "balanced": 29.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:32 IST"
+  },
+  "ASIANPAINT": {
+    "balanced": 51.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:32 IST"
+  },
+  "ASIANTILES": {
+    "balanced": 24.8,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:32 IST"
+  },
+  "ASIANTNE": {
+    "balanced": 37.5,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 09:33 IST"
+  },
+  "ASKAUTOLTD": {
+    "balanced": 54.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:33 IST"
+  },
+  "ASMS": {
+    "balanced": 37.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:33 IST"
+  },
+  "ASPINWALL": {
+    "balanced": 22.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:33 IST"
+  },
+  "ASSAMENT": {
+    "balanced": 31.8,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:33 IST"
+  },
+  "ASTAR": {
+    "balanced": 37.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:33 IST"
+  },
+  "ASTEC": {
+    "balanced": 18.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:33 IST"
+  },
+  "ASTERDM": {
+    "balanced": 43.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:33 IST"
+  },
+  "ASTRAL": {
+    "balanced": 34.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:33 IST"
+  },
+  "ASTRAMICRO": {
+    "balanced": 52.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:33 IST"
+  },
+  "ASTRAZEN": {
+    "balanced": 36.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:33 IST"
+  },
+  "ATALREAL": {
+    "balanced": 35.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:33 IST"
+  },
+  "ATAM": {
+    "balanced": 25.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:33 IST"
+  },
+  "ATGL": {
+    "balanced": 38.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:33 IST"
+  },
+  "ATHERENERG": {
+    "balanced": 42.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:33 IST"
+  },
+  "ATL": {
+    "balanced": 46.2,
+    "classification": "high_risk,attractive_valuation",
+    "updated_at": "2026-11-19 09:33 IST"
+  },
+  "ATLANTAELE": {
+    "balanced": 42.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:33 IST"
+  },
+  "ATLASCYCLE": {
+    "balanced": 27.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:33 IST"
+  },
+  "ATUL": {
+    "balanced": 38.7,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:33 IST"
+  },
+  "ATULAUTO": {
+    "balanced": 42.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:34 IST"
+  },
+  "AUBANK": {
+    "balanced": 35.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:34 IST"
+  },
+  "AUGMONT": {
+    "balanced": 37.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:34 IST"
+  },
+  "AURIONPRO": {
+    "balanced": 38.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:34 IST"
+  },
+  "AUROPHARMA": {
+    "balanced": 54.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:34 IST"
+  },
+  "AURUM": {
+    "balanced": 37.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:34 IST"
+  },
+  "AURUS": {
+    "balanced": 35.2,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:34 IST"
+  },
+  "AUSOMENT": {
+    "balanced": 30.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:34 IST"
+  },
+  "AUSTENG": {
+    "balanced": 41.5,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 09:34 IST"
+  },
+  "AUTOAXLES": {
+    "balanced": 51.7,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 09:34 IST"
+  },
+  "AUTOIND": {
+    "balanced": 38.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 09:34 IST"
+  },
+  "AVADHSUGAR": {
+    "balanced": 38.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:08 IST"
+  },
+  "AVALON": {
+    "balanced": 38.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:08 IST"
+  },
+  "AVANCE": {
+    "balanced": 29.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:08 IST"
+  },
+  "AVANTEL": {
+    "balanced": 37.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:08 IST"
+  },
+  "AVANTIFEED": {
+    "balanced": 48.7,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:08 IST"
+  },
+  "AVG": {
+    "balanced": 40.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:08 IST"
+  },
+  "AVL": {
+    "balanced": 40.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:08 IST"
+  },
+  "AVONMORE": {
+    "balanced": 23.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:08 IST"
+  },
+  "AVROIND": {
+    "balanced": 38.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:08 IST"
+  },
+  "AVTNPL": {
+    "balanced": 49.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:08 IST"
+  },
+  "AWFIS": {
+    "balanced": 40.5,
+    "classification": "high_risk,attractive_valuation",
+    "updated_at": "2026-11-19 14:08 IST"
+  },
+  "AWHCL": {
+    "balanced": 40.0,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 14:09 IST"
+  },
+  "AWL": {
+    "balanced": 38.0,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 14:09 IST"
+  },
+  "AXISBANK": {
+    "balanced": 40.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:09 IST"
+  },
+  "AXISCADES": {
+    "balanced": 36.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:09 IST"
+  },
+  "AXITA": {
+    "balanced": 38.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:09 IST"
+  },
+  "AXTEL": {
+    "balanced": 42.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:09 IST"
+  },
+  "AYE": {
+    "balanced": 28.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:09 IST"
+  },
+  "AYMSYNTEX": {
+    "balanced": 37.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:09 IST"
+  },
+  "AZAD": {
+    "balanced": 36.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:09 IST"
+  },
+  "AZADIND": {
+    "balanced": 27.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:09 IST"
+  },
+  "BAGFILMS": {
+    "balanced": 29.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:09 IST"
+  },
+  "BAHETI": {
+    "balanced": 39.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:09 IST"
+  },
+  "BAIDFIN": {
+    "balanced": 30.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:09 IST"
+  },
+  "BAJAJ-AUTO": {
+    "balanced": 54.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:09 IST"
+  },
+  "BAJAJCON": {
+    "balanced": 47.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:09 IST"
+  },
+  "BAJAJELEC": {
+    "balanced": 29.0,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 14:09 IST"
+  },
+  "BAJAJFINSV": {
+    "balanced": 37.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:09 IST"
+  },
+  "BAJAJHCARE": {
+    "balanced": 34.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:09 IST"
+  },
+  "BAJAJHFL": {
+    "balanced": 31.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:10 IST"
+  },
+  "BAJAJHIND": {
+    "balanced": 27.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:10 IST"
+  },
+  "BAJAJHLDNG": {
+    "balanced": 46.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:10 IST"
+  },
+  "BAJAJINDEF": {
+    "balanced": 37.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:10 IST"
+  },
+  "BAJAJST": {
+    "balanced": 36.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:10 IST"
+  },
+  "BAJEL": {
+    "balanced": 33.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:10 IST"
+  },
+  "BAJFINANCE": {
+    "balanced": 40.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:10 IST"
+  },
+  "BALAJEE": {
+    "balanced": 28.8,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:10 IST"
+  },
+  "BALAJITELE": {
+    "balanced": 37.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:10 IST"
+  },
+  "BALAMINES": {
+    "balanced": 37.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:10 IST"
+  },
+  "BALAXI": {
+    "balanced": 35.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:10 IST"
+  },
+  "BALKRISHNA": {
+    "balanced": 26.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:10 IST"
+  },
+  "BALKRISIND": {
+    "balanced": 46.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:10 IST"
+  },
+  "BALMLAWRIE": {
+    "balanced": 52.7,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:10 IST"
+  },
+  "BALRAMCHIN": {
+    "balanced": 35.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:10 IST"
+  },
+  "BALUFORGE": {
+    "balanced": 51.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:10 IST"
+  },
+  "BANARBEADS": {
+    "balanced": 22.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:10 IST"
+  },
+  "BANARISUG": {
+    "balanced": 30.2,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 14:11 IST"
+  },
+  "BANCOINDIA": {
+    "balanced": 61.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:11 IST"
+  },
+  "BANDHANBNK": {
+    "balanced": 41.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:11 IST"
+  },
+  "BANG": {
+    "balanced": 34.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:11 IST"
+  },
+  "BANKBARODA": {
+    "balanced": 53.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:11 IST"
+  },
+  "BANKINDIA": {
+    "balanced": 47.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:11 IST"
+  },
+  "BANSALWIRE": {
+    "balanced": 38.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:11 IST"
+  },
+  "BANSWRAS": {
+    "balanced": 36.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:11 IST"
+  },
+  "BASF": {
+    "balanced": 32.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:11 IST"
+  },
+  "BASML": {
+    "balanced": 42.5,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 14:11 IST"
+  },
+  "BATAINDIA": {
+    "balanced": 31.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:11 IST"
+  },
+  "BATLIBOI": {
+    "balanced": 37.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:11 IST"
+  },
+  "BAYERCROP": {
+    "balanced": 50.8,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:11 IST"
+  },
+  "BBL": {
+    "balanced": 41.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:11 IST"
+  },
+  "BBOX": {
+    "balanced": 59.8,
+    "classification": "strong_technical_trend",
+    "updated_at": "2026-11-19 14:11 IST"
+  },
+  "BBTC": {
+    "balanced": 58.2,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 14:11 IST"
+  },
+  "BBTCL": {
+    "balanced": 46.8,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:12 IST"
+  },
+  "BCG": {
+    "balanced": 34.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:12 IST"
+  },
+  "BCLIND": {
+    "balanced": 40.0,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 14:12 IST"
+  },
+  "BCONCEPTS": {
+    "balanced": 16.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:12 IST"
+  },
+  "BCPL": {
+    "balanced": 33.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:12 IST"
+  },
+  "BDL": {
+    "balanced": 39.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:12 IST"
+  },
+  "BEARDSELL": {
+    "balanced": 51.2,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 14:12 IST"
+  },
+  "BECTORFOOD": {
+    "balanced": 54.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:12 IST"
+  },
+  "BEDMUTHA": {
+    "balanced": 41.5,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 14:12 IST"
+  },
+  "BEEKAY": {
+    "balanced": 34.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:12 IST"
+  },
+  "BEL": {
+    "balanced": 52.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:12 IST"
+  },
+  "BELDING": {
+    "balanced": 14.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:12 IST"
+  },
+  "BELLACASA": {
+    "balanced": 35.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:12 IST"
+  },
+  "BELRISE": {
+    "balanced": 48.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:12 IST"
+  },
+  "BEML": {
+    "balanced": 44.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:12 IST"
+  },
+  "BENARAS": {
+    "balanced": 49.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:12 IST"
+  },
+  "BENGALASM": {
+    "balanced": 38.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:12 IST"
+  },
+  "BEPL": {
+    "balanced": 38.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:13 IST"
+  },
+  "BERGEPAINT": {
+    "balanced": 40.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:13 IST"
+  },
+  "BESTAGRO": {
+    "balanced": 34.5,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 14:13 IST"
+  },
+  "BETA": {
+    "balanced": 34.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:13 IST"
+  },
+  "BFINVEST": {
+    "balanced": 46.8,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:13 IST"
+  },
+  "BFUTILITIE": {
+    "balanced": 45.5,
+    "classification": "high_risk,attractive_valuation",
+    "updated_at": "2026-11-19 14:13 IST"
+  },
+  "BHAGCHEM": {
+    "balanced": 25.8,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:13 IST"
+  },
+  "BHAGERIA": {
+    "balanced": 45.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:13 IST"
+  },
+  "BHANDARI": {
+    "balanced": 26.8,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:13 IST"
+  },
+  "BHARATCOAL": {
+    "balanced": 24.2,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:13 IST"
+  },
+  "BHARATFORG": {
+    "balanced": 39.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:13 IST"
+  },
+  "BHARATGEAR": {
+    "balanced": 43.5,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 14:13 IST"
+  },
+  "BHARATRAS": {
+    "balanced": 37.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:13 IST"
+  },
+  "BHARATSE": {
+    "balanced": 50.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:13 IST"
+  },
+  "BHARATWIRE": {
+    "balanced": 37.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:13 IST"
+  },
+  "BHARTIARTL": {
+    "balanced": 50.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:13 IST"
+  },
+  "BHARTIHEXA": {
+    "balanced": 48.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:13 IST"
+  },
+  "BHEL": {
+    "balanced": 49.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:14 IST"
+  },
+  "BIGBLOC": {
+    "balanced": 31.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:14 IST"
+  },
+  "BIKAJI": {
+    "balanced": 43.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:14 IST"
+  },
+  "BIL": {
+    "balanced": 31.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:14 IST"
+  },
+  "BIMETAL": {
+    "balanced": 36.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:14 IST"
+  },
+  "BIOCON": {
+    "balanced": 34.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:14 IST"
+  },
+  "BIOFILCHEM": {
+    "balanced": 35.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:14 IST"
+  },
+  "BIRLACABLE": {
+    "balanced": 29.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:14 IST"
+  },
+  "BIRLACORPN": {
+    "balanced": 42.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:14 IST"
+  },
+  "BIRLAMONEY": {
+    "balanced": 34.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:14 IST"
+  },
+  "BIRLANU": {
+    "balanced": 26.2,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:14 IST"
+  },
+  "BLACKBUCK": {
+    "balanced": 39.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:14 IST"
+  },
+  "BLACKROSE": {
+    "balanced": 49.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:14 IST"
+  },
+  "BLAL": {
+    "balanced": 39.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:14 IST"
+  },
+  "BLBLIMITED": {
+    "balanced": 35.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:14 IST"
+  },
+  "BLEL": {
+    "balanced": 39.8,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:14 IST"
+  },
+  "BLIL": {
+    "balanced": 48.2,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 14:15 IST"
+  },
+  "BLKASHYAP": {
+    "balanced": 49.8,
+    "classification": "strong_technical_trend",
+    "updated_at": "2026-11-19 14:15 IST"
+  },
+  "BLS": {
+    "balanced": 57.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:15 IST"
+  },
+  "BLSE": {
+    "balanced": 47.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:15 IST"
+  },
+  "BLSPOLY": {
+    "balanced": 28.7,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:15 IST"
+  },
+  "BLUECLOUDS": {
+    "balanced": 40.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:15 IST"
+  },
+  "BLUECOAST": {
+    "balanced": 39.0,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 14:15 IST"
+  },
+  "BLUEDART": {
+    "balanced": 38.8,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:15 IST"
+  },
+  "BLUEJET": {
+    "balanced": 49.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:15 IST"
+  },
+  "BLUESTARCO": {
+    "balanced": 54.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:15 IST"
+  },
+  "BLUESTONE": {
+    "balanced": 27.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:15 IST"
+  },
+  "BLUSPRING": {
+    "balanced": 39.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:15 IST"
+  },
+  "BMWVENTLTD": {
+    "balanced": 36.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:15 IST"
+  },
+  "BNAGROCHEM": {
+    "balanced": 32.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:15 IST"
+  },
+  "BNALTD": {
+    "balanced": 28.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:15 IST"
+  },
+  "BOHRAIND": {
+    "balanced": 20.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:15 IST"
+  },
+  "BOMDYEING": {
+    "balanced": 34.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:15 IST"
+  },
+  "BONDADA": {
+    "balanced": 34.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:15 IST"
+  },
+  "BONFIG": {
+    "balanced": 25.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:16 IST"
+  },
+  "BONLON": {
+    "balanced": 33.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:16 IST"
+  },
+  "BORANA": {
+    "balanced": 52.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:16 IST"
+  },
+  "BOROLTD": {
+    "balanced": 48.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:16 IST"
+  },
+  "BORORENEW": {
+    "balanced": 41.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:16 IST"
+  },
+  "BOROSCI": {
+    "balanced": 45.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:16 IST"
+  },
+  "BOSCH-HCIL": {
+    "balanced": 41.8,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:16 IST"
+  },
+  "BOSCHLTD": {
+    "balanced": 55.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:16 IST"
+  },
+  "BPCL": {
+    "balanced": 51.0,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 14:16 IST"
+  },
+  "BPL": {
+    "balanced": 23.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:16 IST"
+  },
+  "BPLPHARMA": {
+    "balanced": 35.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:16 IST"
+  },
+  "BRAHMINFRA": {
+    "balanced": 44.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:16 IST"
+  },
+  "BRIGADE": {
+    "balanced": 28.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:16 IST"
+  },
+  "BRIGHOTEL": {
+    "balanced": 36.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:16 IST"
+  },
+  "BRIGHTBR": {
+    "balanced": 34.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:16 IST"
+  },
+  "BRIGHTOUTD": {
+    "balanced": 25.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:16 IST"
+  },
+  "BRITANNIA": {
+    "balanced": 55.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:16 IST"
+  },
+  "BRNL": {
+    "balanced": 27.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:17 IST"
+  },
+  "BROOKS": {
+    "balanced": 61.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:17 IST"
+  },
+  "BSE": {
+    "balanced": 46.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:17 IST"
+  }
+}
