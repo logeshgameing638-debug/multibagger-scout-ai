@@ -72,3 +72,30 @@ def test_one_candidate_failure_does_not_kill_batch(tmp_path, monkeypatch):
     statuses = {r["symbol"]: r["status"] for r in result["reports"]}
     assert statuses == {"BAD": "system_error", "GOOD": "partial"}
     assert "synthetic failure" in result["reports"][0]["error"]
+
+
+def test_html_csv_exports_committed_alongside_json(tmp_path, monkeypatch):
+    feed = _ranking(tmp_path, ["AAA"])
+    exports = tmp_path / "exports"
+    exports.mkdir()
+
+    def fake_research(symbol, exchange, generate_report=True):
+        paths = {}
+        for fmt, body in (("json", '{"symbol": "%s"}' % symbol),
+                          ("html", "<html>report</html>"),
+                          ("csv", "section,metric,value\n")):
+            path = exports / f"{symbol}_{exchange}_research.{fmt}"
+            path.write_text(body)
+            paths[fmt] = str(path)
+        return {"status": "success", "reports": paths, "agent_statuses": {}}
+
+    monkeypatch.setattr("engine.orchestrator.research_company", fake_research)
+    monkeypatch.setattr("database.init_db", lambda: None)
+
+    result = automation_reports.generate_top_reports(
+        ranking_feed=feed, reports_dir=tmp_path / "reports")
+    entry = result["reports"][0]
+    assert (tmp_path / "reports" / "NSE_AAA.html").exists()
+    assert (tmp_path / "reports" / "NSE_AAA.csv").exists()
+    assert entry["exports"]["html"].endswith("NSE_AAA.html")
+    assert entry["exports"]["csv"].endswith("NSE_AAA.csv")
