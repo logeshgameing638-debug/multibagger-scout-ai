@@ -6,12 +6,16 @@ exchange market price, so these indicators are informational only: no trade
 entries, stop-losses or targets are derived from NAV. Market-price technical
 setups for ETFs remain unavailable on free data.
 
-Split handling: daily NAV series can contain split/bonus discontinuities
-(e.g. BeES 1:10 splits). Jumps beyond +/-30% in one day are impossible for
-the underlying indices, so the older segment is rescaled by the detected
-factor before computing indicators. If a jump cannot be snapped to a clean
-ratio, indicators for that ETF are reported as unavailable rather than
-computed on a broken series.
+Split handling: daily NAV series can contain split discontinuities.
+Adjustments are applied ONLY for corporate actions verified against an
+exchange circular or issuer-filed source (VERIFIED_ACTIONS below), matched
+to a detected NAV jump within a few days of the action's effective date and
+within tolerance of the verified ratio. A jump with no verified matching
+action is never silently inferred: that ETF's indicators are reported
+unavailable with the reason. Fixed-NAV distribution products (NAV held
+constant by design, returns paid out as distributions) are marked
+not_meaningful: NAV-change indicators there do not represent investor
+returns.
 
 Never raises: per-ETF failures are recorded with a reason so the last good
 committed feed stays usable.
@@ -36,10 +40,27 @@ BASIS = ("Computed on daily NAV history (source: api.mfapi.in, a free mirror "
          "of AMFI data), not exchange market price. Informational only - no "
          "trade entries, stop-losses or targets are derived from NAV. "
          "Market-price technical setups for ETFs remain unavailable on free "
-         "data. Series adjusted for detected splits before indicator math.")
+         "data. Splits are adjusted only for corporate actions verified against exchange/issuer sources. NAV-change returns exclude dividend/distribution reinvestment and are not investor total returns.")
 
-NICE_RATIOS = [100.0, 10.0, 7.0, 5.0, 4.0, 3.0, 2.5, 2.0, 1.5,
-               1/1.5, 1/2.0, 1/2.5, 1/3.0, 1/4.0, 1/5.0, 1/7.0, 1/10.0, 1/100.0]
+# Corporate actions verified against exchange/issuer sources before any
+# historical NAV is rescaled. (effective_date, split_factor, source)
+_NSE_CML42873 = ("NSE circular CML42873, 11 Dec 2019 (Reliance Nippon Life AM "
+                 "ETF face-value splits, effective 19 Dec 2019)")
+VERIFIED_ACTIONS = {
+    "NIFTYBEES":  [("2019-12-19", 10.0,  _NSE_CML42873 + "; face value 10 -> 1")],
+    "BANKBEES":   [("2019-12-19", 10.0,  _NSE_CML42873 + "; face value 10 -> 1")],
+    "PSUBNKBEES": [("2019-12-19", 10.0,  _NSE_CML42873 + "; face value 10 -> 1")],
+    "HNGSNGBEES": [("2019-12-19", 10.0,  _NSE_CML42873 + "; face value 10 -> 1")],
+    "GOLDBEES":   [("2019-12-19", 100.0, _NSE_CML42873 + "; face value 100 -> 1")],
+    "ABSLNN50ET": [("2021-11-25", 10.0,  "ABSL MF face value split 10 -> 1, "
+                                         "ex-date 25 Nov 2021 (NSE ISIN-change "
+                                         "circular; trendlyne corporate actions)")],
+    "MON100":     [("2021-06-21", 10.0,  "Motilal Oswal MF 1:10 unit split; NSE "
+                                         "circular CML48556, 11 Jun 2021; "
+                                         "Livemint 17 Jun 2021")],
+}
+ACTION_WINDOW_DAYS = 7
+RATIO_TOLERANCE = 0.15
 
 
 def fetch_json(url: str, timeout: int = 30):
@@ -82,34 +103,50 @@ def load_series(code: int) -> list[tuple[datetime, float]]:
     return series
 
 
-def split_adjust(series: list[tuple[datetime, float]]):
-    """Rescale older segments around detected split jumps. Returns
-    (adjusted_series, note) or (None, reason)."""
+def split_adjust(symbol: str, series: list[tuple[datetime, float]]):
+    """Rescale older segments around VERIFIED corporate actions only.
+    Returns (adjusted_series, note, sources) or (None, reason, [])."""
     if len(series) < 60:
-        return None, "insufficient NAV history (need 60+ sessions)"
-    factor = 1.0
+        return None, "insufficient NAV history (need 60+ sessions)", []
+    actions = VERIFIED_ACTIONS.get(symbol, [])
     adj = [(d, v) for d, v in series]
-    splits = 0
+    applied = []
     for i in range(1, len(adj)):
         prev, cur = adj[i - 1][1], adj[i][1]
         if prev <= 0:
-            return None, "non-positive NAV in series"
+            return None, "non-positive NAV in series", []
         ratio = cur / prev
         if ratio > 1.30 or ratio < 0.70:
-            snapped = None
-            for r in NICE_RATIOS:
-                if abs(ratio - r) / r <= 0.10:
-                    snapped = r
+            match = None
+            for date_s, factor, source in actions:
+                days = abs((adj[i][0] - datetime.strptime(date_s, "%Y-%m-%d")).days)
+                if days <= ACTION_WINDOW_DAYS and abs((1 / factor) - ratio) / (1 / factor) <= RATIO_TOLERANCE:
+                    match = (date_s, factor, source)
                     break
-            if snapped is None:
-                return None, (f"unadjustable NAV jump {ratio:.2f}x on "
-                              f"{adj[i][0].date()} - series left untouched")
-            # rescale everything before i by 1/snapped cumulatively
-            factor *= snapped
-            adj = [(d, v / snapped) if j < i else (d, v) for j, (d, v) in enumerate(adj)]
-            splits += 1
-    note = f"{splits} split adjustment(s) applied" if splits else "no splits detected"
-    return adj, note
+                if days <= ACTION_WINDOW_DAYS and abs(factor - ratio) / factor <= RATIO_TOLERANCE:
+                    match = (date_s, 1 / factor, source)
+                    break
+            if match is None:
+                return None, (f"unverified NAV jump {ratio:.3f}x on {adj[i][0].date()} "
+                              "- no matching verified corporate action; series left "
+                              "untouched and indicators withheld"), []
+            date_s, factor, source = match
+            adj = [(d, v * factor) if j < i else (d, v) for j, (d, v) in enumerate(adj)]
+            applied.append((date_s, factor, source))
+    if applied:
+        note = "; ".join(f"adjusted x{f:g} pre-{d}" for d, f, _ in applied)
+        sources = [src for _, _, src in applied]
+    else:
+        note, sources = "no split adjustment needed", []
+    return adj, note, sources
+
+
+def is_fixed_nav_product(adj: list[tuple[datetime, float]]) -> bool:
+    """True when NAV is structurally constant (distribution-style product)."""
+    yr = [v for d, v in adj if (adj[-1][0] - d).days <= 365]
+    if not yr:
+        return False
+    return (max(yr) - min(yr)) / min(yr) < 0.01
 
 
 def ema(values: list[float], period: int) -> float | None:
@@ -194,14 +231,28 @@ def main() -> None:
             continue
         try:
             series = load_series(int(code))
-            adj, note = split_adjust(series)
+            adj, note, action_sources = split_adjust(sym, series)
             if adj is None:
                 feed["etfs"][sym] = {"status": "unavailable", "reason": note}
+                continue
+            if is_fixed_nav_product(adj):
+                feed["etfs"][sym] = {
+                    "status": "not_meaningful",
+                    "scheme_code": int(code),
+                    "nav": round(adj[-1][1], 4),
+                    "nav_date": adj[-1][0].strftime("%Y-%m-%d"),
+                    "reason": ("Fixed-NAV distribution product: the NAV is held "
+                               "constant by design and returns are paid out as "
+                               "distributions, so NAV-change indicators do not "
+                               "represent investor total return."),
+                }
                 continue
             ind = indicators(adj)
             ind.update({"status": "ok", "scheme_code": int(code),
                         "adjustment": note,
                         "sessions": len(adj)})
+            if action_sources:
+                ind["adjustment_sources"] = action_sources
             feed["etfs"][sym] = ind
         except Exception as exc:  # network/parse: keep last good committed feed
             feed["etfs"][sym] = {"status": "unavailable",
