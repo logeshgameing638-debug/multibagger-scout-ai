@@ -1,15 +1,16 @@
 {
-  "cursor": 75,
+  "cursor": 150,
   "cycle_started_at": "2026-11-19 09:36 IST",
-  "run_count": 4,
-  "last_run_at": "2026-11-19 09:39 IST",
+  "run_count": 5,
+  "last_run_at": "2026-11-19 10:00 IST",
   "last_run": {
     "attempted": 75,
     "complete": 40,
     "partial": 35,
     "unavailable": 0,
+    "system_error": 0,
     "skipped_time_budget": 0,
-    "minutes": 3.7
+    "minutes": 3.6
   },
   "universe_size": 2404
 }
