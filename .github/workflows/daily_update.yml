@@ -3,8 +3,8 @@ name: Daily universe rotation update
 # Runs one bounded batch of the all-NSE universe each weekday evening (IST)
 # and commits per-stock JSON snapshots back to this repo. The hosted app
 # reads these snapshots, so the site shows refreshed data with honest
-# per-stock dates. This is a rotation (full universe over several weeks on
-# the free quota), not a same-day full-market scan.
+# per-stock dates. This is a rotation (full universe over about 2.5 weeks at 150 stocks
+# per weekday), not a same-day full-market scan.
 
 on:
   schedule:
@@ -36,7 +36,8 @@ jobs:
 
       - name: Run one rotation batch
         env:
-          MB_BATCH_SIZE: "75"
+          # measured in CI ~3.4 s/stock: 150 finishes in ~5-9 min, well inside the 16-min budget
+          MB_BATCH_SIZE: "150"
           MB_MAX_MINUTES: "16"
         run: python scripts/daily_update.py
 
