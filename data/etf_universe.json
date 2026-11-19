@@ -1,124 +1,141 @@
 {
- "note": "Curated liquid Indian-listed ETFs across broad equity, sector, commodity, international and debt. Edit this list to change coverage.",
- "etfs": [
-  {
-   "symbol": "NIFTYBEES",
-   "isin": "INF204KB14I2",
-   "name": "Nippon India ETF Nifty 50 BeES",
-   "category": "Broad equity",
-   "tracks": "Nifty 50 index"
-  },
-  {
-   "symbol": "JUNIORBEES",
-   "isin": "INF732E01045",
-   "name": "Nippon India ETF Nifty Next 50 Junior BeES",
-   "category": "Broad equity",
-   "tracks": "Nifty Next 50 index"
-  },
-  {
-   "symbol": "BANKBEES",
-   "isin": "INF204KB15I9",
-   "name": "Nippon India ETF Nifty Bank BeES",
-   "category": "Sector equity",
-   "tracks": "Nifty Bank index"
-  },
-  {
-   "symbol": "PSUBNKBEES",
-   "isin": "INF204KB16I7",
-   "name": "Nippon India ETF Nifty PSU Bank BeES",
-   "category": "Sector equity",
-   "tracks": "Nifty PSU Bank index"
-  },
-  {
-   "symbol": "INFRABEES",
-   "isin": "INF732E01268",
-   "name": "Nippon India ETF Nifty Infrastructure BeES",
-   "category": "Sector equity",
-   "tracks": "Nifty Infrastructure index"
-  },
-  {
-   "symbol": "SHARIABEES",
-   "isin": "INF732E01128",
-   "name": "Nippon India ETF Nifty 50 Shariah BeES",
-   "category": "Broad equity",
-   "tracks": "Nifty50 Shariah index"
-  },
-  {
-   "symbol": "GOLDBEES",
-   "isin": "INF204KB17I5",
-   "name": "Nippon India ETF Gold BeES",
-   "category": "Commodity",
-   "tracks": "Domestic gold price"
-  },
-  {
-   "symbol": "HNGSNGBEES",
-   "isin": "INF204KB19I1",
-   "name": "Nippon India ETF Hang Seng BeES",
-   "category": "International equity",
-   "tracks": "Hang Seng index"
-  },
-  {
-   "symbol": "LIQUIDBEES",
-   "isin": "INF732E01037",
-   "name": "Nippon India ETF Nifty 1D Rate Liquid BeES",
-   "category": "Debt",
-   "tracks": "Nifty 1D Rate index (overnight money market)"
-  },
-  {
-   "symbol": "CPSEETF",
-   "isin": "INF457M01133",
-   "name": "CPSE ETF",
-   "category": "Sector equity",
-   "tracks": "Nifty CPSE index (central public sector enterprises)"
-  },
-  {
-   "symbol": "MON100",
-   "isin": "INF247L01AP3",
-   "name": "Motilal Oswal Nasdaq 100 ETF",
-   "category": "International equity",
-   "tracks": "Nasdaq 100 index"
-  },
-  {
-   "symbol": "MAFANG",
-   "isin": "INF769K01HF4",
-   "name": "Mirae Asset NYSE FANG+ ETF",
-   "category": "International equity",
-   "tracks": "NYSE FANG+ index"
-  },
-  {
-   "symbol": "MIDCAPETF",
-   "isin": "INF769K01IC9",
-   "name": "Mirae Asset Nifty Midcap 150 ETF",
-   "category": "Broad equity",
-   "tracks": "Nifty Midcap 150 index"
-  },
-  {
-   "symbol": "ABSLNN50ET",
-   "isin": "INF209KB16D7",
-   "name": "Aditya Birla Sun Life Nifty Next 50 ETF",
-   "category": "Broad equity",
-   "tracks": "Nifty Next 50 index"
-  },
-  {
-   "symbol": "PHARMABEES",
-   "isin": "INF204KC1089",
-   "name": "Nippon India Nifty Pharma ETF",
-   "category": "Sector equity",
-   "tracks": "Nifty Pharma index"
-  },
-  {
-   "symbol": "SILVER",
-   "isin": "INF209KB19F6",
-   "name": "Aditya Birla Sun Life Silver ETF",
-   "category": "Commodity",
-   "tracks": "Domestic silver price"
-  },
-  {
-   "symbol": "MAHKTECH",
-   "isin": "INF769K01HS7",
-   "name": "Mirae Asset Hang Seng TECH ETF",
-   "category": "International equity",
-   "tracks": "Hang Seng TECH index"
-  }
- ]
+  "note": "Curated liquid Indian-listed ETFs across broad equity, sector, commodity, international and debt. Edit this list to change coverage.",
+  "etfs": [
+    {
+      "symbol": "NIFTYBEES",
+      "isin": "INF204KB14I2",
+      "name": "Nippon India ETF Nifty 50 BeES",
+      "category": "Broad equity",
+      "tracks": "Nifty 50 index",
+      "amfi_scheme_code": 140084
+    },
+    {
+      "symbol": "JUNIORBEES",
+      "isin": "INF732E01045",
+      "name": "Nippon India ETF Nifty Next 50 Junior BeES",
+      "category": "Broad equity",
+      "tracks": "Nifty Next 50 index",
+      "amfi_scheme_code": 140085
+    },
+    {
+      "symbol": "BANKBEES",
+      "isin": "INF204KB15I9",
+      "name": "Nippon India ETF Nifty Bank BeES",
+      "category": "Sector equity",
+      "tracks": "Nifty Bank index",
+      "amfi_scheme_code": 140087
+    },
+    {
+      "symbol": "PSUBNKBEES",
+      "isin": "INF204KB16I7",
+      "name": "Nippon India ETF Nifty PSU Bank BeES",
+      "category": "Sector equity",
+      "tracks": "Nifty PSU Bank index",
+      "amfi_scheme_code": 140089
+    },
+    {
+      "symbol": "INFRABEES",
+      "isin": "INF732E01268",
+      "name": "Nippon India ETF Nifty Infrastructure BeES",
+      "category": "Sector equity",
+      "tracks": "Nifty Infrastructure index",
+      "amfi_scheme_code": 140102
+    },
+    {
+      "symbol": "SHARIABEES",
+      "isin": "INF732E01128",
+      "name": "Nippon India ETF Nifty 50 Shariah BeES",
+      "category": "Broad equity",
+      "tracks": "Nifty50 Shariah index",
+      "amfi_scheme_code": 140094
+    },
+    {
+      "symbol": "GOLDBEES",
+      "isin": "INF204KB17I5",
+      "name": "Nippon India ETF Gold BeES",
+      "category": "Commodity",
+      "tracks": "Domestic gold price",
+      "amfi_scheme_code": 140088
+    },
+    {
+      "symbol": "HNGSNGBEES",
+      "isin": "INF204KB19I1",
+      "name": "Nippon India ETF Hang Seng BeES",
+      "category": "International equity",
+      "tracks": "Hang Seng index",
+      "amfi_scheme_code": 140095
+    },
+    {
+      "symbol": "LIQUIDBEES",
+      "isin": "INF732E01037",
+      "name": "Nippon India ETF Nifty 1D Rate Liquid BeES",
+      "category": "Debt",
+      "tracks": "Nifty 1D Rate index (overnight money market)",
+      "amfi_scheme_code": 140086
+    },
+    {
+      "symbol": "CPSEETF",
+      "isin": "INF457M01133",
+      "name": "CPSE ETF",
+      "category": "Sector equity",
+      "tracks": "Nifty CPSE index (central public sector enterprises)",
+      "amfi_scheme_code": 128751
+    },
+    {
+      "symbol": "MON100",
+      "isin": "INF247L01AP3",
+      "name": "Motilal Oswal Nasdaq 100 ETF",
+      "category": "International equity",
+      "tracks": "Nasdaq 100 index",
+      "amfi_scheme_code": 114984
+    },
+    {
+      "symbol": "MAFANG",
+      "isin": "INF769K01HF4",
+      "name": "Mirae Asset NYSE FANG+ ETF",
+      "category": "International equity",
+      "tracks": "NYSE FANG+ index",
+      "amfi_scheme_code": 148927
+    },
+    {
+      "symbol": "MIDCAPETF",
+      "isin": "INF769K01IC9",
+      "name": "Mirae Asset Nifty Midcap 150 ETF",
+      "category": "Broad equity",
+      "tracks": "Nifty Midcap 150 index",
+      "amfi_scheme_code": 149918
+    },
+    {
+      "symbol": "ABSLNN50ET",
+      "isin": "INF209KB16D7",
+      "name": "Aditya Birla Sun Life Nifty Next 50 ETF",
+      "category": "Broad equity",
+      "tracks": "Nifty Next 50 index",
+      "amfi_scheme_code": 145881
+    },
+    {
+      "symbol": "PHARMABEES",
+      "isin": "INF204KC1089",
+      "name": "Nippon India Nifty Pharma ETF",
+      "category": "Sector equity",
+      "tracks": "Nifty Pharma index",
+      "amfi_scheme_code": 149008
+    },
+    {
+      "symbol": "SILVER",
+      "isin": "INF209KB19F6",
+      "name": "Aditya Birla Sun Life Silver ETF",
+      "category": "Commodity",
+      "tracks": "Domestic silver price",
+      "amfi_scheme_code": 149779
+    },
+    {
+      "symbol": "MAHKTECH",
+      "isin": "INF769K01HS7",
+      "name": "Mirae Asset Hang Seng TECH ETF",
+      "category": "International equity",
+      "tracks": "Hang Seng TECH index",
+      "amfi_scheme_code": 149379
+    }
+  ]
 }
