@@ -98,12 +98,19 @@ jobs:
         continue-on-error: true
         run: cd scripts && python build_etf_sections.py
 
+      - name: Rebuild ETF NAV technicals feed
+        if: steps.dupcheck.outputs.skip != 'true'
+        # NAV-history indicators for curated ETFs via free AMFI mirror;
+        # NAV basis only, no trade setups; never fails the run
+        continue-on-error: true
+        run: cd scripts && python build_etf_technicals.py
+
       - name: Commit snapshots
         if: steps.dupcheck.outputs.skip != 'true'
         run: |
           git config user.name "multibagger-scout-bot"
           git config user.email "logeshgameing638@gmail.com"
-          git add data/snapshots data/rotation_state.json data/automation data/universe_bse.csv
+          git add data/snapshots data/rotation_state.json data/automation data/universe_bse.csv data/etf_technicals.json data/etf_universe.json
           git diff --cached --quiet || git commit -m "Daily rotation update $(date -u +%F)"
           # web-editor commits can land while a run is in flight; rebase then retry once
           git pull --rebase origin main || (git rebase --abort; git pull --rebase origin main)
