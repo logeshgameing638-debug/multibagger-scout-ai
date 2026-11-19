@@ -498,7 +498,9 @@ def _empty_state(st, view: dict, title: str) -> None:
         _run_research(view)
 
 
-def _table_from_dict(st, data: dict, key_name: str = "metric") -> None:
+def _table_from_dict(st, data, key_name: str = "metric") -> None:
+    if not isinstance(data, dict):
+        return
     rows = [{"metric": k, "value": (f"{v:.4g}" if isinstance(v, float) else v)}
             for k, v in data.items() if not isinstance(v, (dict, list))]
     if rows:
@@ -533,8 +535,13 @@ def render_tabs(st, view: dict, frame: pd.DataFrame, source: str) -> None:
             for label, block in (("Annual", annual), ("Quarterly", quarterly)):
                 if not block:
                     continue
-                st.markdown(f"**{label} statements** (periods: {', '.join((data.get('annual_periods') or [])[:4]) if label == 'Annual' else ', '.join((data.get('quarterly_periods') or [])[:4])})")
-                st.dataframe(pd.DataFrame(block), use_container_width=True)
+                periods = (data.get("annual_periods") or [])[:4] if label == "Annual" else (data.get("quarterly_periods") or [])[:4]
+                st.markdown(f"**{label} statements** (periods: {', '.join(periods)})")
+                for stname in ("income", "balance", "cashflow"):
+                    rows = block.get(stname)
+                    if isinstance(rows, dict) and rows:
+                        st.markdown(f"*{stname.title()}*")
+                        st.dataframe(pd.DataFrame(rows).T, use_container_width=True)
         _agent_tab(st, view, "fundamental_analysis", "Financials", _fin)
 
     with tabs[3]:  # Technical
@@ -549,8 +556,11 @@ def render_tabs(st, view: dict, frame: pd.DataFrame, source: str) -> None:
                 col.metric(label, fmt.format(value) if isinstance(value, (int, float)) else "n/a")
             _table_from_dict(st, daily)
             for report_key in ("short_term_report", "long_term_report"):
-                if data.get(report_key):
-                    st.markdown(f"**{report_key.replace('_', ' ').title()}:** {data[report_key]}")
+                report = data.get(report_key)
+                if isinstance(report, dict):
+                    flat = ", ".join(f"{k}: {v:.4g}" if isinstance(v, float) else f"{k}: {v}"
+                                     for k, v in report.items() if not isinstance(v, (dict, list)))
+                    st.markdown(f"**{report_key.replace('_', ' ').title()}** \u2014 {flat}")
         _agent_tab(st, view, "technical_analysis", "Technical", _tech)
 
     with tabs[4]:  # Business
@@ -590,7 +600,10 @@ def render_tabs(st, view: dict, frame: pd.DataFrame, source: str) -> None:
             if data.get("unassessed_governance_items"):
                 st.error("Unassessed governance: "
                          + ", ".join(str(g) for g in data["unassessed_governance_items"]))
-            _table_from_dict(st, data.get("coverage") or {})
+            if data.get("coverage"):
+                st.caption("Coverage: " + str(data["coverage"]))
+            _table_from_dict(st, {k: v for k, v in data.items()
+                                  if k not in ("findings", "unassessed_governance_items", "coverage", "note", "classification")})
         _agent_tab(st, view, "risk_analysis", "Risk", _risk)
 
     with tabs[7]:  # News
