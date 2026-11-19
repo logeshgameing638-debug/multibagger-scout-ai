@@ -54,10 +54,11 @@ def test_run_batch_records_every_stock_and_state(tmp_path, monkeypatch):
     )
     snaps = {p.stem: json.loads(p.read_text()) for p in (tmp_path / "snaps").glob("*.json")}
     assert set(snaps) == {"AAA", "BBB", "CCC"}
-    assert snaps["BBB"]["status"] == "unavailable"
+    assert snaps["BBB"]["status"] == "system_error"  # our failure, not company data
     assert "provider down" in snaps["BBB"]["error"]
     assert state["last_run"]["complete"] == 2
-    assert state["last_run"]["unavailable"] == 1
+    assert state["last_run"]["system_error"] == 1
+    assert state["last_run"]["unavailable"] == 0
     assert state["cursor"] == 0  # wrapped after consuming all 3
 
 
