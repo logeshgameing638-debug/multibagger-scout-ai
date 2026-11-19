@@ -10,16 +10,19 @@ import streamlit as st
 
 from database.connection import init_db
 from frontend import design, market, theme
-from frontend.pages import dashboard, engineering, overview, scouting, system
+from frontend.pages import building, dashboard, engineering, overview, scouting, system
 
 PAGES = {
-    "Dashboard": dashboard.render,
-    "Stock Scout": scouting.render_stock_scout,
-    "NSE Screener": scouting.render_nse_screener,
-    "BSE Screener": scouting.render_bse_screener,
-    "Company Research": engineering.render_company_research,
+    "\U0001F3DB Building Overview": building.render_building_overview,
+    "Floor 00 \u00b7 Command Center": building.render_floor00,
+    "Floor 01 \u00b7 Market Scanner": building.render_floor01,
+    "Floor 02 \u00b7 AI Analyst": building.render_floor02,
+    "Floor 03 \u00b7 Risk Manager": building.render_floor03,
+    "Floor 04 \u00b7 Paper Executor": building.render_floor04,
+    "Floor 05 \u00b7 Monitor & Alerts": building.render_floor05,
+    "Floor 06 \u00b7 Portfolio Manager": building.render_floor06,
+    "Floor 07 \u00b7 Decision Engine": building.render_floor07,
     "Watchlist": engineering.render_watchlist,
-    "Alerts": system.render_alerts,
     "Research History": engineering.render_history,
     "Settings": system.render_settings,
     "About": None,  # rendered inline below
@@ -27,9 +30,15 @@ PAGES = {
 
 # Old sidebar names from before the redesign still resolve.
 ALIASES = {
-    "Main Overview": "Dashboard",
-    "NSE Stock Screener": "NSE Screener",
-    "BSE Stock Screener": "BSE Screener",
+    "Main Overview": "\U0001F3DB Building Overview",
+    "Dashboard": "Floor 02 \u00b7 AI Analyst",
+    "Stock Scout": "Floor 01 \u00b7 Market Scanner",
+    "NSE Screener": "Floor 01 \u00b7 Market Scanner",
+    "BSE Screener": "Floor 01 \u00b7 Market Scanner",
+    "NSE Stock Screener": "Floor 01 \u00b7 Market Scanner",
+    "BSE Stock Screener": "Floor 01 \u00b7 Market Scanner",
+    "Company Research": "Floor 02 \u00b7 AI Analyst",
+    "Alerts": "Floor 05 \u00b7 Monitor & Alerts",
     "Multibagger Watchlist": "Watchlist",
 }
 
@@ -42,17 +51,22 @@ def render_about(st) -> None:
         "valuation, risk, news, scoring) over free data sources and stores every output "
         "with its own date.")
     st.markdown(
-        "- **Universe:** all NSE-listed equities (2,404) refreshed in weekday rotation batches; "
-        "BSE source integration is still pending.\n"
-        "- **Data:** free connectors (Yahoo Finance, NSE archives, RSS news). Data may be "
-        "delayed or incomplete; every figure carries its source date.\n"
+        "- **Building:** eight working floors - command center, scanner, analyst, risk, "
+        "paper execution (SIMULATED only, never real trades), monitoring, paper portfolio "
+        "and the decision engine - over one orchestrator and one database.\n"
+        "- **Universe:** all NSE-listed equities (2,404) plus the BSE latest-session "
+        "instruments from the official daily bhavcopy (~5,100; session coverage, not an "
+        "all-listed registry), refreshed in weekday rotation batches.\n"
+        "- **Data:** free connectors (Yahoo Finance, NSE archives, BSE bhavcopy, RSS news). "
+        "Data may be delayed or incomplete; every figure carries its source date.\n"
         "- **Scores:** explainable 100-point research scores. Risk score means higher = more risk. "
         "Governance items (pledging, auditors, related parties) are unassessed - no free "
         "verifiable source.\n"
-        "- **Not advice:** research only. No trades are placed.\n"
+        "- **Not advice:** research only. No real trades are placed anywhere in the app.\n"
         "- **Hosted updates:** a GitHub Actions workflow refreshes one batch each weekday and "
-        "commits per-stock snapshots; the hosted database resets on restart, snapshots are the "
-        "durable record.")
+        "commits per-stock snapshots; hosted storage is best-effort (data, watchlists, paper "
+        "orders and decisions can be lost on restart or redeploy) - snapshots are the durable "
+        "record, and a local run from the ZIP keeps everything durably.")
     st.divider()
     system.render_source_health(st)
 
