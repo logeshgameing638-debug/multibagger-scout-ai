@@ -83,21 +83,22 @@ def render_building_overview(st) -> None:
         "@keyframes pulse{0%{opacity:.2}50%{opacity:1}100%{opacity:.2}}"
         ".wire{animation:pulse 1.2s infinite;background:#22c55e;}" if any_active else
         ".wire{background:#334155;}")
-    st.markdown(
-        f"""<style>
-        {animation}
-        .bldg{{max-width:640px;margin:0 auto;border:2px solid #334155;border-radius:10px;
-               padding:10px;background:#0f172a;}}
-        .floor{{display:flex;justify-content:space-between;padding:9px 14px;margin:4px 8px;
-                border:1px solid #334155;border-radius:8px;color:#e2e8f0;background:#1e293b;}}
-        .floor.active{{border-color:#22c55e;box-shadow:0 0 10px #22c55e66;}}
-        .fl-state{{color:#94a3b8;font-size:.8rem;}}
-        .floor.active .fl-state{{color:#22c55e;}}
-        .wire{{width:4px;height:10px;margin:0 auto;}}
-        </style>
-        <div class="bldg">{''.join(r + ('<div class="wire"></div>' if i < 7 else '')
-                                  for i, r in enumerate(rows_html))}</div>""",
-        unsafe_allow_html=True)
+    rows_joined = ''.join(
+        r + ('<div class="wire"></div>' if i < 7 else '')
+        for i, r in enumerate(rows_html))
+    html = (
+        "<style>" + animation +
+        ".bldg{max-width:640px;margin:0 auto;border:2px solid #334155;border-radius:10px;"
+        "padding:10px;background:#0f172a;}"
+        ".floor{display:flex;justify-content:space-between;padding:9px 14px;margin:4px 8px;"
+        "border:1px solid #334155;border-radius:8px;color:#e2e8f0;background:#1e293b;}"
+        ".floor.active{border-color:#22c55e;box-shadow:0 0 10px #22c55e66;}"
+        ".fl-state{color:#94a3b8;font-size:.8rem;}"
+        ".floor.active .fl-state{color:#22c55e;}"
+        ".wire{width:4px;height:10px;margin:0 auto;}"
+        "</style>"
+        f'<div class="bldg">{rows_joined}</div>')
+    st.markdown(html, unsafe_allow_html=True)
     if not any_active:
         st.caption("No floor has run in the last few minutes - connections are still. "
                    "Run research, a scan or a paper order and they light up.")
