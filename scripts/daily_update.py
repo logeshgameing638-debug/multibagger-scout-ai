@@ -35,7 +35,7 @@ STATE_FILE = ROOT / "data" / "rotation_state.json"
 
 IST = timezone(timedelta(hours=5, minutes=30))
 
-DEFAULT_BATCH_SIZE = 75
+DEFAULT_BATCH_SIZE = 150  # measured ~3.4 s/stock in CI; 150 fits the 16-min budget with headroom
 DEFAULT_TIME_BUDGET_MINUTES = 16
 PER_STOCK_SLEEP_SECONDS = 0.5
 
@@ -163,7 +163,7 @@ def run_batch(batch_size: int = DEFAULT_BATCH_SIZE,
     started = time.monotonic()
     budget_seconds = time_budget_minutes * 60
 
-    complete = partial = unavailable = skipped_budget = 0
+    complete = partial = unavailable = system_error = skipped_budget = 0
     processed: list[str] = []
     for row in batch:
         if time.monotonic() - started > budget_seconds:
@@ -179,15 +179,17 @@ def run_batch(batch_size: int = DEFAULT_BATCH_SIZE,
                 "exchange": "NSE",
                 "name": row.get("name"),
                 "updated_at": _now_ist(),
-                "status": "unavailable",
+                # our own failure, not company data being unavailable
+                "status": "system_error",
                 "error": f"{type(exc).__name__}: {exc}"[:300],
             }
-            status = "unavailable"
+            status = "system_error"
         write_snapshot(symbol, snapshot)
         processed.append(symbol)
         complete += status == "complete"
         partial += status == "partial"
         unavailable += status == "unavailable"
+        system_error += status == "system_error"
         if sleep_seconds:
             time.sleep(sleep_seconds)
 
@@ -198,6 +200,7 @@ def run_batch(batch_size: int = DEFAULT_BATCH_SIZE,
         "complete": complete,
         "partial": partial,
         "unavailable": unavailable,
+        "system_error": system_error,
         "skipped_time_budget": skipped_budget,
         "minutes": round((time.monotonic() - started) / 60, 1),
     }
