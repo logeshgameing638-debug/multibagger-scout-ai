@@ -27,10 +27,55 @@ def render_ranking(st) -> None:
 
 def render_company_research(st) -> None:
     st.title("Company Research")
+
+    # Lookup across every rotation-refreshed stock (durable committed snapshots).
+    from services.snapshots import load_snapshots
+
+    snapshots = load_snapshots()
+    if snapshots:
+        snap_labels = {
+            f"{snap.get('name') or sym} ({sym}) - refreshed {snap.get('updated_at', 'unknown')}": sym
+            for sym, snap in sorted(snapshots.items())
+        }
+        picked = st.selectbox(
+            "Any rotation-refreshed stock (hosted daily updates)",
+            ["- pick a stock -"] + list(snap_labels),
+        )
+        if picked != "- pick a stock -":
+            snap = snapshots[snap_labels[picked]]
+            scores = snap.get("scores") or {}
+            st.subheader(f"{snap.get('name') or snap['symbol']} ({snap['symbol']}:{snap.get('exchange', 'NSE')})")
+            st.caption(f"Data date: {snap.get('updated_at', 'unknown')} | status: {snap.get('status')}")
+            if snap.get("status") in ("complete", "partial") and scores:
+                components.score_cards(
+                    st,
+                    {
+                        "fundamental_score": scores.get("fundamental"),
+                        "technical_score": scores.get("technical"),
+                        "data_confidence": scores.get("data_confidence"),
+                        "risk_score": scores.get("risk"),
+                        "balanced_score": scores.get("balanced"),
+                    },
+                )
+                st.caption(
+                    f"Long-term {scores.get('long_term')} | Short-term {scores.get('short_term')} "
+                    f"| Labels: {snap.get('classification')}"
+                )
+                with st.expander("Score explanations (every subscore)"):
+                    st.json(snap.get("explanation") or {})
+            elif snap.get("status") == "system_error":
+                st.warning("Refresh failed on our side for this stock; it is retried in the next cycle. "
+                           "This is not a company-data verdict.")
+            else:
+                st.info("Free sources had insufficient data for this stock on its refresh date.")
+            st.divider()
+
     options = components.company_options()
     if not options:
-        st.info("No companies yet. Run a scan first.")
+        if not snapshots:
+            st.info("No companies yet. Run a scan first.")
         return
+    st.markdown("**On-demand research library (this session)**")
     labels = [label for label, _ in options]
     choice = st.selectbox("Company", labels)
     company_id = dict(options)[choice]
