@@ -146,6 +146,28 @@ def research_one(symbol: str) -> dict:
                     snapshot["explanation"] = json.loads(row.explanation_json or "{}")
                 except ValueError:
                     snapshot["explanation"] = {}
+            # Structured daily technicals for the automation alert feed
+            from database.models import AgentOutput, AgentRun
+
+            tech = session.execute(
+                select(AgentOutput)
+                .join(AgentRun, AgentRun.id == AgentOutput.run_id)
+                .where(AgentRun.agent_name == "technical_analysis",
+                       AgentOutput.company_id == company.id)
+                .order_by(AgentOutput.created_at.desc())
+                .limit(1)
+            ).scalar_one_or_none()
+            if tech is not None:
+                try:
+                    daily = json.loads(tech.output_json)["data"]["daily"]
+                    snapshot["technical_daily"] = {
+                        key: daily.get(key)
+                        for key in ("rsi_14", "breakout", "breakdown",
+                                    "support", "resistance", "trend")
+                        if daily.get(key) is not None
+                    }
+                except (KeyError, ValueError, TypeError):
+                    pass
     return snapshot
 
 
