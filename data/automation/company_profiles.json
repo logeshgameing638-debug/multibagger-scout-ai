@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-19 19:42 IST",
+ "as_of": "2026-11-19 19:54 IST",
  "source": "screener.in company pages (public HTML)",
  "basis": "Written descriptions and per-period results as published on the source page on the fetch date; figures are company-reported (Rs crore), not independently audited by us.",
  "profiles": {
@@ -370,7 +370,447 @@
     }
    ],
    "fetched_at": "2026-11-19 19:42 IST"
+  },
+  "AJAXENGG": {
+   "status": "ok",
+   "source_url": "https://www.screener.in/company/AJAXENGG/consolidated/",
+   "consolidated": true,
+   "name": "Ajax Engineering Ltd",
+   "description": "Incorporated in July 1992, Ajax Engineering Limited manufactures a wide range of concrete equipment and services across the value chain. [1]",
+   "quarterly": [],
+   "annual": [],
+   "fetched_at": "2026-11-19 19:54 IST"
+  },
+  "BROOKS": {
+   "status": "ok",
+   "source_url": "https://www.screener.in/company/BROOKS/consolidated/",
+   "consolidated": true,
+   "name": "Brooks Laboratories Ltd",
+   "description": "Incorporated in 2002, Brooks Laboratories Ltd is a pharmaceutical company working on contract basis catering to the critical care segment [1]",
+   "quarterly": [
+    {
+     "period": "Dec 2024",
+     "revenue_cr": 21.0,
+     "net_profit_cr": -2.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 23.0,
+     "net_profit_cr": -1.0
+    },
+    {
+     "period": "Jun 2025",
+     "revenue_cr": 26.0,
+     "net_profit_cr": 10.0
+    },
+    {
+     "period": "Sep 2025",
+     "revenue_cr": 23.0,
+     "net_profit_cr": 8.0
+    },
+    {
+     "period": "Dec 2025",
+     "revenue_cr": 17.0,
+     "net_profit_cr": 6.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 20.0,
+     "net_profit_cr": 2.0
+    },
+    {
+     "period": "Jun 2026",
+     "revenue_cr": 23.0,
+     "net_profit_cr": -2.0
+    },
+    {
+     "period": "Sep 2026",
+     "revenue_cr": 19.0,
+     "net_profit_cr": 68.0
+    }
+   ],
+   "annual": [
+    {
+     "period": "Mar 2021",
+     "revenue_cr": 85.0,
+     "net_profit_cr": 9.0
+    },
+    {
+     "period": "Mar 2022",
+     "revenue_cr": 80.0,
+     "net_profit_cr": 11.0
+    },
+    {
+     "period": "Mar 2023",
+     "revenue_cr": 58.0,
+     "net_profit_cr": 2.0
+    },
+    {
+     "period": "Mar 2024",
+     "revenue_cr": 56.0,
+     "net_profit_cr": -14.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 55.0,
+     "net_profit_cr": -15.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 70.0,
+     "net_profit_cr": -24.0
+    }
+   ],
+   "fetched_at": "2026-11-19 19:54 IST"
+  },
+  "COFORGE": {
+   "status": "ok",
+   "source_url": "https://www.screener.in/company/COFORGE/consolidated/",
+   "consolidated": true,
+   "name": "Coforge Ltd",
+   "description": "Coforge is an IT services company providing end-to-end software solutions and services. . It is among the top-20 Indian software exporters. Prominent global customers include British Airways, the ING group, SEI Investments, Sabre, and SITA. Over the years, Coforge has set up subsidiaries in the US, Singapore, Australia, UK, Germany and Thailand, mainly to market and mobilise projects for the software division. The company has business partnerships with large IT companies across the world.",
+   "quarterly": [
+    {
+     "period": "Dec 2024",
+     "revenue_cr": 3258.0,
+     "net_profit_cr": 256.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 3422.0,
+     "net_profit_cr": 307.0
+    },
+    {
+     "period": "Jun 2025",
+     "revenue_cr": 3704.0,
+     "net_profit_cr": 356.0
+    },
+    {
+     "period": "Sep 2025",
+     "revenue_cr": 4016.0,
+     "net_profit_cr": 425.0
+    },
+    {
+     "period": "Dec 2025",
+     "revenue_cr": 4232.0,
+     "net_profit_cr": 297.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 4450.0,
+     "net_profit_cr": 666.0
+    },
+    {
+     "period": "Jun 2026",
+     "revenue_cr": 5528.0,
+     "net_profit_cr": 532.0
+    },
+    {
+     "period": "Sep 2026",
+     "revenue_cr": 6171.0,
+     "net_profit_cr": 605.0
+    }
+   ],
+   "annual": [
+    {
+     "period": "Mar 2019",
+     "revenue_cr": 3676.0,
+     "net_profit_cr": 422.0
+    },
+    {
+     "period": "Mar 2020",
+     "revenue_cr": 4184.0,
+     "net_profit_cr": 468.0
+    },
+    {
+     "period": "Mar 2021",
+     "revenue_cr": 4663.0,
+     "net_profit_cr": 466.0
+    },
+    {
+     "period": "Mar 2022",
+     "revenue_cr": 6432.0,
+     "net_profit_cr": 715.0
+    },
+    {
+     "period": "Mar 2023",
+     "revenue_cr": 8015.0,
+     "net_profit_cr": 745.0
+    },
+    {
+     "period": "Mar 2024",
+     "revenue_cr": 9009.0,
+     "net_profit_cr": 836.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 12073.0,
+     "net_profit_cr": 936.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 16403.0,
+     "net_profit_cr": 1745.0
+    }
+   ],
+   "fetched_at": "2026-11-19 19:54 IST"
+  },
+  "ALLDIGI": {
+   "status": "ok",
+   "source_url": "https://www.screener.in/company/ALLDIGI/consolidated/",
+   "consolidated": true,
+   "name": "Alldigi Tech Ltd",
+   "description": "Alldigi Tech Limited (formerly Allsec Technologies), incorporated in 1998, is a global business process and HR technology company. It is a 73.39% subsidiary of Digitide Solutions, backed by Fairfax. Management frames its strategy as moving T&D from a payroll managed-services provider to an AI-first HR technology company with its own SaaS IP, and moving BPM from labour arbitrage to outcome-led, AI-augmented services. [1]",
+   "quarterly": [
+    {
+     "period": "Dec 2024",
+     "revenue_cr": 139.0,
+     "net_profit_cr": 20.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 146.0,
+     "net_profit_cr": 19.0
+    },
+    {
+     "period": "Jun 2025",
+     "revenue_cr": 144.0,
+     "net_profit_cr": 15.0
+    },
+    {
+     "period": "Sep 2025",
+     "revenue_cr": 147.0,
+     "net_profit_cr": 18.0
+    },
+    {
+     "period": "Dec 2025",
+     "revenue_cr": 153.0,
+     "net_profit_cr": 21.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 155.0,
+     "net_profit_cr": 29.0
+    },
+    {
+     "period": "Jun 2026",
+     "revenue_cr": 150.0,
+     "net_profit_cr": 18.0
+    },
+    {
+     "period": "Sep 2026",
+     "revenue_cr": 153.0,
+     "net_profit_cr": 27.0
+    }
+   ],
+   "annual": [
+    {
+     "period": "Mar 2019",
+     "revenue_cr": 261.0,
+     "net_profit_cr": 16.0
+    },
+    {
+     "period": "Mar 2020",
+     "revenue_cr": 294.0,
+     "net_profit_cr": 45.0
+    },
+    {
+     "period": "Mar 2021",
+     "revenue_cr": 277.0,
+     "net_profit_cr": 35.0
+    },
+    {
+     "period": "Mar 2022",
+     "revenue_cr": 317.0,
+     "net_profit_cr": 36.0
+    },
+    {
+     "period": "Mar 2023",
+     "revenue_cr": 390.0,
+     "net_profit_cr": 49.0
+    },
+    {
+     "period": "Mar 2024",
+     "revenue_cr": 469.0,
+     "net_profit_cr": 64.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 546.0,
+     "net_profit_cr": 83.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 599.0,
+     "net_profit_cr": 82.0
+    }
+   ],
+   "fetched_at": "2026-11-19 19:54 IST"
+  },
+  "CUPID": {
+   "status": "ok",
+   "source_url": "https://www.screener.in/company/CUPID/consolidated/",
+   "consolidated": true,
+   "name": "Cupid Ltd",
+   "description": "Established in 1993, CUPID Limited is India's premier manufacturer of male and female condoms, personal lubricant, and IVD kits. [1]",
+   "quarterly": [
+    {
+     "period": "Dec 2024",
+     "revenue_cr": 46.0,
+     "net_profit_cr": 11.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 56.0,
+     "net_profit_cr": 12.0
+    },
+    {
+     "period": "Jun 2025",
+     "revenue_cr": 60.0,
+     "net_profit_cr": 15.0
+    },
+    {
+     "period": "Sep 2025",
+     "revenue_cr": 84.0,
+     "net_profit_cr": 24.0
+    },
+    {
+     "period": "Dec 2025",
+     "revenue_cr": 94.0,
+     "net_profit_cr": 33.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 120.0,
+     "net_profit_cr": 36.0
+    },
+    {
+     "period": "Jun 2026",
+     "revenue_cr": 155.0,
+     "net_profit_cr": 44.0
+    },
+    {
+     "period": "Sep 2026",
+     "revenue_cr": 188.0,
+     "net_profit_cr": 56.0
+    }
+   ],
+   "annual": [
+    {
+     "period": "Mar 2021",
+     "revenue_cr": 44.0,
+     "net_profit_cr": 8.0
+    },
+    {
+     "period": "Mar 2024",
+     "revenue_cr": 61.0,
+     "net_profit_cr": 16.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 84.0,
+     "net_profit_cr": 21.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 81.0,
+     "net_profit_cr": 17.0
+    }
+   ],
+   "fetched_at": "2026-11-19 19:54 IST"
+  },
+  "ENDURANCE": {
+   "status": "ok",
+   "source_url": "https://www.screener.in/company/ENDURANCE/consolidated/",
+   "consolidated": true,
+   "name": "Endurance Technologies Ltd",
+   "description": "Endurance Technologies is engaged in the business of manufacturing and selling of aluminium die casting (including alloy wheel), suspension, transmission, braking and embedded electronic products with operations spread across India and Europe with 19 plants in India and 14 in Europe.",
+   "quarterly": [
+    {
+     "period": "Dec 2024",
+     "revenue_cr": 2859.0,
+     "net_profit_cr": 184.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 2963.0,
+     "net_profit_cr": 245.0
+    },
+    {
+     "period": "Jun 2025",
+     "revenue_cr": 3319.0,
+     "net_profit_cr": 226.0
+    },
+    {
+     "period": "Sep 2025",
+     "revenue_cr": 3583.0,
+     "net_profit_cr": 227.0
+    },
+    {
+     "period": "Dec 2025",
+     "revenue_cr": 3608.0,
+     "net_profit_cr": 222.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 4086.0,
+     "net_profit_cr": 276.0
+    },
+    {
+     "period": "Jun 2026",
+     "revenue_cr": 4315.0,
+     "net_profit_cr": 245.0
+    },
+    {
+     "period": "Sep 2026",
+     "revenue_cr": 4786.0,
+     "net_profit_cr": 274.0
+    }
+   ],
+   "annual": [
+    {
+     "period": "Mar 2019",
+     "revenue_cr": 7509.0,
+     "net_profit_cr": 495.0
+    },
+    {
+     "period": "Mar 2020",
+     "revenue_cr": 6915.0,
+     "net_profit_cr": 566.0
+    },
+    {
+     "period": "Mar 2021",
+     "revenue_cr": 6547.0,
+     "net_profit_cr": 520.0
+    },
+    {
+     "period": "Mar 2022",
+     "revenue_cr": 7549.0,
+     "net_profit_cr": 461.0
+    },
+    {
+     "period": "Mar 2023",
+     "revenue_cr": 8804.0,
+     "net_profit_cr": 480.0
+    },
+    {
+     "period": "Mar 2024",
+     "revenue_cr": 10241.0,
+     "net_profit_cr": 680.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 11561.0,
+     "net_profit_cr": 836.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 14596.0,
+     "net_profit_cr": 952.0
+    }
+   ],
+   "fetched_at": "2026-11-19 19:54 IST"
   }
  },
- "coverage": "4/4 profiled companies (batch of 4 this run)"
+ "coverage": "10/10 profiled companies (batch of 6 this run)"
 }
