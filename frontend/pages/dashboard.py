@@ -345,6 +345,14 @@ def _run_research(view: dict) -> None:
     st.rerun()
 
 
+def _run_agent(view: dict, agent_name: str, title: str) -> None:
+    from engine.orchestrator import rerun_agent
+    with st.spinner(f"Re-running only the {title} agent on {view['symbol']}..."):
+        outcome = rerun_agent(view["symbol"], view["exchange"], agent_name)
+    st.session_state["ms_last_run"] = outcome
+    st.rerun()
+
+
 def _ist(value) -> str:
     if not value:
         return "unknown date"
@@ -548,9 +556,12 @@ def _agent_tab(st, view: dict, agent_name: str, title: str, renderer) -> None:
     cap, btn = st.columns([4, 1])
     cap.caption(f"Source agent: {agent_name} | run status: {output.get('run_status')} | "
                 f"finished: {_ist(output.get('finished_at'))}")
-    if btn.button("\U0001F504 Re-run full research", key=f"rerun-{agent_name}-{title}",
-                  use_container_width=True, help="Re-runs the full eight-agent research for this company"):
-        _run_research(view)
+    if btn.button(f"\U0001F504 Re-run {title}", key=f"rerun-{agent_name}-{title}",
+                  use_container_width=True,
+                  help=(f"Re-runs only the {agent_name} agent for this company. "
+                        "Other tabs keep their stored data until their own agent is re-run "
+                        "or a full research run refreshes everything.")):
+        _run_agent(view, agent_name, title)
     data = output.get("data") or {}
     if output.get("missing"):
         st.caption("Missing/unavailable: " + ", ".join(str(m) for m in output["missing"][:10]))
