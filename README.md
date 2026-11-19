@@ -90,6 +90,32 @@ visible on the Data Source Health page. Delayed data is always labelled.
 Settings page toggles three jobs (daily scan, watchlist monitor, news
 refresh). They run through APScheduler **only while the app process is
 running**. For a daily scan, leave the dashboard open or run it each evening.
+On hosted free tiers (Streamlit Community Cloud) the app sleeps when nobody
+visits, so these in-app jobs do **not** run there; use the rotation updater
+below for hosted freshness.
+
+## Hosted daily updates (GitHub Actions rotation)
+
+`.github/workflows/daily_update.yml` runs `scripts/daily_update.py` every
+weekday at 18:30 IST on GitHub's free tier. Each run researches one bounded
+batch (default 75 stocks, max ~16 minutes) of the full NSE universe
+(`data/universe_nse_part*.csv`, 2,404 equities) and commits one JSON snapshot per
+stock to `data/snapshots/` plus `data/rotation_state.json`. The hosted app
+reads those snapshots, so the site always shows how fresh each stock is.
+
+Honest limits:
+
+- This is a **rotation**, not a daily full-market scan. At ~75 stocks per
+  weekday the whole universe is refreshed roughly every 6-7 weeks. Every
+  stock carries its own "updated at" date and the Overview page shows
+  coverage, oldest and newest data dates.
+- A stock that fails is stored as `unavailable` with the error and retried
+  on the next cycle; failed days are never silently presented as fresh.
+- Scheduled workflows can start a few minutes late under GitHub load. If the
+  free monthly Actions minutes are exhausted, runs simply stop until the next
+  month (no charges - verify no payment method is attached to the account).
+- If NSE/yfinance blocks GitHub's runner IPs on a given day, that day's batch
+  lands as `unavailable` and the site shows the previous good dates.
 
 ## Configuration
 
