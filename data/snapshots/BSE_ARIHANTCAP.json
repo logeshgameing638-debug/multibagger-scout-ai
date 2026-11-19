@@ -1,0 +1,214 @@
+{
+  "symbol": "ARIHANTCAP",
+  "exchange": "BSE",
+  "updated_at": "2026-11-20 02:40 IST",
+  "status": "partial",
+  "agent_statuses": {
+    "fundamental": "success",
+    "technical": "success",
+    "business": "success",
+    "valuation": "success",
+    "risk": "success",
+    "news": "failed",
+    "scoring": "success"
+  },
+  "name": "Arihant Capital Markets Limited",
+  "scores": {
+    "fundamental": 19.5,
+    "technical": 62.0,
+    "data_confidence": 70.0,
+    "risk": 40.0,
+    "long_term": 32.2,
+    "short_term": 49.2,
+    "balanced": 40.8
+  },
+  "classification": "high_risk",
+  "explanation": {
+    "fundamental": {
+      "growth": {
+        "points": 6.5,
+        "max": 20,
+        "detail": [
+          "sales_cagr_3y: 5.0/5 (value 0.161 vs threshold 0.15)",
+          "sales_cagr_5y: 0.0/5 (missing input: 0 points)",
+          "profit_cagr_3y: 1.5/5 (value 0.0262 vs threshold 0)",
+          "profit_cagr_5y: 0.0/5 (missing input: 0 points)"
+        ]
+      },
+      "roe_roce": {
+        "points": 0.0,
+        "max": 15,
+        "detail": [
+          "roe: 0.0/8 (value 0.0713 below all bands)",
+          "roce: 0.0/7 (value 0.0933 below all bands)"
+        ]
+      },
+      "debt_balance_sheet": {
+        "points": 0.0,
+        "max": 15,
+        "detail": [
+          "financial sector: industrial debt rules not applied; 0 awarded (not full points)"
+        ]
+      },
+      "cash_flow": {
+        "points": 0.0,
+        "max": 15,
+        "detail": [
+          "positive OCF: 0.0/5",
+          "positive FCF: 0.0/5",
+          "OCF/net profit: 0.0/5 (value -3.88 below all bands)"
+        ]
+      },
+      "management_promoter": {
+        "points": 10.0,
+        "max": 15,
+        "detail": [
+          "insider holding 72.8%: 10/10",
+          "promoter pledge unavailable from free sources: 0/5"
+        ]
+      },
+      "valuation": {
+        "points": 3,
+        "max": 10,
+        "detail": [
+          "P/E 32.3 (no industry benchmark): value 32.3 vs threshold 40"
+        ]
+      },
+      "industry_growth": {
+        "points": 0.0,
+        "max": 10,
+        "detail": [
+          "industry growth unavailable from free sources: 0/10"
+        ]
+      }
+    },
+    "technical": {
+      "long_term_trend": {
+        "points": 10,
+        "max": 20,
+        "detail": [
+          "long-term trend: sideways"
+        ]
+      },
+      "ema_alignment": {
+        "points": 15,
+        "max": 15,
+        "detail": [
+          "full bullish alignment (price > 20 > 50 > 100 > 200)"
+        ]
+      },
+      "momentum": {
+        "points": 12.0,
+        "max": 15,
+        "detail": [
+          "RSI 53: 4/7 (value 52.7 vs threshold 45)",
+          "MACD histogram positive: 8.0/8"
+        ]
+      },
+      "volume": {
+        "points": 5,
+        "max": 15,
+        "detail": [
+          "relative volume: value 0.825 vs threshold 0.7"
+        ]
+      },
+      "price_structure": {
+        "points": 10,
+        "max": 10,
+        "detail": [
+          "uptrend (higher highs, higher lows)"
+        ]
+      },
+      "support_resistance": {
+        "points": 10,
+        "max": 10,
+        "detail": [
+          "price mid-range between S/R (52% of range)"
+        ]
+      },
+      "breakout_confirmation": {
+        "points": 0,
+        "max": 15,
+        "detail": [
+          "no confirmed breakout"
+        ]
+      }
+    },
+    "data_confidence": {
+      "source_reliability": {
+        "points": 10,
+        "max": 25,
+        "detail": [
+          "yahoo_finance: ok",
+          "nse_archives: failed/unused",
+          "bse_site: failed/unused",
+          "rss_news: failed/unused"
+        ]
+      },
+      "completeness": {
+        "points": 25.0,
+        "max": 25,
+        "detail": [
+          "0 fundamental metrics missing"
+        ]
+      },
+      "reporting_period": {
+        "points": 20,
+        "max": 20,
+        "detail": [
+          "4 annual periods available (value 4 vs threshold 4)"
+        ]
+      },
+      "freshness_depth": {
+        "points": 15,
+        "max": 15,
+        "detail": [
+          "1230 validated daily bars (value 1.23e+03 vs threshold 200); providers may delay quotes ~15 min"
+        ]
+      },
+      "cross_source_consistency": {
+        "points": 0.0,
+        "max": 15,
+        "detail": [
+          "not checked: no comparable same-company, same-period values from a second source"
+        ]
+      }
+    },
+    "risk": {
+      "findings_contribution": {
+        "points": 40,
+        "max": 100,
+        "detail": [
+          "negative_ocf (high): +20",
+          "profit_quality (moderate): +10",
+          "high_volatility (moderate): +10"
+        ]
+      },
+      "classification": "HIGH",
+      "unassessed_items": [
+        "auditor resignation history",
+        "qualified audit opinions",
+        "related-party transactions",
+        "regulatory actions",
+        "promoter pledging (source unavailable)",
+        "promoter selling (source unavailable)"
+      ]
+    },
+    "labels": [
+      "high_risk"
+    ],
+    "weights": {
+      "long_term": "0.7F+0.3T",
+      "short_term": "0.7T+0.3F",
+      "balanced": "0.5L+0.5S"
+    }
+  },
+  "technical_daily": {
+    "rsi_14": 52.73653824601821,
+    "breakout": false,
+    "breakdown": false,
+    "support": 83.62999725341797,
+    "resistance": 102.19999694824219,
+    "trend": "bullish"
+  }
+}

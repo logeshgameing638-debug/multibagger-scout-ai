@@ -1,7 +1,7 @@
 {
   "symbol": "CHEMFAB",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:54 IST",
+  "updated_at": "2026-11-20 02:40 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -9,18 +9,18 @@
     "business": "success",
     "valuation": "partial",
     "risk": "success",
-    "news": "success",
+    "news": "failed",
     "scoring": "success"
   },
   "name": "Chemfab Alkalis Limited",
   "scores": {
     "fundamental": 23.0,
-    "technical": 45.0,
-    "data_confidence": 72.0,
+    "technical": 60.0,
+    "data_confidence": 70.0,
     "risk": 20.0,
-    "long_term": 29.6,
-    "short_term": 38.4,
-    "balanced": 34.0
+    "long_term": 34.1,
+    "short_term": 48.9,
+    "balanced": 41.5
   },
   "classification": "neutral",
   "explanation": {
@@ -103,15 +103,15 @@
         "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 58: 7/7 (value 57.9 vs threshold 55)",
+          "RSI 61: 7/7 (value 60.8 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 15,
         "max": 15,
         "detail": [
-          "relative volume: value 0.307 below all bands"
+          "relative volume: value 8.99 vs threshold 1.5"
         ]
       },
       "price_structure": {
@@ -125,26 +125,26 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (53% of range)"
+          "price mid-range between S/R (45% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 12,
+        "points": 10,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: ok"
+          "rss_news: failed/unused"
         ]
       },
       "completeness": {
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1234 validated daily bars (value 1.23e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -205,11 +205,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 57.86610927922376,
+    "rsi_14": 60.76270687292157,
     "breakout": false,
     "breakdown": false,
     "support": 288.29998779296875,
-    "resistance": 375.0,
+    "resistance": 399.0,
     "trend": "sideways"
   }
 }

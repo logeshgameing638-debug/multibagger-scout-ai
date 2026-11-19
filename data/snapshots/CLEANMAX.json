@@ -1,7 +1,7 @@
 {
   "symbol": "CLEANMAX",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:54 IST",
+  "updated_at": "2026-11-20 02:45 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -9,14 +9,14 @@
     "business": "success",
     "valuation": "partial",
     "risk": "success",
-    "news": "success",
+    "news": "failed",
     "scoring": "success"
   },
   "name": "Clean Max Enviro Energy Solutions Limited",
   "scores": {
     "fundamental": 25.0,
     "technical": 34.0,
-    "data_confidence": 67.0,
+    "data_confidence": 65.0,
     "risk": 65.0,
     "long_term": 27.7,
     "short_term": 31.3,
@@ -73,7 +73,7 @@
         "points": 0.0,
         "max": 10,
         "detail": [
-          "P/E 82.5 (no industry benchmark): value 82.5 below all bands"
+          "P/E 81.7 (no industry benchmark): value 81.7 below all bands"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 49: 4/7 (value 48.8 vs threshold 45)",
+          "RSI 50: 4/7 (value 49.9 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.113 below all bands"
+          "relative volume: value 0.386 below all bands"
         ]
       },
       "price_structure": {
@@ -125,26 +125,26 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (75% of range)"
+          "price mid-range between S/R (66% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 12,
+        "points": 10,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: ok"
+          "rss_news: failed/unused"
         ]
       },
       "completeness": {
@@ -165,7 +165,7 @@
         "points": 10,
         "max": 15,
         "detail": [
-          "177 validated daily bars (value 177 vs threshold 100); providers may delay quotes ~15 min"
+          "176 validated daily bars (value 176 vs threshold 100); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -206,11 +206,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 48.82821371607429,
+    "rsi_14": 49.93325155408772,
     "breakout": false,
     "breakdown": false,
     "support": 1021.2000122070312,
-    "resistance": 1345.4000244140625,
+    "resistance": 1399.5999755859375,
     "trend": "sideways"
   }
 }

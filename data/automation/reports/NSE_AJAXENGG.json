@@ -9,7 +9,7 @@
     "website": "https://www.ajax-engg.com"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-19 15:14:28.296912+00:00",
+    "generated_at": "2026-11-19 21:21:43.444375+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -17,7 +17,7 @@
       "business": "success",
       "valuation": "success",
       "risk": "success",
-      "news": "success",
+      "news": "failed",
       "scoring": "success"
     }
   },
@@ -73,42 +73,42 @@
       "2026-06-30",
       "2026-09-30"
     ],
-    "_run_id": 1086
+    "_run_id": 701
   },
   "4_technical_analysis": {
-    "assessment": "bullish",
+    "assessment": "sideways",
     "daily": {
       "timeframe": "1d",
-      "last_close": 624.9500122070312,
+      "last_close": 623.9000244140625,
       "emas": {
-        "ema_20": 573.9967886631005,
-        "ema_50": 569.993782235004,
-        "ema_100": 566.9408649031241,
-        "ema_200": 566.6043506250415
+        "ema_20": 568.6332914479499,
+        "ema_50": 567.7506708075744,
+        "ema_100": 565.7689629373886,
+        "ema_200": 566.0179620664286
       },
       "smas": {
-        "sma_20": 562.932504272461,
-        "sma_50": 571.3490002441406,
-        "sma_100": 570.9855010986328,
-        "sma_200": 542.8357493591309
+        "sma_20": 559.1775024414062,
+        "sma_50": 570.4990002441406,
+        "sma_100": 570.0685009765625,
+        "sma_200": 542.1692492675782
       },
-      "rsi_14": 71.86087633430202,
+      "rsi_14": 71.63389235296819,
       "macd": {
-        "macd_line": 9.619553835399529,
-        "signal_line": 1.174148106511632,
-        "histogram": 8.445405728887897
+        "macd_line": 5.9662394504304075,
+        "signal_line": -0.9372033257103423,
+        "histogram": 6.90344277614075
       },
-      "adx_14": 24.14257174251206,
-      "atr_14": 20.807563118112935,
+      "adx_14": 21.643857765469818,
+      "atr_14": 20.565836265119216,
       "bollinger": {
-        "middle": 562.932504272461,
-        "upper": 611.9706542569318,
-        "lower": 513.8943542879902
+        "middle": 559.1775024414062,
+        "upper": 598.8219650464877,
+        "lower": 519.5330398363247
       },
-      "volume_sma_20": 82993.65,
-      "relative_volume": 2.130813622487986,
+      "volume_sma_20": 78097.8,
+      "relative_volume": 8.937319617197923,
       "support": 523.75,
-      "resistance": 635.0,
+      "resistance": 634.9500122070312,
       "price_structure": {
         "structure": "consolidation / mixed",
         "higher_highs": true,
@@ -116,25 +116,25 @@
         "lower_highs": false,
         "lower_lows": true
       },
-      "trend": "bullish",
+      "trend": "sideways",
       "trend_strength": "weak",
       "breakout": false,
       "breakdown": false,
       "momentum_divergence": null,
       "entry_zone": {
         "low": 523.75,
-        "high": 534.15,
+        "high": 534.03,
         "basis": "near identified support plus half ATR buffer"
       },
-      "invalidation_level": 482.13,
-      "atr_risk_distance": 20.807563118112935,
-      "provisional_last_bar": true
+      "invalidation_level": 482.62,
+      "atr_risk_distance": 20.565836265119216,
+      "provisional_last_bar": false
     },
     "short_term_report": {
       "timeframe": "daily",
-      "trend": "bullish",
-      "rsi_14": 71.86087633430202,
-      "macd_histogram": 8.445405728887897,
+      "trend": "sideways",
+      "rsi_14": 71.63389235296819,
+      "macd_histogram": 6.90344277614075,
       "breakout": false,
       "breakdown": false
     },
@@ -144,7 +144,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 566.6043506250415,
+      "ema_200_daily": 566.0179620664286,
       "price_vs_ema_200": "above"
     }
   },
@@ -168,15 +168,15 @@
       "expansion projects / order book",
       "management quality and corporate governance depth"
     ],
-    "_run_id": 1088
+    "_run_id": 703
   },
   "6_valuation": {
     "multiples": {
       "pe_trailing": 30.016811,
       "pe_forward": 21.295301,
       "pb": 4.753917,
-      "ev_ebitda": 22.441,
-      "ev_sales": 2.802,
+      "ev_ebitda": 22.486,
+      "ev_sales": 2.807,
       "peg": null,
       "dividend_yield": 0.0,
       "industry_pe": null
@@ -202,260 +202,12 @@
       }
     },
     "dcf_not_calculated_reason": null,
-    "margin_of_safety_vs_base_case": -0.2618771581033425,
-    "current_price": 624.9500122070312,
-    "_run_id": 1089
+    "margin_of_safety_vs_base_case": -0.25975705955729167,
+    "current_price": 623.9000244140625,
+    "_run_id": 704
   },
   "7_news_intelligence": {
-    "items": [
-      {
-        "headline": "Ajax Engineering Q2FY27 Results: PAT up 30.4% YoY to \u20b950.9 crore - scanx.trade",
-        "source": "scanx.trade",
-        "published": "Sat, 14 Nov 2026 07:19:38 GMT",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYzNwTS1kLWxKdU00YTMwNEd5WVg1UWllM1JuSU55cXoxYy01SnVyREVUTXdoXzFrZkZ3MVdGbEVjbWsxQ0ttQ3hJbnFpdmYxNmpCN1NMVXlGTnZJaHdiUmdoMkF4Z19oVnM2RHl2ZENka0RHWWQ0emNnTUdwX0NaWFdPZG90eWt3Xzh4MXVoQlp0TXZIN1M0UnltZGpmcmlNam5ycDdXVFFKTWdnWjFKQVB2cVhIdw?oc=5",
-        "sentiment": "neutral",
-        "relevance": "high",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "AJAX Engineering Share Price today: price action and ratios - Univest",
-        "source": "Univest",
-        "published": "Wed, 18 Nov 2026 06:25:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdVBtQTBISmQxVlBQdm15VFJmV2stdmtERUQ4WjJOWTloX3VKZFhiM2JuWG8ydEhNaDVKY25nbnBDUy1vMUIzYmllaUJHMklqTGV2bU1fQk1MQWhXekVpcEdEeEhBWTFRVGVUUi1TczFyTWZYWmNrRkpXN0NrelV4LWFCd2FiWTdD?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "AJAX ENGINEERING LIMITED Share Price - Upstox",
-        "source": "Upstox",
-        "published": "Tue, 05 May 2026 11:35:49 GMT",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE51TlJIQ3l6eGJSX3I4ZDg1VWhHaDBrcVRnd285c3hRUGxnc2RMS3lkZFdHT3B4Q3YtdHFpVTlFSzhKUGg1WmZlWVY1VXg0WGE1Wkk0NDRMMTV1NGtwcGlVMktUSUplZjJ5QnBkdlNsSnE?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Ajax Engineering seeks shareholder approval for Joshipura as independent director - scanx.trade",
-        "source": "scanx.trade",
-        "published": "Sat, 14 Nov 2026 03:34:40 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNREhVYkdibm9MbDdiSm96V0FJU0VGRFFNUnJodXIzR2lMeDdVSVJzaldYSVRIeXdBWVpZb2MwMmhHRllXWU1PcFZBVnBEZVJZaHJHNWRxV1ozS1VfaXVoeUdrRThTNFZ5NmNIdmNBbkRkR1JPTm42Ym9RN2FORlFaby11YmQta1BVeEh1UnFlNnNiZnU2MkVGakhXZ05HZ1ZTeDdaeXYwU2lqS0lwZ25VcmFiRzdaZ01ybjZPMk5QNA?oc=5",
-        "sentiment": "positive",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Ajax Engineering (AJAXENGG.NS) Eases 0.34% to \u20b9551.8 as Stock Holds Above Key Support - Ease of Movement - siam.in",
-        "source": "siam.in",
-        "published": "Thu, 29 Oct 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNY29zdU43eXVsaXJmTjBfUWZSNmFRc0NNVlN6U0t6em1jVjBGSGVhdjM0c1ItQTk5dFNLbkU5dUxTWUo0RV9QZl9GeUw2bE9vOGhiZVh5Qm8zek9XQ2NneW9sQ0gtYUwzNzAyNVExZEx0cTIyeXlMUWRTN3lxd0RkZXU5QWlRVVExOFA5TWxicmVxSW9XS2lWeXFRUXEwTXRSZERsa3pDQVpoTWY4NVVXTjF6c3lPaWxEcW1vclV3?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Some Investors May Be Willing To Look Past Ajax Engineering's (NSE:AJAXENGG) Soft Earnings - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Mon, 25 May 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNcUQydDJlOHJDWjVHUEZFMUJzU25QSVc0c1NTLVJjR3Z1amxFTUZ2UW1XRDFfanJWYUwtZU04VkROZVVVQ2NWaFFOX1ltMmR1Y1M0V0JHTUVtUmkxUnVsN1B0aXpYa2xZQmc4dVFMcGpvdWl0N0ZVV1JnU1FsZUNEWjltdlR0M3VSMFZjQm9udWtYUGFaWGc5WUtldmpfTGhXaTZ4WWZzM0xGY0R2LXdmcGVlN2tWRnNtX05vd3BwUzc3MTFtRXpsbGtVVWhCWHlacG1tZWo5cUc1ek90R1Vfa3hn0gHnAUFVX3lxTE5LblNoa2RlM0xBUFRoaVg3OTB3Y2NPeDhTczJlRVhNR0UyVkJIQ1gtQkxldTA3UlVfVUktQlJ3YURDWXcwdlhybE1RVlJvVXROUXhEejA2VlhDOVVLeVpfSDVvY3pnV0NkeExzOEd1YWRjS1BKbzQ3clpIQkFpTWpMalhELUJwX0oxWW5NV2R6X0pxZXlmU2NrcjdLU0hoLUtjRjZKQXMzbmNwT05nVkFDT0lqUHFqMm0yOE1jOUNmUW1JcEVCSThlMEpJbFdNVGpvTWgtWVZFUFFUR1NVQ3BRSHVFblpaMA?oc=5",
-        "sentiment": "neutral",
-        "relevance": "high",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Ajax Engineering Shares Listed at 6% discount on BSE, 8% on NSE: Check Live Listing Updates Here - Groww",
-        "source": "Groww",
-        "published": "Mon, 17 Feb 2025 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBxUTFNLVBpUzlhZ2FXNGlEeUd5dUtSVmk1bEJ2WVpfLVJFcXNmV252TmUwZUNYakduUW1fVHdWSnpzZE8yemxRRWRfMmczTDNhM0RkdnJ4SDJpbG5WUkM4Y0x5eFVnaVV6TmxuTlVoVmY?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Ajax Engineering Ltd Share Price Today NSE/BSE Charts - Alice Blue",
-        "source": "Alice Blue",
-        "published": "Sat, 05 Sep 2026 20:56:45 GMT",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9KcUF2Nmt1MnN2U3hqM0JBQkR6aGliME4tSV9qSzlJUmNOUzhEUmViMWFHSGdWV2NFYzFRWFZmSUpMd082YUFyYjFRTkg2VHl1bVBpZWd6V0VuOHhoYkY0TDVBbWtPei1mWkotNWg5MElTNlJ0?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Ajax Engineering (AJAXENGG.NS) Eases 0.53% to \u20b9582.75, Holding Above Key Support at \u20b9553.61 - PCR Spike - siam.in",
-        "source": "siam.in",
-        "published": "Wed, 07 Oct 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQ3hQRGFZdjNTaGhCUVZ4TWRwYlctTkxLajdNT0ttTG9Bckw4TGlqV0k0YjN4dkZKTTNHbUJiNGZ1ekd3MUVTbmZ5dGVZMGtMMjhWRTljRGstUDhKeDItdXN4NllCVVRiek1wWUg2WlEyRlJGbWxjZGxmaVV1UzlpMGkxRTMxZUxHWkVEYzl6MGNhNkUtcWJOUjFTWVJselFKYUdLOUdZek1JdGdrdk44Q1RxR0JXWFBTRC1tSERtQ0w5Zw?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Ajax Engineering Ltd Share Price Today | Ajax Engineering Live NSE/BSE - Value Research",
-        "source": "Value Research",
-        "published": "Mon, 17 Feb 2025 14:54:28 GMT",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9DN2xnZklEUnplTHp0czR1akNUVWJGb2szcjlMSmZTbXF5WmR6dVFENUhMV1hua0dkNTVnRjQxNENKUmRxOE5mY082bWJ1M3NSWjFPWUFlQWpEOWkyMHdMQjdLUW5wMk8ydUNwSEs4cUFtREVYMmRYbFBaVQ?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Ajax Engineering to host investor meetings with JM Financial and Avendus Spark - scanx.trade",
-        "source": "scanx.trade",
-        "published": "Thu, 05 Nov 2026 10:42:23 GMT",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSlRwd01STkhTZFd5aFRFcEVra1Q4UFBsM3VGeC1MY1NZOTlpQUl5RlN0LTJITzc1T0p4MGhlY1R3N3Y5OVBiMkRucHdPeDJvMXptRE1hWndTN0t6b2g5Z1FUWlUwOGd5ZEhaeVAteVp4N1VZUnBqcmxwT0VLVGxCanQxSUFNaXhYVjFOdUl3ZjkzdGlLcklSVGQ2YUVraWk0NlhIa1MwTGptT3ZlcjFVMDVRSzRhc0E?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Ajax Engineering Q2FY27 net profit rises 30% YoY to \u20b9509 crore - scanx.trade",
-        "source": "scanx.trade",
-        "published": "Fri, 06 Nov 2026 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMDMtUjlPa3hHTDJTWVVzcGhOcFlnNGM4S2Rwd3lQY3VqZ3VkUF9ILTR0MGRqWEl0NWZIaFpncHV0YVItSXRIM2h4LTNtb2lMTjlvWkowNl9FYjN1VXN2RWRZMnFxangyZFVqa1ZZUmRnbWE5SzNJWE1MWjA4WWpEX3RjN0NkT1duT25vczlJdkwxX0RUMDhmX19sYnFqcW8xbXVNb3ZVZFlQTXFMTDU4YUdyRUpjWkQ3UVRYMVQ3VQ?oc=5",
-        "sentiment": "positive",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Ajax Engineering IPO To Open On Feb 10 - www.fintechbiznews.com",
-        "source": "www.fintechbiznews.com",
-        "published": "Wed, 05 Feb 2025 18:10:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOF8tVnlzNm5HUnFHS3RuY0llblJDXzVPd3hJT2FpMlFUcUhZZEx1VmZ5MW9kb0JVTExFTTc3Wk5xLVhzNWVGQkJhaWd6QnMybmFLMWhYUVZYZFhzX1E2QkRzVExBeW4xSEpfN0hLTGRaWnlBb1Atckt1Q2dUVWdDV0VqMEptYnVmSGVjMg?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Ajax Engineering IPO opens on February 10; check price band, lot size, key dates and more - Upstox",
-        "source": "Upstox",
-        "published": "Tue, 04 Feb 2025 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNTndTSnpVU1VOemVOa183OFhNS0pTMXJ2T1B6eU55Q2k3eGJGUzVHWWVTZWNBSURmeDBMRFJkVnJ6X3hLdXZ0bWd4RDViRVBGQTB2dFJxU2lPRjcwVUNORlpiMGllT3puM3BFenFYQTB6MVlXNm9hZFMwazNiMWN4MWxvUXR6dTVEclBtSzFfc3I5TXM1emRTM19jRWhqdmQzSjhycmZfSGIzV3dJLVllVHhOekV3VDgtSUJGV1JYakRZVGM0TGNMQjRLQWZmblZKTWs5UTZ4Wk9KZw?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Ajax Engineering IPO: Check the latest GMP for Ajax Engineering IPO here - Alice Blue",
-        "source": "Alice Blue",
-        "published": "Fri, 07 Feb 2025 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA5cHZ0SzVhUHd4R3FvVjhWYzBZclB2OEJYN3NhTGR1d29pd004WFFSQ3YyR2NYV050NUhscnJNaWlrUjFiaVdmTThZVW5sd082UEZDeng5UUl2U0MwVFI4ckdrbU5QU1FHLW5fODU1WlluWk0?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Ajax Engineering (NSEI:AJAXENGG) Stock Price - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Mon, 28 Jul 2025 15:37:31 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9XczNESGtXbVlUUkpmYzhwVzRWOHNSTDAzY1FFbW5HejEyckFhTE9oeTdKRkVCLXljOEhRdGZSSkdlc0NNQ2tkNm1ESUhhVHhodkhJ?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Ajax Engineering releases Q1FY27 earnings call transcript with key insights - scanx.trade",
-        "source": "scanx.trade",
-        "published": "Wed, 05 Aug 2026 17:19:08 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNLVIwQ20wdjFCTDM2RXNXenN5SXNXRlNfZ1RPVUR4U3FIelRVTUt1T0VpcWZuQklCYnBzVXVkUk8yREo0WGpFcjdIY2RvQkl0MmxoN3dHQkFEVGZCWGozMDNaMTdERGZLV3hvdVE1TkVkb1l1RU44TFU2QWdJRXNjSDM5YzBuc2d2TThtVmJYV2lFVzNfcXVhZ0I5SC1qaTBobWVFU3p0X09rcXlTUXdmVzlVaDZINEU5OXc?oc=5",
-        "sentiment": "neutral",
-        "relevance": "high",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Ajax Engineering (NSEI:AJAXENGG) - Stock Analysis - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Wed, 19 Feb 2025 19:38:53 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdEliNlhUZlF3QTZHcHR3MkVPVG5nNTdweGhqNXFMODF3ZEYwdDQ2Y0Z0WGFBLVZKS3l2V2NxLWJzTll5THNqSE5SWmc5d1NVOS1mUjRTcFpMOVZkSnhfR09oV3I1dk9nZ3JyV2tTd0dHUjBPVlRlNmFtcU80amJXMERjVnE5QW1sM1E?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Ajax Engineering appoints Ketan Pendse as Chief Financial Officer - scanx.trade",
-        "source": "scanx.trade",
-        "published": "Tue, 02 Jun 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNV0w1N1NuS0JqWnF0anA3cHM2OFFuaGIyVEhPZFc2NTFUNkx1LW5KQktPQkJpdFpOay1iczFDMWF5NllzZ005VHJBSTV4cmJNYkRUaFExYjg0Rjh6NmpOR0duVXQ3Snc2cVdnVTdSaEViWnp1ZFZ6MjhCYkttWjZxNUVhVkpLcGRNNUZaZlJUbU5pSXdWc2x1SDhySTNQOTVwN2RXTnR2Y2cyekJ5akgtRDZHY01JUXdjMnI5N3ExOA?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Ajax Engineering schedules 34th AGM on September 28, 2026 - scanx.trade",
-        "source": "scanx.trade",
-        "published": "Mon, 28 Sep 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVEh4VkY0RFVoeVBoWmY0YnR3amIwSVJrVmRXbkRKUmZvTXZNaV9nbFVMWnJKSVRDLVVhaE5tN0N2T1B5Nl9CQ3dwNWxZcVAxd3BDbEdYb1BNN1pnZGRQUWFuQ2lCV3hUVUF6dHJIQVY3bUtfNExHZDdfNVhuU2ZBWUlhX0d4dW5oUUNYbVdLSFd6aDhucE5pTHpGUkE1SWduYktZYWR0UDhOTFMxa2ww?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Zee Business. . Ajax Engineering \u0915\u093e IPO... \u092a\u0939\u0932\u0947 \u0926\u093f\u0928 28% \u092d\u0930\u093e, \u0915\u0932 \u092c\u0902\u0926 \u0939\u094b\u0917\u093e \u0915\u0902\u092a\u0928\u0940 \u0915\u0947 \u0932\u093f\u090f \u0915\u094d\u092f\u093e \u0939\u0948 \u092a\u0949\u091c\u093f\u091f\u093f\u0935 \u0914\u0930 \u0928\u093f\u0917\u0947\u091f\u093f\u0935? \ud83d\udcc9\u0907\u0928\u094d\u0935\u0947\u0938\u094d\u091f\u0930\u094d\u0938 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902, \u0907\u0936\u094d\u092f\u0942 \u092e\u0947\u0902 Apply \u0915\u0930\u0947\u0902 \u092f\u093e \u0928\u0939\u0940\u0902? \u091c\u093e\u0928\u093f\u090f IPO \u092a\u0930 \u090f\u0928\u093e\u0932\u093f\u0938\u093f\u0938 #AnilSinghvi \u0938\u0947... - Facebook",
-        "source": "Facebook",
-        "published": "Mon, 10 Feb 2025 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPQ09tTDlwRUdtcWp4dDByMTBtMEdWdF9oMktVOGRIMmdEejFfb3BkSmVDcjhGSXA2eVVSNmE3eUhBWkZkV3dhd3djbzgxaE96N3NqM1c5V25hTEZ2bmpCR3pFci1abl9oRkNna3BCRVc3NjRlV2loOUFlc0tNaGozSTlsMGg1QVVCRzU2cjJhekZOQWYyc05ZZ3AyaWZaWjdrV21mMUM2RnJ6T0lQcFhnTVNhbVZVbkFoRWI0SVp0SEE5aUloOGVJbzdEcFhIMUNNVEw1T0lFd3hKdk9TcF9sNw?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Ajax Engineering: Why This Market-Leader Stock Is Betting Big on Mechanized Construction Growth - Trade Brains",
-        "source": "Trade Brains",
-        "published": "Tue, 19 May 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTkx2bEVvUWpzVjEzRFJXbmctRFJfQXZhRF9TX2dLcklrRktSdFB2RkJ1bnhGaFVELV9rWDE0Y1YxUDVtQm1yU0luQU9oSWVoS3B0M0UxLXVMZ0Z6RUR1VGMzQkxXLTVOVGthNTN0bUlBbk9YNkRmTVpyU0ZsVVVyUlNmdWJZYjdlbHE1Z3ZvQ2kwTWphSlpWTGdYeXhvZi1lYmx3SlZCN2h5eDVsWkdpZ2N0UVlTalkyNWc?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Ajax Engineering IPO day 2: GMP, price, review, minimum investment, other details. Apply or not? - Livemint",
-        "source": "Livemint",
-        "published": "Tue, 11 Feb 2025 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbGhjZnFRX2JyQ3NiWjhvSFIwVmp4N1RqMm1iTExqa2VEZ0U4NkQxc1dwd0hfOVRvRUZPbmktVGhlNTZZb284S2k1X0ZReTNzazQ5czVMd2VFZmNQYUtiQThmbDJBTHAyNzV3RWpEWmgxLXl6NEd0SlFfRHU5SHpZMFg2S043ejg2U1R4OENCWmV4R21ZQWY0d0tlcmk4bm13amlhRW5hYW5kaEU2czdQd2pWX3VacmxFU3dNZDdiYkpVRW050gHKAUFVX3lxTFA5QnpVUGJGMkprLUZtWHZCdWZSMlZ5dmNxWEo3Tnp3Y2pXY2lYaC14Zk52SmZGb1BQS244aFRYTVU1YkJ3NDh1VWQwdllDMzByZFZtTldsRGFtcm5sMFRnUVJWQmxPZG9vVndqMk54OGZ4aXlIa0J4WUxPNXJ0YnVQb1ZBbXNhX3l4TVBDSHpyakxKeFpLTTdJY05PM2pCLXBQOVdUQWFoZFJwdWhDa0ZseWN3MDQxbHpJT3dQV0VlcXZELVp1VzB3V0E?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Ajax Engineering IPO: Price band set at \u20b9599-629 per share; check issue details, key dates, more - Livemint",
-        "source": "Livemint",
-        "published": "Wed, 05 Feb 2025 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdUxpd0VFMUduUUZOWHNIUW0zWDdzRzBrcWtld0RBa0x6WXgteDlTUGV6bUhZSjRuTzJzLVkxWWF2M2lqQndiSlNnT2lsZDliajZLbFVBZGJVZG1RZklCNTZvT2paOElFOUlBVFpDT2N2MGRBRDZkVzlOTVZZOXd5M1RhYm5TQ0V2czV6NXpPVEdqQ3FRT2JCdlJIV2t5WFJGYzg5SzhBdGJnSXBUcnc0dWxCRm1EaTZZUE9vdFNMWVhXOEJLQmQ4YTRTelZlVHRtNzJVb3ZYencwc2wxOHZ4RjdhY2fSAeoBQVVfeXFMTVhTR0hqQ1hLTmZqWkJrWS1ld2JGRGtJbFE4cXQzRzhqTk9RLWx5NklBRnM1MWF5ZER6TlVfVG94aENyZTI3bHUzbWgzYTNQSXZDMmFmcVZpM1ZmTVh0Z01HM0hodFFOdV9FemtGQVIyN0E1ZERqcmpGM0lLQnNObHFVeW1Nbmd5SGVLUXpGTEVOck13RmY2S25CazBpU2RRNDI3aThtSURrQVBLQUFKUWZnaWx5LU5FYlBMUmhidEMyVm9IaHdILURSSVBVMlR5dnJyX2hObjI4ZFJDWHc2YW4xNHY2bWJueVpR?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Ajax Engineering IPO opens on February 10; Check out 10 key things to know from RHP before investing - Livemint",
-        "source": "Livemint",
-        "published": "Thu, 06 Feb 2025 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPN3lueko0bjVqMUZSMlNSTEY1NTdrRFhrMUdQY3pDTGFkMTMyRHlGSmVWczctMkM3WHhNcEtINl9CZllVcWFiaXRSRnV1Nk5FWXVuMGhXc0RfTll2WTV0LWc2MFBGY0tXWVZ5ME9HNlpiTkY1bXRMZFNCNUdVSTVoUmJ0VVZTS0x2ZXVpUGRMSzlhUXZxY0RHV3Bwa1ZwNHZCRk0xVWVnNGpiN1A2NGlZSklrVkw0TVBwRTNvb3o0VjNZNzBzVFBpS2QwdU5Pb1p1dmd2Qlp1aEJETnFGVUw4WWVfb0tDU3JPSkVF0gHwAUFVX3lxTFA5UFZiU0E2bXhBakk5SzZmMVlGREpzbTNTTkw0cjZmRWp5Mkp2N0pKeEdBbV92cldTdVdwRmE5MG15NGJlSWxZN3U2NGNsem5ZcHpHMGlDdFREOUx4WFF1SW1Ca1hUVzBTM01EOWNscnJNM3NyT2JYaDBzakJsN1RKXy1ZSExEb0I3WU0zX0VaeldVRVRHRE14Q05oOEUxMmM3RjdjZEpWZktDRl9nOTlfQms3QzVBdURoa3d1WFJvbXhkRGFwVFZ5bVFzVC15TjY2V2RPSzAxdUVBZ1l3Z1hRWVl2STdoeVVKZ0dDc1VGVw?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Ajax Engineering Debuts On BSE And NSE, Share Prices Drop Below IPO Price - Times Now",
-        "source": "Times Now",
-        "published": "Mon, 17 Feb 2025 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPYmdnV2FybGxMZUs0MVhsZ0UzeDItd0VhRXZnVklYN2ljajctdC1DNWx1UlNjNDVoUWR1MFBJT2hCTUI0WWx6ZGxqNDVSRzRNdTNRLVAwRlNXYjB2SFpyaFdGSDJsTFVyWlBLcGozYkZtR2RBZzE3MVVIVUthVUlOM0tzdmpKOUVKWmlPYTJJZGZOZ2dHcktadFFjbTRHc29jTDBuY1JNc1pHVVhCNVNWTGd0Y3U1Sm4yOW8zVndCSHBUX3F5SHRqaGFjUDl6Yl9GSlMxRzRvblFHU0JRcFdj0gHkAUFVX3lxTE9YMXdXN3FxUkJQWUM4Q0E5R0c2Mm9CazJ4eTJXa3RidHhtNVBPd0lDOG54VnR1UjFXcFlBTHplZWRfcUJXRWhnbkpHVF8yOWhIMHNSbmlnYXctOWZINEtGa09QTzZiQW53T0Y3Uno2ZFhKbHUwUWNMOHlacDg3UTZocEdTZWNMZWhRbEtfQW1FZFFnUjFMbmk2RkpMdEk2SHp1X2JmNmtzVDhmZk9SRFhQbzVLRGRUN0V4TGxBMHRjeHVQOWUzaGNZVW1JekpqeEZBLUdFa0ZlOHFUa0ttLURZNmJOaQ?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Loss for investors: Ajax Engineering IPO makes bumpy debut; shares list at 8% discount to issue price; furt... - Bhaskar English",
-        "source": "Bhaskar English",
-        "published": "Mon, 17 Feb 2025 06:27:22 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPMWk2Y0VCemo0djZMbTFtaUxSenJVS011WW9EM1RCN3Z3a0ZBeHY5a3phUjZfSUVsVmZaTkY1NlFYRW9tYWlZUkxXNVZHRDdyYlcwSUFsbnNTdWswXzJsOEVoamxSS0NicTdWT0MzTDlwRmtwc1I1cEF5LXhDR1NlZHdVUVRTeERxM081eVJ2LU1CcnUyV1I5dXZ2R1ZfRDZCbzdPZGh2am1oN3ZIVF8xVnFPajJTaVhKcTg3SEFEMXR3bngtZ1pNUl83RGQ3MzBGb3A5SktFYlAxbkZMNFM3WnZ6LWtLOEJadWt1TGNR0gHzAUFVX3lxTE9FcDBRMDJ0bzRVc1JYQVlJTXc5NEpQendTOEhVcWptRjNXaDllZUV1Qk1CVFE3XzQ2VjlkUUE5cnZWbHotTWxER19YSGhFWVI1akw1bzBnQWFYUF95UkJodDVhOXpIQ2UyZ1dOSGJfdXFXbjd4S2VjY3BRa1lWOUp6ZERDS3JNb0ItTkRPUklfcjBmaWtGeFV0ZGpVQ0VNSjJ4ejRwbDNlbm41RmI1dDlIYkY5QWVnWWRuZEE3aUY5TUowQ2kzeFJSS0hLUFhkWl9uLXhtSG44Z2hOaUJZUW1RRzRGMmxub1dHYTJUcXFxLXRwaw?oc=5",
-        "sentiment": "negative",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      }
-    ],
-    "stored_new": 27,
-    "duplicates_skipped": 0,
-    "note": "headlines are unverified signals, not confirmed financial evidence",
-    "_run_id": 1091
+    "_run_id": 706
   },
   "8_risk_analysis": {
     "classification": "LOW",
@@ -469,47 +221,47 @@
       "promoter selling (source unavailable)"
     ],
     "shares_outstanding_growth_yoy": 0.0,
-    "atr_pct_of_price": 0.033294763919805924,
+    "atr_pct_of_price": 0.03296335223649603,
     "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
     "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
-    "_run_id": 1090
+    "_run_id": 705
   },
   "9_fundamental_score": 66.0,
-  "10_technical_score": 66.0,
-  "11_data_confidence": 72.0,
+  "10_technical_score": 59.0,
+  "11_data_confidence": 70.0,
   "12_short_term_assessment": {
-    "score": 66.0,
+    "score": 61.1,
     "technical_view": {
       "timeframe": "daily",
-      "trend": "bullish",
-      "rsi_14": 71.86087633430202,
-      "macd_histogram": 8.445405728887897,
+      "trend": "sideways",
+      "rsi_14": 71.63389235296819,
+      "macd_histogram": 6.90344277614075,
       "breakout": false,
       "breakdown": false
     },
     "entry_zone": {
       "low": 523.75,
-      "high": 534.15,
+      "high": 534.03,
       "basis": "near identified support plus half ATR buffer"
     },
-    "invalidation_level": 482.13
+    "invalidation_level": 482.62
   },
   "13_long_term_assessment": {
-    "score": 66.0,
+    "score": 63.9,
     "trend": {
       "timeframes": [
         "weekly",
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 566.6043506250415,
+      "ema_200_daily": 566.0179620664286,
       "price_vs_ema_200": "above"
     },
     "business_classification": "average"
   },
-  "14_investment_thesis": "Ajax Engineering Limited (AJAXENGG) is classified as a 'average' business with a bullish technical trend. Balanced research score 66.0/100 (fundamental 66.0, technical 66.0, data confidence 72.0, risk 0/100 higher=worse). Supporting evidence: ROE 16.2% (>15%): capital allocated effectively.",
+  "14_investment_thesis": "Ajax Engineering Limited (AJAXENGG) is classified as a 'average' business with a sideways technical trend. Balanced research score 62.5/100 (fundamental 66.0, technical 59.0, data confidence 70.0, risk 0/100 higher=worse). Supporting evidence: ROE 16.2% (>15%): capital allocated effectively.",
   "15_thesis_invalidation": [
-    "Daily close below invalidation level 482.13 (2x ATR under support)",
+    "Daily close below invalidation level 482.62 (2x ATR under support)",
     "Operating cash flow turning negative in the next annual report",
     "New critical governance or regulatory finding (currently unassessed items must be checked manually)"
   ],
@@ -539,17 +291,17 @@
     "rss_news (headlines, unverified)"
   ],
   "labels": [
-    "strong_technical_trend"
+    "neutral"
   ],
   "combined_scores": {
-    "long_term": 66.0,
-    "short_term": 66.0,
-    "balanced": 66.0,
+    "long_term": 63.9,
+    "short_term": 61.1,
+    "balanced": 62.5,
     "risk_score_higher_is_worse": 0
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-19 20:44 IST",
+    "generated_at": "2026-11-20 02:51 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-19 09:57 IST"
   }

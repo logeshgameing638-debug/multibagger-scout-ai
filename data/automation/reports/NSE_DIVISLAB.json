@@ -9,7 +9,7 @@
     "website": "https://www.divislabs.com"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-19 15:14:20.072726+00:00",
+    "generated_at": "2026-11-19 21:21:12.260469+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -17,7 +17,7 @@
       "business": "success",
       "valuation": "success",
       "risk": "success",
-      "news": "success",
+      "news": "failed",
       "scoring": "success"
     }
   },
@@ -71,40 +71,40 @@
       "2026-06-30",
       "2026-09-30"
     ],
-    "_run_id": 1065
+    "_run_id": 680
   },
   "4_technical_analysis": {
     "assessment": "bullish",
     "daily": {
       "timeframe": "1d",
-      "last_close": 11178.0,
+      "last_close": 11049.0,
       "emas": {
-        "ema_20": 10534.152077442839,
-        "ema_50": 9813.490679045623,
-        "ema_100": 9035.799047040442,
-        "ema_200": 8128.283984733227
+        "ema_20": 10466.378611910508,
+        "ema_50": 9757.796421047486,
+        "ema_100": 8992.522260111966,
+        "ema_200": 8097.63357251949
       },
       "smas": {
-        "sma_20": 10324.725,
-        "sma_50": 9740.74,
-        "sma_100": 8832.51,
-        "sma_200": 7610.1225
+        "sma_20": 10225.325,
+        "sma_50": 9699.18,
+        "sma_100": 8787.865,
+        "sma_200": 7584.5125
       },
-      "rsi_14": 68.34125046056153,
+      "rsi_14": 66.6343183774145,
       "macd": {
-        "macd_line": 513.5389453095358,
-        "signal_line": 451.2621686277763,
-        "histogram": 62.27677668175954
+        "macd_line": 522.2785729506868,
+        "signal_line": 435.69297445733633,
+        "histogram": 86.58559849335046
       },
-      "adx_14": 42.257858917102176,
-      "atr_14": 323.97067669457886,
+      "adx_14": 41.93855777848061,
+      "atr_14": 332.5068825941618,
       "bollinger": {
-        "middle": 10324.725,
-        "upper": 12096.494988487426,
-        "lower": 8552.955011512575
+        "middle": 10225.325,
+        "upper": 12018.467941288904,
+        "lower": 8432.182058711098
       },
-      "volume_sma_20": 858470.1,
-      "relative_volume": 0.7212435237989069,
+      "volume_sma_20": 861785.7,
+      "relative_volume": 0.5487605561336188,
       "support": 8797.0,
       "resistance": 11824.0,
       "price_structure": {
@@ -121,18 +121,18 @@
       "momentum_divergence": null,
       "entry_zone": {
         "low": 8797.0,
-        "high": 8958.99,
+        "high": 8963.25,
         "basis": "near identified support plus half ATR buffer"
       },
-      "invalidation_level": 8149.06,
-      "atr_risk_distance": 323.97067669457886,
-      "provisional_last_bar": true
+      "invalidation_level": 8131.99,
+      "atr_risk_distance": 332.5068825941618,
+      "provisional_last_bar": false
     },
     "short_term_report": {
       "timeframe": "daily",
       "trend": "bullish",
-      "rsi_14": 68.34125046056153,
-      "macd_histogram": 62.27677668175954,
+      "rsi_14": 66.6343183774145,
+      "macd_histogram": 86.58559849335046,
       "breakout": false,
       "breakdown": false
     },
@@ -142,7 +142,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 8128.283984733227,
+      "ema_200_daily": 8097.63357251949,
       "price_vs_ema_200": "above"
     }
   },
@@ -167,15 +167,15 @@
       "expansion projects / order book",
       "management quality and corporate governance depth"
     ],
-    "_run_id": 1067
+    "_run_id": 682
   },
   "6_valuation": {
     "multiples": {
       "pe_trailing": 88.20326,
       "pe_forward": 63.289528,
       "pb": 16.47409,
-      "ev_ebitda": 62.558,
-      "ev_sales": 23.856,
+      "ev_ebitda": 63.294,
+      "ev_sales": 24.137,
       "peg": null,
       "dividend_yield": 0.27,
       "industry_pe": null
@@ -201,242 +201,12 @@
       }
     },
     "dcf_not_calculated_reason": null,
-    "margin_of_safety_vs_base_case": -82.97288499405381,
-    "current_price": 11178.0,
-    "_run_id": 1068
+    "margin_of_safety_vs_base_case": -82.00379372869034,
+    "current_price": 11049.0,
+    "_run_id": 683
   },
   "7_news_intelligence": {
-    "items": [
-      {
-        "headline": "Divi's Laboratories posts 65% PAT surge in Q1FY27 on strong revenue growth - scanx.trade",
-        "source": "scanx.trade",
-        "published": "Wed, 18 Nov 2026 20:26:28 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRy1XTU4tYUFkT3pLVmlPZV9nVDFJSS1wcEw5S0FmOG5BWXdoT184SFdHZThmOHNscm54eERYU29sNkgyZ1FpSUhTc0xXX3NfRmFJRmVXakotT3Nrb3liSGhjS21MQlpzM0lrT3FkWldUeENoUUhUTXN6SXg1RW8zSkVOekltdnZvdEUyUUJMWVdqS0xaZ0RRWDJrVWRqbTZfbTkzemhrUmVKY3BNSVRvN05HNi1xUHNBSXgwYkNR?oc=5",
-        "sentiment": "positive",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Divi's Laboratories shares gain 6% after JPMorgan upgrade; Goldman raises earnings estimates after strong Q2 - CNBC TV18 - LinkedIn",
-        "source": "LinkedIn",
-        "published": "Sun, 08 Nov 2026 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcmkyUGplQkYyekVnOU1CQ3g4amJ3am8zVGtHVmNLSUVsTnhieXZjT1I0SEljV1N6b2d3X0M5WmtUUFk5NkNmaW5MN25RQTV3V2ttZkcxUER3eG50dG5QZmN4Z1UwWklLQnIyN2NJTE1rYmVIQzh5UVF4VnRsU0VOSWdPQmtpeHNnY04wUnBLWFhZQjlNUFMtcEVaaGE0czRLUlh4b0lvZ1lKcnI5bXo1Yklhcw?oc=5",
-        "sentiment": "positive",
-        "relevance": "high",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Results: Divi's Laboratories Limited Exceeded Expectations And The Consensus Has Updated Its Estimates - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Tue, 10 Nov 2026 00:41:42 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOTUhfMDJDYnpUUFZ5TFl1SS01aXExaFppWnY5RXozZUpWcUpsZjFZOFdJQkxnZ2sySElyMTA0NUNOY3FzQURUYmpqejRZWEFfVlRMSF9aZERaOFIzYXo5aFNqckpqUGQ5SVk4bEpUN283YURHTTBMZ0RZS2l4QjZxOGlUTktwZXhyQ2J1RnBqWFdOdE5sN1llX0QxSXZ1cnlXa2p2OTNtSG1zbDZQOVBFVEtqdkZLbWdSb1h2NUhIVkVsZ3ZwT2Zyc09vLVBjU1NYWExPaEtVOEdPV1V0WUNoTHV2dUJNb3VHT0sxRTNMM3NlUdIB9wFBVV95cUxPcTNuYld2UHdlUExidHE4Q0xoT2NTLXhVOXFPYWZJdDA2aXd1a0NQanVKM3RiVmpfOW9lRmlTQU9OUzIyUm94aEl0VFM4S1dhMnM3LWVWVTFRa1ZPSEZiZE1iNV9USkJWeWc2SjZRblhfVElzeGtGWVhkd0tWeEpsUG5WQ3lhVndIcEc0YTl6c2dyQ0RXZlR2ZjFURW13LTFOVm1PV0l2SmlxYnVLQmhCLW1mS3RlN3ZWYmxzYzJOUXBFc1JJY05RUGFHekszbVVMa2ViYUhnVmxDR0NMeTlHcExxMXRhUmpnOTFnNWFzQXJLS0lybllv?oc=5",
-        "sentiment": "neutral",
-        "relevance": "high",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Divi's Laboratories recommends \u20b930 dividend, outlines TDS compliance - scanx.trade",
-        "source": "scanx.trade",
-        "published": "Fri, 12 Jun 2026 00:00:24 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNM0ZnT2p4SkVnQUNNeFRLbGpoSUhIcEF4RnRmSThjN1R5TTROd3NTaWMtVXBfN0Y5ZXZXWXRJSEFYa2RIaWRXYUQxZmdmeXVRclpQVDNOOE0xVUVISzl6MG0wX3lPYURXNF9NQmVlUW9USVloQzJPMGxKZDlYWEtlUXpGX25NOEpjenBzUXY2TXUxQ0h6VEhobzZhX01EWC1EREI3cDdpZWJkSVJ3R2JKSVhycHBRQ3N2dXN1cFdIQmg?oc=5",
-        "sentiment": "positive",
-        "relevance": "high",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Three Days Left Until Divi's Laboratories Limited (NSE:DIVISLAB) Trades Ex-Dividend - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Mon, 20 Jul 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOTjFpU3FiaDJFcFNHSE9sNFdQNU90dHJhODd5UVZSeFN2YUpidjFKV09ENkJXZjRwbFVoWlBYVDJpOUE3b0pOX0hsTmdZSjAxYXVHZVgyVXFhUVF3dWdpeENHalIzZmJCWXFrWXpHdk1Md056dkFGMW1DU3JqRm1kbG9VQjg1dWdTTG9lTjR3NXl1blhidXVJMXRPandyLTdkbG5SWE5aZEZtalVnSVVsMDNZZ3NVLWZoNTZlQzNVVlY5bzJOZDhRVTdBTmh6a1pJMUF5UlNoM01wOUNtRFBRalQyTFBFRFcyOE5lOG9VYjAtZw?oc=5",
-        "sentiment": "positive",
-        "relevance": "high",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Divis Laboratories Ltd Share Price Today NSE/BSE Charts - Alice Blue",
-        "source": "Alice Blue",
-        "published": "Sat, 29 Aug 2026 10:41:33 GMT",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1HWk5ORHV1b0lUYXdNTzJxZWdCOWpmaHAzNTJsSnlYMGdlWXc1LVp4Si1RU3gyMGN1OG1rdVkyUEN0STZ0WURNSWhCa3V1anRjTUpRUUtUb2pUUGZlZHZRQ0drUllmMWJZdVdzeEczU3M3ZDhFX1JN?oc=5",
-        "sentiment": "neutral",
-        "relevance": "low",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Divi's Laboratories Limited (DIVISLAB.NS) stock price, news, quote and history - Yahoo Finance UK",
-        "source": "Yahoo Finance UK",
-        "published": "Sat, 20 May 2017 19:00:49 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ldlJubksxbE1yT29LeWdOM09sUWJVc2pyZWVzY2ZwQXN2dWlrVWEtYmNDdjdOaW9hem94cTM0Z1h1OGFWcE9NR0YwQUthY0ozZ1JvX3N5eGFwTTQ?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "DIVISLAB Stock Price and Chart \u2014 NSE:DIVISLAB - TradingView",
-        "source": "TradingView",
-        "published": "Fri, 21 Jul 2017 03:58:35 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0zUmJrcUZyVDdTalpSU01wNmdibVBoaHhmUm15UmRLNmZzclZIV0UyZDI2aXdhUGRPbEFNQ2l3LThqZXVocXRMUVJieUZUU3Myb0kxdGhIb1M1UnA0ZUE?oc=5",
-        "sentiment": "neutral",
-        "relevance": "low",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Outlier in Focus \u2013 Divi\u2019s Laboratories. - Capitalmind",
-        "source": "Capitalmind",
-        "published": "Mon, 19 Nov 2018 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMWNkS0Z3aUZYdV9NVVVPTTBXVUg0T0Ribmg3cy1PY2lCbU5jMkNhM21lRXlsNEJWXzVnLWxJV2RubmlsRTkxRlJzUTQzbXlOWm5mR3UyS3QyRWdFUVBtNGNPNGlaYmM1N2RXYUZZNjZPU0EwNE44bC1EN21pdnItOQ?oc=5",
-        "sentiment": "neutral",
-        "relevance": "low",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Divis Laboratories promoter group declares no encumbrance in FY26 - scanx.trade",
-        "source": "scanx.trade",
-        "published": "Mon, 06 Jul 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdmE1bmhkaWJwaFhqWXN1S3FVZlIxUW1PZEpXbUcwajYzVXVWRkJjSDh5MU8zQnBfYk85SkJEU05fczJYdWhSd1ZRSk5wLUpaYnE2LUZOakRyWjU1MlZjUGtPVnVuN0FxbE1jblNQM1p0RllSUXhpWThHN3FfZ0RmTWRWdjVGcUxFdVdkRFYzbmV3ZDV2SE9aZzBiWEFQWXpKVWxvLU55OWMyQUhfWkpPc0JIbGY1QUFzcXI0MXBSOA?oc=5",
-        "sentiment": "neutral",
-        "relevance": "low",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Divi's Laboratories Limited (DIVISLAB.NS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-        "source": "Yahoo! Finance Canada",
-        "published": "Thu, 22 Jun 2017 11:02:59 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5UTnUwSDlleGFSQXdqNDdPVXVYdklUNmg3bEJxaTNxV2lTNkFYX0dHdkVGejlpLU5yemRqcTEtd3hPRllSZHhhUExfSlBsUEY4M2tGVW93RmVFMVk?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Should Weakness in Divi's Laboratories Limited's (NSE:DIVISLAB) Stock Be Seen As A Sign That Market Will Correct The Share Price Given Decent Financials? - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Tue, 20 Jan 2026 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQQ1FpVUg2SWFrQmZwaXRwLUVSemNKWGNpc2tYYjhJVnB5cy1raTRieGtKSDAwMjNJY1o2dE1WYm8xOVRkY2c3aGJ1RmIwRFlSWWJFSklvRnFGalJOTDEwVERpbFQ5MEoyVGM5OHlwNkVaY3J6ZjhYbFRqQzFEY25rZjdPQTVFWXhCeTYwWXRNemlGWkU1akpiN2RvRExYR2RMaVkzY1oxWklDRDJzcFIwQXlXWjBlVTFoQllRRUtpWk01MU9lNG4yWWpDRkRVM2xzcU93SUN5NlI0bDRkZWtjQ05oa2h3dm9DcTV3YnV3NTQ3UdIB9wFBVV95cUxOYjVmYmZZS2tPWWxVVmtKdzVnSlFteGlqekxiQ1F3dnRvajNYRnhQMEsyV1NVMnBmZjRiZ2pNdjJxMlJvTnVCRG5vbzlXQUhnbVRJVlB4aGtpcGR3ZXBJVWlKTkd2NUhNclVodF9FZUJWWkJVazJ5VjFKa3RGOVN4WHV1MEx1OURaUHhVMkVjVmJyUTFHTEI2Y2YxRzhwNFBXdGV4MC0tZk9lYkhkS3F6Q0lHQjRMNTdUZmtlbTNwOWRmLWkwOWtRU3hPT1FyYjZGTnVBUmxWcW0xcTd4cXh2TE5vcURKLW01V0FtcThPWjBWTmFMWEhz?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Divi's Laboratories Schedules Board Meeting and Earnings Call on February 11, 2026 - scanx.trade",
-        "source": "scanx.trade",
-        "published": "Wed, 11 Feb 2026 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQTVVLbEpXMDYtbXZWOFZyZzUxN0pPNFdneGoyWkdrUjJsQmVLdVI3X2U2RkRCcFRLQnZZVXZjZ0JaY1RsQ3JpQm56Um9tNVhIZWRoTll6dlR0WVA5ZTI3c2o2WkZVNnd1VE8xXzV2ampaSGYwMW8tOVdtd2E2dlM5NW5fOHN3dG5fZzVRRVdEOE9NM2lhOW5HY01sWU9aajlrdmJaVzY2YlM0MmYwWDlVV0loeS1meEQzNldCVElmbGtQOVVGcE9TWkJWenBqRUJnc09vSG55SU10S3VYdU5MM19n?oc=5",
-        "sentiment": "neutral",
-        "relevance": "high",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "With 49% ownership, Divi's Laboratories Limited (NSE:DIVISLAB) insiders have a lot riding on the company's future - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Tue, 10 Feb 2026 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNRmIwUm9ORTctYlE1S3hNR3JFNUllakgxRGgwbHdmZm9TZ3RxNVlaczB4dURtUHBZYUVPbk5BQW5EZGxKVHlUdVpXMnA5ckNUeHBmWklINGR6V0ZCT1dlcFptWVdLM21STTNuOFFhX18xcldXUVZ5VWpGX0gtRzBvb1VTdFo2SC1MNEkwcE1zYmxTT2ZXR3NER0RFMEdwWF9xcGpjR1Vhb0lUR1Z3ckFuRlZQYnFyWDQ5aFV1SXRUUndFbExEVTdGOUVna1JqOFRxdE1MUk5xTVZtVTdGX2Zabjk5X1Q5eEQ5QjNpeWVrbmxrQdIB9wFBVV95cUxQQ1hXRTdDb1V5eHpDdmxLUjZ4UlZzYkkzc3ZmY2hKMzNYZkxnRFozQzlKbFNPTU4xU1g5SzhKUTJaMXpEVlAycjAybzFDVTliaGJSSlVqSWJ1RDlxZ0pqZ2tzazd6TXpEXzYwNHhNSUJ6WmcxeE5mZ18xeG5PT3VhWGlrckQwLU9rSDhqMU1HdzRXLVMtX2FfZlM0Q0E3UUNYVGd2dlBxMWNGd1I5dGRuN1UzZ1N1d0V0ZXdmRVhDWjFBZUh6VWRDMnNialdBdkRwOXA2d0dDNnQ1SnJXenNZa3hXakx3alczOHFQdExGeFN1aWlBaUNZ?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Divis Laboratories fixes July 24 record date for \u20b930 dividend - scanx.trade",
-        "source": "scanx.trade",
-        "published": "Mon, 13 Jul 2026 06:55:28 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSFhtdWZoX1BFVEhDWWRMTkhLbHhVU0VrNEcyMFNzZ18yWHZKckl0c0h6bnRVU2xkbUVJMml2X2NnUE9QQV9MUVdjeFJkZ0h1TEJwVjBKMFk1WEdLRUZaNVEzTi1MRmhrd2Zqa0pLOEdXN05wZ0tlUFhubWs3YlVyaVNZUW9rdExxeUpiaTR4SXNiR1pTT2c1RUhRZzE2aTROM3VWYnZpeWREc3BwVklQcW84N2g3NHdt?oc=5",
-        "sentiment": "positive",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Divi's Laboratories Limited (DIVISLAB.NS) stock price, news, quote and history - Yahoo Finance Singapore",
-        "source": "Yahoo Finance Singapore",
-        "published": "Sat, 20 May 2017 03:50:11 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqSzF6bnA3czlrMzdfaVlsUXVpTndlZXJDT3VkVV9DeHo4R0w3OHJLTTAzYzVkbzRzR3puTjdySWZaanpvQ0toaW9Qa01jNGFmVUV3bGJKQnd6MVk?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Earnings Not Telling The Story For Divi's Laboratories Limited (NSE:DIVISLAB) - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Tue, 30 Dec 2025 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNUWhfdHFISnhha0MwN3NUZC1RSmlRdkVpYVljOThjQ2NpZjI4MlZPTWQ5TUFySGdPamtLNGtZazZ3V1lyd2kzczJTb1dKOFFFbnZPaURtZmpOcy1wMVRrQzVPZjQ5VS1xUDlUTzNQaEJtV2tmc19aRWJKWGlDSEcxVktpVFU3MVIyckEwbTkwc3hsRTVXZWV4ekkxX25IemdNcFpsSGstbkQ5MXNmR2ZFZndfLWtUb2pSVXZpQUQ1cEFkSWtTclQwdHBXMjQ5TERnLTNQY3FsS1hvcUxLNGF1VDZlSFhXbVBET1NMWHFvWmR6QdIB9wFBVV95cUxNdnR6M0NwUV9XZDdGY21xTFkyVXhVc0RtcFlpY0dnS2R2UEJsUGZEcEhfTW53dGxuMEV3N0VqSE53ZzZ1d3FlYjNaMW5WRmVlbmI5RzNiakRNVTlwb0YzbWQxTjhKdHNLRXFwWVdZekd1bmdxMk5JWk1vNFVmSkswT1c5LXBvbVFKX3E5UkZlLVlTcHZzV1Fuc08wYTVXU1BHdlRUMVNKQm9od2NIYmdqd1FHWmczVEc2bEVFdkhwcEtiTTlNeVBDTnZybUxTT1dFdFh3dmhXcGtJRTlxZEwwWUhoZFdqbXk2RWx0Rkxxa1ppaHlfM0Ew?oc=5",
-        "sentiment": "neutral",
-        "relevance": "high",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Divi's Laboratories Limited (DIVISLAB.NS) Stock Forum & Discussion - Yahoo Finance - Yahoo! Finance Canada",
-        "source": "Yahoo! Finance Canada",
-        "published": "Wed, 23 Oct 2019 08:09:41 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE15QW5VaUpXWjhVT2tfRTRkckJTZmpod1k4SWNNTjh4TnVpRllRZ1ZzdHdWekpVR3BiaGZJbXZGbU1HX1J4b0M2SnBRVGcteUpLWmhldDdBNURacTVwaXFPSEZ3RVpWWnFn?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Divi's Laboratories (NSEI:DIVISLAB) Stock Price - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Mon, 28 Jul 2025 17:40:34 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9kblhVdzE2TFFIQzhvYmhmNjNpcE5mcng5WEQ0Tk9Rb3c4ay1QdTAyaHJIbmhkRnJQVU5hQlJBOC1nMHBZb05lekVSTERxUWFjcXBn?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Investors Shouldn't Be Too Comfortable With Divi's Laboratories' (NSE:DIVISLAB) Earnings - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Sat, 15 Nov 2025 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQOU11RHh4NGRiMmtVRzNYMVZHN0w4ME1PZkxZRnkxTlRPNEFLdUxoT1BlR0JFQl9HVXdqQ2ZlZl9hQUp6WFJpa2dvSEtnZ2VDdktFWHN5VXdGZVFRM3c2LWZkbk8zU2ZpZnpzZFJ1dlpxODNpTVg3S3M2bXZ0TnFwemJjYkU0R0JqbllXZzRaYlFMOEVjNzFjbUJ6OTk1cEt5alV3eF9QWVhCNkVHS0Uzb1hlWkZjVngzRWE3X1R5MmtCdkM1U1VWY19LajZjZDhxZkg0OGJEem1hbGRJYWEtaGcyb1p1WF9uRl9PdGpjUDNzZ9IB9wFBVV95cUxPNkNVT1dNTUx2Y29zejk0ZURrc3B0UjR6VGZLRnlHRWctWHNyX2pUWThfUkdlazNjeUlZb0ZSeEFyRlViUjhQV3l3QlhRZ2ZfbVpOTmx6Umprd3RNUzlWWUlNd3d1cnNkS0g5WHNDUm1teW12SGNDWHNGc1IwQXhDbHlCNU82WERNbS1hMWVhb2hYVXdEa3FyTi1OQUY4QktFaXlkNTR5NHl2Mjl5dHVNemFydXpjZEVLYWllZ1IyT0tMM3R4RXJCWENSWkdrZ0IwNmNZYlN5Nm1WQk9KRDhIdG5Dbkd4SUNGU2lLZDBINEdwaEZKNnZn?oc=5",
-        "sentiment": "neutral",
-        "relevance": "high",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Divi's Laboratories Limited Stock (DIVISLAB) - Quote NSE India S.E. - marketscreener.com",
-        "source": "marketscreener.com",
-        "published": "Tue, 18 Aug 2020 20:31:44 GMT",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZ29jdzVKWDFZbzBKaW93UHEtRHNKZVE0aE1SSENhaS1fUFBZSUVhR1Fwb1NGRlJYVmlfX3hvVnNzajA5YTNBTVdLOThhOW43Wjk5X21ES3lnWG1jbjhIbUR6bUpQMFZBSFkyZmpnWXhPYXBLdTVxSG05WWpZRVZ2UmZydw?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Divi's Laboratories (NSEI:DIVISLAB) - Stock Analysis - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Fri, 01 Dec 2017 17:37:52 GMT",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOTY1UEI4MG9VVGh2dGZaRjVTc3l2Mk9HUHdKOUJpa041RnF4c3EtY1ZXV3hiNmw3M0lzRWMzUV9CWGpYMkxLeDZCZ1Zrc0pXN25tbjlCdFNUWlVjeGNrcjNrbk01Y3FXOGZVU20xOTUyRjc5Q0F6dFprcXp6OEhVcUR2OHNJOFdGNVFiNGtuNGJJRWRLdEhvMFJn?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Divi's Laboratories (NSEI:DIVISLAB) Stock Forecast & Analyst Predictions - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Fri, 26 Aug 2022 01:33:51 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSkJ2NE9zT2FLY3JwdlNoQWJCNXpfMXB4QU5YbE9pWEtNaE9RUlJsbThWRzUtVHNiQkNtcEVpakQ3eUJUc3lncWFFNkZyUVRqY3kxeThPVzNzRXJxT1RmczBlaXZIbW9uYU15ZUF3WHJ5QllHQXBtTGpxX2VEV1k0VjRFYm13UFQxRWF6MGxUUFBCeG1XRVNLVFZNWmlPdElzSDlv?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "1500% Dividend Bonanza! Pharma Stock In Spotlight After Mega Payout; Record Date Announced - Goodreturns",
-        "source": "Goodreturns",
-        "published": "Sun, 24 May 2026 11:43:02 GMT",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMDV4YlY0czJkejE4Y2VsSm1vRm50b2RQV0FuYXNJVHAwZW9rWTVGT2hXQ1BEN3hCZVRWaDRqUkVNX3JGX2FKaUk1TE8wU3lMMUF6X2R6NXJueFZ4SWJrczR2YjJzSHpic1RFVTNNY0Q1WUFlYUVTcXkxUE55OC0tWlExUERGa1JmQkFqU3lGTVpkZENEdjVRNG9fTnRFSjhHNWpiVHJvQ0ZuTkUxRVEzSWJCM0xYa0NZZmphZDFZSm45TzlHTGRua2VlMTU?oc=5",
-        "sentiment": "positive",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Divis Lab Share Price Target 2026, 2027, 2030, 2040, 2050 - Share Price Target",
-        "source": "Share Price Target",
-        "published": "Mon, 02 Jun 2025 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBsSlJEbTZTZHIxWW40dDdyS0d0WUVBdk5QRWdpdkdIVnFrT2QtMDFBVnIxUkhrZC1JblZIaFphdHEtVDhwZ3BuaVl4dzdrLTlqQTRTYXJMVzJnZlp0NHhLLTRSN1hHTnZkbl9n?oc=5",
-        "sentiment": "neutral",
-        "relevance": "low",
-        "verification_status": "unverified"
-      }
-    ],
-    "stored_new": 25,
-    "duplicates_skipped": 0,
-    "note": "headlines are unverified signals, not confirmed financial evidence",
-    "_run_id": 1070
+    "_run_id": 685
   },
   "8_risk_analysis": {
     "classification": "MODERATE",
@@ -447,7 +217,7 @@
         "evidence": "trailing P/E 88 (>60)",
         "source": "yahoo_finance",
         "date": "2026-11-19",
-        "detected_at": "2026-11-19 15:14:19.511033+00:00"
+        "detected_at": "2026-11-19 21:21:03.478303+00:00"
       }
     ],
     "unassessed_governance_items": [
@@ -459,47 +229,47 @@
       "promoter selling (source unavailable)"
     ],
     "shares_outstanding_growth_yoy": 0.0,
-    "atr_pct_of_price": 0.028982883941186158,
+    "atr_pct_of_price": 0.030093844021555058,
     "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
     "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
-    "_run_id": 1069
+    "_run_id": 684
   },
   "9_fundamental_score": 59.0,
-  "10_technical_score": 65.0,
-  "11_data_confidence": 72.0,
+  "10_technical_score": 60.0,
+  "11_data_confidence": 70.0,
   "12_short_term_assessment": {
-    "score": 63.2,
+    "score": 59.7,
     "technical_view": {
       "timeframe": "daily",
       "trend": "bullish",
-      "rsi_14": 68.34125046056153,
-      "macd_histogram": 62.27677668175954,
+      "rsi_14": 66.6343183774145,
+      "macd_histogram": 86.58559849335046,
       "breakout": false,
       "breakdown": false
     },
     "entry_zone": {
       "low": 8797.0,
-      "high": 8958.99,
+      "high": 8963.25,
       "basis": "near identified support plus half ATR buffer"
     },
-    "invalidation_level": 8149.06
+    "invalidation_level": 8131.99
   },
   "13_long_term_assessment": {
-    "score": 60.8,
+    "score": 59.3,
     "trend": {
       "timeframes": [
         "weekly",
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 8128.283984733227,
+      "ema_200_daily": 8097.63357251949,
       "price_vs_ema_200": "above"
     },
     "business_classification": "average"
   },
-  "14_investment_thesis": "Divi's Laboratories Limited (DIVISLAB) is classified as a 'average' business with a bullish technical trend. Balanced research score 62.0/100 (fundamental 59.0, technical 65.0, data confidence 72.0, risk 10/100 higher=worse). Supporting evidence: ROE 15.3% (>15%): capital allocated effectively; operating margin 28.4%: pricing power evidence.",
+  "14_investment_thesis": "Divi's Laboratories Limited (DIVISLAB) is classified as a 'average' business with a bullish technical trend. Balanced research score 59.5/100 (fundamental 59.0, technical 60.0, data confidence 70.0, risk 10/100 higher=worse). Supporting evidence: ROE 15.3% (>15%): capital allocated effectively; operating margin 28.4%: pricing power evidence.",
   "15_thesis_invalidation": [
-    "Daily close below invalidation level 8149.06 (2x ATR under support)",
+    "Daily close below invalidation level 8131.99 (2x ATR under support)",
     "Operating cash flow turning negative in the next annual report",
     "New critical governance or regulatory finding (currently unassessed items must be checked manually)"
   ],
@@ -529,17 +299,17 @@
     "rss_news (headlines, unverified)"
   ],
   "labels": [
-    "strong_technical_trend"
+    "neutral"
   ],
   "combined_scores": {
-    "long_term": 60.8,
-    "short_term": 63.2,
-    "balanced": 62.0,
+    "long_term": 59.3,
+    "short_term": 59.7,
+    "balanced": 59.5,
     "risk_score_higher_is_worse": 10
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-19 20:44 IST",
+    "generated_at": "2026-11-20 02:51 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-19 15:29 IST"
   }

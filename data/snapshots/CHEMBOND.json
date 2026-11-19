@@ -1,7 +1,7 @@
 {
   "symbol": "CHEMBOND",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:53 IST",
+  "updated_at": "2026-11-20 02:39 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -9,18 +9,18 @@
     "business": "success",
     "valuation": "partial",
     "risk": "success",
-    "news": "success",
+    "news": "failed",
     "scoring": "success"
   },
   "name": "Chembond Material Technologies Limited",
   "scores": {
     "fundamental": 41.0,
-    "technical": 60.0,
-    "data_confidence": 72.0,
+    "technical": 55.0,
+    "data_confidence": 70.0,
     "risk": 10.0,
-    "long_term": 46.7,
-    "short_term": 54.3,
-    "balanced": 50.5
+    "long_term": 45.2,
+    "short_term": 50.8,
+    "balanced": 48.0
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 6,
         "max": 10,
         "detail": [
-          "P/E 17.9 (no industry benchmark): value 17.9 vs threshold 25"
+          "P/E 17.6 (no industry benchmark): value 17.6 vs threshold 25"
         ]
       },
       "industry_growth": {
@@ -103,15 +103,15 @@
         "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 57: 7/7 (value 57.4 vs threshold 55)",
+          "RSI 61: 7/7 (value 61.2 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 15,
+        "points": 10,
         "max": 15,
         "detail": [
-          "relative volume: value 2.21 vs threshold 1.5"
+          "relative volume: value 1.33 vs threshold 1"
         ]
       },
       "price_structure": {
@@ -125,26 +125,26 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (53% of range)"
+          "price mid-range between S/R (58% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 12,
+        "points": 10,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: ok"
+          "rss_news: failed/unused"
         ]
       },
       "completeness": {
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1236 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 57.41902021916658,
+    "rsi_14": 61.249026009363284,
     "breakout": false,
     "breakdown": false,
     "support": 157.0,

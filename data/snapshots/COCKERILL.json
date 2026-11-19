@@ -1,26 +1,26 @@
 {
   "symbol": "COCKERILL",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:55 IST",
-  "status": "complete",
+  "updated_at": "2026-11-20 02:48 IST",
+  "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
     "technical": "success",
     "business": "success",
     "valuation": "success",
     "risk": "success",
-    "news": "success",
+    "news": "failed",
     "scoring": "success"
   },
   "name": "John Cockerill India Limited",
   "scores": {
     "fundamental": 44.0,
-    "technical": 40.0,
-    "data_confidence": 67.0,
+    "technical": 35.0,
+    "data_confidence": 65.0,
     "risk": 10.0,
-    "long_term": 42.8,
-    "short_term": 41.2,
-    "balanced": 42.0
+    "long_term": 41.3,
+    "short_term": 37.7,
+    "balanced": 39.5
   },
   "classification": "neutral",
   "explanation": {
@@ -103,15 +103,15 @@
         "points": 8.0,
         "max": 15,
         "detail": [
-          "RSI 41: 0.0/7 (value 41.5 below all bands)",
+          "RSI 44: 0.0/7 (value 43.9 below all bands)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 10,
+        "points": 5,
         "max": 15,
         "detail": [
-          "relative volume: value 1.28 vs threshold 1"
+          "relative volume: value 0.778 vs threshold 0.7"
         ]
       },
       "price_structure": {
@@ -125,26 +125,26 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (35% of range)"
+          "price mid-range between S/R (37% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 12,
+        "points": 10,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: ok"
+          "rss_news: failed/unused"
         ]
       },
       "completeness": {
@@ -165,7 +165,7 @@
         "points": 10,
         "max": 15,
         "detail": [
-          "145 validated daily bars (value 145 vs threshold 100); providers may delay quotes ~15 min"
+          "144 validated daily bars (value 144 vs threshold 100); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -204,11 +204,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 41.49753290660432,
+    "rsi_14": 43.9356645351564,
     "breakout": false,
     "breakdown": false,
     "support": 6455.0,
-    "resistance": 7550.0,
+    "resistance": 7821.0,
     "trend": "sideways"
   }
 }

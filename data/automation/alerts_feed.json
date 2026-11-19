@@ -1,6 +1,54 @@
 {
-  "generated_at": "2026-11-19 20:44 IST",
+  "generated_at": "2026-11-20 02:50 IST",
   "alerts": [
+    {
+      "symbol": "CHEMPLASTS",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "CHEMPLASTS RSI(14) 70 >= 70 (overbought zone)",
+      "data_date": "2026-11-20 02:41 IST",
+      "detected_at": "2026-11-20 02:50 IST"
+    },
+    {
+      "symbol": "CHOLAFIN",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "CHOLAFIN RSI(14) 72 >= 70 (overbought zone)",
+      "data_date": "2026-11-20 02:42 IST",
+      "detected_at": "2026-11-20 02:50 IST"
+    },
+    {
+      "symbol": "CINELINE",
+      "type": "classification_change",
+      "severity": "info",
+      "message": "CINELINE classification changed neutral -> strong_technical_trend",
+      "data_date": "2026-11-20 02:43 IST",
+      "detected_at": "2026-11-20 02:50 IST"
+    },
+    {
+      "symbol": "CLSEL",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "CLSEL balanced score moved -10.0 pts (53.7 -> 43.7)",
+      "data_date": "2026-11-20 02:45 IST",
+      "detected_at": "2026-11-20 02:50 IST"
+    },
+    {
+      "symbol": "COLPAL",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "COLPAL balanced score moved -10.4 pts (58.2 -> 47.8)",
+      "data_date": "2026-11-20 02:50 IST",
+      "detected_at": "2026-11-20 02:50 IST"
+    },
+    {
+      "symbol": "SGMART",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "SGMART RSI(14) 79 >= 70 (overbought zone)",
+      "data_date": "2026-11-20 02:47 IST",
+      "detected_at": "2026-11-20 02:50 IST"
+    },
     {
       "symbol": "ALKYLAMINE",
       "type": "score_change",
@@ -403,8 +451,8 @@
     }
   ],
   "stats": {
-    "snapshots_scanned": 732,
-    "new_alerts": 12,
-    "active_alerts": 50
+    "snapshots_scanned": 766,
+    "new_alerts": 6,
+    "active_alerts": 56
   }
 }

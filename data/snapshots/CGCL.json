@@ -1,26 +1,26 @@
 {
   "symbol": "CGCL",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:53 IST",
-  "status": "complete",
+  "updated_at": "2026-11-20 02:37 IST",
+  "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
     "technical": "success",
     "business": "success",
     "valuation": "success",
     "risk": "success",
-    "news": "success",
+    "news": "failed",
     "scoring": "success"
   },
   "name": "Capri Global Capital Limited",
   "scores": {
     "fundamental": 29.0,
-    "technical": 47.0,
-    "data_confidence": 72.0,
+    "technical": 42.0,
+    "data_confidence": 70.0,
     "risk": 40.0,
-    "long_term": 34.4,
-    "short_term": 41.6,
-    "balanced": 38.0
+    "long_term": 32.9,
+    "short_term": 38.1,
+    "balanced": 35.5
   },
   "classification": "high_risk",
   "explanation": {
@@ -101,15 +101,15 @@
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 46: 4/7 (value 46.3 vs threshold 45)",
+          "RSI 47: 4/7 (value 46.7 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 5,
+        "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.856 vs threshold 0.7"
+          "relative volume: value 0.519 below all bands"
         ]
       },
       "price_structure": {
@@ -123,26 +123,26 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (42% of range)"
+          "price mid-range between S/R (47% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 12,
+        "points": 10,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: ok"
+          "rss_news: failed/unused"
         ]
       },
       "completeness": {
@@ -163,7 +163,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1236 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -204,10 +204,10 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 46.3110696554301,
+    "rsi_14": 46.72104858119705,
     "breakout": false,
     "breakdown": false,
-    "support": 225.5500030517578,
+    "support": 223.32000732421875,
     "resistance": 258.79998779296875,
     "trend": "sideways"
   }

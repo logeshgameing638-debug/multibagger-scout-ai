@@ -1,26 +1,26 @@
 {
   "symbol": "COFFEEDAY",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:55 IST",
-  "status": "complete",
+  "updated_at": "2026-11-20 02:49 IST",
+  "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
     "technical": "success",
     "business": "success",
     "valuation": "success",
     "risk": "success",
-    "news": "success",
+    "news": "failed",
     "scoring": "success"
   },
   "name": "Coffee Day Enterprises Limited",
   "scores": {
     "fundamental": 36.5,
-    "technical": 16.0,
-    "data_confidence": 72.0,
+    "technical": 22.0,
+    "data_confidence": 70.0,
     "risk": 10.0,
-    "long_term": 30.3,
-    "short_term": 22.1,
-    "balanced": 26.2
+    "long_term": 32.1,
+    "short_term": 26.3,
+    "balanced": 29.2
   },
   "classification": "attractive_valuation",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 2.7 (no industry benchmark): value 2.69 vs threshold 15"
+          "P/E 2.7 (no industry benchmark): value 2.73 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 42: 0.0/7 (value 41.5 below all bands)",
+          "RSI 42: 0.0/7 (value 42 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.32 below all bands"
+          "relative volume: value 0.357 below all bands"
         ]
       },
       "price_structure": {
@@ -122,29 +122,29 @@
         ]
       },
       "support_resistance": {
-        "points": 4,
+        "points": 10,
         "max": 10,
         "detail": [
-          "near support: watch for breakdown or bounce confirmation"
+          "price mid-range between S/R (31% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 12,
+        "points": 10,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: ok"
+          "rss_news: failed/unused"
         ]
       },
       "completeness": {
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1236 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 41.53014849927165,
+    "rsi_14": 42.048462984816595,
     "breakout": false,
     "breakdown": false,
     "support": 27.0,

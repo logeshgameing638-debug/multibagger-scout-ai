@@ -9,7 +9,7 @@
     "website": "https://www.cemindia.co.in"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-19 15:14:25.743988+00:00",
+    "generated_at": "2026-11-19 21:21:35.789275+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -17,7 +17,7 @@
       "business": "success",
       "valuation": "success",
       "risk": "success",
-      "news": "success",
+      "news": "failed",
       "scoring": "success"
     }
   },
@@ -74,40 +74,40 @@
       "2026-06-30",
       "2026-09-30"
     ],
-    "_run_id": 1079
+    "_run_id": 694
   },
   "4_technical_analysis": {
     "assessment": "bullish",
     "daily": {
       "timeframe": "1d",
-      "last_close": 1378.5,
+      "last_close": 1354.4000244140625,
       "emas": {
-        "ema_20": 1292.5303730694643,
-        "ema_50": 1261.7063671204535,
-        "ema_100": 1221.523559220114,
-        "ema_200": 1107.296806841186
+        "ema_20": 1283.4809386557238,
+        "ema_50": 1256.9392800641456,
+        "ema_100": 1218.3523179922377,
+        "ema_200": 1104.5711466084342
       },
       "smas": {
-        "sma_20": 1276.560009765625,
-        "sma_50": 1240.406005859375,
-        "sma_100": 1309.336004638672,
-        "sma_200": 1039.3462521362305
+        "sma_20": 1266.0700073242188,
+        "sma_50": 1238.7840063476563,
+        "sma_100": 1307.6850048828126,
+        "sma_200": 1035.5617520141602
       },
-      "rsi_14": 66.10159871848626,
+      "rsi_14": 63.458157751611765,
       "macd": {
-        "macd_line": 37.72503308961245,
-        "signal_line": 28.644394754152444,
-        "histogram": 9.080638335460009
+        "macd_line": 34.5971545791092,
+        "signal_line": 26.374235170287438,
+        "histogram": 8.222919408821763
       },
-      "adx_14": 26.839710474972676,
-      "atr_14": 57.529828177266424,
+      "adx_14": 25.76442785047847,
+      "atr_14": 57.5552033315273,
       "bollinger": {
-        "middle": 1276.560009765625,
-        "upper": 1420.4329457832962,
-        "lower": 1132.6870737479537
+        "middle": 1266.0700073242188,
+        "upper": 1409.2397488852412,
+        "lower": 1122.9002657631963
       },
-      "volume_sma_20": 484415.85,
-      "relative_volume": 1.0164634373544963,
+      "volume_sma_20": 470352.75,
+      "relative_volume": 1.4239886978443306,
       "support": 1066.0,
       "resistance": 1414.300048828125,
       "price_structure": {
@@ -124,18 +124,18 @@
       "momentum_divergence": null,
       "entry_zone": {
         "low": 1066.0,
-        "high": 1094.76,
+        "high": 1094.78,
         "basis": "near identified support plus half ATR buffer"
       },
-      "invalidation_level": 950.94,
-      "atr_risk_distance": 57.529828177266424,
-      "provisional_last_bar": true
+      "invalidation_level": 950.89,
+      "atr_risk_distance": 57.5552033315273,
+      "provisional_last_bar": false
     },
     "short_term_report": {
       "timeframe": "daily",
       "trend": "bullish",
-      "rsi_14": 66.10159871848626,
-      "macd_histogram": 9.080638335460009,
+      "rsi_14": 63.458157751611765,
+      "macd_histogram": 8.222919408821763,
       "breakout": false,
       "breakdown": false
     },
@@ -145,7 +145,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 1107.296806841186,
+      "ema_200_daily": 1104.5711466084342,
       "price_vs_ema_200": "above"
     }
   },
@@ -169,15 +169,15 @@
       "expansion projects / order book",
       "management quality and corporate governance depth"
     ],
-    "_run_id": 1081
+    "_run_id": 696
   },
   "6_valuation": {
     "multiples": {
       "pe_trailing": 37.922974,
       "pe_forward": 24.855753,
       "pb": 9.042784,
-      "ev_ebitda": 21.216,
-      "ev_sales": 2.196,
+      "ev_ebitda": 21.588,
+      "ev_sales": 2.235,
       "peg": null,
       "dividend_yield": 0.22,
       "industry_pe": null
@@ -203,16 +203,12 @@
       }
     },
     "dcf_not_calculated_reason": null,
-    "margin_of_safety_vs_base_case": -5.6460698996850045,
-    "current_price": 1378.5,
-    "_run_id": 1082
+    "margin_of_safety_vs_base_case": -5.529878298433759,
+    "current_price": 1354.4000244140625,
+    "_run_id": 697
   },
   "7_news_intelligence": {
-    "items": [],
-    "stored_new": 0,
-    "duplicates_skipped": 36,
-    "note": "headlines are unverified signals, not confirmed financial evidence",
-    "_run_id": 1084
+    "_run_id": 699
   },
   "8_risk_analysis": {
     "classification": "MODERATE",
@@ -223,7 +219,7 @@
         "evidence": "ATR 4.2% of price (>4%)",
         "source": "computed",
         "date": "2026-11-19",
-        "detected_at": "2026-11-19 15:14:25.733257+00:00"
+        "detected_at": "2026-11-19 21:21:26.935495+00:00"
       }
     ],
     "unassessed_governance_items": [
@@ -235,30 +231,30 @@
       "promoter selling (source unavailable)"
     ],
     "shares_outstanding_growth_yoy": 0.0,
-    "atr_pct_of_price": 0.04173364394433546,
+    "atr_pct_of_price": 0.04249498102041655,
     "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
     "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
-    "_run_id": 1083
+    "_run_id": 698
   },
   "9_fundamental_score": 62.0,
   "10_technical_score": 61.0,
-  "11_data_confidence": 72.0,
+  "11_data_confidence": 70.0,
   "12_short_term_assessment": {
     "score": 61.3,
     "technical_view": {
       "timeframe": "daily",
       "trend": "bullish",
-      "rsi_14": 66.10159871848626,
-      "macd_histogram": 9.080638335460009,
+      "rsi_14": 63.458157751611765,
+      "macd_histogram": 8.222919408821763,
       "breakout": false,
       "breakdown": false
     },
     "entry_zone": {
       "low": 1066.0,
-      "high": 1094.76,
+      "high": 1094.78,
       "basis": "near identified support plus half ATR buffer"
     },
-    "invalidation_level": 950.94
+    "invalidation_level": 950.89
   },
   "13_long_term_assessment": {
     "score": 61.7,
@@ -268,14 +264,14 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 1107.296806841186,
+      "ema_200_daily": 1104.5711466084342,
       "price_vs_ema_200": "above"
     },
     "business_classification": "average"
   },
-  "14_investment_thesis": "Cemindia Projects Limited (CEMPRO) is classified as a 'average' business with a bullish technical trend. Balanced research score 61.5/100 (fundamental 62.0, technical 61.0, data confidence 72.0, risk 10/100 higher=worse). Supporting evidence: ROE 24.9% (>15%): capital allocated effectively.",
+  "14_investment_thesis": "Cemindia Projects Limited (CEMPRO) is classified as a 'average' business with a bullish technical trend. Balanced research score 61.5/100 (fundamental 62.0, technical 61.0, data confidence 70.0, risk 10/100 higher=worse). Supporting evidence: ROE 24.9% (>15%): capital allocated effectively.",
   "15_thesis_invalidation": [
-    "Daily close below invalidation level 950.94 (2x ATR under support)",
+    "Daily close below invalidation level 950.89 (2x ATR under support)",
     "Operating cash flow turning negative in the next annual report",
     "New critical governance or regulatory finding (currently unassessed items must be checked manually)"
   ],
@@ -315,7 +311,7 @@
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-19 20:44 IST",
+    "generated_at": "2026-11-20 02:51 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-19 20:44 IST"
   }

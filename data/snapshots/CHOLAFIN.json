@@ -1,26 +1,26 @@
 {
   "symbol": "CHOLAFIN",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:54 IST",
-  "status": "complete",
+  "updated_at": "2026-11-20 02:42 IST",
+  "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
     "technical": "success",
     "business": "success",
     "valuation": "success",
     "risk": "success",
-    "news": "success",
+    "news": "failed",
     "scoring": "success"
   },
   "name": "Cholamandalam Investment and Finance Company Limited",
   "scores": {
     "fundamental": 29.0,
-    "technical": 48.0,
-    "data_confidence": 72.0,
+    "technical": 41.0,
+    "data_confidence": 70.0,
     "risk": 30.0,
-    "long_term": 34.7,
-    "short_term": 42.3,
-    "balanced": 38.5
+    "long_term": 32.6,
+    "short_term": 37.4,
+    "balanced": 35.0
   },
   "classification": "high_risk",
   "explanation": {
@@ -71,7 +71,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 25.4 (no industry benchmark): value 25.4 vs threshold 40"
+          "P/E 25.7 (no industry benchmark): value 25.7 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -91,17 +91,17 @@
         ]
       },
       "ema_alignment": {
-        "points": 15,
+        "points": 8,
         "max": 15,
         "detail": [
-          "full bullish alignment (price > 20 > 50 > 100 > 200)"
+          "price above EMA50, partial alignment"
         ]
       },
       "momentum": {
         "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 70: 7/7 (value 69.8 vs threshold 55)",
+          "RSI 72: 7/7 (value 71.6 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -109,7 +109,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.597 below all bands"
+          "relative volume: value 0.595 below all bands"
         ]
       },
       "price_structure": {
@@ -130,19 +130,19 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 12,
+        "points": 10,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: ok"
+          "rss_news: failed/unused"
         ]
       },
       "completeness": {
@@ -163,7 +163,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1236 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -203,11 +203,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 69.82336215061653,
+    "rsi_14": 71.58481968882212,
     "breakout": false,
     "breakdown": false,
     "support": 1415.0,
     "resistance": 1925.0,
-    "trend": "bullish"
+    "trend": "sideways"
   }
 }

@@ -1,7 +1,7 @@
 {
   "symbol": "CENTEXT",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:53 IST",
+  "updated_at": "2026-11-20 02:35 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -9,14 +9,14 @@
     "business": "success",
     "valuation": "partial",
     "risk": "success",
-    "news": "success",
+    "news": "failed",
     "scoring": "success"
   },
   "name": "Century Extrusions Limited",
   "scores": {
     "fundamental": 42.0,
     "technical": 24.0,
-    "data_confidence": 72.0,
+    "data_confidence": 70.0,
     "risk": 20.0,
     "long_term": 36.6,
     "short_term": 29.4,
@@ -103,7 +103,7 @@
         "points": 8.0,
         "max": 15,
         "detail": [
-          "RSI 41: 0.0/7 (value 41.1 below all bands)",
+          "RSI 39: 0.0/7 (value 39 below all bands)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.321 below all bands"
+          "relative volume: value 0.173 below all bands"
         ]
       },
       "price_structure": {
@@ -132,19 +132,19 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 12,
+        "points": 10,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: ok"
+          "rss_news: failed/unused"
         ]
       },
       "completeness": {
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1236 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -205,11 +205,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 41.12596356357498,
+    "rsi_14": 39.03188860869108,
     "breakout": false,
     "breakdown": false,
     "support": 15.779999732971191,
-    "resistance": 19.190000534057617,
+    "resistance": 19.790000915527344,
     "trend": "bearish"
   }
 }

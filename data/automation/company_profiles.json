@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-19 20:47 IST",
+ "as_of": "2026-11-20 02:52 IST",
  "source": "screener.in company pages (public HTML)",
  "basis": "Written descriptions and per-period results as published on the source page on the fetch date; figures are company-reported (Rs crore), not independently audited by us.",
  "profiles": {
@@ -1691,8 +1691,8 @@
    "fetched_at": "2026-11-19 20:47 IST"
   }
  },
- "coverage": "20/25 profiled companies (batch of 25 this run; 7 last-good kept on transient fetch failure)",
  "source_paused": true,
  "paused_reason": "screener.in blocked automated fetches (403/429 pattern from CI runner and sandbox IPs on 2026-11-19); paused until a verified new access path or a different verified source. Existing entries keep their own fetched_at dates.",
- "blocked_streak": 2
+ "blocked_streak": 2,
+ "coverage": "20/25 profiled companies (refresh paused: screener.in blocked automated fetches (403/429 pattern from CI runner and sandbox IPs on 2026-11-19); paused until a verified new access path or a different verified source. Existing entries keep their own fetched_at dates.; existing entries keep their own fetch dates)"
 }

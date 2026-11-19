@@ -1,26 +1,26 @@
 {
   "symbol": "COLPAL",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:55 IST",
-  "status": "complete",
+  "updated_at": "2026-11-20 02:50 IST",
+  "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
     "technical": "success",
     "business": "success",
     "valuation": "success",
     "risk": "success",
-    "news": "success",
+    "news": "failed",
     "scoring": "success"
   },
   "name": "Colgate-Palmolive (India) Limited",
   "scores": {
     "fundamental": 61.5,
-    "technical": 55.0,
-    "data_confidence": 72.0,
+    "technical": 34.0,
+    "data_confidence": 70.0,
     "risk": 0.0,
-    "long_term": 59.5,
-    "short_term": 57.0,
-    "balanced": 58.2
+    "long_term": 53.2,
+    "short_term": 42.2,
+    "balanced": 47.8
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 35.4 (no industry benchmark): value 35.4 vs threshold 40"
+          "P/E 35.5 (no industry benchmark): value 35.5 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -93,25 +93,25 @@
         ]
       },
       "ema_alignment": {
-        "points": 8,
+        "points": 0,
         "max": 15,
         "detail": [
-          "price above EMA50, partial alignment"
+          "below key EMAs"
         ]
       },
       "momentum": {
-        "points": 15.0,
+        "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 57: 7/7 (value 57.5 vs threshold 55)",
+          "RSI 47: 4/7 (value 47.1 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 10,
+        "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 1.08 vs threshold 1"
+          "relative volume: value 0.48 below all bands"
         ]
       },
       "price_structure": {
@@ -125,26 +125,26 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (61% of range)"
+          "price mid-range between S/R (41% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 12,
+        "points": 10,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: ok"
+          "rss_news: failed/unused"
         ]
       },
       "completeness": {
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1236 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -204,11 +204,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 57.49152994416213,
+    "rsi_14": 47.108808512239456,
     "breakout": false,
     "breakdown": false,
     "support": 1563.9000244140625,
-    "resistance": 1901.300048828125,
-    "trend": "sideways"
+    "resistance": 1868.9000244140625,
+    "trend": "bearish"
   }
 }

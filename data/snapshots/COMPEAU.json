@@ -1,22 +1,22 @@
 {
   "symbol": "COMPEAU",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:55 IST",
-  "status": "complete",
+  "updated_at": "2026-11-20 02:50 IST",
+  "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
     "technical": "success",
     "business": "success",
     "valuation": "success",
     "risk": "success",
-    "news": "success",
+    "news": "failed",
     "scoring": "success"
   },
   "name": "Competent Automobiles Company Limited",
   "scores": {
     "fundamental": 38.0,
     "technical": 29.0,
-    "data_confidence": 62.0,
+    "data_confidence": 60.0,
     "risk": 30.0,
     "long_term": 35.3,
     "short_term": 31.7,
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 9.3 (no industry benchmark): value 9.35 vs threshold 15"
+          "P/E 9.5 (no industry benchmark): value 9.46 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 4.0,
         "max": 15,
         "detail": [
-          "RSI 48: 4/7 (value 47.6 vs threshold 45)",
+          "RSI 45: 4/7 (value 45.1 vs threshold 45)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.132 below all bands"
+          "relative volume: value 0.632 below all bands"
         ]
       },
       "price_structure": {
@@ -125,26 +125,26 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (57% of range)"
+          "price mid-range between S/R (49% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 12,
+        "points": 10,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: ok"
+          "rss_news: failed/unused"
         ]
       },
       "completeness": {
@@ -165,7 +165,7 @@
         "points": 5,
         "max": 15,
         "detail": [
-          "64 validated daily bars (value 64 vs threshold 30); providers may delay quotes ~15 min"
+          "63 validated daily bars (value 63 vs threshold 30); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -206,7 +206,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 47.62412932676526,
+    "rsi_14": 45.10721415601049,
     "breakout": false,
     "breakdown": false,
     "support": 320.1000061035156,

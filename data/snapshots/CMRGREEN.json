@@ -1,7 +1,7 @@
 {
   "symbol": "CMRGREEN",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:54 IST",
+  "updated_at": "2026-11-20 02:46 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -9,14 +9,14 @@
     "business": "success",
     "valuation": "partial",
     "risk": "success",
-    "news": "success",
+    "news": "failed",
     "scoring": "success"
   },
   "name": "CMR Green Technologies Limited",
   "scores": {
     "fundamental": 40.0,
     "technical": 34.0,
-    "data_confidence": 67.0,
+    "data_confidence": 65.0,
     "risk": 30.0,
     "long_term": 38.2,
     "short_term": 35.8,
@@ -73,7 +73,7 @@
         "points": 6,
         "max": 10,
         "detail": [
-          "P/E 19.1 (no industry benchmark): value 19.1 vs threshold 25"
+          "P/E 19.4 (no industry benchmark): value 19.4 vs threshold 25"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 46: 4/7 (value 45.8 vs threshold 45)",
+          "RSI 47: 4/7 (value 46.8 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.168 below all bands"
+          "relative volume: value 0.208 below all bands"
         ]
       },
       "price_structure": {
@@ -125,26 +125,26 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (43% of range)"
+          "price mid-range between S/R (46% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 12,
+        "points": 10,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: ok"
+          "rss_news: failed/unused"
         ]
       },
       "completeness": {
@@ -165,7 +165,7 @@
         "points": 10,
         "max": 15,
         "detail": [
-          "112 validated daily bars (value 112 vs threshold 100); providers may delay quotes ~15 min"
+          "111 validated daily bars (value 111 vs threshold 100); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -205,7 +205,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 45.82508292178484,
+    "rsi_14": 46.80966467411582,
     "breakout": false,
     "breakdown": false,
     "support": 191.35000610351562,

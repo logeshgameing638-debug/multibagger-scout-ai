@@ -1,26 +1,26 @@
 {
   "symbol": "COFORGE",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:55 IST",
-  "status": "complete",
+  "updated_at": "2026-11-20 02:49 IST",
+  "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
     "technical": "success",
     "business": "success",
     "valuation": "success",
     "risk": "success",
-    "news": "success",
+    "news": "failed",
     "scoring": "success"
   },
   "name": "Coforge Limited",
   "scores": {
-    "fundamental": 60.0,
-    "technical": 62.0,
-    "data_confidence": 72.0,
+    "fundamental": 57.0,
+    "technical": 57.0,
+    "data_confidence": 70.0,
     "risk": 0.0,
-    "long_term": 60.6,
-    "short_term": 61.4,
-    "balanced": 61.0
+    "long_term": 57.0,
+    "short_term": 57.0,
+    "balanced": 57.0
   },
   "classification": "neutral",
   "explanation": {
@@ -70,10 +70,10 @@
         ]
       },
       "valuation": {
-        "points": 3,
+        "points": 0.0,
         "max": 10,
         "detail": [
-          "P/E 39.8 (no industry benchmark): value 39.8 vs threshold 40"
+          "P/E 40.0 (no industry benchmark): value 40 below all bands"
         ]
       },
       "industry_growth": {
@@ -103,15 +103,15 @@
         "points": 7.0,
         "max": 15,
         "detail": [
-          "RSI 56: 7/7 (value 56.1 vs threshold 55)",
+          "RSI 59: 7/7 (value 59.4 vs threshold 55)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
       "volume": {
-        "points": 10,
+        "points": 5,
         "max": 15,
         "detail": [
-          "relative volume: value 1.2 vs threshold 1"
+          "relative volume: value 1 vs threshold 0.7"
         ]
       },
       "price_structure": {
@@ -125,26 +125,26 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (69% of range)"
+          "price mid-range between S/R (75% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 12,
+        "points": 10,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: ok"
+          "rss_news: failed/unused"
         ]
       },
       "completeness": {
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1236 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 56.09725709955312,
+    "rsi_14": 59.37128323775816,
     "breakout": false,
     "breakdown": false,
     "support": 1812.199951171875,

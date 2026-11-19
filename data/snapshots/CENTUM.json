@@ -1,22 +1,22 @@
 {
   "symbol": "CENTUM",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:53 IST",
-  "status": "complete",
+  "updated_at": "2026-11-20 02:36 IST",
+  "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
     "technical": "success",
     "business": "success",
     "valuation": "success",
     "risk": "success",
-    "news": "success",
+    "news": "failed",
     "scoring": "success"
   },
   "name": "Centum Electronics Limited",
   "scores": {
     "fundamental": 37.5,
     "technical": 60.0,
-    "data_confidence": 72.0,
+    "data_confidence": 70.0,
     "risk": 30.0,
     "long_term": 44.2,
     "short_term": 53.2,
@@ -65,7 +65,7 @@
         "points": 7.0,
         "max": 15,
         "detail": [
-          "insider holding 49.7%: 7/10",
+          "insider holding 49.8%: 7/10",
           "promoter pledge unavailable from free sources: 0/5"
         ]
       },
@@ -73,7 +73,7 @@
         "points": 0.0,
         "max": 10,
         "detail": [
-          "P/E 197.2 (no industry benchmark): value 197 below all bands"
+          "P/E 191.2 (no industry benchmark): value 191 below all bands"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 62: 7/7 (value 61.9 vs threshold 55)",
+          "RSI 62: 7/7 (value 61.5 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 5,
         "max": 15,
         "detail": [
-          "relative volume: value 0.86 vs threshold 0.7"
+          "relative volume: value 0.912 vs threshold 0.7"
         ]
       },
       "price_structure": {
@@ -125,26 +125,26 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (63% of range)"
+          "price mid-range between S/R (62% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 12,
+        "points": 10,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: ok"
+          "rss_news: failed/unused"
         ]
       },
       "completeness": {
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1234 validated daily bars (value 1.23e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -206,7 +206,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 61.862511330013405,
+    "rsi_14": 61.506330895280264,
     "breakout": false,
     "breakdown": false,
     "support": 3670.39990234375,

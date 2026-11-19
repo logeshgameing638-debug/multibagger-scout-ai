@@ -1,0 +1,33 @@
+section,metric,value
+profile,symbol,BBOX
+profile,name,Black Box Limited
+scores,fundamental,44.5
+scores,technical,60.0
+scores,data_confidence,70.0
+scores,risk,30
+scores,long_term,49.1
+scores,short_term,55.4
+scores,balanced,52.2
+scores,weights,"{'long_term': '0.7F+0.3T', 'short_term': '0.7T+0.3F', 'balanced': '0.5L+0.5S'}"
+classification,labels,neutral
+growth,sales_growth_1y,0.059276925088071544
+growth,sales_cagr_3y,0.0022637492399826264
+growth,sales_cagr_5y,
+growth,profit_growth_1y,0.06221310674870593
+growth,profit_cagr_3y,1.0937120353591
+growth,profit_cagr_5y,
+growth,eps_growth_1y,0.050986842105263094
+profitability,roe,0.16902371553787338
+profitability,roce,0.13066821863011902
+profitability,operating_margin,0.07622582640738051
+profitability,net_margin,0.034415379966236476
+profitability,gross_margin,0.16733355167290834
+balance_sheet,total_debt,11530000000.0
+balance_sheet,debt_to_equity,0.8959375874180213
+balance_sheet,interest_coverage,4.001255020080321
+balance_sheet,current_ratio,1.8296019900497513
+balance_sheet,working_capital,14674000000.0
+cash_flow,operating_cash_flow,839500000.0
+cash_flow,free_cash_flow,118000000.0
+cash_flow,ocf_to_net_profit,0.38594152261860976
+cash_flow,fcf_conversion,0.1405598570577725

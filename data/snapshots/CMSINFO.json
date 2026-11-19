@@ -1,7 +1,7 @@
 {
   "symbol": "CMSINFO",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:54 IST",
+  "updated_at": "2026-11-20 02:47 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -9,18 +9,18 @@
     "business": "success",
     "valuation": "partial",
     "risk": "success",
-    "news": "success",
+    "news": "failed",
     "scoring": "success"
   },
   "name": "CMS Info Systems Limited",
   "scores": {
     "fundamental": 45.5,
-    "technical": 16.0,
-    "data_confidence": 72.0,
+    "technical": 29.0,
+    "data_confidence": 70.0,
     "risk": 0.0,
-    "long_term": 36.6,
-    "short_term": 24.9,
-    "balanced": 30.8
+    "long_term": 40.5,
+    "short_term": 33.9,
+    "balanced": 37.2
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 10.9 (no industry benchmark): value 10.9 vs threshold 15"
+          "P/E 11.1 (no industry benchmark): value 11.1 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -100,18 +100,18 @@
         ]
       },
       "momentum": {
-        "points": 0.0,
+        "points": 8.0,
         "max": 15,
         "detail": [
-          "RSI 35: 0.0/7 (value 35 below all bands)",
-          "MACD histogram non-positive/missing: 0.0/8"
+          "RSI 35: 0.0/7 (value 35.2 below all bands)",
+          "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 5,
         "max": 15,
         "detail": [
-          "relative volume: value 0.584 below all bands"
+          "relative volume: value 0.994 vs threshold 0.7"
         ]
       },
       "price_structure": {
@@ -132,19 +132,19 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 12,
+        "points": 10,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: ok"
+          "rss_news: failed/unused"
         ]
       },
       "completeness": {
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1207 validated daily bars (value 1.21e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1206 validated daily bars (value 1.21e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 34.96495583686584,
+    "rsi_14": 35.221689302911216,
     "breakout": false,
     "breakdown": false,
     "support": 197.30999755859375,

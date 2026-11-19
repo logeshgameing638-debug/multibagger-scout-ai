@@ -1,0 +1,213 @@
+{
+  "symbol": "UGROCAP",
+  "exchange": "BSE",
+  "updated_at": "2026-11-20 02:42 IST",
+  "status": "partial",
+  "agent_statuses": {
+    "fundamental": "success",
+    "technical": "success",
+    "business": "success",
+    "valuation": "success",
+    "risk": "success",
+    "news": "failed",
+    "scoring": "success"
+  },
+  "name": "UGRO Capital Limited",
+  "scores": {
+    "fundamental": 40.0,
+    "technical": 39.0,
+    "data_confidence": 70.0,
+    "risk": 20.0,
+    "long_term": 39.7,
+    "short_term": 39.3,
+    "balanced": 39.5
+  },
+  "classification": "neutral",
+  "explanation": {
+    "fundamental": {
+      "growth": {
+        "points": 10.0,
+        "max": 20,
+        "detail": [
+          "sales_cagr_3y: 5.0/5 (value 0.424 vs threshold 0.15)",
+          "sales_cagr_5y: 0.0/5 (missing input: 0 points)",
+          "profit_cagr_3y: 5.0/5 (value 0.638 vs threshold 0.15)",
+          "profit_cagr_5y: 0.0/5 (missing input: 0 points)"
+        ]
+      },
+      "roe_roce": {
+        "points": 0.0,
+        "max": 15,
+        "detail": [
+          "roe: 0.0/8 (value 0.0602 below all bands)",
+          "roce: 0.0/7 (value 0.0401 below all bands)"
+        ]
+      },
+      "debt_balance_sheet": {
+        "points": 0.0,
+        "max": 15,
+        "detail": [
+          "financial sector: industrial debt rules not applied; 0 awarded (not full points)"
+        ]
+      },
+      "cash_flow": {
+        "points": 15.0,
+        "max": 15,
+        "detail": [
+          "positive OCF: 5.0/5",
+          "positive FCF: 5.0/5",
+          "OCF/net profit: 5/5 (value 1.22 vs threshold 1)"
+        ]
+      },
+      "management_promoter": {
+        "points": 7.0,
+        "max": 15,
+        "detail": [
+          "insider holding 47.3%: 7/10",
+          "promoter pledge unavailable from free sources: 0/5"
+        ]
+      },
+      "valuation": {
+        "points": 8,
+        "max": 10,
+        "detail": [
+          "P/E 5.2 (no industry benchmark): value 5.25 vs threshold 15"
+        ]
+      },
+      "industry_growth": {
+        "points": 0.0,
+        "max": 10,
+        "detail": [
+          "industry growth unavailable from free sources: 0/10"
+        ]
+      }
+    },
+    "technical": {
+      "long_term_trend": {
+        "points": 10,
+        "max": 20,
+        "detail": [
+          "long-term trend: sideways"
+        ]
+      },
+      "ema_alignment": {
+        "points": 0,
+        "max": 15,
+        "detail": [
+          "below key EMAs"
+        ]
+      },
+      "momentum": {
+        "points": 8.0,
+        "max": 15,
+        "detail": [
+          "RSI 45: 0.0/7 (value 44.9 below all bands)",
+          "MACD histogram positive: 8.0/8"
+        ]
+      },
+      "volume": {
+        "points": 15,
+        "max": 15,
+        "detail": [
+          "relative volume: value 1.94 vs threshold 1.5"
+        ]
+      },
+      "price_structure": {
+        "points": 2,
+        "max": 10,
+        "detail": [
+          "downtrend (lower highs, lower lows)"
+        ]
+      },
+      "support_resistance": {
+        "points": 4,
+        "max": 10,
+        "detail": [
+          "near support: watch for breakdown or bounce confirmation"
+        ]
+      },
+      "breakout_confirmation": {
+        "points": 0,
+        "max": 15,
+        "detail": [
+          "no confirmed breakout"
+        ]
+      }
+    },
+    "data_confidence": {
+      "source_reliability": {
+        "points": 10,
+        "max": 25,
+        "detail": [
+          "yahoo_finance: ok",
+          "nse_archives: failed/unused",
+          "bse_site: failed/unused",
+          "rss_news: failed/unused"
+        ]
+      },
+      "completeness": {
+        "points": 25.0,
+        "max": 25,
+        "detail": [
+          "0 fundamental metrics missing"
+        ]
+      },
+      "reporting_period": {
+        "points": 20,
+        "max": 20,
+        "detail": [
+          "4 annual periods available (value 4 vs threshold 4)"
+        ]
+      },
+      "freshness_depth": {
+        "points": 15,
+        "max": 15,
+        "detail": [
+          "1232 validated daily bars (value 1.23e+03 vs threshold 200); providers may delay quotes ~15 min"
+        ]
+      },
+      "cross_source_consistency": {
+        "points": 0.0,
+        "max": 15,
+        "detail": [
+          "not checked: no comparable same-company, same-period values from a second source"
+        ]
+      }
+    },
+    "risk": {
+      "findings_contribution": {
+        "points": 20,
+        "max": 100,
+        "detail": [
+          "equity_dilution (moderate): +10",
+          "high_volatility (moderate): +10"
+        ]
+      },
+      "classification": "MODERATE",
+      "unassessed_items": [
+        "auditor resignation history",
+        "qualified audit opinions",
+        "related-party transactions",
+        "regulatory actions",
+        "promoter pledging (source unavailable)",
+        "promoter selling (source unavailable)"
+      ]
+    },
+    "labels": [
+      "neutral"
+    ],
+    "weights": {
+      "long_term": "0.7F+0.3T",
+      "short_term": "0.7T+0.3F",
+      "balanced": "0.5L+0.5S"
+    }
+  },
+  "technical_daily": {
+    "rsi_14": 44.897275261649085,
+    "breakout": false,
+    "breakdown": false,
+    "support": 65.19999694824219,
+    "resistance": 87.9000015258789,
+    "trend": "bearish"
+  }
+}

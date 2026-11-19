@@ -1,26 +1,26 @@
 {
   "symbol": "CLSEL",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:54 IST",
-  "status": "complete",
+  "updated_at": "2026-11-20 02:45 IST",
+  "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
     "technical": "success",
     "business": "success",
     "valuation": "success",
     "risk": "success",
-    "news": "success",
+    "news": "failed",
     "scoring": "success"
   },
   "name": "Chaman Lal Setia Exports Ltd.",
   "scores": {
     "fundamental": 53.5,
-    "technical": 54.0,
-    "data_confidence": 72.0,
+    "technical": 34.0,
+    "data_confidence": 70.0,
     "risk": 20.0,
-    "long_term": 53.6,
-    "short_term": 53.8,
-    "balanced": 53.7
+    "long_term": 47.6,
+    "short_term": 39.8,
+    "balanced": 43.7
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 11.2 (no industry benchmark): value 11.2 vs threshold 15"
+          "P/E 11.3 (no industry benchmark): value 11.3 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -93,25 +93,25 @@
         ]
       },
       "ema_alignment": {
-        "points": 15,
+        "points": 0,
         "max": 15,
         "detail": [
-          "full bullish alignment (price > 20 > 50 > 100 > 200)"
+          "below key EMAs"
         ]
       },
       "momentum": {
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 53: 4/7 (value 52.8 vs threshold 45)",
+          "RSI 47: 4/7 (value 47.2 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 5,
+        "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.871 vs threshold 0.7"
+          "relative volume: value 0.611 below all bands"
         ]
       },
       "price_structure": {
@@ -125,26 +125,26 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (52% of range)"
+          "price mid-range between S/R (43% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 12,
+        "points": 10,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: ok"
+          "rss_news: failed/unused"
         ]
       },
       "completeness": {
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1234 validated daily bars (value 1.23e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -205,11 +205,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 52.76329088053396,
+    "rsi_14": 47.19611337565263,
     "breakout": false,
     "breakdown": false,
     "support": 246.8000030517578,
     "resistance": 322.3999938964844,
-    "trend": "bullish"
+    "trend": "sideways"
   }
 }

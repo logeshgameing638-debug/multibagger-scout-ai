@@ -1,26 +1,26 @@
 {
   "symbol": "CENTRALBK",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:53 IST",
-  "status": "complete",
+  "updated_at": "2026-11-20 02:35 IST",
+  "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
     "technical": "success",
     "business": "success",
     "valuation": "success",
     "risk": "success",
-    "news": "success",
+    "news": "failed",
     "scoring": "success"
   },
   "name": "Central Bank of India",
   "scores": {
     "fundamental": 40.0,
-    "technical": 59.0,
-    "data_confidence": 72.0,
+    "technical": 54.0,
+    "data_confidence": 70.0,
     "risk": 0.0,
-    "long_term": 45.7,
-    "short_term": 53.3,
-    "balanced": 49.5
+    "long_term": 44.2,
+    "short_term": 49.8,
+    "balanced": 47.0
   },
   "classification": "neutral",
   "explanation": {
@@ -71,7 +71,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 6.3 (no industry benchmark): value 6.31 vs threshold 15"
+          "P/E 6.3 (no industry benchmark): value 6.32 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -101,15 +101,15 @@
         "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 73: 7/7 (value 73.2 vs threshold 55)",
+          "RSI 67: 7/7 (value 66.6 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 15,
+        "points": 10,
         "max": 15,
         "detail": [
-          "relative volume: value 2.93 vs threshold 1.5"
+          "relative volume: value 1.05 vs threshold 1"
         ]
       },
       "price_structure": {
@@ -130,19 +130,19 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 12,
+        "points": 10,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: ok"
+          "rss_news: failed/unused"
         ]
       },
       "completeness": {
@@ -163,7 +163,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1236 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -202,11 +202,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 73.20756010477132,
+    "rsi_14": 66.62705215051349,
     "breakout": false,
     "breakdown": false,
     "support": 28.260000228881836,
-    "resistance": 33.88999938964844,
+    "resistance": 33.04999923706055,
     "trend": "sideways"
   }
 }

@@ -1,22 +1,22 @@
 {
   "symbol": "CIFL",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:54 IST",
-  "status": "complete",
+  "updated_at": "2026-11-20 02:43 IST",
+  "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
     "technical": "success",
     "business": "success",
     "valuation": "success",
     "risk": "success",
-    "news": "success",
+    "news": "failed",
     "scoring": "success"
   },
   "name": "Capital India Finance Limited",
   "scores": {
     "fundamental": 10.0,
     "technical": 34.0,
-    "data_confidence": 72.0,
+    "data_confidence": 70.0,
     "risk": 40.0,
     "long_term": 17.2,
     "short_term": 26.8,
@@ -101,7 +101,7 @@
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 52: 4/7 (value 51.9 vs threshold 45)",
+          "RSI 52: 4/7 (value 52.5 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -109,7 +109,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.0346 below all bands"
+          "relative volume: value 0.257 below all bands"
         ]
       },
       "price_structure": {
@@ -123,26 +123,26 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (47% of range)"
+          "price mid-range between S/R (48% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 12,
+        "points": 10,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: ok"
+          "rss_news: failed/unused"
         ]
       },
       "completeness": {
@@ -163,7 +163,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "394 validated daily bars (value 394 vs threshold 200); providers may delay quotes ~15 min"
+          "393 validated daily bars (value 393 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 51.87303218089759,
+    "rsi_14": 52.47888085006442,
     "breakout": false,
     "breakdown": false,
     "support": 15.380000114440918,

@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-11-19 20:44 IST",
+ "generated_at": "2026-11-20 02:52 IST",
  "sources": {
   "cap_classification": "AMFI Average Market Capitalization of listed companies, six months ended 30 June 2026 (per SEBI circular dated Oct 6, 2017)",
   "prices": "BSE official equity bhavcopy close, session 2026-11-19",
-  "scores": "committed research snapshots; ranking feed generated 2026-11-19 20:44 IST"
+  "scores": "committed research snapshots; ranking feed generated 2026-11-20 02:52 IST"
  },
  "penny_cutoff_inr": 10,
- "ranked_count": 732,
+ "ranked_count": 766,
  "counts": {
   "large_cap": 17,
   "mid_cap": 39,
   "small_cap": 563,
-  "unknown_cap": 113,
-  "penny": 39
+  "unknown_cap": 147,
+  "penny": 43
  },
  "top50": [
   {
@@ -101,20 +101,6 @@
   },
   {
    "rank": 7,
-   "symbol": "COFORGE",
-   "exchange": "NSE",
-   "name": "Coforge Limited",
-   "balanced": 61.0,
-   "risk": 0.0,
-   "data_confidence": 72.0,
-   "classification": "neutral",
-   "status": "complete",
-   "data_date": "2026-11-19 14:55 IST",
-   "close": 2055.35,
-   "cap_class": "Mid Cap"
-  },
-  {
-   "rank": 8,
    "symbol": "ALLDIGI",
    "exchange": "NSE",
    "name": "Alldigi Tech Limited",
@@ -128,7 +114,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 9,
+   "rank": 8,
    "symbol": "CUPID",
    "exchange": "NSE",
    "name": "Cupid Limited",
@@ -142,7 +128,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 10,
+   "rank": 9,
    "symbol": "ENDURANCE",
    "exchange": "NSE",
    "name": "Endurance Technologies Limited",
@@ -156,7 +142,7 @@
    "cap_class": "Mid Cap"
   },
   {
-   "rank": 11,
+   "rank": 10,
    "symbol": "BBOX",
    "exchange": "NSE",
    "name": "Black Box Limited",
@@ -170,7 +156,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 12,
+   "rank": 11,
    "symbol": "BROOKS",
    "exchange": "NSE",
    "name": "Brooks Laboratories Limited",
@@ -184,7 +170,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 13,
+   "rank": 12,
    "symbol": "ECOSMOBLTY",
    "exchange": "NSE",
    "name": "Ecos (India) Mobility & Hospitality Limited",
@@ -198,7 +184,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 14,
+   "rank": 13,
    "symbol": "ANTHEM",
    "exchange": "NSE",
    "name": "Anthem Biosciences Limited",
@@ -212,7 +198,7 @@
    "cap_class": "Mid Cap"
   },
   {
-   "rank": 15,
+   "rank": 14,
    "symbol": "EMAMILTD",
    "exchange": "NSE",
    "name": "Emami Limited",
@@ -226,7 +212,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 16,
+   "rank": 15,
    "symbol": "EVEREADY",
    "exchange": "NSE",
    "name": "Eveready Industries India Limited",
@@ -240,7 +226,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 17,
+   "rank": 16,
    "symbol": "ACE",
    "exchange": "NSE",
    "name": "Action Construction Equipment Limited",
@@ -254,7 +240,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 18,
+   "rank": 17,
    "symbol": "DABUR",
    "exchange": "NSE",
    "name": "Dabur India Limited",
@@ -268,7 +254,7 @@
    "cap_class": "Mid Cap"
   },
   {
-   "rank": 19,
+   "rank": 18,
    "symbol": "ETHOSLTD",
    "exchange": "NSE",
    "name": "Ethos Limited",
@@ -282,7 +268,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 20,
+   "rank": 19,
    "symbol": "BBTC",
    "exchange": "NSE",
    "name": "The Bombay Burmah Trading Corporation Limited",
@@ -296,21 +282,21 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 21,
-   "symbol": "COLPAL",
-   "exchange": "NSE",
-   "name": "Colgate-Palmolive (India) Limited",
-   "balanced": 58.2,
+   "rank": 20,
+   "symbol": "MASTERTR",
+   "exchange": "BSE",
+   "name": "Master Trust Limited",
+   "balanced": 58.0,
    "risk": 0.0,
-   "data_confidence": 72.0,
+   "data_confidence": 70.0,
    "classification": "neutral",
-   "status": "complete",
-   "data_date": "2026-11-19 14:55 IST",
-   "close": 1775.0,
-   "cap_class": "Mid Cap"
+   "status": "partial",
+   "data_date": "2026-11-20 02:43 IST",
+   "close": 84.87,
+   "cap_class": null
   },
   {
-   "rank": 22,
+   "rank": 21,
    "symbol": "BLS",
    "exchange": "NSE",
    "name": "BLS International Services Limited",
@@ -324,7 +310,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 23,
+   "rank": 22,
    "symbol": "BRITANNIA",
    "exchange": "NSE",
    "name": "Britannia Industries Limited",
@@ -336,6 +322,20 @@
    "data_date": "2026-11-19 20:39 IST",
    "close": 4869.75,
    "cap_class": "Large Cap"
+  },
+  {
+   "rank": 23,
+   "symbol": "COFORGE",
+   "exchange": "NSE",
+   "name": "Coforge Limited",
+   "balanced": 57.0,
+   "risk": 0.0,
+   "data_confidence": 70.0,
+   "classification": "neutral",
+   "status": "partial",
+   "data_date": "2026-11-20 02:49 IST",
+   "close": 2055.35,
+   "cap_class": "Mid Cap"
   },
   {
    "rank": 24,
@@ -414,10 +414,10 @@
    "name": "Caliber Mining and Logistics Limited",
    "balanced": 56.0,
    "risk": 30.0,
-   "data_confidence": 62.0,
+   "data_confidence": 60.0,
    "classification": "high_risk",
    "status": "partial",
-   "data_date": "2026-11-19 14:54 IST",
+   "data_date": "2026-11-20 02:46 IST",
    "close": 555.35,
    "cap_class": null
   },
@@ -493,20 +493,6 @@
   },
   {
    "rank": 35,
-   "symbol": "CHEMBONDCH",
-   "exchange": "NSE",
-   "name": "Chembond Chemicals Limited",
-   "balanced": 55.5,
-   "risk": 20.0,
-   "data_confidence": 72.0,
-   "classification": "neutral",
-   "status": "complete",
-   "data_date": "2026-11-19 14:53 IST",
-   "close": 213.8,
-   "cap_class": "Small Cap"
-  },
-  {
-   "rank": 36,
    "symbol": "DIXON",
    "exchange": "NSE",
    "name": "Dixon Technologies (India) Limited",
@@ -520,7 +506,7 @@
    "cap_class": "Mid Cap"
   },
   {
-   "rank": 37,
+   "rank": 36,
    "symbol": "EMCURE",
    "exchange": "NSE",
    "name": "Emcure Pharmaceuticals Limited",
@@ -534,7 +520,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 38,
+   "rank": 37,
    "symbol": "TGVSL",
    "exchange": "BSE",
    "name": "TGV SRAAC Limited",
@@ -546,6 +532,20 @@
    "data_date": "2026-11-19 20:38 IST",
    "close": 127.55,
    "cap_class": null
+  },
+  {
+   "rank": 38,
+   "symbol": "CINELINE",
+   "exchange": "NSE",
+   "name": "Cineline India Limited",
+   "balanced": 55.0,
+   "risk": 10.0,
+   "data_confidence": 70.0,
+   "classification": "strong_technical_trend",
+   "status": "partial",
+   "data_date": "2026-11-20 02:43 IST",
+   "close": 95.64,
+   "cap_class": "Small Cap"
   },
   {
    "rank": 39,
@@ -633,6 +633,20 @@
   },
   {
    "rank": 45,
+   "symbol": "CIPLA",
+   "exchange": "NSE",
+   "name": "Cipla Limited",
+   "balanced": 54.2,
+   "risk": 0.0,
+   "data_confidence": 70.0,
+   "classification": "neutral",
+   "status": "partial",
+   "data_date": "2026-11-20 02:44 IST",
+   "close": 1416.0,
+   "cap_class": null
+  },
+  {
+   "rank": 46,
    "symbol": "BAJAJ-AUTO",
    "exchange": "NSE",
    "name": "Bajaj Auto Limited",
@@ -644,20 +658,6 @@
    "data_date": "2026-11-19 14:09 IST",
    "close": 10815.0,
    "cap_class": null
-  },
-  {
-   "rank": 46,
-   "symbol": "CGVAK",
-   "exchange": "NSE",
-   "name": "CG-VAK Software and Exports Limited",
-   "balanced": 54.0,
-   "risk": 10.0,
-   "data_confidence": 62.0,
-   "classification": "attractive_valuation",
-   "status": "complete",
-   "data_date": "2026-11-19 14:53 IST",
-   "close": 152.0,
-   "cap_class": "Small Cap"
   },
   {
    "rank": 47,
@@ -733,7 +733,7 @@
     "cap_class": "Large Cap"
    },
    {
-    "rank": 23,
+    "rank": 22,
     "symbol": "BRITANNIA",
     "exchange": "NSE",
     "name": "Britannia Industries Limited",
@@ -761,7 +761,7 @@
     "cap_class": "Large Cap"
    },
    {
-    "rank": 61,
+    "rank": 62,
     "symbol": "BPCL",
     "exchange": "NSE",
     "name": "Bharat Petroleum Corporation Limited",
@@ -775,7 +775,7 @@
     "cap_class": "Large Cap"
    },
    {
-    "rank": 66,
+    "rank": 67,
     "symbol": "DLF",
     "exchange": "NSE",
     "name": "DLF Limited",
@@ -789,7 +789,7 @@
     "cap_class": "Large Cap"
    },
    {
-    "rank": 77,
+    "rank": 78,
     "symbol": "ABB",
     "exchange": "NSE",
     "name": "ABB India Limited",
@@ -803,7 +803,7 @@
     "cap_class": "Large Cap"
    },
    {
-    "rank": 110,
+    "rank": 107,
     "symbol": "BHEL",
     "exchange": "NSE",
     "name": "Bharat Heavy Electricals Limited",
@@ -817,7 +817,7 @@
     "cap_class": "Large Cap"
    },
    {
-    "rank": 137,
+    "rank": 136,
     "symbol": "CANBK",
     "exchange": "NSE",
     "name": "Canara Bank",
@@ -845,7 +845,7 @@
     "cap_class": "Large Cap"
    },
    {
-    "rank": 179,
+    "rank": 180,
     "symbol": "BAJAJHLDNG",
     "exchange": "NSE",
     "name": "Bajaj Holdings & Investment Limited",
@@ -859,7 +859,7 @@
     "cap_class": "Large Cap"
    },
    {
-    "rank": 199,
+    "rank": 202,
     "symbol": "AMBUJACEM",
     "exchange": "NSE",
     "name": "Ambuja Cements Limited",
@@ -873,7 +873,7 @@
     "cap_class": "Large Cap"
    },
    {
-    "rank": 246,
+    "rank": 250,
     "symbol": "DMART",
     "exchange": "NSE",
     "name": "Avenue Supermarts Limited",
@@ -887,21 +887,21 @@
     "cap_class": "Large Cap"
    },
    {
-    "rank": 281,
+    "rank": 266,
     "symbol": "CGPOWER",
     "exchange": "NSE",
     "name": "CG Power and Industrial Solutions Limited",
-    "balanced": 42.2,
+    "balanced": 42.8,
     "risk": 10.0,
-    "data_confidence": 72.0,
+    "data_confidence": 70.0,
     "classification": "neutral",
     "status": "partial",
-    "data_date": "2026-11-19 14:53 IST",
+    "data_date": "2026-11-20 02:38 IST",
     "close": 812.3,
     "cap_class": "Large Cap"
    },
    {
-    "rank": 321,
+    "rank": 330,
     "symbol": "ADANIGREEN",
     "exchange": "NSE",
     "name": "Adani Green Energy Limited",
@@ -915,7 +915,7 @@
     "cap_class": "Large Cap"
    },
    {
-    "rank": 354,
+    "rank": 367,
     "symbol": "CUMMINSIND",
     "exchange": "NSE",
     "name": "Cummins India Limited",
@@ -929,7 +929,7 @@
     "cap_class": "Large Cap"
    },
    {
-    "rank": 373,
+    "rank": 387,
     "symbol": "ADANIENSOL",
     "exchange": "NSE",
     "name": "Adani Energy Solutions Limited",
@@ -943,37 +943,23 @@
     "cap_class": "Large Cap"
    },
    {
-    "rank": 378,
+    "rank": 506,
     "symbol": "CHOLAFIN",
     "exchange": "NSE",
     "name": "Cholamandalam Investment and Finance Company Limited",
-    "balanced": 38.5,
+    "balanced": 35.0,
     "risk": 30.0,
-    "data_confidence": 72.0,
+    "data_confidence": 70.0,
     "classification": "high_risk",
-    "status": "complete",
-    "data_date": "2026-11-19 14:54 IST",
+    "status": "partial",
+    "data_date": "2026-11-20 02:42 IST",
     "close": 1876.4,
     "cap_class": "Large Cap"
    }
   ],
   "mid_cap": [
    {
-    "rank": 7,
-    "symbol": "COFORGE",
-    "exchange": "NSE",
-    "name": "Coforge Limited",
-    "balanced": 61.0,
-    "risk": 0.0,
-    "data_confidence": 72.0,
-    "classification": "neutral",
-    "status": "complete",
-    "data_date": "2026-11-19 14:55 IST",
-    "close": 2055.35,
-    "cap_class": "Mid Cap"
-   },
-   {
-    "rank": 10,
+    "rank": 9,
     "symbol": "ENDURANCE",
     "exchange": "NSE",
     "name": "Endurance Technologies Limited",
@@ -987,7 +973,7 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 14,
+    "rank": 13,
     "symbol": "ANTHEM",
     "exchange": "NSE",
     "name": "Anthem Biosciences Limited",
@@ -1001,7 +987,7 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 18,
+    "rank": 17,
     "symbol": "DABUR",
     "exchange": "NSE",
     "name": "Dabur India Limited",
@@ -1015,17 +1001,17 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 21,
-    "symbol": "COLPAL",
+    "rank": 23,
+    "symbol": "COFORGE",
     "exchange": "NSE",
-    "name": "Colgate-Palmolive (India) Limited",
-    "balanced": 58.2,
+    "name": "Coforge Limited",
+    "balanced": 57.0,
     "risk": 0.0,
-    "data_confidence": 72.0,
+    "data_confidence": 70.0,
     "classification": "neutral",
-    "status": "complete",
-    "data_date": "2026-11-19 14:55 IST",
-    "close": 1775.0,
+    "status": "partial",
+    "data_date": "2026-11-20 02:49 IST",
+    "close": 2055.35,
     "cap_class": "Mid Cap"
    },
    {
@@ -1043,7 +1029,7 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 36,
+    "rank": 35,
     "symbol": "DIXON",
     "exchange": "NSE",
     "name": "Dixon Technologies (India) Limited",
@@ -1099,7 +1085,7 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 121,
+    "rank": 118,
     "symbol": "ALKEM",
     "exchange": "NSE",
     "name": "Alkem Laboratories Limited",
@@ -1113,7 +1099,7 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 131,
+    "rank": 128,
     "symbol": "APLAPOLLO",
     "exchange": "NSE",
     "name": "APL Apollo Tubes Limited",
@@ -1127,7 +1113,7 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 133,
+    "rank": 130,
     "symbol": "BHARTIHEXA",
     "exchange": "NSE",
     "name": "Bharti Hexacom Limited",
@@ -1138,6 +1124,20 @@
     "status": "complete",
     "data_date": "2026-11-19 14:13 IST",
     "close": 1637.4,
+    "cap_class": "Mid Cap"
+   },
+   {
+    "rank": 137,
+    "symbol": "COLPAL",
+    "exchange": "NSE",
+    "name": "Colgate-Palmolive (India) Limited",
+    "balanced": 47.8,
+    "risk": 0.0,
+    "data_confidence": 70.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:50 IST",
+    "close": 1775.0,
     "cap_class": "Mid Cap"
    },
    {
@@ -1155,7 +1155,7 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 170,
+    "rank": 171,
     "symbol": "CONCOR",
     "exchange": "NSE",
     "name": "Container Corporation of India Limited",
@@ -1169,7 +1169,7 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 173,
+    "rank": 174,
     "symbol": "ESCORTS",
     "exchange": "NSE",
     "name": "Escorts Kubota Limited",
@@ -1183,7 +1183,7 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 180,
+    "rank": 181,
     "symbol": "BALKRISIND",
     "exchange": "NSE",
     "name": "Balkrishna Industries Limited",
@@ -1197,7 +1197,7 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 209,
+    "rank": 211,
     "symbol": "AIIL",
     "exchange": "NSE",
     "name": "Authum Investment & Infrastructure Limited",
@@ -1211,7 +1211,7 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 214,
+    "rank": 217,
     "symbol": "DALBHARAT",
     "exchange": "NSE",
     "name": "Dalmia Bharat Limited",
@@ -1225,7 +1225,7 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 226,
+    "rank": 229,
     "symbol": "ENRIN",
     "exchange": "NSE",
     "name": "Siemens Energy India Limited",
@@ -1239,7 +1239,7 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 227,
+    "rank": 230,
     "symbol": "3MINDIA",
     "exchange": "NSE",
     "name": "3M India Limited",
@@ -1253,7 +1253,7 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 236,
+    "rank": 240,
     "symbol": "ASTERDM",
     "exchange": "NSE",
     "name": "Aster DM Quality Care Limited",
@@ -1267,7 +1267,7 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 242,
+    "rank": 246,
     "symbol": "AIAENG",
     "exchange": "NSE",
     "name": "AIA Engineering Limited",
@@ -1281,7 +1281,7 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 251,
+    "rank": 255,
     "symbol": "ABBOTINDIA",
     "exchange": "NSE",
     "name": "Abbott India Limited",
@@ -1295,7 +1295,7 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 296,
+    "rank": 301,
     "symbol": "AJANTPHARM",
     "exchange": "NSE",
     "name": "Ajanta Pharma Limited",
@@ -1309,7 +1309,7 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 333,
+    "rank": 344,
     "symbol": "APARINDS",
     "exchange": "NSE",
     "name": "APAR Industries Limited",
@@ -1323,7 +1323,7 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 357,
+    "rank": 371,
     "symbol": "BDL",
     "exchange": "NSE",
     "name": "Bharat Dynamics Limited",
@@ -1337,7 +1337,7 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 361,
+    "rank": 375,
     "symbol": "BHARATFORG",
     "exchange": "NSE",
     "name": "Bharat Forge Limited",
@@ -1351,7 +1351,7 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 374,
+    "rank": 388,
     "symbol": "ASHOKLEY",
     "exchange": "NSE",
     "name": "Ashok Leyland Limited",
@@ -1365,7 +1365,7 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 383,
+    "rank": 396,
     "symbol": "ATGL",
     "exchange": "NSE",
     "name": "Adani Total Gas Limited",
@@ -1379,7 +1379,7 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 409,
+    "rank": 421,
     "symbol": "ABCAPITAL",
     "exchange": "NSE",
     "name": "Aditya Birla Capital Limited",
@@ -1393,7 +1393,7 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 468,
+    "rank": 487,
     "symbol": "AUBANK",
     "exchange": "NSE",
     "name": "AU Small Finance Bank Limited",
@@ -1407,7 +1407,7 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 500,
+    "rank": 523,
     "symbol": "BIOCON",
     "exchange": "NSE",
     "name": "Biocon Limited",
@@ -1421,7 +1421,7 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 508,
+    "rank": 532,
     "symbol": "ASTRAL",
     "exchange": "NSE",
     "name": "Astral Limited",
@@ -1435,7 +1435,7 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 548,
+    "rank": 573,
     "symbol": "360ONE",
     "exchange": "NSE",
     "name": "360 One Wam Limited",
@@ -1449,7 +1449,7 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 564,
+    "rank": 592,
     "symbol": "BAJAJHFL",
     "exchange": "NSE",
     "name": "Bajaj Housing Finance Limited",
@@ -1463,7 +1463,21 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 600,
+    "rank": 608,
+    "symbol": "COCHINSHIP",
+    "exchange": "NSE",
+    "name": "Cochin Shipyard Limited",
+    "balanced": 31.0,
+    "risk": 30.0,
+    "data_confidence": 70.0,
+    "classification": "high_risk",
+    "status": "partial",
+    "data_date": "2026-11-20 02:48 IST",
+    "close": 1136.0,
+    "cap_class": "Mid Cap"
+   },
+   {
+    "rank": 628,
     "symbol": "BERGEPAINT",
     "exchange": "BSE",
     "name": "Berger Paints India Limited",
@@ -1477,21 +1491,7 @@
     "cap_class": "Mid Cap"
    },
    {
-    "rank": 607,
-    "symbol": "COCHINSHIP",
-    "exchange": "NSE",
-    "name": "Cochin Shipyard Limited",
-    "balanced": 29.5,
-    "risk": 30.0,
-    "data_confidence": 72.0,
-    "classification": "high_risk",
-    "status": "partial",
-    "data_date": "2026-11-19 14:55 IST",
-    "close": 1136.0,
-    "cap_class": "Mid Cap"
-   },
-   {
-    "rank": 671,
+    "rank": 703,
     "symbol": "FACT",
     "exchange": "NSE",
     "name": "The Fertilisers and Chemicals Travancore Limited",
@@ -1563,7 +1563,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 8,
+    "rank": 7,
     "symbol": "ALLDIGI",
     "exchange": "NSE",
     "name": "Alldigi Tech Limited",
@@ -1577,7 +1577,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 9,
+    "rank": 8,
     "symbol": "CUPID",
     "exchange": "NSE",
     "name": "Cupid Limited",
@@ -1591,7 +1591,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 11,
+    "rank": 10,
     "symbol": "BBOX",
     "exchange": "NSE",
     "name": "Black Box Limited",
@@ -1605,7 +1605,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 12,
+    "rank": 11,
     "symbol": "BROOKS",
     "exchange": "NSE",
     "name": "Brooks Laboratories Limited",
@@ -1619,7 +1619,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 13,
+    "rank": 12,
     "symbol": "ECOSMOBLTY",
     "exchange": "NSE",
     "name": "Ecos (India) Mobility & Hospitality Limited",
@@ -1633,7 +1633,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 15,
+    "rank": 14,
     "symbol": "EMAMILTD",
     "exchange": "NSE",
     "name": "Emami Limited",
@@ -1647,7 +1647,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 16,
+    "rank": 15,
     "symbol": "EVEREADY",
     "exchange": "NSE",
     "name": "Eveready Industries India Limited",
@@ -1661,7 +1661,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 17,
+    "rank": 16,
     "symbol": "ACE",
     "exchange": "NSE",
     "name": "Action Construction Equipment Limited",
@@ -1675,7 +1675,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 19,
+    "rank": 18,
     "symbol": "ETHOSLTD",
     "exchange": "NSE",
     "name": "Ethos Limited",
@@ -1689,7 +1689,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 20,
+    "rank": 19,
     "symbol": "BBTC",
     "exchange": "NSE",
     "name": "The Bombay Burmah Trading Corporation Limited",
@@ -1703,7 +1703,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 22,
+    "rank": 21,
     "symbol": "BLS",
     "exchange": "NSE",
     "name": "BLS International Services Limited",
@@ -1801,21 +1801,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 35,
-    "symbol": "CHEMBONDCH",
-    "exchange": "NSE",
-    "name": "Chembond Chemicals Limited",
-    "balanced": 55.5,
-    "risk": 20.0,
-    "data_confidence": 72.0,
-    "classification": "neutral",
-    "status": "complete",
-    "data_date": "2026-11-19 14:53 IST",
-    "close": 213.8,
-    "cap_class": "Small Cap"
-   },
-   {
-    "rank": 37,
+    "rank": 36,
     "symbol": "EMCURE",
     "exchange": "NSE",
     "name": "Emcure Pharmaceuticals Limited",
@@ -1826,6 +1812,20 @@
     "status": "complete",
     "data_date": "2026-11-19 15:33 IST",
     "close": 2345.9,
+    "cap_class": "Small Cap"
+   },
+   {
+    "rank": 38,
+    "symbol": "CINELINE",
+    "exchange": "NSE",
+    "name": "Cineline India Limited",
+    "balanced": 55.0,
+    "risk": 10.0,
+    "data_confidence": 70.0,
+    "classification": "strong_technical_trend",
+    "status": "partial",
+    "data_date": "2026-11-20 02:43 IST",
+    "close": 95.64,
     "cap_class": "Small Cap"
    },
    {
@@ -1885,20 +1885,6 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 46,
-    "symbol": "CGVAK",
-    "exchange": "NSE",
-    "name": "CG-VAK Software and Exports Limited",
-    "balanced": 54.0,
-    "risk": 10.0,
-    "data_confidence": 62.0,
-    "classification": "attractive_valuation",
-    "status": "complete",
-    "data_date": "2026-11-19 14:53 IST",
-    "close": 152.0,
-    "cap_class": "Small Cap"
-   },
-   {
     "rank": 48,
     "symbol": "DSSL",
     "exchange": "NSE",
@@ -1928,16 +1914,16 @@
    },
    {
     "rank": 51,
-    "symbol": "CLSEL",
-    "exchange": "NSE",
-    "name": "Chaman Lal Setia Exports Ltd.",
-    "balanced": 53.7,
+    "symbol": "AEROENTER",
+    "exchange": "BSE",
+    "name": "Aeroflex Enterprises Limited",
+    "balanced": 53.5,
     "risk": 20.0,
-    "data_confidence": 72.0,
+    "data_confidence": 70.0,
     "classification": "neutral",
-    "status": "complete",
-    "data_date": "2026-11-19 14:54 IST",
-    "close": 285.35,
+    "status": "partial",
+    "data_date": "2026-11-20 02:35 IST",
+    "close": 137.1,
     "cap_class": "Small Cap"
    },
    {
@@ -1969,7 +1955,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 56,
+    "rank": 57,
     "symbol": "ABDL",
     "exchange": "NSE",
     "name": "Allied Blenders and Distillers Limited",
@@ -1983,7 +1969,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 57,
+    "rank": 58,
     "symbol": "BALMLAWRIE",
     "exchange": "NSE",
     "name": "Balmer Lawrie & Co. Ltd.",
@@ -1997,7 +1983,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 58,
+    "rank": 59,
     "symbol": "ALGOQUANT",
     "exchange": "NSE",
     "name": "Algoquant Fintech Limited",
@@ -2011,7 +1997,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 59,
+    "rank": 60,
     "symbol": "ASHOKA",
     "exchange": "NSE",
     "name": "Ashoka Buildcon Limited",
@@ -2025,21 +2011,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 62,
-    "symbol": "CINELINE",
-    "exchange": "NSE",
-    "name": "Cineline India Limited",
-    "balanced": 52.5,
-    "risk": 10.0,
-    "data_confidence": 72.0,
-    "classification": "neutral",
-    "status": "partial",
-    "data_date": "2026-11-19 14:54 IST",
-    "close": 95.64,
-    "cap_class": "Small Cap"
-   },
-   {
-    "rank": 65,
+    "rank": 66,
     "symbol": "ASTRAMICRO",
     "exchange": "NSE",
     "name": "Astra Microwave Products Limited",
@@ -2053,7 +2025,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 70,
+    "rank": 71,
     "symbol": "AUTOAXLES",
     "exchange": "NSE",
     "name": "Automotive Axles Limited",
@@ -2067,7 +2039,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 71,
+    "rank": 72,
     "symbol": "CAMPUS",
     "exchange": "NSE",
     "name": "Campus Activewear Limited",
@@ -2081,7 +2053,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 72,
+    "rank": 73,
     "symbol": "ADVENZYMES",
     "exchange": "NSE",
     "name": "Advanced Enzyme Technologies Limited",
@@ -2095,7 +2067,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 74,
+    "rank": 75,
     "symbol": "CRIZAC",
     "exchange": "NSE",
     "name": "Crizac Limited",
@@ -2109,7 +2081,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 75,
+    "rank": 76,
     "symbol": "EPL",
     "exchange": "NSE",
     "name": "EPL Limited",
@@ -2123,7 +2095,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 76,
+    "rank": 77,
     "symbol": "BEARDSELL",
     "exchange": "NSE",
     "name": "Beardsell Limited",
@@ -2134,20 +2106,6 @@
     "status": "complete",
     "data_date": "2026-11-19 14:12 IST",
     "close": null,
-    "cap_class": "Small Cap"
-   },
-   {
-    "rank": 78,
-    "symbol": "AEROENTER",
-    "exchange": "NSE",
-    "name": "Aeroflex Enterprises Limited",
-    "balanced": 51.0,
-    "risk": 20.0,
-    "data_confidence": 72.0,
-    "classification": "neutral",
-    "status": "partial",
-    "data_date": "2026-11-19 09:39 IST",
-    "close": 137.1,
     "cap_class": "Small Cap"
    },
    {
@@ -2236,20 +2194,6 @@
    },
    {
     "rank": 87,
-    "symbol": "CHEMBOND",
-    "exchange": "NSE",
-    "name": "Chembond Material Technologies Limited",
-    "balanced": 50.5,
-    "risk": 10.0,
-    "data_confidence": 72.0,
-    "classification": "neutral",
-    "status": "partial",
-    "data_date": "2026-11-19 14:53 IST",
-    "close": 197.15,
-    "cap_class": "Small Cap"
-   },
-   {
-    "rank": 88,
     "symbol": "DHANBANK",
     "exchange": "NSE",
     "name": "Dhanlaxmi Bank Limited",
@@ -2263,7 +2207,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 89,
+    "rank": 88,
     "symbol": "DIFFNKG",
     "exchange": "NSE",
     "name": "Diffusion Engineers Limited",
@@ -2277,7 +2221,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 90,
+    "rank": 89,
     "symbol": "ACGL",
     "exchange": "NSE",
     "name": "Automobile Corporation of Goa Limited",
@@ -2291,7 +2235,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 91,
+    "rank": 90,
     "symbol": "BHARATSE",
     "exchange": "NSE",
     "name": "Bharat Seats Limited",
@@ -2305,7 +2249,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 93,
+    "rank": 92,
     "symbol": "CAMS",
     "exchange": "NSE",
     "name": "Computer Age Management Services Limited",
@@ -2319,21 +2263,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 94,
-    "symbol": "CMPDI",
-    "exchange": "NSE",
-    "name": "Central Mine Planning & Design Institute Limited",
-    "balanced": 50.0,
-    "risk": 10.0,
-    "data_confidence": 67.0,
-    "classification": "neutral",
-    "status": "partial",
-    "data_date": "2026-11-19 14:54 IST",
-    "close": 178.75,
-    "cap_class": "Small Cap"
-   },
-   {
-    "rank": 95,
+    "rank": 93,
     "symbol": "CYIENTDLM",
     "exchange": "NSE",
     "name": "Cyient DLM Limited",
@@ -2347,7 +2277,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 96,
+    "rank": 94,
     "symbol": "EIMCOELECO",
     "exchange": "NSE",
     "name": "Eimco Elecon (India) Limited",
@@ -2361,7 +2291,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 97,
+    "rank": 95,
     "symbol": "ENTERO",
     "exchange": "NSE",
     "name": "Entero Healthcare Solutions Limited",
@@ -2375,7 +2305,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 98,
+    "rank": 96,
     "symbol": "EXIDEIND",
     "exchange": "NSE",
     "name": "Exide Industries Limited",
@@ -2389,7 +2319,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 99,
+    "rank": 97,
     "symbol": "BLKASHYAP",
     "exchange": "NSE",
     "name": "B.L. Kashyap and Sons Limited",
@@ -2403,21 +2333,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 101,
-    "symbol": "CENTRALBK",
-    "exchange": "NSE",
-    "name": "Central Bank of India",
-    "balanced": 49.5,
-    "risk": 0.0,
-    "data_confidence": 72.0,
-    "classification": "neutral",
-    "status": "complete",
-    "data_date": "2026-11-19 14:53 IST",
-    "close": 33.59,
-    "cap_class": "Small Cap"
-   },
-   {
-    "rank": 102,
+    "rank": 99,
     "symbol": "CORONA",
     "exchange": "NSE",
     "name": "CORONA Remedies Limited",
@@ -2431,7 +2347,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 104,
+    "rank": 101,
     "symbol": "ELDEHSG",
     "exchange": "NSE",
     "name": "Eldeco Housing and Industries Limited",
@@ -2445,7 +2361,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 105,
+    "rank": 102,
     "symbol": "ELECON",
     "exchange": "NSE",
     "name": "Elecon Engineering Company Limited",
@@ -2459,7 +2375,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 106,
+    "rank": 103,
     "symbol": "AVTNPL",
     "exchange": "NSE",
     "name": "AVT Natural Products Limited",
@@ -2473,7 +2389,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 107,
+    "rank": 104,
     "symbol": "ACUTAAS",
     "exchange": "NSE",
     "name": "Acutaas Chemicals Limited",
@@ -2487,7 +2403,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 108,
+    "rank": 105,
     "symbol": "ANANDRATHI",
     "exchange": "NSE",
     "name": "Anand Rathi Wealth Limited",
@@ -2501,7 +2417,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 109,
+    "rank": 106,
     "symbol": "ASHIANA",
     "exchange": "NSE",
     "name": "Ashiana Housing Limited",
@@ -2515,7 +2431,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 111,
+    "rank": 108,
     "symbol": "BLACKROSE",
     "exchange": "NSE",
     "name": "Black Rose Industries Limited",
@@ -2529,7 +2445,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 112,
+    "rank": 109,
     "symbol": "BLUEJET",
     "exchange": "NSE",
     "name": "Blue Jet Healthcare Limited",
@@ -2543,7 +2459,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 113,
+    "rank": 110,
     "symbol": "CANTABIL",
     "exchange": "NSE",
     "name": "Cantabil Retail India Limited",
@@ -2557,7 +2473,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 114,
+    "rank": 111,
     "symbol": "CAPACITE",
     "exchange": "NSE",
     "name": "Capacit'e Infraprojects Limited",
@@ -2571,7 +2487,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 115,
+    "rank": 112,
     "symbol": "DAMCAPITAL",
     "exchange": "NSE",
     "name": "DAM Capital Advisors Limited",
@@ -2585,7 +2501,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 116,
+    "rank": 113,
     "symbol": "DOLLAR",
     "exchange": "NSE",
     "name": "Dollar Industries Limited",
@@ -2599,35 +2515,35 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 117,
+    "rank": 114,
     "symbol": "CENTUM",
     "exchange": "NSE",
     "name": "Centum Electronics Limited",
     "balanced": 48.8,
     "risk": 30.0,
-    "data_confidence": 72.0,
+    "data_confidence": 70.0,
     "classification": "neutral",
-    "status": "complete",
-    "data_date": "2026-11-19 14:53 IST",
+    "status": "partial",
+    "data_date": "2026-11-20 02:36 IST",
     "close": 4480.85,
     "cap_class": "Small Cap"
    },
    {
-    "rank": 118,
+    "rank": 115,
     "symbol": "AVANTIFEED",
-    "exchange": "NSE",
+    "exchange": "BSE",
     "name": "Avanti Feeds Limited",
     "balanced": 48.7,
     "risk": 0.0,
-    "data_confidence": 72.0,
+    "data_confidence": 70.0,
     "classification": "neutral",
-    "status": "complete",
-    "data_date": "2026-11-19 14:08 IST",
+    "status": "partial",
+    "data_date": "2026-11-20 02:50 IST",
     "close": 713.65,
     "cap_class": "Small Cap"
    },
    {
-    "rank": 119,
+    "rank": 116,
     "symbol": "ADOR",
     "exchange": "NSE",
     "name": "Ador Welding Limited",
@@ -2641,7 +2557,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 120,
+    "rank": 117,
     "symbol": "AJMERA",
     "exchange": "NSE",
     "name": "Ajmera Realty & Infra India Limited",
@@ -2655,7 +2571,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 122,
+    "rank": 119,
     "symbol": "BOROLTD",
     "exchange": "NSE",
     "name": "Borosil Limited",
@@ -2669,7 +2585,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 123,
+    "rank": 120,
     "symbol": "DATAPATTNS",
     "exchange": "NSE",
     "name": "Data Patterns (India) Limited",
@@ -2683,7 +2599,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 124,
+    "rank": 121,
     "symbol": "DBOL",
     "exchange": "NSE",
     "name": "Dhampur Bio Organics Limited",
@@ -2697,7 +2613,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 125,
+    "rank": 122,
     "symbol": "DYCL",
     "exchange": "NSE",
     "name": "Dynamic Cables Limited",
@@ -2711,7 +2627,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 126,
+    "rank": 123,
     "symbol": "EMMVEE",
     "exchange": "NSE",
     "name": "Emmvee Photovoltaic Power Limited",
@@ -2725,7 +2641,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 127,
+    "rank": 124,
     "symbol": "BLIL",
     "exchange": "NSE",
     "name": "Balmer Lawrie Investments Limited",
@@ -2739,7 +2655,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 128,
+    "rank": 125,
     "symbol": "ELGIEQUIP",
     "exchange": "NSE",
     "name": "Elgi Equipments Limited",
@@ -2753,7 +2669,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 129,
+    "rank": 126,
     "symbol": "FDC",
     "exchange": "NSE",
     "name": "FDC Limited",
@@ -2767,7 +2683,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 130,
+    "rank": 127,
     "symbol": "AHLUCONT",
     "exchange": "NSE",
     "name": "Ahluwalia Contracts (India) Limited",
@@ -2781,7 +2697,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 132,
+    "rank": 129,
     "symbol": "BELRISE",
     "exchange": "NSE",
     "name": "Belrise Industries Limited",
@@ -2795,7 +2711,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 134,
+    "rank": 131,
     "symbol": "CAPLIPOINT",
     "exchange": "NSE",
     "name": "Caplin Point Laboratories Limited",
@@ -2809,21 +2725,49 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 135,
+    "rank": 132,
+    "symbol": "CHEMBOND",
+    "exchange": "NSE",
+    "name": "Chembond Material Technologies Limited",
+    "balanced": 48.0,
+    "risk": 10.0,
+    "data_confidence": 70.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:39 IST",
+    "close": 197.15,
+    "cap_class": "Small Cap"
+   },
+   {
+    "rank": 133,
+    "symbol": "CHEMBONDCH",
+    "exchange": "NSE",
+    "name": "Chembond Chemicals Limited",
+    "balanced": 48.0,
+    "risk": 20.0,
+    "data_confidence": 70.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:39 IST",
+    "close": 213.8,
+    "cap_class": "Small Cap"
+   },
+   {
+    "rank": 134,
     "symbol": "CNL",
     "exchange": "NSE",
     "name": "Creative Newtech Limited",
     "balanced": 48.0,
     "risk": 40.0,
-    "data_confidence": 72.0,
+    "data_confidence": 70.0,
     "classification": "high_risk",
     "status": "partial",
-    "data_date": "2026-11-19 14:54 IST",
+    "data_date": "2026-11-20 02:47 IST",
     "close": 1389.7,
     "cap_class": "Small Cap"
    },
    {
-    "rank": 136,
+    "rank": 135,
     "symbol": "DRCSYSTEMS",
     "exchange": "NSE",
     "name": "DRC Systems India Limited",
@@ -2908,16 +2852,16 @@
    },
    {
     "rank": 144,
-    "symbol": "CHENNPETRO",
+    "symbol": "CMPDI",
     "exchange": "NSE",
-    "name": "Chennai Petroleum Corporation Limited",
+    "name": "Central Mine Planning & Design Institute Limited",
     "balanced": 47.5,
     "risk": 10.0,
-    "data_confidence": 72.0,
-    "classification": "attractive_valuation",
-    "status": "complete",
-    "data_date": "2026-11-19 14:54 IST",
-    "close": 1424.8,
+    "data_confidence": 65.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:46 IST",
+    "close": 178.75,
     "cap_class": "Small Cap"
    },
    {
@@ -2992,34 +2936,48 @@
    },
    {
     "rank": 155,
-    "symbol": "CHALET",
+    "symbol": "CENTRALBK",
     "exchange": "NSE",
-    "name": "Chalet Hotels Limited",
+    "name": "Central Bank of India",
     "balanced": 47.0,
     "risk": 0.0,
-    "data_confidence": 72.0,
+    "data_confidence": 70.0,
     "classification": "neutral",
     "status": "partial",
-    "data_date": "2026-11-19 14:53 IST",
-    "close": 819.15,
+    "data_date": "2026-11-20 02:35 IST",
+    "close": 33.59,
     "cap_class": "Small Cap"
    },
    {
     "rank": 156,
+    "symbol": "CINEVISTA",
+    "exchange": "NSE",
+    "name": "Cinevista Limited",
+    "balanced": 47.0,
+    "risk": 10.0,
+    "data_confidence": 70.0,
+    "classification": "attractive_valuation",
+    "status": "partial",
+    "data_date": "2026-11-20 02:44 IST",
+    "close": 14.1,
+    "cap_class": "Small Cap"
+   },
+   {
+    "rank": 157,
     "symbol": "COHANCE",
     "exchange": "NSE",
     "name": "Cohance Lifesciences Limited",
     "balanced": 47.0,
     "risk": 20.0,
-    "data_confidence": 72.0,
+    "data_confidence": 70.0,
     "classification": "neutral",
-    "status": "complete",
-    "data_date": "2026-11-19 14:55 IST",
+    "status": "partial",
+    "data_date": "2026-11-20 02:49 IST",
     "close": 459.15,
     "cap_class": "Small Cap"
    },
    {
-    "rank": 157,
+    "rank": 158,
     "symbol": "CONTROLPR",
     "exchange": "NSE",
     "name": "Control Print Limited",
@@ -3033,7 +2991,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 158,
+    "rank": 159,
     "symbol": "CRAFTSMAN",
     "exchange": "NSE",
     "name": "Craftsman Automation Limited",
@@ -3047,7 +3005,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 159,
+    "rank": 160,
     "symbol": "DHANUKA",
     "exchange": "NSE",
     "name": "Dhanuka Agritech Limited",
@@ -3061,7 +3019,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 161,
+    "rank": 162,
     "symbol": "BBTCL",
     "exchange": "NSE",
     "name": "B&B Triplewall Containers Limited",
@@ -3075,7 +3033,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 162,
+    "rank": 163,
     "symbol": "BFINVEST",
     "exchange": "NSE",
     "name": "BF Investment Limited",
@@ -3089,7 +3047,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 163,
+    "rank": 164,
     "symbol": "CONFIPET",
     "exchange": "NSE",
     "name": "Confidence Petroleum India Limited",
@@ -3103,7 +3061,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 164,
+    "rank": 165,
     "symbol": "DALMIASUG",
     "exchange": "NSE",
     "name": "Dalmia Bharat Sugar and Industries Limited",
@@ -3117,7 +3075,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 165,
+    "rank": 166,
     "symbol": "DYNAMATECH",
     "exchange": "NSE",
     "name": "Dynamatic Technologies Limited",
@@ -3131,7 +3089,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 168,
+    "rank": 169,
     "symbol": "AGARWALEYE",
     "exchange": "NSE",
     "name": "Dr. Agarwal's Health Care Limited",
@@ -3145,7 +3103,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 169,
+    "rank": 170,
     "symbol": "AMNPLST",
     "exchange": "NSE",
     "name": "Amines & Plasticizers Limited",
@@ -3159,7 +3117,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 171,
+    "rank": 172,
     "symbol": "DBSTOCKBRO",
     "exchange": "NSE",
     "name": "DB (International) Stock Brokers Limited",
@@ -3173,7 +3131,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 172,
+    "rank": 173,
     "symbol": "DHARMAJ",
     "exchange": "NSE",
     "name": "Dharmaj Crop Guard Limited",
@@ -3187,7 +3145,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 174,
+    "rank": 175,
     "symbol": "ASAHISONG",
     "exchange": "NSE",
     "name": "Asahi Songwon Colors Limited",
@@ -3201,7 +3159,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 175,
+    "rank": 176,
     "symbol": "ATL",
     "exchange": "NSE",
     "name": "Allcargo Terminals Limited",
@@ -3215,7 +3173,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 176,
+    "rank": 177,
     "symbol": "EIHAHOTELS",
     "exchange": "NSE",
     "name": "EIH Associated Hotels Limited",
@@ -3229,7 +3187,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 178,
+    "rank": 179,
     "symbol": "20MICRONS",
     "exchange": "NSE",
     "name": "20 Microns Limited",
@@ -3243,7 +3201,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 181,
+    "rank": 182,
     "symbol": "BORORENEW",
     "exchange": "NSE",
     "name": "Borosil Renewables Limited",
@@ -3257,7 +3215,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 183,
+    "rank": 184,
     "symbol": "EUREKAFORB",
     "exchange": "NSE",
     "name": "Eureka Forbes Limited",
@@ -3271,7 +3229,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 184,
+    "rank": 185,
     "symbol": "EUROPRATIK",
     "exchange": "NSE",
     "name": "Euro Pratik Sales Limited",
@@ -3285,7 +3243,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 185,
+    "rank": 186,
     "symbol": "FAZE3Q",
     "exchange": "NSE",
     "name": "Faze Three Limited",
@@ -3299,7 +3257,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 187,
+    "rank": 188,
+    "symbol": "CIEINDIA",
+    "exchange": "NSE",
+    "name": "CIE Automotive India Limited",
+    "balanced": 45.8,
+    "risk": 0.0,
+    "data_confidence": 70.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:43 IST",
+    "close": 368.6,
+    "cap_class": "Small Cap"
+   },
+   {
+    "rank": 189,
     "symbol": "BFUTILITIE",
     "exchange": "NSE",
     "name": "BF Utilities Limited",
@@ -3313,7 +3285,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 188,
+    "rank": 190,
     "symbol": "BUTTERFLY",
     "exchange": "NSE",
     "name": "Butterfly Gandhimathi Appliances Limited",
@@ -3327,7 +3299,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 189,
+    "rank": 191,
     "symbol": "CASTROLIND",
     "exchange": "NSE",
     "name": "Castrol India Limited",
@@ -3341,7 +3313,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 190,
+    "rank": 192,
     "symbol": "CCL",
     "exchange": "NSE",
     "name": "CCL Products (India) Limited",
@@ -3355,7 +3327,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 191,
+    "rank": 193,
+    "symbol": "CHENNPETRO",
+    "exchange": "NSE",
+    "name": "Chennai Petroleum Corporation Limited",
+    "balanced": 45.5,
+    "risk": 10.0,
+    "data_confidence": 70.0,
+    "classification": "attractive_valuation",
+    "status": "partial",
+    "data_date": "2026-11-20 02:41 IST",
+    "close": 1424.8,
+    "cap_class": "Small Cap"
+   },
+   {
+    "rank": 194,
     "symbol": "DCBBANK",
     "exchange": "NSE",
     "name": "DCB Bank Limited",
@@ -3369,7 +3355,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 192,
+    "rank": 195,
     "symbol": "DOLPHIN",
     "exchange": "NSE",
     "name": "Dolphin Offshore Enterprises (India) Limited",
@@ -3383,7 +3369,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 193,
+    "rank": 196,
     "symbol": "DONEAR",
     "exchange": "NSE",
     "name": "Donear Industries Limited",
@@ -3397,7 +3383,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 194,
+    "rank": 197,
     "symbol": "ESABINDIA",
     "exchange": "NSE",
     "name": "ESAB India Limited",
@@ -3411,7 +3397,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 196,
+    "rank": 199,
     "symbol": "APOLLOTYRE",
     "exchange": "NSE",
     "name": "Apollo Tyres Limited",
@@ -3425,7 +3411,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 198,
+    "rank": 201,
     "symbol": "ALICON",
     "exchange": "NSE",
     "name": "Alicon Castalloy Limited",
@@ -3439,7 +3425,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 200,
+    "rank": 203,
     "symbol": "BHAGERIA",
     "exchange": "NSE",
     "name": "Bhageria Industries Limited",
@@ -3453,35 +3439,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 201,
-    "symbol": "CHEMCRUX",
+    "rank": 204,
+    "symbol": "CGVAK",
     "exchange": "NSE",
-    "name": "Chemcrux Enterprises Limited",
+    "name": "CG-VAK Software and Exports Limited",
     "balanced": 45.0,
     "risk": 10.0,
-    "data_confidence": 62.0,
-    "classification": "neutral",
-    "status": "complete",
-    "data_date": "2026-11-19 14:54 IST",
-    "close": 79.0,
+    "data_confidence": 60.0,
+    "classification": "attractive_valuation",
+    "status": "partial",
+    "data_date": "2026-11-20 02:38 IST",
+    "close": 152.0,
     "cap_class": "Small Cap"
    },
    {
-    "rank": 202,
-    "symbol": "CHEVIOT",
-    "exchange": "NSE",
-    "name": "Cheviot Company Limited",
-    "balanced": 45.0,
-    "risk": 0.0,
-    "data_confidence": 72.0,
-    "classification": "neutral",
-    "status": "complete",
-    "data_date": "2026-11-19 14:54 IST",
-    "close": 1106.0,
-    "cap_class": "Small Cap"
-   },
-   {
-    "rank": 203,
+    "rank": 205,
     "symbol": "COMSYN",
     "exchange": "NSE",
     "name": "Commercial Syn Bags Limited",
@@ -3495,7 +3467,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 205,
+    "rank": 207,
     "symbol": "DODLA",
     "exchange": "NSE",
     "name": "Dodla Dairy Limited",
@@ -3509,21 +3481,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 207,
-    "symbol": "CERA",
-    "exchange": "NSE",
-    "name": "Cera Sanitaryware Limited",
-    "balanced": 44.8,
-    "risk": 0.0,
-    "data_confidence": 72.0,
-    "classification": "neutral",
-    "status": "complete",
-    "data_date": "2026-11-19 14:53 IST",
-    "close": 5084.85,
-    "cap_class": "Small Cap"
-   },
-   {
-    "rank": 208,
+    "rank": 210,
     "symbol": "AGIIL",
     "exchange": "NSE",
     "name": "AGI Infra Limited",
@@ -3537,7 +3495,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 210,
+    "rank": 212,
     "symbol": "ANUP",
     "exchange": "NSE",
     "name": "The Anup Engineering Limited",
@@ -3551,7 +3509,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 211,
+    "rank": 213,
     "symbol": "ARYAMAN",
     "exchange": "NSE",
     "name": "Aryaman Financial Services Limited",
@@ -3565,7 +3523,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 212,
+    "rank": 214,
     "symbol": "ASALCBR",
     "exchange": "BSE",
     "name": "Associated Alcohols & Breweries Limited",
@@ -3579,7 +3537,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 213,
+    "rank": 215,
     "symbol": "BRAHMINFRA",
     "exchange": "NSE",
     "name": "Brahmaputra Infrastructure Limited",
@@ -3594,6 +3552,20 @@
    },
    {
     "rank": 216,
+    "symbol": "CHALET",
+    "exchange": "NSE",
+    "name": "Chalet Hotels Limited",
+    "balanced": 44.5,
+    "risk": 0.0,
+    "data_confidence": 70.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:38 IST",
+    "close": 819.15,
+    "cap_class": "Small Cap"
+   },
+   {
+    "rank": 219,
     "symbol": "DEEPINDS",
     "exchange": "NSE",
     "name": "Deep Industries Limited",
@@ -3607,7 +3579,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 217,
+    "rank": 220,
     "symbol": "DELHIVERY",
     "exchange": "NSE",
     "name": "Delhivery Limited",
@@ -3621,7 +3593,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 218,
+    "rank": 223,
     "symbol": "ALFREDHE",
     "exchange": "NSE",
     "name": "Alfred Herbert (India) Limited",
@@ -3635,7 +3607,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 219,
+    "rank": 224,
     "symbol": "BEML",
     "exchange": "NSE",
     "name": "BEML Limited",
@@ -3649,7 +3621,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 220,
+    "rank": 225,
     "symbol": "APCOTEXIND",
     "exchange": "NSE",
     "name": "Apcotex Industries Limited",
@@ -3663,7 +3635,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 221,
+    "rank": 226,
     "symbol": "ARVSMART",
     "exchange": "NSE",
     "name": "Arvind SmartSpaces Limited",
@@ -3677,7 +3649,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 222,
+    "rank": 227,
     "symbol": "CARRARO",
     "exchange": "NSE",
     "name": "Carraro India Limited",
@@ -3691,21 +3663,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 223,
-    "symbol": "CINEVISTA",
-    "exchange": "NSE",
-    "name": "Cinevista Limited",
-    "balanced": 44.0,
-    "risk": 10.0,
-    "data_confidence": 72.0,
-    "classification": "attractive_valuation",
-    "status": "complete",
-    "data_date": "2026-11-19 14:54 IST",
-    "close": 14.1,
-    "cap_class": "Small Cap"
-   },
-   {
-    "rank": 225,
+    "rank": 228,
     "symbol": "ELITECON",
     "exchange": "NSE",
     "name": "Elitecon International Limited",
@@ -3719,7 +3677,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 228,
+    "rank": 231,
     "symbol": "BSOFT",
     "exchange": "NSE",
     "name": "Birlasoft Limited",
@@ -3733,7 +3691,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 229,
+    "rank": 232,
     "symbol": "ASAL",
     "exchange": "NSE",
     "name": "Automotive Stampings and Assemblies Limited",
@@ -3747,7 +3705,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 230,
+    "rank": 233,
+    "symbol": "CLSEL",
+    "exchange": "NSE",
+    "name": "Chaman Lal Setia Exports Ltd.",
+    "balanced": 43.7,
+    "risk": 20.0,
+    "data_confidence": 70.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:45 IST",
+    "close": 285.35,
+    "cap_class": "Small Cap"
+   },
+   {
+    "rank": 234,
     "symbol": "EKC",
     "exchange": "NSE",
     "name": "Everest Kanto Cylinder Limited",
@@ -3761,7 +3733,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 231,
+    "rank": 235,
     "symbol": "AARTIPHARM",
     "exchange": "NSE",
     "name": "Aarti Pharmalabs Limited",
@@ -3775,7 +3747,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 232,
+    "rank": 236,
     "symbol": "ACC",
     "exchange": "NSE",
     "name": "ACC Limited",
@@ -3789,7 +3761,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 233,
+    "rank": 237,
     "symbol": "AEROFLEX",
     "exchange": "NSE",
     "name": "Aeroflex Industries Limited",
@@ -3803,7 +3775,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 234,
+    "rank": 238,
     "symbol": "ARROWGREEN",
     "exchange": "NSE",
     "name": "Arrow Greentech Limited",
@@ -3817,7 +3789,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 235,
+    "rank": 239,
     "symbol": "ARVIND",
     "exchange": "NSE",
     "name": "Arvind Limited",
@@ -3831,7 +3803,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 237,
+    "rank": 241,
     "symbol": "BHARATGEAR",
     "exchange": "NSE",
     "name": "Bharat Gears Limited",
@@ -3845,7 +3817,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 238,
+    "rank": 242,
     "symbol": "BIKAJI",
     "exchange": "NSE",
     "name": "Bikaji Foods International Limited",
@@ -3859,7 +3831,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 239,
+    "rank": 243,
     "symbol": "CORALFINAC",
     "exchange": "NSE",
     "name": "Coral India Finance and Housing Limited",
@@ -3873,7 +3845,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 240,
+    "rank": 244,
     "symbol": "DELTACORP",
     "exchange": "NSE",
     "name": "Delta Corp Limited",
@@ -3887,7 +3859,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 241,
+    "rank": 245,
     "symbol": "ACCELYA",
     "exchange": "NSE",
     "name": "Accelya Solutions India Limited",
@@ -3901,21 +3873,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 243,
-    "symbol": "CIEINDIA",
+    "rank": 247,
+    "symbol": "CERA",
     "exchange": "NSE",
-    "name": "CIE Automotive India Limited",
+    "name": "Cera Sanitaryware Limited",
     "balanced": 43.2,
     "risk": 0.0,
-    "data_confidence": 72.0,
+    "data_confidence": 70.0,
     "classification": "neutral",
-    "status": "complete",
-    "data_date": "2026-11-19 14:54 IST",
-    "close": 368.6,
+    "status": "partial",
+    "data_date": "2026-11-20 02:36 IST",
+    "close": 5084.85,
     "cap_class": "Small Cap"
    },
    {
-    "rank": 244,
+    "rank": 248,
     "symbol": "DBCORP",
     "exchange": "NSE",
     "name": "D. B. Corp Limited",
@@ -3929,7 +3901,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 245,
+    "rank": 249,
     "symbol": "DICIND",
     "exchange": "NSE",
     "name": "DIC India Limited",
@@ -3943,7 +3915,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 247,
+    "rank": 251,
     "symbol": "DOLATALGO",
     "exchange": "NSE",
     "name": "Dolat Algotech Limited",
@@ -3957,7 +3929,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 248,
+    "rank": 252,
     "symbol": "EDELWEISS",
     "exchange": "NSE",
     "name": "Edelweiss Financial Services Limited",
@@ -3971,7 +3943,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 249,
+    "rank": 253,
     "symbol": "EPIGRAL",
     "exchange": "NSE",
     "name": "Epigral Limited",
@@ -3985,7 +3957,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 252,
+    "rank": 256,
     "symbol": "AEGISLOG",
     "exchange": "NSE",
     "name": "Aegis Logistics Limited",
@@ -3999,7 +3971,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 253,
+    "rank": 257,
     "symbol": "AMAL",
     "exchange": "NSE",
     "name": "Amal Ltd",
@@ -4013,7 +3985,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 254,
+    "rank": 258,
     "symbol": "ASTRAZEN",
     "exchange": "BSE",
     "name": "AstraZeneca Pharma India Limited",
@@ -4027,7 +3999,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 255,
+    "rank": 259,
     "symbol": "CEATLTD",
     "exchange": "NSE",
     "name": "CEAT Limited",
@@ -4041,21 +4013,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 256,
+    "rank": 260,
     "symbol": "CHAMBLFERT",
     "exchange": "NSE",
     "name": "Chambal Fertilisers and Chemicals Limited",
     "balanced": 43.0,
     "risk": 10.0,
-    "data_confidence": 72.0,
+    "data_confidence": 70.0,
     "classification": "neutral",
     "status": "partial",
-    "data_date": "2026-11-19 14:53 IST",
+    "data_date": "2026-11-20 02:39 IST",
     "close": 372.45,
     "cap_class": "Small Cap"
    },
    {
-    "rank": 257,
+    "rank": 261,
     "symbol": "CRAMC",
     "exchange": "NSE",
     "name": "Canara Robeco Asset Management Company Limited",
@@ -4069,7 +4041,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 258,
+    "rank": 262,
     "symbol": "DIACABS",
     "exchange": "NSE",
     "name": "Diamond Power Infrastructure Limited",
@@ -4083,7 +4055,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 260,
+    "rank": 265,
     "symbol": "ANGELONE",
     "exchange": "NSE",
     "name": "Angel One Limited",
@@ -4097,7 +4069,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 262,
+    "rank": 268,
     "symbol": "AMBIKCO",
     "exchange": "NSE",
     "name": "Ambika Cotton Mills Limited",
@@ -4111,7 +4083,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 263,
+    "rank": 269,
     "symbol": "ASHAPURMIN",
     "exchange": "NSE",
     "name": "Ashapura Minechem Limited",
@@ -4125,7 +4097,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 264,
+    "rank": 270,
     "symbol": "ATLANTAELE",
     "exchange": "NSE",
     "name": "Atlanta Electricals Limited",
@@ -4139,7 +4111,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 265,
+    "rank": 271,
     "symbol": "ATULAUTO",
     "exchange": "NSE",
     "name": "Atul Auto Limited",
@@ -4153,7 +4125,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 266,
+    "rank": 272,
     "symbol": "AXTEL",
     "exchange": "NSE",
     "name": "Axtel Industries Limited",
@@ -4167,7 +4139,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 267,
+    "rank": 273,
     "symbol": "BASML",
     "exchange": "NSE",
     "name": "Bannari Amman Spinning Mills Ltd",
@@ -4181,7 +4153,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 268,
+    "rank": 274,
     "symbol": "BSHSL",
     "exchange": "NSE",
     "name": "Bombay Super Hybrid Seeds Limited",
@@ -4195,7 +4167,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 269,
+    "rank": 275,
     "symbol": "CPL",
     "exchange": "NSE",
     "name": "Captain Polyplast Limited",
@@ -4209,7 +4181,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 270,
+    "rank": 276,
     "symbol": "CYBERTECH",
     "exchange": "NSE",
     "name": "CyberTech Systems and Software Limited",
@@ -4223,7 +4195,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 271,
+    "rank": 277,
     "symbol": "DAMODARIND",
     "exchange": "NSE",
     "name": "Damodar Industries Limited",
@@ -4237,7 +4209,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 272,
+    "rank": 278,
     "symbol": "DCW",
     "exchange": "NSE",
     "name": "DCW Limited",
@@ -4251,7 +4223,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 273,
+    "rank": 279,
     "symbol": "DWARKESH",
     "exchange": "NSE",
     "name": "Dwarikesh Sugar Industries Limited",
@@ -4265,7 +4237,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 274,
+    "rank": 280,
     "symbol": "ECLERX",
     "exchange": "NSE",
     "name": "eClerx Services Limited",
@@ -4279,7 +4251,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 275,
+    "rank": 281,
     "symbol": "ELLEN",
     "exchange": "NSE",
     "name": "Ellenbarrie Industrial Gases Limited",
@@ -4293,7 +4265,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 276,
+    "rank": 282,
     "symbol": "EPACKPEB",
     "exchange": "NSE",
     "name": "EPack Prefab Technologies Limited",
@@ -4307,7 +4279,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 278,
+    "rank": 284,
     "symbol": "AGI",
     "exchange": "NSE",
     "name": "AGI Greenpac Limited",
@@ -4321,7 +4293,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 279,
+    "rank": 285,
     "symbol": "BIRLACORPN",
     "exchange": "NSE",
     "name": "Birla Corporation Limited",
@@ -4335,7 +4307,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 280,
+    "rank": 286,
     "symbol": "BVCL",
     "exchange": "NSE",
     "name": "Barak Valley Cements Limited",
@@ -4349,7 +4321,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 282,
+    "rank": 287,
     "symbol": "ESAFSFB",
     "exchange": "NSE",
     "name": "ESAF Small Finance Bank",
@@ -4363,7 +4335,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 284,
+    "rank": 290,
     "symbol": "AERONEU",
     "exchange": "NSE",
     "name": "Aeroflex Neu Limited",
@@ -4377,7 +4349,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 285,
+    "rank": 291,
     "symbol": "AGARIND",
     "exchange": "NSE",
     "name": "Agarwal Industrial Corporation Limited",
@@ -4391,7 +4363,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 286,
+    "rank": 292,
     "symbol": "ATHERENERG",
     "exchange": "NSE",
     "name": "Ather Energy Limited",
@@ -4405,7 +4377,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 287,
+    "rank": 293,
     "symbol": "CARYSIL",
     "exchange": "NSE",
     "name": "Carysil Limited",
@@ -4419,7 +4391,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 288,
+    "rank": 294,
     "symbol": "CDSL",
     "exchange": "NSE",
     "name": "Central Depository Services (India) Limited",
@@ -4433,21 +4405,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 289,
-    "symbol": "COCKERILL",
-    "exchange": "NSE",
-    "name": "John Cockerill India Limited",
-    "balanced": 42.0,
-    "risk": 10.0,
-    "data_confidence": 67.0,
-    "classification": "neutral",
-    "status": "complete",
-    "data_date": "2026-11-19 14:55 IST",
-    "close": 6808.1,
-    "cap_class": "Small Cap"
-   },
-   {
-    "rank": 290,
+    "rank": 295,
     "symbol": "DVL",
     "exchange": "NSE",
     "name": "Dhunseri Ventures Limited",
@@ -4461,7 +4419,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 291,
+    "rank": 296,
     "symbol": "BOSCH-HCIL",
     "exchange": "NSE",
     "name": "Bosch Home Comfort India Limited",
@@ -4475,7 +4433,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 292,
+    "rank": 297,
     "symbol": "EXCELINDUS",
     "exchange": "NSE",
     "name": "Excel Industries Limited",
@@ -4489,7 +4447,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 293,
+    "rank": 298,
     "symbol": "AARTECH",
     "exchange": "NSE",
     "name": "Aartech Solonics Limited",
@@ -4503,7 +4461,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 295,
+    "rank": 300,
     "symbol": "AFIL",
     "exchange": "NSE",
     "name": "Akme Fintrade (India) Limited",
@@ -4517,7 +4475,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 297,
+    "rank": 302,
     "symbol": "ANTELOPUS",
     "exchange": "NSE",
     "name": "Antelopus Selan Energy Limited",
@@ -4531,7 +4489,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 298,
+    "rank": 303,
     "symbol": "AUSTENG",
     "exchange": "NSE",
     "name": "Austin Engineering Company Limited",
@@ -4545,7 +4503,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 299,
+    "rank": 304,
     "symbol": "BBL",
     "exchange": "NSE",
     "name": "Bharat Bijlee Limited",
@@ -4559,7 +4517,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 300,
+    "rank": 305,
     "symbol": "BEDMUTHA",
     "exchange": "NSE",
     "name": "Bedmutha Industries Limited",
@@ -4573,7 +4531,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 301,
+    "rank": 306,
+    "symbol": "CHEMFAB",
+    "exchange": "NSE",
+    "name": "Chemfab Alkalis Limited",
+    "balanced": 41.5,
+    "risk": 20.0,
+    "data_confidence": 70.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:40 IST",
+    "close": 330.0,
+    "cap_class": "Small Cap"
+   },
+   {
+    "rank": 307,
     "symbol": "EMSLIMITED",
     "exchange": "NSE",
     "name": "EMS Limited",
@@ -4587,7 +4559,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 302,
+    "rank": 308,
     "symbol": "FABTECH",
     "exchange": "NSE",
     "name": "Fabtech Technologies Limited",
@@ -4601,7 +4573,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 304,
+    "rank": 311,
     "symbol": "AARON",
     "exchange": "NSE",
     "name": "Aaron Industries Limited",
@@ -4615,7 +4587,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 305,
+    "rank": 312,
     "symbol": "AGROPHOS",
     "exchange": "NSE",
     "name": "Agro Phos (India) Limited",
@@ -4629,7 +4601,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 306,
+    "rank": 313,
     "symbol": "ARE&M",
     "exchange": "NSE",
     "name": "Amara Raja Energy & Mobility Limited",
@@ -4643,7 +4615,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 307,
+    "rank": 314,
     "symbol": "BANDHANBNK",
     "exchange": "NSE",
     "name": "Bandhan Bank Limited",
@@ -4657,21 +4629,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 308,
-    "symbol": "CLEAN",
-    "exchange": "NSE",
-    "name": "Clean Science and Technology Limited",
-    "balanced": 41.2,
-    "risk": 0.0,
-    "data_confidence": 72.0,
-    "classification": "neutral",
-    "status": "complete",
-    "data_date": "2026-11-19 14:54 IST",
-    "close": 697.0,
-    "cap_class": "Small Cap"
-   },
-   {
-    "rank": 309,
+    "rank": 315,
     "symbol": "ADVAIT",
     "exchange": "NSE",
     "name": "Advait Energy Transitions Limited",
@@ -4685,7 +4643,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 311,
+    "rank": 317,
     "symbol": "CARTRADE",
     "exchange": "NSE",
     "name": "CarTrade Tech Limited",
@@ -4699,7 +4657,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 313,
+    "rank": 319,
     "symbol": "CEIGALL",
     "exchange": "NSE",
     "name": "Ceigall India Limited",
@@ -4713,7 +4671,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 314,
+    "rank": 321,
     "symbol": "CRAVATEX",
     "exchange": "NSE",
     "name": "Cravatex Limited",
@@ -4727,7 +4685,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 315,
+    "rank": 322,
     "symbol": "DEVIT",
     "exchange": "NSE",
     "name": "Dev Information Technology Limited",
@@ -4741,7 +4699,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 316,
+    "rank": 323,
     "symbol": "DEVX",
     "exchange": "NSE",
     "name": "Dev Accelerator Limited",
@@ -4755,7 +4713,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 318,
+    "rank": 326,
     "symbol": "APTECHT",
     "exchange": "NSE",
     "name": "Aptech Limited",
@@ -4769,7 +4727,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 319,
+    "rank": 327,
+    "symbol": "ARIHANTCAP",
+    "exchange": "BSE",
+    "name": "Arihant Capital Markets Limited",
+    "balanced": 40.8,
+    "risk": 40.0,
+    "data_confidence": 70.0,
+    "classification": "high_risk",
+    "status": "partial",
+    "data_date": "2026-11-20 02:40 IST",
+    "close": 93.01,
+    "cap_class": "Small Cap"
+   },
+   {
+    "rank": 328,
     "symbol": "ASAHIINDIA",
     "exchange": "NSE",
     "name": "Asahi India Glass Limited",
@@ -4783,7 +4755,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 322,
+    "rank": 331,
     "symbol": "AEGISVOPAK",
     "exchange": "NSE",
     "name": "Aegis Vopak Terminals Limited",
@@ -4797,7 +4769,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 323,
+    "rank": 332,
     "symbol": "AVL",
     "exchange": "NSE",
     "name": "Aditya Vision Limited",
@@ -4811,7 +4783,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 324,
+    "rank": 333,
     "symbol": "AWFIS",
     "exchange": "NSE",
     "name": "Awfis Space Solutions Limited",
@@ -4825,7 +4797,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 325,
+    "rank": 334,
     "symbol": "BLUECLOUDS",
     "exchange": "NSE",
     "name": "Blue Cloud Softech Solutions Limited",
@@ -4839,7 +4811,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 327,
+    "rank": 336,
+    "symbol": "CENTURYPLY",
+    "exchange": "NSE",
+    "name": "Century Plyboards (India) Limited",
+    "balanced": 40.5,
+    "risk": 0.0,
+    "data_confidence": 70.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:36 IST",
+    "close": 664.6,
+    "cap_class": "Small Cap"
+   },
+   {
+    "rank": 337,
     "symbol": "DELPHIFX",
     "exchange": "NSE",
     "name": "Delphi World Money Limited",
@@ -4853,7 +4839,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 328,
+    "rank": 338,
     "symbol": "EMUDHRA",
     "exchange": "NSE",
     "name": "eMudhra Limited",
@@ -4867,7 +4853,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 330,
+    "rank": 341,
     "symbol": "ABSLAMC",
     "exchange": "NSE",
     "name": "Aditya Birla Sun Life AMC Limited",
@@ -4881,7 +4867,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 331,
+    "rank": 342,
     "symbol": "AHCL",
     "exchange": "NSE",
     "name": "Anlon Healthcare Limited",
@@ -4895,7 +4881,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 334,
+    "rank": 345,
     "symbol": "AVG",
     "exchange": "NSE",
     "name": "AVG Logistics Limited",
@@ -4909,7 +4895,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 335,
+    "rank": 346,
     "symbol": "AWHCL",
     "exchange": "NSE",
     "name": "Antony Waste Handling Cell Limited",
@@ -4923,7 +4909,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 338,
+    "rank": 349,
     "symbol": "BCLIND",
     "exchange": "NSE",
     "name": "BCL Industries Limited",
@@ -4937,7 +4923,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 339,
+    "rank": 350,
+    "symbol": "CHEVIOT",
+    "exchange": "NSE",
+    "name": "Cheviot Company Limited",
+    "balanced": 40.0,
+    "risk": 0.0,
+    "data_confidence": 70.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:41 IST",
+    "close": 1106.0,
+    "cap_class": "Small Cap"
+   },
+   {
+    "rank": 351,
     "symbol": "CUB",
     "exchange": "NSE",
     "name": "City Union Bank Limited",
@@ -4951,7 +4951,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 340,
+    "rank": 352,
     "symbol": "DHUNINV",
     "exchange": "NSE",
     "name": "Dhunseri Investments Limited",
@@ -4965,7 +4965,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 341,
+    "rank": 353,
     "symbol": "FCSSOFT",
     "exchange": "NSE",
     "name": "FCS Software Solutions Limited",
@@ -4979,7 +4979,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 343,
+    "rank": 355,
     "symbol": "ADVANIHOTR",
     "exchange": "NSE",
     "name": "Advani Hotels & Resorts (India) Limited",
@@ -4993,7 +4993,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 344,
+    "rank": 356,
     "symbol": "AMANTA",
     "exchange": "NSE",
     "name": "Amanta Healthcare Limited",
@@ -5007,7 +5007,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 345,
+    "rank": 357,
     "symbol": "AMARJOTHI",
     "exchange": "NSE",
     "name": "Amarjothi Spinning Mills Limited",
@@ -5021,7 +5021,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 348,
+    "rank": 360,
     "symbol": "AIRAN",
     "exchange": "NSE",
     "name": "Airan Limited",
@@ -5035,7 +5035,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 349,
+    "rank": 361,
     "symbol": "AMJLAND",
     "exchange": "NSE",
     "name": "AMJ Land Holdings Limited",
@@ -5049,7 +5049,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 350,
+    "rank": 362,
     "symbol": "BLACKBUCK",
     "exchange": "NSE",
     "name": "BlackBuck Limited",
@@ -5063,7 +5063,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 352,
+    "rank": 364,
     "symbol": "BLUSPRING",
     "exchange": "NSE",
     "name": "Bluspring Enterprises Limited",
@@ -5077,7 +5077,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 355,
+    "rank": 365,
+    "symbol": "COCKERILL",
+    "exchange": "NSE",
+    "name": "John Cockerill India Limited",
+    "balanced": 39.5,
+    "risk": 10.0,
+    "data_confidence": 65.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:48 IST",
+    "close": 6808.1,
+    "cap_class": "Small Cap"
+   },
+   {
+    "rank": 368,
     "symbol": "DHRUV",
     "exchange": "NSE",
     "name": "Dhruv Consultancy Services Limited",
@@ -5091,7 +5105,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 356,
+    "rank": 370,
     "symbol": "AKUMS",
     "exchange": "NSE",
     "name": "Akums Drugs and Pharmaceuticals Limited",
@@ -5105,7 +5119,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 358,
+    "rank": 372,
     "symbol": "DCMSHRIRAM",
     "exchange": "NSE",
     "name": "DCM Shriram Limited",
@@ -5119,7 +5133,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 362,
+    "rank": 376,
     "symbol": "BSL",
     "exchange": "NSE",
     "name": "BSL Limited",
@@ -5133,7 +5147,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 363,
+    "rank": 377,
     "symbol": "DJML",
     "exchange": "NSE",
     "name": "DJ Mediaprint & Logistics Limited",
@@ -5147,7 +5161,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 364,
+    "rank": 378,
     "symbol": "DPWIRES",
     "exchange": "NSE",
     "name": "D.P. Wires Limited",
@@ -5161,7 +5175,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 365,
+    "rank": 379,
     "symbol": "DYNPRO",
     "exchange": "NSE",
     "name": "Dynemic Products Limited",
@@ -5175,7 +5189,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 366,
+    "rank": 380,
     "symbol": "ANUHPHR",
     "exchange": "NSE",
     "name": "Anuh Pharma Limited",
@@ -5189,7 +5203,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 367,
+    "rank": 381,
     "symbol": "BLUEDART",
     "exchange": "NSE",
     "name": "Blue Dart Express Limited",
@@ -5203,7 +5217,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 368,
+    "rank": 382,
     "symbol": "CYIENT",
     "exchange": "NSE",
     "name": "Cyient Limited",
@@ -5217,7 +5231,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 369,
+    "rank": 383,
     "symbol": "DUCON",
     "exchange": "NSE",
     "name": "Ducon Infratechnologies Limited",
@@ -5231,7 +5245,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 370,
+    "rank": 384,
     "symbol": "EMMBI",
     "exchange": "NSE",
     "name": "Emmbi Industries Limited",
@@ -5245,7 +5259,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 371,
+    "rank": 385,
     "symbol": "ATUL",
     "exchange": "NSE",
     "name": "Atul Ltd",
@@ -5259,7 +5273,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 372,
+    "rank": 386,
     "symbol": "DEEPAKFERT",
     "exchange": "NSE",
     "name": "Deepak Fertilisers And Petrochemicals Corporation Limited",
@@ -5273,7 +5287,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 375,
+    "rank": 389,
     "symbol": "AUTOIND",
     "exchange": "NSE",
     "name": "Autoline Industries Limited",
@@ -5287,7 +5301,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 377,
+    "rank": 391,
     "symbol": "CARERATING",
     "exchange": "NSE",
     "name": "CARE Ratings Limited",
@@ -5301,7 +5315,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 379,
+    "rank": 392,
     "symbol": "EXCELSOFT",
     "exchange": "NSE",
     "name": "Excelsoft Technologies Limited",
@@ -5315,7 +5329,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 381,
+    "rank": 395,
     "symbol": "ALANKIT",
     "exchange": "NSE",
     "name": "Alankit Limited",
@@ -5329,21 +5343,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 382,
-    "symbol": "ARIHANTCAP",
+    "rank": 397,
+    "symbol": "CLEAN",
     "exchange": "NSE",
-    "name": "Arihant Capital Markets Limited",
+    "name": "Clean Science and Technology Limited",
     "balanced": 38.2,
-    "risk": 40.0,
-    "data_confidence": 72.0,
-    "classification": "high_risk",
-    "status": "complete",
-    "data_date": "2026-11-19 09:31 IST",
-    "close": 93.01,
+    "risk": 0.0,
+    "data_confidence": 70.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:44 IST",
+    "close": 697.0,
     "cap_class": "Small Cap"
    },
    {
-    "rank": 384,
+    "rank": 398,
     "symbol": "CROMPTON",
     "exchange": "NSE",
     "name": "Crompton Greaves Consumer Electricals Limited",
@@ -5357,7 +5371,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 385,
+    "rank": 399,
     "symbol": "EXPLEOSOL",
     "exchange": "NSE",
     "name": "Expleo Solutions Limited",
@@ -5371,7 +5385,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 386,
+    "rank": 400,
     "symbol": "ADL",
     "exchange": "NSE",
     "name": "Archidply Decor Limited",
@@ -5385,7 +5399,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 387,
+    "rank": 401,
     "symbol": "AURIONPRO",
     "exchange": "NSE",
     "name": "Aurionpro Solutions Limited",
@@ -5399,7 +5413,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 388,
+    "rank": 402,
     "symbol": "AVADHSUGAR",
     "exchange": "NSE",
     "name": "Avadh Sugar & Energy Limited",
@@ -5413,7 +5427,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 389,
+    "rank": 403,
     "symbol": "AVALON",
     "exchange": "NSE",
     "name": "Avalon Technologies Limited",
@@ -5427,7 +5441,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 390,
+    "rank": 404,
     "symbol": "AVROIND",
     "exchange": "NSE",
     "name": "Avro India Limited",
@@ -5441,7 +5455,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 391,
+    "rank": 405,
     "symbol": "AWL",
     "exchange": "NSE",
     "name": "AWL Agri Business Limited",
@@ -5455,7 +5469,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 392,
+    "rank": 406,
     "symbol": "AXITA",
     "exchange": "NSE",
     "name": "Axita Cotton Limited",
@@ -5469,7 +5483,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 393,
+    "rank": 407,
     "symbol": "BENGALASM",
     "exchange": "NSE",
     "name": "Bengal & Assam Company Limited",
@@ -5483,7 +5497,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 394,
+    "rank": 408,
     "symbol": "BEPL",
     "exchange": "NSE",
     "name": "Bhansali Engineering Polymers Limited",
@@ -5497,7 +5511,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 395,
+    "rank": 409,
     "symbol": "BMWVENTLTD",
     "exchange": "NSE",
     "name": "BMW Ventures Limited",
@@ -5511,7 +5525,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 396,
+    "rank": 410,
     "symbol": "CANFINHOME",
     "exchange": "NSE",
     "name": "Can Fin Homes Limited",
@@ -5525,35 +5539,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 397,
-    "symbol": "CENTURYPLY",
-    "exchange": "NSE",
-    "name": "Century Plyboards (India) Limited",
-    "balanced": 38.0,
-    "risk": 0.0,
-    "data_confidence": 72.0,
-    "classification": "neutral",
-    "status": "complete",
-    "data_date": "2026-11-19 14:53 IST",
-    "close": 664.6,
-    "cap_class": "Small Cap"
-   },
-   {
-    "rank": 398,
-    "symbol": "CGCL",
-    "exchange": "NSE",
-    "name": "Capri Global Capital Limited",
-    "balanced": 38.0,
-    "risk": 40.0,
-    "data_confidence": 72.0,
-    "classification": "high_risk",
-    "status": "complete",
-    "data_date": "2026-11-19 14:53 IST",
-    "close": 239.65,
-    "cap_class": "Small Cap"
-   },
-   {
-    "rank": 399,
+    "rank": 411,
     "symbol": "CSLFINANCE",
     "exchange": "NSE",
     "name": "CSL Finance Limited",
@@ -5567,7 +5553,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 400,
+    "rank": 412,
     "symbol": "DBL",
     "exchange": "NSE",
     "name": "Dilip Buildcon Limited",
@@ -5581,7 +5567,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 401,
+    "rank": 413,
     "symbol": "DCM",
     "exchange": "NSE",
     "name": "DCM Limited",
@@ -5595,7 +5581,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 402,
+    "rank": 414,
     "symbol": "EIEL",
     "exchange": "NSE",
     "name": "Enviro Infra Engineers Limited",
@@ -5609,7 +5595,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 403,
+    "rank": 415,
     "symbol": "FEDDERSHOL",
     "exchange": "NSE",
     "name": "Fedders Holding Limited",
@@ -5623,7 +5609,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 405,
+    "rank": 417,
     "symbol": "ALLTIME",
     "exchange": "NSE",
     "name": "All Time Plastics Limited",
@@ -5637,7 +5623,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 406,
+    "rank": 418,
     "symbol": "EASEMYTRIP",
     "exchange": "NSE",
     "name": "Easy Trip Planners Limited",
@@ -5651,7 +5637,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 407,
+    "rank": 419,
     "symbol": "63MOONS",
     "exchange": "NSE",
     "name": "63 moons technologies limited",
@@ -5665,7 +5651,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 408,
+    "rank": 420,
     "symbol": "AAREYDRUGS",
     "exchange": "NSE",
     "name": "Aarey Drugs & Pharmaceuticals Limited",
@@ -5679,7 +5665,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 410,
+    "rank": 422,
     "symbol": "ABCIND",
     "exchange": "NSE",
     "name": "ABC Industries India Limited",
@@ -5693,7 +5679,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 412,
+    "rank": 424,
     "symbol": "ASIANTNE",
     "exchange": "NSE",
     "name": "Asian Tea & Exports Limited",
@@ -5707,7 +5693,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 413,
+    "rank": 425,
     "symbol": "ASTAR",
     "exchange": "NSE",
     "name": "Asian Star Company Limited",
@@ -5721,7 +5707,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 414,
+    "rank": 426,
     "symbol": "AYMSYNTEX",
     "exchange": "BSE",
     "name": "AYM Syntex Limited",
@@ -5735,21 +5721,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 415,
-    "symbol": "CENTRUM",
+    "rank": 427,
+    "symbol": "CHEMCRUX",
     "exchange": "NSE",
-    "name": "Centrum Capital Limited",
+    "name": "Chemcrux Enterprises Limited",
     "balanced": 37.5,
-    "risk": 40.0,
-    "data_confidence": 72.0,
-    "classification": "high_risk",
+    "risk": 10.0,
+    "data_confidence": 60.0,
+    "classification": "neutral",
     "status": "partial",
-    "data_date": "2026-11-19 14:53 IST",
-    "close": 20.08,
+    "data_date": "2026-11-20 02:40 IST",
+    "close": 79.0,
     "cap_class": "Small Cap"
    },
    {
-    "rank": 416,
+    "rank": 428,
     "symbol": "DEEDEV",
     "exchange": "NSE",
     "name": "DEE Development Engineers Limited",
@@ -5763,7 +5749,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 417,
+    "rank": 429,
     "symbol": "EMAMIPAP",
     "exchange": "NSE",
     "name": "Emami Paper Mills Limited",
@@ -5777,7 +5763,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 418,
+    "rank": 431,
     "symbol": "ARFIN",
     "exchange": "NSE",
     "name": "Arfin India Limited",
@@ -5791,7 +5777,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 419,
+    "rank": 432,
     "symbol": "BHARATRAS",
     "exchange": "NSE",
     "name": "Bharat Rasayan Limited",
@@ -5805,7 +5791,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 420,
+    "rank": 433,
     "symbol": "BHARATWIRE",
     "exchange": "NSE",
     "name": "Bharat Wire Ropes Limited",
@@ -5819,7 +5805,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 421,
+    "rank": 434,
+    "symbol": "CMSINFO",
+    "exchange": "NSE",
+    "name": "CMS Info Systems Limited",
+    "balanced": 37.2,
+    "risk": 0.0,
+    "data_confidence": 70.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:47 IST",
+    "close": 204.45,
+    "cap_class": "Small Cap"
+   },
+   {
+    "rank": 435,
     "symbol": "DANGEE",
     "exchange": "NSE",
     "name": "Dangee Dums Limited",
@@ -5833,7 +5833,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 422,
+    "rank": 436,
     "symbol": "DATAMATICS",
     "exchange": "NSE",
     "name": "Datamatics Global Services Limited",
@@ -5847,7 +5847,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 423,
+    "rank": 437,
     "symbol": "DDEVPLSTIK",
     "exchange": "NSE",
     "name": "Ddev Plastiks Industries Limited",
@@ -5861,7 +5861,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 425,
+    "rank": 439,
     "symbol": "ASMS",
     "exchange": "NSE",
     "name": "Avio Smart Market Stack Limited",
@@ -5875,7 +5875,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 427,
+    "rank": 441,
     "symbol": "AURUM",
     "exchange": "NSE",
     "name": "Aurum PropTech Limited",
@@ -5889,7 +5889,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 428,
+    "rank": 442,
     "symbol": "AVANTEL",
     "exchange": "NSE",
     "name": "Avantel Limited",
@@ -5903,7 +5903,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 430,
+    "rank": 444,
     "symbol": "BAJAJINDEF",
     "exchange": "NSE",
     "name": "Indef Manufacturing Limited",
@@ -5917,7 +5917,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 431,
+    "rank": 445,
     "symbol": "BALAJITELE",
     "exchange": "NSE",
     "name": "Balaji Telefilms Limited",
@@ -5931,7 +5931,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 432,
+    "rank": 446,
     "symbol": "BALAMINES",
     "exchange": "NSE",
     "name": "Balaji Amines Limited",
@@ -5945,7 +5945,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 433,
+    "rank": 447,
     "symbol": "BATLIBOI",
     "exchange": "NSE",
     "name": "Batliboi Limited",
@@ -5959,21 +5959,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 434,
+    "rank": 448,
     "symbol": "CMRGREEN",
     "exchange": "NSE",
     "name": "CMR Green Technologies Limited",
     "balanced": 37.0,
     "risk": 30.0,
-    "data_confidence": 67.0,
+    "data_confidence": 65.0,
     "classification": "high_risk",
     "status": "partial",
-    "data_date": "2026-11-19 14:54 IST",
+    "data_date": "2026-11-20 02:46 IST",
     "close": 208.7,
     "cap_class": "Small Cap"
    },
    {
-    "rank": 435,
+    "rank": 449,
     "symbol": "DBREALTY",
     "exchange": "NSE",
     "name": "Valor Estate Limited",
@@ -5987,7 +5987,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 436,
+    "rank": 450,
     "symbol": "EFCIL",
     "exchange": "NSE",
     "name": "EFC (I) Limited",
@@ -6001,7 +6001,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 437,
+    "rank": 452,
     "symbol": "EIFFL",
     "exchange": "NSE",
     "name": "Euro India Fresh Foods Limited",
@@ -6015,7 +6015,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 438,
+    "rank": 454,
     "symbol": "ACMESOLAR",
     "exchange": "NSE",
     "name": "ACME Solar Holdings Limited",
@@ -6029,7 +6029,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 439,
+    "rank": 455,
     "symbol": "ADVANCE",
     "exchange": "NSE",
     "name": "Advance Agrolife Limited",
@@ -6043,7 +6043,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 440,
+    "rank": 456,
     "symbol": "AEPL",
     "exchange": "NSE",
     "name": "Artemis Electricals and Projects Limited",
@@ -6057,7 +6057,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 441,
+    "rank": 457,
     "symbol": "AEROPLANE",
     "exchange": "NSE",
     "name": "Amir Chand Jagdish Kumar (Exports) Limited",
@@ -6071,7 +6071,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 442,
+    "rank": 458,
     "symbol": "ANURAS",
     "exchange": "NSE",
     "name": "Anupam Rasayan India Ltd",
@@ -6085,7 +6085,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 443,
+    "rank": 459,
     "symbol": "AQYLON",
     "exchange": "NSE",
     "name": "Aqylon Nexus Limited",
@@ -6099,7 +6099,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 444,
+    "rank": 460,
     "symbol": "ARSSBL",
     "exchange": "NSE",
     "name": "Anand Rathi Share and Stock Brokers Limited",
@@ -6113,7 +6113,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 445,
+    "rank": 461,
     "symbol": "AZAD",
     "exchange": "NSE",
     "name": "Azad Engineering Limited",
@@ -6127,7 +6127,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 446,
+    "rank": 462,
     "symbol": "BANSWRAS",
     "exchange": "NSE",
     "name": "Banswara Syntex Limited",
@@ -6141,7 +6141,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 447,
+    "rank": 463,
     "symbol": "BRIGHOTEL",
     "exchange": "NSE",
     "name": "Brigade Hotel Ventures Limited",
@@ -6155,7 +6155,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 448,
+    "rank": 464,
     "symbol": "BRIGHTBR",
     "exchange": "NSE",
     "name": "Bright Brothers Limited",
@@ -6169,7 +6169,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 449,
+    "rank": 466,
     "symbol": "EBIX",
     "exchange": "NSE",
     "name": "EBIX Limited",
@@ -6183,7 +6183,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 450,
+    "rank": 467,
     "symbol": "ENKEIWHEL",
     "exchange": "NSE",
     "name": "Enkei Wheels (India) Limited",
@@ -6197,7 +6197,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 452,
+    "rank": 470,
     "symbol": "BIMETAL",
     "exchange": "NSE",
     "name": "Bimetal Bearings Limited",
@@ -6211,7 +6211,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 453,
+    "rank": 471,
     "symbol": "CSBBANK",
     "exchange": "NSE",
     "name": "CSB Bank Limited",
@@ -6225,7 +6225,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 454,
+    "rank": 472,
     "symbol": "ELECTHERM",
     "exchange": "NSE",
     "name": "Electrotherm (India) Limited",
@@ -6239,7 +6239,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 455,
+    "rank": 474,
     "symbol": "ADFFOODS",
     "exchange": "NSE",
     "name": "ADF Foods Limited",
@@ -6253,7 +6253,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 456,
+    "rank": 475,
     "symbol": "ALPA",
     "exchange": "NSE",
     "name": "Alpa Laboratories Limited",
@@ -6267,7 +6267,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 457,
+    "rank": 476,
     "symbol": "AXISCADES",
     "exchange": "NSE",
     "name": "AXISCADES Technologies Limited",
@@ -6281,7 +6281,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 458,
+    "rank": 477,
     "symbol": "BNALTD",
     "exchange": "BSE",
     "name": "B & A Limited",
@@ -6295,7 +6295,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 459,
+    "rank": 478,
     "symbol": "BONLON",
     "exchange": "NSE",
     "name": "Bonlon Industries Limited",
@@ -6309,7 +6309,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 460,
+    "rank": 479,
     "symbol": "DTIL",
     "exchange": "NSE",
     "name": "Dhunseri Tea & Industries Limited",
@@ -6323,7 +6323,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 461,
+    "rank": 480,
     "symbol": "E2E",
     "exchange": "NSE",
     "name": "E2E Networks Limited",
@@ -6337,7 +6337,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 463,
+    "rank": 482,
     "symbol": "ANIKINDS",
     "exchange": "NSE",
     "name": "Anik Industries Limited",
@@ -6351,7 +6351,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 464,
+    "rank": 483,
     "symbol": "COSMOFIRST",
     "exchange": "NSE",
     "name": "Cosmo First Limited",
@@ -6365,7 +6365,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 465,
+    "rank": 484,
     "symbol": "ENIL",
     "exchange": "NSE",
     "name": "Entertainment Network (India) Limited",
@@ -6379,7 +6379,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 466,
+    "rank": 485,
     "symbol": "FCL",
     "exchange": "NSE",
     "name": "Fineotex Chemical Limited",
@@ -6393,7 +6393,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 469,
+    "rank": 488,
     "symbol": "BALAXI",
     "exchange": "NSE",
     "name": "Balaxi Pharmaceuticals Limited",
@@ -6407,7 +6407,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 470,
+    "rank": 489,
+    "symbol": "CGCL",
+    "exchange": "NSE",
+    "name": "Capri Global Capital Limited",
+    "balanced": 35.5,
+    "risk": 40.0,
+    "data_confidence": 70.0,
+    "classification": "high_risk",
+    "status": "partial",
+    "data_date": "2026-11-20 02:37 IST",
+    "close": 239.65,
+    "cap_class": "Small Cap"
+   },
+   {
+    "rank": 490,
     "symbol": "CONSOFINVT",
     "exchange": "NSE",
     "name": "Consolidated Finvest & Holdings Limited",
@@ -6421,7 +6435,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 471,
+    "rank": 491,
     "symbol": "DEEPAKNTR",
     "exchange": "NSE",
     "name": "Deepak Nitrite Limited",
@@ -6435,7 +6449,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 472,
+    "rank": 492,
     "symbol": "DREAMFOLKS",
     "exchange": "NSE",
     "name": "Dreamfolks Services Limited",
@@ -6449,7 +6463,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 473,
+    "rank": 494,
     "symbol": "AURUS",
     "exchange": "NSE",
     "name": "Aurus Gem Corporation Limited",
@@ -6463,7 +6477,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 474,
+    "rank": 495,
     "symbol": "CENTENKA",
     "exchange": "NSE",
     "name": "Century Enka Limited",
@@ -6477,7 +6491,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 475,
+    "rank": 496,
     "symbol": "ESTER",
     "exchange": "NSE",
     "name": "Ester Industries Limited",
@@ -6491,7 +6505,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 476,
+    "rank": 497,
     "symbol": "ATALREAL",
     "exchange": "NSE",
     "name": "Atal Realtech Limited",
@@ -6505,7 +6519,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 477,
+    "rank": 498,
     "symbol": "BALRAMCHIN",
     "exchange": "NSE",
     "name": "Balrampur Chini Mills Limited",
@@ -6519,7 +6533,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 478,
+    "rank": 499,
     "symbol": "BELLACASA",
     "exchange": "NSE",
     "name": "Bella Casa Fashion & Retail Limited",
@@ -6533,7 +6547,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 479,
+    "rank": 500,
     "symbol": "BIOFILCHEM",
     "exchange": "NSE",
     "name": "Biofil Chemicals and Pharmaceuticals Limited",
@@ -6547,7 +6561,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 480,
+    "rank": 501,
     "symbol": "BLBLIMITED",
     "exchange": "NSE",
     "name": "BLB Limited",
@@ -6561,7 +6575,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 481,
+    "rank": 502,
     "symbol": "BLUECOAST",
     "exchange": "NSE",
     "name": "Blue Coast Hotels Limited",
@@ -6575,7 +6589,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 482,
+    "rank": 503,
     "symbol": "BPLPHARMA",
     "exchange": "NSE",
     "name": "Bharat Parenterals Limited",
@@ -6589,7 +6603,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 483,
+    "rank": 504,
     "symbol": "CAPILLARY",
     "exchange": "NSE",
     "name": "Capillary Technologies India Limited",
@@ -6603,21 +6617,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 484,
+    "rank": 505,
     "symbol": "CHEMCON",
     "exchange": "NSE",
     "name": "Chemcon Speciality Chemicals Limited",
     "balanced": 35.0,
     "risk": 10.0,
-    "data_confidence": 72.0,
+    "data_confidence": 70.0,
     "classification": "neutral",
-    "status": "complete",
-    "data_date": "2026-11-19 14:53 IST",
+    "status": "partial",
+    "data_date": "2026-11-20 02:40 IST",
     "close": 188.9,
     "cap_class": "Small Cap"
    },
    {
-    "rank": 485,
+    "rank": 507,
     "symbol": "DHAMPURSUG",
     "exchange": "NSE",
     "name": "Dhampur Sugar Mills Limited",
@@ -6631,7 +6645,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 486,
+    "rank": 508,
     "symbol": "DHATRE",
     "exchange": "NSE",
     "name": "Dhatre Udyog Limited",
@@ -6645,7 +6659,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 487,
+    "rank": 509,
     "symbol": "DIVGIITTS",
     "exchange": "NSE",
     "name": "Divgi TorqTransfer Systems Limited",
@@ -6659,7 +6673,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 488,
+    "rank": 512,
     "symbol": "AARVI",
     "exchange": "NSE",
     "name": "Aarvi Encon Limited",
@@ -6673,21 +6687,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 489,
-    "symbol": "CESC",
-    "exchange": "NSE",
-    "name": "CESC Limited",
-    "balanced": 34.8,
-    "risk": 20.0,
-    "data_confidence": 72.0,
-    "classification": "high_risk",
-    "status": "complete",
-    "data_date": "2026-11-19 14:53 IST",
-    "close": 127.05,
-    "cap_class": "Small Cap"
-   },
-   {
-    "rank": 490,
+    "rank": 513,
     "symbol": "DENTA",
     "exchange": "NSE",
     "name": "Denta Water and Infra Solutions Limited",
@@ -6701,7 +6701,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 491,
+    "rank": 514,
     "symbol": "DIGISPICE",
     "exchange": "NSE",
     "name": "DiGiSPICE Technologies Limited",
@@ -6715,7 +6715,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 492,
+    "rank": 515,
     "symbol": "ELIN",
     "exchange": "NSE",
     "name": "Elin Electronics Limited",
@@ -6729,7 +6729,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 493,
+    "rank": 516,
     "symbol": "AFSL",
     "exchange": "NSE",
     "name": "Abans Financial Services Limited",
@@ -6743,7 +6743,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 494,
+    "rank": 517,
     "symbol": "AHLADA",
     "exchange": "NSE",
     "name": "Ahlada Engineers Limited",
@@ -6757,7 +6757,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 495,
+    "rank": 518,
     "symbol": "AKSHAR",
     "exchange": "NSE",
     "name": "Akshar Spintex Limited",
@@ -6771,7 +6771,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 496,
+    "rank": 519,
     "symbol": "BAJAJHCARE",
     "exchange": "NSE",
     "name": "Bajaj HealthCare Limited",
@@ -6785,7 +6785,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 497,
+    "rank": 520,
     "symbol": "BCG",
     "exchange": "NSE",
     "name": "Brightcom Group Limited",
@@ -6799,7 +6799,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 498,
+    "rank": 521,
     "symbol": "BESTAGRO",
     "exchange": "NSE",
     "name": "Best Agrolife Limited",
@@ -6813,7 +6813,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 499,
+    "rank": 522,
     "symbol": "BETA",
     "exchange": "NSE",
     "name": "Beta Drugs Limited",
@@ -6827,7 +6827,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 501,
+    "rank": 524,
     "symbol": "BYKE",
     "exchange": "NSE",
     "name": "The Byke Hospitality Limited",
@@ -6841,7 +6841,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 502,
+    "rank": 525,
     "symbol": "CAPITALSFB",
     "exchange": "NSE",
     "name": "Capital Small Finance Bank Limited",
@@ -6855,7 +6855,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 503,
+    "rank": 526,
     "symbol": "CCCL",
     "exchange": "NSE",
     "name": "Consolidated Construction Consortium Limited",
@@ -6869,7 +6869,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 504,
+    "rank": 527,
     "symbol": "COUNCODOS",
     "exchange": "NSE",
     "name": "Country Condo's Limited",
@@ -6883,7 +6883,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 505,
+    "rank": 528,
     "symbol": "CROWN",
     "exchange": "NSE",
     "name": "Crown Lifters Limited",
@@ -6897,7 +6897,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 506,
+    "rank": 529,
     "symbol": "EIDPARRY",
     "exchange": "NSE",
     "name": "E.I.D.- Parry (India) Limited",
@@ -6911,7 +6911,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 509,
+    "rank": 533,
     "symbol": "BEEKAY",
     "exchange": "NSE",
     "name": "Beekay Steel Industries Limited",
@@ -6925,7 +6925,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 510,
+    "rank": 534,
     "symbol": "CONCORDBIO",
     "exchange": "NSE",
     "name": "Concord Biotech Limited",
@@ -6939,7 +6939,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 513,
+    "rank": 537,
     "symbol": "ARVINDFASN",
     "exchange": "NSE",
     "name": "Arvind Fashions Limited",
@@ -6953,7 +6953,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 514,
+    "rank": 538,
     "symbol": "BAJAJST",
     "exchange": "BSE",
     "name": "Bajaj Steel Industries Limited",
@@ -6967,7 +6967,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 515,
+    "rank": 539,
     "symbol": "BANG",
     "exchange": "NSE",
     "name": "Bang Overseas Limited",
@@ -6981,7 +6981,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 516,
+    "rank": 540,
     "symbol": "BIRLAMONEY",
     "exchange": "NSE",
     "name": "Aditya Birla Money Limited",
@@ -6995,7 +6995,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 517,
+    "rank": 541,
     "symbol": "BONDADA",
     "exchange": "NSE",
     "name": "Bondada Engineering Limited",
@@ -7009,21 +7009,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 518,
-    "symbol": "CHEMFAB",
-    "exchange": "NSE",
-    "name": "Chemfab Alkalis Limited",
-    "balanced": 34.0,
-    "risk": 20.0,
-    "data_confidence": 72.0,
+    "rank": 543,
+    "symbol": "ABANSENT",
+    "exchange": "BSE",
+    "name": "ABans Enterprises Limited",
+    "balanced": 33.5,
+    "risk": 10.0,
+    "data_confidence": 70.0,
     "classification": "neutral",
     "status": "partial",
-    "data_date": "2026-11-19 14:54 IST",
-    "close": 330.0,
+    "data_date": "2026-11-20 02:46 IST",
+    "close": 26.84,
     "cap_class": "Small Cap"
    },
    {
-    "rank": 520,
+    "rank": 544,
     "symbol": "ABLBL",
     "exchange": "NSE",
     "name": "Aditya Birla Lifestyle Brands Limited",
@@ -7037,7 +7037,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 521,
+    "rank": 545,
     "symbol": "ABREL",
     "exchange": "NSE",
     "name": "Aditya Birla Real Estate Limited",
@@ -7051,7 +7051,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 522,
+    "rank": 546,
     "symbol": "AJOONI",
     "exchange": "NSE",
     "name": "Ajooni Biotech Limited",
@@ -7065,7 +7065,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 523,
+    "rank": 547,
     "symbol": "ASHOKAMET",
     "exchange": "NSE",
     "name": "Ashoka Metcast Limited",
@@ -7079,7 +7079,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 524,
+    "rank": 548,
     "symbol": "BAJEL",
     "exchange": "NSE",
     "name": "Bajel Projects Limited",
@@ -7093,7 +7093,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 525,
+    "rank": 549,
     "symbol": "BCPL",
     "exchange": "NSE",
     "name": "BCPL Railway Infrastructure Limited",
@@ -7107,7 +7107,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 526,
+    "rank": 550,
     "symbol": "BTML",
     "exchange": "NSE",
     "name": "Bodhi Tree Multimedia Limited",
@@ -7121,21 +7121,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 527,
+    "rank": 551,
     "symbol": "COMPEAU",
     "exchange": "NSE",
     "name": "Competent Automobiles Company Limited",
     "balanced": 33.5,
     "risk": 30.0,
-    "data_confidence": 62.0,
+    "data_confidence": 60.0,
     "classification": "high_risk,attractive_valuation",
-    "status": "complete",
-    "data_date": "2026-11-19 14:55 IST",
+    "status": "partial",
+    "data_date": "2026-11-20 02:50 IST",
     "close": 362.75,
     "cap_class": "Small Cap"
    },
    {
-    "rank": 528,
+    "rank": 552,
     "symbol": "COMPUSOFT",
     "exchange": "NSE",
     "name": "Compucom Software Limited",
@@ -7149,7 +7149,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 529,
+    "rank": 553,
     "symbol": "DEN",
     "exchange": "NSE",
     "name": "DEN Networks Limited",
@@ -7163,7 +7163,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 531,
+    "rank": 556,
     "symbol": "APEX",
     "exchange": "NSE",
     "name": "Apex Frozen Foods Limited",
@@ -7177,7 +7177,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 533,
+    "rank": 559,
     "symbol": "ALBERTDAVD",
     "exchange": "NSE",
     "name": "Albert David Limited",
@@ -7191,7 +7191,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 534,
+    "rank": 560,
     "symbol": "AMAGI",
     "exchange": "NSE",
     "name": "Amagi Media Labs Limited",
@@ -7205,7 +7205,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 535,
+    "rank": 561,
     "symbol": "ARCL",
     "exchange": "NSE",
     "name": "ARCL Organics Ltd.",
@@ -7219,7 +7219,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 536,
+    "rank": 562,
     "symbol": "ASIANENE",
     "exchange": "NSE",
     "name": "Asian Energy Services Limited",
@@ -7233,21 +7233,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 537,
+    "rank": 563,
     "symbol": "CENTEXT",
     "exchange": "NSE",
     "name": "Century Extrusions Limited",
     "balanced": 33.0,
     "risk": 20.0,
-    "data_confidence": 72.0,
+    "data_confidence": 70.0,
     "classification": "neutral",
     "status": "partial",
-    "data_date": "2026-11-19 14:53 IST",
+    "data_date": "2026-11-20 02:35 IST",
     "close": 16.8,
     "cap_class": "Small Cap"
    },
    {
-    "rank": 538,
+    "rank": 564,
     "symbol": "EMBDL",
     "exchange": "NSE",
     "name": "Embassy Developments Limited",
@@ -7261,7 +7261,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 540,
+    "rank": 566,
     "symbol": "DCAL",
     "exchange": "NSE",
     "name": "Dishman Carbogen Amcis Limited",
@@ -7275,7 +7275,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 541,
+    "rank": 567,
     "symbol": "EPACK",
     "exchange": "NSE",
     "name": "EPACK Durable Limited",
@@ -7289,7 +7289,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 542,
+    "rank": 568,
     "symbol": "ANANTRAJ",
     "exchange": "NSE",
     "name": "Anant Raj Limited",
@@ -7303,7 +7303,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 543,
+    "rank": 569,
     "symbol": "ANDHRAPAP",
     "exchange": "NSE",
     "name": "Andhra Paper Limited",
@@ -7317,7 +7317,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 545,
+    "rank": 570,
     "symbol": "DMCC",
     "exchange": "NSE",
     "name": "DMCC Speciality Chemicals Limited",
@@ -7331,7 +7331,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 547,
+    "rank": 572,
     "symbol": "EVONILE",
     "exchange": "NSE",
     "name": "Evonile Pharma Limited",
@@ -7345,7 +7345,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 549,
+    "rank": 574,
     "symbol": "AEQUS",
     "exchange": "NSE",
     "name": "Aequs Limited",
@@ -7359,7 +7359,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 550,
+    "rank": 575,
     "symbol": "ANTGRAPHIC",
     "exchange": "NSE",
     "name": "Antarctica Limited",
@@ -7373,7 +7373,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 551,
+    "rank": 576,
     "symbol": "ARKADE",
     "exchange": "NSE",
     "name": "Arkade Developers Limited",
@@ -7387,7 +7387,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 552,
+    "rank": 577,
     "symbol": "BASF",
     "exchange": "NSE",
     "name": "BASF India Limited",
@@ -7401,21 +7401,35 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 554,
+    "rank": 579,
+    "symbol": "CENTRUM",
+    "exchange": "NSE",
+    "name": "Centrum Capital Limited",
+    "balanced": 32.0,
+    "risk": 40.0,
+    "data_confidence": 70.0,
+    "classification": "high_risk",
+    "status": "partial",
+    "data_date": "2026-11-20 02:35 IST",
+    "close": 20.08,
+    "cap_class": "Small Cap"
+   },
+   {
+    "rank": 580,
     "symbol": "CHEMPLASTS",
     "exchange": "NSE",
     "name": "Chemplast Sanmar Limited",
     "balanced": 32.0,
     "risk": 40.0,
-    "data_confidence": 72.0,
+    "data_confidence": 70.0,
     "classification": "high_risk",
     "status": "partial",
-    "data_date": "2026-11-19 14:54 IST",
+    "data_date": "2026-11-20 02:41 IST",
     "close": 249.9,
     "cap_class": "Small Cap"
    },
    {
-    "rank": 555,
+    "rank": 581,
     "symbol": "DCXINDIA",
     "exchange": "NSE",
     "name": "DCX Systems Limited",
@@ -7429,7 +7443,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 556,
+    "rank": 582,
     "symbol": "DECCANCE",
     "exchange": "NSE",
     "name": "Deccan Cements Limited",
@@ -7443,7 +7457,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 557,
+    "rank": 583,
     "symbol": "ELANTAS",
     "exchange": "NSE",
     "name": "ELANTAS Beck India Limited",
@@ -7457,7 +7471,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 558,
+    "rank": 584,
     "symbol": "EUROBOND",
     "exchange": "NSE",
     "name": "Euro Panel Products Limited",
@@ -7471,7 +7485,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 559,
+    "rank": 586,
     "symbol": "AMBER",
     "exchange": "NSE",
     "name": "Amber Enterprises India Limited",
@@ -7485,7 +7499,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 560,
+    "rank": 587,
     "symbol": "ASSAMENT",
     "exchange": "NSE",
     "name": "Assam Entrade Limited",
@@ -7499,7 +7513,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 561,
+    "rank": 588,
     "symbol": "ENERGYDEV",
     "exchange": "NSE",
     "name": "Energy Development Company Limited",
@@ -7513,7 +7527,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 563,
+    "rank": 589,
+    "symbol": "CESC",
+    "exchange": "NSE",
+    "name": "CESC Limited",
+    "balanced": 31.7,
+    "risk": 20.0,
+    "data_confidence": 70.0,
+    "classification": "high_risk",
+    "status": "partial",
+    "data_date": "2026-11-20 02:37 IST",
+    "close": 127.05,
+    "cap_class": "Small Cap"
+   },
+   {
+    "rank": 591,
     "symbol": "AKG",
     "exchange": "NSE",
     "name": "AKG Exim Limited",
@@ -7527,7 +7555,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 565,
+    "rank": 593,
     "symbol": "BRNL",
     "exchange": "NSE",
     "name": "Bharat Road Network Limited",
@@ -7541,7 +7569,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 566,
+    "rank": 594,
     "symbol": "CRISIL",
     "exchange": "NSE",
     "name": "CRISIL Limited",
@@ -7555,7 +7583,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 567,
+    "rank": 595,
     "symbol": "DBEIL",
     "exchange": "NSE",
     "name": "Deepak Builders & Engineers India Limited",
@@ -7569,7 +7597,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 570,
+    "rank": 598,
     "symbol": "AMBICAAGAR",
     "exchange": "NSE",
     "name": "Ambica Agarbathies Aroma & Industries Limited",
@@ -7583,7 +7611,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 571,
+    "rank": 599,
     "symbol": "BATAINDIA",
     "exchange": "NSE",
     "name": "Bata India Limited",
@@ -7597,7 +7625,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 572,
+    "rank": 600,
     "symbol": "3PLAND",
     "exchange": "NSE",
     "name": "3P Land Holdings Limited",
@@ -7611,7 +7639,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 573,
+    "rank": 601,
     "symbol": "ABMKNO",
     "exchange": "NSE",
     "name": "ABM Knowledgeware Limited",
@@ -7625,7 +7653,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 574,
+    "rank": 602,
     "symbol": "ADSL",
     "exchange": "NSE",
     "name": "Allied Digital Services Limited",
@@ -7639,7 +7667,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 575,
+    "rank": 603,
     "symbol": "AROGRANITE",
     "exchange": "NSE",
     "name": "Aro Granite Industries Limited",
@@ -7653,7 +7681,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 576,
+    "rank": 604,
     "symbol": "ARTEMISMED",
     "exchange": "NSE",
     "name": "Artemis Medicare Services Limited",
@@ -7667,7 +7695,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 577,
+    "rank": 605,
+    "symbol": "BAIDFIN",
+    "exchange": "BSE",
+    "name": "Baid Finserv Limited",
+    "balanced": 31.0,
+    "risk": 50.0,
+    "data_confidence": 70.0,
+    "classification": "high_risk",
+    "status": "partial",
+    "data_date": "2026-11-20 02:42 IST",
+    "close": 9.93,
+    "cap_class": "Small Cap"
+   },
+   {
+    "rank": 606,
     "symbol": "BIGBLOC",
     "exchange": "NSE",
     "name": "Bigbloc Construction Limited",
@@ -7681,7 +7723,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 578,
+    "rank": 607,
     "symbol": "BIL",
     "exchange": "NSE",
     "name": "Bhartiya International Ltd.",
@@ -7695,7 +7737,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 579,
+    "rank": 609,
     "symbol": "CREDITACC",
     "exchange": "NSE",
     "name": "CreditAccess Grameen Limited",
@@ -7709,7 +7751,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 580,
+    "rank": 610,
     "symbol": "EBGNG",
     "exchange": "NSE",
     "name": "GNG Electronics Limited",
@@ -7723,7 +7765,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 581,
+    "rank": 611,
     "symbol": "ELECTCAST",
     "exchange": "NSE",
     "name": "Electrosteel Castings Limited",
@@ -7737,7 +7779,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 583,
+    "rank": 613,
     "symbol": "AKCAPIT",
     "exchange": "NSE",
     "name": "A. K. Capital Services Limited",
@@ -7751,7 +7793,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 584,
+    "rank": 614,
     "symbol": "CCHHL",
     "exchange": "NSE",
     "name": "Country Club Hospitality & Holidays Limited",
@@ -7765,21 +7807,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 585,
-    "symbol": "CMSINFO",
-    "exchange": "NSE",
-    "name": "CMS Info Systems Limited",
-    "balanced": 30.8,
-    "risk": 0.0,
-    "data_confidence": 72.0,
-    "classification": "neutral",
-    "status": "partial",
-    "data_date": "2026-11-19 14:54 IST",
-    "close": 204.45,
-    "cap_class": "Small Cap"
-   },
-   {
-    "rank": 588,
+    "rank": 617,
     "symbol": "AAVAS",
     "exchange": "NSE",
     "name": "Aavas Financiers Limited",
@@ -7793,21 +7821,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 589,
+    "rank": 618,
     "symbol": "CLEDUCATE",
     "exchange": "NSE",
     "name": "CL Educate Limited",
     "balanced": 30.5,
     "risk": 40.0,
-    "data_confidence": 72.0,
+    "data_confidence": 70.0,
     "classification": "high_risk,attractive_valuation",
-    "status": "complete",
-    "data_date": "2026-11-19 14:54 IST",
+    "status": "partial",
+    "data_date": "2026-11-20 02:45 IST",
     "close": 51.25,
     "cap_class": "Small Cap"
    },
    {
-    "rank": 591,
+    "rank": 620,
     "symbol": "BANARISUG",
     "exchange": "NSE",
     "name": "Bannari Amman Sugars Limited",
@@ -7821,7 +7849,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 592,
+    "rank": 621,
     "symbol": "AAATECH",
     "exchange": "NSE",
     "name": "AAA Technologies Limited",
@@ -7835,7 +7863,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 593,
+    "rank": 622,
     "symbol": "ADVENTHTL",
     "exchange": "NSE",
     "name": "Advent Hotels International Limited",
@@ -7849,21 +7877,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 594,
-    "symbol": "BAIDFIN",
-    "exchange": "NSE",
-    "name": "Baid Finserv Limited",
-    "balanced": 30.0,
-    "risk": 40.0,
-    "data_confidence": 72.0,
-    "classification": "high_risk",
-    "status": "complete",
-    "data_date": "2026-11-19 14:09 IST",
-    "close": 9.93,
-    "cap_class": "Small Cap"
-   },
-   {
-    "rank": 595,
+    "rank": 623,
     "symbol": "BTTL",
     "exchange": "NSE",
     "name": "Bhilwara Technical Textiles Limited",
@@ -7877,7 +7891,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 596,
+    "rank": 624,
     "symbol": "DIGIDRIVE",
     "exchange": "NSE",
     "name": "Digidrive Distributors Limited",
@@ -7891,7 +7905,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 597,
+    "rank": 625,
     "symbol": "DSFCL",
     "exchange": "NSE",
     "name": "DCM Shriram Fine Chemicals Limited",
@@ -7905,7 +7919,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 598,
+    "rank": 626,
     "symbol": "EASTWEST",
     "exchange": "NSE",
     "name": "East West Freight Carriers Limited",
@@ -7919,7 +7933,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 599,
+    "rank": 627,
     "symbol": "AIROLAM",
     "exchange": "NSE",
     "name": "Airo Lam Limited",
@@ -7933,7 +7947,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 601,
+    "rank": 629,
     "symbol": "5PAISA",
     "exchange": "NSE",
     "name": "5paisa Capital Limited",
@@ -7947,7 +7961,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 602,
+    "rank": 630,
     "symbol": "AARTIIND",
     "exchange": "NSE",
     "name": "Aarti Industries Limited",
@@ -7961,7 +7975,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 603,
+    "rank": 631,
     "symbol": "ACCURACY",
     "exchange": "NSE",
     "name": "Accuracy Shipping Limited",
@@ -7975,21 +7989,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 604,
+    "rank": 632,
     "symbol": "AVANCE",
-    "exchange": "NSE",
+    "exchange": "BSE",
     "name": "Avance Technologies Limited",
     "balanced": 29.5,
     "risk": 40.0,
-    "data_confidence": 62.0,
+    "data_confidence": 70.0,
     "classification": "high_risk",
     "status": "partial",
-    "data_date": "2026-11-19 14:08 IST",
+    "data_date": "2026-11-20 02:45 IST",
     "close": 0.69,
     "cap_class": "Small Cap"
    },
    {
-    "rank": 605,
+    "rank": 633,
     "symbol": "BAGFILMS",
     "exchange": "NSE",
     "name": "B.A.G. Films and Media Limited",
@@ -8003,21 +8017,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 606,
+    "rank": 634,
     "symbol": "CLEANMAX",
     "exchange": "NSE",
     "name": "Clean Max Enviro Energy Solutions Limited",
     "balanced": 29.5,
     "risk": 65.0,
-    "data_confidence": 67.0,
+    "data_confidence": 65.0,
     "classification": "high_risk",
     "status": "partial",
-    "data_date": "2026-11-19 14:54 IST",
+    "data_date": "2026-11-20 02:45 IST",
     "close": 1263.95,
     "cap_class": "Small Cap"
    },
    {
-    "rank": 608,
+    "rank": 635,
     "symbol": "DEVYANI",
     "exchange": "NSE",
     "name": "Devyani International Limited",
@@ -8031,7 +8045,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 609,
+    "rank": 636,
     "symbol": "DISHTV",
     "exchange": "NSE",
     "name": "Dish TV India Limited",
@@ -8045,7 +8059,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 610,
+    "rank": 637,
     "symbol": "EMPOWER",
     "exchange": "NSE",
     "name": "Empower India Limited",
@@ -8059,7 +8073,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 611,
+    "rank": 638,
+    "symbol": "COFFEEDAY",
+    "exchange": "NSE",
+    "name": "Coffee Day Enterprises Limited",
+    "balanced": 29.2,
+    "risk": 10.0,
+    "data_confidence": 70.0,
+    "classification": "attractive_valuation",
+    "status": "partial",
+    "data_date": "2026-11-20 02:49 IST",
+    "close": 28.98,
+    "cap_class": "Small Cap"
+   },
+   {
+    "rank": 639,
     "symbol": "APTUS",
     "exchange": "NSE",
     "name": "Aptus Value Housing Finance India Limited",
@@ -8073,7 +8101,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 612,
+    "rank": 640,
     "symbol": "ASIANHOTNR",
     "exchange": "NSE",
     "name": "Asian Hotels (North) Limited",
@@ -8087,7 +8115,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 613,
+    "rank": 641,
     "symbol": "BAJAJELEC",
     "exchange": "NSE",
     "name": "Bajaj Electricals Limited",
@@ -8101,7 +8129,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 614,
+    "rank": 642,
     "symbol": "BIRLACABLE",
     "exchange": "NSE",
     "name": "Birla Cable Limited",
@@ -8115,7 +8143,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 615,
+    "rank": 643,
     "symbol": "BOMDYEING",
     "exchange": "NSE",
     "name": "The Bombay Dyeing and Manufacturing Company Limited",
@@ -8129,7 +8157,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 616,
+    "rank": 644,
     "symbol": "CREST",
     "exchange": "NSE",
     "name": "Crest Ventures Limited",
@@ -8143,7 +8171,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 617,
+    "rank": 646,
     "symbol": "ANSALBU",
     "exchange": "NSE",
     "name": "Ansal Buildwell Limited",
@@ -8157,7 +8185,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 619,
+    "rank": 648,
     "symbol": "CRESTO",
     "exchange": "NSE",
     "name": "Cresto Techno Limited",
@@ -8171,21 +8199,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 621,
-    "symbol": "ABANSENT",
-    "exchange": "NSE",
-    "name": "ABans Enterprises Limited",
-    "balanced": 28.5,
-    "risk": 10.0,
-    "data_confidence": 62.0,
-    "classification": "neutral",
-    "status": "partial",
-    "data_date": "2026-11-19 09:37 IST",
-    "close": 26.84,
-    "cap_class": "Small Cap"
-   },
-   {
-    "rank": 622,
+    "rank": 650,
     "symbol": "ACI",
     "exchange": "NSE",
     "name": "Archean Chemical Industries Limited",
@@ -8199,7 +8213,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 623,
+    "rank": 651,
     "symbol": "ALLCARGO",
     "exchange": "NSE",
     "name": "Allcargo Logistics Limited",
@@ -8213,7 +8227,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 624,
+    "rank": 652,
     "symbol": "ALOKINDS",
     "exchange": "NSE",
     "name": "Alok Industries Limited",
@@ -8227,7 +8241,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 626,
+    "rank": 654,
     "symbol": "AYE",
     "exchange": "NSE",
     "name": "Aye Finance Limited",
@@ -8241,7 +8255,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 627,
+    "rank": 655,
     "symbol": "BRIGADE",
     "exchange": "NSE",
     "name": "Brigade Enterprises Limited",
@@ -8255,7 +8269,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 628,
+    "rank": 656,
     "symbol": "DENORA",
     "exchange": "NSE",
     "name": "De Nora India Limited",
@@ -8269,7 +8283,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 629,
+    "rank": 657,
     "symbol": "ESSARSHPNG",
     "exchange": "NSE",
     "name": "Essar Shipping Limited",
@@ -8283,7 +8297,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 630,
+    "rank": 658,
     "symbol": "DECNGOLD",
     "exchange": "NSE",
     "name": "Deccan Gold Mines Limited",
@@ -8297,7 +8311,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 631,
+    "rank": 659,
     "symbol": "3IINFOLTD",
     "exchange": "NSE",
     "name": "3i Infotech Limited",
@@ -8311,7 +8325,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 632,
+    "rank": 660,
     "symbol": "ARCHIDPLY",
     "exchange": "NSE",
     "name": "Archidply Industries Limited",
@@ -8325,7 +8339,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 633,
+    "rank": 661,
     "symbol": "DREDGECORP",
     "exchange": "NSE",
     "name": "Dredging Corporation of India Limited",
@@ -8339,7 +8353,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 634,
+    "rank": 662,
     "symbol": "EMIL",
     "exchange": "NSE",
     "name": "Electronics Mart India Limited",
@@ -8353,7 +8367,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 635,
+    "rank": 664,
     "symbol": "ANDHRSUGAR",
     "exchange": "NSE",
     "name": "The Andhra Sugars Limited",
@@ -8367,7 +8381,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 636,
+    "rank": 665,
     "symbol": "AUSOMENT",
     "exchange": "BSE",
     "name": "AuSom Enterprise Limited",
@@ -8381,7 +8395,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 638,
+    "rank": 667,
     "symbol": "BAJAJHIND",
     "exchange": "NSE",
     "name": "Bajaj Hindusthan Sugar Limited",
@@ -8395,7 +8409,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 639,
+    "rank": 668,
+    "symbol": "COASTCORP",
+    "exchange": "NSE",
+    "name": "Coastal Corporation Limited",
+    "balanced": 27.5,
+    "risk": 60.0,
+    "data_confidence": 70.0,
+    "classification": "high_risk",
+    "status": "partial",
+    "data_date": "2026-11-20 02:48 IST",
+    "close": 33.52,
+    "cap_class": "Small Cap"
+   },
+   {
+    "rank": 669,
     "symbol": "EKI",
     "exchange": "NSE",
     "name": "EKI Energy Services Limited",
@@ -8409,7 +8437,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 640,
+    "rank": 670,
     "symbol": "EVERESTIND",
     "exchange": "NSE",
     "name": "Everest Industries Limited",
@@ -8423,7 +8451,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 642,
+    "rank": 672,
     "symbol": "CARBORUNIV",
     "exchange": "NSE",
     "name": "Carborundum Universal Limited",
@@ -8437,7 +8465,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 644,
+    "rank": 674,
     "symbol": "ADDIND",
     "exchange": "BSE",
     "name": "Addi Industries Limited",
@@ -8451,7 +8479,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 645,
+    "rank": 675,
     "symbol": "APOORVA",
     "exchange": "NSE",
     "name": "Apoorva Leasing Finance and Investment Company Limited",
@@ -8465,7 +8493,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 646,
+    "rank": 676,
     "symbol": "ATLASCYCLE",
     "exchange": "NSE",
     "name": "Atlas Cycles (Haryana) Limited",
@@ -8479,7 +8507,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 647,
+    "rank": 677,
     "symbol": "BLUESTONE",
     "exchange": "NSE",
     "name": "BlueStone Jewellery and Lifestyle Limited",
@@ -8493,7 +8521,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 648,
+    "rank": 678,
     "symbol": "CELEBRITY",
     "exchange": "NSE",
     "name": "Celebrity Fashions Limited",
@@ -8507,7 +8535,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 649,
+    "rank": 679,
     "symbol": "BHANDARI",
     "exchange": "NSE",
     "name": "Bhandari Hosiery Exports Limited",
@@ -8521,7 +8549,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 650,
+    "rank": 680,
     "symbol": "DIAMONDYD",
     "exchange": "NSE",
     "name": "Prataap Snacks Limited",
@@ -8535,7 +8563,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 651,
+    "rank": 682,
     "symbol": "ALKYLAMINE",
     "exchange": "BSE",
     "name": "Alkyl Amines Chemicals Limited",
@@ -8549,7 +8577,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 652,
+    "rank": 683,
     "symbol": "ARCHIES",
     "exchange": "NSE",
     "name": "Archies Limited",
@@ -8563,7 +8591,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 653,
+    "rank": 684,
     "symbol": "BALKRISHNA",
     "exchange": "NSE",
     "name": "Balkrishna Paper Mills Limited",
@@ -8577,7 +8605,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 654,
+    "rank": 685,
     "symbol": "EXXARO",
     "exchange": "NSE",
     "name": "Exxaro Tiles Limited",
@@ -8591,7 +8619,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 656,
+    "rank": 687,
     "symbol": "BIRLANU",
     "exchange": "BSE",
     "name": "BirlaNu Limited",
@@ -8605,21 +8633,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 657,
-    "symbol": "COFFEEDAY",
-    "exchange": "NSE",
-    "name": "Coffee Day Enterprises Limited",
-    "balanced": 26.2,
-    "risk": 10.0,
-    "data_confidence": 72.0,
-    "classification": "attractive_valuation",
-    "status": "complete",
-    "data_date": "2026-11-19 14:55 IST",
-    "close": 28.98,
-    "cap_class": "Small Cap"
-   },
-   {
-    "rank": 658,
+    "rank": 688,
     "symbol": "AHLEAST",
     "exchange": "NSE",
     "name": "Asian Hotels (East) Limited",
@@ -8633,7 +8647,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 660,
+    "rank": 692,
     "symbol": "BHAGCHEM",
     "exchange": "NSE",
     "name": "Bhagiradha Chemicals & Industries Limited",
@@ -8647,7 +8661,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 661,
+    "rank": 693,
     "symbol": "ANDREWYU",
     "exchange": "NSE",
     "name": "Andrew Yule & Company Limited",
@@ -8661,7 +8675,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 662,
+    "rank": 694,
     "symbol": "ASHIMASYN",
     "exchange": "NSE",
     "name": "Ashima Limited",
@@ -8675,7 +8689,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 663,
+    "rank": 695,
     "symbol": "ATAM",
     "exchange": "NSE",
     "name": "Atam Valves Limited",
@@ -8689,7 +8703,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 665,
+    "rank": 697,
     "symbol": "BRIGHTOUTD",
     "exchange": "NSE",
     "name": "Bright Outdoor Media Limited",
@@ -8703,7 +8717,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 666,
+    "rank": 698,
     "symbol": "DAVANGERE",
     "exchange": "NSE",
     "name": "Davangere Sugar Company Limited",
@@ -8717,7 +8731,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 667,
+    "rank": 699,
     "symbol": "ESSENTIA",
     "exchange": "NSE",
     "name": "Integra Essentia Limited",
@@ -8731,7 +8745,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 669,
+    "rank": 701,
     "symbol": "APCL",
     "exchange": "NSE",
     "name": "Anjani Portland Cement Limited",
@@ -8745,21 +8759,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 670,
+    "rank": 702,
     "symbol": "CHOICEIN",
     "exchange": "NSE",
     "name": "Choice International Limited",
     "balanced": 25.0,
-    "risk": 40.0,
-    "data_confidence": 72.0,
+    "risk": 50.0,
+    "data_confidence": 70.0,
     "classification": "high_risk",
-    "status": "complete",
-    "data_date": "2026-11-19 14:54 IST",
+    "status": "partial",
+    "data_date": "2026-11-20 02:42 IST",
     "close": 720.15,
     "cap_class": "Small Cap"
    },
    {
-    "rank": 673,
+    "rank": 705,
     "symbol": "ASIANTILES",
     "exchange": "NSE",
     "name": "Asian Granito India Limited",
@@ -8773,7 +8787,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 674,
+    "rank": 706,
     "symbol": "DCMFINSERV",
     "exchange": "NSE",
     "name": "DCM Financial Services Limited",
@@ -8787,7 +8801,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 675,
+    "rank": 707,
     "symbol": "DGCONTENT",
     "exchange": "NSE",
     "name": "Digicontent Limited",
@@ -8801,7 +8815,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 676,
+    "rank": 708,
     "symbol": "DIGITIDE",
     "exchange": "NSE",
     "name": "Digitide Solutions Limited",
@@ -8815,7 +8829,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 677,
+    "rank": 709,
     "symbol": "EMAMIREAL",
     "exchange": "NSE",
     "name": "Emami Realty Limited",
@@ -8829,7 +8843,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 678,
+    "rank": 711,
     "symbol": "BHARATCOAL",
     "exchange": "NSE",
     "name": "Bharat Coking Coal Limited",
@@ -8843,7 +8857,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 679,
+    "rank": 712,
     "symbol": "AADHARHFC",
     "exchange": "NSE",
     "name": "Aadhar Housing Finance Limited",
@@ -8857,7 +8871,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 680,
+    "rank": 713,
     "symbol": "AFCONS",
     "exchange": "NSE",
     "name": "Afcons Infrastructure Limited",
@@ -8871,7 +8885,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 681,
+    "rank": 714,
     "symbol": "AKASH",
     "exchange": "NSE",
     "name": "Akash Infra-Projects Limited",
@@ -8885,7 +8899,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 682,
+    "rank": 715,
     "symbol": "ARMANFIN",
     "exchange": "NSE",
     "name": "Arman Financial Services Limited",
@@ -8899,7 +8913,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 684,
+    "rank": 717,
     "symbol": "ACL",
     "exchange": "NSE",
     "name": "Andhra Cements Limited",
@@ -8913,7 +8927,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 685,
+    "rank": 718,
     "symbol": "ADVIKCA",
     "exchange": "NSE",
     "name": "Advik Capital Limited",
@@ -8927,7 +8941,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 687,
+    "rank": 720,
     "symbol": "APOLSINHOT",
     "exchange": "NSE",
     "name": "Apollo Sindoori Hotels Limited",
@@ -8941,35 +8955,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 688,
+    "rank": 721,
     "symbol": "AVONMORE",
-    "exchange": "NSE",
+    "exchange": "BSE",
     "name": "Avonmore Capital & Management Services Limited",
     "balanced": 23.5,
     "risk": 10.0,
-    "data_confidence": 72.0,
+    "data_confidence": 70.0,
     "classification": "neutral",
     "status": "partial",
-    "data_date": "2026-11-19 14:08 IST",
+    "data_date": "2026-11-20 02:39 IST",
     "close": 11.58,
     "cap_class": "Small Cap"
    },
    {
-    "rank": 689,
-    "symbol": "COASTCORP",
-    "exchange": "NSE",
-    "name": "Coastal Corporation Limited",
-    "balanced": 23.5,
-    "risk": 60.0,
-    "data_confidence": 72.0,
-    "classification": "high_risk",
-    "status": "partial",
-    "data_date": "2026-11-19 14:55 IST",
-    "close": 33.52,
-    "cap_class": "Small Cap"
-   },
-   {
-    "rank": 690,
+    "rank": 722,
     "symbol": "CURAA",
     "exchange": "NSE",
     "name": "Cura Technologies Limited",
@@ -8983,7 +8983,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 691,
+    "rank": 723,
     "symbol": "DCMSIL",
     "exchange": "NSE",
     "name": "DCM Shriram International Limited",
@@ -8997,7 +8997,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 692,
+    "rank": 724,
     "symbol": "EXICOM",
     "exchange": "NSE",
     "name": "Exicom Tele-Systems Limited",
@@ -9011,7 +9011,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 695,
+    "rank": 727,
     "symbol": "ARIHANTSUP",
     "exchange": "NSE",
     "name": "Arihant Superstructures Limited",
@@ -9025,7 +9025,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 696,
+    "rank": 728,
     "symbol": "BPL",
     "exchange": "NSE",
     "name": "BPL Limited",
@@ -9039,21 +9039,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 697,
+    "rank": 729,
     "symbol": "CEWATER",
     "exchange": "NSE",
     "name": "Concord Enviro Systems Limited",
     "balanced": 23.0,
     "risk": 40.0,
-    "data_confidence": 72.0,
+    "data_confidence": 70.0,
     "classification": "high_risk",
     "status": "partial",
-    "data_date": "2026-11-19 14:53 IST",
+    "data_date": "2026-11-20 02:37 IST",
     "close": 216.0,
     "cap_class": "Small Cap"
    },
    {
-    "rank": 700,
+    "rank": 732,
     "symbol": "ACEINTEG",
     "exchange": "NSE",
     "name": "Ace Integrated Solutions Limited",
@@ -9067,7 +9067,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 701,
+    "rank": 733,
     "symbol": "ASPINWALL",
     "exchange": "NSE",
     "name": "Aspinwall and Company Limited",
@@ -9081,7 +9081,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 702,
+    "rank": 734,
     "symbol": "EQUITASBNK",
     "exchange": "NSE",
     "name": "Equitas Small Finance Bank Limited",
@@ -9095,7 +9095,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 703,
+    "rank": 735,
     "symbol": "CAMLINFINE",
     "exchange": "NSE",
     "name": "Camlin Fine Sciences Limited",
@@ -9109,7 +9109,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 704,
+    "rank": 736,
     "symbol": "BANARBEADS",
     "exchange": "NSE",
     "name": "Banaras Beads Limited",
@@ -9123,21 +9123,21 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 705,
+    "rank": 737,
     "symbol": "CIFL",
     "exchange": "NSE",
     "name": "Capital India Finance Limited",
     "balanced": 22.0,
     "risk": 40.0,
-    "data_confidence": 72.0,
+    "data_confidence": 70.0,
     "classification": "high_risk",
-    "status": "complete",
-    "data_date": "2026-11-19 14:54 IST",
+    "status": "partial",
+    "data_date": "2026-11-20 02:43 IST",
     "close": 19.15,
     "cap_class": "Small Cap"
    },
    {
-    "rank": 706,
+    "rank": 738,
     "symbol": "CREATIVEYE",
     "exchange": "NSE",
     "name": "Creative Eye Limited",
@@ -9151,7 +9151,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 707,
+    "rank": 739,
     "symbol": "AGRITECH",
     "exchange": "NSE",
     "name": "Agri-tech (India) Limited",
@@ -9165,7 +9165,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 708,
+    "rank": 740,
     "symbol": "EMKAY",
     "exchange": "NSE",
     "name": "Emkay Global Financial Services Limited",
@@ -9179,7 +9179,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 709,
+    "rank": 741,
     "symbol": "CANHLIFE",
     "exchange": "NSE",
     "name": "Canara HSBC Life Insurance Company Limited",
@@ -9193,7 +9193,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 710,
+    "rank": 743,
     "symbol": "BOHRAIND",
     "exchange": "NSE",
     "name": "Bohra Industries Limited",
@@ -9207,7 +9207,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 711,
+    "rank": 744,
     "symbol": "DELTAMAGNT",
     "exchange": "NSE",
     "name": "Delta Manufacturing Limited",
@@ -9221,7 +9221,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 712,
+    "rank": 745,
     "symbol": "DIAMINESQ",
     "exchange": "NSE",
     "name": "Diamines and Chemicals Limited",
@@ -9235,7 +9235,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 714,
+    "rank": 747,
     "symbol": "ASHIKAG",
     "exchange": "NSE",
     "name": "Ashika Global Securities Limited",
@@ -9249,7 +9249,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 717,
+    "rank": 750,
     "symbol": "AAKASH",
     "exchange": "NSE",
     "name": "Aakash Exploration Services Limited",
@@ -9263,7 +9263,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 718,
+    "rank": 751,
     "symbol": "ASTEC",
     "exchange": "NSE",
     "name": "Astec LifeSciences Limited",
@@ -9277,7 +9277,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 719,
+    "rank": 752,
     "symbol": "DNAMEDIA",
     "exchange": "NSE",
     "name": "Diligent Media Corporation Limited",
@@ -9291,7 +9291,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 722,
+    "rank": 755,
     "symbol": "ARTNIRMAN",
     "exchange": "NSE",
     "name": "Art Nirman Limited",
@@ -9305,7 +9305,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 724,
+    "rank": 757,
     "symbol": "DISAQ",
     "exchange": "NSE",
     "name": "DISA India Limited",
@@ -9319,7 +9319,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 725,
+    "rank": 758,
     "symbol": "ELGIRUBCO",
     "exchange": "NSE",
     "name": "Elgi Rubber Company Limited",
@@ -9333,7 +9333,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 726,
+    "rank": 759,
     "symbol": "ABFRL",
     "exchange": "NSE",
     "name": "Aditya Birla Fashion and Retail Limited",
@@ -9347,7 +9347,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 727,
+    "rank": 760,
     "symbol": "BCONCEPTS",
     "exchange": "NSE",
     "name": "Brand Concepts Limited",
@@ -9361,7 +9361,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 730,
+    "rank": 763,
     "symbol": "BELDING",
     "exchange": "NSE",
     "name": "Belding India Limited",
@@ -9375,7 +9375,7 @@
     "cap_class": "Small Cap"
    },
    {
-    "rank": 731,
+    "rank": 765,
     "symbol": "A2ZINFRA",
     "exchange": "NSE",
     "name": "A2Z Infra Engineering Limited",
@@ -9402,6 +9402,20 @@
     "status": "complete",
     "data_date": "2026-11-19 15:31 IST",
     "close": 8053.6,
+    "cap_class": null
+   },
+   {
+    "rank": 20,
+    "symbol": "MASTERTR",
+    "exchange": "BSE",
+    "name": "Master Trust Limited",
+    "balanced": 58.0,
+    "risk": 0.0,
+    "data_confidence": 70.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:43 IST",
+    "close": 84.87,
     "cap_class": null
    },
    {
@@ -9439,10 +9453,10 @@
     "name": "Caliber Mining and Logistics Limited",
     "balanced": 56.0,
     "risk": 30.0,
-    "data_confidence": 62.0,
+    "data_confidence": 60.0,
     "classification": "high_risk",
     "status": "partial",
-    "data_date": "2026-11-19 14:54 IST",
+    "data_date": "2026-11-20 02:46 IST",
     "close": 555.35,
     "cap_class": null
    },
@@ -9461,7 +9475,7 @@
     "cap_class": null
    },
    {
-    "rank": 38,
+    "rank": 37,
     "symbol": "TGVSL",
     "exchange": "BSE",
     "name": "TGV SRAAC Limited",
@@ -9476,6 +9490,20 @@
    },
    {
     "rank": 45,
+    "symbol": "CIPLA",
+    "exchange": "NSE",
+    "name": "Cipla Limited",
+    "balanced": 54.2,
+    "risk": 0.0,
+    "data_confidence": 70.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:44 IST",
+    "close": 1416.0,
+    "cap_class": null
+   },
+   {
+    "rank": 46,
     "symbol": "BAJAJ-AUTO",
     "exchange": "NSE",
     "name": "Bajaj Auto Limited",
@@ -9504,6 +9532,20 @@
    },
    {
     "rank": 55,
+    "symbol": "SGMART",
+    "exchange": "BSE",
+    "name": "SG Mart Limited",
+    "balanced": 53.0,
+    "risk": 20.0,
+    "data_confidence": 70.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:47 IST",
+    "close": 1009.0,
+    "cap_class": null
+   },
+   {
+    "rank": 56,
     "symbol": "WIPRO",
     "exchange": "BSE",
     "name": "Wipro Limited",
@@ -9517,7 +9559,7 @@
     "cap_class": null
    },
    {
-    "rank": 60,
+    "rank": 61,
     "symbol": "BEL",
     "exchange": "NSE",
     "name": "Bharat Electronics Limited",
@@ -9546,6 +9588,20 @@
    },
    {
     "rank": 64,
+    "symbol": "SHRJAGP",
+    "exchange": "BSE",
+    "name": "Shri Jagdamba Polymers Limited",
+    "balanced": 52.2,
+    "risk": 10.0,
+    "data_confidence": 70.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:48 IST",
+    "close": 744.35,
+    "cap_class": null
+   },
+   {
+    "rank": 65,
     "symbol": "ADANIPORTS",
     "exchange": "NSE",
     "name": "Adani Ports and Special Economic Zone Limited",
@@ -9559,7 +9615,21 @@
     "cap_class": null
    },
    {
-    "rank": 67,
+    "rank": 68,
+    "symbol": "MONARCH",
+    "exchange": "BSE",
+    "name": "Monarch Networth Capital Limited",
+    "balanced": 52.0,
+    "risk": 0.0,
+    "data_confidence": 70.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:39 IST",
+    "close": 340.55,
+    "cap_class": null
+   },
+   {
+    "rank": 69,
     "symbol": "CELLO",
     "exchange": "NSE",
     "name": "Cello World Limited",
@@ -9573,21 +9643,7 @@
     "cap_class": null
    },
    {
-    "rank": 68,
-    "symbol": "CIPLA",
-    "exchange": "NSE",
-    "name": "Cipla Limited",
-    "balanced": 51.8,
-    "risk": 0.0,
-    "data_confidence": 72.0,
-    "classification": "neutral",
-    "status": "complete",
-    "data_date": "2026-11-19 14:54 IST",
-    "close": 1416.0,
-    "cap_class": null
-   },
-   {
-    "rank": 69,
+    "rank": 70,
     "symbol": "HAWKINCOOK",
     "exchange": "BSE",
     "name": "Hawkins Cookers Limited",
@@ -9601,7 +9657,7 @@
     "cap_class": null
    },
    {
-    "rank": 73,
+    "rank": 74,
     "symbol": "ASIANPAINT",
     "exchange": "NSE",
     "name": "Asian Paints Limited",
@@ -9643,7 +9699,7 @@
     "cap_class": null
    },
    {
-    "rank": 92,
+    "rank": 91,
     "symbol": "BSE",
     "exchange": "NSE",
     "name": "BSE Limited",
@@ -9657,7 +9713,7 @@
     "cap_class": null
    },
    {
-    "rank": 100,
+    "rank": 98,
     "symbol": "AFFLE",
     "exchange": "NSE",
     "name": "Affle 3i Limited",
@@ -9671,7 +9727,7 @@
     "cap_class": null
    },
    {
-    "rank": 103,
+    "rank": 100,
     "symbol": "DRREDDY",
     "exchange": "NSE",
     "name": "Dr. Reddy's Laboratories Limited",
@@ -9741,7 +9797,7 @@
     "cap_class": null
    },
    {
-    "rank": 160,
+    "rank": 161,
     "symbol": "GARFIBRES",
     "exchange": "BSE",
     "name": "Garware Technical Fibres Limited",
@@ -9755,7 +9811,7 @@
     "cap_class": null
    },
    {
-    "rank": 166,
+    "rank": 167,
     "symbol": "ADROITIND",
     "exchange": "NSE",
     "name": "Adroit Industries (India) Limited",
@@ -9769,7 +9825,7 @@
     "cap_class": null
    },
    {
-    "rank": 167,
+    "rank": 168,
     "symbol": "AETHER",
     "exchange": "NSE",
     "name": "Aether Industries Limited",
@@ -9783,7 +9839,7 @@
     "cap_class": null
    },
    {
-    "rank": 177,
+    "rank": 178,
     "symbol": "TANFACIND",
     "exchange": "BSE",
     "name": "Tanfac Industries Limited",
@@ -9797,7 +9853,7 @@
     "cap_class": null
    },
    {
-    "rank": 182,
+    "rank": 183,
     "symbol": "ETERNAL",
     "exchange": "NSE",
     "name": "Eternal Limited",
@@ -9811,7 +9867,7 @@
     "cap_class": null
    },
    {
-    "rank": 186,
+    "rank": 187,
     "symbol": "GILLETTE",
     "exchange": "BSE",
     "name": "Gillette India Limited",
@@ -9825,7 +9881,7 @@
     "cap_class": null
    },
    {
-    "rank": 195,
+    "rank": 198,
     "symbol": "ESDS",
     "exchange": "NSE",
     "name": "ESDS",
@@ -9839,7 +9895,7 @@
     "cap_class": null
    },
    {
-    "rank": 197,
+    "rank": 200,
     "symbol": "SHALPAINTS",
     "exchange": "BSE",
     "name": "Shalimar Paints Limited",
@@ -9853,7 +9909,7 @@
     "cap_class": null
    },
    {
-    "rank": 204,
+    "rank": 206,
     "symbol": "DHOOTTRANS",
     "exchange": "NSE",
     "name": "Dhoot Transmission Limited",
@@ -9867,7 +9923,7 @@
     "cap_class": null
    },
    {
-    "rank": 206,
+    "rank": 208,
     "symbol": "GYFTR",
     "exchange": "BSE",
     "name": "Gyftr Limited",
@@ -9881,7 +9937,21 @@
     "cap_class": null
    },
    {
-    "rank": 215,
+    "rank": 209,
+    "symbol": "STCINDIA",
+    "exchange": "BSE",
+    "name": "The State Trading Corporation of India Limited",
+    "balanced": 45.0,
+    "risk": 20.0,
+    "data_confidence": 70.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:49 IST",
+    "close": 106.01,
+    "cap_class": null
+   },
+   {
+    "rank": 218,
     "symbol": "DEEPA",
     "exchange": "NSE",
     "name": "DEEPA",
@@ -9895,21 +9965,35 @@
     "cap_class": null
    },
    {
-    "rank": 224,
-    "symbol": "COALINDIA",
-    "exchange": "NSE",
-    "name": "Coal India Limited",
-    "balanced": 44.0,
-    "risk": 0.0,
-    "data_confidence": 72.0,
-    "classification": "attractive_valuation",
-    "status": "complete",
-    "data_date": "2026-11-19 14:54 IST",
-    "close": 392.0,
+    "rank": 221,
+    "symbol": "SCANSTL",
+    "exchange": "BSE",
+    "name": "Scan Steels Limited",
+    "balanced": 44.5,
+    "risk": 10.0,
+    "data_confidence": 70.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:41 IST",
+    "close": 46.49,
     "cap_class": null
    },
    {
-    "rank": 250,
+    "rank": 222,
+    "symbol": "UPL",
+    "exchange": "BSE",
+    "name": "UPL Limited",
+    "balanced": 44.5,
+    "risk": 0.0,
+    "data_confidence": 70.0,
+    "classification": "attractive_valuation",
+    "status": "partial",
+    "data_date": "2026-11-20 02:45 IST",
+    "close": 569.0,
+    "cap_class": null
+   },
+   {
+    "rank": 254,
     "symbol": "JAGSNPHARM",
     "exchange": "BSE",
     "name": "Jagsonpal Pharmaceuticals Limited",
@@ -9923,7 +10007,7 @@
     "cap_class": null
    },
    {
-    "rank": 259,
+    "rank": 263,
     "symbol": "HUHTAMAKI",
     "exchange": "BSE",
     "name": "Huhtamaki India Limited",
@@ -9937,7 +10021,21 @@
     "cap_class": null
    },
    {
-    "rank": 261,
+    "rank": 264,
+    "symbol": "VIYASH",
+    "exchange": "BSE",
+    "name": "Viyash Scientific Limited",
+    "balanced": 43.0,
+    "risk": 20.0,
+    "data_confidence": 70.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:49 IST",
+    "close": 235.75,
+    "cap_class": null
+   },
+   {
+    "rank": 267,
     "symbol": "KHAICHEM",
     "exchange": "BSE",
     "name": "Khaitan Chemicals and Fertilizers Limited",
@@ -9951,7 +10049,7 @@
     "cap_class": null
    },
    {
-    "rank": 277,
+    "rank": 283,
     "symbol": "GMBREW",
     "exchange": "BSE",
     "name": "G.M. Breweries Limited",
@@ -9965,7 +10063,7 @@
     "cap_class": null
    },
    {
-    "rank": 283,
+    "rank": 288,
     "symbol": "ISTLTD",
     "exchange": "BSE",
     "name": "IST Limited",
@@ -9979,7 +10077,21 @@
     "cap_class": null
    },
    {
-    "rank": 294,
+    "rank": 289,
+    "symbol": "STARTECK",
+    "exchange": "BSE",
+    "name": "Starteck Finance Limited",
+    "balanced": 42.2,
+    "risk": 0.0,
+    "data_confidence": 70.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:47 IST",
+    "close": 245.1,
+    "cap_class": null
+   },
+   {
+    "rank": 299,
     "symbol": "AASTHA",
     "exchange": "NSE",
     "name": "Aastha Spintex Limited",
@@ -9993,7 +10105,7 @@
     "cap_class": null
    },
    {
-    "rank": 303,
+    "rank": 309,
     "symbol": "SUPREMEIND",
     "exchange": "BSE",
     "name": "The Supreme Industries Limited",
@@ -10008,6 +10120,20 @@
    },
    {
     "rank": 310,
+    "symbol": "TCC",
+    "exchange": "BSE",
+    "name": "TCC Concept Limited",
+    "balanced": 41.5,
+    "risk": 20.0,
+    "data_confidence": 70.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:44 IST",
+    "close": 39.97,
+    "cap_class": null
+   },
+   {
+    "rank": 316,
     "symbol": "ALPINETEX",
     "exchange": "NSE",
     "name": "Alpine Texworld Limited",
@@ -10021,7 +10147,7 @@
     "cap_class": null
    },
    {
-    "rank": 312,
+    "rank": 318,
     "symbol": "CCAVENUE",
     "exchange": "NSE",
     "name": "AvenuesAI Limited",
@@ -10035,7 +10161,21 @@
     "cap_class": null
    },
    {
-    "rank": 317,
+    "rank": 320,
+    "symbol": "COALINDIA",
+    "exchange": "NSE",
+    "name": "Coal India Limited",
+    "balanced": 41.0,
+    "risk": 0.0,
+    "data_confidence": 70.0,
+    "classification": "attractive_valuation",
+    "status": "partial",
+    "data_date": "2026-11-20 02:47 IST",
+    "close": 392.0,
+    "cap_class": null
+   },
+   {
+    "rank": 324,
     "symbol": "INTLCONV",
     "exchange": "BSE",
     "name": "International Conveyors Limited",
@@ -10049,7 +10189,21 @@
     "cap_class": null
    },
    {
-    "rank": 320,
+    "rank": 325,
+    "symbol": "KOHINOOR",
+    "exchange": "BSE",
+    "name": "Kohinoor Foods Limited",
+    "balanced": 41.0,
+    "risk": 40.0,
+    "data_confidence": 70.0,
+    "classification": "high_risk",
+    "status": "partial",
+    "data_date": "2026-11-20 02:49 IST",
+    "close": 30.38,
+    "cap_class": null
+   },
+   {
+    "rank": 329,
     "symbol": "NAVNETEDUL",
     "exchange": "BSE",
     "name": "Navneet Education Limited",
@@ -10063,7 +10217,7 @@
     "cap_class": null
    },
    {
-    "rank": 326,
+    "rank": 335,
     "symbol": "BUILDPRO",
     "exchange": "NSE",
     "name": "Shankara Buildpro Limited",
@@ -10077,7 +10231,7 @@
     "cap_class": null
    },
    {
-    "rank": 329,
+    "rank": 339,
     "symbol": "FIBERWEB",
     "exchange": "BSE",
     "name": "Fiberweb (India) Limited",
@@ -10091,7 +10245,21 @@
     "cap_class": null
    },
    {
-    "rank": 332,
+    "rank": 340,
+    "symbol": "SUNTECK",
+    "exchange": "BSE",
+    "name": "Sunteck Realty Limited",
+    "balanced": 40.5,
+    "risk": 30.0,
+    "data_confidence": 70.0,
+    "classification": "high_risk",
+    "status": "partial",
+    "data_date": "2026-11-20 02:46 IST",
+    "close": 312.65,
+    "cap_class": null
+   },
+   {
+    "rank": 343,
     "symbol": "ANNU",
     "exchange": "NSE",
     "name": "ANNU",
@@ -10105,7 +10273,7 @@
     "cap_class": null
    },
    {
-    "rank": 336,
+    "rank": 347,
     "symbol": "AXISBANK",
     "exchange": "NSE",
     "name": "Axis Bank Limited",
@@ -10119,7 +10287,7 @@
     "cap_class": null
    },
    {
-    "rank": 337,
+    "rank": 348,
     "symbol": "BAJFINANCE",
     "exchange": "NSE",
     "name": "Bajaj Finance Limited",
@@ -10133,7 +10301,7 @@
     "cap_class": null
    },
    {
-    "rank": 342,
+    "rank": 354,
     "symbol": "SDBL",
     "exchange": "BSE",
     "name": "Som Distilleries & Breweries Limited",
@@ -10147,7 +10315,7 @@
     "cap_class": null
    },
    {
-    "rank": 346,
+    "rank": 358,
     "symbol": "BLEL",
     "exchange": "NSE",
     "name": "Behari Lal Engineering Limited",
@@ -10161,7 +10329,7 @@
     "cap_class": null
    },
    {
-    "rank": 347,
+    "rank": 359,
     "symbol": "TTKHLTCARE",
     "exchange": "BSE",
     "name": "TTK Healthcare Limited",
@@ -10175,7 +10343,7 @@
     "cap_class": null
    },
    {
-    "rank": 351,
+    "rank": 363,
     "symbol": "BLAL",
     "exchange": "NSE",
     "name": "BEML Land Assets Limited",
@@ -10189,7 +10357,7 @@
     "cap_class": null
    },
    {
-    "rank": 353,
+    "rank": 366,
     "symbol": "CSM",
     "exchange": "NSE",
     "name": "CSM Technologies Limited",
@@ -10203,7 +10371,21 @@
     "cap_class": null
    },
    {
-    "rank": 359,
+    "rank": 369,
+    "symbol": "UGROCAP",
+    "exchange": "BSE",
+    "name": "UGRO Capital Limited",
+    "balanced": 39.5,
+    "risk": 20.0,
+    "data_confidence": 70.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:42 IST",
+    "close": 73.58,
+    "cap_class": null
+   },
+   {
+    "rank": 373,
     "symbol": "TVSSRICHAK",
     "exchange": "BSE",
     "name": "TVS Srichakra Limited",
@@ -10217,7 +10399,7 @@
     "cap_class": null
    },
    {
-    "rank": 360,
+    "rank": 374,
     "symbol": "BAHETI",
     "exchange": "NSE",
     "name": "Baheti Recycling Industries Limited",
@@ -10231,7 +10413,7 @@
     "cap_class": null
    },
    {
-    "rank": 376,
+    "rank": 390,
     "symbol": "BANSALWIRE",
     "exchange": "NSE",
     "name": "Bansal Wire Industries Limited",
@@ -10245,7 +10427,7 @@
     "cap_class": null
    },
    {
-    "rank": 380,
+    "rank": 393,
     "symbol": "IVP",
     "exchange": "BSE",
     "name": "IVP Limited",
@@ -10259,7 +10441,21 @@
     "cap_class": null
    },
    {
-    "rank": 404,
+    "rank": 394,
+    "symbol": "KDGREEN",
+    "exchange": "BSE",
+    "name": "KD Green Industries Limited",
+    "balanced": 38.5,
+    "risk": 20.0,
+    "data_confidence": 70.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:50 IST",
+    "close": 42.66,
+    "cap_class": null
+   },
+   {
+    "rank": 416,
     "symbol": "TUTIALKA",
     "exchange": "BSE",
     "name": "Tuticorin Alkali Chemicals and Fertilizers Limited",
@@ -10273,7 +10469,7 @@
     "cap_class": null
    },
    {
-    "rank": 411,
+    "rank": 423,
     "symbol": "ARDEE",
     "exchange": "NSE",
     "name": "Ardee Industries Limited",
@@ -10287,7 +10483,21 @@
     "cap_class": null
    },
    {
-    "rank": 424,
+    "rank": 430,
+    "symbol": "LLOYDSENT",
+    "exchange": "BSE",
+    "name": "Lloyds Enterprises Limited",
+    "balanced": 37.5,
+    "risk": 40.0,
+    "data_confidence": 70.0,
+    "classification": "high_risk",
+    "status": "partial",
+    "data_date": "2026-11-20 02:48 IST",
+    "close": 64.07,
+    "cap_class": null
+   },
+   {
+    "rank": 438,
     "symbol": "ARMEE",
     "exchange": "NSE",
     "name": "ArMee Infotech Limited",
@@ -10301,7 +10511,7 @@
     "cap_class": null
    },
    {
-    "rank": 426,
+    "rank": 440,
     "symbol": "AUGMONT",
     "exchange": "NSE",
     "name": "AUGMONT",
@@ -10315,7 +10525,7 @@
     "cap_class": null
    },
    {
-    "rank": 429,
+    "rank": 443,
     "symbol": "BAJAJFINSV",
     "exchange": "NSE",
     "name": "Bajaj Finserv Ltd.",
@@ -10330,6 +10540,62 @@
    },
    {
     "rank": 451,
+    "symbol": "SHIVATEX",
+    "exchange": "BSE",
+    "name": "Shiva Texyarn Limited",
+    "balanced": 37.0,
+    "risk": 0.0,
+    "data_confidence": 70.0,
+    "classification": "attractive_valuation",
+    "status": "partial",
+    "data_date": "2026-11-20 02:35 IST",
+    "close": 157.95,
+    "cap_class": null
+   },
+   {
+    "rank": 453,
+    "symbol": "VSTIND",
+    "exchange": "BSE",
+    "name": "VST Industries Limited",
+    "balanced": 36.8,
+    "risk": 0.0,
+    "data_confidence": 70.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:34 IST",
+    "close": 194.15,
+    "cap_class": null
+   },
+   {
+    "rank": 465,
+    "symbol": "CHOLAHLDNG",
+    "exchange": "NSE",
+    "name": "Cholamandalam Financial Holdings Limited",
+    "balanced": 36.5,
+    "risk": 30.0,
+    "data_confidence": 70.0,
+    "classification": "high_risk",
+    "status": "partial",
+    "data_date": "2026-11-20 02:42 IST",
+    "close": 1411.65,
+    "cap_class": null
+   },
+   {
+    "rank": 468,
+    "symbol": "JAICORPLTD",
+    "exchange": "BSE",
+    "name": "Jai Corp Limited",
+    "balanced": 36.5,
+    "risk": 10.0,
+    "data_confidence": 70.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:47 IST",
+    "close": 88.31,
+    "cap_class": null
+   },
+   {
+    "rank": 469,
     "symbol": "TI",
     "exchange": "BSE",
     "name": "Tilaknagar Industries Ltd.",
@@ -10343,7 +10609,21 @@
     "cap_class": null
    },
    {
-    "rank": 462,
+    "rank": 473,
+    "symbol": "SAMBHAAV",
+    "exchange": "BSE",
+    "name": "Sambhaav Media Limited",
+    "balanced": 36.2,
+    "risk": 10.0,
+    "data_confidence": 70.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:40 IST",
+    "close": 5.44,
+    "cap_class": null
+   },
+   {
+    "rank": 481,
     "symbol": "NEAGI",
     "exchange": "BSE",
     "name": "Neelamalai Agro Industries Limited",
@@ -10357,7 +10637,7 @@
     "cap_class": null
    },
    {
-    "rank": 467,
+    "rank": 486,
     "symbol": "GUFICBIO",
     "exchange": "BSE",
     "name": "Gufic Biosciences Limited",
@@ -10371,7 +10651,49 @@
     "cap_class": null
    },
    {
-    "rank": 507,
+    "rank": 493,
+    "symbol": "YOGI",
+    "exchange": "BSE",
+    "name": "Yogi Limited",
+    "balanced": 35.5,
+    "risk": 60.0,
+    "data_confidence": 70.0,
+    "classification": "high_risk",
+    "status": "partial",
+    "data_date": "2026-11-20 02:41 IST",
+    "close": 161.85,
+    "cap_class": null
+   },
+   {
+    "rank": 510,
+    "symbol": "MUTHOOTCAP",
+    "exchange": "BSE",
+    "name": "Muthoot Capital Services Limited",
+    "balanced": 35.0,
+    "risk": 40.0,
+    "data_confidence": 70.0,
+    "classification": "high_risk",
+    "status": "partial",
+    "data_date": "2026-11-20 02:43 IST",
+    "close": 195.8,
+    "cap_class": null
+   },
+   {
+    "rank": 511,
+    "symbol": "VAKRANGEE",
+    "exchange": "BSE",
+    "name": "Vakrangee Limited",
+    "balanced": 35.0,
+    "risk": 10.0,
+    "data_confidence": 70.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:38 IST",
+    "close": 5.39,
+    "cap_class": null
+   },
+   {
+    "rank": 530,
     "symbol": "SAKHTISUG",
     "exchange": "BSE",
     "name": "Sakthi Sugars Limited",
@@ -10385,7 +10707,21 @@
     "cap_class": null
    },
    {
-    "rank": 511,
+    "rank": 531,
+    "symbol": "SHRIRAMFIN",
+    "exchange": "BSE",
+    "name": "Shriram Finance Limited",
+    "balanced": 34.5,
+    "risk": 30.0,
+    "data_confidence": 70.0,
+    "classification": "high_risk",
+    "status": "partial",
+    "data_date": "2026-11-20 02:36 IST",
+    "close": 975.0,
+    "cap_class": null
+   },
+   {
+    "rank": 535,
     "symbol": "GRPLTD",
     "exchange": "BSE",
     "name": "GRP Limited",
@@ -10399,7 +10735,7 @@
     "cap_class": null
    },
    {
-    "rank": 512,
+    "rank": 536,
     "symbol": "ARHAM",
     "exchange": "NSE",
     "name": "ARHAM",
@@ -10413,7 +10749,7 @@
     "cap_class": null
    },
    {
-    "rank": 519,
+    "rank": 542,
     "symbol": "FAIRCHEMOR",
     "exchange": "NSE",
     "name": "Fairchem Organics Limited",
@@ -10427,7 +10763,21 @@
     "cap_class": null
    },
    {
-    "rank": 530,
+    "rank": 554,
+    "symbol": "LLOYDSME",
+    "exchange": "BSE",
+    "name": "Lloyds Metals and Energy Limited",
+    "balanced": 33.5,
+    "risk": 20.0,
+    "data_confidence": 70.0,
+    "classification": "high_risk",
+    "status": "partial",
+    "data_date": "2026-11-20 02:48 IST",
+    "close": 1733.85,
+    "cap_class": null
+   },
+   {
+    "rank": 555,
     "symbol": "TAINWALCHM",
     "exchange": "BSE",
     "name": "Tainwala Chemicals and Plastics (India) Limited",
@@ -10441,7 +10791,7 @@
     "cap_class": null
    },
    {
-    "rank": 532,
+    "rank": 557,
     "symbol": "HEGAM",
     "exchange": "BSE",
     "name": "HEG Advanced Materials Limited",
@@ -10455,7 +10805,21 @@
     "cap_class": null
    },
    {
-    "rank": 539,
+    "rank": 558,
+    "symbol": "INDBANK",
+    "exchange": "BSE",
+    "name": "Indbank Merchant Banking Services Limited",
+    "balanced": 33.2,
+    "risk": 20.0,
+    "data_confidence": 70.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:38 IST",
+    "close": 26.8,
+    "cap_class": null
+   },
+   {
+    "rank": 565,
     "symbol": "GOACARBON",
     "exchange": "BSE",
     "name": "Goa Carbon Limited",
@@ -10469,21 +10833,7 @@
     "cap_class": null
    },
    {
-    "rank": 544,
-    "symbol": "CHOLAHLDNG",
-    "exchange": "NSE",
-    "name": "Cholamandalam Financial Holdings Limited",
-    "balanced": 32.5,
-    "risk": 30.0,
-    "data_confidence": 72.0,
-    "classification": "high_risk",
-    "status": "complete",
-    "data_date": "2026-11-19 14:54 IST",
-    "close": 1411.65,
-    "cap_class": null
-   },
-   {
-    "rank": 546,
+    "rank": 571,
     "symbol": "ESFL",
     "exchange": "NSE",
     "name": "Essen Speciality Films Limited",
@@ -10497,7 +10847,7 @@
     "cap_class": null
    },
    {
-    "rank": 553,
+    "rank": 578,
     "symbol": "BNAGROCHEM",
     "exchange": "NSE",
     "name": "BN Agrochem Limited",
@@ -10511,7 +10861,21 @@
     "cap_class": null
    },
    {
-    "rank": 562,
+    "rank": 585,
+    "symbol": "JINDRILL",
+    "exchange": "BSE",
+    "name": "Jindal Drilling & Industries Limited",
+    "balanced": 32.0,
+    "risk": 0.0,
+    "data_confidence": 55.0,
+    "classification": "attractive_valuation",
+    "status": "partial",
+    "data_date": "2026-11-20 02:35 IST",
+    "close": 512.45,
+    "cap_class": null
+   },
+   {
+    "rank": 590,
     "symbol": "ADANIENT",
     "exchange": "NSE",
     "name": "Adani Enterprises Limited",
@@ -10525,7 +10889,7 @@
     "cap_class": null
    },
    {
-    "rank": 568,
+    "rank": 596,
     "symbol": "FOODSIN",
     "exchange": "BSE",
     "name": "Foods and Inns Limited",
@@ -10539,7 +10903,7 @@
     "cap_class": null
    },
    {
-    "rank": 569,
+    "rank": 597,
     "symbol": "SADHNANIQ",
     "exchange": "BSE",
     "name": "Sadhana Nitro Chem Limited",
@@ -10553,7 +10917,7 @@
     "cap_class": null
    },
    {
-    "rank": 582,
+    "rank": 612,
     "symbol": "UNICHEMLAB",
     "exchange": "BSE",
     "name": "Unichem Laboratories Limited",
@@ -10567,7 +10931,7 @@
     "cap_class": null
    },
    {
-    "rank": 586,
+    "rank": 615,
     "symbol": "GUJTHEM",
     "exchange": "BSE",
     "name": "Gujarat Themis Biosyn Limited",
@@ -10581,7 +10945,7 @@
     "cap_class": null
    },
    {
-    "rank": 587,
+    "rank": 616,
     "symbol": "RANASUG",
     "exchange": "BSE",
     "name": "Rana Sugars Limited",
@@ -10595,7 +10959,7 @@
     "cap_class": null
    },
    {
-    "rank": 590,
+    "rank": 619,
     "symbol": "KOTIC",
     "exchange": "BSE",
     "name": "Kothari Industrial Corporation Limited",
@@ -10609,7 +10973,21 @@
     "cap_class": null
    },
    {
-    "rank": 618,
+    "rank": 645,
+    "symbol": "TEAMGTY",
+    "exchange": "BSE",
+    "name": "Team India Guaranty Limited",
+    "balanced": 29.0,
+    "risk": 50.0,
+    "data_confidence": 70.0,
+    "classification": "high_risk",
+    "status": "partial",
+    "data_date": "2026-11-20 02:39 IST",
+    "close": 228.5,
+    "cap_class": null
+   },
+   {
+    "rank": 647,
     "symbol": "BALAJEE",
     "exchange": "NSE",
     "name": "Shree Tirupati Balajee Agro Trading Company Limited",
@@ -10623,7 +11001,7 @@
     "cap_class": null
    },
    {
-    "rank": 620,
+    "rank": 649,
     "symbol": "BLSPOLY",
     "exchange": "NSE",
     "name": "BLS Polymers Limited",
@@ -10637,7 +11015,7 @@
     "cap_class": null
    },
    {
-    "rank": 625,
+    "rank": 653,
     "symbol": "ANNAPURNA",
     "exchange": "NSE",
     "name": "Annapurna Swadisht Limited",
@@ -10651,7 +11029,21 @@
     "cap_class": null
    },
    {
-    "rank": 637,
+    "rank": 663,
+    "symbol": "SAHLIBHFI",
+    "exchange": "BSE",
+    "name": "Shalibhadra Finance Limited",
+    "balanced": 28.0,
+    "risk": 40.0,
+    "data_confidence": 70.0,
+    "classification": "high_risk",
+    "status": "partial",
+    "data_date": "2026-11-20 02:43 IST",
+    "close": 71.0,
+    "cap_class": null
+   },
+   {
+    "rank": 666,
     "symbol": "AZADIND",
     "exchange": "NSE",
     "name": "Azad India Mobility Limited",
@@ -10665,7 +11057,7 @@
     "cap_class": null
    },
    {
-    "rank": 641,
+    "rank": 671,
     "symbol": "ARCIL",
     "exchange": "NSE",
     "name": "ARCIL",
@@ -10679,7 +11071,7 @@
     "cap_class": null
    },
    {
-    "rank": 643,
+    "rank": 673,
     "symbol": "CORDELIA",
     "exchange": "NSE",
     "name": "Waterways Leisure Tourism Limited",
@@ -10693,7 +11085,21 @@
     "cap_class": null
    },
    {
-    "rank": 655,
+    "rank": 681,
+    "symbol": "VIVOBIOT",
+    "exchange": "BSE",
+    "name": "Vivo Bio Tech Limited",
+    "balanced": 26.8,
+    "risk": 30.0,
+    "data_confidence": 70.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:39 IST",
+    "close": 14.62,
+    "cap_class": null
+   },
+   {
+    "rank": 686,
     "symbol": "FINKURVE",
     "exchange": "BSE",
     "name": "Finkurve Financial Services Limited",
@@ -10707,7 +11113,7 @@
     "cap_class": null
    },
    {
-    "rank": 659,
+    "rank": 689,
     "symbol": "INFOMEDIA",
     "exchange": "BSE",
     "name": "Infomedia Press Limited",
@@ -10721,7 +11127,35 @@
     "cap_class": null
    },
    {
-    "rank": 664,
+    "rank": 690,
+    "symbol": "VIPULLTD",
+    "exchange": "BSE",
+    "name": "Vipul Limited",
+    "balanced": 26.0,
+    "risk": 30.0,
+    "data_confidence": 70.0,
+    "classification": "high_risk",
+    "status": "partial",
+    "data_date": "2026-11-20 02:42 IST",
+    "close": 8.81,
+    "cap_class": null
+   },
+   {
+    "rank": 691,
+    "symbol": "VLSFINANCE",
+    "exchange": "BSE",
+    "name": "VLS Finance Limited",
+    "balanced": 26.0,
+    "risk": 30.0,
+    "data_confidence": 70.0,
+    "classification": "high_risk",
+    "status": "partial",
+    "data_date": "2026-11-20 02:37 IST",
+    "close": 211.7,
+    "cap_class": null
+   },
+   {
+    "rank": 696,
     "symbol": "BONFIG",
     "exchange": "NSE",
     "name": "Bonfiglioli Transmissions Limited",
@@ -10735,7 +11169,7 @@
     "cap_class": null
    },
    {
-    "rank": 668,
+    "rank": 700,
     "symbol": "JAYSREETEA",
     "exchange": "BSE",
     "name": "Jay Shree Tea & Industries Limited",
@@ -10749,7 +11183,7 @@
     "cap_class": null
    },
    {
-    "rank": 672,
+    "rank": 704,
     "symbol": "TECILCHEM",
     "exchange": "BSE",
     "name": "Tecil Chemicals and Hydro Power Ltd.",
@@ -10763,7 +11197,21 @@
     "cap_class": null
    },
    {
-    "rank": 683,
+    "rank": 710,
+    "symbol": "SECURKLOUD",
+    "exchange": "BSE",
+    "name": "SecureKloud Technologies Limited",
+    "balanced": 24.5,
+    "risk": 20.0,
+    "data_confidence": 70.0,
+    "classification": "attractive_valuation",
+    "status": "partial",
+    "data_date": "2026-11-20 02:46 IST",
+    "close": 13.51,
+    "cap_class": null
+   },
+   {
+    "rank": 716,
     "symbol": "INDIANCARD",
     "exchange": "BSE",
     "name": "The Indian Card Clothing Company Limited",
@@ -10777,7 +11225,7 @@
     "cap_class": null
    },
    {
-    "rank": 686,
+    "rank": 719,
     "symbol": "AGL",
     "exchange": "NSE",
     "name": "Allcargo Global Limited",
@@ -10791,7 +11239,7 @@
     "cap_class": null
    },
    {
-    "rank": 693,
+    "rank": 725,
     "symbol": "PRIMO",
     "exchange": "BSE",
     "name": "Primo Chemicals Limited",
@@ -10805,7 +11253,7 @@
     "cap_class": null
    },
    {
-    "rank": 694,
+    "rank": 726,
     "symbol": "RUCHINFRA",
     "exchange": "BSE",
     "name": "Ruchi Infrastructure Limited",
@@ -10819,7 +11267,7 @@
     "cap_class": null
    },
    {
-    "rank": 698,
+    "rank": 730,
     "symbol": "MCCHRLS-B",
     "exchange": "BSE",
     "name": "Mac Charles (India) Limited",
@@ -10833,7 +11281,7 @@
     "cap_class": null
    },
    {
-    "rank": 699,
+    "rank": 731,
     "symbol": "HINDCOMPOS",
     "exchange": "BSE",
     "name": "Hindustan Composites Limited",
@@ -10847,7 +11295,21 @@
     "cap_class": null
    },
    {
-    "rank": 713,
+    "rank": 742,
+    "symbol": "GICHSGFIN",
+    "exchange": "BSE",
+    "name": "GIC Housing Finance Limited",
+    "balanced": 21.0,
+    "risk": 30.0,
+    "data_confidence": 70.0,
+    "classification": "high_risk",
+    "status": "partial",
+    "data_date": "2026-11-20 02:41 IST",
+    "close": 131.25,
+    "cap_class": null
+   },
+   {
+    "rank": 746,
     "symbol": "AONESTEELS",
     "exchange": "NSE",
     "name": "A-One Steels India Limited",
@@ -10861,7 +11323,7 @@
     "cap_class": null
    },
    {
-    "rank": 715,
+    "rank": 748,
     "symbol": "EDELALTS",
     "exchange": "NSE",
     "name": "EAAA India Alternatives Limited",
@@ -10875,7 +11337,7 @@
     "cap_class": null
    },
    {
-    "rank": 716,
+    "rank": 749,
     "symbol": "ELEVATE",
     "exchange": "NSE",
     "name": "Elevate Campuses Limited",
@@ -10889,7 +11351,7 @@
     "cap_class": null
    },
    {
-    "rank": 720,
+    "rank": 753,
     "symbol": "SUDARSCHEM",
     "exchange": "BSE",
     "name": "Sudarshan Chemical Industries Limited",
@@ -10903,7 +11365,7 @@
     "cap_class": null
    },
    {
-    "rank": 721,
+    "rank": 754,
     "symbol": "WALCHANNAG",
     "exchange": "BSE",
     "name": "Walchandnagar Industries Limited",
@@ -10917,7 +11379,7 @@
     "cap_class": null
    },
    {
-    "rank": 723,
+    "rank": 756,
     "symbol": "ACEVECTOR",
     "exchange": "NSE",
     "name": "AceVector Limited",
@@ -10931,7 +11393,7 @@
     "cap_class": null
    },
    {
-    "rank": 728,
+    "rank": 761,
     "symbol": "GRAPHITE",
     "exchange": "BSE",
     "name": "Graphite India Limited",
@@ -10945,7 +11407,7 @@
     "cap_class": null
    },
    {
-    "rank": 729,
+    "rank": 762,
     "symbol": "UNITECH",
     "exchange": "BSE",
     "name": "Unitech Limited",
@@ -10959,7 +11421,21 @@
     "cap_class": null
    },
    {
-    "rank": 732,
+    "rank": 764,
+    "symbol": "IVC",
+    "exchange": "BSE",
+    "name": "IL&FS Investment Managers Limited",
+    "balanced": 13.5,
+    "risk": 0.0,
+    "data_confidence": 55.0,
+    "classification": "neutral",
+    "status": "partial",
+    "data_date": "2026-11-20 02:36 IST",
+    "close": 8.03,
+    "cap_class": null
+   },
+   {
+    "rank": 766,
     "symbol": "VIPIND",
     "exchange": "BSE",
     "name": "V.I.P. Industries Limited",
@@ -10976,7 +11452,7 @@
  },
  "penny": [
   {
-   "rank": 225,
+   "rank": 228,
    "symbol": "ELITECON",
    "exchange": "NSE",
    "name": "Elitecon International Limited",
@@ -10990,7 +11466,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 295,
+   "rank": 300,
    "symbol": "AFIL",
    "exchange": "NSE",
    "name": "Akme Fintrade (India) Limited",
@@ -11004,7 +11480,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 327,
+   "rank": 337,
    "symbol": "DELPHIFX",
    "exchange": "NSE",
    "name": "Delphi World Money Limited",
@@ -11018,7 +11494,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 341,
+   "rank": 353,
    "symbol": "FCSSOFT",
    "exchange": "NSE",
    "name": "FCS Software Solutions Limited",
@@ -11032,7 +11508,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 369,
+   "rank": 383,
    "symbol": "DUCON",
    "exchange": "NSE",
    "name": "Ducon Infratechnologies Limited",
@@ -11046,7 +11522,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 381,
+   "rank": 395,
    "symbol": "ALANKIT",
    "exchange": "NSE",
    "name": "Alankit Limited",
@@ -11060,7 +11536,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 390,
+   "rank": 404,
    "symbol": "AVROIND",
    "exchange": "NSE",
    "name": "Avro India Limited",
@@ -11074,7 +11550,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 392,
+   "rank": 406,
    "symbol": "AXITA",
    "exchange": "NSE",
    "name": "Axita Cotton Limited",
@@ -11088,7 +11564,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 406,
+   "rank": 418,
    "symbol": "EASEMYTRIP",
    "exchange": "NSE",
    "name": "Easy Trip Planners Limited",
@@ -11102,7 +11578,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 412,
+   "rank": 424,
    "symbol": "ASIANTNE",
    "exchange": "NSE",
    "name": "Asian Tea & Exports Limited",
@@ -11116,7 +11592,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 425,
+   "rank": 439,
    "symbol": "ASMS",
    "exchange": "NSE",
    "name": "Avio Smart Market Stack Limited",
@@ -11131,6 +11607,20 @@
   },
   {
    "rank": 473,
+   "symbol": "SAMBHAAV",
+   "exchange": "BSE",
+   "name": "Sambhaav Media Limited",
+   "balanced": 36.2,
+   "risk": 10.0,
+   "data_confidence": 70.0,
+   "classification": "neutral",
+   "status": "partial",
+   "data_date": "2026-11-20 02:40 IST",
+   "close": 5.44,
+   "cap_class": null
+  },
+  {
+   "rank": 494,
    "symbol": "AURUS",
    "exchange": "NSE",
    "name": "Aurus Gem Corporation Limited",
@@ -11144,7 +11634,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 486,
+   "rank": 508,
    "symbol": "DHATRE",
    "exchange": "NSE",
    "name": "Dhatre Udyog Limited",
@@ -11158,7 +11648,21 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 495,
+   "rank": 511,
+   "symbol": "VAKRANGEE",
+   "exchange": "BSE",
+   "name": "Vakrangee Limited",
+   "balanced": 35.0,
+   "risk": 10.0,
+   "data_confidence": 70.0,
+   "classification": "neutral",
+   "status": "partial",
+   "data_date": "2026-11-20 02:38 IST",
+   "close": 5.39,
+   "cap_class": null
+  },
+  {
+   "rank": 518,
    "symbol": "AKSHAR",
    "exchange": "NSE",
    "name": "Akshar Spintex Limited",
@@ -11172,7 +11676,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 497,
+   "rank": 520,
    "symbol": "BCG",
    "exchange": "NSE",
    "name": "Brightcom Group Limited",
@@ -11186,7 +11690,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 504,
+   "rank": 527,
    "symbol": "COUNCODOS",
    "exchange": "NSE",
    "name": "Country Condo's Limited",
@@ -11200,7 +11704,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 526,
+   "rank": 550,
    "symbol": "BTML",
    "exchange": "NSE",
    "name": "Bodhi Tree Multimedia Limited",
@@ -11214,7 +11718,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 567,
+   "rank": 595,
    "symbol": "DBEIL",
    "exchange": "NSE",
    "name": "Deepak Builders & Engineers India Limited",
@@ -11228,7 +11732,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 569,
+   "rank": 597,
    "symbol": "SADHNANIQ",
    "exchange": "BSE",
    "name": "Sadhana Nitro Chem Limited",
@@ -11242,21 +11746,21 @@
    "cap_class": null
   },
   {
-   "rank": 594,
+   "rank": 605,
    "symbol": "BAIDFIN",
-   "exchange": "NSE",
+   "exchange": "BSE",
    "name": "Baid Finserv Limited",
-   "balanced": 30.0,
-   "risk": 40.0,
-   "data_confidence": 72.0,
+   "balanced": 31.0,
+   "risk": 50.0,
+   "data_confidence": 70.0,
    "classification": "high_risk",
-   "status": "complete",
-   "data_date": "2026-11-19 14:09 IST",
+   "status": "partial",
+   "data_date": "2026-11-20 02:42 IST",
    "close": 9.93,
    "cap_class": "Small Cap"
   },
   {
-   "rank": 598,
+   "rank": 626,
    "symbol": "EASTWEST",
    "exchange": "NSE",
    "name": "East West Freight Carriers Limited",
@@ -11270,7 +11774,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 603,
+   "rank": 631,
    "symbol": "ACCURACY",
    "exchange": "NSE",
    "name": "Accuracy Shipping Limited",
@@ -11284,21 +11788,21 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 604,
+   "rank": 632,
    "symbol": "AVANCE",
-   "exchange": "NSE",
+   "exchange": "BSE",
    "name": "Avance Technologies Limited",
    "balanced": 29.5,
    "risk": 40.0,
-   "data_confidence": 62.0,
+   "data_confidence": 70.0,
    "classification": "high_risk",
    "status": "partial",
-   "data_date": "2026-11-19 14:08 IST",
+   "data_date": "2026-11-20 02:45 IST",
    "close": 0.69,
    "cap_class": "Small Cap"
   },
   {
-   "rank": 605,
+   "rank": 633,
    "symbol": "BAGFILMS",
    "exchange": "NSE",
    "name": "B.A.G. Films and Media Limited",
@@ -11312,7 +11816,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 609,
+   "rank": 636,
    "symbol": "DISHTV",
    "exchange": "NSE",
    "name": "Dish TV India Limited",
@@ -11326,7 +11830,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 610,
+   "rank": 637,
    "symbol": "EMPOWER",
    "exchange": "NSE",
    "name": "Empower India Limited",
@@ -11340,7 +11844,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 623,
+   "rank": 651,
    "symbol": "ALLCARGO",
    "exchange": "NSE",
    "name": "Allcargo Logistics Limited",
@@ -11354,7 +11858,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 624,
+   "rank": 652,
    "symbol": "ALOKINDS",
    "exchange": "NSE",
    "name": "Alok Industries Limited",
@@ -11368,7 +11872,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 648,
+   "rank": 678,
    "symbol": "CELEBRITY",
    "exchange": "NSE",
    "name": "Celebrity Fashions Limited",
@@ -11382,7 +11886,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 649,
+   "rank": 679,
    "symbol": "BHANDARI",
    "exchange": "NSE",
    "name": "Bhandari Hosiery Exports Limited",
@@ -11396,7 +11900,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 654,
+   "rank": 685,
    "symbol": "EXXARO",
    "exchange": "NSE",
    "name": "Exxaro Tiles Limited",
@@ -11410,7 +11914,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 659,
+   "rank": 689,
    "symbol": "INFOMEDIA",
    "exchange": "BSE",
    "name": "Infomedia Press Limited",
@@ -11424,7 +11928,21 @@
    "cap_class": null
   },
   {
-   "rank": 666,
+   "rank": 690,
+   "symbol": "VIPULLTD",
+   "exchange": "BSE",
+   "name": "Vipul Limited",
+   "balanced": 26.0,
+   "risk": 30.0,
+   "data_confidence": 70.0,
+   "classification": "high_risk",
+   "status": "partial",
+   "data_date": "2026-11-20 02:42 IST",
+   "close": 8.81,
+   "cap_class": null
+  },
+  {
+   "rank": 698,
    "symbol": "DAVANGERE",
    "exchange": "NSE",
    "name": "Davangere Sugar Company Limited",
@@ -11438,7 +11956,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 667,
+   "rank": 699,
    "symbol": "ESSENTIA",
    "exchange": "NSE",
    "name": "Integra Essentia Limited",
@@ -11452,7 +11970,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 672,
+   "rank": 704,
    "symbol": "TECILCHEM",
    "exchange": "BSE",
    "name": "Tecil Chemicals and Hydro Power Ltd.",
@@ -11466,7 +11984,7 @@
    "cap_class": null
   },
   {
-   "rank": 685,
+   "rank": 718,
    "symbol": "ADVIKCA",
    "exchange": "NSE",
    "name": "Advik Capital Limited",
@@ -11480,7 +11998,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 694,
+   "rank": 726,
    "symbol": "RUCHINFRA",
    "exchange": "BSE",
    "name": "Ruchi Infrastructure Limited",
@@ -11494,7 +12012,7 @@
    "cap_class": null
   },
   {
-   "rank": 719,
+   "rank": 752,
    "symbol": "DNAMEDIA",
    "exchange": "NSE",
    "name": "Diligent Media Corporation Limited",
@@ -11508,7 +12026,7 @@
    "cap_class": "Small Cap"
   },
   {
-   "rank": 729,
+   "rank": 762,
    "symbol": "UNITECH",
    "exchange": "BSE",
    "name": "Unitech Limited",
@@ -11519,6 +12037,20 @@
    "status": "partial",
    "data_date": "2026-11-19 20:39 IST",
    "close": 3.81,
+   "cap_class": null
+  },
+  {
+   "rank": 764,
+   "symbol": "IVC",
+   "exchange": "BSE",
+   "name": "IL&FS Investment Managers Limited",
+   "balanced": 13.5,
+   "risk": 0.0,
+   "data_confidence": 55.0,
+   "classification": "neutral",
+   "status": "partial",
+   "data_date": "2026-11-20 02:36 IST",
+   "close": 8.03,
    "cap_class": null
   }
  ]

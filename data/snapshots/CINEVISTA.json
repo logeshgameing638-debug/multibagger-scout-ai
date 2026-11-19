@@ -1,26 +1,26 @@
 {
   "symbol": "CINEVISTA",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:54 IST",
-  "status": "complete",
+  "updated_at": "2026-11-20 02:44 IST",
+  "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
     "technical": "success",
     "business": "success",
     "valuation": "success",
     "risk": "success",
-    "news": "success",
+    "news": "failed",
     "scoring": "success"
   },
   "name": "Cinevista Limited",
   "scores": {
     "fundamental": 46.0,
-    "technical": 42.0,
-    "data_confidence": 72.0,
+    "technical": 48.0,
+    "data_confidence": 70.0,
     "risk": 10.0,
-    "long_term": 44.8,
-    "short_term": 43.2,
-    "balanced": 44.0
+    "long_term": 46.6,
+    "short_term": 47.4,
+    "balanced": 47.0
   },
   "classification": "attractive_valuation",
   "explanation": {
@@ -93,25 +93,25 @@
         ]
       },
       "ema_alignment": {
-        "points": 0,
+        "points": 8,
         "max": 15,
         "detail": [
-          "below key EMAs"
+          "price above EMA50, partial alignment"
         ]
       },
       "momentum": {
-        "points": 12.0,
+        "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 50: 4/7 (value 50.4 vs threshold 45)",
+          "RSI 58: 7/7 (value 57.8 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 5,
+        "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.755 vs threshold 0.7"
+          "relative volume: value 0.493 below all bands"
         ]
       },
       "price_structure": {
@@ -125,26 +125,26 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (40% of range)"
+          "price mid-range between S/R (52% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 12,
+        "points": 10,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: ok"
+          "rss_news: failed/unused"
         ]
       },
       "completeness": {
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1236 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -204,11 +204,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 50.380760274148344,
+    "rsi_14": 57.8009696338137,
     "breakout": false,
     "breakdown": false,
     "support": 12.300000190734863,
     "resistance": 16.540000915527344,
-    "trend": "bearish"
+    "trend": "sideways"
   }
 }

@@ -1,26 +1,26 @@
 {
   "symbol": "CERA",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:53 IST",
-  "status": "complete",
+  "updated_at": "2026-11-20 02:36 IST",
+  "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
     "technical": "success",
     "business": "success",
     "valuation": "success",
     "risk": "success",
-    "news": "success",
+    "news": "failed",
     "scoring": "success"
   },
   "name": "Cera Sanitaryware Limited",
   "scores": {
     "fundamental": 52.5,
-    "technical": 37.0,
-    "data_confidence": 72.0,
+    "technical": 34.0,
+    "data_confidence": 70.0,
     "risk": 0.0,
-    "long_term": 47.9,
-    "short_term": 41.6,
-    "balanced": 44.8
+    "long_term": 47.0,
+    "short_term": 39.5,
+    "balanced": 43.2
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 32.1 (no industry benchmark): value 32.1 vs threshold 40"
+          "P/E 32.4 (no industry benchmark): value 32.4 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -100,10 +100,10 @@
         ]
       },
       "momentum": {
-        "points": 15.0,
+        "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 58: 7/7 (value 58.1 vs threshold 55)",
+          "RSI 52: 4/7 (value 52.2 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.312 below all bands"
+          "relative volume: value 0.39 below all bands"
         ]
       },
       "price_structure": {
@@ -125,26 +125,26 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (57% of range)"
+          "price mid-range between S/R (68% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 12,
+        "points": 10,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: ok"
+          "rss_news: failed/unused"
         ]
       },
       "completeness": {
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1234 validated daily bars (value 1.23e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -204,11 +204,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 58.11058022936619,
+    "rsi_14": 52.18523914407817,
     "breakout": false,
     "breakdown": false,
     "support": 4398.0,
-    "resistance": 5521.5,
+    "resistance": 5175.0,
     "trend": "sideways"
   }
 }

@@ -1,26 +1,26 @@
 {
   "symbol": "COALINDIA",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:54 IST",
-  "status": "complete",
+  "updated_at": "2026-11-20 02:47 IST",
+  "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
     "technical": "success",
     "business": "success",
     "valuation": "success",
     "risk": "success",
-    "news": "success",
+    "news": "failed",
     "scoring": "success"
   },
   "name": "Coal India Limited",
   "scores": {
     "fundamental": 66.0,
-    "technical": 22.0,
-    "data_confidence": 72.0,
+    "technical": 16.0,
+    "data_confidence": 70.0,
     "risk": 0.0,
-    "long_term": 52.8,
-    "short_term": 35.2,
-    "balanced": 44.0
+    "long_term": 51.0,
+    "short_term": 31.0,
+    "balanced": 41.0
   },
   "classification": "attractive_valuation",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 7.3 (no industry benchmark): value 7.25 vs threshold 15"
+          "P/E 7.2 (no industry benchmark): value 7.23 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 43: 0.0/7 (value 42.5 below all bands)",
+          "RSI 38: 0.0/7 (value 38.1 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.652 below all bands"
+          "relative volume: value 0.629 below all bands"
         ]
       },
       "price_structure": {
@@ -122,29 +122,29 @@
         ]
       },
       "support_resistance": {
-        "points": 10,
+        "points": 4,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (40% of range)"
+          "near support: watch for breakdown or bounce confirmation"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 12,
+        "points": 10,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: ok"
+          "rss_news: failed/unused"
         ]
       },
       "completeness": {
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1236 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -204,11 +204,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 42.51085185264891,
+    "rsi_14": 38.0794207726195,
     "breakout": false,
     "breakdown": false,
     "support": 380.3999938964844,
-    "resistance": 411.0,
+    "resistance": 415.70001220703125,
     "trend": "bearish"
   }
 }

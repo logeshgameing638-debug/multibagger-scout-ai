@@ -1,26 +1,26 @@
 {
   "symbol": "CLEAN",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:54 IST",
-  "status": "complete",
+  "updated_at": "2026-11-20 02:44 IST",
+  "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
     "technical": "success",
     "business": "success",
     "valuation": "success",
     "risk": "success",
-    "news": "success",
+    "news": "failed",
     "scoring": "success"
   },
   "name": "Clean Science and Technology Limited",
   "scores": {
     "fundamental": 52.5,
-    "technical": 30.0,
-    "data_confidence": 72.0,
+    "technical": 24.0,
+    "data_confidence": 70.0,
     "risk": 0.0,
-    "long_term": 45.8,
-    "short_term": 36.8,
-    "balanced": 41.2
+    "long_term": 44.0,
+    "short_term": 32.5,
+    "balanced": 38.2
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 31.9 (no industry benchmark): value 31.9 vs threshold 40"
+          "P/E 31.8 (no industry benchmark): value 31.8 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.292 below all bands"
+          "relative volume: value 0.45 below all bands"
         ]
       },
       "price_structure": {
@@ -122,29 +122,29 @@
         ]
       },
       "support_resistance": {
-        "points": 10,
+        "points": 4,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (31% of range)"
+          "near support: watch for breakdown or bounce confirmation"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 12,
+        "points": 10,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: ok"
+          "rss_news: failed/unused"
         ]
       },
       "completeness": {
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1236 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -204,11 +204,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 42.837917837702044,
+    "rsi_14": 42.7632950134163,
     "breakout": false,
     "breakdown": false,
     "support": 645.0499877929688,
-    "resistance": 822.0,
+    "resistance": 826.3499755859375,
     "trend": "bearish"
   }
 }

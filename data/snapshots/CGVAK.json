@@ -1,26 +1,26 @@
 {
   "symbol": "CGVAK",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:53 IST",
-  "status": "complete",
+  "updated_at": "2026-11-20 02:38 IST",
+  "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
     "technical": "success",
     "business": "success",
     "valuation": "success",
     "risk": "success",
-    "news": "success",
+    "news": "failed",
     "scoring": "success"
   },
   "name": "CG-VAK Software and Exports Limited",
   "scores": {
     "fundamental": 56.0,
-    "technical": 52.0,
-    "data_confidence": 62.0,
+    "technical": 34.0,
+    "data_confidence": 60.0,
     "risk": 10.0,
-    "long_term": 54.8,
-    "short_term": 53.2,
-    "balanced": 54.0
+    "long_term": 49.4,
+    "short_term": 40.6,
+    "balanced": 45.0
   },
   "classification": "attractive_valuation",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 9.1 (no industry benchmark): value 9.06 vs threshold 15"
+          "P/E 9.0 (no industry benchmark): value 9.04 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -100,18 +100,18 @@
         ]
       },
       "momentum": {
-        "points": 15.0,
+        "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 58: 7/7 (value 58.2 vs threshold 55)",
+          "RSI 50: 4/7 (value 49.5 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 15,
+        "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 1.55 vs threshold 1.5"
+          "relative volume: value 0.617 below all bands"
         ]
       },
       "price_structure": {
@@ -125,26 +125,26 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (72% of range)"
+          "price mid-range between S/R (38% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 12,
+        "points": 10,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: ok"
+          "rss_news: failed/unused"
         ]
       },
       "completeness": {
@@ -165,7 +165,7 @@
         "points": 5,
         "max": 15,
         "detail": [
-          "64 validated daily bars (value 64 vs threshold 30); providers may delay quotes ~15 min"
+          "63 validated daily bars (value 63 vs threshold 30); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 58.24973203633136,
+    "rsi_14": 49.546823278117024,
     "breakout": false,
     "breakdown": false,
     "support": 128.94000244140625,

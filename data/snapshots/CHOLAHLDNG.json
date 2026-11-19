@@ -1,26 +1,26 @@
 {
   "symbol": "CHOLAHLDNG",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:54 IST",
-  "status": "complete",
+  "updated_at": "2026-11-20 02:42 IST",
+  "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
     "technical": "success",
     "business": "success",
     "valuation": "success",
     "risk": "success",
-    "news": "success",
+    "news": "failed",
     "scoring": "success"
   },
   "name": "Cholamandalam Financial Holdings Limited",
   "scores": {
     "fundamental": 31.0,
-    "technical": 34.0,
-    "data_confidence": 72.0,
+    "technical": 42.0,
+    "data_confidence": 70.0,
     "risk": 30.0,
-    "long_term": 31.9,
-    "short_term": 33.1,
-    "balanced": 32.5
+    "long_term": 34.3,
+    "short_term": 38.7,
+    "balanced": 36.5
   },
   "classification": "high_risk",
   "explanation": {
@@ -71,7 +71,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 9.5 (no industry benchmark): value 9.55 vs threshold 15"
+          "P/E 9.6 (no industry benchmark): value 9.56 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -91,17 +91,17 @@
         ]
       },
       "ema_alignment": {
-        "points": 0,
+        "points": 8,
         "max": 15,
         "detail": [
-          "below key EMAs"
+          "price above EMA50, partial alignment"
         ]
       },
       "momentum": {
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 50: 4/7 (value 50.3 vs threshold 45)",
+          "RSI 54: 4/7 (value 54.3 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -109,7 +109,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.427 below all bands"
+          "relative volume: value 0.652 below all bands"
         ]
       },
       "price_structure": {
@@ -123,26 +123,26 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (63% of range)"
+          "price mid-range between S/R (64% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 12,
+        "points": 10,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: ok"
+          "rss_news: failed/unused"
         ]
       },
       "completeness": {
@@ -163,7 +163,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1236 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -203,11 +203,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 50.34599217523316,
+    "rsi_14": 54.300861767778706,
     "breakout": false,
     "breakdown": false,
     "support": 1236.699951171875,
-    "resistance": 1512.9000244140625,
+    "resistance": 1543.199951171875,
     "trend": "sideways"
   }
 }

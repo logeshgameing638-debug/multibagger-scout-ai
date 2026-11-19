@@ -1,7 +1,7 @@
 {
   "symbol": "CEWATER",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:53 IST",
+  "updated_at": "2026-11-20 02:37 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -9,14 +9,14 @@
     "business": "success",
     "valuation": "partial",
     "risk": "success",
-    "news": "success",
+    "news": "failed",
     "scoring": "success"
   },
   "name": "Concord Enviro Systems Limited",
   "scores": {
     "fundamental": 30.0,
     "technical": 16.0,
-    "data_confidence": 72.0,
+    "data_confidence": 70.0,
     "risk": 40.0,
     "long_term": 25.8,
     "short_term": 20.2,
@@ -103,7 +103,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 30: 0.0/7 (value 30.2 below all bands)",
+          "RSI 31: 0.0/7 (value 31.3 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.687 below all bands"
+          "relative volume: value 0.405 below all bands"
         ]
       },
       "price_structure": {
@@ -132,19 +132,19 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 12,
+        "points": 10,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: ok"
+          "rss_news: failed/unused"
         ]
       },
       "completeness": {
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "470 validated daily bars (value 470 vs threshold 200); providers may delay quotes ~15 min"
+          "469 validated daily bars (value 469 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -206,11 +206,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 30.236761841170917,
+    "rsi_14": 31.323135245695653,
     "breakout": false,
     "breakdown": false,
-    "support": 211.11000061035156,
-    "resistance": 243.1999969482422,
+    "support": 215.0,
+    "resistance": 251.0500030517578,
     "trend": "bearish"
   }
 }
