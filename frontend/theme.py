@@ -53,7 +53,8 @@ WARN = '<span class="warning">{}</span>'
 
 def apply_theme(st) -> None:
     st.set_page_config(page_title="Multibagger Scout AI", layout="wide", page_icon="📈")
-    st.markdown(DARK_CSS, unsafe_allow_html=True)
+    from frontend import design
+    st.markdown(DARK_CSS + design.DESIGN_CSS, unsafe_allow_html=True)
 
 
 def colored(value: str) -> str:
