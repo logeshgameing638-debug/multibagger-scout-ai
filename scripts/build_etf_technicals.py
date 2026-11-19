@@ -55,9 +55,11 @@ VERIFIED_ACTIONS = {
     "PSUBNKBEES": [("2019-12-19", 10.0,  _CML42873 + "; face value 10 -> 1")],
     "HNGSNGBEES": [("2019-12-19", 10.0,  _CML42873 + "; face value 10 -> 1")],
     "GOLDBEES":   [("2019-12-19", 100.0, _CML42873 + "; face value 100 -> 1")],
-    # ABSLNN50ET 10 -> 1 (ex-date 25 Nov 2021): seen only via third-party
-    # mirrors of an NSE ISIN-change circular so far; withheld until the
-    # owning NSE circular is confirmed, so its jump renders unavailable.
+    "ABSLNN50ET": [("2021-11-25", 10.0,  "NSE circular CML50382, Listing ref "
+                                         "1335/2021, 23 Nov 2021: ABSL Nifty "
+                                         "Next 50 ETF sub-division 10 -> 1, "
+                                         "ex-date 25 Nov 2021: "
+                                         "https://archives.nseindia.com/content/circulars/CML50382.pdf")],
     "MON100":     [("2021-06-17", 10.0,  "NSE circular CML48556, Listing ref "
                                          "0609/2021, 11 Jun 2021 (fund listed "
                                          "as symbol N100, now MON100): face "
