@@ -1,0 +1,376 @@
+{
+ "as_of": "2026-11-19 19:42 IST",
+ "source": "screener.in company pages (public HTML)",
+ "basis": "Written descriptions and per-period results as published on the source page on the fetch date; figures are company-reported (Rs crore), not independently audited by us.",
+ "profiles": {
+  "EICHERMOT": {
+   "status": "ok",
+   "source_url": "https://www.screener.in/company/EICHERMOT/consolidated/",
+   "consolidated": true,
+   "name": "Eicher Motors Ltd",
+   "description": "Eicher Motors Limited, incorporated in 1982, is the listed company of the Eicher Group in India and a leading player in the Indian automobile industry and the global leader in middleweight motorcycles. Eicher has a joint venture with Sweden\u2019s AB Volvo to create Volvo Eicher Commercial Vehicles Limited (VECV). VECV is engaged in truck and bus operations, auto components business, and technical consulting services business [1]",
+   "quarterly": [
+    {
+     "period": "Dec 2024",
+     "revenue_cr": 4973.0,
+     "net_profit_cr": 1170.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 5241.0,
+     "net_profit_cr": 1362.0
+    },
+    {
+     "period": "Jun 2025",
+     "revenue_cr": 5042.0,
+     "net_profit_cr": 1205.0
+    },
+    {
+     "period": "Sep 2025",
+     "revenue_cr": 6172.0,
+     "net_profit_cr": 1369.0
+    },
+    {
+     "period": "Dec 2025",
+     "revenue_cr": 6114.0,
+     "net_profit_cr": 1421.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 6080.0,
+     "net_profit_cr": 1520.0
+    },
+    {
+     "period": "Jun 2026",
+     "revenue_cr": 6632.0,
+     "net_profit_cr": 1463.0
+    },
+    {
+     "period": "Sep 2026",
+     "revenue_cr": 7422.0,
+     "net_profit_cr": 1573.0
+    }
+   ],
+   "annual": [
+    {
+     "period": "Mar 2019",
+     "revenue_cr": 8965.0,
+     "net_profit_cr": 1960.0
+    },
+    {
+     "period": "Mar 2020",
+     "revenue_cr": 9797.0,
+     "net_profit_cr": 2203.0
+    },
+    {
+     "period": "Mar 2021",
+     "revenue_cr": 9154.0,
+     "net_profit_cr": 1827.0
+    },
+    {
+     "period": "Mar 2022",
+     "revenue_cr": 8720.0,
+     "net_profit_cr": 1347.0
+    },
+    {
+     "period": "Mar 2023",
+     "revenue_cr": 10298.0,
+     "net_profit_cr": 1677.0
+    },
+    {
+     "period": "Mar 2024",
+     "revenue_cr": 14442.0,
+     "net_profit_cr": 2914.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 16536.0,
+     "net_profit_cr": 4001.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 18870.0,
+     "net_profit_cr": 4734.0
+    }
+   ],
+   "fetched_at": "2026-11-19 19:42 IST"
+  },
+  "EIHOTEL": {
+   "status": "ok",
+   "source_url": "https://www.screener.in/company/EIHOTEL/consolidated/",
+   "consolidated": true,
+   "name": "EIH Ltd",
+   "description": "EIH is primarily engaged in owning and managing premium luxury hotels and cruisers under the luxury Oberoi, Trident and Maidens brands. The Company is also engaged in flight catering, airport restaurants, project management and corporate air charters.(Source : 202003 Annual Report Page No:124)",
+   "quarterly": [
+    {
+     "period": "Dec 2024",
+     "revenue_cr": 800.0,
+     "net_profit_cr": 279.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 827.0,
+     "net_profit_cr": 262.0
+    },
+    {
+     "period": "Jun 2025",
+     "revenue_cr": 574.0,
+     "net_profit_cr": 37.0
+    },
+    {
+     "period": "Sep 2025",
+     "revenue_cr": 598.0,
+     "net_profit_cr": 117.0
+    },
+    {
+     "period": "Dec 2025",
+     "revenue_cr": 873.0,
+     "net_profit_cr": 255.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 895.0,
+     "net_profit_cr": 249.0
+    },
+    {
+     "period": "Jun 2026",
+     "revenue_cr": 657.0,
+     "net_profit_cr": 120.0
+    },
+    {
+     "period": "Sep 2026",
+     "revenue_cr": 694.0,
+     "net_profit_cr": 141.0
+    }
+   ],
+   "annual": [
+    {
+     "period": "Mar 2019",
+     "revenue_cr": 1811.0,
+     "net_profit_cr": 149.0
+    },
+    {
+     "period": "Mar 2020",
+     "revenue_cr": 1596.0,
+     "net_profit_cr": 165.0
+    },
+    {
+     "period": "Mar 2021",
+     "revenue_cr": 494.0,
+     "net_profit_cr": -375.0
+    },
+    {
+     "period": "Mar 2022",
+     "revenue_cr": 985.0,
+     "net_profit_cr": -95.0
+    },
+    {
+     "period": "Mar 2023",
+     "revenue_cr": 2019.0,
+     "net_profit_cr": 329.0
+    },
+    {
+     "period": "Mar 2024",
+     "revenue_cr": 2511.0,
+     "net_profit_cr": 678.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 2743.0,
+     "net_profit_cr": 770.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 2940.0,
+     "net_profit_cr": 657.0
+    }
+   ],
+   "fetched_at": "2026-11-19 19:42 IST"
+  },
+  "DIVISLAB": {
+   "status": "ok",
+   "source_url": "https://www.screener.in/company/DIVISLAB/consolidated/",
+   "consolidated": true,
+   "name": "Divis Laboratories Ltd",
+   "description": "Incorporated in 1990, Divis Laboratories Ltd manufactures and exports API's, Intermediates and Nutraceutical ingredients [1]",
+   "quarterly": [
+    {
+     "period": "Dec 2024",
+     "revenue_cr": 2319.0,
+     "net_profit_cr": 589.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 2585.0,
+     "net_profit_cr": 662.0
+    },
+    {
+     "period": "Jun 2025",
+     "revenue_cr": 2410.0,
+     "net_profit_cr": 545.0
+    },
+    {
+     "period": "Sep 2025",
+     "revenue_cr": 2715.0,
+     "net_profit_cr": 689.0
+    },
+    {
+     "period": "Dec 2025",
+     "revenue_cr": 2604.0,
+     "net_profit_cr": 583.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 2831.0,
+     "net_profit_cr": 751.0
+    },
+    {
+     "period": "Jun 2026",
+     "revenue_cr": 3080.0,
+     "net_profit_cr": 902.0
+    },
+    {
+     "period": "Sep 2026",
+     "revenue_cr": 3676.0,
+     "net_profit_cr": 1127.0
+    }
+   ],
+   "annual": [
+    {
+     "period": "Mar 2019",
+     "revenue_cr": 4946.0,
+     "net_profit_cr": 1353.0
+    },
+    {
+     "period": "Mar 2020",
+     "revenue_cr": 5394.0,
+     "net_profit_cr": 1377.0
+    },
+    {
+     "period": "Mar 2021",
+     "revenue_cr": 6969.0,
+     "net_profit_cr": 1984.0
+    },
+    {
+     "period": "Mar 2022",
+     "revenue_cr": 8960.0,
+     "net_profit_cr": 2960.0
+    },
+    {
+     "period": "Mar 2023",
+     "revenue_cr": 7768.0,
+     "net_profit_cr": 1823.0
+    },
+    {
+     "period": "Mar 2024",
+     "revenue_cr": 7845.0,
+     "net_profit_cr": 1600.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 9360.0,
+     "net_profit_cr": 2191.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 10560.0,
+     "net_profit_cr": 2568.0
+    }
+   ],
+   "fetched_at": "2026-11-19 19:42 IST"
+  },
+  "BANCOINDIA": {
+   "status": "ok",
+   "source_url": "https://www.screener.in/company/BANCOINDIA/consolidated/",
+   "consolidated": true,
+   "name": "Banco Products (India) Ltd",
+   "description": "Banco Products (India) Ltd manufactures and supplies engine cooling modules and systems for automotive and industrial applications in both the domestic and international markets. It was Incorporated in 1961, promoted by Mr. Mehul K. Patel who has more than 40 years of experience in the automotive industry [1]",
+   "quarterly": [
+    {
+     "period": "Dec 2024",
+     "revenue_cr": 639.0,
+     "net_profit_cr": 31.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 875.0,
+     "net_profit_cr": 154.0
+    },
+    {
+     "period": "Jun 2025",
+     "revenue_cr": 970.0,
+     "net_profit_cr": 110.0
+    },
+    {
+     "period": "Sep 2025",
+     "revenue_cr": 1038.0,
+     "net_profit_cr": 139.0
+    },
+    {
+     "period": "Dec 2025",
+     "revenue_cr": 789.0,
+     "net_profit_cr": 86.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 1099.0,
+     "net_profit_cr": 147.0
+    },
+    {
+     "period": "Jun 2026",
+     "revenue_cr": 1184.0,
+     "net_profit_cr": 122.0
+    },
+    {
+     "period": "Sep 2026",
+     "revenue_cr": 1265.0,
+     "net_profit_cr": 165.0
+    }
+   ],
+   "annual": [
+    {
+     "period": "Mar 2019",
+     "revenue_cr": 1567.0,
+     "net_profit_cr": 69.0
+    },
+    {
+     "period": "Mar 2020",
+     "revenue_cr": 1422.0,
+     "net_profit_cr": 77.0
+    },
+    {
+     "period": "Mar 2021",
+     "revenue_cr": 1533.0,
+     "net_profit_cr": 114.0
+    },
+    {
+     "period": "Mar 2022",
+     "revenue_cr": 1958.0,
+     "net_profit_cr": 152.0
+    },
+    {
+     "period": "Mar 2023",
+     "revenue_cr": 2332.0,
+     "net_profit_cr": 236.0
+    },
+    {
+     "period": "Mar 2024",
+     "revenue_cr": 2768.0,
+     "net_profit_cr": 271.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 3213.0,
+     "net_profit_cr": 392.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 3896.0,
+     "net_profit_cr": 482.0
+    }
+   ],
+   "fetched_at": "2026-11-19 19:42 IST"
+  }
+ },
+ "coverage": "4/4 profiled companies (batch of 4 this run)"
+}
