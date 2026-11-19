@@ -120,6 +120,14 @@ jobs:
         continue-on-error: true
         run: cd scripts && python build_etf_technicals.py
 
+      - name: Refresh company profiles (bounded batch)
+        if: steps.dupcheck.outputs.skip != 'true'
+        # Written descriptions + per-period results from screener.in public
+        # pages, stale-priority rotation, default 25 symbols per run.
+        # Never fails the run: the committed feed stays in use.
+        continue-on-error: true
+        run: python scripts/build_company_profiles.py
+
       - name: Commit snapshots
         if: steps.dupcheck.outputs.skip != 'true'
         run: |
