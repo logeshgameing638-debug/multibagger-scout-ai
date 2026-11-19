@@ -24,7 +24,10 @@ import time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
+import sys
+
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
 UNIVERSE_GLOB = "universe_nse_part*.csv"
 UNIVERSE_CSV = ROOT / "data" / "universe_nse.csv"
 SNAPSHOT_DIR = ROOT / "data" / "snapshots"
