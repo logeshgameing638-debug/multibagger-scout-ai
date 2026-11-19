@@ -26,16 +26,24 @@ SOURCE = "screener.in company pages (public HTML)"
 MAX_PERIODS = 8
 
 
-def fetch(url: str) -> str | None:
+def fetch(url: str) -> tuple[str | None, str]:
+    """Returns (html, outcome): outcome is ok | not_found | blocked | error.
+    404 means the company page truly does not exist; 403/429/network
+    failures are transient and must not erase a previously good profile.
+    """
     req = urllib.request.Request(url, headers={
         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"})
     try:
         with urllib.request.urlopen(req, timeout=25) as resp:
-            if resp.status != 200:
-                return None
-            return resp.read().decode("utf-8", errors="replace")
+            return resp.read().decode("utf-8", errors="replace"), "ok"
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            return None, "not_found"
+        if e.code in (401, 403, 429, 503):
+            return None, "blocked"
+        return None, "error"
     except Exception:
-        return None
+        return None, "error"
 
 
 def clean(text: str) -> str:
@@ -72,15 +80,26 @@ def parse_results(section_html: str) -> list[dict]:
     return out[-MAX_PERIODS:] if n else out
 
 
-def profile_symbol(symbol: str) -> dict:
+def profile_symbol(symbol: str) -> tuple[dict, str]:
+    """Returns (profile, outcome). outcome ok | not_found | blocked | error."""
+    outcome = "error"
     for suffix in ("consolidated/", ""):
         url = f"https://www.screener.in/company/{symbol}/{suffix}"
-        html = fetch(url)
-        if html:
+        html, outcome = fetch(url)
+        if outcome == "ok":
             break
-        url = None
+        if outcome == "not_found" and suffix == "consolidated/":
+            continue  # try the standalone page
+        if outcome != "ok":
+            url = None
+            if outcome in ("blocked", "error"):
+                break  # transient: do not try the second URL harder
     if not url:
-        return {"status": "unavailable", "reason": "no screener.in company page found"}
+        if outcome == "not_found":
+            return {"status": "unavailable",
+                    "reason": "no screener.in company page found (404)"}, outcome
+        return {"status": "unavailable",
+                "reason": f"fetch failed ({outcome}); transient - last good kept when present"}, outcome
     prof: dict = {"status": "ok", "source_url": url,
                   "consolidated": url.endswith("consolidated/")}
     h1 = re.search(r"<h1[^>]*>(.*?)</h1>", html, re.S)
@@ -93,8 +112,8 @@ def profile_symbol(symbol: str) -> dict:
     a = re.search(r'<section id="profit-loss".*?</section>', html, re.S)
     prof["annual"] = parse_results(a.group(0)) if a else []
     if not prof["description"] and not prof["quarterly"] and not prof["annual"]:
-        return {"status": "unavailable", "reason": "page found but no description or results parsed"}
-    return prof
+        return {"status": "unavailable", "reason": "page found but no description or results parsed"}, "ok"
+    return prof, "ok"
 
 
 def ranked_symbols(limit: int, existing: dict) -> list[str]:
@@ -129,7 +148,7 @@ def ranked_symbols(limit: int, existing: dict) -> list[str]:
 
 def main() -> None:
     import os
-    limit = int(os.environ.get("MB_PROFILE_LIMIT", "25"))
+    limit = int(os.environ.get("MB_PROFILE_LIMIT", "15"))
     existing = {}
     if OUT.exists():
         try:
@@ -145,15 +164,21 @@ def main() -> None:
         "profiles": dict(existing),
     }
     symbols = ranked_symbols(limit, feed["profiles"])
-    done = 0
+    done = kept = 0
     for sym in symbols:
-        prof = profile_symbol(sym)
-        prof["fetched_at"] = feed["as_of"]
-        feed["profiles"][sym] = prof
+        prof, outcome = profile_symbol(sym)
+        if outcome in ("blocked", "error") and feed["profiles"].get(sym, {}).get("status") == "ok":
+            kept += 1  # transient failure: keep last good with its own fetched_at
+        else:
+            prof["fetched_at"] = feed["as_of"]
+            feed["profiles"][sym] = prof
         done += 1
-        time.sleep(1.0)  # polite pacing on a free public site
+        time.sleep(2.0)  # polite pacing on a free public site
+    if kept:
+        print(f"kept {kept} last-good profiles after transient fetch failures")
     ok = sum(1 for v in feed["profiles"].values() if v.get("status") == "ok")
-    feed["coverage"] = f"{ok}/{len(feed['profiles'])} profiled companies (batch of {done} this run)"
+    note = f"; {kept} last-good kept on transient fetch failure" if kept else ""
+    feed["coverage"] = f"{ok}/{len(feed['profiles'])} profiled companies (batch of {done} this run{note})"
     OUT.write_text(json.dumps(feed, indent=1))
     print(json.dumps({"written": str(OUT), "coverage": feed["coverage"]}))
 
