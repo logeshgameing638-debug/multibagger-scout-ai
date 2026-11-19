@@ -39,6 +39,7 @@ def test_run_batch_records_every_stock_and_state(tmp_path, monkeypatch):
     monkeypatch.setattr(du, "ROOT", tmp_path)
     monkeypatch.setattr(du, "SNAPSHOT_DIR", tmp_path / "snaps")
     monkeypatch.setattr(du, "STATE_FILE", tmp_path / "state.json")
+    monkeypatch.setattr(du, "BSE_UNIVERSE_CSV", tmp_path / "no_bse.csv")
     (tmp_path / "data").mkdir()
     (tmp_path / "data" / "universe_nse_part1.csv").write_text(
         "symbol,name,isin\nAAA,Alpha,\nBBB,Beta,\nCCC,Gamma,\n"
@@ -66,6 +67,7 @@ def test_run_batch_respects_time_budget(tmp_path, monkeypatch):
     monkeypatch.setattr(du, "ROOT", tmp_path)
     monkeypatch.setattr(du, "SNAPSHOT_DIR", tmp_path / "snaps")
     monkeypatch.setattr(du, "STATE_FILE", tmp_path / "state.json")
+    monkeypatch.setattr(du, "BSE_UNIVERSE_CSV", tmp_path / "no_bse.csv")
     (tmp_path / "data").mkdir()
     (tmp_path / "data" / "universe_nse_part1.csv").write_text(
         "symbol,name,isin\n" + "\n".join(f"S{i},Co{i}," for i in range(10))
