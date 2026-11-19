@@ -245,6 +245,19 @@ def main() -> None:
             continue
         try:
             series = load_series(int(code))
+            if series:
+                newest = series[-1][0]
+                age_days = (datetime.utcnow() - newest).days
+                if age_days > 14:
+                    feed["etfs"][sym] = {
+                        "status": "unavailable",
+                        "scheme_code": int(code),
+                        "reason": (f"source NAV history ends {newest.date()} "
+                                   f"({age_days} days stale at the mirror) - "
+                                   "historical series must not masquerade as "
+                                   "current; indicators withheld"),
+                    }
+                    continue
             adj, note, action_sources = split_adjust(sym, series)
             if adj is None:
                 feed["etfs"][sym] = {"status": "unavailable", "reason": note}
