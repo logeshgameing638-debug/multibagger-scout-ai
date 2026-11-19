@@ -97,18 +97,34 @@ def profile_symbol(symbol: str) -> dict:
     return prof
 
 
-def ranked_symbols(limit: int) -> list[str]:
+def ranked_symbols(limit: int, existing: dict) -> list[str]:
+    """Stale-priority rotation: never-profiled ranked symbols first (rank
+    order), then the stalest fetched_at, so coverage grows across runs and
+    old entries refresh instead of always re-fetching the same first batch.
+    """
     try:
         feed = json.loads(RANKING.read_text())
     except Exception:
         return []
     rows = feed.get("ranked") or feed.get("top") or []
-    out = []
+    ranked = []
     for r in rows:
         sym = (r.get("symbol") if isinstance(r, dict) else None) or (r if isinstance(r, str) else None)
         if sym and re.match(r"^[A-Z0-9&\-]{2,20}$", sym):
-            out.append(sym)
-    return out[:limit]
+            ranked.append(sym)
+    fresh, stale = [], []
+    for sym in ranked:
+        prev = existing.get(sym)
+        ts = (prev or {}).get("fetched_at")
+        try:
+            dt = datetime.strptime(ts, "%Y-%m-%d %H:%M IST") if ts else None
+        except ValueError:
+            dt = None
+        (stale if dt else fresh).append((dt or datetime.min, sym))
+    fresh_syms = [sym for _, sym in fresh]
+    stale.sort(key=lambda t: t[0])
+    ordered = fresh_syms + [sym for _, sym in stale]
+    return ordered[:limit]
 
 
 def main() -> None:
@@ -128,7 +144,7 @@ def main() -> None:
                   "reported (Rs crore), not independently audited by us."),
         "profiles": dict(existing),
     }
-    symbols = ranked_symbols(limit)
+    symbols = ranked_symbols(limit, feed["profiles"])
     done = 0
     for sym in symbols:
         prof = profile_symbol(sym)
