@@ -1691,5 +1691,8 @@
    "fetched_at": "2026-11-19 20:47 IST"
   }
  },
- "coverage": "20/25 profiled companies (batch of 25 this run; 7 last-good kept on transient fetch failure)"
+ "coverage": "20/25 profiled companies (batch of 25 this run; 7 last-good kept on transient fetch failure)",
+ "source_paused": true,
+ "paused_reason": "screener.in blocked automated fetches (403/429 pattern from CI runner and sandbox IPs on 2026-11-19); paused until a verified new access path or a different verified source. Existing entries keep their own fetched_at dates.",
+ "blocked_streak": 2
 }
