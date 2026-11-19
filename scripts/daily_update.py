@@ -30,6 +30,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 UNIVERSE_GLOB = "universe_nse_part*.csv"
 UNIVERSE_CSV = ROOT / "data" / "universe_nse.csv"
+BSE_UNIVERSE_CSV = ROOT / "data" / "universe_bse.csv"
 SNAPSHOT_DIR = ROOT / "data" / "snapshots"
 STATE_FILE = ROOT / "data" / "rotation_state.json"
 
@@ -61,8 +62,49 @@ def load_universe(path: Path | None = None) -> list[dict]:
                 symbol = (row.get("symbol") or "").strip().upper()
                 if symbol and symbol not in seen:
                     seen.add(symbol)
+                    row.setdefault("exchange", "NSE")
                     rows.append(row)
     return rows
+
+
+def load_bse_universe(path: Path | None = None) -> list[dict]:
+    """The committed BSE universe (regenerated from the latest bhavcopy by
+    scripts/update_bse_universe.py in the scheduled workflow). Empty list
+    when no BSE session has been committed yet - NSE rotation is unaffected."""
+    path = path or BSE_UNIVERSE_CSV
+    rows: list[dict] = []
+    if not path.exists():
+        return rows
+    with open(path, newline="") as handle:
+        for row in csv.DictReader(handle):
+            symbol = (row.get("symbol") or "").strip().upper()
+            if symbol:
+                row["symbol"] = symbol
+                row["exchange"] = "BSE"
+                rows.append(row)
+    return rows
+
+
+def interleave(nse_rows: list[dict], bse_rows: list[dict]) -> list[dict]:
+    """Spread BSE rows evenly through the NSE rotation so both exchanges get
+    steady coverage each cycle instead of BSE waiting for a full NSE pass."""
+    if not bse_rows:
+        return list(nse_rows)
+    if not nse_rows:
+        return list(bse_rows)
+    stride = max(1, len(nse_rows) // len(bse_rows))
+    combined: list[dict] = []
+    bse_iter = iter(bse_rows)
+    pending = next(bse_iter, None)
+    for i, row in enumerate(nse_rows):
+        combined.append(row)
+        if pending is not None and (i + 1) % stride == 0:
+            combined.append(pending)
+            pending = next(bse_iter, None)
+    combined.extend(list(bse_iter))
+    if pending is not None:
+        combined.append(pending)
+    return combined
 
 
 def load_state(path: Path | None = None) -> dict:
@@ -96,32 +138,36 @@ def _now_ist() -> str:
 def write_snapshot(symbol: str, payload: dict, directory: Path | None = None) -> Path:
     directory = directory or SNAPSHOT_DIR
     directory.mkdir(parents=True, exist_ok=True)
-    target = directory / f"{symbol}.json"
+    exchange = (payload.get("exchange") or "NSE").upper()
+    fname = f"{symbol}.json" if exchange == "NSE" else f"{exchange}_{symbol}.json"
+    target = directory / fname
     target.write_text(json.dumps(payload, indent=2, default=str))
     return target
 
 
-def research_one(symbol: str) -> dict:
+def research_one(symbol: str, exchange: str = "NSE") -> dict:
     """Run the real research pipeline for one stock and shape the snapshot.
 
     Uses the same engine as the app; the CI database is disposable and only
-    the JSON snapshot is committed back."""
+    the JSON snapshot is committed back. Exchange-aware: BSE symbols resolve
+    on Yahoo as <symbol>.BO via the connector's EXCHANGE_SUFFIX map."""
     from database import session_scope
     from database.models import Company, ResearchScore
     from engine.orchestrator import research_company
     from sqlalchemy import select
 
-    outcome = research_company(symbol, "NSE", generate_report=False)
+    exchange = (exchange or "NSE").upper()
+    outcome = research_company(symbol, exchange, generate_report=False)
     snapshot = {
         "symbol": symbol,
-        "exchange": "NSE",
+        "exchange": exchange,
         "updated_at": _now_ist(),
         "status": "complete" if outcome.get("status") == "success" else "partial",
         "agent_statuses": outcome.get("agent_statuses", {}),
     }
     with session_scope() as session:
         company = session.scalar(
-            select(Company).where(Company.symbol == symbol, Company.exchange == "NSE")
+            select(Company).where(Company.symbol == symbol, Company.exchange == exchange)
         )
         if company is not None:
             snapshot["name"] = company.name
@@ -179,8 +225,11 @@ def run_batch(batch_size: int = DEFAULT_BATCH_SIZE,
     from database import init_db
 
     init_db()  # fresh CI checkouts have no database file yet; idempotent
-    universe = load_universe()
+    nse_universe = load_universe()
+    bse_universe = load_bse_universe()
+    universe = interleave(nse_universe, bse_universe)
     state = load_state()
+    state["universe_breakdown"] = {"NSE": len(nse_universe), "BSE": len(bse_universe)}
     batch, state = pick_batch(universe, state, batch_size)
     started = time.monotonic()
     budget_seconds = time_budget_minutes * 60
@@ -192,13 +241,14 @@ def run_batch(batch_size: int = DEFAULT_BATCH_SIZE,
             skipped_budget += len(batch) - len(processed)
             break
         symbol = row["symbol"].strip().upper()
+        exchange = (row.get("exchange") or "NSE").strip().upper()
         try:
-            snapshot = researcher(symbol)
+            snapshot = researcher(symbol, exchange)
             status = snapshot.get("status", "partial")
         except Exception as exc:  # never let one stock kill the batch
             snapshot = {
                 "symbol": symbol,
-                "exchange": "NSE",
+                "exchange": exchange,
                 "name": row.get("name"),
                 "updated_at": _now_ist(),
                 # our own failure, not company data being unavailable
