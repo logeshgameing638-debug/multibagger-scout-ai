@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-19T13:44:55Z",
+  "as_of": "2026-11-19T13:54:57Z",
   "source": "api.mfapi.in (free mirror of AMFI NAV history)",
   "basis": "Computed on daily NAV history (source: api.mfapi.in, a free mirror of AMFI data), not exchange market price. Informational only - no trade entries, stop-losses or targets are derived from NAV. Market-price technical setups for ETFs remain unavailable on free data. Splits are adjusted only for corporate actions verified against exchange/issuer sources. NAV-change returns exclude dividend/distribution reinvestment and are not investor total returns.",
   "etfs": {
@@ -24,7 +24,7 @@
       "adjustment": "adjusted x10 pre-2019-12-19",
       "sessions": 2477,
       "adjustment_sources": [
-        "NSE circular CML42873, 11 Dec 2019 (Reliance Nippon Life AM ETF face-value splits, effective 19 Dec 2019); face value 10 -> 1"
+        "NSE circular CML42873, Listing ref 1046/2019, 11 Dec 2019 (Reliance Nippon Life AM ETF face-value splits, effective 19 Dec 2019): https://nsearchives.nseindia.com/content/circulars/CML42873.pdf; face value 10 -> 1"
       ]
     },
     "JUNIORBEES": {
@@ -69,7 +69,7 @@
       "adjustment": "adjusted x10 pre-2019-12-19",
       "sessions": 2477,
       "adjustment_sources": [
-        "NSE circular CML42873, 11 Dec 2019 (Reliance Nippon Life AM ETF face-value splits, effective 19 Dec 2019); face value 10 -> 1"
+        "NSE circular CML42873, Listing ref 1046/2019, 11 Dec 2019 (Reliance Nippon Life AM ETF face-value splits, effective 19 Dec 2019): https://nsearchives.nseindia.com/content/circulars/CML42873.pdf; face value 10 -> 1"
       ]
     },
     "PSUBNKBEES": {
@@ -93,7 +93,7 @@
       "adjustment": "adjusted x10 pre-2019-12-19",
       "sessions": 2477,
       "adjustment_sources": [
-        "NSE circular CML42873, 11 Dec 2019 (Reliance Nippon Life AM ETF face-value splits, effective 19 Dec 2019); face value 10 -> 1"
+        "NSE circular CML42873, Listing ref 1046/2019, 11 Dec 2019 (Reliance Nippon Life AM ETF face-value splits, effective 19 Dec 2019): https://nsearchives.nseindia.com/content/circulars/CML42873.pdf; face value 10 -> 1"
       ]
     },
     "INFRABEES": {
@@ -159,7 +159,7 @@
       "adjustment": "adjusted x100 pre-2019-12-19",
       "sessions": 2477,
       "adjustment_sources": [
-        "NSE circular CML42873, 11 Dec 2019 (Reliance Nippon Life AM ETF face-value splits, effective 19 Dec 2019); face value 100 -> 1"
+        "NSE circular CML42873, Listing ref 1046/2019, 11 Dec 2019 (Reliance Nippon Life AM ETF face-value splits, effective 19 Dec 2019): https://nsearchives.nseindia.com/content/circulars/CML42873.pdf; face value 100 -> 1"
       ]
     },
     "HNGSNGBEES": {
@@ -183,7 +183,7 @@
       "adjustment": "adjusted x10 pre-2019-12-19",
       "sessions": 2385,
       "adjustment_sources": [
-        "NSE circular CML42873, 11 Dec 2019 (Reliance Nippon Life AM ETF face-value splits, effective 19 Dec 2019); face value 10 -> 1"
+        "NSE circular CML42873, Listing ref 1046/2019, 11 Dec 2019 (Reliance Nippon Life AM ETF face-value splits, effective 19 Dec 2019): https://nsearchives.nseindia.com/content/circulars/CML42873.pdf; face value 10 -> 1"
       ]
     },
     "LIQUIDBEES": {
@@ -191,7 +191,7 @@
       "scheme_code": 140086,
       "nav": 1000.0,
       "nav_date": "2026-11-18",
-      "reason": "Fixed-NAV distribution product: the NAV is held constant by design and returns are paid out as distributions, so NAV-change indicators do not represent investor total return."
+      "reason": "Issuer product page: open-ended liquid scheme with daily dividend and compulsory reinvestment; NAV held ~1000 by design, so NAV-change indicators exclude distributions and do not represent investor total return. https://etf.nipponindiaim.com/Funds/details/11"
     },
     "CPSEETF": {
       "nav": 25.0233,
@@ -232,10 +232,10 @@
       "return_1y_pct": 16.88,
       "status": "ok",
       "scheme_code": 114984,
-      "adjustment": "adjusted x10 pre-2021-06-21",
+      "adjustment": "adjusted x10 pre-2021-06-17",
       "sessions": 3850,
       "adjustment_sources": [
-        "Motilal Oswal MF 1:10 unit split; NSE circular CML48556, 11 Jun 2021; Livemint 17 Jun 2021"
+        "NSE circular CML48556, Listing ref 0609/2021, 11 Jun 2021 (fund listed as symbol N100, now MON100): face value 10 -> 1, effective 17 Jun 2021: https://archives.nseindia.com/content/circulars/CML48556.pdf"
       ]
     },
     "MAFANG": {
@@ -281,28 +281,8 @@
       "sessions": 1159
     },
     "ABSLNN50ET": {
-      "nav": 75.7037,
-      "nav_date": "2026-11-18",
-      "ema_20": 74.9312,
-      "ema_50": 74.5825,
-      "ema_200": 73.9799,
-      "rsi_14": 56.2,
-      "trend_vs_ema50": "above",
-      "trend_vs_ema200": "above",
-      "nav_52w_high": 78.7453,
-      "nav_52w_low": 63.3228,
-      "pct_from_52w_high": -3.86,
-      "pct_from_52w_low": 19.55,
-      "return_1m_pct": 4.44,
-      "return_6m_pct": 3.98,
-      "return_1y_pct": 3.92,
-      "status": "ok",
-      "scheme_code": 145881,
-      "adjustment": "adjusted x10 pre-2021-11-25",
-      "sessions": 1951,
-      "adjustment_sources": [
-        "ABSL MF face value split 10 -> 1, ex-date 25 Nov 2021 (NSE ISIN-change circular; trendlyne corporate actions)"
-      ]
+      "status": "unavailable",
+      "reason": "unverified NAV jump 0.099x on 2021-11-29 - no matching verified corporate action; series left untouched and indicators withheld"
     },
     "PHARMABEES": {
       "nav": 28.9949,
@@ -368,5 +348,5 @@
       "sessions": 1164
     }
   },
-  "coverage": "16/17 ETFs with NAV indicators"
+  "coverage": "15/17 ETFs with NAV indicators"
 }
