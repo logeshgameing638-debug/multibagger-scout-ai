@@ -1,7 +1,7 @@
 {
   "symbol": "CARRARO",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:52 IST",
+  "updated_at": "2026-11-19 20:42 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Carraro India Limited",
   "scores": {
     "fundamental": 67.0,
-    "technical": 16.0,
+    "technical": 21.0,
     "data_confidence": 72.0,
     "risk": 0.0,
-    "long_term": 51.7,
-    "short_term": 31.3,
-    "balanced": 41.5
+    "long_term": 53.2,
+    "short_term": 34.8,
+    "balanced": 44.0
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 6,
         "max": 10,
         "detail": [
-          "P/E 19.3 (no industry benchmark): value 19.3 vs threshold 25"
+          "P/E 19.2 (no industry benchmark): value 19.2 vs threshold 25"
         ]
       },
       "industry_growth": {
@@ -103,15 +103,15 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 35: 0.0/7 (value 34.9 below all bands)",
+          "RSI 34: 0.0/7 (value 33.9 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 5,
         "max": 15,
         "detail": [
-          "relative volume: value 0.495 below all bands"
+          "relative volume: value 0.882 vs threshold 0.7"
         ]
       },
       "price_structure": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 34.853419708696194,
+    "rsi_14": 33.91535716547649,
     "breakout": false,
     "breakdown": false,
     "support": 452.79998779296875,

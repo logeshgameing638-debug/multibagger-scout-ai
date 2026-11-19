@@ -1,7 +1,7 @@
 {
   "symbol": "CANHLIFE",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:52 IST",
+  "updated_at": "2026-11-19 20:41 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "partial",
@@ -15,12 +15,12 @@
   "name": "Canara HSBC Life Insurance Company Limited",
   "scores": {
     "fundamental": 15.0,
-    "technical": 24.0,
+    "technical": 28.0,
     "data_confidence": 60.0,
-    "risk": 10.0,
-    "long_term": 17.7,
-    "short_term": 21.3,
-    "balanced": 19.5
+    "risk": 20.0,
+    "long_term": 18.9,
+    "short_term": 24.1,
+    "balanced": 21.5
   },
   "classification": "neutral",
   "explanation": {
@@ -71,7 +71,7 @@
         "points": 0.0,
         "max": 10,
         "detail": [
-          "P/E 88.0 (no industry benchmark): value 88 below all bands"
+          "P/E 88.8 (no industry benchmark): value 88.8 below all bands"
         ]
       },
       "industry_growth": {
@@ -98,10 +98,10 @@
         ]
       },
       "momentum": {
-        "points": 8.0,
+        "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 45: 0.0/7 (value 44.8 below all bands)",
+          "RSI 47: 4/7 (value 46.7 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -109,7 +109,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.301 below all bands"
+          "relative volume: value 0.408 below all bands"
         ]
       },
       "price_structure": {
@@ -176,10 +176,11 @@
     },
     "risk": {
       "findings_contribution": {
-        "points": 10,
+        "points": 20,
         "max": 100,
         "detail": [
-          "high_valuation (moderate): +10"
+          "high_valuation (moderate): +10",
+          "high_volatility (moderate): +10"
         ]
       },
       "classification": "MODERATE",
@@ -202,11 +203,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 44.83568979713785,
+    "rsi_14": 46.71983200469655,
     "breakout": false,
     "breakdown": false,
     "support": 119.16000366210938,
-    "resistance": 148.5,
+    "resistance": 149.8699951171875,
     "trend": "sideways"
   }
 }

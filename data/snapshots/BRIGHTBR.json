@@ -1,7 +1,7 @@
 {
   "symbol": "BRIGHTBR",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:16 IST",
+  "updated_at": "2026-11-19 20:39 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Bright Brothers Limited",
   "scores": {
     "fundamental": 39.0,
-    "technical": 30.0,
+    "technical": 34.0,
     "data_confidence": 62.0,
     "risk": 10.0,
-    "long_term": 36.3,
-    "short_term": 32.7,
-    "balanced": 34.5
+    "long_term": 37.5,
+    "short_term": 35.5,
+    "balanced": 36.5
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 6,
         "max": 10,
         "detail": [
-          "P/E 24.0 (no industry benchmark): value 24 vs threshold 25"
+          "P/E 24.9 (no industry benchmark): value 24.9 vs threshold 25"
         ]
       },
       "industry_growth": {
@@ -100,10 +100,10 @@
         ]
       },
       "momentum": {
-        "points": 8.0,
+        "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 44: 0.0/7 (value 43.8 below all bands)",
+          "RSI 48: 4/7 (value 48.5 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.0422 below all bands"
+          "relative volume: value 0.656 below all bands"
         ]
       },
       "price_structure": {
@@ -125,7 +125,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (68% of range)"
+          "price mid-range between S/R (66% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -204,11 +204,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 43.79494658015092,
+    "rsi_14": 48.485263418602315,
     "breakout": false,
     "breakdown": false,
     "support": 163.0,
-    "resistance": 228.0,
+    "resistance": 242.0,
     "trend": "sideways"
   }
 }

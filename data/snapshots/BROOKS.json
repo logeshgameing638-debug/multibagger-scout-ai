@@ -1,7 +1,7 @@
 {
   "symbol": "BROOKS",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:17 IST",
+  "updated_at": "2026-11-19 20:39 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Brooks Laboratories Limited",
   "scores": {
     "fundamental": 59.0,
-    "technical": 63.0,
+    "technical": 60.0,
     "data_confidence": 72.0,
     "risk": 20.0,
-    "long_term": 60.2,
-    "short_term": 61.8,
-    "balanced": 61.0
+    "long_term": 59.3,
+    "short_term": 59.7,
+    "balanced": 59.5
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 2.7 (no industry benchmark): value 2.71 vs threshold 15"
+          "P/E 2.7 (no industry benchmark): value 2.72 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -100,10 +100,10 @@
         ]
       },
       "momentum": {
-        "points": 15.0,
+        "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 56: 7/7 (value 55.8 vs threshold 55)",
+          "RSI 55: 4/7 (value 54.9 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 10,
         "max": 15,
         "detail": [
-          "relative volume: value 1.09 vs threshold 1"
+          "relative volume: value 1.2 vs threshold 1"
         ]
       },
       "price_structure": {
@@ -125,7 +125,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (61% of range)"
+          "price mid-range between S/R (59% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -205,7 +205,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 55.80605091885702,
+    "rsi_14": 54.93942462243905,
     "breakout": false,
     "breakdown": false,
     "support": 55.5,

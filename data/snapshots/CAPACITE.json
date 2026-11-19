@@ -1,7 +1,7 @@
 {
   "symbol": "CAPACITE",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:52 IST",
+  "updated_at": "2026-11-19 20:41 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 7.8 (no industry benchmark): value 7.78 vs threshold 15"
+          "P/E 8.0 (no industry benchmark): value 7.95 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 48: 4/7 (value 48.2 vs threshold 45)",
+          "RSI 49: 4/7 (value 48.6 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 5,
         "max": 15,
         "detail": [
-          "relative volume: value 0.737 vs threshold 0.7"
+          "relative volume: value 0.868 vs threshold 0.7"
         ]
       },
       "price_structure": {
@@ -204,11 +204,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 48.24294213753094,
+    "rsi_14": 48.56299262563476,
     "breakout": false,
     "breakdown": false,
     "support": 144.1999969482422,
-    "resistance": 186.75,
+    "resistance": 186.97000122070312,
     "trend": "bearish"
   }
 }

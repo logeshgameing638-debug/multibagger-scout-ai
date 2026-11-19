@@ -1,7 +1,7 @@
 {
   "symbol": "BNAGROCHEM",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:15 IST",
+  "updated_at": "2026-11-19 20:37 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.314 below all bands"
+          "relative volume: value 0.435 below all bands"
         ]
       },
       "price_structure": {

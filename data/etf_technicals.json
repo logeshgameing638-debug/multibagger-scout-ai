@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-19T14:06:39Z",
+  "as_of": "2026-11-19T15:14:44Z",
   "source": "api.mfapi.in (free mirror of AMFI NAV history)",
   "basis": "Computed on daily NAV history (source: api.mfapi.in, a free mirror of AMFI data), not exchange market price. Informational only - no trade entries, stop-losses or targets are derived from NAV. Market-price technical setups for ETFs remain unavailable on free data. Splits are adjusted only for corporate actions verified against exchange/issuer sources. NAV-change returns exclude dividend/distribution reinvestment and are not investor total returns.",
   "etfs": {

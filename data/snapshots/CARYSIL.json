@@ -1,7 +1,7 @@
 {
   "symbol": "CARYSIL",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:52 IST",
+  "updated_at": "2026-11-19 20:42 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -14,13 +14,13 @@
   },
   "name": "Carysil Limited",
   "scores": {
-    "fundamental": 52.0,
-    "technical": 24.0,
+    "fundamental": 55.0,
+    "technical": 29.0,
     "data_confidence": 72.0,
     "risk": 0.0,
-    "long_term": 43.6,
-    "short_term": 32.4,
-    "balanced": 38.0
+    "long_term": 47.2,
+    "short_term": 36.8,
+    "balanced": 42.0
   },
   "classification": "neutral",
   "explanation": {
@@ -70,10 +70,10 @@
         ]
       },
       "valuation": {
-        "points": 3,
+        "points": 6,
         "max": 10,
         "detail": [
-          "P/E 25.0 (no industry benchmark): value 25 vs threshold 40"
+          "P/E 24.9 (no industry benchmark): value 24.9 vs threshold 25"
         ]
       },
       "industry_growth": {
@@ -103,15 +103,15 @@
         "points": 8.0,
         "max": 15,
         "detail": [
-          "RSI 40: 0.0/7 (value 40.5 below all bands)",
+          "RSI 39: 0.0/7 (value 39.4 below all bands)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 5,
         "max": 15,
         "detail": [
-          "relative volume: value 0.638 below all bands"
+          "relative volume: value 0.839 vs threshold 0.7"
         ]
       },
       "price_structure": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 40.486233970173636,
+    "rsi_14": 39.39639672361559,
     "breakout": false,
     "breakdown": false,
     "support": 923.0999755859375,

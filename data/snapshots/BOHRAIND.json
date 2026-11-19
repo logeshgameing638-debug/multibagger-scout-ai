@@ -1,7 +1,7 @@
 {
   "symbol": "BOHRAIND",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:15 IST",
+  "updated_at": "2026-11-19 20:37 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "partial",
@@ -9,14 +9,14 @@
     "business": "success",
     "valuation": "partial",
     "risk": "success",
-    "news": "success",
+    "news": "failed",
     "scoring": "success"
   },
   "name": "Bohra Industries Limited",
   "scores": {
     "fundamental": 16.0,
     "technical": 25.0,
-    "data_confidence": 72.0,
+    "data_confidence": 70.0,
     "risk": 40.0,
     "long_term": 18.7,
     "short_term": 22.3,
@@ -103,7 +103,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 41: 0.0/7 (value 41.5 below all bands)",
+          "RSI 43: 0.0/7 (value 43.4 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.00386 below all bands"
+          "relative volume: value 0.0822 below all bands"
         ]
       },
       "price_structure": {
@@ -125,7 +125,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (34% of range)"
+          "price mid-range between S/R (39% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -138,13 +138,13 @@
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 12,
+        "points": 10,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: ok"
+          "rss_news: failed/unused"
         ]
       },
       "completeness": {
@@ -206,7 +206,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 41.46111362303415,
+    "rsi_14": 43.38849952464484,
     "breakout": false,
     "breakdown": false,
     "support": 11.600000381469727,

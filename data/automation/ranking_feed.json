@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-19 15:36 IST",
-  "rotation_last_run_at": "2026-11-19 15:36 IST",
+  "generated_at": "2026-11-19 20:44 IST",
+  "rotation_last_run_at": "2026-11-19 20:44 IST",
   "cycle_started_at": "2026-11-19 09:36 IST",
-  "universe_size": 2404,
-  "ranked_count": 675,
+  "universe_size": 4945,
+  "ranked_count": 732,
   "excluded_count": 0,
   "top": [
     {
@@ -73,6 +73,22 @@
       "rank": 4
     },
     {
+      "symbol": "CEMPRO",
+      "exchange": "NSE",
+      "verdict": "neutral - balanced 61.5, stored risk 10.0",
+      "name": "Cemindia Projects Limited",
+      "balanced": 61.5,
+      "long_term": 61.7,
+      "short_term": 61.3,
+      "risk": 10.0,
+      "data_confidence": 72.0,
+      "classification": "neutral",
+      "status": "complete",
+      "data_date": "2026-11-19 20:44 IST",
+      "missing_agents": [],
+      "rank": 5
+    },
+    {
       "symbol": "AJAXENGG",
       "exchange": "NSE",
       "verdict": "neutral - balanced 61.0, stored risk 0.0",
@@ -85,22 +101,6 @@
       "classification": "neutral",
       "status": "complete",
       "data_date": "2026-11-19 09:57 IST",
-      "missing_agents": [],
-      "rank": 5
-    },
-    {
-      "symbol": "BROOKS",
-      "exchange": "NSE",
-      "verdict": "neutral - balanced 61.0, stored risk 20.0",
-      "name": "Brooks Laboratories Limited",
-      "balanced": 61.0,
-      "long_term": 60.2,
-      "short_term": 61.8,
-      "risk": 20.0,
-      "data_confidence": 72.0,
-      "classification": "neutral",
-      "status": "complete",
-      "data_date": "2026-11-19 14:17 IST",
       "missing_agents": [],
       "rank": 6
     },
@@ -185,6 +185,22 @@
       "rank": 11
     },
     {
+      "symbol": "BROOKS",
+      "exchange": "NSE",
+      "verdict": "neutral - balanced 59.5, stored risk 20.0",
+      "name": "Brooks Laboratories Limited",
+      "balanced": 59.5,
+      "long_term": 59.3,
+      "short_term": 59.7,
+      "risk": 20.0,
+      "data_confidence": 72.0,
+      "classification": "neutral",
+      "status": "complete",
+      "data_date": "2026-11-19 20:39 IST",
+      "missing_agents": [],
+      "rank": 12
+    },
+    {
       "symbol": "ECOSMOBLTY",
       "exchange": "NSE",
       "verdict": "neutral - balanced 59.5, stored risk 10.0",
@@ -198,7 +214,7 @@
       "status": "complete",
       "data_date": "2026-11-19 15:31 IST",
       "missing_agents": [],
-      "rank": 12
+      "rank": 13
     },
     {
       "symbol": "ANTHEM",
@@ -214,7 +230,7 @@
       "status": "complete",
       "data_date": "2026-11-19 10:00 IST",
       "missing_agents": [],
-      "rank": 13
+      "rank": 14
     },
     {
       "symbol": "EMAMILTD",
@@ -230,7 +246,7 @@
       "status": "complete",
       "data_date": "2026-11-19 15:32 IST",
       "missing_agents": [],
-      "rank": 14
+      "rank": 15
     },
     {
       "symbol": "EVEREADY",
@@ -248,7 +264,7 @@
       "missing_agents": [
         "valuation"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "symbol": "ACE",
@@ -264,7 +280,7 @@
       "status": "complete",
       "data_date": "2026-11-19 09:38 IST",
       "missing_agents": [],
-      "rank": 16
+      "rank": 17
     },
     {
       "symbol": "DABUR",
@@ -280,7 +296,7 @@
       "status": "complete",
       "data_date": "2026-11-19 14:56 IST",
       "missing_agents": [],
-      "rank": 17
+      "rank": 18
     },
     {
       "symbol": "ETHOSLTD",
@@ -296,7 +312,7 @@
       "status": "complete",
       "data_date": "2026-11-19 15:34 IST",
       "missing_agents": [],
-      "rank": 18
+      "rank": 19
     },
     {
       "symbol": "BBTC",
@@ -312,7 +328,7 @@
       "status": "complete",
       "data_date": "2026-11-19 14:11 IST",
       "missing_agents": [],
-      "rank": 19
+      "rank": 20
     },
     {
       "symbol": "COLPAL",
@@ -328,7 +344,7 @@
       "status": "complete",
       "data_date": "2026-11-19 14:55 IST",
       "missing_agents": [],
-      "rank": 20
+      "rank": 21
     },
     {
       "symbol": "BLS",
@@ -342,9 +358,25 @@
       "data_confidence": 72.0,
       "classification": "neutral",
       "status": "complete",
-      "data_date": "2026-11-19 14:15 IST",
+      "data_date": "2026-11-19 20:36 IST",
       "missing_agents": [],
-      "rank": 21
+      "rank": 22
+    },
+    {
+      "symbol": "BRITANNIA",
+      "exchange": "NSE",
+      "verdict": "neutral - balanced 57.5, stored risk 0.0",
+      "name": "Britannia Industries Limited",
+      "balanced": 57.5,
+      "long_term": 56.5,
+      "short_term": 58.5,
+      "risk": 0.0,
+      "data_confidence": 72.0,
+      "classification": "neutral",
+      "status": "complete",
+      "data_date": "2026-11-19 20:39 IST",
+      "missing_agents": [],
+      "rank": 23
     },
     {
       "symbol": "DOMS",
@@ -362,7 +394,7 @@
       "missing_agents": [
         "valuation"
       ],
-      "rank": 22
+      "rank": 24
     },
     {
       "symbol": "ENGINERSIN",
@@ -377,38 +409,6 @@
       "classification": "neutral",
       "status": "complete",
       "data_date": "2026-11-19 15:33 IST",
-      "missing_agents": [],
-      "rank": 23
-    },
-    {
-      "symbol": "CEMPRO",
-      "exchange": "NSE",
-      "verdict": "neutral - balanced 56.5, stored risk 10.0",
-      "name": "Cemindia Projects Limited",
-      "balanced": 56.5,
-      "long_term": 58.7,
-      "short_term": 54.3,
-      "risk": 10.0,
-      "data_confidence": 72.0,
-      "classification": "neutral",
-      "status": "complete",
-      "data_date": "2026-11-19 14:53 IST",
-      "missing_agents": [],
-      "rank": 24
-    },
-    {
-      "symbol": "CPEDU",
-      "exchange": "NSE",
-      "verdict": "neutral - balanced 56.5, stored risk 10.0",
-      "name": "Career Point Edutech Ltd.",
-      "balanced": 56.5,
-      "long_term": 62.3,
-      "short_term": 50.7,
-      "risk": 10.0,
-      "data_confidence": 72.0,
-      "classification": "neutral",
-      "status": "complete",
-      "data_date": "2026-11-19 14:55 IST",
       "missing_agents": [],
       "rank": 25
     }

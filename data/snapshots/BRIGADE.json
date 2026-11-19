@@ -1,7 +1,7 @@
 {
   "symbol": "BRIGADE",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:16 IST",
+  "updated_at": "2026-11-19 20:39 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 25.6 (no industry benchmark): value 25.6 vs threshold 40"
+          "P/E 25.5 (no industry benchmark): value 25.5 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 52: 4/7 (value 52.4 vs threshold 45)",
+          "RSI 53: 4/7 (value 53.3 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.411 below all bands"
+          "relative volume: value 0.512 below all bands"
         ]
       },
       "price_structure": {
@@ -125,7 +125,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (40% of range)"
+          "price mid-range between S/R (42% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -206,7 +206,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 52.35428427893302,
+    "rsi_14": 53.34781072075684,
     "breakout": false,
     "breakdown": false,
     "support": 515.0499877929688,

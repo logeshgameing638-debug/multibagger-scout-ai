@@ -1,7 +1,7 @@
 {
   "symbol": "BSHSL",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:51 IST",
+  "updated_at": "2026-11-19 20:40 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Bombay Super Hybrid Seeds Limited",
   "scores": {
     "fundamental": 41.0,
-    "technical": 40.0,
+    "technical": 44.0,
     "data_confidence": 72.0,
     "risk": 40.0,
-    "long_term": 40.7,
-    "short_term": 40.3,
-    "balanced": 40.5
+    "long_term": 41.9,
+    "short_term": 43.1,
+    "balanced": 42.5
   },
   "classification": "high_risk",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 30.8 (no industry benchmark): value 30.8 vs threshold 40"
+          "P/E 31.5 (no industry benchmark): value 31.5 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -100,10 +100,10 @@
         ]
       },
       "momentum": {
-        "points": 0.0,
+        "points": 4.0,
         "max": 15,
         "detail": [
-          "RSI 43: 0.0/7 (value 43.4 below all bands)",
+          "RSI 47: 4/7 (value 47 vs threshold 45)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "relative volume: value 1.92 vs threshold 1.5"
+          "relative volume: value 2.56 vs threshold 1.5"
         ]
       },
       "price_structure": {
@@ -125,7 +125,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (45% of range)"
+          "price mid-range between S/R (52% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -206,11 +206,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 43.39445245856851,
+    "rsi_14": 47.02042441508954,
     "breakout": false,
     "breakdown": false,
     "support": 75.55999755859375,
-    "resistance": 93.69999694824219,
+    "resistance": 95.12000274658203,
     "trend": "bearish"
   }
 }

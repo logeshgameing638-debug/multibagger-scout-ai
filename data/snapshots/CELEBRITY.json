@@ -1,7 +1,7 @@
 {
   "symbol": "CELEBRITY",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:53 IST",
+  "updated_at": "2026-11-19 20:43 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Celebrity Fashions Limited",
   "scores": {
     "fundamental": 20.0,
-    "technical": 26.0,
+    "technical": 34.0,
     "data_confidence": 72.0,
     "risk": 65.0,
-    "long_term": 21.8,
-    "short_term": 24.2,
-    "balanced": 23.0
+    "long_term": 24.2,
+    "short_term": 29.8,
+    "balanced": 27.0
   },
   "classification": "high_risk,attractive_valuation",
   "explanation": {
@@ -100,18 +100,18 @@
         ]
       },
       "momentum": {
-        "points": 4.0,
+        "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 47: 4/7 (value 46.5 vs threshold 45)",
-          "MACD histogram non-positive/missing: 0.0/8"
+          "RSI 48: 4/7 (value 47.6 vs threshold 45)",
+          "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.327 below all bands"
+          "relative volume: value 0.492 below all bands"
         ]
       },
       "price_structure": {
@@ -125,7 +125,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (38% of range)"
+          "price mid-range between S/R (41% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -207,7 +207,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 46.536936821461175,
+    "rsi_14": 47.58123878400489,
     "breakout": false,
     "breakdown": false,
     "support": 5.559999942779541,

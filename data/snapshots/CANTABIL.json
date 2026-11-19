@@ -1,7 +1,7 @@
 {
   "symbol": "CANTABIL",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:52 IST",
+  "updated_at": "2026-11-19 20:41 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -103,7 +103,7 @@
         "points": 4.0,
         "max": 15,
         "detail": [
-          "RSI 49: 4/7 (value 49.2 vs threshold 45)",
+          "RSI 49: 4/7 (value 49.4 vs threshold 45)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.266 below all bands"
+          "relative volume: value 0.335 below all bands"
         ]
       },
       "price_structure": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 49.24317315765222,
+    "rsi_14": 49.37079327748056,
     "breakout": false,
     "breakdown": false,
     "support": 226.5,

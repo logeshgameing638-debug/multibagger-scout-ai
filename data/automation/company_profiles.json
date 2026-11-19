@@ -1,99 +1,12 @@
 {
- "as_of": "2026-11-19 19:54 IST",
+ "as_of": "2026-11-19 20:45 IST",
  "source": "screener.in company pages (public HTML)",
  "basis": "Written descriptions and per-period results as published on the source page on the fetch date; figures are company-reported (Rs crore), not independently audited by us.",
  "profiles": {
   "EICHERMOT": {
-   "status": "ok",
-   "source_url": "https://www.screener.in/company/EICHERMOT/consolidated/",
-   "consolidated": true,
-   "name": "Eicher Motors Ltd",
-   "description": "Eicher Motors Limited, incorporated in 1982, is the listed company of the Eicher Group in India and a leading player in the Indian automobile industry and the global leader in middleweight motorcycles. Eicher has a joint venture with Sweden\u2019s AB Volvo to create Volvo Eicher Commercial Vehicles Limited (VECV). VECV is engaged in truck and bus operations, auto components business, and technical consulting services business [1]",
-   "quarterly": [
-    {
-     "period": "Dec 2024",
-     "revenue_cr": 4973.0,
-     "net_profit_cr": 1170.0
-    },
-    {
-     "period": "Mar 2025",
-     "revenue_cr": 5241.0,
-     "net_profit_cr": 1362.0
-    },
-    {
-     "period": "Jun 2025",
-     "revenue_cr": 5042.0,
-     "net_profit_cr": 1205.0
-    },
-    {
-     "period": "Sep 2025",
-     "revenue_cr": 6172.0,
-     "net_profit_cr": 1369.0
-    },
-    {
-     "period": "Dec 2025",
-     "revenue_cr": 6114.0,
-     "net_profit_cr": 1421.0
-    },
-    {
-     "period": "Mar 2026",
-     "revenue_cr": 6080.0,
-     "net_profit_cr": 1520.0
-    },
-    {
-     "period": "Jun 2026",
-     "revenue_cr": 6632.0,
-     "net_profit_cr": 1463.0
-    },
-    {
-     "period": "Sep 2026",
-     "revenue_cr": 7422.0,
-     "net_profit_cr": 1573.0
-    }
-   ],
-   "annual": [
-    {
-     "period": "Mar 2019",
-     "revenue_cr": 8965.0,
-     "net_profit_cr": 1960.0
-    },
-    {
-     "period": "Mar 2020",
-     "revenue_cr": 9797.0,
-     "net_profit_cr": 2203.0
-    },
-    {
-     "period": "Mar 2021",
-     "revenue_cr": 9154.0,
-     "net_profit_cr": 1827.0
-    },
-    {
-     "period": "Mar 2022",
-     "revenue_cr": 8720.0,
-     "net_profit_cr": 1347.0
-    },
-    {
-     "period": "Mar 2023",
-     "revenue_cr": 10298.0,
-     "net_profit_cr": 1677.0
-    },
-    {
-     "period": "Mar 2024",
-     "revenue_cr": 14442.0,
-     "net_profit_cr": 2914.0
-    },
-    {
-     "period": "Mar 2025",
-     "revenue_cr": 16536.0,
-     "net_profit_cr": 4001.0
-    },
-    {
-     "period": "Mar 2026",
-     "revenue_cr": 18870.0,
-     "net_profit_cr": 4734.0
-    }
-   ],
-   "fetched_at": "2026-11-19 19:42 IST"
+   "status": "unavailable",
+   "reason": "no screener.in company page found",
+   "fetched_at": "2026-11-19 20:45 IST"
   },
   "EIHOTEL": {
    "status": "ok",
@@ -185,201 +98,22 @@
      "net_profit_cr": 657.0
     }
    ],
-   "fetched_at": "2026-11-19 19:42 IST"
+   "fetched_at": "2026-11-19 20:45 IST"
   },
   "DIVISLAB": {
-   "status": "ok",
-   "source_url": "https://www.screener.in/company/DIVISLAB/consolidated/",
-   "consolidated": true,
-   "name": "Divis Laboratories Ltd",
-   "description": "Incorporated in 1990, Divis Laboratories Ltd manufactures and exports API's, Intermediates and Nutraceutical ingredients [1]",
-   "quarterly": [
-    {
-     "period": "Dec 2024",
-     "revenue_cr": 2319.0,
-     "net_profit_cr": 589.0
-    },
-    {
-     "period": "Mar 2025",
-     "revenue_cr": 2585.0,
-     "net_profit_cr": 662.0
-    },
-    {
-     "period": "Jun 2025",
-     "revenue_cr": 2410.0,
-     "net_profit_cr": 545.0
-    },
-    {
-     "period": "Sep 2025",
-     "revenue_cr": 2715.0,
-     "net_profit_cr": 689.0
-    },
-    {
-     "period": "Dec 2025",
-     "revenue_cr": 2604.0,
-     "net_profit_cr": 583.0
-    },
-    {
-     "period": "Mar 2026",
-     "revenue_cr": 2831.0,
-     "net_profit_cr": 751.0
-    },
-    {
-     "period": "Jun 2026",
-     "revenue_cr": 3080.0,
-     "net_profit_cr": 902.0
-    },
-    {
-     "period": "Sep 2026",
-     "revenue_cr": 3676.0,
-     "net_profit_cr": 1127.0
-    }
-   ],
-   "annual": [
-    {
-     "period": "Mar 2019",
-     "revenue_cr": 4946.0,
-     "net_profit_cr": 1353.0
-    },
-    {
-     "period": "Mar 2020",
-     "revenue_cr": 5394.0,
-     "net_profit_cr": 1377.0
-    },
-    {
-     "period": "Mar 2021",
-     "revenue_cr": 6969.0,
-     "net_profit_cr": 1984.0
-    },
-    {
-     "period": "Mar 2022",
-     "revenue_cr": 8960.0,
-     "net_profit_cr": 2960.0
-    },
-    {
-     "period": "Mar 2023",
-     "revenue_cr": 7768.0,
-     "net_profit_cr": 1823.0
-    },
-    {
-     "period": "Mar 2024",
-     "revenue_cr": 7845.0,
-     "net_profit_cr": 1600.0
-    },
-    {
-     "period": "Mar 2025",
-     "revenue_cr": 9360.0,
-     "net_profit_cr": 2191.0
-    },
-    {
-     "period": "Mar 2026",
-     "revenue_cr": 10560.0,
-     "net_profit_cr": 2568.0
-    }
-   ],
-   "fetched_at": "2026-11-19 19:42 IST"
+   "status": "unavailable",
+   "reason": "no screener.in company page found",
+   "fetched_at": "2026-11-19 20:45 IST"
   },
   "BANCOINDIA": {
-   "status": "ok",
-   "source_url": "https://www.screener.in/company/BANCOINDIA/consolidated/",
-   "consolidated": true,
-   "name": "Banco Products (India) Ltd",
-   "description": "Banco Products (India) Ltd manufactures and supplies engine cooling modules and systems for automotive and industrial applications in both the domestic and international markets. It was Incorporated in 1961, promoted by Mr. Mehul K. Patel who has more than 40 years of experience in the automotive industry [1]",
-   "quarterly": [
-    {
-     "period": "Dec 2024",
-     "revenue_cr": 639.0,
-     "net_profit_cr": 31.0
-    },
-    {
-     "period": "Mar 2025",
-     "revenue_cr": 875.0,
-     "net_profit_cr": 154.0
-    },
-    {
-     "period": "Jun 2025",
-     "revenue_cr": 970.0,
-     "net_profit_cr": 110.0
-    },
-    {
-     "period": "Sep 2025",
-     "revenue_cr": 1038.0,
-     "net_profit_cr": 139.0
-    },
-    {
-     "period": "Dec 2025",
-     "revenue_cr": 789.0,
-     "net_profit_cr": 86.0
-    },
-    {
-     "period": "Mar 2026",
-     "revenue_cr": 1099.0,
-     "net_profit_cr": 147.0
-    },
-    {
-     "period": "Jun 2026",
-     "revenue_cr": 1184.0,
-     "net_profit_cr": 122.0
-    },
-    {
-     "period": "Sep 2026",
-     "revenue_cr": 1265.0,
-     "net_profit_cr": 165.0
-    }
-   ],
-   "annual": [
-    {
-     "period": "Mar 2019",
-     "revenue_cr": 1567.0,
-     "net_profit_cr": 69.0
-    },
-    {
-     "period": "Mar 2020",
-     "revenue_cr": 1422.0,
-     "net_profit_cr": 77.0
-    },
-    {
-     "period": "Mar 2021",
-     "revenue_cr": 1533.0,
-     "net_profit_cr": 114.0
-    },
-    {
-     "period": "Mar 2022",
-     "revenue_cr": 1958.0,
-     "net_profit_cr": 152.0
-    },
-    {
-     "period": "Mar 2023",
-     "revenue_cr": 2332.0,
-     "net_profit_cr": 236.0
-    },
-    {
-     "period": "Mar 2024",
-     "revenue_cr": 2768.0,
-     "net_profit_cr": 271.0
-    },
-    {
-     "period": "Mar 2025",
-     "revenue_cr": 3213.0,
-     "net_profit_cr": 392.0
-    },
-    {
-     "period": "Mar 2026",
-     "revenue_cr": 3896.0,
-     "net_profit_cr": 482.0
-    }
-   ],
-   "fetched_at": "2026-11-19 19:42 IST"
+   "status": "unavailable",
+   "reason": "no screener.in company page found",
+   "fetched_at": "2026-11-19 20:45 IST"
   },
   "AJAXENGG": {
-   "status": "ok",
-   "source_url": "https://www.screener.in/company/AJAXENGG/consolidated/",
-   "consolidated": true,
-   "name": "Ajax Engineering Ltd",
-   "description": "Incorporated in July 1992, Ajax Engineering Limited manufactures a wide range of concrete equipment and services across the value chain. [1]",
-   "quarterly": [],
-   "annual": [],
-   "fetched_at": "2026-11-19 19:54 IST"
+   "status": "unavailable",
+   "reason": "no screener.in company page found",
+   "fetched_at": "2026-11-19 20:45 IST"
   },
   "BROOKS": {
    "status": "ok",
@@ -461,7 +195,7 @@
      "net_profit_cr": -24.0
     }
    ],
-   "fetched_at": "2026-11-19 19:54 IST"
+   "fetched_at": "2026-11-19 20:45 IST"
   },
   "COFORGE": {
    "status": "ok",
@@ -553,264 +287,871 @@
      "net_profit_cr": 1745.0
     }
    ],
-   "fetched_at": "2026-11-19 19:54 IST"
+   "fetched_at": "2026-11-19 20:45 IST"
   },
   "ALLDIGI": {
+   "status": "unavailable",
+   "reason": "no screener.in company page found",
+   "fetched_at": "2026-11-19 20:45 IST"
+  },
+  "CUPID": {
+   "status": "unavailable",
+   "reason": "no screener.in company page found",
+   "fetched_at": "2026-11-19 20:45 IST"
+  },
+  "ENDURANCE": {
+   "status": "unavailable",
+   "reason": "no screener.in company page found",
+   "fetched_at": "2026-11-19 20:45 IST"
+  },
+  "CEMPRO": {
    "status": "ok",
-   "source_url": "https://www.screener.in/company/ALLDIGI/consolidated/",
+   "source_url": "https://www.screener.in/company/CEMPRO/consolidated/",
    "consolidated": true,
-   "name": "Alldigi Tech Ltd",
-   "description": "Alldigi Tech Limited (formerly Allsec Technologies), incorporated in 1998, is a global business process and HR technology company. It is a 73.39% subsidiary of Digitide Solutions, backed by Fairfax. Management frames its strategy as moving T&D from a payroll managed-services provider to an AI-first HR technology company with its own SaaS IP, and moving BPM from labour arbitrage to outcome-led, AI-augmented services. [1]",
+   "name": "Cemindia Projects Ltd",
+   "description": "Cemindia Projects Ltd. is engaged in the business of providing design, engineering, procurement and construction (EPC) services for infrastructure projects in India. [1]",
    "quarterly": [
     {
      "period": "Dec 2024",
-     "revenue_cr": 139.0,
-     "net_profit_cr": 20.0
+     "revenue_cr": 2270.0,
+     "net_profit_cr": 87.0
     },
     {
      "period": "Mar 2025",
-     "revenue_cr": 146.0,
-     "net_profit_cr": 19.0
+     "revenue_cr": 2532.0,
+     "net_profit_cr": 113.0
     },
     {
      "period": "Jun 2025",
-     "revenue_cr": 144.0,
-     "net_profit_cr": 15.0
+     "revenue_cr": 2576.0,
+     "net_profit_cr": 137.0
     },
     {
      "period": "Sep 2025",
-     "revenue_cr": 147.0,
-     "net_profit_cr": 18.0
+     "revenue_cr": 2195.0,
+     "net_profit_cr": 108.0
     },
     {
      "period": "Dec 2025",
-     "revenue_cr": 153.0,
-     "net_profit_cr": 21.0
+     "revenue_cr": 2315.0,
+     "net_profit_cr": 111.0
     },
     {
      "period": "Mar 2026",
-     "revenue_cr": 155.0,
-     "net_profit_cr": 29.0
+     "revenue_cr": 2973.0,
+     "net_profit_cr": 242.0
     },
     {
      "period": "Jun 2026",
-     "revenue_cr": 150.0,
-     "net_profit_cr": 18.0
+     "revenue_cr": 2721.0,
+     "net_profit_cr": 141.0
     },
     {
      "period": "Sep 2026",
-     "revenue_cr": 153.0,
-     "net_profit_cr": 27.0
+     "revenue_cr": 2749.0,
+     "net_profit_cr": 131.0
+    }
+   ],
+   "annual": [
+    {
+     "period": "Dec 2017",
+     "revenue_cr": 2061.0,
+     "net_profit_cr": 73.0
+    },
+    {
+     "period": "Mar 2020",
+     "revenue_cr": 3170.0,
+     "net_profit_cr": 83.0
+    },
+    {
+     "period": "Mar 2021",
+     "revenue_cr": 2861.0,
+     "net_profit_cr": 44.0
+    },
+    {
+     "period": "Mar 2022",
+     "revenue_cr": 2728.0,
+     "net_profit_cr": 16.0
+    },
+    {
+     "period": "Mar 2023",
+     "revenue_cr": 3809.0,
+     "net_profit_cr": 69.0
+    },
+    {
+     "period": "Mar 2024",
+     "revenue_cr": 5091.0,
+     "net_profit_cr": 125.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 7718.0,
+     "net_profit_cr": 274.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 9246.0,
+     "net_profit_cr": 373.0
+    }
+   ],
+   "fetched_at": "2026-11-19 20:45 IST"
+  },
+  "BBOX": {
+   "status": "ok",
+   "source_url": "https://www.screener.in/company/BBOX/consolidated/",
+   "consolidated": true,
+   "name": "Black Box Ltd",
+   "description": "AGC Networks Ltd. (AGC), incorporated in 1986 by Tata Telecom Pvt. Ltd. to manufacture telecommunication equipment. It is currently held by Essar Telecom Ltd. Over the years, AGC evolved into an information and communication (ICT) solutions provider and integrator with a differentiated vertical approach in business communication systems, applications and services mainly within India.The company is present at multiple geographies such as Middle East, Africa, North America, Australia, New Zealand, Singapore, Philippines and UK servicing over 8000+ customers. [1] [2]",
+   "quarterly": [
+    {
+     "period": "Dec 2024",
+     "revenue_cr": 1502.0,
+     "net_profit_cr": 56.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 1545.0,
+     "net_profit_cr": 60.0
+    },
+    {
+     "period": "Jun 2025",
+     "revenue_cr": 1387.0,
+     "net_profit_cr": 47.0
+    },
+    {
+     "period": "Sep 2025",
+     "revenue_cr": 1585.0,
+     "net_profit_cr": 56.0
+    },
+    {
+     "period": "Dec 2025",
+     "revenue_cr": 1660.0,
+     "net_profit_cr": 50.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 1691.0,
+     "net_profit_cr": 65.0
+    },
+    {
+     "period": "Jun 2026",
+     "revenue_cr": 1718.0,
+     "net_profit_cr": 56.0
+    },
+    {
+     "period": "Sep 2026",
+     "revenue_cr": 1936.0,
+     "net_profit_cr": 73.0
     }
    ],
    "annual": [
     {
      "period": "Mar 2019",
-     "revenue_cr": 261.0,
-     "net_profit_cr": 16.0
+     "revenue_cr": 1853.0,
+     "net_profit_cr": -79.0
     },
     {
      "period": "Mar 2020",
-     "revenue_cr": 294.0,
-     "net_profit_cr": 45.0
+     "revenue_cr": 4994.0,
+     "net_profit_cr": -80.0
     },
     {
      "period": "Mar 2021",
-     "revenue_cr": 277.0,
-     "net_profit_cr": 35.0
+     "revenue_cr": 4674.0,
+     "net_profit_cr": 78.0
     },
     {
      "period": "Mar 2022",
-     "revenue_cr": 317.0,
-     "net_profit_cr": 36.0
+     "revenue_cr": 5370.0,
+     "net_profit_cr": 73.0
     },
     {
      "period": "Mar 2023",
-     "revenue_cr": 390.0,
-     "net_profit_cr": 49.0
+     "revenue_cr": 6288.0,
+     "net_profit_cr": 24.0
     },
     {
      "period": "Mar 2024",
-     "revenue_cr": 469.0,
-     "net_profit_cr": 64.0
+     "revenue_cr": 6282.0,
+     "net_profit_cr": 138.0
     },
     {
      "period": "Mar 2025",
-     "revenue_cr": 546.0,
-     "net_profit_cr": 83.0
+     "revenue_cr": 5967.0,
+     "net_profit_cr": 205.0
     },
     {
      "period": "Mar 2026",
-     "revenue_cr": 599.0,
-     "net_profit_cr": 82.0
+     "revenue_cr": 6322.0,
+     "net_profit_cr": 218.0
     }
    ],
-   "fetched_at": "2026-11-19 19:54 IST"
+   "fetched_at": "2026-11-19 20:45 IST"
   },
-  "CUPID": {
+  "ECOSMOBLTY": {
    "status": "ok",
-   "source_url": "https://www.screener.in/company/CUPID/consolidated/",
+   "source_url": "https://www.screener.in/company/ECOSMOBLTY/consolidated/",
    "consolidated": true,
-   "name": "Cupid Ltd",
-   "description": "Established in 1993, CUPID Limited is India's premier manufacturer of male and female condoms, personal lubricant, and IVD kits. [1]",
+   "name": "Ecos (India) Mobility & Hospitality Ltd",
+   "description": "Incorporated in February 1996, ECOS (India) Mobility & Hospitality Limited provides car rental service in India. [1]",
    "quarterly": [
     {
      "period": "Dec 2024",
-     "revenue_cr": 46.0,
-     "net_profit_cr": 11.0
+     "revenue_cr": 168.0,
+     "net_profit_cr": 13.0
     },
     {
      "period": "Mar 2025",
-     "revenue_cr": 56.0,
-     "net_profit_cr": 12.0
+     "revenue_cr": 177.0,
+     "net_profit_cr": 18.0
     },
     {
      "period": "Jun 2025",
-     "revenue_cr": 60.0,
-     "net_profit_cr": 15.0
+     "revenue_cr": 181.0,
+     "net_profit_cr": 13.0
     },
     {
      "period": "Sep 2025",
-     "revenue_cr": 84.0,
+     "revenue_cr": 214.0,
+     "net_profit_cr": 15.0
+    },
+    {
+     "period": "Dec 2025",
+     "revenue_cr": 206.0,
+     "net_profit_cr": 14.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 207.0,
+     "net_profit_cr": 16.0
+    },
+    {
+     "period": "Jun 2026",
+     "revenue_cr": 211.0,
+     "net_profit_cr": 15.0
+    },
+    {
+     "period": "Sep 2026",
+     "revenue_cr": 235.0,
+     "net_profit_cr": 18.0
+    }
+   ],
+   "annual": [
+    {
+     "period": "Mar 2020",
+     "revenue_cr": 128.0,
+     "net_profit_cr": 5.0
+    },
+    {
+     "period": "Mar 2021",
+     "revenue_cr": 401.0,
+     "net_profit_cr": 2.0
+    },
+    {
+     "period": "Mar 2022",
+     "revenue_cr": 102.0,
+     "net_profit_cr": 3.0
+    },
+    {
+     "period": "Mar 2023",
+     "revenue_cr": 145.0,
+     "net_profit_cr": 10.0
+    },
+    {
+     "period": "Mar 2024",
+     "revenue_cr": 418.0,
+     "net_profit_cr": 44.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 547.0,
+     "net_profit_cr": 63.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 642.0,
+     "net_profit_cr": 60.0
+    }
+   ],
+   "fetched_at": "2026-11-19 20:45 IST"
+  },
+  "ANTHEM": {
+   "status": "ok",
+   "source_url": "https://www.screener.in/company/ANTHEM/consolidated/",
+   "consolidated": true,
+   "name": "Anthem Biosciences Ltd",
+   "description": "Incorporated in 2006, Anthem Biosciences Ltd is in the business of providing CRDMO services and the manufacture and sale of specialty ingredients. [1]",
+   "quarterly": [
+    {
+     "period": "Dec 2024",
+     "revenue_cr": 498.0,
+     "net_profit_cr": 124.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 483.0,
+     "net_profit_cr": 83.0
+    },
+    {
+     "period": "Jun 2025",
+     "revenue_cr": 540.0,
+     "net_profit_cr": 136.0
+    },
+    {
+     "period": "Sep 2025",
+     "revenue_cr": 550.0,
+     "net_profit_cr": 173.0
+    },
+    {
+     "period": "Dec 2025",
+     "revenue_cr": 423.0,
+     "net_profit_cr": 93.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 611.0,
+     "net_profit_cr": 190.0
+    },
+    {
+     "period": "Jun 2026",
+     "revenue_cr": 418.0,
+     "net_profit_cr": 120.0
+    },
+    {
+     "period": "Sep 2026",
+     "revenue_cr": 594.0,
+     "net_profit_cr": 211.0
+    }
+   ],
+   "annual": [
+    {
+     "period": "Mar 2020",
+     "revenue_cr": 626.0,
+     "net_profit_cr": 77.0
+    },
+    {
+     "period": "Mar 2021",
+     "revenue_cr": 633.0,
+     "net_profit_cr": 93.0
+    },
+    {
+     "period": "Mar 2022",
+     "revenue_cr": 1103.0,
+     "net_profit_cr": 271.0
+    },
+    {
+     "period": "Mar 2023",
+     "revenue_cr": 1231.0,
+     "net_profit_cr": 406.0
+    },
+    {
+     "period": "Mar 2024",
+     "revenue_cr": 1057.0,
+     "net_profit_cr": 385.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 1419.0,
+     "net_profit_cr": 367.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 1845.0,
+     "net_profit_cr": 451.0
+    }
+   ],
+   "fetched_at": "2026-11-19 20:45 IST"
+  },
+  "EMAMILTD": {
+   "status": "ok",
+   "source_url": "https://www.screener.in/company/EMAMILTD/consolidated/",
+   "consolidated": true,
+   "name": "Emami Ltd",
+   "description": "Emami is engaged in manufacturing & marketing of personal care & healthcare products with an enviable portfolio of household brand names such as BoroPlus, Navratna, Fair and Handsome, Zandu Balm, Kesh King, Zandu Pancharishta, Mentho Plus Balm and others.(Source : 201903 Annual Report Page No: 193)",
+   "quarterly": [
+    {
+     "period": "Dec 2024",
+     "revenue_cr": 1049.0,
+     "net_profit_cr": 279.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 963.0,
+     "net_profit_cr": 162.0
+    },
+    {
+     "period": "Jun 2025",
+     "revenue_cr": 904.0,
+     "net_profit_cr": 164.0
+    },
+    {
+     "period": "Sep 2025",
+     "revenue_cr": 799.0,
+     "net_profit_cr": 148.0
+    },
+    {
+     "period": "Dec 2025",
+     "revenue_cr": 1152.0,
+     "net_profit_cr": 319.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 925.0,
+     "net_profit_cr": 143.0
+    },
+    {
+     "period": "Jun 2026",
+     "revenue_cr": 1039.0,
+     "net_profit_cr": 139.0
+    },
+    {
+     "period": "Sep 2026",
+     "revenue_cr": 1088.0,
+     "net_profit_cr": 146.0
+    }
+   ],
+   "annual": [
+    {
+     "period": "Mar 2019",
+     "revenue_cr": 2695.0,
+     "net_profit_cr": 303.0
+    },
+    {
+     "period": "Mar 2020",
+     "revenue_cr": 2655.0,
+     "net_profit_cr": 302.0
+    },
+    {
+     "period": "Mar 2021",
+     "revenue_cr": 2881.0,
+     "net_profit_cr": 455.0
+    },
+    {
+     "period": "Mar 2022",
+     "revenue_cr": 3192.0,
+     "net_profit_cr": 837.0
+    },
+    {
+     "period": "Mar 2023",
+     "revenue_cr": 3406.0,
+     "net_profit_cr": 627.0
+    },
+    {
+     "period": "Mar 2024",
+     "revenue_cr": 3578.0,
+     "net_profit_cr": 724.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 3809.0,
+     "net_profit_cr": 803.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 3780.0,
+     "net_profit_cr": 775.0
+    }
+   ],
+   "fetched_at": "2026-11-19 20:45 IST"
+  },
+  "EVEREADY": {
+   "status": "ok",
+   "source_url": "https://www.screener.in/company/EVEREADY/consolidated/",
+   "consolidated": true,
+   "name": "Eveready Industries India Ltd",
+   "description": "Incorporated in 1934, Eveready Industries India Limited is one of the leading manufacturers of dry cell batteries in India and offers products such as batteries, flashlights, lighting solutions, and home appliances. [1]",
+   "quarterly": [
+    {
+     "period": "Dec 2024",
+     "revenue_cr": 334.0,
+     "net_profit_cr": 13.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 299.0,
+     "net_profit_cr": 10.0
+    },
+    {
+     "period": "Jun 2025",
+     "revenue_cr": 374.0,
+     "net_profit_cr": 30.0
+    },
+    {
+     "period": "Sep 2025",
+     "revenue_cr": 387.0,
+     "net_profit_cr": -8.0
+    },
+    {
+     "period": "Dec 2025",
+     "revenue_cr": 367.0,
+     "net_profit_cr": 7.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 327.0,
+     "net_profit_cr": 142.0
+    },
+    {
+     "period": "Jun 2026",
+     "revenue_cr": 408.0,
+     "net_profit_cr": 37.0
+    },
+    {
+     "period": "Sep 2026",
+     "revenue_cr": 428.0,
+     "net_profit_cr": 32.0
+    }
+   ],
+   "annual": [
+    {
+     "period": "Mar 2019",
+     "revenue_cr": 1507.0,
+     "net_profit_cr": 48.0
+    },
+    {
+     "period": "Mar 2020",
+     "revenue_cr": 1221.0,
+     "net_profit_cr": 178.0
+    },
+    {
+     "period": "Mar 2021",
+     "revenue_cr": 1249.0,
+     "net_profit_cr": -312.0
+    },
+    {
+     "period": "Mar 2022",
+     "revenue_cr": 1207.0,
+     "net_profit_cr": 46.0
+    },
+    {
+     "period": "Mar 2023",
+     "revenue_cr": 1328.0,
+     "net_profit_cr": 28.0
+    },
+    {
+     "period": "Mar 2024",
+     "revenue_cr": 1314.0,
+     "net_profit_cr": 67.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 1345.0,
+     "net_profit_cr": 82.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 1455.0,
+     "net_profit_cr": 172.0
+    }
+   ],
+   "fetched_at": "2026-11-19 20:45 IST"
+  },
+  "ACE": {
+   "status": "ok",
+   "source_url": "https://www.screener.in/company/ACE/consolidated/",
+   "consolidated": true,
+   "name": "Action Construction Equipment Ltd",
+   "description": "Action Construction Equipment Ltd is engaged in the business of manufacturing and marketing of hydraulic mobile cranes, mobile tower cranes, material handling equipment like forklifts, road construction equipment like backhoe loaders, compactors, motor graders and agriculture equipment like tractors, harvesters, rotavators, etc.",
+   "quarterly": [
+    {
+     "period": "Dec 2024",
+     "revenue_cr": 875.0,
+     "net_profit_cr": 112.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 961.0,
+     "net_profit_cr": 119.0
+    },
+    {
+     "period": "Jun 2025",
+     "revenue_cr": 652.0,
+     "net_profit_cr": 98.0
+    },
+    {
+     "period": "Sep 2025",
+     "revenue_cr": 744.0,
+     "net_profit_cr": 90.0
+    },
+    {
+     "period": "Dec 2025",
+     "revenue_cr": 855.0,
+     "net_profit_cr": 116.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 1029.0,
+     "net_profit_cr": 111.0
+    },
+    {
+     "period": "Jun 2026",
+     "revenue_cr": 786.0,
+     "net_profit_cr": 119.0
+    },
+    {
+     "period": "Sep 2026",
+     "revenue_cr": 886.0,
+     "net_profit_cr": 164.0
+    }
+   ],
+   "annual": [
+    {
+     "period": "Mar 2019",
+     "revenue_cr": 1343.0,
+     "net_profit_cr": 56.0
+    },
+    {
+     "period": "Mar 2020",
+     "revenue_cr": 1156.0,
+     "net_profit_cr": 52.0
+    },
+    {
+     "period": "Mar 2021",
+     "revenue_cr": 1227.0,
+     "net_profit_cr": 80.0
+    },
+    {
+     "period": "Mar 2022",
+     "revenue_cr": 1630.0,
+     "net_profit_cr": 105.0
+    },
+    {
+     "period": "Mar 2023",
+     "revenue_cr": 2160.0,
+     "net_profit_cr": 173.0
+    },
+    {
+     "period": "Mar 2024",
+     "revenue_cr": 2914.0,
+     "net_profit_cr": 328.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 3327.0,
+     "net_profit_cr": 409.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 3280.0,
+     "net_profit_cr": 415.0
+    }
+   ],
+   "fetched_at": "2026-11-19 20:45 IST"
+  },
+  "DABUR": {
+   "status": "unavailable",
+   "reason": "no screener.in company page found",
+   "fetched_at": "2026-11-19 20:45 IST"
+  },
+  "ETHOSLTD": {
+   "status": "ok",
+   "source_url": "https://www.screener.in/company/ETHOSLTD/consolidated/",
+   "consolidated": true,
+   "name": "Ethos Ltd",
+   "description": "Ethos Limited (\u201cEthos\u201d) was incorporated on November 5, 2007 and promoted by KDDL Limited. Ethos is India\u2019s largest luxury and premium watch retail player",
+   "quarterly": [
+    {
+     "period": "Dec 2024",
+     "revenue_cr": 370.0,
+     "net_profit_cr": 29.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 311.0,
+     "net_profit_cr": 23.0
+    },
+    {
+     "period": "Jun 2025",
+     "revenue_cr": 346.0,
+     "net_profit_cr": 19.0
+    },
+    {
+     "period": "Sep 2025",
+     "revenue_cr": 383.0,
      "net_profit_cr": 24.0
     },
     {
      "period": "Dec 2025",
-     "revenue_cr": 94.0,
-     "net_profit_cr": 33.0
+     "revenue_cr": 469.0,
+     "net_profit_cr": 31.0
     },
     {
      "period": "Mar 2026",
-     "revenue_cr": 120.0,
-     "net_profit_cr": 36.0
+     "revenue_cr": 414.0,
+     "net_profit_cr": 23.0
     },
     {
      "period": "Jun 2026",
-     "revenue_cr": 155.0,
-     "net_profit_cr": 44.0
+     "revenue_cr": 462.0,
+     "net_profit_cr": 29.0
     },
     {
      "period": "Sep 2026",
-     "revenue_cr": 188.0,
-     "net_profit_cr": 56.0
-    }
-   ],
-   "annual": [
-    {
-     "period": "Mar 2021",
-     "revenue_cr": 44.0,
-     "net_profit_cr": 8.0
-    },
-    {
-     "period": "Mar 2024",
-     "revenue_cr": 61.0,
-     "net_profit_cr": 16.0
-    },
-    {
-     "period": "Mar 2025",
-     "revenue_cr": 84.0,
-     "net_profit_cr": 21.0
-    },
-    {
-     "period": "Mar 2026",
-     "revenue_cr": 81.0,
-     "net_profit_cr": 17.0
-    }
-   ],
-   "fetched_at": "2026-11-19 19:54 IST"
-  },
-  "ENDURANCE": {
-   "status": "ok",
-   "source_url": "https://www.screener.in/company/ENDURANCE/consolidated/",
-   "consolidated": true,
-   "name": "Endurance Technologies Ltd",
-   "description": "Endurance Technologies is engaged in the business of manufacturing and selling of aluminium die casting (including alloy wheel), suspension, transmission, braking and embedded electronic products with operations spread across India and Europe with 19 plants in India and 14 in Europe.",
-   "quarterly": [
-    {
-     "period": "Dec 2024",
-     "revenue_cr": 2859.0,
-     "net_profit_cr": 184.0
-    },
-    {
-     "period": "Mar 2025",
-     "revenue_cr": 2963.0,
-     "net_profit_cr": 245.0
-    },
-    {
-     "period": "Jun 2025",
-     "revenue_cr": 3319.0,
-     "net_profit_cr": 226.0
-    },
-    {
-     "period": "Sep 2025",
-     "revenue_cr": 3583.0,
-     "net_profit_cr": 227.0
-    },
-    {
-     "period": "Dec 2025",
-     "revenue_cr": 3608.0,
-     "net_profit_cr": 222.0
-    },
-    {
-     "period": "Mar 2026",
-     "revenue_cr": 4086.0,
-     "net_profit_cr": 276.0
-    },
-    {
-     "period": "Jun 2026",
-     "revenue_cr": 4315.0,
-     "net_profit_cr": 245.0
-    },
-    {
-     "period": "Sep 2026",
-     "revenue_cr": 4786.0,
-     "net_profit_cr": 274.0
+     "revenue_cr": 499.0,
+     "net_profit_cr": 29.0
     }
    ],
    "annual": [
     {
      "period": "Mar 2019",
-     "revenue_cr": 7509.0,
-     "net_profit_cr": 495.0
+     "revenue_cr": 325.0,
+     "net_profit_cr": -6.0
     },
     {
      "period": "Mar 2020",
-     "revenue_cr": 6915.0,
-     "net_profit_cr": 566.0
+     "revenue_cr": 356.0,
+     "net_profit_cr": 4.0
     },
     {
      "period": "Mar 2021",
-     "revenue_cr": 6547.0,
-     "net_profit_cr": 520.0
+     "revenue_cr": 444.0,
+     "net_profit_cr": 13.0
     },
     {
      "period": "Mar 2022",
-     "revenue_cr": 7549.0,
-     "net_profit_cr": 461.0
+     "revenue_cr": 458.0,
+     "net_profit_cr": -1.0
     },
     {
      "period": "Mar 2023",
-     "revenue_cr": 8804.0,
-     "net_profit_cr": 480.0
+     "revenue_cr": 387.0,
+     "net_profit_cr": 5.0
     },
     {
      "period": "Mar 2024",
-     "revenue_cr": 10241.0,
-     "net_profit_cr": 680.0
+     "revenue_cr": 577.0,
+     "net_profit_cr": 23.0
     },
     {
      "period": "Mar 2025",
-     "revenue_cr": 11561.0,
-     "net_profit_cr": 836.0
+     "revenue_cr": 789.0,
+     "net_profit_cr": 60.0
     },
     {
      "period": "Mar 2026",
-     "revenue_cr": 14596.0,
-     "net_profit_cr": 952.0
+     "revenue_cr": 999.0,
+     "net_profit_cr": 83.0
     }
    ],
-   "fetched_at": "2026-11-19 19:54 IST"
+   "fetched_at": "2026-11-19 20:45 IST"
+  },
+  "BBTC": {
+   "status": "unavailable",
+   "reason": "no screener.in company page found",
+   "fetched_at": "2026-11-19 20:45 IST"
+  },
+  "COLPAL": {
+   "status": "unavailable",
+   "reason": "no screener.in company page found",
+   "fetched_at": "2026-11-19 20:45 IST"
+  },
+  "BLS": {
+   "status": "unavailable",
+   "reason": "no screener.in company page found",
+   "fetched_at": "2026-11-19 20:45 IST"
+  },
+  "BRITANNIA": {
+   "status": "ok",
+   "source_url": "https://www.screener.in/company/BRITANNIA/consolidated/",
+   "consolidated": true,
+   "name": "Britannia Industries Ltd",
+   "description": "Britannia Industries is one of Indias leading food companies with a 100 year legacy and annual revenues in excess of Rs. 16000 Cr. Britannia is among the most trusted food brands, and manufactures Indias favorite brands like Good Day, Tiger, NutriChoice, Milk Bikis and Marie Gold which are household names in India. Britannias product portfolio includes Biscuits, Bread, Cakes, Rusk, and Dairy products including Cheese, Beverages, Milk and Yoghurt.",
+   "quarterly": [
+    {
+     "period": "Dec 2024",
+     "revenue_cr": 4593.0,
+     "net_profit_cr": 582.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 4432.0,
+     "net_profit_cr": 559.0
+    },
+    {
+     "period": "Jun 2025",
+     "revenue_cr": 4622.0,
+     "net_profit_cr": 520.0
+    },
+    {
+     "period": "Sep 2025",
+     "revenue_cr": 4841.0,
+     "net_profit_cr": 655.0
+    },
+    {
+     "period": "Dec 2025",
+     "revenue_cr": 4970.0,
+     "net_profit_cr": 682.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 4719.0,
+     "net_profit_cr": 680.0
+    },
+    {
+     "period": "Jun 2026",
+     "revenue_cr": 5000.0,
+     "net_profit_cr": 593.0
+    },
+    {
+     "period": "Sep 2026",
+     "revenue_cr": 5598.0,
+     "net_profit_cr": 726.0
+    }
+   ],
+   "annual": [
+    {
+     "period": "Mar 2019",
+     "revenue_cr": 11055.0,
+     "net_profit_cr": 1155.0
+    },
+    {
+     "period": "Mar 2020",
+     "revenue_cr": 11600.0,
+     "net_profit_cr": 1394.0
+    },
+    {
+     "period": "Mar 2021",
+     "revenue_cr": 13136.0,
+     "net_profit_cr": 1851.0
+    },
+    {
+     "period": "Mar 2022",
+     "revenue_cr": 14136.0,
+     "net_profit_cr": 1516.0
+    },
+    {
+     "period": "Mar 2023",
+     "revenue_cr": 16301.0,
+     "net_profit_cr": 2316.0
+    },
+    {
+     "period": "Mar 2024",
+     "revenue_cr": 16769.0,
+     "net_profit_cr": 2134.0
+    },
+    {
+     "period": "Mar 2025",
+     "revenue_cr": 17943.0,
+     "net_profit_cr": 2178.0
+    },
+    {
+     "period": "Mar 2026",
+     "revenue_cr": 19152.0,
+     "net_profit_cr": 2537.0
+    }
+   ],
+   "fetched_at": "2026-11-19 20:45 IST"
+  },
+  "DOMS": {
+   "status": "unavailable",
+   "reason": "no screener.in company page found",
+   "fetched_at": "2026-11-19 20:45 IST"
+  },
+  "ENGINERSIN": {
+   "status": "unavailable",
+   "reason": "no screener.in company page found",
+   "fetched_at": "2026-11-19 20:45 IST"
   }
  },
- "coverage": "10/10 profiled companies (batch of 6 this run)"
+ "coverage": "12/25 profiled companies (batch of 25 this run)"
 }

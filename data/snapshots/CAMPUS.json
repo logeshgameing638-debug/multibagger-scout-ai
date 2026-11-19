@@ -1,7 +1,7 @@
 {
   "symbol": "CAMPUS",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:52 IST",
+  "updated_at": "2026-11-19 20:41 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Campus Activewear Limited",
   "scores": {
     "fundamental": 54.5,
-    "technical": 44.0,
+    "technical": 49.0,
     "data_confidence": 72.0,
     "risk": 0.0,
-    "long_term": 51.3,
-    "short_term": 47.1,
-    "balanced": 49.2
+    "long_term": 52.8,
+    "short_term": 50.6,
+    "balanced": 51.7
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 38.4 (no industry benchmark): value 38.4 vs threshold 40"
+          "P/E 38.1 (no industry benchmark): value 38.1 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -103,15 +103,15 @@
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 52: 4/7 (value 51.6 vs threshold 45)",
+          "RSI 49: 4/7 (value 49.3 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 10,
+        "points": 15,
         "max": 15,
         "detail": [
-          "relative volume: value 1.41 vs threshold 1"
+          "relative volume: value 1.62 vs threshold 1.5"
         ]
       },
       "price_structure": {
@@ -125,7 +125,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (57% of range)"
+          "price mid-range between S/R (55% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -204,11 +204,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 51.58785707070792,
+    "rsi_14": 49.263694370367304,
     "breakout": false,
     "breakdown": false,
     "support": 182.14999389648438,
-    "resistance": 211.36000061035156,
+    "resistance": 209.5,
     "trend": "sideways"
   }
 }

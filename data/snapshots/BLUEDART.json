@@ -1,7 +1,7 @@
 {
   "symbol": "BLUEDART",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:15 IST",
+  "updated_at": "2026-11-19 20:36 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 34.5 (no industry benchmark): value 34.5 vs threshold 40"
+          "P/E 34.4 (no industry benchmark): value 34.4 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 50: 4/7 (value 50.4 vs threshold 45)",
+          "RSI 51: 4/7 (value 51 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.22 below all bands"
+          "relative volume: value 0.344 below all bands"
         ]
       },
       "price_structure": {
@@ -125,7 +125,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (64% of range)"
+          "price mid-range between S/R (65% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 50.35448674915396,
+    "rsi_14": 50.98345656557169,
     "breakout": false,
     "breakdown": false,
     "support": 4141.0,

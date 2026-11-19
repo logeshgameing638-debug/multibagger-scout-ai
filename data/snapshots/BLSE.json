@@ -1,7 +1,7 @@
 {
   "symbol": "BLSE",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:15 IST",
+  "updated_at": "2026-11-19 20:36 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 0.0,
         "max": 10,
         "detail": [
-          "P/E 61.3 (no industry benchmark): value 61.3 below all bands"
+          "P/E 61.6 (no industry benchmark): value 61.6 below all bands"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 48: 4/7 (value 47.8 vs threshold 45)",
+          "RSI 49: 4/7 (value 48.9 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.158 below all bands"
+          "relative volume: value 0.344 below all bands"
         ]
       },
       "price_structure": {
@@ -125,7 +125,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (59% of range)"
+          "price mid-range between S/R (63% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 47.80557788596445,
+    "rsi_14": 48.85159042009085,
     "breakout": false,
     "breakdown": false,
     "support": 136.8000030517578,

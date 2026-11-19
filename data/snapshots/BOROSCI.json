@@ -1,7 +1,7 @@
 {
   "symbol": "BOROSCI",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:16 IST",
+  "updated_at": "2026-11-19 20:38 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Borosil Scientific Limited",
   "scores": {
     "fundamental": 56.0,
-    "technical": 34.0,
+    "technical": 39.0,
     "data_confidence": 72.0,
     "risk": 10.0,
-    "long_term": 49.4,
-    "short_term": 40.6,
-    "balanced": 45.0
+    "long_term": 50.9,
+    "short_term": 44.1,
+    "balanced": 47.5
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 6,
         "max": 10,
         "detail": [
-          "P/E 20.9 (no industry benchmark): value 20.9 vs threshold 25"
+          "P/E 21.2 (no industry benchmark): value 21.2 vs threshold 25"
         ]
       },
       "industry_growth": {
@@ -103,15 +103,15 @@
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 47: 4/7 (value 47.2 vs threshold 45)",
+          "RSI 46: 4/7 (value 45.8 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 5,
         "max": 15,
         "detail": [
-          "relative volume: value 0.636 below all bands"
+          "relative volume: value 0.759 vs threshold 0.7"
         ]
       },
       "price_structure": {
@@ -125,7 +125,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (49% of range)"
+          "price mid-range between S/R (45% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 47.164134361313714,
+    "rsi_14": 45.84574631782923,
     "breakout": false,
     "breakdown": false,
     "support": 100.05999755859375,

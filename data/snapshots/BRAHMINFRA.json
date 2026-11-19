@@ -1,7 +1,7 @@
 {
   "symbol": "BRAHMINFRA",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:16 IST",
+  "updated_at": "2026-11-19 20:39 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 7.3 (no industry benchmark): value 7.32 vs threshold 15"
+          "P/E 7.3 (no industry benchmark): value 7.33 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 4.0,
         "max": 15,
         "detail": [
-          "RSI 48: 4/7 (value 48.5 vs threshold 45)",
+          "RSI 49: 4/7 (value 48.7 vs threshold 45)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.232 below all bands"
+          "relative volume: value 0.301 below all bands"
         ]
       },
       "price_structure": {
@@ -125,7 +125,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (61% of range)"
+          "price mid-range between S/R (62% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -205,7 +205,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 48.49111540128548,
+    "rsi_14": 48.717050701552054,
     "breakout": false,
     "breakdown": false,
     "support": 138.0,

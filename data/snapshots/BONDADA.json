@@ -1,7 +1,7 @@
 {
   "symbol": "BONDADA",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:15 IST",
+  "updated_at": "2026-11-19 20:37 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -9,14 +9,14 @@
     "business": "success",
     "valuation": "partial",
     "risk": "success",
-    "news": "failed",
+    "news": "success",
     "scoring": "success"
   },
   "name": "Bondada Engineering Limited",
   "scores": {
     "fundamental": 66.0,
     "technical": 2.0,
-    "data_confidence": 55.0,
+    "data_confidence": 57.0,
     "risk": 0.0,
     "long_term": 46.8,
     "short_term": 21.2,
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 13.3 (no industry benchmark): value 13.3 vs threshold 15"
+          "P/E 13.5 (no industry benchmark): value 13.5 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -138,13 +138,13 @@
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 10,
+        "points": 12,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: failed/unused"
+          "rss_news: ok"
         ]
       },
       "completeness": {

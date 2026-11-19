@@ -9,7 +9,7 @@
     "website": "https://www.ajax-engg.com"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-19 10:06:15.060625+00:00",
+    "generated_at": "2026-11-19 15:14:28.296912+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -73,7 +73,7 @@
       "2026-06-30",
       "2026-09-30"
     ],
-    "_run_id": 1079
+    "_run_id": 1086
   },
   "4_technical_analysis": {
     "assessment": "bullish",
@@ -105,8 +105,8 @@
         "upper": 611.9706542569318,
         "lower": 513.8943542879902
       },
-      "volume_sma_20": 82993.9,
-      "relative_volume": 2.1308674492944664,
+      "volume_sma_20": 82993.65,
+      "relative_volume": 2.130813622487986,
       "support": 523.75,
       "resistance": 635.0,
       "price_structure": {
@@ -168,7 +168,7 @@
       "expansion projects / order book",
       "management quality and corporate governance depth"
     ],
-    "_run_id": 1081
+    "_run_id": 1088
   },
   "6_valuation": {
     "multiples": {
@@ -204,7 +204,7 @@
     "dcf_not_calculated_reason": null,
     "margin_of_safety_vs_base_case": -0.2618771581033425,
     "current_price": 624.9500122070312,
-    "_run_id": 1082
+    "_run_id": 1089
   },
   "7_news_intelligence": {
     "items": [
@@ -317,6 +317,15 @@
         "verification_status": "unverified"
       },
       {
+        "headline": "Ajax Engineering IPO To Open On Feb 10 - www.fintechbiznews.com",
+        "source": "www.fintechbiznews.com",
+        "published": "Wed, 05 Feb 2025 18:10:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOF8tVnlzNm5HUnFHS3RuY0llblJDXzVPd3hJT2FpMlFUcUhZZEx1VmZ5MW9kb0JVTExFTTc3Wk5xLVhzNWVGQkJhaWd6QnMybmFLMWhYUVZYZFhzX1E2QkRzVExBeW4xSEpfN0hLTGRaWnlBb1Atckt1Q2dUVWdDV0VqMEptYnVmSGVjMg?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
         "headline": "Ajax Engineering IPO opens on February 10; check price band, lot size, key dates and more - Upstox",
         "source": "Upstox",
         "published": "Tue, 04 Feb 2025 08:00:00 GMT",
@@ -375,15 +384,6 @@
         "source": "scanx.trade",
         "published": "Mon, 28 Sep 2026 07:00:00 GMT",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVEh4VkY0RFVoeVBoWmY0YnR3amIwSVJrVmRXbkRKUmZvTXZNaV9nbFVMWnJKSVRDLVVhaE5tN0N2T1B5Nl9CQ3dwNWxZcVAxd3BDbEdYb1BNN1pnZGRQUWFuQ2lCV3hUVUF6dHJIQVY3bUtfNExHZDdfNVhuU2ZBWUlhX0d4dW5oUUNYbVdLSFd6aDhucE5pTHpGUkE1SWduYktZYWR0UDhOTFMxa2ww?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Ajax Engineering IPO To Open On Feb 10 - www.fintechbiznews.com",
-        "source": "www.fintechbiznews.com",
-        "published": "Wed, 05 Feb 2025 18:10:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOF8tVnlzNm5HUnFHS3RuY0llblJDXzVPd3hJT2FpMlFUcUhZZEx1VmZ5MW9kb0JVTExFTTc3Wk5xLVhzNWVGQkJhaWd6QnMybmFLMWhYUVZYZFhzX1E2QkRzVExBeW4xSEpfN0hLTGRaWnlBb1Atckt1Q2dUVWdDV0VqMEptYnVmSGVjMg?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -455,7 +455,7 @@
     "stored_new": 27,
     "duplicates_skipped": 0,
     "note": "headlines are unverified signals, not confirmed financial evidence",
-    "_run_id": 1084
+    "_run_id": 1091
   },
   "8_risk_analysis": {
     "classification": "LOW",
@@ -472,7 +472,7 @@
     "atr_pct_of_price": 0.033294763919805924,
     "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
     "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
-    "_run_id": 1083
+    "_run_id": 1090
   },
   "9_fundamental_score": 66.0,
   "10_technical_score": 66.0,
@@ -549,7 +549,7 @@
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-19 15:36 IST",
+    "generated_at": "2026-11-19 20:44 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-19 09:57 IST"
   }

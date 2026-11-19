@@ -1,7 +1,7 @@
 {
   "symbol": "BLUESTARCO",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:15 IST",
+  "updated_at": "2026-11-19 20:36 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 0.0,
         "max": 10,
         "detail": [
-          "P/E 67.5 (no industry benchmark): value 67.5 below all bands"
+          "P/E 67.9 (no industry benchmark): value 67.9 below all bands"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 70: 7/7 (value 70.1 vs threshold 55)",
+          "RSI 71: 7/7 (value 70.8 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "relative volume: value 3.94 vs threshold 1.5"
+          "relative volume: value 5.12 vs threshold 1.5"
         ]
       },
       "price_structure": {
@@ -205,11 +205,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 70.13618392671913,
+    "rsi_14": 70.82495349822705,
     "breakout": false,
     "breakdown": false,
     "support": 1480.0999755859375,
-    "resistance": 1756.800048828125,
+    "resistance": 1775.199951171875,
     "trend": "sideways"
   }
 }

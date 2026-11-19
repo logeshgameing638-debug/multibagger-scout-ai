@@ -9,7 +9,7 @@
     "website": "https://www.bancoindia.com"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-19 10:06:12.607576+00:00",
+    "generated_at": "2026-11-19 15:14:23.590584+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -103,8 +103,8 @@
         "upper": 730.6232090326567,
         "lower": 521.5417812017182
       },
-      "volume_sma_20": 389805.4,
-      "relative_volume": 0.9130504605631424,
+      "volume_sma_20": 389804.0,
+      "relative_volume": 0.9129819088567588,
       "support": 545.0,
       "resistance": 731.5499877929688,
       "price_structure": {
@@ -279,6 +279,15 @@
         "verification_status": "unverified"
       },
       {
+        "headline": "Banco Products (India) Limited (BANCOINDIA.BO) stock price, news, quote and history - Yahoo Finance UK",
+        "source": "Yahoo Finance UK",
+        "published": "Sat, 20 May 2017 21:05:55 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBGbGZyQVJBYjJFQ0ttNkFjdEtRbVBPUmZBT2MwTXE0ZWpwN09LLWxqUXcxUEtBN2kwNml4aDh5M25yUVZVNzE0czhjeWZIQW9fbmM0c3VYWW9ybmNrMFE?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
         "headline": "Banco Products (India)'s (NSE:BANCOINDIA) five-year total shareholder returns outpace the underlying earnings growth - Simply Wall St",
         "source": "Simply Wall St",
         "published": "Mon, 26 Jan 2026 08:00:00 GMT",
@@ -301,15 +310,6 @@
         "source": "Alice Blue",
         "published": "Thu, 25 Jun 2026 17:22:52 GMT",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9md050Q3BsV3ZUcmx0d1NFaHY4X1U1REZWME53NU5vZW9FQ3QwS2oxZ01sWnRuNEo3WUdXRllhRFBSSkRuV19rYUo3Vm1VbEZBQlVfbkRtRDNlS3A2aTZ6ZFVrQWhKeHM?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "The recent \u20b95.8b market cap decrease is likely to have disappointed insiders invested in Banco Products (India) Limited (NSE:BANCOINDIA) - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Sat, 10 Jan 2026 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPU1ZoS1NjQVVNNWZZREpqUmJQQ1VjSV9tY1R5dkM5amNfWVllN2UzOFJVY1Q2dmc4MXFRZlowLW1uQUdTQTloVnVDN3RiT3ZIRlMyR1BQdE9TREd4RVNMR0FVSDM2dTNoV3cxeFE1cFlfWW1FWUd2U0ZnMi1mLXYxaDNsbXhHTnlJYlItZ0hDMlM4LTMzTGMtYlFlUTdwWThkN29CUDlYVVpRLWUtSXNPLS1mRl91RWoxanZWNDZoYjloOUo0RWFDQk1WSnJEN1dVUDJOREtoQmRHT0tSekd6T2VJQ3FfN3NOSXfSAe8BQVVfeXFMT29IOUxuVEU5OTdYcXVyTHA1eERHeGxXc2FJenM2YlBvcUFGNFNJem00bk1RLW1pZC0yZndMc3pnYTQ1bzItaHRfYkN2S0dQS0ZfQWRLZjUzSy1MSEFuWHBrX0F5WVR4OGNka2pqU21IZ2xEMTh1TXZhUnRGNlpqN1pqOUNhanpEdmpDNTVzOXFqT2FMSFd0X3A4Y053cDRJTk4zQnY3NzM3WEw1MVJIcTJSN0ppalNLTnpCRGJOT19VSS1JRDUwdkVSb0VSM2ZvelVhQVRpTU85dk5HQ0lCamowQjVYSEpJM2NzUkdwdlE?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -387,15 +387,6 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Banco Products (India) Limited (BANCOINDIA.BO) stock price, news, quote and history - Yahoo Finance UK",
-        "source": "Yahoo Finance UK",
-        "published": "Sat, 20 May 2017 21:05:55 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBGbGZyQVJBYjJFQ0ttNkFjdEtRbVBPUmZBT2MwTXE0ZWpwN09LLWxqUXcxUEtBN2kwNml4aDh5M25yUVZVNzE0czhjeWZIQW9fbmM0c3VYWW9ybmNrMFE?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
         "headline": "Banco Products (India) Limited (BANCOINDIA.NS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
         "source": "Yahoo! Finance Canada",
         "published": "Fri, 16 Jun 2017 09:07:05 GMT",
@@ -405,19 +396,19 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Does Banco Products (India) (NSE:BANCOINDIA) Have A Healthy Balance Sheet? - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Sat, 13 Dec 2025 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZnBTeVpLLW5tei01eWxJQ2JEcUU0OHhFQzlHVjhEaXFtUV9mMzBGYzRpWGppMmtBUk4tQ0owb2VQaWpORGpfSWc1a0t2U0szNnlWc3hKcGpydHUzMlctcS1SY09WOUlORFNuc3ItVkxaei1EWkh5bUVoWmFrb0ViM2ZGdHFYeFI1R3p3ZDljb1pMa3FYOTA4UzM3Q1BGZnYxbWxNeUxiVFVLaHQ0cnZUZ0VOU0dDXzRTSkg3UW96aWdhWm9vUHZGbjVkRzcwMEhrY25QTURwb0U2ME0zSDJDUFphdXloYllrdEHSAe8BQVVfeXFMTzhsNlBPdnE4VlEtU1lwQnR2ZV9lUjJnVXJmdlJuanNvVEFKdVZDNFkwZF92aExBcFdNZnQ0N18wQmtkMk00ZjhGMjIzVFV6N0ROYUZreWpLV2xTcWZieHhsODdHVmhZblhka3BIUmRzX1owZ0lOdGdkSEFjODVibGR4WkRRUUFrNHZVblRyT01XMDhiZmpzR0xSeXpDRU1yVFBNVVZJS1BlYXNlZkhOTE81OGprNGtTcVFtNXpmU1NXMjc0eUU4Y193Y0ZVQVZTSVpuNVp0cWk1M1lUOFFrTHJqZ1hDMlItOGFYZHRKQ3c?oc=5",
+        "headline": "Banco Products (India) Limited (BANCOINDIA.BO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "source": "Yahoo! Finance Canada",
+        "published": "Mon, 05 Jun 2017 00:34:06 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAtM0dsWjZRWm1kLWoxOEE0VVpVc0UzR1oyMHdIMVc4STBVWnM1ZXdGSG9ZV3M1SWg5cEd5cFN5Y0kxcmMzOTZKcFBCSXhic2w3cUhOdjFDLXc0VHlNQUE?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
       },
       {
-        "headline": "Banco Products (India) Limited (BANCOINDIA.BO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-        "source": "Yahoo! Finance Canada",
-        "published": "Mon, 05 Jun 2017 00:34:06 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAtM0dsWjZRWm1kLWoxOEE0VVpVc0UzR1oyMHdIMVc4STBVWnM1ZXdGSG9ZV3M1SWg5cEd5cFN5Y0kxcmMzOTZKcFBCSXhic2w3cUhOdjFDLXc0VHlNQUE?oc=5",
+        "headline": "Does Banco Products (India) (NSE:BANCOINDIA) Have A Healthy Balance Sheet? - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Sat, 13 Dec 2025 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZnBTeVpLLW5tei01eWxJQ2JEcUU0OHhFQzlHVjhEaXFtUV9mMzBGYzRpWGppMmtBUk4tQ0owb2VQaWpORGpfSWc1a0t2U0szNnlWc3hKcGpydHUzMlctcS1SY09WOUlORFNuc3ItVkxaei1EWkh5bUVoWmFrb0ViM2ZGdHFYeFI1R3p3ZDljb1pMa3FYOTA4UzM3Q1BGZnYxbWxNeUxiVFVLaHQ0cnZUZ0VOU0dDXzRTSkg3UW96aWdhWm9vUHZGbjVkRzcwMEhrY25QTURwb0U2ME0zSDJDUFphdXloYllrdEHSAe8BQVVfeXFMTzhsNlBPdnE4VlEtU1lwQnR2ZV9lUjJnVXJmdlJuanNvVEFKdVZDNFkwZF92aExBcFdNZnQ0N18wQmtkMk00ZjhGMjIzVFV6N0ROYUZreWpLV2xTcWZieHhsODdHVmhZblhka3BIUmRzX1owZ0lOdGdkSEFjODVibGR4WkRRUUFrNHZVblRyT01XMDhiZmpzR0xSeXpDRU1yVFBNVVZJS1BlYXNlZkhOTE81OGprNGtTcVFtNXpmU1NXMjc0eUU4Y193Y0ZVQVZTSVpuNVp0cWk1M1lUOFFrTHJqZ1hDMlItOGFYZHRKQ3c?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -504,7 +495,7 @@
         "verification_status": "unverified"
       }
     ],
-    "stored_new": 33,
+    "stored_new": 32,
     "duplicates_skipped": 0,
     "note": "headlines are unverified signals, not confirmed financial evidence",
     "_run_id": 1077
@@ -601,7 +592,7 @@
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-19 15:36 IST",
+    "generated_at": "2026-11-19 20:44 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-19 14:11 IST"
   }

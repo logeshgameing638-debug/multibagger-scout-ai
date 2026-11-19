@@ -9,7 +9,7 @@
     "website": "https://www.cupidlimited.com"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-19 10:06:27.242309+00:00",
+    "generated_at": "2026-11-19 15:14:37.109793+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -106,8 +106,8 @@
         "upper": 387.3069706132683,
         "lower": 295.53302572462235
       },
-      "volume_sma_20": 13799997.5,
-      "relative_volume": 0.5427780693438531,
+      "volume_sma_20": 13799994.1,
+      "relative_volume": 0.5427732755335019,
       "support": 302.29998779296875,
       "resistance": 393.0,
       "price_structure": {
@@ -177,7 +177,7 @@
     "multiples": {
       "pe_trailing": 292.76,
       "pe_forward": null,
-      "pb": 87.02735,
+      "pb": 87.42236,
       "ev_ebitda": 264.414,
       "ev_sales": 88.007,
       "peg": null,
@@ -419,6 +419,15 @@
         "verification_status": "unverified"
       },
       {
+        "headline": "Cupid Limited (CUPID.NS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "source": "Yahoo! Finance Canada",
+        "published": "Fri, 17 Apr 2020 09:34:10 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBXSmFEOFR2YWJTTzVWNDk5TWJUMlNZOXF2VXc2M0RoQmpQdzN4MXRvMUY1czFHMmR1Q0lTNWFvRzhfNUdadW92R2R1TTdMVkI0dkpXeTVlMA?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
         "headline": "Cupid hits an all-time high as promoter buys 1 mn shares via open market - Business Standard",
         "source": "Business Standard",
         "published": "Mon, 15 Sep 2025 07:00:00 GMT",
@@ -437,19 +446,19 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Cupid Limited (CUPID.NS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-        "source": "Yahoo! Finance Canada",
-        "published": "Fri, 17 Apr 2020 09:34:10 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBXSmFEOFR2YWJTTzVWNDk5TWJUMlNZOXF2VXc2M0RoQmpQdzN4MXRvMUY1czFHMmR1Q0lTNWFvRzhfNUdadW92R2R1TTdMVkI0dkpXeTVlMA?oc=5",
+        "headline": "Cupid Share Price - Upstox",
+        "source": "Upstox",
+        "published": "Mon, 25 Oct 2021 15:32:03 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Vc0ZKWDlKQlZyTVdYN2xfVU91aGZrMU9HUEF2Ym1VVU9VOWlaWEZSNS1KdTRSU0hiLUUyOGQ5djZGbXZ3bnNoOV9KUXI0by1DZkV5NWUxNDBrLXoydUk0dWJB?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
       },
       {
-        "headline": "Cupid Share Price - Upstox",
-        "source": "Upstox",
-        "published": "Mon, 25 Oct 2021 15:32:03 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Vc0ZKWDlKQlZyTVdYN2xfVU91aGZrMU9HUEF2Ym1VVU9VOWlaWEZSNS1KdTRSU0hiLUUyOGQ5djZGbXZ3bnNoOV9KUXI0by1DZkV5NWUxNDBrLXoydUk0dWJB?oc=5",
+        "headline": "Cupid Limited (CUPID.NS) stock price, news, quote and history - Yahoo Finance Singapore",
+        "source": "Yahoo Finance Singapore",
+        "published": "Tue, 08 Aug 2017 14:19:01 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBuUk9NbXJEYVczcF96eDVfV1R0U3htVjVES3IyNnJ2YWM1TGctTHhGTHZYbG9tXzYta0w5WHpKOTFIWWZsdlpDX3JJOVdRYlc4UkF4X0lwSQ?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -509,6 +518,15 @@
         "verification_status": "unverified"
       },
       {
+        "headline": "Cupid Limited (CUPID.NS) stock price, news, quote and history - Yahoo Finance Australia",
+        "source": "Yahoo Finance Australia",
+        "published": "Sun, 02 Feb 2020 08:06:12 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9fUHZ2T1hZVzV0UzQtaFBJYWZzYW1LNnBiOHZ1aVk1NjBWNDVxcVp3WDdqWC1Pb1ZzYVoySlBzUjZOekdHaG56SlVfVjRKUHFlRWFUbWxNdw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
         "headline": "Cupid (NSEI:CUPID) - Stock Analysis - Simply Wall St",
         "source": "Simply Wall St",
         "published": "Sat, 02 Dec 2017 01:46:41 GMT",
@@ -545,7 +563,7 @@
         "verification_status": "unverified"
       }
     ],
-    "stored_new": 37,
+    "stored_new": 39,
     "duplicates_skipped": 0,
     "note": "headlines are unverified signals, not confirmed financial evidence",
     "_run_id": 1112
@@ -559,7 +577,7 @@
         "evidence": "OCF/net profit 43% (<50%)",
         "source": "yahoo_finance",
         "date": "2026-11-19",
-        "detected_at": "2026-11-19 10:06:26.884979+00:00"
+        "detected_at": "2026-11-19 15:14:36.613453+00:00"
       },
       {
         "category": "high_valuation",
@@ -567,7 +585,7 @@
         "evidence": "trailing P/E 293 (>60)",
         "source": "yahoo_finance",
         "date": "2026-11-19",
-        "detected_at": "2026-11-19 10:06:26.884996+00:00"
+        "detected_at": "2026-11-19 15:14:36.613465+00:00"
       },
       {
         "category": "high_volatility",
@@ -575,7 +593,7 @@
         "evidence": "ATR 4.5% of price (>4%)",
         "source": "computed",
         "date": "2026-11-19",
-        "detected_at": "2026-11-19 10:06:26.885002+00:00"
+        "detected_at": "2026-11-19 15:14:36.613469+00:00"
       }
     ],
     "unassessed_governance_items": [
@@ -669,7 +687,7 @@
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-19 15:36 IST",
+    "generated_at": "2026-11-19 20:44 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-19 14:56 IST"
   }

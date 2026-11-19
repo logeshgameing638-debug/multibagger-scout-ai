@@ -1,7 +1,7 @@
 {
   "symbol": "CARERATING",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:52 IST",
+  "updated_at": "2026-11-19 20:42 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -14,13 +14,13 @@
   },
   "name": "CARE Ratings Limited",
   "scores": {
-    "fundamental": 43.0,
+    "fundamental": 46.0,
     "technical": 31.0,
     "data_confidence": 72.0,
     "risk": 0.0,
-    "long_term": 39.4,
-    "short_term": 34.6,
-    "balanced": 37.0
+    "long_term": 41.5,
+    "short_term": 35.5,
+    "balanced": 38.5
   },
   "classification": "neutral",
   "explanation": {
@@ -68,10 +68,10 @@
         ]
       },
       "valuation": {
-        "points": 3,
+        "points": 6,
         "max": 10,
         "detail": [
-          "P/E 25.2 (no industry benchmark): value 25.2 vs threshold 40"
+          "P/E 24.9 (no industry benchmark): value 24.9 vs threshold 25"
         ]
       },
       "industry_growth": {
@@ -101,7 +101,7 @@
         "points": 4.0,
         "max": 15,
         "detail": [
-          "RSI 47: 4/7 (value 47 vs threshold 45)",
+          "RSI 48: 4/7 (value 47.8 vs threshold 45)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
@@ -109,7 +109,7 @@
         "points": 5,
         "max": 15,
         "detail": [
-          "relative volume: value 0.816 vs threshold 0.7"
+          "relative volume: value 0.965 vs threshold 0.7"
         ]
       },
       "price_structure": {
@@ -123,7 +123,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (45% of range)"
+          "price mid-range between S/R (47% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -202,7 +202,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 46.959637609170365,
+    "rsi_14": 47.81684359906387,
     "breakout": false,
     "breakdown": false,
     "support": 1484.4000244140625,

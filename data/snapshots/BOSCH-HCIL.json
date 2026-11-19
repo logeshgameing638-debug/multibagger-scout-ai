@@ -1,7 +1,7 @@
 {
   "symbol": "BOSCH-HCIL",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:16 IST",
+  "updated_at": "2026-11-19 20:38 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 0.0,
         "max": 10,
         "detail": [
-          "P/E 1597.5 (no industry benchmark): value 1.6e+03 below all bands"
+          "P/E 1602.9 (no industry benchmark): value 1.6e+03 below all bands"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 51: 4/7 (value 51.3 vs threshold 45)",
+          "RSI 52: 4/7 (value 52 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.281 below all bands"
+          "relative volume: value 0.421 below all bands"
         ]
       },
       "price_structure": {
@@ -125,7 +125,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (38% of range)"
+          "price mid-range between S/R (39% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -206,7 +206,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 51.298630064004826,
+    "rsi_14": 51.96684701103931,
     "breakout": false,
     "breakdown": false,
     "support": 1585.0,

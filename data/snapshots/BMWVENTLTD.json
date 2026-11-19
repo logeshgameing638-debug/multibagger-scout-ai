@@ -1,7 +1,7 @@
 {
   "symbol": "BMWVENTLTD",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:15 IST",
+  "updated_at": "2026-11-19 20:37 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "BMW Ventures Limited",
   "scores": {
     "fundamental": 36.0,
-    "technical": 37.0,
+    "technical": 40.0,
     "data_confidence": 72.0,
     "risk": 10.0,
-    "long_term": 36.3,
-    "short_term": 36.7,
-    "balanced": 36.5
+    "long_term": 37.2,
+    "short_term": 38.8,
+    "balanced": 38.0
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 12.2 (no industry benchmark): value 12.2 vs threshold 15"
+          "P/E 12.3 (no industry benchmark): value 12.3 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -100,10 +100,10 @@
         ]
       },
       "momentum": {
-        "points": 4.0,
+        "points": 7.0,
         "max": 15,
         "detail": [
-          "RSI 55: 4/7 (value 55 vs threshold 45)",
+          "RSI 56: 7/7 (value 55.7 vs threshold 55)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.382 below all bands"
+          "relative volume: value 0.633 below all bands"
         ]
       },
       "price_structure": {
@@ -125,7 +125,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (35% of range)"
+          "price mid-range between S/R (30% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -204,11 +204,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 54.99591887177299,
+    "rsi_14": 55.743355081584944,
     "breakout": false,
     "breakdown": false,
     "support": 60.439998626708984,
-    "resistance": 71.91000366210938,
+    "resistance": 74.5,
     "trend": "sideways"
   }
 }

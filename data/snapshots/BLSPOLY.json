@@ -1,7 +1,7 @@
 {
   "symbol": "BLSPOLY",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:15 IST",
+  "updated_at": "2026-11-19 20:36 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 0.0,
         "max": 10,
         "detail": [
-          "P/E 65.3 (no industry benchmark): value 65.3 below all bands"
+          "P/E 65.0 (no industry benchmark): value 65 below all bands"
         ]
       },
       "industry_growth": {

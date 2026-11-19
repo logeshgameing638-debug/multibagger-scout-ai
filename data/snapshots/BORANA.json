@@ -1,7 +1,7 @@
 {
   "symbol": "BORANA",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:16 IST",
+  "updated_at": "2026-11-19 20:38 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Borana Weaves Limited",
   "scores": {
     "fundamental": 62.0,
-    "technical": 42.0,
+    "technical": 47.0,
     "data_confidence": 72.0,
     "risk": 10.0,
-    "long_term": 56.0,
-    "short_term": 48.0,
-    "balanced": 52.0
+    "long_term": 57.5,
+    "short_term": 51.5,
+    "balanced": 54.5
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 9.4 (no industry benchmark): value 9.43 vs threshold 15"
+          "P/E 9.8 (no industry benchmark): value 9.84 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -103,15 +103,15 @@
         "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 56: 7/7 (value 55.5 vs threshold 55)",
+          "RSI 58: 7/7 (value 57.7 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 5,
+        "points": 10,
         "max": 15,
         "detail": [
-          "relative volume: value 0.818 vs threshold 0.7"
+          "relative volume: value 1.08 vs threshold 1"
         ]
       },
       "price_structure": {
@@ -125,7 +125,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (49% of range)"
+          "price mid-range between S/R (53% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 55.53774636984796,
+    "rsi_14": 57.74496587865731,
     "breakout": false,
     "breakdown": false,
     "support": 198.9499969482422,

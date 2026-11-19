@@ -9,7 +9,7 @@
     "website": "https://www.eihltd.com"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-19 10:06:07.147154+00:00",
+    "generated_at": "2026-11-19 15:14:16.955781+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -106,8 +106,8 @@
         "upper": 323.24664731522483,
         "lower": 281.1183520744236
       },
-      "volume_sma_20": 293120.7,
-      "relative_volume": 3.0707998445691485,
+      "volume_sma_20": 293120.6,
+      "relative_volume": 3.0707940690623587,
       "support": 281.20001220703125,
       "resistance": 326.0,
       "price_structure": {
@@ -173,7 +173,7 @@
   },
   "6_valuation": {
     "multiples": {
-      "pe_trailing": 26.655201,
+      "pe_trailing": 26.405453,
       "pe_forward": 19.570707,
       "pb": 3.5705647,
       "ev_ebitda": 17.014,
@@ -210,10 +210,10 @@
   "7_news_intelligence": {
     "items": [
       {
-        "headline": "EIH Limited Share Price - Live NSE: EIHOTEL Stock Price & Chart - Upstox",
-        "source": "Upstox",
-        "published": "Wed, 18 Nov 2026 07:38:41 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBqaWhDWGNZVzlsbzNtcXJabHF5eExlSUxTdTJ2ZDhYbnBtMk5ZdklJWkZrMGN5SGZ5VjNWN2pMUlBHWjlSdnZjaWlGQm1YaWNQWjJMeFgtNWlid0o2NVYw?oc=5",
+        "headline": "EIH (NSEI:EIHOTEL) - Stock Analysis - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Mon, 16 Nov 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAwZjhwd19nTHlWajBYd1A5R1hWMzVhcm1fTmFudnJmbXZSYkJGR3JDYmtQbWREX0poZ00wN1M2emRUTVhPb0YyekRTUWNoMG81SUpaS09sNkFUSmg1SDYwcFFoMHFTM0FzbndnQU5hTmIwbmNLc1IyeUp6eGc?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -246,19 +246,10 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Be Sure To Check Out EIH Limited (NSE:EIHOTEL) Before It Goes Ex-Dividend - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Mon, 27 Jul 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNeDNlQ2l0VkE5R1k4VkVzU0tXSE8tWDBWeEN0ZmVMb3pTeDJMaDJqek04aWdVSjZFdmpQLTdfSmhNejFRb0NwZnB2ajhVaUQ0dldONU9tVUYtRFVRTkRzOVlOZ0Vpc2VyNlIySkduQ0U3TnFrTHZsajlkQTktVldzMDMwTHZkNmtnVE5HS2NpSHMtRHB0TzM2RWNQeTluWVF3RHliX1F1b2R6SlhnN09iUEV2eWRlbTdJd21fTUNTR2RkN3QxMzl4YktGM1k0ejZCWTBKU9IB2gFBVV95cUxNaS03RUJKSTZYVGdlTkdVb0l1OW9QWlBWaGYtX040Ny04T2Rwa3F1WXVzQkllQTlJY1FtZmNXVk9zdkU2aXphZUFRcXdKWnhZRkFOa2sxbG1yLWFmdVcwTGJxTmxMLUpmUmt3YXA1YWxTaURZS2xXWFo5VGIxekdaQ1NJTGx6aHBKZXJwNW9VYXhaV1BUNVQ4TmRkd3YxdzM3dFdJQmUxRzN3Y01QSmZrUWZhVGE1aTl6VWE4a1JBZzVaQWhxcHRaWnlGcHUzXzFlQURGSGhnMTRnZw?oc=5",
-        "sentiment": "positive",
-        "relevance": "high",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "EIH Limited (Oberoi Hotels) Share Price Target 2026: Analyst Forecast, Growth Catalysts and Key Risks - Univest",
+        "headline": "EIH Limited Stock Prediction 2026: Expert Analysis, Forecast Scenarios and Full Stock Review - Univest",
         "source": "Univest",
-        "published": "Wed, 06 May 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1xVTN6YkNiM2pNLU1lcnNnaEs0RmlDYTNZV2IyUTRzdUxXODNIYXZrZ2dGT1E3TW9UdXVhY2JfaDJFNHNTMDZZLW03d2dmZjlZMm9jVjhHa0pnb1ZTS1hrR2tkYV9qTGNBTnJWWHR0Wm5mZmsxeDcxaU91MTNmWms?oc=5",
+        "published": "Wed, 10 Jun 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAyTXZWakF1V3JYYmVmNEk1QUV4MFdzNHB6eW9fenRQVEt4cXJXdV9LOU5KYnplVmRxOWNlMlFXdEpTakNNTVlUZm1UR1dVcUhTUVpUenNCbTdfdHpNbzJWX0hXVFRfUmJTSmc?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -282,19 +273,19 @@
         "verification_status": "unverified"
       },
       {
+        "headline": "Be Sure To Check Out EIH Limited (NSE:EIHOTEL) Before It Goes Ex-Dividend - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Mon, 27 Jul 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNeDNlQ2l0VkE5R1k4VkVzU0tXSE8tWDBWeEN0ZmVMb3pTeDJMaDJqek04aWdVSjZFdmpQLTdfSmhNejFRb0NwZnB2ajhVaUQ0dldONU9tVUYtRFVRTkRzOVlOZ0Vpc2VyNlIySkduQ0U3TnFrTHZsajlkQTktVldzMDMwTHZkNmtnVE5HS2NpSHMtRHB0TzM2RWNQeTluWVF3RHliX1F1b2R6SlhnN09iUEV2eWRlbTdJd21fTUNTR2RkN3QxMzl4YktGM1k0ejZCWTBKU9IB2gFBVV95cUxNaS03RUJKSTZYVGdlTkdVb0l1OW9QWlBWaGYtX040Ny04T2Rwa3F1WXVzQkllQTlJY1FtZmNXVk9zdkU2aXphZUFRcXdKWnhZRkFOa2sxbG1yLWFmdVcwTGJxTmxMLUpmUmt3YXA1YWxTaURZS2xXWFo5VGIxekdaQ1NJTGx6aHBKZXJwNW9VYXhaV1BUNVQ4TmRkd3YxdzM3dFdJQmUxRzN3Y01QSmZrUWZhVGE1aTl6VWE4a1JBZzVaQWhxcHRaWnlGcHUzXzFlQURGSGhnMTRnZw?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
         "headline": "EIH Ltd. Share Price Today | EIH Live NSE/BSE - Value Research",
         "source": "Value Research",
         "published": "Fri, 25 Mar 2022 08:48:44 GMT",
         "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9kX0Vqb0d6VWZGdklIT1VhSjBCMU1yWVdwMVpkaGRkSjdycFBoZUFpTHJpcm8tYzZrU29keFdIdU9JWFZ1SG5hdXd6Z0JGZVhFQmdvckNUWnpYbm5ZNWhPNUd6R0pET09z?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "EIH Limited (EIHOTEL.NS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-        "source": "Yahoo! Finance Canada",
-        "published": "Sat, 04 Nov 2017 07:23:02 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5yZ2pySXgtZmE5bHMyOXpKalhFWEo1QlRSal91RjNDcWhwbEdUSGswT0UxcjJ5TGpwd3NrX0FVeXoyeGZSVzRBeUVpZ3FSZHpXZHVEZXZ2NWxmdw?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -309,10 +300,28 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "EIH Limited's (NSE:EIHOTEL) last week's 6.2% decline must have disappointed public companies who have a significant stake - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Wed, 28 Jan 2026 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQM2tmMEZudVJEN2p1YWlxbmo1WlZub2YtWndzemNKcjRWU0VBSG1sUFRSaklVZFBSdkZsSnpXOUU0ZEx5NEV0elVGWXdfenFFbkVmWktZdTltOUZSNW1lQWlZY1dDaWpvMVBTbmg5N3dHV3JVaV9sSGdiaEU4SkNVRFVnbDk5MXlZU0NuZFJEbVVOR1FQZ0xJS1V5dWpUR3dIRURxbHc1WXl5bGxfOTBWdEZreU5oZWpfRUZ6MjhlVEFTd1NMVllZdXdJbEg4S19LSk5jbw?oc=5",
+        "headline": "EIH Limited (EIHOTEL.NS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "source": "Yahoo! Finance Canada",
+        "published": "Sat, 04 Nov 2017 07:23:02 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5yZ2pySXgtZmE5bHMyOXpKalhFWEo1QlRSal91RjNDcWhwbEdUSGswT0UxcjJ5TGpwd3NrX0FVeXoyeGZSVzRBeUVpZ3FSZHpXZHVEZXZ2NWxmdw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH Limited Share Price - Live NSE: EIHOTEL Stock Price & Chart - Upstox",
+        "source": "Upstox",
+        "published": "Fri, 21 Jan 2022 08:30:50 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBqaWhDWGNZVzlsbzNtcXJabHF5eExlSUxTdTJ2ZDhYbnBtMk5ZdklJWkZrMGN5SGZ5VjNWN2pMUlBHWjlSdnZjaWlGQm1YaWNQWjJMeFgtNWlid0o2NVYw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH Limited (Oberoi Hotels) Share Price Target 2026: Analyst Forecast, Growth Catalysts and Key Risks - Univest",
+        "source": "Univest",
+        "published": "Wed, 06 May 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1xVTN6YkNiM2pNLU1lcnNnaEs0RmlDYTNZV2IyUTRzdUxXODNIYXZrZ2dGT1E3TW9UdXVhY2JfaDJFNHNTMDZZLW03d2dmZjlZMm9jVjhHa0pnb1ZTS1hrR2tkYV9qTGNBTnJWWHR0Wm5mZmsxeDcxaU91MTNmWms?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -322,6 +331,15 @@
         "source": "TradingView",
         "published": "Fri, 21 Jul 2017 02:26:51 GMT",
         "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8yQTMtOWQ4X0RCOU5XWEdzOU5zZk5LbDgwYkExdXJWcGc2QUJFb1V6VkRvRHpCODl3bUxVZHQ4RTFJZXdkYWFsQnJKMzdDdVlRNDBMU1gyTUM0OVB6?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH Limited's (NSE:EIHOTEL) last week's 6.2% decline must have disappointed public companies who have a significant stake - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Wed, 28 Jan 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQM2tmMEZudVJEN2p1YWlxbmo1WlZub2YtWndzemNKcjRWU0VBSG1sUFRSaklVZFBSdkZsSnpXOUU0ZEx5NEV0elVGWXdfenFFbkVmWktZdTltOUZSNW1lQWlZY1dDaWpvMVBTbmg5N3dHV3JVaV9sSGdiaEU4SkNVRFVnbDk5MXlZU0NuZFJEbVVOR1FQZ0xJS1V5dWpUR3dIRURxbHc1WXl5bGxfOTBWdEZreU5oZWpfRUZ6MjhlVEFTd1NMVllZdXdJbEg4S19LSk5jbw?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -345,20 +363,20 @@
         "verification_status": "unverified"
       },
       {
+        "headline": "EIH Reports Mixed Q2 Results: Revenue Up, Profitability Down - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Tue, 11 Nov 2025 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQklfdDZHTlVpRHE4RWFTTzY3bkNxTmFhMlo4NEluTWtjM2lTa0hVSUNBbE9OeWFoTGRmNHZKSTB2LVg5Z0VReUZrNzBNUnNBQm4ySnlkU2g5UHFtS1Y1Z1dtQXdlX00yX2JiaXNabkxhOWhZVFBZa3ZCNU1XSEhoTk0ybFRUZlFXczYtY3QyOHo5NVZ4a3d6WVIwLUh6ei1WVm1TNVN0VC1VS3pqM0k4QWY4b0s?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
         "headline": "EIH Limited Reports Rs 36.36 Crore Quarterly Profit Despite Rs 110.32 Crore Exceptional Loss - scanx.trade",
         "source": "scanx.trade",
         "published": "Tue, 05 Aug 2025 07:00:00 GMT",
         "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUnAzUV9hYm5jLXJ0WVpmbWlKNDdYN0taeXBBNE9xLTJ6ZG5jRVRka1VIUEZNMFlQLWV1RXRQWmZYNnFFV18zWW9LcUsyQVJvcV9DUlpvT2xKbTVPdDJfM0tEN1pzbHhEZUl1TmEzZElYMGxYOXJEc0N1ZnBKdldHbVNSb3FjakdiX3ZZb3lJdTlrNlJWb2o0YlJ1ZGRIM0FEQ3dESTljTUQ5WHRFcVVWbFEzczdYYU9IOTZiRlB3U1FKMVdpOVZRcXducVNsT1hId2Iw?oc=5",
         "sentiment": "negative",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "EIH (NSEI:EIHOTEL) - Stock Analysis - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Fri, 01 Dec 2017 06:57:35 GMT",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAwZjhwd19nTHlWajBYd1A5R1hWMzVhcm1fTmFudnJmbXZSYkJGR3JDYmtQbWREX0poZ00wN1M2emRUTVhPb0YyekRTUWNoMG81SUpaS09sNkFUSmg1SDYwcFFoMHFTM0FzbndnQU5hTmIwbmNLc1IyeUp6eGc?oc=5",
-        "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
       },
@@ -381,7 +399,7 @@
         "verification_status": "unverified"
       }
     ],
-    "stored_new": 19,
+    "stored_new": 21,
     "duplicates_skipped": 0,
     "note": "headlines are unverified signals, not confirmed financial evidence",
     "_run_id": 1063
@@ -478,7 +496,7 @@
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-19 15:36 IST",
+    "generated_at": "2026-11-19 20:44 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-19 15:31 IST"
   }

@@ -1,7 +1,7 @@
 {
   "symbol": "CEINSYS",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:53 IST",
+  "updated_at": "2026-11-19 20:43 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.255 below all bands"
+          "relative volume: value 0.35 below all bands"
         ]
       },
       "price_structure": {
@@ -206,7 +206,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 49.99724340525822,
+    "rsi_14": 49.96443354313593,
     "breakout": false,
     "breakdown": false,
     "support": 598.4000244140625,

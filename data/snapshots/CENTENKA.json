@@ -1,7 +1,7 @@
 {
   "symbol": "CENTENKA",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:53 IST",
+  "updated_at": "2026-11-19 20:44 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 7.2 (no industry benchmark): value 7.24 vs threshold 15"
+          "P/E 7.1 (no industry benchmark): value 7.13 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 8.0,
         "max": 15,
         "detail": [
-          "RSI 43: 0.0/7 (value 42.9 below all bands)",
+          "RSI 42: 0.0/7 (value 42.2 below all bands)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.234 below all bands"
+          "relative volume: value 0.339 below all bands"
         ]
       },
       "price_structure": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 42.87683867980952,
+    "rsi_14": 42.2287213710662,
     "breakout": false,
     "breakdown": false,
     "support": 435.0,

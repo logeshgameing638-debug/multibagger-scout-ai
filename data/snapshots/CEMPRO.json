@@ -1,7 +1,7 @@
 {
   "symbol": "CEMPRO",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:53 IST",
+  "updated_at": "2026-11-19 20:44 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Cemindia Projects Limited",
   "scores": {
     "fundamental": 62.0,
-    "technical": 51.0,
+    "technical": 61.0,
     "data_confidence": 72.0,
     "risk": 10.0,
-    "long_term": 58.7,
-    "short_term": 54.3,
-    "balanced": 56.5
+    "long_term": 61.7,
+    "short_term": 61.3,
+    "balanced": 61.5
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 38.2 (no industry benchmark): value 38.2 vs threshold 40"
+          "P/E 37.9 (no industry benchmark): value 37.9 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -103,15 +103,15 @@
         "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 67: 7/7 (value 67.2 vs threshold 55)",
+          "RSI 66: 7/7 (value 66.1 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 10,
         "max": 15,
         "detail": [
-          "relative volume: value 0.495 below all bands"
+          "relative volume: value 1.02 vs threshold 1"
         ]
       },
       "price_structure": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 67.2041470464423,
+    "rsi_14": 66.10159871848626,
     "breakout": false,
     "breakdown": false,
     "support": 1066.0,

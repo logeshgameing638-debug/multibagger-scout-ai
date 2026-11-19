@@ -1,7 +1,7 @@
 {
   "symbol": "BORORENEW",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:16 IST",
+  "updated_at": "2026-11-19 20:38 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Borosil Renewables Limited",
   "scores": {
     "fundamental": 58.0,
-    "technical": 24.0,
+    "technical": 34.0,
     "data_confidence": 72.0,
     "risk": 10.0,
-    "long_term": 47.8,
-    "short_term": 34.2,
-    "balanced": 41.0
+    "long_term": 50.8,
+    "short_term": 41.2,
+    "balanced": 46.0
   },
   "classification": "neutral",
   "explanation": {
@@ -103,15 +103,15 @@
         "points": 8.0,
         "max": 15,
         "detail": [
-          "RSI 35: 0.0/7 (value 35.4 below all bands)",
+          "RSI 35: 0.0/7 (value 35.2 below all bands)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 10,
         "max": 15,
         "detail": [
-          "relative volume: value 0.649 below all bands"
+          "relative volume: value 1.01 vs threshold 1"
         ]
       },
       "price_structure": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 35.35452592803688,
+    "rsi_14": 35.226537858614236,
     "breakout": false,
     "breakdown": false,
     "support": 369.0,

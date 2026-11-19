@@ -1,7 +1,7 @@
 {
   "symbol": "BONFIG",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:16 IST",
+  "updated_at": "2026-11-19 20:37 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 0.0,
         "max": 10,
         "detail": [
-          "P/E 49.3 (no industry benchmark): value 49.3 below all bands"
+          "P/E 48.9 (no industry benchmark): value 48.9 below all bands"
         ]
       },
       "industry_growth": {

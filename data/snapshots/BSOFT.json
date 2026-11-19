@@ -1,7 +1,7 @@
 {
   "symbol": "BSOFT",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:51 IST",
+  "updated_at": "2026-11-19 20:40 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 13.5 (no industry benchmark): value 13.5 vs threshold 15"
+          "P/E 13.7 (no industry benchmark): value 13.7 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 42: 0.0/7 (value 42.4 below all bands)",
+          "RSI 43: 0.0/7 (value 42.7 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.356 below all bands"
+          "relative volume: value 0.406 below all bands"
         ]
       },
       "price_structure": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 42.39798978126285,
+    "rsi_14": 42.73115513270543,
     "breakout": false,
     "breakdown": false,
     "support": 267.04998779296875,

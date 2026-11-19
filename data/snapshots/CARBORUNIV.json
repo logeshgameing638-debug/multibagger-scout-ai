@@ -1,7 +1,7 @@
 {
   "symbol": "CARBORUNIV",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:52 IST",
+  "updated_at": "2026-11-19 20:42 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 0.0,
         "max": 10,
         "detail": [
-          "P/E 129.2 (no industry benchmark): value 129 below all bands"
+          "P/E 128.9 (no industry benchmark): value 129 below all bands"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 38: 0.0/7 (value 37.7 below all bands)",
+          "RSI 37: 0.0/7 (value 37.2 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.222 below all bands"
+          "relative volume: value 0.274 below all bands"
         ]
       },
       "price_structure": {
@@ -205,7 +205,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 37.67169667789594,
+    "rsi_14": 37.234365962754744,
     "breakout": false,
     "breakdown": false,
     "support": 981.0999755859375,

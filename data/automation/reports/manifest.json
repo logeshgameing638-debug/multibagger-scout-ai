@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19 15:36 IST",
+  "generated_at": "2026-11-19 20:44 IST",
   "reports": [
     {
       "symbol": "EICHERMOT",
@@ -14,7 +14,12 @@
         "news": "success",
         "scoring": "success"
       },
-      "file": "data/automation/reports/NSE_EICHERMOT.json"
+      "file": "data/automation/reports/NSE_EICHERMOT.json",
+      "exports": {
+        "json": "data/automation/reports/NSE_EICHERMOT.json",
+        "html": "data/automation/reports/NSE_EICHERMOT.html",
+        "csv": "data/automation/reports/NSE_EICHERMOT.csv"
+      }
     },
     {
       "symbol": "EIHOTEL",
@@ -29,7 +34,12 @@
         "news": "success",
         "scoring": "success"
       },
-      "file": "data/automation/reports/NSE_EIHOTEL.json"
+      "file": "data/automation/reports/NSE_EIHOTEL.json",
+      "exports": {
+        "json": "data/automation/reports/NSE_EIHOTEL.json",
+        "html": "data/automation/reports/NSE_EIHOTEL.html",
+        "csv": "data/automation/reports/NSE_EIHOTEL.csv"
+      }
     },
     {
       "symbol": "DIVISLAB",
@@ -44,7 +54,12 @@
         "news": "success",
         "scoring": "success"
       },
-      "file": "data/automation/reports/NSE_DIVISLAB.json"
+      "file": "data/automation/reports/NSE_DIVISLAB.json",
+      "exports": {
+        "json": "data/automation/reports/NSE_DIVISLAB.json",
+        "html": "data/automation/reports/NSE_DIVISLAB.html",
+        "csv": "data/automation/reports/NSE_DIVISLAB.csv"
+      }
     },
     {
       "symbol": "BANCOINDIA",
@@ -59,7 +74,32 @@
         "news": "success",
         "scoring": "success"
       },
-      "file": "data/automation/reports/NSE_BANCOINDIA.json"
+      "file": "data/automation/reports/NSE_BANCOINDIA.json",
+      "exports": {
+        "json": "data/automation/reports/NSE_BANCOINDIA.json",
+        "html": "data/automation/reports/NSE_BANCOINDIA.html",
+        "csv": "data/automation/reports/NSE_BANCOINDIA.csv"
+      }
+    },
+    {
+      "symbol": "CEMPRO",
+      "exchange": "NSE",
+      "status": "success",
+      "agent_statuses": {
+        "fundamental": "success",
+        "technical": "success",
+        "business": "success",
+        "valuation": "success",
+        "risk": "success",
+        "news": "success",
+        "scoring": "success"
+      },
+      "file": "data/automation/reports/NSE_CEMPRO.json",
+      "exports": {
+        "json": "data/automation/reports/NSE_CEMPRO.json",
+        "html": "data/automation/reports/NSE_CEMPRO.html",
+        "csv": "data/automation/reports/NSE_CEMPRO.csv"
+      }
     },
     {
       "symbol": "AJAXENGG",
@@ -74,22 +114,12 @@
         "news": "success",
         "scoring": "success"
       },
-      "file": "data/automation/reports/NSE_AJAXENGG.json"
-    },
-    {
-      "symbol": "BROOKS",
-      "exchange": "NSE",
-      "status": "success",
-      "agent_statuses": {
-        "fundamental": "success",
-        "technical": "success",
-        "business": "success",
-        "valuation": "success",
-        "risk": "success",
-        "news": "success",
-        "scoring": "success"
-      },
-      "file": "data/automation/reports/NSE_BROOKS.json"
+      "file": "data/automation/reports/NSE_AJAXENGG.json",
+      "exports": {
+        "json": "data/automation/reports/NSE_AJAXENGG.json",
+        "html": "data/automation/reports/NSE_AJAXENGG.html",
+        "csv": "data/automation/reports/NSE_AJAXENGG.csv"
+      }
     },
     {
       "symbol": "COFORGE",
@@ -104,7 +134,12 @@
         "news": "success",
         "scoring": "success"
       },
-      "file": "data/automation/reports/NSE_COFORGE.json"
+      "file": "data/automation/reports/NSE_COFORGE.json",
+      "exports": {
+        "json": "data/automation/reports/NSE_COFORGE.json",
+        "html": "data/automation/reports/NSE_COFORGE.html",
+        "csv": "data/automation/reports/NSE_COFORGE.csv"
+      }
     },
     {
       "symbol": "ALLDIGI",
@@ -119,7 +154,12 @@
         "news": "success",
         "scoring": "success"
       },
-      "file": "data/automation/reports/NSE_ALLDIGI.json"
+      "file": "data/automation/reports/NSE_ALLDIGI.json",
+      "exports": {
+        "json": "data/automation/reports/NSE_ALLDIGI.json",
+        "html": "data/automation/reports/NSE_ALLDIGI.html",
+        "csv": "data/automation/reports/NSE_ALLDIGI.csv"
+      }
     },
     {
       "symbol": "CUPID",
@@ -134,7 +174,12 @@
         "news": "success",
         "scoring": "success"
       },
-      "file": "data/automation/reports/NSE_CUPID.json"
+      "file": "data/automation/reports/NSE_CUPID.json",
+      "exports": {
+        "json": "data/automation/reports/NSE_CUPID.json",
+        "html": "data/automation/reports/NSE_CUPID.html",
+        "csv": "data/automation/reports/NSE_CUPID.csv"
+      }
     },
     {
       "symbol": "ENDURANCE",
@@ -149,7 +194,12 @@
         "news": "success",
         "scoring": "success"
       },
-      "file": "data/automation/reports/NSE_ENDURANCE.json"
+      "file": "data/automation/reports/NSE_ENDURANCE.json",
+      "exports": {
+        "json": "data/automation/reports/NSE_ENDURANCE.json",
+        "html": "data/automation/reports/NSE_ENDURANCE.html",
+        "csv": "data/automation/reports/NSE_ENDURANCE.csv"
+      }
     }
   ]
 }

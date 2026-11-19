@@ -1,7 +1,7 @@
 {
   "symbol": "BYKE",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:51 IST",
+  "updated_at": "2026-11-19 20:40 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 0.9 (no industry benchmark): value 0.911 vs threshold 15"
+          "P/E 0.9 (no industry benchmark): value 0.915 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 41: 0.0/7 (value 41.3 below all bands)",
+          "RSI 42: 0.0/7 (value 42.1 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.35 below all bands"
+          "relative volume: value 0.387 below all bands"
         ]
       },
       "price_structure": {
@@ -125,7 +125,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (32% of range)"
+          "price mid-range between S/R (35% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 41.304328556104174,
+    "rsi_14": 42.128936433530384,
     "breakout": false,
     "breakdown": false,
     "support": 26.309999465942383,

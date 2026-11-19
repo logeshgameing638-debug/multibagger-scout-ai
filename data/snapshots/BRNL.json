@@ -1,7 +1,7 @@
 {
   "symbol": "BRNL",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:17 IST",
+  "updated_at": "2026-11-19 20:39 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Bharat Road Network Limited",
   "scores": {
     "fundamental": 18.0,
-    "technical": 37.0,
+    "technical": 45.0,
     "data_confidence": 72.0,
     "risk": 50.0,
-    "long_term": 23.7,
-    "short_term": 31.3,
-    "balanced": 27.5
+    "long_term": 26.1,
+    "short_term": 36.9,
+    "balanced": 31.5
   },
   "classification": "high_risk",
   "explanation": {
@@ -93,17 +93,17 @@
         ]
       },
       "ema_alignment": {
-        "points": 0,
+        "points": 8,
         "max": 15,
         "detail": [
-          "below key EMAs"
+          "price above EMA50, partial alignment"
         ]
       },
       "momentum": {
         "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 57: 7/7 (value 57.2 vs threshold 55)",
+          "RSI 59: 7/7 (value 59.1 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.596 below all bands"
+          "relative volume: value 0.669 below all bands"
         ]
       },
       "price_structure": {
@@ -125,7 +125,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (60% of range)"
+          "price mid-range between S/R (58% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -206,11 +206,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 57.16767629238316,
+    "rsi_14": 59.089077875685454,
     "breakout": false,
     "breakdown": false,
     "support": 13.0600004196167,
-    "resistance": 16.899999618530273,
+    "resistance": 17.3700008392334,
     "trend": "sideways"
   }
 }

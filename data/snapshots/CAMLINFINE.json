@@ -1,7 +1,7 @@
 {
   "symbol": "CAMLINFINE",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:52 IST",
+  "updated_at": "2026-11-19 20:41 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.431 below all bands"
+          "relative volume: value 0.554 below all bands"
         ]
       },
       "price_structure": {

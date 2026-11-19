@@ -1,7 +1,7 @@
 {
   "symbol": "BLUECLOUDS",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:15 IST",
+  "updated_at": "2026-11-19 20:36 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 14.8 (no industry benchmark): value 14.8 vs threshold 15"
+          "P/E 14.2 (no industry benchmark): value 14.2 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 32: 0.0/7 (value 32 below all bands)",
+          "RSI 20: 0.0/7 (value 20.1 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "relative volume: value 7.25 vs threshold 1.5"
+          "relative volume: value 8.42 vs threshold 1.5"
         ]
       },
       "price_structure": {
@@ -205,10 +205,10 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 32.001981135015356,
+    "rsi_14": 20.098687887100112,
     "breakout": false,
     "breakdown": false,
-    "support": 15.5,
+    "support": 15.069999694824219,
     "resistance": 19.520000457763672,
     "trend": "sideways"
   }

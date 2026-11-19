@@ -9,7 +9,7 @@
     "website": "https://www.coforge.com"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-19 10:06:21.339843+00:00",
+    "generated_at": "2026-11-19 15:14:31.119330+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -105,8 +105,8 @@
         "upper": 2127.348685382603,
         "lower": 1913.7013268244282
       },
-      "volume_sma_20": 2654170.7,
-      "relative_volume": 1.31652308572316,
+      "volume_sma_20": 2652018.55,
+      "relative_volume": 1.3013611839178125,
       "support": 1812.199951171875,
       "resistance": 2127.89990234375,
       "price_structure": {
@@ -209,6 +209,15 @@
   "7_news_intelligence": {
     "items": [
       {
+        "headline": "COFORGE Stock Price and Chart \u2014 NSE:COFORGE - TradingView",
+        "source": "TradingView",
+        "published": "Thu, 05 Nov 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5PTEZDS2ZXSGlxb3ZKMnVZSVEza0h3cno4bk9UajBjSUNCU3M4XzBJdExXOU5rbkVzOXJrTlJyaXNZVW9uMThWWmlUY2R5OExsa2tERjFqQnVQdFlI?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
         "headline": "Coforge's shares rise up 2.51% at \u20b91,948.20 around midday on Monday - BusinessLine",
         "source": "BusinessLine",
         "published": "Mon, 26 Oct 2026 07:00:00 GMT",
@@ -254,6 +263,15 @@
         "verification_status": "unverified"
       },
       {
+        "headline": "Coforge Limited (COFORGE.NS) stock price, news, quote and history - Yahoo Finance Singapore",
+        "source": "Yahoo Finance Singapore",
+        "published": "Mon, 02 May 2022 22:36:57 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE43OWxTc1VkQ1hYd3BFQUljQWxxMTBTdWdOMi1CZ3puelpNQzJwcWxZTzVIWS1HQ21sbUc3bS03NWVuQUJ0SXRfME0xLTlzbVBpRmVsZUxTM0lPUQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
         "headline": "Coforge's (NSE:COFORGE) Promising Earnings May Rest On Soft Foundations - Simply Wall St",
         "source": "Simply Wall St",
         "published": "Wed, 13 May 2026 07:00:00 GMT",
@@ -267,33 +285,6 @@
         "source": "BusinessLine",
         "published": "Tue, 02 Jun 2026 07:00:00 GMT",
         "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQaEFFM0hQMGtnbnBjbUxFTXBXdTJnV2UzSHM3LXp6alJXMjdhbHplc3pRTG9WXzdWWGFFclZwSk1YOVV6Y0F5VnJhSFNxOXpqN0VmMU1vdlI4dUdwTDVFbWpvZUVTMmtuRG8xRFVZalZDaEtReFlYT0h6bnJhalBBWUlaU0VQMlNzbVp4TmRhT09SN3ZGYjY0ODB6Q2U0VUhWd2tuSmktNUJwVFI5eHhDSTREVkkyWGJlMDRteW9rYXlERHlFd1ZtYUJfelFlQUNqZFFGa0ZPSVI2WFQ3NlZaM3d1SdIB6gFBVV95cUxQU3NDSTZCR0NsMXdsazJHUUFzTlF5N1oyRmdnQmxmOXJvZzQzQUZrN2ZHZEYzSmtXZWpCOG94WDZqY0x5bVVUa2hVQkxJSDgxb1FaSWNObnhwMXEtcmhOWFdTV0ZBUUJ1bUc4SWk0Wkx3bUtyMEtNS29hNnVWQ2FoUzB2RFRlNnBpRGVfU05GN1oxYUJ2NkhNaVI1dU5Zalhzck1jblBiRkNlN1ZKYkdLSjYzd3E5c1ZwanhURWFQLVBkMF9HWVBDSTRneXJpRUphYnlLVjIyUURDRG1zZTIzaDVUdzV3Zkl0a2c?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "COFORGE Stock Price and Chart \u2014 NSE:COFORGE - TradingView",
-        "source": "TradingView",
-        "published": "Thu, 20 Aug 2020 18:02:27 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5PTEZDS2ZXSGlxb3ZKMnVZSVEza0h3cno4bk9UajBjSUNCU3M4XzBJdExXOU5rbkVzOXJrTlJyaXNZVW9uMThWWmlUY2R5OExsa2tERjFqQnVQdFlI?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Coforge board plans to consider stock split proposal on March 4 - India Infoline",
-        "source": "India Infoline",
-        "published": "Thu, 27 Feb 2025 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTzFsTktrX3U3VTVOMkw0RlhoXzh6OTZJVHhGU1oyMFZ2dE9vVXlHNldkN1I3ak9odTc2WUQtS1A4emNycEZoYk85ODJlRkZHcVRFbjVEd0RvZWJacTBRNWFEYi1vbW1mdE5QQm00bG15c3E5c3ltVXhSMUhQV0tNMFVOQ0J3bnh0QUhHaGh5dV83eHFfUDZLVU9XRVdNamwxY3JTNnlwT2hCY2Ji?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Coforge Limited (COFORGE.NS) stock price, news, quote and history - Yahoo Finance UK",
-        "source": "Yahoo Finance UK",
-        "published": "Tue, 02 Nov 2021 15:57:12 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9aRVNmNkVFUnN4Z3MtX0FGNTcxWFVOdF9hVUFELS1zV0xIVlVhNk1UN25OZTBVNjlKRDE5WEtjZzVQdUFwVEd2SGNOd3pHNFhmbkdQM0V2Y1ZWQQ?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -317,6 +308,15 @@
         "verification_status": "unverified"
       },
       {
+        "headline": "Coforge Ltd Stock Price: Coforge Share Price Today - India Infoline",
+        "source": "India Infoline",
+        "published": "Fri, 19 Mar 2021 16:54:24 GMT",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5JTFlPeS1jMWphSjdnRjdwOUtSUVp2OE82d2ZJeGZwaFY5UzhMYnJnR2NkZEpHNzY1cUpZSkZPVi1NdlVza2dqSHNaZjR2S3MyQWw3U3VFQl9UQ0EyTnZhRjFDTEhtV3ZaTzV5ZjNB?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
         "headline": "New Forecasts: Here's What Analysts Think The Future Holds For Coforge Limited (NSE:COFORGE) - Simply Wall St",
         "source": "Simply Wall St",
         "published": "Thu, 07 May 2026 07:00:00 GMT",
@@ -330,15 +330,6 @@
         "source": "scanx.trade",
         "published": "Mon, 16 Feb 2026 08:00:00 GMT",
         "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbS13akd0RDdON0lxMEpNclMzNFdOV3RlZ0RqUUhzcFBZd0VtbGlRLTY4dllYQTJrUDJzSWlWaDlCRm1lWWQ0R1FpN3c4d2JEMDdoaHMtTGRoelJpZlpNVFlLcUdMdVpseTE1QjJLVlVQWVdYN244ak90cTBQSi0tMjViSXZOVk5KVzB1WVVDS3ZGdGRTWHZ4aUVqU2xOMXFUVGNhVEJJejFZR2MxdnRaSHRjeGpkTks2TFNYY2E4QzFrZVdsdU1nUFBtcVpSRTQ?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Coforge Ltd Stock Price: Coforge Share Price Today - India Infoline",
-        "source": "India Infoline",
-        "published": "Fri, 19 Mar 2021 16:54:24 GMT",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5JTFlPeS1jMWphSjdnRjdwOUtSUVp2OE82d2ZJeGZwaFY5UzhMYnJnR2NkZEpHNzY1cUpZSkZPVi1NdlVza2dqSHNaZjR2S3MyQWw3U3VFQl9UQ0EyTnZhRjFDTEhtV3ZaTzV5ZjNB?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -362,19 +353,19 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Is The Market Rewarding Coforge Limited (NSE:COFORGE) With A Negative Sentiment As A Result Of Its Mixed Fundamentals? - Simply Wall St",
+        "headline": "Coforge Limited's (NSE:COFORGE) Share Price Matching Investor Opinion - Simply Wall St",
         "source": "Simply Wall St",
-        "published": "Sat, 24 Jan 2026 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPclkwVHZpcV9QVVdicVZKNHE4STNtal8wQXphVzVITjY2NDNxalVhQlAwTWpnSnlDNGwxMFBoamQxaVJ1TTBXNEd2WFNVU2FOcHhFVW5GUWhUSzhFczRubngwcFYyQmNwWmYzbkVRTnJCT0c0amwxV0J1UUZEMkhoRTdOd1FVYmtxZ3BqOGFlWVpxU0hjZmVZelY4d2VFRDF4SkdQNV9jR1J4OWtqbXp1T3JhdkpUOXBDUTJtTF9oblVyaUpFb2ZmOUtGb1c1Z9IB0wFBVV95cUxOTFhvY2lHaXFWTWZWaVdrdnpjUDV1WG9ZOHI0UDdxNlM5VVZlQnJGVWhXN3Q2WDZhbVlCUW9NNklWX1NnN2hnU00xWDBraTNfN052RHdJVlN4ZVlnb2Q0b1Y5eHViUi1PeEo2ckphQXZxSVBhZ3p5a0ZORkN4NkpCeW15c2RiWHN6TEo1cXVPYXNTWnJZSzVEQ1BOQ3gwelFtOEFFSHNCRTVIY1lWN29hNXJKNGtXWThaM2x1VUxNV2hBMTBaY3VxNFgya0Y5R2dJbDM4?oc=5",
+        "published": "Tue, 16 Dec 2025 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbGpWdEluLVlaT3NhdGhSTFp6MEM3bHdwME5yLUVQY250dG5qblg5ZzMwQXkzdURsREx5Nk9sY2tSWW5yQW5IbDBrZVdBSmVYc0dsRGlyYzNYRXZsc3B1d3dCbGdZamRET0M5LXhUVlhoaDFUNnc1a0lhVmh2MVBwZm00Wmt0VXk3dlRZQU9rcVV1aHZFTk1CcklGaEozXzdLZGFDUmFURUlSQUZ6TXJUOWlUQVAzQ0hUcVZSZzNaaUhUUDNyMVBVMHRlM3FhZ9IB0wFBVV95cUxQWXpNMEhGTXZab2xSV3h6YUdvTUYzbFFMR0dEbTdDeENrSnowdUZhTDdPU0dubmM1T2lscThOMzZRRUp0aTVJb2ZuaTlzc2hwR19YSG5kSEtyXy05dG1CLVQzYi01NW5rU3lPWUhHR21kTG5pSFJYcDdXbExGZjV3TWIzWnBMM2NiOUxtOERycTJwei1FdUNrdU92b1pGVjJkNTM1NE1uY05aamVEek52MUJlSzFNSDdzRUV4Z3dQeUpVLWh4Z1IxcVZnRE51R05GY19Z?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
       },
       {
-        "headline": "Coforge Limited's (NSE:COFORGE) Share Price Matching Investor Opinion - Simply Wall St",
+        "headline": "Coforge (NSEI:COFORGE) Stock Forecast & Analyst Predictions - Simply Wall St",
         "source": "Simply Wall St",
-        "published": "Tue, 16 Dec 2025 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbGpWdEluLVlaT3NhdGhSTFp6MEM3bHdwME5yLUVQY250dG5qblg5ZzMwQXkzdURsREx5Nk9sY2tSWW5yQW5IbDBrZVdBSmVYc0dsRGlyYzNYRXZsc3B1d3dCbGdZamRET0M5LXhUVlhoaDFUNnc1a0lhVmh2MVBwZm00Wmt0VXk3dlRZQU9rcVV1aHZFTk1CcklGaEozXzdLZGFDUmFURUlSQUZ6TXJUOWlUQVAzQ0hUcVZSZzNaaUhUUDNyMVBVMHRlM3FhZ9IB0wFBVV95cUxQWXpNMEhGTXZab2xSV3h6YUdvTUYzbFFMR0dEbTdDeENrSnowdUZhTDdPU0dubmM1T2lscThOMzZRRUp0aTVJb2ZuaTlzc2hwR19YSG5kSEtyXy05dG1CLVQzYi01NW5rU3lPWUhHR21kTG5pSFJYcDdXbExGZjV3TWIzWnBMM2NiOUxtOERycTJwei1FdUNrdU92b1pGVjJkNTM1NE1uY05aamVEek52MUJlSzFNSDdzRUV4Z3dQeUpVLWh4Z1IxcVZnRE51R05GY19Z?oc=5",
+        "published": "Tue, 09 Aug 2022 11:08:50 GMT",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RWlNHRzdjVmhYOGVZdkh4RVU0WnN4dHVQejl5M3dHeEp6eDU0aWFWelpweXNWN0I5VzR3Rkw2THlnMkpCVWFCZXcyLUxnUXpoZXJ2dS10WWdURVdTNElhMGk2UElSTldjaW5PaGRoQlZpZF9ERTN3NUJSLWliMUE?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -386,15 +377,6 @@
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1uRGlUcEV2ZS1KVFp4d1hLcXhLdmtOY3N1NG1MTWVoM012WnBxQVM2azBzSU4xQ0RFNlhWMGdES1BmZE9kaDFXOG9Mekp6ajRnYXlxXzJDd3ZJMTJVSUltbkYzdy1KbVk?oc=5",
         "sentiment": "neutral",
         "relevance": "low",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Coforge (NSEI:COFORGE) Stock Forecast & Analyst Predictions - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Tue, 09 Aug 2022 11:08:50 GMT",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RWlNHRzdjVmhYOGVZdkh4RVU0WnN4dHVQejl5M3dHeEp6eDU0aWFWelpweXNWN0I5VzR3Rkw2THlnMkpCVWFCZXcyLUxnUXpoZXJ2dS10WWdURVdTNElhMGk2UElSTldjaW5PaGRoQlZpZF9ERTN3NUJSLWliMUE?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
         "verification_status": "unverified"
       },
       {
@@ -416,7 +398,7 @@
         "verification_status": "unverified"
       }
     ],
-    "stored_new": 23,
+    "stored_new": 21,
     "duplicates_skipped": 0,
     "note": "headlines are unverified signals, not confirmed financial evidence",
     "_run_id": 1098
@@ -513,7 +495,7 @@
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-19 15:36 IST",
+    "generated_at": "2026-11-19 20:44 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-19 14:55 IST"
   }

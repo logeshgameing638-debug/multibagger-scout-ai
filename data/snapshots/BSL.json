@@ -1,7 +1,7 @@
 {
   "symbol": "BSL",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:51 IST",
+  "updated_at": "2026-11-19 20:40 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 35.4 (no industry benchmark): value 35.4 vs threshold 40"
+          "P/E 35.5 (no industry benchmark): value 35.5 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 54: 4/7 (value 53.6 vs threshold 45)",
+          "RSI 54: 4/7 (value 54 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.399 below all bands"
+          "relative volume: value 0.455 below all bands"
         ]
       },
       "price_structure": {
@@ -205,7 +205,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 53.562503107926815,
+    "rsi_14": 53.96643265492714,
     "breakout": false,
     "breakdown": false,
     "support": 110.0,

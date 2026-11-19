@@ -1,7 +1,7 @@
 {
   "symbol": "CEIGALL",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:53 IST",
+  "updated_at": "2026-11-19 20:43 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -9,14 +9,14 @@
     "business": "success",
     "valuation": "partial",
     "risk": "success",
-    "news": "failed",
+    "news": "success",
     "scoring": "success"
   },
   "name": "Ceigall India Limited",
   "scores": {
     "fundamental": 40.0,
     "technical": 42.0,
-    "data_confidence": 70.0,
+    "data_confidence": 72.0,
     "risk": 30.0,
     "long_term": 40.6,
     "short_term": 41.4,
@@ -103,7 +103,7 @@
         "points": 4.0,
         "max": 15,
         "detail": [
-          "RSI 47: 4/7 (value 47.1 vs threshold 45)",
+          "RSI 47: 4/7 (value 47.3 vs threshold 45)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.401 below all bands"
+          "relative volume: value 0.575 below all bands"
         ]
       },
       "price_structure": {
@@ -125,7 +125,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (53% of range)"
+          "price mid-range between S/R (54% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -138,13 +138,13 @@
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 10,
+        "points": 12,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: failed/unused"
+          "rss_news: ok"
         ]
       },
       "completeness": {
@@ -205,7 +205,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 47.12617543545161,
+    "rsi_14": 47.300810363012566,
     "breakout": false,
     "breakdown": false,
     "support": 354.1499938964844,

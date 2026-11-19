@@ -1,7 +1,7 @@
 {
   "symbol": "BRIGHTOUTD",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:16 IST",
+  "updated_at": "2026-11-19 20:39 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 6,
         "max": 10,
         "detail": [
-          "P/E 16.0 (no industry benchmark): value 16 vs threshold 25"
+          "P/E 15.9 (no industry benchmark): value 15.9 vs threshold 25"
         ]
       },
       "industry_growth": {

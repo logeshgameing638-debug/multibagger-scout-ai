@@ -1,7 +1,7 @@
 {
   "symbol": "CAPITALSFB",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:52 IST",
+  "updated_at": "2026-11-19 20:42 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -71,7 +71,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 8.1 (no industry benchmark): value 8.12 vs threshold 15"
+          "P/E 8.1 (no industry benchmark): value 8.1 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -101,7 +101,7 @@
         "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 59: 7/7 (value 58.7 vs threshold 55)",
+          "RSI 58: 7/7 (value 58.3 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -109,7 +109,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.585 below all bands"
+          "relative volume: value 0.688 below all bands"
         ]
       },
       "price_structure": {
@@ -203,7 +203,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 58.7158336635362,
+    "rsi_14": 58.297243697701276,
     "breakout": false,
     "breakdown": false,
     "support": 251.60000610351562,

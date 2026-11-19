@@ -1,7 +1,7 @@
 {
   "symbol": "BPL",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:16 IST",
+  "updated_at": "2026-11-19 20:38 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -103,7 +103,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 41: 0.0/7 (value 41.5 below all bands)",
+          "RSI 44: 0.0/7 (value 43.7 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.243 below all bands"
+          "relative volume: value 0.376 below all bands"
         ]
       },
       "price_structure": {
@@ -125,7 +125,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (43% of range)"
+          "price mid-range between S/R (49% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -205,7 +205,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 41.467695252915206,
+    "rsi_14": 43.7359493681127,
     "breakout": false,
     "breakdown": false,
     "support": 37.29999923706055,

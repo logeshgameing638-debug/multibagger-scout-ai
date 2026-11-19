@@ -1,7 +1,7 @@
 {
   "symbol": "BONLON",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:16 IST",
+  "updated_at": "2026-11-19 20:37 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Bonlon Industries Limited",
   "scores": {
     "fundamental": 28.0,
-    "technical": 39.0,
+    "technical": 44.0,
     "data_confidence": 67.0,
     "risk": 60.0,
-    "long_term": 31.3,
-    "short_term": 35.7,
-    "balanced": 33.5
+    "long_term": 32.8,
+    "short_term": 39.2,
+    "balanced": 36.0
   },
   "classification": "high_risk",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 0.0,
         "max": 10,
         "detail": [
-          "P/E 119.5 (no industry benchmark): value 120 below all bands"
+          "P/E 116.1 (no industry benchmark): value 116 below all bands"
         ]
       },
       "industry_growth": {
@@ -103,15 +103,15 @@
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 53: 4/7 (value 52.9 vs threshold 45)",
+          "RSI 53: 4/7 (value 53.1 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 5,
+        "points": 10,
         "max": 15,
         "detail": [
-          "relative volume: value 0.747 vs threshold 0.7"
+          "relative volume: value 1 vs threshold 1"
         ]
       },
       "price_structure": {
@@ -125,7 +125,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (52% of range)"
+          "price mid-range between S/R (53% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -208,7 +208,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 52.85651104946908,
+    "rsi_14": 53.143763057876924,
     "breakout": false,
     "breakdown": false,
     "support": 31.1200008392334,

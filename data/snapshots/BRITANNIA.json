@@ -1,7 +1,7 @@
 {
   "symbol": "BRITANNIA",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:16 IST",
+  "updated_at": "2026-11-19 20:39 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Britannia Industries Limited",
   "scores": {
     "fundamental": 55.0,
-    "technical": 55.0,
+    "technical": 60.0,
     "data_confidence": 72.0,
     "risk": 0.0,
-    "long_term": 55.0,
-    "short_term": 55.0,
-    "balanced": 55.0
+    "long_term": 56.5,
+    "short_term": 58.5,
+    "balanced": 57.5
   },
   "classification": "neutral",
   "explanation": {
@@ -103,15 +103,15 @@
         "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 56: 7/7 (value 56.2 vs threshold 55)",
+          "RSI 55: 7/7 (value 55.1 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 10,
+        "points": 15,
         "max": 15,
         "detail": [
-          "relative volume: value 1.35 vs threshold 1"
+          "relative volume: value 1.7 vs threshold 1.5"
         ]
       },
       "price_structure": {
@@ -125,7 +125,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (65% of range)"
+          "price mid-range between S/R (62% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 56.21799420809155,
+    "rsi_14": 55.11232860245358,
     "breakout": false,
     "breakdown": false,
     "support": 4499.89990234375,

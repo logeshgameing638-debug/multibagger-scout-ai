@@ -1,7 +1,7 @@
 {
   "symbol": "BPCL",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:16 IST",
+  "updated_at": "2026-11-19 20:38 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Bharat Petroleum Corporation Limited",
   "scores": {
     "fundamental": 60.0,
-    "technical": 42.0,
+    "technical": 45.0,
     "data_confidence": 72.0,
     "risk": 0.0,
-    "long_term": 54.6,
-    "short_term": 47.4,
-    "balanced": 51.0
+    "long_term": 55.5,
+    "short_term": 49.5,
+    "balanced": 52.5
   },
   "classification": "attractive_valuation",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 8.3 (no industry benchmark): value 8.31 vs threshold 15"
+          "P/E 8.3 (no industry benchmark): value 8.33 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -100,10 +100,10 @@
         ]
       },
       "momentum": {
-        "points": 12.0,
+        "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 54: 4/7 (value 54.4 vs threshold 45)",
+          "RSI 55: 7/7 (value 55.1 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.439 below all bands"
+          "relative volume: value 0.517 below all bands"
         ]
       },
       "price_structure": {
@@ -125,7 +125,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (67% of range)"
+          "price mid-range between S/R (69% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 54.369447942655974,
+    "rsi_14": 55.09199666089863,
     "breakout": false,
     "breakdown": false,
     "support": 275.3999938964844,

@@ -1,7 +1,7 @@
 {
   "symbol": "CAMS",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:52 IST",
+  "updated_at": "2026-11-19 20:41 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 33.5 (no industry benchmark): value 33.5 vs threshold 40"
+          "P/E 34.8 (no industry benchmark): value 34.8 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.567 below all bands"
+          "relative volume: value 0.66 below all bands"
         ]
       },
       "price_structure": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 52.349474993910356,
+    "rsi_14": 52.250606624572356,
     "breakout": false,
     "breakdown": false,
     "support": 639.0999755859375,

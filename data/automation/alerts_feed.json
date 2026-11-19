@@ -1,6 +1,102 @@
 {
-  "generated_at": "2026-11-19 15:36 IST",
+  "generated_at": "2026-11-19 20:44 IST",
   "alerts": [
+    {
+      "symbol": "ALKYLAMINE",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "ALKYLAMINE balanced score moved -11.0 pts (37.5 -> 26.5)",
+      "data_date": "2026-11-19 20:36 IST",
+      "detected_at": "2026-11-19 20:44 IST"
+    },
+    {
+      "symbol": "BERGEPAINT",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "BERGEPAINT balanced score moved -10.4 pts (40.2 -> 29.8)",
+      "data_date": "2026-11-19 20:42 IST",
+      "detected_at": "2026-11-19 20:44 IST"
+    },
+    {
+      "symbol": "BLUECLOUDS",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "BLUECLOUDS RSI(14) 20 <= 30 (oversold zone)",
+      "data_date": "2026-11-19 20:36 IST",
+      "detected_at": "2026-11-19 20:44 IST"
+    },
+    {
+      "symbol": "BLUESTARCO",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "BLUESTARCO RSI(14) 71 >= 70 (overbought zone)",
+      "data_date": "2026-11-19 20:36 IST",
+      "detected_at": "2026-11-19 20:44 IST"
+    },
+    {
+      "symbol": "BLUESTONE",
+      "type": "risk_high",
+      "severity": "critical",
+      "message": "BLUESTONE stored risk score 70 >= 70 (high stored risk)",
+      "data_date": "2026-11-19 20:36 IST",
+      "detected_at": "2026-11-19 20:44 IST"
+    },
+    {
+      "symbol": "BPLPHARMA",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "BPLPHARMA RSI(14) 72 >= 70 (overbought zone)",
+      "data_date": "2026-11-19 20:38 IST",
+      "detected_at": "2026-11-19 20:44 IST"
+    },
+    {
+      "symbol": "CANBK",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "CANBK RSI(14) 70 >= 70 (overbought zone)",
+      "data_date": "2026-11-19 20:41 IST",
+      "detected_at": "2026-11-19 20:44 IST"
+    },
+    {
+      "symbol": "CAPLIPOINT",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "CAPLIPOINT RSI(14) 30 <= 30 (oversold zone)",
+      "data_date": "2026-11-19 20:42 IST",
+      "detected_at": "2026-11-19 20:44 IST"
+    },
+    {
+      "symbol": "GYFTR",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "GYFTR RSI(14) 73 >= 70 (overbought zone)",
+      "data_date": "2026-11-19 20:40 IST",
+      "detected_at": "2026-11-19 20:44 IST"
+    },
+    {
+      "symbol": "NEAGI",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "NEAGI RSI(14) 71 >= 70 (overbought zone)",
+      "data_date": "2026-11-19 20:40 IST",
+      "detected_at": "2026-11-19 20:44 IST"
+    },
+    {
+      "symbol": "SAKHTISUG",
+      "type": "risk_high",
+      "severity": "critical",
+      "message": "SAKHTISUG stored risk score 85 >= 70 (high stored risk)",
+      "data_date": "2026-11-19 20:37 IST",
+      "detected_at": "2026-11-19 20:44 IST"
+    },
+    {
+      "symbol": "SHALPAINTS",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "SHALPAINTS RSI(14) 73 >= 70 (overbought zone)",
+      "data_date": "2026-11-19 20:43 IST",
+      "detected_at": "2026-11-19 20:44 IST"
+    },
     {
       "symbol": "DENORA",
       "type": "rsi_oversold",
@@ -307,8 +403,8 @@
     }
   ],
   "stats": {
-    "snapshots_scanned": 675,
-    "new_alerts": 11,
-    "active_alerts": 38
+    "snapshots_scanned": 732,
+    "new_alerts": 12,
+    "active_alerts": 50
   }
 }

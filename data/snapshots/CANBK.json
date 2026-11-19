@@ -1,7 +1,7 @@
 {
   "symbol": "CANBK",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:52 IST",
+  "updated_at": "2026-11-19 20:41 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Canara Bank",
   "scores": {
     "fundamental": 41.5,
-    "technical": 49.0,
+    "technical": 54.0,
     "data_confidence": 72.0,
     "risk": 10.0,
-    "long_term": 43.8,
-    "short_term": 46.8,
-    "balanced": 45.2
+    "long_term": 45.2,
+    "short_term": 50.2,
+    "balanced": 47.8
   },
   "classification": "neutral",
   "explanation": {
@@ -71,7 +71,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 6.1 (no industry benchmark): value 6.06 vs threshold 15"
+          "P/E 6.1 (no industry benchmark): value 6.05 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -101,15 +101,15 @@
         "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 70: 7/7 (value 70.1 vs threshold 55)",
+          "RSI 70: 7/7 (value 70 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 5,
+        "points": 10,
         "max": 15,
         "detail": [
-          "relative volume: value 0.932 vs threshold 0.7"
+          "relative volume: value 1.04 vs threshold 1"
         ]
       },
       "price_structure": {
@@ -202,7 +202,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 70.13901334440055,
+    "rsi_14": 70.04086656552897,
     "breakout": false,
     "breakdown": false,
     "support": 114.62999725341797,

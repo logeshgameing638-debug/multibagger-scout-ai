@@ -1,7 +1,7 @@
 {
   "symbol": "BVCL",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:51 IST",
+  "updated_at": "2026-11-19 20:40 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Barak Valley Cements Limited",
   "scores": {
     "fundamental": 39.5,
-    "technical": 40.0,
+    "technical": 45.0,
     "data_confidence": 72.0,
     "risk": 10.0,
-    "long_term": 39.6,
-    "short_term": 39.9,
-    "balanced": 39.8
+    "long_term": 41.1,
+    "short_term": 43.3,
+    "balanced": 42.2
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 38.8 (no industry benchmark): value 38.8 vs threshold 40"
+          "P/E 37.7 (no industry benchmark): value 37.7 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -103,15 +103,15 @@
         "points": 8.0,
         "max": 15,
         "detail": [
-          "RSI 39: 0.0/7 (value 39.1 below all bands)",
+          "RSI 34: 0.0/7 (value 34.4 below all bands)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 10,
+        "points": 15,
         "max": 15,
         "detail": [
-          "relative volume: value 1.23 vs threshold 1"
+          "relative volume: value 1.68 vs threshold 1.5"
         ]
       },
       "price_structure": {
@@ -125,7 +125,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (37% of range)"
+          "price mid-range between S/R (30% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -204,11 +204,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 39.11153525404476,
+    "rsi_14": 34.43501959712718,
     "breakout": false,
     "breakdown": false,
     "support": 32.88999938964844,
-    "resistance": 40.5,
+    "resistance": 38.900001525878906,
     "trend": "bearish"
   }
 }

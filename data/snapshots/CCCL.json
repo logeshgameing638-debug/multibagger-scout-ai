@@ -1,7 +1,7 @@
 {
   "symbol": "CCCL",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:52 IST",
+  "updated_at": "2026-11-19 20:43 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -103,7 +103,7 @@
         "points": 8.0,
         "max": 15,
         "detail": [
-          "RSI 35: 0.0/7 (value 34.8 below all bands)",
+          "RSI 35: 0.0/7 (value 34.6 below all bands)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.407 below all bands"
+          "relative volume: value 0.506 below all bands"
         ]
       },
       "price_structure": {
@@ -207,7 +207,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 34.810154161339526,
+    "rsi_14": 34.59013014794378,
     "breakout": false,
     "breakdown": false,
     "support": 10.199999809265137,

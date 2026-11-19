@@ -1,7 +1,7 @@
 {
   "symbol": "BOMDYEING",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:15 IST",
+  "updated_at": "2026-11-19 20:37 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "The Bombay Dyeing and Manufacturing Company Limited",
   "scores": {
     "fundamental": 24.0,
-    "technical": 45.0,
+    "technical": 34.0,
     "data_confidence": 72.0,
     "risk": 40.0,
-    "long_term": 30.3,
-    "short_term": 38.7,
-    "balanced": 34.5
+    "long_term": 27.0,
+    "short_term": 31.0,
+    "balanced": 29.0
   },
   "classification": "high_risk",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 0.0,
         "max": 10,
         "detail": [
-          "P/E 68.0 (no industry benchmark): value 68 below all bands"
+          "P/E 67.5 (no industry benchmark): value 67.5 below all bands"
         ]
       },
       "industry_growth": {
@@ -93,17 +93,17 @@
         ]
       },
       "ema_alignment": {
-        "points": 8,
+        "points": 0,
         "max": 15,
         "detail": [
-          "price above EMA50, partial alignment"
+          "below key EMAs"
         ]
       },
       "momentum": {
-        "points": 15.0,
+        "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 56: 7/7 (value 55.7 vs threshold 55)",
+          "RSI 54: 4/7 (value 54.2 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.34 below all bands"
+          "relative volume: value 0.43 below all bands"
         ]
       },
       "price_structure": {
@@ -125,7 +125,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (61% of range)"
+          "price mid-range between S/R (59% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -206,7 +206,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 55.65764386097965,
+    "rsi_14": 54.18728946854056,
     "breakout": false,
     "breakdown": false,
     "support": 85.12000274658203,

@@ -1,7 +1,7 @@
 {
   "symbol": "CANFINHOME",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:52 IST",
+  "updated_at": "2026-11-19 20:41 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Can Fin Homes Limited",
   "scores": {
     "fundamental": 31.0,
-    "technical": 42.0,
+    "technical": 45.0,
     "data_confidence": 72.0,
     "risk": 30.0,
-    "long_term": 34.3,
-    "short_term": 38.7,
-    "balanced": 36.5
+    "long_term": 35.2,
+    "short_term": 40.8,
+    "balanced": 38.0
   },
   "classification": "high_risk",
   "explanation": {
@@ -71,7 +71,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 8.7 (no industry benchmark): value 8.66 vs threshold 15"
+          "P/E 8.9 (no industry benchmark): value 8.91 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -98,10 +98,10 @@
         ]
       },
       "momentum": {
-        "points": 12.0,
+        "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 54: 4/7 (value 53.8 vs threshold 45)",
+          "RSI 56: 7/7 (value 55.7 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -109,7 +109,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.387 below all bands"
+          "relative volume: value 0.501 below all bands"
         ]
       },
       "price_structure": {
@@ -123,7 +123,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (60% of range)"
+          "price mid-range between S/R (64% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -203,7 +203,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 53.821165964814156,
+    "rsi_14": 55.715954586367964,
     "breakout": false,
     "breakdown": false,
     "support": 693.0,

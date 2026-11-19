@@ -1,7 +1,7 @@
 {
   "symbol": "CCHHL",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:52 IST",
+  "updated_at": "2026-11-19 20:43 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -103,7 +103,7 @@
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 48: 4/7 (value 47.8 vs threshold 45)",
+          "RSI 48: 4/7 (value 48 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.221 below all bands"
+          "relative volume: value 0.263 below all bands"
         ]
       },
       "price_structure": {
@@ -125,7 +125,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (33% of range)"
+          "price mid-range between S/R (34% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -205,7 +205,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 47.83566664036854,
+    "rsi_14": 48.04586315638041,
     "breakout": false,
     "breakdown": false,
     "support": 12.100000381469727,

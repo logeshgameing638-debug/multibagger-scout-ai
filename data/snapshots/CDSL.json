@@ -1,7 +1,7 @@
 {
   "symbol": "CDSL",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:52 IST",
+  "updated_at": "2026-11-19 20:43 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -101,7 +101,7 @@
         "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 65: 7/7 (value 65 vs threshold 55)",
+          "RSI 65: 7/7 (value 64.9 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -109,7 +109,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.571 below all bands"
+          "relative volume: value 0.618 below all bands"
         ]
       },
       "price_structure": {
@@ -202,7 +202,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 65.00795921542803,
+    "rsi_14": 64.93190763964904,
     "breakout": false,
     "breakdown": false,
     "support": 1159.0999755859375,
