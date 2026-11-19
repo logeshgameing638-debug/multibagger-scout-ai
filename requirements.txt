@@ -1,16 +1,17 @@
 # Multibagger Scout AI - free-first dependencies (all free, no paid API keys required)
-streamlit>=1.30
-fastapi>=0.110
-uvicorn[standard]>=0.29
-pydantic>=2
-SQLAlchemy>=2.0
-pandas>=2.0
-numpy>=1.26
-plotly>=5.18
-requests>=2.31
-yfinance>=0.2.40
-feedparser>=6.0
-APScheduler>=3.10,<4
+# Pinned to the exact set the test suite (125 tests) passed against.
+streamlit==1.65.0
+fastapi==0.162.5
+uvicorn[standard]==0.54.0
+pydantic==2.14.3
+SQLAlchemy==2.0.58
+pandas==2.3.3
+numpy==2.2.6
+plotly==7.1.0
+requests==2.34.2
+yfinance==1.8.0
+feedparser==6.0.14
+APScheduler==3.11.3
 reportlab>=4.0
-pytest>=8.0
-httpx>=0.27
+pytest==9.2.0
+httpx==0.28.1
