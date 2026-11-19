@@ -51,6 +51,7 @@ def coverage_summary(snapshots: dict[str, dict] | None = None,
     complete = sum(1 for s in snapshots.values() if s.get("status") == "complete")
     partial = sum(1 for s in snapshots.values() if s.get("status") == "partial")
     unavailable = sum(1 for s in snapshots.values() if s.get("status") == "unavailable")
+    system_error = sum(1 for s in snapshots.values() if s.get("status") == "system_error")
     universe_size = (state or {}).get("universe_size") or 2404
     return {
         "stocks_with_data": len(snapshots),
@@ -58,6 +59,7 @@ def coverage_summary(snapshots: dict[str, dict] | None = None,
         "complete": complete,
         "partial": partial,
         "unavailable": unavailable,
+        "system_error": system_error,
         "oldest_data": min(dates) if dates else None,
         "newest_data": max(dates) if dates else None,
         "last_run_at": (state or {}).get("last_run_at"),
