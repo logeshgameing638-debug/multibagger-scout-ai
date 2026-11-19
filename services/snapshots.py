@@ -112,8 +112,10 @@ def _load_json_fresh(path: Path, repo_relpath: str) -> dict | None:
 
 
 
-def load_snapshots(directory: Path = SNAPSHOT_DIR) -> dict[str, dict]:
-    """symbol -> snapshot dict. Empty when no rotation run has committed yet."""
+def load_snapshots(directory: Path | None = None) -> dict[str, dict]:
+    """key -> snapshot dict (symbol for NSE, EXCHANGE_symbol otherwise).
+    Empty when no rotation run has committed yet."""
+    directory = directory or SNAPSHOT_DIR
     snapshots: dict[str, dict] = {}
     if not directory.exists():
         return snapshots
@@ -123,7 +125,12 @@ def load_snapshots(directory: Path = SNAPSHOT_DIR) -> dict[str, dict]:
         except (ValueError, OSError):
             continue
         symbol = payload.get("symbol") or path.stem
-        snapshots[symbol] = payload
+        exchange = (payload.get("exchange") or "NSE").upper()
+        # BSE files are named BSE_<symbol>.json so an NSE and a BSE listing
+        # of the same symbol never overwrite each other on disk; mirror that
+        # in the lookup key.
+        key = symbol if exchange == "NSE" else f"{exchange}_{symbol}"
+        snapshots[key] = payload
     return snapshots
 
 
@@ -166,7 +173,10 @@ def coverage_summary(snapshots: dict[str, dict] | None = None,
 
 def get_snapshot(symbol: str, exchange: str = "NSE") -> dict | None:
     """Single-stock lookup used as a fallback when the local DB has no score."""
-    return load_snapshots().get(symbol.strip().upper())
+    symbol = symbol.strip().upper()
+    exchange = (exchange or "NSE").upper()
+    key = symbol if exchange == "NSE" else f"{exchange}_{symbol}"
+    return load_snapshots().get(key)
 
 
 AUTOMATION_FEED_FILE = ROOT / "data" / "automation" / "alerts_feed.json"
