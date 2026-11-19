@@ -67,6 +67,20 @@ def place_order(symbol: str, exchange: str, side: str, qty: int,
     if price is None:
         return {"ok": False, "error": f"cannot simulate fill: {as_of}"}
 
+    if side == "BUY":
+        if stop_loss is not None and stop_loss >= price:
+            return {"ok": False,
+                    "error": f"invalid stop-loss {stop_loss:,.2f}: for a BUY it must be "
+                             f"below the fill price {price:,.2f}"}
+        if target is not None and target <= price:
+            return {"ok": False,
+                    "error": f"invalid target {target:,.2f}: for a BUY it must be above "
+                             f"the fill price {price:,.2f}"}
+    if side == "SELL" and (stop_loss is not None or target is not None):
+        return {"ok": False,
+                "error": "stop-loss/target only apply to BUY entries; a SELL closes "
+                         "the simulated position"}
+
     cash = virtual_cash()
     cost = price * qty
     if side == "BUY" and cost > cash:
@@ -76,11 +90,28 @@ def place_order(symbol: str, exchange: str, side: str, qty: int,
         if qty > held:
             return {"ok": False, "error": f"only {held} simulated shares held"}
 
+    from services import paper_risk
+    gate = paper_risk.evaluate_order(symbol, exchange, side, qty, price,
+                                     stop_loss, cash, invested=_invested())
+    if not gate["approved"]:
+        with session_scope() as session:
+            session.add(PaperOrder(
+                symbol=symbol, exchange=exchange, side=side, qty=qty,
+                status="rejected", fill_price=None,
+                stop_loss=stop_loss, target=target,
+                note=note[:500], risk_status="rejected",
+                risk_reasons=" | ".join(gate["reasons"])[:1000]))
+        return {"ok": False, "gate": gate,
+                "error": "REJECTED by the automated risk gate: "
+                         + "; ".join(gate["reasons"])}
+
     with session_scope() as session:
         order = PaperOrder(
             symbol=symbol, exchange=exchange, side=side, qty=qty,
             status="filled", fill_price=price,
             stop_loss=stop_loss, target=target, note=note[:500],
+            risk_status=gate["status"],
+            risk_reasons=" | ".join(gate["reasons"] + gate["warnings"])[:1000],
             filled_at=_utcnow(),
         )
         session.add(order)
@@ -88,7 +119,12 @@ def place_order(symbol: str, exchange: str, side: str, qty: int,
         order_id = order.id
     _set_cash(cash - cost if side == "BUY" else cash + cost)
     return {"ok": True, "order_id": order_id, "fill_price": price,
-            "price_as_of": as_of, "simulated": True}
+            "price_as_of": as_of, "simulated": True, "gate": gate}
+
+
+def _invested() -> float:
+    """Cost basis of open simulated positions (for gate exposure math)."""
+    return sum(pos["cost"] for pos in positions().values())
 
 
 def positions() -> dict[tuple[str, str], dict]:
@@ -149,6 +185,7 @@ def trade_history(limit: int = 50) -> list[dict]:
              "qty": r.qty, "status": r.status, "fill_price": r.fill_price,
              "stop_loss": r.stop_loss, "target": r.target,
              "created_at": str(r.created_at)[:16], "filled_at": str(r.filled_at)[:16] if r.filled_at else None,
+             "risk_status": r.risk_status, "risk_reasons": r.risk_reasons,
              "note": r.note} for r in rows]
 
 
