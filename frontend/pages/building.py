@@ -22,7 +22,7 @@ from database.models import (
 from frontend import design
 from frontend.pages import dashboard as dash_page
 from frontend.pages import engineering, scouting, system
-from services import building as building_service
+from services import building as building_service, paper_risk, paper_trading
 from services import paper_trading
 from services import watchlist as wl_service
 
@@ -44,13 +44,17 @@ def _floor_chrome(st, floor_no: int) -> None:
     """Floor header: live status chip, run stats, data-source note."""
     name, icon, purpose = FLOORS[floor_no][1], FLOORS[floor_no][2], FLOORS[floor_no][3]
     activity = building_service.floor_activity().get(floor_no, {})
-    active = activity.get("active")
-    chip = ('<span style="color:#22c55e;">&#9679; ACTIVE NOW</span>' if active
-            else '<span style="color:#64748b;">&#9679; idle</span>')
+    if activity.get("running"):
+        chip = '<span style="color:#22c55e;">&#9679; RUNNING NOW</span>'
+    elif activity.get("recent"):
+        chip = (f'<span style="color:#eab308;">&#9679; recent activity '
+                f'(last {design.esc(activity.get("last_run") or "n/a")})</span>')
+    else:
+        chip = '<span style="color:#64748b;">&#9679; idle</span>'
     st.markdown(
         f'<div class="mb-card"><h4>{icon} Floor {floor_no:02d} - {name} &nbsp; {chip}</h4>'
         f'<div class="muted">{design.esc(purpose)}. '
-        f'Agent runs on this floor: {activity.get("total_runs", 0)}'
+        f'Agent runs / orders on this floor: {activity.get("total_runs", 0)}'
         + (f' | last: {design.esc(activity["last_run"])}' if activity.get("last_run") else "")
         + '</div></div>', unsafe_allow_html=True)
 
@@ -70,18 +74,25 @@ def render_building_overview(st) -> None:
                "Connections pulse only while a floor has real activity in the last "
                f"{building_service.RECENT_MINUTES} minutes. Execution is simulated (paper) only.")
     activity = building_service.floor_activity()
-    any_active = any(f.get("active") for f in activity.values())
+    any_running = any(f.get("running") for f in activity.values())
 
     rows_html = []
     for no, name, icon, purpose in reversed(FLOORS):
         state = activity.get(no, {})
-        cls = "floor active" if state.get("active") else "floor"
+        if state.get("running"):
+            cls, label = "floor running", "RUNNING NOW"
+        elif state.get("recent"):
+            cls, label = "floor recent", f"recent: {state.get('last_run') or 'just now'}"
+        else:
+            cls, label = "floor", "idle"
+        page = FLOOR_PAGE_NAMES[no].replace(" ", "%20").replace("\u00b7", "%C2%B7")
         rows_html.append(
-            f'<div class="{cls}"><span class="fl-name">{icon} Floor {no:02d} - {name}</span>'
-            f'<span class="fl-state">{"ACTIVE" if state.get("active") else "idle"}</span></div>')
+            f'<a class="{cls}" href="?page={page}" target="_self">'
+            f'<span class="fl-name">{icon} Floor {no:02d} - {name}</span>'
+            f'<span class="fl-state">{label}</span></a>')
     animation = (
         "@keyframes pulse{0%{opacity:.2}50%{opacity:1}100%{opacity:.2}}"
-        ".wire{animation:pulse 1.2s infinite;background:#22c55e;}" if any_active else
+        ".wire{animation:pulse 1.2s infinite;background:#22c55e;}" if any_running else
         ".wire{background:#334155;}")
     rows_joined = ''.join(
         r + ('<div class="wire"></div>' if i < 7 else '')
@@ -90,16 +101,20 @@ def render_building_overview(st) -> None:
         "<style>" + animation +
         ".bldg{max-width:640px;margin:0 auto;border:2px solid #334155;border-radius:10px;"
         "padding:10px;background:#0f172a;}"
-        ".floor{display:flex;justify-content:space-between;padding:9px 14px;margin:4px 8px;"
-        "border:1px solid #334155;border-radius:8px;color:#e2e8f0;background:#1e293b;}"
-        ".floor.active{border-color:#22c55e;box-shadow:0 0 10px #22c55e66;}"
+        "a.floor{display:flex;justify-content:space-between;padding:9px 14px;margin:4px 8px;"
+        "border:1px solid #334155;border-radius:8px;color:#e2e8f0;background:#1e293b;"
+        "text-decoration:none;cursor:pointer;}"
+        "a.floor:hover{border-color:#60a5fa;background:#243349;}"
+        "a.floor.running{border-color:#22c55e;box-shadow:0 0 10px #22c55e66;}"
+        "a.floor.recent{border-color:#eab20888;}"
         ".fl-state{color:#94a3b8;font-size:.8rem;}"
-        ".floor.active .fl-state{color:#22c55e;}"
+        "a.floor.running .fl-state{color:#22c55e;}"
+        "a.floor.recent .fl-state{color:#eab308;}"
         ".wire{width:4px;height:10px;margin:0 auto;}"
         "</style>"
         f'<div class="bldg">{rows_joined}</div>')
     st.markdown(html, unsafe_allow_html=True)
-    if not any_active:
+    if not any_running:
         st.caption("No floor has run in the last few minutes - connections are still. "
                    "Run research, a scan or a paper order and they light up.")
 
