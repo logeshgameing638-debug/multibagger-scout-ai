@@ -34,6 +34,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Refresh BSE universe from latest bhavcopy
+        # public BSE download; refreshes the committed BSE universe to the
+        # latest session. Never fails the run: the committed CSV stays in use.
+        run: python scripts/update_bse_universe.py
+
       - name: Run one rotation batch
         env:
           # measured in CI ~3.4 s/stock: 150 finishes in ~5-9 min, well inside the 16-min budget
@@ -57,7 +62,7 @@ jobs:
         run: |
           git config user.name "multibagger-scout-bot"
           git config user.email "logeshgameing638@gmail.com"
-          git add data/snapshots data/rotation_state.json data/automation
+          git add data/snapshots data/rotation_state.json data/automation data/universe_bse.csv
           git diff --cached --quiet || git commit -m "Daily rotation update $(date -u +%F)"
           # web-editor commits can land while a run is in flight; rebase then retry once
           git pull --rebase origin main || (git rebase --abort; git pull --rebase origin main)
