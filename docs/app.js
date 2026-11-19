@@ -13,6 +13,7 @@ const FEEDS = {
   rotation: `${RAW}/data/rotation_state.json`,
   capSections: `${RAW}/data/automation/cap_sections.json`,
   etfSections: `${RAW}/data/automation/etf_sections.json`,
+  etfTechnicals: `${RAW}/data/etf_technicals.json`,
 };
 const UNIVERSE_CSVS = [1, 2, 3].map(i => `${RAW}/data/universe_nse_part${i}.csv`);
 const BSE_UNIVERSE_CSV = `${RAW}/data/universe_bse.csv`;
@@ -468,19 +469,47 @@ function priceSessionLabel(data) {
 }
 
 
-function renderEtfs(data) {
+function etfTechCell(t) {
+  if (!t) return `<span class="feed-meta">NAV-technicals feed not available</span>`;
+  if (t.status === "ok") {
+    const bits = [];
+    if (t.rsi_14 != null) bits.push(`RSI ${t.rsi_14}`);
+    if (t.trend_vs_ema50) bits.push(`${t.trend_vs_ema50} EMA50`);
+    if (t.trend_vs_ema200) bits.push(`${t.trend_vs_ema200} EMA200`);
+    if (t.pct_from_52w_high != null) bits.push(`${t.pct_from_52w_high}% vs 52w high`);
+    if (t.return_1y_pct != null) bits.push(`1Y NAV ${t.return_1y_pct > 0 ? "+" : ""}${t.return_1y_pct}%`);
+    return esc(bits.join(" · ")) + ` <span class="feed-meta">on NAV ${esc(t.nav_date || "")}</span>`;
+  }
+  if (t.status === "not_meaningful") {
+    return `<span class="feed-meta">Fixed-NAV distribution product - NAV indicators do not represent investor returns</span>`;
+  }
+  return `<span class="feed-meta">NAV indicators unavailable${t.reason ? " - " + esc(t.reason) : ""}</span>`;
+}
+
+function renderEtfs(data, tech) {
   const list = data.etfs || [];
   const first = list[0] || {};
+  const techBySymbol = (tech && tech.etfs) || {};
+  const techOk = Object.values(techBySymbol).filter(t => t.status === "ok").length;
+  const techNm = Object.values(techBySymbol).filter(t => t.status === "not_meaningful").length;
+  const techNa = Object.values(techBySymbol).filter(t => t.status === "unavailable").length;
   setMeta("etf-meta",
     `${data.count != null ? data.count : list.length} Indian-listed ETFs. NAVs: AMFI official file, dated ${first.nav_date || "unknown"}; ` +
     `closes and traded values: BSE official bhavcopy, session ${first.close_session || "unknown"}. ` +
     `"Close vs NAV" compares differently dated sources and is indicative only. ` +
-    `Expense ratios are not available in the free feeds yet. Technical and short/long-term trade research is not yet generated for ETFs, ` +
-    `so no setups or targets are shown. Research only, not recommendations.`);
+    `Expense ratios are not available in the free feeds yet. ` +
+    `NAV-history indicators (RSI, EMA trends, returns) are computed on daily fund NAV, not exchange market price, ` +
+    `and are informational only - no trade setups or targets are derived for ETFs. ` +
+    `NAV-change returns exclude distributions and are not investor total returns. Research only, not recommendations. ` +
+    (tech
+      ? `NAV technicals generated ${tech.as_of || "unknown"} from ${tech.source || "the NAV-history source"}: ` +
+        `${techOk} ETFs with NAV indicators${techNm ? `, ${techNm} fixed-NAV product(s) where indicators are not meaningful` : ""}` +
+        `${techNa ? `, ${techNa} unavailable (reason shown per row)` : ""}.`
+      : "NAV-technicals feed not available right now."));
   const head = document.querySelector("#etf-table thead");
   const body = document.querySelector("#etf-table tbody");
   head.innerHTML = "<tr><th>Symbol</th><th>Fund (official AMFI name)</th><th>Category</th><th>Tracks</th>" +
-    "<th>NAV</th><th>Close (session)</th><th>Close vs NAV</th><th>Traded value (liquidity)</th><th>Research status</th></tr>";
+    "<th>NAV</th><th>Close (session)</th><th>Close vs NAV</th><th>Traded value (liquidity)</th><th>NAV technicals (informational)</th></tr>";
   body.innerHTML = "";
   for (const e of list) {
     const tr = document.createElement("tr");
@@ -493,7 +522,7 @@ function renderEtfs(data) {
       `<td>${fmtRupee(e.close)} <span class="feed-meta">${esc(e.close_session)}</span></td>` +
       `<td>${Number(e.close_vs_nav_pct) > 0 ? "+" : ""}${fmtNum(e.close_vs_nav_pct)}%</td>` +
       `<td>${fmtNum(e.day_traded_value)}</td>` +
-      `<td>No verified setup - technical research not yet generated for ETFs</td>`;
+      `<td>${etfTechCell(techBySymbol[e.symbol])}</td>`;
     body.appendChild(tr);
   }
 }
@@ -599,7 +628,9 @@ async function boot() {
   }
   catch (err) { failures++; setMeta("ranking-meta", "Cap sections feed not committed yet."); setMeta("caps-meta", "Cap sections feed not committed yet."); }
   try {
-    renderEtfs(await fetchJson(FEEDS.etfSections));
+    const etfSections = await fetchJson(FEEDS.etfSections);
+    const etfTech = await fetchJson(FEEDS.etfTechnicals).catch(() => null);
+    renderEtfs(etfSections, etfTech);
   }
   catch (err) { failures++; setMeta("etf-meta", "ETF feed not committed yet."); }
   try { renderCommand(await fetchJson(FEEDS.rotation)); }
