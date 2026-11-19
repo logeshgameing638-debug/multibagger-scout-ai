@@ -37,8 +37,9 @@ Optional: `scripts\run_backend.bat` starts the REST API on
 - **Stock Scout** - run a scan (NIFTY 50 / NIFTY NEXT 50 / NIFTY 100 or your
   own `SYMBOL:NSE` / `CODE:BSE` list). A 50-stock scan takes a few minutes.
 - **Full-market universe** - Stock Scout can load every NSE listed equity
-  (official EQ-series master, ~2,400 stocks) and, when reachable, the BSE
-  scrip master (configurable `BSE_EQUITY_MASTER_URL`; failures are shown, not
+  (official EQ-series master, ~2,400 stocks) and every BSE stock (official
+  daily common bhavcopy, ~4,700 instruments; a scrip-master CSV path is a
+  configurable override via `BSE_EQUITY_MASTER_URL`; failures are shown, not
   hidden). Dual-listed companies are deduplicated by ISIN. Scanning runs in
   resumable batches: every stock ends up **complete / partial / unavailable**
   and the page always shows the coverage count against the whole listed
@@ -62,7 +63,8 @@ Optional: `scripts\run_backend.bat` starts the REST API on
 | --- | --- | --- |
 | Yahoo Finance via yfinance | prices, statements, profile, ratios | unofficial; NSE/BSE quotes typically delayed ~15 min; occasional missing fields |
 | NSE archives CSV | index constituents, equity master | public files; NSE may throttle |
-| BSE site CSV | scrip master | path changes over time; configurable via `BSE_EQUITY_MASTER_URL`; failures shown on Data Source Health |
+| BSE daily common bhavcopy | equity universe (STK instruments, ISIN, names) | official daily file; needs a recent trading day; failures shown on Data Source Health |
+| BSE site CSV | scrip master (optional override) | path changes over time; configurable via `BSE_EQUITY_MASTER_URL`; failures shown on Data Source Health |
 | Google News RSS | company headlines | headlines are labelled UNVERIFIED, never treated as confirmed evidence |
 
 If a provider fails, the rest of the app keeps working and the failure stays
