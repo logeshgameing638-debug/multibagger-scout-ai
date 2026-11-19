@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Multibagger Scout AI - Indian Stock Research</title>
+<meta name="description" content="Automated NSE + BSE equity research: ranked candidates, narrative reports and market-derived alerts from scheduled research runs. Research only, no trades.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="brand">
+    <span class="brand-mark">&#x1F3DB;</span>
+    <div>
+      <h1>Multibagger Scout AI</h1>
+      <p class="tagline">Smart Research. Smarter Investing. NSE + BSE.</p>
+    </div>
+  </div>
+  <div class="header-status" id="header-status">Loading research feeds&hellip;</div>
+</header>
+
+<nav class="site-nav">
+  <a href="#reports" class="nav-link">Research Reports</a>
+  <a href="#ranking" class="nav-link">Candidate Ranking</a>
+  <a href="#alerts" class="nav-link">Research Alerts</a>
+  <a href="#about" class="nav-link">How this works</a>
+</nav>
+
+<main>
+  <section id="reports" class="panel">
+    <h2>Automated research reports</h2>
+    <p class="feed-meta" id="reports-meta"></p>
+    <div class="table-wrap"><table id="reports-table"><thead></thead><tbody></tbody></table></div>
+    <article id="report-view" class="report-view hidden"></article>
+  </section>
+
+  <section id="ranking" class="panel">
+    <h2>Automated research ranking</h2>
+    <p class="feed-meta" id="ranking-meta"></p>
+    <div class="table-wrap"><table id="ranking-table"><thead></thead><tbody></tbody></table></div>
+  </section>
+
+  <section id="alerts" class="panel">
+    <h2>Automated research alerts</h2>
+    <p class="feed-meta" id="alerts-meta"></p>
+    <div class="table-wrap"><table id="alerts-table"><thead></thead><tbody></tbody></table></div>
+  </section>
+
+  <section id="about" class="panel about">
+    <h2>How this works</h2>
+    <p>Every weekday evening (IST), a scheduled research run on a free hosted
+    runner scans a bounded batch of the NSE + BSE universe with eight
+    deterministic research agents - fundamental, technical, business quality,
+    valuation, news, risk, scoring and decision. It refreshes the candidate
+    ranking, writes narrative reports for the top candidates, and raises
+    market-derived alerts. Results land on this site within minutes of each
+    run, with the run's own timestamps.</p>
+    <p>This is scheduled batch research, not continuous monitoring. Every
+    stock keeps its own data date; missing data is shown, never invented.
+    Scores are explained; missing evidence earns nothing.</p>
+    <p class="disclaimer">Research only. No trades are placed by this system;
+    there is no broker connection and no real money. A "multibagger" label is
+    a research hypothesis, not a prediction or advice. Free data can be
+    delayed, incomplete or wrong.</p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <span>Multibagger Scout AI &middot; free-first research platform</span>
+  <span id="footer-status"></span>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
