@@ -40,6 +40,32 @@ def render(st) -> None:
         + f". Price data as of {str(latest_price_ts)[:10] if latest_price_ts else 'no data yet'}."
     )
 
+    st.subheader("Hosted daily updates (rotation)")
+    from services.snapshots import coverage_summary
+
+    coverage = coverage_summary()
+    if coverage is None:
+        st.info(
+            "No hosted rotation data yet. Once the daily GitHub Actions run has "
+            "committed snapshots, coverage appears here."
+        )
+    else:
+        r1, r2, r3 = st.columns(3)
+        r1.metric(
+            "Stocks refreshed this cycle",
+            f"{coverage['stocks_with_data']} of {coverage['universe_size']}",
+        )
+        r2.metric("Coverage", f"{coverage['coverage_pct']}%")
+        r3.metric("Last update run", coverage["last_run_at"] or "unknown")
+        st.caption(
+            "Free hosting cannot scan the whole market every day: one batch is "
+            "refreshed each weekday, so every stock carries its own date. "
+            f"Data spans {coverage['oldest_data']} to {coverage['newest_data']}. "
+            f"Statuses: {coverage['complete']} complete, {coverage['partial']} partial, "
+            f"{coverage['unavailable']} unavailable (retried next cycle). "
+            "A full scan of every stock completes over several weeks, not daily."
+        )
+
     st.subheader("Top research candidates (latest scores)")
     scores = components.latest_scores()
     if scores.empty:
