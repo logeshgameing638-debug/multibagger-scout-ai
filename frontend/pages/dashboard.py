@@ -805,3 +805,28 @@ def render(st) -> None:
     render_pipeline(st, view)
     render_strip(st, view, frame, source)
     render_tabs(st, view, frame, source)
+    render_compare(st, symbol)
+
+
+def render_compare(st, current_symbol: str) -> None:
+    from frontend import components
+    with st.expander("\u2696\uFE0F Compare companies (rotation-refreshed scores)", expanded=False):
+        df = components.latest_scores()
+        if df.empty:
+            st.info("No rotation scores available yet.")
+            return
+        df = df.copy()
+        if "created_at" in df.columns:
+            df["scores as of"] = df["created_at"].map(_ist)
+            df = df.drop(columns=["created_at"])
+        options = df["symbol"].tolist()
+        default = [current_symbol] if current_symbol in options else options[:1]
+        picks = st.multiselect("Pick 2-5 companies", options, default=default,
+                               max_selections=5, key="compare-picks")
+        if len(picks) < 2:
+            st.caption("Pick at least two companies to compare.")
+            return
+        st.dataframe(df[df["symbol"].isin(picks)], hide_index=True, use_container_width=True)
+        st.caption("Scores from the hosted daily rotation snapshots. Risk counts quantitative "
+                   "checks only and governance is UNASSESSED (no free verifiable source). "
+                   "Run full research on a company for the complete agent reports.")
