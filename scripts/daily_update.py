@@ -154,6 +154,9 @@ def run_batch(batch_size: int = DEFAULT_BATCH_SIZE,
               sleep_seconds: float = PER_STOCK_SLEEP_SECONDS,
               researcher=research_one) -> dict:
     """Process one rotation batch. Returns a summary dict."""
+    from database import init_db
+
+    init_db()  # fresh CI checkouts have no database file yet; idempotent
     universe = load_universe()
     state = load_state()
     batch, state = pick_batch(universe, state, batch_size)
