@@ -342,14 +342,30 @@ function capRow(r) {
     `<td>${esc(r.data_date || "n/a")}</td>`;
 }
 
-const CAP_HEAD = "<tr><th>Symbol</th><th>Company</th><th>Balanced</th><th>Risk (higher=worse)</th><th>Confidence</th><th>Close</th><th>Data date</th></tr>";
+function capHead(priceDate) {
+  return `<tr><th>Symbol</th><th>Company</th><th>Balanced</th><th>Risk (higher=worse)</th><th>Confidence</th>` +
+    `<th>Close (${esc(priceDate)})</th><th>Analysis date</th></tr>`;
+}
+
+function priceSessionLabel(data) {
+  const m = /session (\d{4}-\d{2}-\d{2})/.exec((data.sources || {}).prices || "");
+  return m ? m[1] : "latest session";
+}
 
 function renderCapSections(data) {
   const c = data.counts || {};
-  setMeta("caps-meta",
-    `Cap classes from the ${esc(data.sources.cap_classification)}. ` +
-    `Prices: ${esc(data.sources.prices)}. Penny = close below \u20B9${esc(String(data.penny_cutoff_inr))} per share. ` +
-    `Unclassified stocks were not in the AMFI list; unpriced stocks were absent from the session file. Sections cover the ${data.ranked_count} stocks researched so far this cycle.`);
+  const priceDate = priceSessionLabel(data);
+  const meta = document.getElementById("caps-meta");
+  meta.textContent =
+    `Cap classes from the AMFI average market-capitalization list, six months ended 30 June 2026 (per SEBI circular dated Oct 6, 2017). ` +
+    `Prices: BSE official equity bhavcopy close, session ${priceDate}. Penny = close below \u20B9${data.penny_cutoff_inr} per share. ` +
+    `Unclassified stocks were not in the AMFI list; unpriced stocks were absent from the session file. ` +
+    `Sections cover the ${data.ranked_count} stocks researched so far this cycle. ` +
+    `Risk scores cover quantitative checks only; governance items are not assessed by the free feeds and are named inside each report. `;
+  const links = document.createElement("span");
+  links.innerHTML = `Sources: <a href="https://portal.amfiindia.com/spages/AverageMarketCapitalization30Jun2026.pdf" target="_blank" rel="noopener">AMFI list (PDF)</a> · ` +
+    `<a href="https://www.bseindia.com/download/Bhavcopy/Equity/BhavCopy_BSE_CM_0_0_0_20261119_F_0000.CSV" target="_blank" rel="noopener">BSE bhavcopy (CSV)</a>`;
+  meta.appendChild(links);
   const defs = [
     ["Large cap", data.sections.large_cap, c.large_cap],
     ["Mid cap", data.sections.mid_cap, c.mid_cap],
@@ -364,7 +380,7 @@ function renderCapSections(data) {
     const shown = (rows || []).slice(0, 25);
     div.innerHTML = `<h3>${esc(title)} <span class="cap-count">${total || 0} stocks</span></h3>` +
       (total > shown.length ? `<p class="feed-meta">Showing first ${shown.length} of ${total}, ordered by balanced research score.</p>` : "") +
-      `<div class="table-wrap"><table><thead>${CAP_HEAD}</thead><tbody>` +
+      `<div class="table-wrap"><table><thead>${capHead(priceDate)}</thead><tbody>` +
       shown.map(r => `<tr>${capRow(r)}</tr>`).join("") + "</tbody></table></div>";
     host.appendChild(div);
   }
@@ -373,7 +389,7 @@ function renderCapSections(data) {
 function renderTop50(data) {
   const head = document.querySelector("#ranking-table thead");
   const body = document.querySelector("#ranking-table tbody");
-  head.innerHTML = CAP_HEAD;
+  head.innerHTML = capHead(priceSessionLabel(data));
   body.innerHTML = "";
   for (const r of data.top50 || []) {
     const tr = document.createElement("tr");
