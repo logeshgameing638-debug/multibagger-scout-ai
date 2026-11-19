@@ -1,0 +1,8 @@
+{
+  "symbol": "ADVANIHOTR",
+  "exchange": "NSE",
+  "name": "Advani Hotels & Resorts (India) Limited",
+  "updated_at": "2026-11-19 09:09 IST",
+  "status": "unavailable",
+  "error": "ModuleNotFoundError: No module named 'database'"
+}

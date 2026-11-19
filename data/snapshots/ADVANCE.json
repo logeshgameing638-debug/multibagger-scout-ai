@@ -1,0 +1,8 @@
+{
+  "symbol": "ADVANCE",
+  "exchange": "NSE",
+  "name": "Advance Agrolife Limited",
+  "updated_at": "2026-11-19 09:09 IST",
+  "status": "unavailable",
+  "error": "ModuleNotFoundError: No module named 'database'"
+}

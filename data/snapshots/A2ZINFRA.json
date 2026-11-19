@@ -1,0 +1,8 @@
+{
+  "symbol": "A2ZINFRA",
+  "exchange": "NSE",
+  "name": "A2Z Infra Engineering Limited",
+  "updated_at": "2026-11-19 09:08 IST",
+  "status": "unavailable",
+  "error": "ModuleNotFoundError: No module named 'database'"
+}

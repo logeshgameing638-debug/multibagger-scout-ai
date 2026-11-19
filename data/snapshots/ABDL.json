@@ -1,0 +1,8 @@
+{
+  "symbol": "ABDL",
+  "exchange": "NSE",
+  "name": "Allied Blenders and Distillers Limited",
+  "updated_at": "2026-11-19 09:08 IST",
+  "status": "unavailable",
+  "error": "ModuleNotFoundError: No module named 'database'"
+}
