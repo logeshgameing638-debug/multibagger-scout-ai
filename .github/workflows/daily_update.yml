@@ -1,0 +1,49 @@
+name: Daily universe rotation update
+
+# Runs one bounded batch of the all-NSE universe each weekday evening (IST)
+# and commits per-stock JSON snapshots back to this repo. The hosted app
+# reads these snapshots, so the site shows refreshed data with honest
+# per-stock dates. This is a rotation (full universe over several weeks on
+# the free quota), not a same-day full-market scan.
+
+on:
+  schedule:
+    # 18:30 IST = 13:00 UTC, Monday-Friday
+    - cron: "0 13 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-rotation
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run one rotation batch
+        env:
+          MB_BATCH_SIZE: "75"
+          MB_MAX_MINUTES: "16"
+        run: python scripts/daily_update.py
+
+      - name: Commit snapshots
+        run: |
+          git config user.name "multibagger-scout-bot"
+          git config user.email "logeshgameing638@gmail.com"
+          git add data/snapshots data/rotation_state.json
+          git diff --cached --quiet || git commit -m "Daily rotation update $(date -u +%F)"
+          git push
