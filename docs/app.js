@@ -10,7 +10,10 @@ const FEEDS = {
   alerts: `${RAW}/data/automation/alerts_feed.json`,
   ranking: `${RAW}/data/automation/ranking_feed.json`,
   manifest: `${RAW}/data/automation/reports/manifest.json`,
+  rotation: `${RAW}/data/rotation_state.json`,
 };
+const UNIVERSE_CSVS = [1, 2, 3].map(i => `${RAW}/data/universe_nse_part${i}.csv`);
+const BSE_UNIVERSE_CSV = `${RAW}/data/universe_bse.csv`;
 
 function esc(s) {
   return String(s == null ? "" : s)
@@ -215,6 +218,118 @@ async function openReport(row) {
   }
 }
 
+
+function renderCommand(state) {
+  const last = state.last_run || {};
+  const stats = [
+    ["Last run", state.last_run_at || "unknown"],
+    ["Stocks attempted", last.attempted != null ? String(last.attempted) : "n/a"],
+    ["Complete", last.complete != null ? String(last.complete) : "n/a"],
+    ["Partial data", last.partial != null ? String(last.partial) : "n/a"],
+    ["Unavailable", last.unavailable != null ? String(last.unavailable) : "n/a"],
+    ["Run length", last.minutes != null ? `${last.minutes} min` : "n/a"],
+    ["Universe size", state.universe_size != null ? String(state.universe_size) : "n/a"],
+    ["Runs this cycle", state.run_count != null ? String(state.run_count) : "n/a"],
+  ];
+  document.getElementById("floor00-stats").innerHTML = stats.map(([l, v]) =>
+    `<div class="stat-card"><div class="sv">${esc(v)}</div><div class="sl">${esc(l)}</div></div>`).join("");
+  setMeta("floor00-meta",
+    `One scheduled research run per weekday evening (IST). Cycle started ${state.cycle_started_at || "unknown"}; ` +
+    `rotation cursor at ${state.cursor != null ? state.cursor : "n/a"} of ${state.universe_size || "n/a"} stocks.` +
+    (state.last_run_stopped_reason ? ` Last run stopped early: ${state.last_run_stopped_reason}` : ""));
+}
+
+function renderFloorRisk(feed) {
+  const rows = (feed.top || []).slice().sort((a, b) => (b.risk || 0) - (a.risk || 0)).slice(0, 25);
+  document.querySelector("#risk-table thead").innerHTML =
+    "<tr><th>Symbol</th><th>Company</th><th>Stored risk (higher=worse)</th><th>Verdict</th><th>Data date</th></tr>";
+  const body = document.querySelector("#risk-table tbody");
+  body.innerHTML = "";
+  for (const r of rows) {
+    const tr = document.createElement("tr");
+    tr.innerHTML =
+      `<td><strong>${esc(r.symbol)}</strong></td>` +
+      `<td>${esc(r.name || "")}</td>` +
+      `<td>${fmtScore(r.risk)}</td>` +
+      `<td>${esc(r.verdict || "")}</td>` +
+      `<td>${esc(r.data_date || "n/a")}</td>`;
+    body.appendChild(tr);
+  }
+  setMeta("floor03-meta",
+    "Highest stored risk scores among ranked candidates. The risk score covers quantitative checks only; " +
+    "governance items (auditor history, pledging, related parties, regulatory actions) are not assessed by the free feeds and are named inside each report.");
+}
+
+let universeRows = null;
+async function loadUniverse() {
+  if (universeRows) return universeRows;
+  universeRows = [];
+  for (const url of UNIVERSE_CSVS) {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`universe fetch failed: ${res.status}`);
+    const text = await res.text();
+    for (const line of text.split("\n").slice(1)) {
+      const cols = line.split(",");
+      if (cols.length >= 2 && cols[0]) {
+        universeRows.push({ symbol: cols[0].trim(), name: (cols[1] || "").trim(), exchange: "NSE" });
+      }
+    }
+  }
+  try {
+    const res = await fetch(BSE_UNIVERSE_CSV);
+    if (res.ok) {
+      const text = await res.text();
+      for (const line of text.split("\n").slice(1)) {
+        const cols = line.split(",");
+        if (cols.length >= 2 && cols[0]) {
+          universeRows.push({ symbol: cols[0].trim(), name: (cols[1] || "").trim(), exchange: "BSE" });
+        }
+      }
+    }
+  } catch (e) { /* BSE universe lands with a future evening run */ }
+  return universeRows;
+}
+
+function wireUniverseSearch() {
+  const input = document.getElementById("universe-search");
+  const head = document.querySelector("#universe-table thead");
+  const body = document.querySelector("#universe-table tbody");
+  head.innerHTML = "<tr><th>Symbol</th><th>Company</th><th>Exchange</th></tr>";
+  let loaded = false;
+  async function ensure() {
+    if (loaded) return;
+    loaded = true;
+    setMeta("floor01-meta", "Loading universe files...");
+    try {
+      const rows = await loadUniverse();
+      const nse = rows.filter(r => r.exchange === "NSE").length;
+      const bse = rows.filter(r => r.exchange === "BSE").length;
+      setMeta("floor01-meta",
+        `Research universe: ${nse} NSE equities` +
+        (bse ? ` + ${bse} BSE instruments from the latest session` :
+               "; the BSE session universe is added by the evening automation run") +
+        ". Type to filter; first 50 matches shown.");
+    } catch (e) {
+      setMeta("floor01-meta", `Universe files could not be loaded: ${e.message}`);
+    }
+  }
+  input.addEventListener("focus", ensure);
+  input.addEventListener("input", async () => {
+    await ensure();
+    const needle = input.value.trim().toUpperCase();
+    body.innerHTML = "";
+    if (!needle || !universeRows) return;
+    const matches = universeRows.filter(r =>
+      r.symbol.toUpperCase().includes(needle) || r.name.toUpperCase().includes(needle)).slice(0, 50);
+    for (const r of matches) {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `<td><strong>${esc(r.symbol)}</strong></td><td>${esc(r.name)}</td>` +
+        `<td><span class="badge exchange">${esc(r.exchange)}</span></td>`;
+      body.appendChild(tr);
+    }
+  });
+}
+
 async function boot() {
   const status = document.getElementById("header-status");
   let failures = 0;
@@ -227,8 +342,15 @@ async function boot() {
     failures++;
     setMeta("reports-meta", "No scheduled run has committed reports yet.");
   }
-  try { renderRanking(await fetchJson(FEEDS.ranking)); }
+  try {
+    const feed = await fetchJson(FEEDS.ranking);
+    renderRanking(feed);
+    renderFloorRisk(feed);
+  }
   catch (err) { failures++; setMeta("ranking-meta", "Ranking feed not committed yet."); }
+  try { renderCommand(await fetchJson(FEEDS.rotation)); }
+  catch (err) { setMeta("floor00-meta", "Automation health feed not committed yet."); }
+  wireUniverseSearch();
   try { renderAlerts(await fetchJson(FEEDS.alerts)); }
   catch (err) { failures++; setMeta("alerts-meta", "Alert feed not committed yet."); }
   if (failures) {
