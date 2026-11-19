@@ -545,7 +545,7 @@ def _agent_tab(st, view: dict, agent_name: str, title: str, renderer) -> None:
     cap, btn = st.columns([4, 1])
     cap.caption(f"Source agent: {agent_name} | run status: {output.get('run_status')} | "
                 f"finished: {_ist(output.get('finished_at'))}")
-    if btn.button("\U0001F504 Re-run", key=f"rerun-{agent_name}",
+    if btn.button("\U0001F504 Re-run", key=f"rerun-{agent_name}-{title}",
                   use_container_width=True, help="Re-run the full eight-agent research for this company"):
         _run_research(view)
     data = output.get("data") or {}
