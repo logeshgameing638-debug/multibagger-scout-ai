@@ -163,12 +163,27 @@ def main() -> None:
                   "reported (Rs crore), not independently audited by us."),
         "profiles": dict(existing),
     }
-    prev_streak = 0
+    prev = {}
     if OUT.exists():
         try:
-            prev_streak = int(json.loads(OUT.read_text()).get("blocked_streak", 0))
+            prev = json.loads(OUT.read_text())
         except Exception:
-            prev_streak = 0
+            prev = {}
+    # A persisted pause means the source has already bot-walled automated
+    # fetches. Do not probe it again merely because another run started;
+    # resume only after a genuinely new access signal (a human verifies a
+    # working path and clears the flag) or a verified different source.
+    if prev.get("source_paused"):
+        feed["source_paused"] = True
+        feed["paused_reason"] = prev.get("paused_reason", "source bot-walled automated fetches")
+        feed["blocked_streak"] = prev.get("blocked_streak", 0)
+        feed["coverage"] = (f"{sum(1 for v in feed['profiles'].values() if v.get('status') == 'ok')}"
+                            f"/{len(feed['profiles'])} profiled companies (refresh paused: "
+                            f"{feed['paused_reason']}; existing entries keep their own fetch dates)")
+        OUT.write_text(json.dumps(feed, indent=1))
+        print(json.dumps({"paused": True, "reason": feed["paused_reason"]}))
+        return
+    prev_streak = int(prev.get("blocked_streak", 0) or 0)
     if prev_streak >= 2:
         feed["blocked_streak"] = prev_streak
         feed["coverage"] = (f"{sum(1 for v in feed['profiles'].values() if v.get('status') == 'ok')}"
