@@ -117,9 +117,9 @@ div[data-testid="stMetricValue"] { color: var(--text); }
     border-color: rgba(239,68,68,0.45); color: var(--red); }
 
 /* snapshot rows */
-.mb-kv { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px dashed #1a2742; font-size: 0.9rem; }
-.mb-kv .k { color: var(--muted); }
-.mb-kv .v { color: var(--text); font-weight: 600; }
+.mb-kv { display: flex; justify-content: space-between; gap: 10px; padding: 6px 0; border-bottom: 1px dashed #1a2742; font-size: 0.9rem; }
+.mb-kv .k { color: var(--muted); flex: 0 0 auto; }
+.mb-kv .v { color: var(--text); font-weight: 600; text-align: right; overflow-wrap: anywhere; }
 
 /* insight list */
 .mb-ins { margin: 0; padding: 0; list-style: none; }
