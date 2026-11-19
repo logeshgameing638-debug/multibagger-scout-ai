@@ -57,6 +57,36 @@ def company_options() -> list[tuple[str, int]]:
 
 
 def latest_scores(company_id: int | None = None) -> pd.DataFrame:
+    """Latest per-stock scores.
+
+    Primary source on the hosted app: the committed rotation snapshots
+    (data/snapshots/*.json). The hosted SQLite DB is wiped on every restart,
+    so DB scores are only a fallback for on-demand research done this session.
+    """
+    from services.snapshots import load_snapshots
+
+    snapshots = load_snapshots()
+    snap_records = []
+    for symbol, snap in snapshots.items():
+        scores = snap.get("scores") or {}
+        if not scores:
+            continue
+        snap_records.append({
+            "symbol": symbol,
+            "name": snap.get("name"),
+            "fundamental": scores.get("fundamental"),
+            "technical": scores.get("technical"),
+            "data_confidence": scores.get("data_confidence"),
+            "risk(higher=worse)": scores.get("risk"),
+            "long_term": scores.get("long_term"),
+            "short_term": scores.get("short_term"),
+            "balanced": scores.get("balanced"),
+            "labels": snap.get("classification"),
+            "created_at": snap.get("updated_at"),
+        })
+    if snap_records:
+        return pd.DataFrame(snap_records)
+
     with session_scope() as session:
         query = (
             select(ResearchScore, Company.symbol, Company.name)
