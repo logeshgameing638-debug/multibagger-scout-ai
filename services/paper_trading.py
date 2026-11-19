@@ -91,8 +91,10 @@ def place_order(symbol: str, exchange: str, side: str, qty: int,
             return {"ok": False, "error": f"only {held} simulated shares held"}
 
     from services import paper_risk
+    existing = positions().get((symbol, exchange), {}).get("cost", 0.0)
     gate = paper_risk.evaluate_order(symbol, exchange, side, qty, price,
-                                     stop_loss, cash, invested=_invested())
+                                     stop_loss, cash, invested=_invested(),
+                                     existing_cost=existing)
     if not gate["approved"]:
         with session_scope() as session:
             session.add(PaperOrder(
