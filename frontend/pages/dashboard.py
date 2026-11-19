@@ -317,6 +317,20 @@ def _run_research(view: dict) -> None:
     st.rerun()
 
 
+def _ist(value) -> str:
+    if not value:
+        return "unknown date"
+    try:
+        from datetime import timezone
+        from zoneinfo import ZoneInfo
+        ts = pd.Timestamp(str(value))
+        if ts.tzinfo is None:
+            ts = ts.tz_localize("UTC")
+        return ts.tz_convert(ZoneInfo("Asia/Kolkata")).strftime("%d %b %Y, %H:%M IST")
+    except Exception:
+        return str(value)
+
+
 def render_overview(st, view: dict, frame: pd.DataFrame, source: str) -> None:
     scores = view.get("scores") or {}
     classification = view.get("classification")
@@ -327,7 +341,7 @@ def render_overview(st, view: dict, frame: pd.DataFrame, source: str) -> None:
         if risk_score is not None and risk_score <= 5:
             risk_sub = "no quant red flags found; governance unassessed"
         rings = (
-            '<div style="display:flex;gap:10px;justify-content:space-around;flex-wrap:wrap;">'
+            '<div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;">'
             + design.ring_svg(scores.get("fundamental"), "Fundamental", "higher is stronger", "#00d09c")
             + design.ring_svg(scores.get("technical"), "Technical", "higher is stronger", "#2f7bff")
             + design.ring_svg(scores.get("data_confidence"), "Data Confidence", "coverage quality", "#a855f7")
@@ -335,6 +349,7 @@ def render_overview(st, view: dict, frame: pd.DataFrame, source: str) -> None:
             + "</div>"
         )
         balanced = scores.get("balanced")
+        score_ist = _ist(view.get("score_date"))
         if balanced is not None:
             cls = {"high_risk": "risk"}.get(classification or "", "")
             if not cls and balanced < 40:
@@ -342,9 +357,7 @@ def render_overview(st, view: dict, frame: pd.DataFrame, source: str) -> None:
             banner = (
                 f'<div class="mb-overall {cls}">\u2B50 Overall Score: {balanced:.1f} / 100'
                 f'<span class="sub">{design.esc((classification or "unclassified").replace("_", " ").title())} | '
-                "Overall = 0.5 x long-term + 0.5 x short-term "
-                "(long-term = 0.7 x fundamental + 0.3 x technical; short-term swapped). "
-                f"Scores from {design.esc(view.get('score_date') or 'unknown date')}. "
+                f"scores as of {score_ist}. "
                 + GOVERNANCE_NOTE + "</span></div>"
             )
         else:
@@ -352,6 +365,21 @@ def render_overview(st, view: dict, frame: pd.DataFrame, source: str) -> None:
                       '<span class="sub">Run full research or wait for this stock\'s rotation refresh.</span></div>')
         st.markdown('<div class="mb-card"><h4>\U0001F3C6 Research Scores</h4>' + rings
                     + '<div style="height:10px;"></div>' + banner + "</div>", unsafe_allow_html=True)
+        if balanced is not None:
+            with st.expander("Score formula and data coverage"):
+                st.caption("Overall = 0.5 x long-term + 0.5 x short-term "
+                           "(long-term = 0.7 x fundamental + 0.3 x technical; short-term swapped).")
+                st.caption("Missing inputs score 0 under the formula - shown as 'not assessed' "
+                           "in insights, not as measured weakness.")
+                for agent, sections in (view.get("explanation") or {}).items():
+                    if not isinstance(sections, dict):
+                        continue
+                    parts = []
+                    for name, detail in sections.items():
+                        if isinstance(detail, dict) and detail.get("max"):
+                            parts.append(f"{name.replace('_', ' ')} {detail.get('points')}/{detail.get('max')}")
+                    if parts:
+                        st.caption(f"**{agent}**: " + ", ".join(parts))
     with center:
         if not frame.empty:
             st.plotly_chart(ema_chart(frame, f"{view['symbol']} ({source})", height=430),
@@ -488,8 +516,12 @@ def _agent_tab(st, view: dict, agent_name: str, title: str, renderer) -> None:
     if not output:
         _empty_state(st, view, title)
         return
-    st.caption(f"Source agent: {agent_name} | run status: {output.get('run_status')} | "
-               f"finished: {output.get('finished_at') or 'n/a'}")
+    cap, btn = st.columns([4, 1])
+    cap.caption(f"Source agent: {agent_name} | run status: {output.get('run_status')} | "
+                f"finished: {_ist(output.get('finished_at'))}")
+    if btn.button("\U0001F504 Re-run", key=f"rerun-{agent_name}",
+                  use_container_width=True, help="Re-run the full eight-agent research for this company"):
+        _run_research(view)
     data = output.get("data") or {}
     if output.get("missing"):
         st.caption("Missing/unavailable: " + ", ".join(str(m) for m in output["missing"][:10]))
