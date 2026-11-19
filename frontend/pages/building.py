@@ -266,7 +266,7 @@ def render_floor03(st) -> None:
 
 def render_floor04(st) -> None:
     _floor_chrome(st, 4)
-    st.warning("SIMULATED trading only. Orders fill at the latest free-feed close, "
+    st.warning("SIMULATED trading only. Orders fill at the latest Yahoo Finance free-feed close, "
                "which may be delayed. Nothing reaches a broker; no real money is involved.")
     with st.form("paper-order"):
         c1, c2, c3, c4 = st.columns(4)
@@ -287,7 +287,7 @@ def render_floor04(st) -> None:
                 st.warning(f"Risk gate: {warning}")
             if outcome.get("ok"):
                 st.success(f"SIMULATED fill @ {outcome['fill_price']:,.2f} "
-                           f"(price as of {outcome['price_as_of']}) - "
+                           f"(source: Yahoo Finance free feed, as of {outcome['price_as_of']}) - "
                            f"risk gate: {gate.get('status', 'n/a')}")
             else:
                 st.error(outcome.get("error"))
@@ -339,7 +339,7 @@ def render_floor05(st) -> None:
         else:
             st.info("No headlines collected yet - news is gathered during research runs.")
     st.subheader("Stop-loss / target watch (simulated positions)")
-    st.caption("Checked against the latest free-feed price ONLY while this page is open - "
+    st.caption("Checked against the latest Yahoo Finance free-feed price ONLY while this page is open - "
                "there is no background monitor when the app is closed.")
     summary = paper_trading.portfolio_summary()
     watched = [h for h in summary["holdings"] if h["stop_loss"] or h["target"]]
@@ -378,7 +378,7 @@ def render_floor05(st) -> None:
 def render_floor06(st) -> None:
     _floor_chrome(st, 6)
     summary = paper_trading.portfolio_summary()
-    st.caption("All figures are SIMULATED (paper). Prices come from the free feed and may be delayed.")
+    st.caption("All figures are SIMULATED (paper). Prices come from the Yahoo Finance free feed and may be delayed.")
     cols = st.columns(4)
     cols[0].metric("Virtual cash", f"{summary['cash']:,.2f}")
     cols[1].metric("Invested", f"{summary['invested']:,.2f}")
