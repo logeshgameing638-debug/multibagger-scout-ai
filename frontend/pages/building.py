@@ -115,8 +115,8 @@ def render_building_overview(st) -> None:
         f'<div class="bldg">{rows_joined}</div>')
     st.markdown(html, unsafe_allow_html=True)
     if not any_running:
-        st.caption("No floor has run in the last few minutes - connections are still. "
-                   "Run research, a scan or a paper order and they light up.")
+        st.caption("No task is running right now - connections are still. They pulse only "
+                   "while an agent is actually working. Click a floor to enter it.")
 
     st.subheader("Enter a floor")
     cols = st.columns(4)
@@ -235,6 +235,23 @@ def render_floor03(st) -> None:
     elif entry > 0:
         st.warning("Stop-loss must be below entry for a long position.")
 
+    st.subheader("Automated order gate (applies to every paper order)")
+    st.caption(f"Rejects a BUY when: position cost exceeds "
+               f"{paper_risk.MAX_POSITION_PCT:.0%} of virtual capital, entry-to-stop risk "
+               f"exceeds {paper_risk.MAX_RISK_PER_TRADE_PCT:.0%}, or the stored risk analysis "
+               f"is HIGH/CRITICAL. Missing stop-loss or missing risk analysis = warning, "
+               f"not a block. Rejected orders are logged with their reasons.")
+    if entry > 0 and 0 < stop < entry:
+        preview = paper_risk.evaluate_order("PREVIEW", "NSE", "BUY", int(qty or 1),
+                                            entry, stop, cash,
+                                            paper_trading._invested())
+        if preview["approved"]:
+            st.success("Gate preview for the sizing above: APPROVED"
+                       + (" - " + "; ".join(preview["warnings"]) if preview["warnings"] else ""))
+        else:
+            st.error("Gate preview for the sizing above: REJECTED - "
+                     + "; ".join(preview["reasons"]))
+
     st.subheader("Paper portfolio exposure")
     summary = paper_trading.portfolio_summary()
     total = summary["cash"] + summary["invested"]
@@ -265,9 +282,13 @@ def render_floor04(st) -> None:
             outcome = paper_trading.place_order(
                 symbol, exchange, side, int(qty),
                 stop_loss=stop_loss or None, target=target or None, note=note)
+            gate = outcome.get("gate") or {}
+            for warning in gate.get("warnings", []):
+                st.warning(f"Risk gate: {warning}")
             if outcome.get("ok"):
-                st.success(f"SIMULATED fill @ {outcome['fill_price']} "
-                           f"(price as of {outcome['price_as_of']})")
+                st.success(f"SIMULATED fill @ {outcome['fill_price']:,.2f} "
+                           f"(price as of {outcome['price_as_of']}) - "
+                           f"risk gate: {gate.get('status', 'n/a')}")
             else:
                 st.error(outcome.get("error"))
 
@@ -334,6 +355,17 @@ def render_floor05(st) -> None:
                 flags.append(f"TARGET REACHED (price {price:,.2f} >= target {h['target']:,.2f})")
             if flags:
                 st.error(f"{h['symbol']} ({h['exchange']}): " + "; ".join(flags))
+                if st.button(f"Close {h['symbol']} now (SIMULATED SELL {h['qty']})",
+                             key=f"close-{h['symbol']}-{h['exchange']}"):
+                    result = paper_trading.place_order(
+                        h["symbol"], h["exchange"], "SELL", int(h["qty"]),
+                        note="SL/target watch close")
+                    if result.get("ok"):
+                        st.success(f"Closed @ {result['fill_price']:,.2f} "
+                                   f"(as of {result['price_as_of']})")
+                        st.rerun()
+                    else:
+                        st.error(result.get("error"))
             else:
                 st.success(f"{h['symbol']} ({h['exchange']}): within band "
                            f"(last {price if price else 'n/a'}, SL {h['stop_loss'] or '-'}, "
@@ -348,9 +380,9 @@ def render_floor06(st) -> None:
     summary = paper_trading.portfolio_summary()
     st.caption("All figures are SIMULATED (paper). Prices come from the free feed and may be delayed.")
     cols = st.columns(4)
-    cols[0].metric("Virtual cash", f"{summary['cash']:,.0f}")
-    cols[1].metric("Invested", f"{summary['invested']:,.0f}")
-    cols[2].metric("Unrealised P&L", f"{summary['unrealised_pnl']:,.0f}")
+    cols[0].metric("Virtual cash", f"{summary['cash']:,.2f}")
+    cols[1].metric("Invested", f"{summary['invested']:,.2f}")
+    cols[2].metric("Unrealised P&L", f"{summary['unrealised_pnl']:,.2f}")
     total = summary["cash"] + summary["invested"]
     pnl_pct = (summary["unrealised_pnl"] / summary["invested"] * 100) if summary["invested"] else 0
     cols[3].metric("Open P&L %", f"{pnl_pct:.2f}%")
