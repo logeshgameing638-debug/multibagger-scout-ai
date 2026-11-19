@@ -70,7 +70,7 @@ def test_command_status_and_logs(fresh_db):
     assert status["companies"] == 0
     floors = building.floor_activity()
     assert set(floors) == {0, 1, 2, 3, 4, 5, 6, 7}
-    assert all(f["active"] is False for f in floors.values())
+    assert all(f["running"] is False for f in floors.values())
     assert building.activity_log() == []
 
 
@@ -84,3 +84,52 @@ def test_reset_paper_account_restores_clean_state(monkeypatch):
     assert summary["holdings"] == []
     assert summary["cash"] == paper_trading.DEFAULT_VIRTUAL_CASH
     assert paper_trading.trade_history() == []
+
+
+def test_order_validation_rejects_bad_sl_target(monkeypatch):
+    monkeypatch.setattr(paper_trading, "_latest_price", lambda symbol, exchange: (100.0, "2026-11-19"))
+    bad_target = paper_trading.place_order("ZZV", "NSE", "BUY", 1, target=90.0)
+    assert not bad_target["ok"] and "target" in bad_target["error"]
+    bad_sl = paper_trading.place_order("ZZV", "NSE", "BUY", 1, stop_loss=100.0)
+    assert not bad_sl["ok"] and "stop-loss" in bad_sl["error"]
+    paper_trading.place_order("ZZV", "NSE", "BUY", 5)
+    bad_sell = paper_trading.place_order("ZZV", "NSE", "SELL", 1, target=200.0)
+    assert not bad_sell["ok"] and "only apply to BUY" in bad_sell["error"]
+    good = paper_trading.place_order("ZZW", "NSE", "BUY", 1, stop_loss=95.0, target=110.0)
+    assert good["ok"] and good["gate"]["approved"]
+
+
+def test_risk_gate_rejects_oversize_and_logs(monkeypatch):
+    monkeypatch.setattr(paper_trading, "_latest_price", lambda symbol, exchange: (100.0, "2026-11-19"))
+    # cost 500,000 > 25% of 1,000,000 virtual capital (but within cash)
+    out = paper_trading.place_order("ZZG", "NSE", "BUY", 5000, note="TEST gate")
+    assert not out["ok"]
+    assert out["gate"]["status"] == "rejected"
+    history = paper_trading.trade_history()
+    rejected = [h for h in history if h["risk_status"] == "rejected"]
+    assert rejected and "25%" in rejected[0]["risk_reasons"]
+    # the rejected order never entered positions
+    assert all(h["symbol"] != "ZZG" for h in paper_trading.portfolio_summary()["holdings"])
+
+
+def test_risk_gate_risk_per_trade_limit(monkeypatch):
+    monkeypatch.setattr(paper_trading, "_latest_price", lambda symbol, exchange: (100.0, "2026-11-19"))
+    # entry 100, SL 50 -> risk 50/share; 1000 shares -> 50,000 > 2% of 1,000,000 (20,000)
+    out = paper_trading.place_order("ZZR", "NSE", "BUY", 1000, stop_loss=50.0)
+    assert not out["ok"] and "risk" in out["error"].lower()
+    ok = paper_trading.place_order("ZZR", "NSE", "BUY", 100, stop_loss=50.0)
+    assert ok["ok"]
+
+
+def test_floor_activity_running_vs_recent(monkeypatch):
+    from datetime import datetime, timezone
+    from database.connection import session_scope
+    from database.models import AgentRun
+    from services import building as building_service
+    agent = next(iter(building_service.FLOOR_AGENTS[2]))
+    with session_scope() as session:
+        session.add(AgentRun(agent_name=agent, status="running",
+                             started_at=datetime.now(timezone.utc).replace(tzinfo=None)))
+    activity = building_service.floor_activity()
+    assert activity[2]["running"] is True
+    assert activity[4]["running"] is False  # paper floors never show running
