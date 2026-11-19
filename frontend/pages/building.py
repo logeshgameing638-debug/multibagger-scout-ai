@@ -139,14 +139,35 @@ def render_building_overview(st) -> None:
 
 
 
+def _feed_status_caption(st, meta: dict) -> None:
+    """Honest freshness line for automation feeds: names where the payload
+    actually came from, so a fallback copy is never presented as live."""
+    from datetime import datetime, timedelta, timezone
+    ist = timezone(timedelta(hours=5, minutes=30))
+    checked = meta.get("checked_at")
+    checked_txt = (datetime.fromtimestamp(checked, ist).strftime("%Y-%m-%d %H:%M IST")
+                   if checked else "n/a")
+    source = meta.get("source")
+    if source == "github-api":
+        st.caption(f"Feed read live from the GitHub commit store (checked {checked_txt}).")
+    elif source == "local-fallback":
+        st.warning(f"Live GitHub fetch failed ({meta.get('fallback_reason', 'unknown')}); "
+                   f"showing the app's local copy from this deployment - it may lag the "
+                   f"latest committed feed. Checked {checked_txt}.")
+    elif source == "missing":
+        st.caption(f"No feed available (GitHub check {checked_txt}: "
+                   f"{meta.get('fallback_reason', 'not found')}).")
+
+
 def _render_automation_feed(st) -> None:
     """Scheduled automation feed (market-data-only alerts from GitHub Actions
     rotation runs). Shown with its run timestamps; cadence is the scheduled
     batch cadence, not continuous monitoring."""
     from services import snapshots as snapshot_service
 
-    feed = snapshot_service.load_automation_feed()
+    feed, meta = snapshot_service.load_automation_feed_status()
     st.subheader("Automated research alerts (scheduled runs)")
+    _feed_status_caption(st, meta)
     if not feed:
         st.caption("No scheduled automation run has committed alerts yet - the "
                    "evening rotation job writes this feed after each batch.")
@@ -215,13 +236,127 @@ def render_floor01(st) -> None:
 
 
 
+def _render_narrative_report(st, report: dict) -> None:
+    """Readable narrative rendering of one automated research report:
+    thesis, evidence, risks, missing data and dated sources for a
+    zero-coding reader. The raw JSON stays available as an export."""
+    from services.report_view import build_narrative
+    n = build_narrative(report)
+
+    h = n["header"]
+    st.markdown(f"### {h['title']}")
+    sub_bits = [b for b in [h["subtitle"], f"Market cap {h['market_cap']}"] if b]
+    if sub_bits:
+        st.caption(" | ".join(sub_bits))
+    st.caption(f"Report generated {h.get('generated_at') or 'unknown'}; "
+               f"price data as of {h.get('data_date') or 'unknown'}. "
+               f"{h.get('price_note') or ''}".strip())
+
+    cols = st.columns(4)
+    for i, (label, value) in enumerate(n["scores"].items()):
+        cols[i % 4].metric(label, value)
+
+    if n["thesis"]:
+        st.markdown("**Investment thesis**")
+        st.write(n["thesis"])
+
+    a, b = st.columns(2)
+    with a:
+        st.markdown("**Short term**")
+        sv = n["short_term"]
+        st.write(f"Score {sv['score']}; trend {sv.get('trend') or 'n/a'}, RSI(14) {sv['rsi_14']}.")
+        if sv.get("entry_zone"):
+            st.write(f"Entry zone: {sv['entry_zone']}")
+        if sv.get("invalidation_level"):
+            st.write(f"Invalidation level: {sv['invalidation_level']}")
+    with b:
+        st.markdown("**Long term**")
+        lv = n["long_term"]
+        st.write(f"Score {lv['score']}; trend {lv.get('trend') or 'n/a'}, "
+                 f"price vs 200-day EMA: {lv.get('price_vs_ema_200') or 'n/a'}.")
+        st.write(f"Business classification: {lv.get('business_classification') or 'n/a'}")
+
+    if n["invalidation"]:
+        st.markdown("**What would break this thesis**")
+        for item in n["invalidation"]:
+            st.write(f"- {item}")
+
+    with st.expander("Financial analysis", expanded=True):
+        fin = n["financials"]
+        st.caption(fin["periods"])
+        for group in ("Growth", "Profitability", "Balance sheet", "Cash flow", "Ownership"):
+            rows = fin[group]
+            if rows:
+                st.markdown(f"*{group}*")
+                st.table(pd.DataFrame(rows, columns=["Metric", "Value"]))
+        if fin["red_flags"]:
+            st.markdown("*Red flags*")
+            for flag in fin["red_flags"]:
+                st.write(f"- {flag}")
+
+    with st.expander("Valuation"):
+        v = n["valuation"]
+        st.write(f"Current price: {v['current_price']}")
+        if v["multiples"]:
+            st.table(pd.DataFrame(v["multiples"], columns=["Multiple", "Value"]))
+        if v.get("view"):
+            st.write(v["view"])
+        if v.get("dcf"):
+            st.write(v["dcf"])
+        elif v.get("dcf_not_calculated_reason"):
+            st.caption(f"DCF not calculated: {v['dcf_not_calculated_reason']}")
+        if v.get("margin_of_safety") is not None:
+            st.write(f"Margin of safety vs base case: {v['margin_of_safety']}")
+
+    with st.expander("Business quality"):
+        bq = n["business_quality"]
+        st.write(f"Classification: {bq['classification'] or 'n/a'}")
+        st.write(f"Moat: {bq['moat'] or 'n/a'}")
+        st.write(f"Evidence: {bq['positive_evidence']} positive / {bq['negative_evidence']} negative")
+        if bq["unassessed"]:
+            st.caption("Unassessed areas: " + "; ".join(bq["unassessed"]))
+
+    if n.get("technical_assessment"):
+        with st.expander("Technical analysis"):
+            st.write(n["technical_assessment"])
+
+    with st.expander("News intelligence"):
+        nw = n["news"]
+        st.write(f"{nw['count']} headlines considered. {nw.get('note') or ''}")
+        for title, when in nw["headlines"]:
+            st.write(f"- {title}" + (f" ({when})" if when else ""))
+
+    with st.expander("Risk analysis"):
+        r = n["risks"]
+        st.write(f"Classification: {r['classification'] or 'n/a'}")
+        for f_ in r["findings"]:
+            st.write(f"- {f_}")
+        if r["unassessed_governance"]:
+            st.caption("Governance items not assessed (no public source in the free feeds): "
+                       + "; ".join(r["unassessed_governance"]))
+        if r.get("note"):
+            st.caption(r["note"])
+
+    if n["missing"]:
+        st.markdown("**Missing evidence (what this research could not cover)**")
+        for label, items in n["missing"]:
+            st.write(f"- *{label}*: " + "; ".join(items))
+
+    st.markdown("**Sources (with what each provided)**")
+    for s_ in n["sources"]:
+        st.write(f"- {s_}")
+    if n["disclaimer"]:
+        st.caption(n["disclaimer"])
+
+
 def _render_reports_panel(st) -> None:
     """Automated narrative research reports for top-ranked candidates,
     generated by scheduled runs. Shows run timestamps and per-stock status."""
     from services import snapshots as snapshot_service
 
-    manifest = snapshot_service.load_reports_manifest()
+    manifest, meta = snapshot_service.load_reports_manifest_status()
     st.subheader("Automated research reports (scheduled runs)")
+    _feed_status_caption(st, meta)
     if not manifest:
         st.caption("No scheduled run has committed narrative reports yet - the "
                    "evening job generates them for the top-ranked candidates.")
@@ -241,11 +376,14 @@ def _render_reports_panel(st) -> None:
         pick = st.selectbox("Open an automated report", choices, key="auto_report_pick")
         if pick:
             row = next(r for r in rows if r["symbol"] == pick)
-            report = snapshot_service.load_report(pick, row.get("exchange", "NSE"))
+            report, rmeta = snapshot_service.load_report_status(pick, row.get("exchange", "NSE"))
+            _feed_status_caption(st, rmeta)
             if report is None:
                 st.caption("Report file not present in this deployment yet.")
             else:
-                st.json(report)
+                _render_narrative_report(st, report)
+                with st.expander("Raw report JSON (export)"):
+                    st.json(report)
 
 def render_floor02(st) -> None:
     _floor_chrome(st, 2)
@@ -474,8 +612,9 @@ def _render_ranking_feed(st) -> None:
     run timestamps and per-stock data dates. Market-derived research only."""
     from services import snapshots as snapshot_service
 
-    feed = snapshot_service.load_ranking_feed()
+    feed, meta = snapshot_service.load_ranking_feed_status()
     st.subheader("Automated research ranking (scheduled runs)")
+    _feed_status_caption(st, meta)
     if not feed:
         st.caption("No scheduled automation run has committed a ranking yet - the "
                    "evening rotation job writes this feed after each batch.")
