@@ -38,15 +38,28 @@ def _utcnow() -> datetime:
 
 
 def floor_activity() -> dict[int, dict]:
-    """Per-floor last-run and recent-activity flags, derived from AgentRun rows."""
-    cutoff = _utcnow() - timedelta(minutes=RECENT_MINUTES)
+    """Per-floor activity: RUNNING (an agent run is open right now) is kept
+    strictly separate from RECENT (last finished run or paper event).
+
+    Only `running` may drive pulsing animation; recent activity is text.
+    """
+    now = _utcnow()
+    recent_cutoff = now - timedelta(minutes=RECENT_MINUTES)
+    stale_cutoff = now - timedelta(minutes=30)
     with session_scope() as session:
         rows = session.execute(
             select(AgentRun.agent_name, func.max(AgentRun.finished_at), func.count())
             .group_by(AgentRun.agent_name)
         ).all()
-        recent = set(session.scalars(
-            select(AgentRun.agent_name).where(AgentRun.started_at >= cutoff)
+        running_agents = set(session.scalars(
+            select(AgentRun.agent_name).where(
+                AgentRun.finished_at.is_(None),
+                AgentRun.started_at >= stale_cutoff)
+        ).all())
+        recent_agents = set(session.scalars(
+            select(AgentRun.agent_name).where(
+                AgentRun.finished_at.is_not(None),
+                AgentRun.finished_at >= recent_cutoff)
         ).all())
     by_agent = {name: {"last": str(last)[:16] if last else None, "runs": count}
                 for name, last, count in rows}
@@ -57,19 +70,24 @@ def floor_activity() -> dict[int, dict]:
         floors[floor] = {
             "last_run": last,
             "total_runs": sum(s.get("runs", 0) for s in stats),
-            "active": any(a in recent for a in agents),
+            "running": any(a in running_agents for a in agents),
+            "recent": any(a in recent_agents for a in agents),
         }
     for floor in (0, 4, 6):
-        floors[floor] = {"last_run": None, "total_runs": 0, "active": False}
+        floors[floor] = {"last_run": None, "total_runs": 0,
+                         "running": False, "recent": False}
     with session_scope() as session:
         recent_paper = session.scalar(
-            select(func.count(PaperOrder.id)).where(PaperOrder.created_at >= cutoff)
+            select(func.count(PaperOrder.id)).where(PaperOrder.created_at >= recent_cutoff)
         ) or 0
-        floors[4]["active"] = recent_paper > 0
         floors[4]["total_runs"] = session.scalar(select(func.count(PaperOrder.id))) or 0
         last_order = session.scalar(select(func.max(PaperOrder.created_at)))
         floors[4]["last_run"] = str(last_order)[:16] if last_order else None
-        floors[6]["active"] = floors[4]["active"]
+        # paper orders are instant events: recent, never "running"
+        floors[4]["recent"] = recent_paper > 0
+        floors[6]["recent"] = recent_paper > 0
+        floors[6]["last_run"] = floors[4]["last_run"]
+        floors[6]["total_runs"] = floors[4]["total_runs"]
     return floors
 
 
