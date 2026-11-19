@@ -216,6 +216,23 @@ def render_pipeline(st, view: dict) -> None:
                     + design.progress_ring_svg(pct) + "</div>", unsafe_allow_html=True)
 
 
+@st.cache_data(ttl=86400, show_spinner=False)
+def _company_domain(symbol: str, exchange: str) -> str | None:
+    try:
+        from urllib.parse import urlparse
+        from data.connectors.yfinance_connector import YFinanceConnector
+        res = YFinanceConnector().get_info(symbol, exchange)
+        data = getattr(res, "data", None)
+        if isinstance(data, dict):
+            site = data.get("website")
+            if site:
+                host = urlparse(site if "://" in site else "https://" + site).netloc
+                return host or None
+    except Exception:
+        return None
+    return None
+
+
 def render_strip(st, view: dict, frame: pd.DataFrame, source: str) -> None:
     name = view["name"]
     symbol, exchange = view["symbol"], view["exchange"]
@@ -242,13 +259,22 @@ def render_strip(st, view: dict, frame: pd.DataFrame, source: str) -> None:
             chg_html = f'<div class="{cls}">{arrow} {chg:+,.2f} ({pct:+.2f}%)</div>'
 
     initial = (name or symbol)[:1].upper()
+    domain = _company_domain(symbol, exchange)
+    tile = (f'<div style="width:64px;height:64px;border-radius:12px;background:#0e1830;border:1px solid var(--border);'
+            f'display:flex;align-items:center;justify-content:center;font-size:1.7rem;font-weight:800;color:#7fb0ff;">{design.esc(initial)}</div>')
+    if domain:
+        tile = (
+            '<div style="position:relative;width:64px;height:64px;">' + tile
+            + f'<img src="https://www.google.com/s2/favicons?domain={design.esc(domain)}&sz=64" alt="" '
+              'style="position:absolute;top:0;left:0;width:64px;height:64px;border-radius:12px;'
+              'background:#ffffff;padding:6px;box-sizing:border-box;" '
+              'onerror="this.style.display=\'none\'"/></div>')
     cols = st.columns([3, 2])
     with cols[0]:
         st.markdown(
             f'<div class="mb-card" style="display:flex;gap:16px;align-items:center;">'
-            f'<div style="width:64px;height:64px;border-radius:12px;background:#0e1830;border:1px solid var(--border);'
-            f'display:flex;align-items:center;justify-content:center;font-size:1.7rem;font-weight:800;color:#7fb0ff;">{design.esc(initial)}</div>'
-            f'<div><div style="font-size:1.35rem;font-weight:800;">{design.esc(name)}</div>'
+            + tile
+            + f'<div><div style="font-size:1.35rem;font-weight:800;">{design.esc(name)}</div>'
             f'<div style="margin:6px 0;">' + "".join(f'<span class="mb-chip">{design.esc(c)}</span>' for c in chips)
             + "</div>"
             f'<div class="muted" style="font-size:0.85rem;">{design.esc(view.get("industry") or "Industry: n/a")} | {design.esc(cap_txt)}</div>'
