@@ -68,7 +68,7 @@ def data_status_pill() -> str:
         ok = YFinanceConnector().health_check().ok
     except Exception:
         ok = False
-    return "Data: feed OK" if ok else "Data: feed degraded"
+    return "Data: free feed OK (quotes may be delayed)" if ok else "Data: feed degraded (free feed check failed)"
 
 
 def main() -> None:
