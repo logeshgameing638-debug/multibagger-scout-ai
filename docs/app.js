@@ -139,6 +139,80 @@ function kvTable(obj, fmt) {
   return rows ? `<table class="kv"><tbody>${rows}</tbody></table>` : "";
 }
 
+
+function conclusionHtml(r, risk, quality, ta) {
+  const combined = r.combined_scores || {};
+  const daily = (ta || {}).daily || {};
+  const unassessed = (risk.unassessed_governance_items || []).length;
+  const missing = r["16_missing_evidence"] || {};
+  const gapCount = Object.values(missing).reduce((n, v) => n + (Array.isArray(v) ? v.length : (v ? 1 : 0)), 0);
+  return `<h4>Overall research conclusion</h4><p>` +
+    `Fundamental research scores ${fmtScore(r["9_fundamental_score"])} and rates the business '${esc(quality.classification || "n/a")}'. ` +
+    `Technical research scores ${fmtScore(r["10_technical_score"])} with a ${esc((ta || {}).assessment || daily.trend || "n/a")} daily assessment` +
+    `${daily.trend_strength ? ` (${esc(daily.trend_strength)} trend)` : ""}. ` +
+    `Combined balanced research score: ${fmtScore(combined.balanced)} (short term ${fmtScore(combined.short_term)}, long term ${fmtScore(combined.long_term)}), ` +
+    `on ${fmtScore(r["11_data_confidence"])} data confidence. Quantitative risk: ${esc(risk.classification || "n/a")}` +
+    `${unassessed ? `, with ${unassessed} governance items not assessed by the free feeds` : ""}` +
+    `${gapCount ? `; ${gapCount} evidence gaps are listed under Missing evidence below` : "; no evidence gaps recorded"}. ` +
+    `This is combined fundamental-plus-technical research, not a buy or sell recommendation.</p>`;
+}
+
+function shortSetupHtml(short, daily) {
+  const ez = short.entry_zone || {};
+  const tv = short.technical_view || {};
+  const stop = Number(short.invalidation_level);
+  const bearish = /bearish/i.test(tv.trend || "") || tv.breakdown === true;
+  const reasons = [];
+  if (bearish) reasons.push(`stored short-term trend is ${tv.trend || "bearish"}`);
+  if (ez.low == null || ez.high == null) reasons.push("no stored entry range");
+  if (!Number.isFinite(stop)) reasons.push("no numeric stop-loss stored");
+  if (!reasons.length && stop >= ez.low) reasons.push("stored stop-loss is not below the entry range");
+  if (reasons.length) {
+    return `<p>No qualifying short-term setup in the stored research (${esc(reasons.join("; "))}). ` +
+      `The research does not force a target when the setup is unsupported.</p>`;
+  }
+  const entryRef = ez.high;
+  const riskPerShare = entryRef - stop;
+  const target = entryRef + 5 * riskPerShare;
+  const res = daily && Number(daily.resistance);
+  const resistanceNote = Number.isFinite(res) && res < target
+    ? ` Note: the 1:5 target is above the identified resistance of ${fmtRupee(res)}, so reaching it needs a breakout beyond that level.`
+    : "";
+  return `<table class="kv"><tbody>` +
+    `<tr><td>Entry range</td><td>${fmtEntryZone(ez)}</td></tr>` +
+    `<tr><td>Stop-loss</td><td>${fmtRupee(stop)} <span class="feed-meta">(stored invalidation level)</span></td></tr>` +
+    `<tr><td>Risk per share (from ${fmtRupee(entryRef)} entry)</td><td>${fmtRupee(riskPerShare)}</td></tr>` +
+    `<tr><td>Target at 1:5 reward-to-risk</td><td>${fmtRupee(target)}</td></tr>` +
+    `<tr><td>Potential per share</td><td>+${fmtRupee(5 * riskPerShare)} if the target is reached / -${fmtRupee(riskPerShare)} if stopped out</td></tr>` +
+    `</tbody></table>` +
+    `<p class="feed-meta">Arithmetic for the 1:5 reward-to-risk requested, from the stored entry range and stop-loss; ` +
+    `entry uses the top of the range (worst fill). Not a prediction: prices can gap past a stop, and profit is never guaranteed. ` +
+    `Research only, no trades.${resistanceNote}</p>`;
+}
+
+function technicalHtml(ta) {
+  const d = (ta || {}).daily || {};
+  const ltr = (ta || {}).long_term_report || {};
+  const emas = d.emas || {};
+  const emaLine = ["ema_20", "ema_50", "ema_200"].map(k => Number(emas[k])).every(Number.isFinite)
+    ? `20: ${fmtNum(emas.ema_20)} / 50: ${fmtNum(emas.ema_50)} / 200: ${fmtNum(emas.ema_200)}` : null;
+  const rows = [
+    ["Assessment", (ta || {}).assessment],
+    ["Daily trend", [d.trend, d.trend_strength].filter(Boolean).join(", ") || null],
+    ["Last close", Number.isFinite(Number(d.last_close)) ? fmtRupee(d.last_close) : null],
+    ["RSI (14)", Number.isFinite(Number(d.rsi_14)) ? Number(d.rsi_14).toFixed(1) : null],
+    ["MACD histogram", d.macd && Number.isFinite(Number(d.macd.histogram)) ? Number(d.macd.histogram).toFixed(2) : null],
+    ["EMA", emaLine],
+    ["Support", Number.isFinite(Number(d.support)) ? fmtRupee(d.support) : null],
+    ["Resistance", Number.isFinite(Number(d.resistance)) ? fmtRupee(d.resistance) : null],
+    ["Relative volume (vs 20-day avg)", Number.isFinite(Number(d.relative_volume)) ? `${Number(d.relative_volume).toFixed(2)}x` : null],
+    ["Weekly/monthly trend", ltr.trend || null],
+    ["Price vs 200-day EMA", ltr.price_vs_ema_200 || null],
+  ].filter(([, v]) => v != null && v !== "");
+  if (!rows.length) return "<p>No technical analysis stored for this stock.</p>";
+  return `<table class="kv"><tbody>${rows.map(([k, v]) => `<tr><td>${esc(k)}</td><td>${esc(v)}</td></tr>`).join("")}</tbody></table>`;
+}
+
 async function openReport(row) {
   const view = document.getElementById("report-view");
   view.classList.remove("hidden");
@@ -151,6 +225,7 @@ async function openReport(row) {
     const val = r["6_valuation"] || {};
     const risk = r["8_risk_analysis"] || {};
     const quality = r["5_business_quality"] || {};
+    const ta = r["4_technical_analysis"] || {};
     const short = r["12_short_term_assessment"] || {};
     const long_ = r["13_long_term_assessment"] || {};
     const combined = r.combined_scores || {};
@@ -194,12 +269,17 @@ async function openReport(row) {
       `<div class="report-scores">${scoreCards}</div>` +
       (downloads ? `<p class="downloads">Download: ${downloads}</p>` : "") +
       (r["14_investment_thesis"] ? `<h4>Investment thesis</h4><p>${esc(r["14_investment_thesis"])}</p>` : "") +
-      `<div class="two-col"><div><h4>Short term</h4><p>Score ${fmtScore(short.score)}; trend ${esc(tv.trend || "n/a")}, ` +
-      `RSI(14) ${fmtNum(tv.rsi_14)}.${short.entry_zone ? `<br>Entry zone: ${fmtEntryZone(short.entry_zone)}` : ""}` +
-      `${short.invalidation_level ? `<br>Invalidation level: ${esc(short.invalidation_level)}` : ""}</p></div>` +
-      `<div><h4>Long term</h4><p>Score ${fmtScore(long_.score)}; trend ${esc(lt.trend || "n/a")}, ` +
-      `price vs 200-day EMA: ${esc(lt.price_vs_ema_200 || "n/a")}.<br>Business classification: ${esc(long_.business_classification || "n/a")}</p></div></div>` +
+      conclusionHtml(r, risk, quality, ta) +
+      `<h4>Short-term view and 1:5 reward-to-risk setup</h4>` +
+      `<p>Score ${fmtScore(short.score)}; trend ${esc(tv.trend || "n/a")}, RSI(14) ${fmtNum(tv.rsi_14)}.</p>` +
+      shortSetupHtml(short, ta.daily) +
+      `<h4>Long-term view</h4>` +
+      `<p>Score ${fmtScore(long_.score)}; trend ${esc(lt.trend || "n/a")} (${esc((lt.timeframes || []).join(" + ") || "n/a")}), ` +
+      `price vs 200-day EMA: ${esc(lt.price_vs_ema_200 || "n/a")}.<br>Business classification: ${esc(long_.business_classification || "n/a")}.</p>` +
+      `<p class="feed-meta">No entry range, stop-loss or target is stored for the long-term horizon, so no 1:5 arithmetic is shown here. ` +
+      `Long-term profit depends on business performance over years; it is uncertain and never guaranteed.</p>` +
       (invalidation ? `<h4>What would break this thesis</h4><ul>${invalidation}</ul>` : "") +
+      `<h4>Technical analysis</h4>` + technicalHtml(ta) +
       `<h4>Financial analysis</h4>` +
       `<div class="two-col"><div>${kvTable(fin.growth, fmtPct)}</div><div>${kvTable(fin.profitability, fmtPct)}</div></div>` +
       `<div class="two-col"><div>${kvTable(fin.balance_sheet, fmtNum)}</div><div>${kvTable(fin.cash_flow, fmtNum)}</div></div>` +
