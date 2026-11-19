@@ -44,20 +44,34 @@ BASIS = ("Computed on daily NAV history (source: api.mfapi.in, a free mirror "
 
 # Corporate actions verified against exchange/issuer sources before any
 # historical NAV is rescaled. (effective_date, split_factor, source)
-_NSE_CML42873 = ("NSE circular CML42873, 11 Dec 2019 (Reliance Nippon Life AM "
-                 "ETF face-value splits, effective 19 Dec 2019)")
+_CML42873_URL = "https://nsearchives.nseindia.com/content/circulars/CML42873.pdf"
+_CML42873 = ("NSE circular CML42873, Listing ref 1046/2019, 11 Dec 2019 "
+             "(Reliance Nippon Life AM ETF face-value splits, effective "
+             "19 Dec 2019): " + _CML42873_URL)
+_CML48556_URL = "https://archives.nseindia.com/content/circulars/CML48556.pdf"
 VERIFIED_ACTIONS = {
-    "NIFTYBEES":  [("2019-12-19", 10.0,  _NSE_CML42873 + "; face value 10 -> 1")],
-    "BANKBEES":   [("2019-12-19", 10.0,  _NSE_CML42873 + "; face value 10 -> 1")],
-    "PSUBNKBEES": [("2019-12-19", 10.0,  _NSE_CML42873 + "; face value 10 -> 1")],
-    "HNGSNGBEES": [("2019-12-19", 10.0,  _NSE_CML42873 + "; face value 10 -> 1")],
-    "GOLDBEES":   [("2019-12-19", 100.0, _NSE_CML42873 + "; face value 100 -> 1")],
-    "ABSLNN50ET": [("2021-11-25", 10.0,  "ABSL MF face value split 10 -> 1, "
-                                         "ex-date 25 Nov 2021 (NSE ISIN-change "
-                                         "circular; trendlyne corporate actions)")],
-    "MON100":     [("2021-06-21", 10.0,  "Motilal Oswal MF 1:10 unit split; NSE "
-                                         "circular CML48556, 11 Jun 2021; "
-                                         "Livemint 17 Jun 2021")],
+    "NIFTYBEES":  [("2019-12-19", 10.0,  _CML42873 + "; face value 10 -> 1")],
+    "BANKBEES":   [("2019-12-19", 10.0,  _CML42873 + "; face value 10 -> 1")],
+    "PSUBNKBEES": [("2019-12-19", 10.0,  _CML42873 + "; face value 10 -> 1")],
+    "HNGSNGBEES": [("2019-12-19", 10.0,  _CML42873 + "; face value 10 -> 1")],
+    "GOLDBEES":   [("2019-12-19", 100.0, _CML42873 + "; face value 100 -> 1")],
+    # ABSLNN50ET 10 -> 1 (ex-date 25 Nov 2021): seen only via third-party
+    # mirrors of an NSE ISIN-change circular so far; withheld until the
+    # owning NSE circular is confirmed, so its jump renders unavailable.
+    "MON100":     [("2021-06-17", 10.0,  "NSE circular CML48556, Listing ref "
+                                         "0609/2021, 11 Jun 2021 (fund listed "
+                                         "as symbol N100, now MON100): face "
+                                         "value 10 -> 1, effective 17 Jun 2021: "
+                                         + _CML48556_URL)],
+}
+# Products whose NAV is structurally fixed, confirmed from the issuer's own
+# product page (daily dividend with compulsory reinvestment).
+VERIFIED_FIXED_NAV = {
+    "LIQUIDBEES": ("Issuer product page: open-ended liquid scheme with daily "
+                   "dividend and compulsory reinvestment; NAV held ~1000 by "
+                   "design, so NAV-change indicators exclude distributions "
+                   "and do not represent investor total return. "
+                   "https://etf.nipponindiaim.com/Funds/details/11"),
 }
 ACTION_WINDOW_DAYS = 7
 RATIO_TOLERANCE = 0.15
@@ -236,16 +250,24 @@ def main() -> None:
                 feed["etfs"][sym] = {"status": "unavailable", "reason": note}
                 continue
             if is_fixed_nav_product(adj):
-                feed["etfs"][sym] = {
-                    "status": "not_meaningful",
-                    "scheme_code": int(code),
-                    "nav": round(adj[-1][1], 4),
-                    "nav_date": adj[-1][0].strftime("%Y-%m-%d"),
-                    "reason": ("Fixed-NAV distribution product: the NAV is held "
-                               "constant by design and returns are paid out as "
-                               "distributions, so NAV-change indicators do not "
-                               "represent investor total return."),
-                }
+                if sym in VERIFIED_FIXED_NAV:
+                    feed["etfs"][sym] = {
+                        "status": "not_meaningful",
+                        "scheme_code": int(code),
+                        "nav": round(adj[-1][1], 4),
+                        "nav_date": adj[-1][0].strftime("%Y-%m-%d"),
+                        "reason": VERIFIED_FIXED_NAV[sym],
+                    }
+                else:
+                    feed["etfs"][sym] = {
+                        "status": "unavailable",
+                        "scheme_code": int(code),
+                        "nav": round(adj[-1][1], 4),
+                        "nav_date": adj[-1][0].strftime("%Y-%m-%d"),
+                        "reason": ("Insufficient NAV variation (<1% over the "
+                                   "past year) - NAV-based indicators are "
+                                   "unreliable for this product"),
+                    }
                 continue
             ind = indicators(adj)
             ind.update({"status": "ok", "scheme_code": int(code),
