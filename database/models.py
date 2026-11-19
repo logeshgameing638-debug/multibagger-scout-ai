@@ -293,6 +293,8 @@ class PaperOrder(Base):
     stop_loss: Mapped[float | None] = mapped_column(Float, nullable=True)
     target: Mapped[float | None] = mapped_column(Float, nullable=True)
     note: Mapped[str] = mapped_column(Text, default="")
+    risk_status: Mapped[str] = mapped_column(String(16), default="approved")
+    risk_reasons: Mapped[str] = mapped_column(Text, default="")
     created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, index=True)
     filled_at: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)
 
