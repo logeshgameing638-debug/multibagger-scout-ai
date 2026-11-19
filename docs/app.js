@@ -23,16 +23,19 @@ function esc(s) {
 }
 
 function fmtScore(v) {
+  if (v == null || v === "") return "n/a";
   const n = Number(v);
   return Number.isFinite(n) ? `${Math.round(n)}/100` : "n/a";
 }
 
 function fmtPct(v) {
+  if (v == null || v === "") return "n/a";
   const n = Number(v);
   return Number.isFinite(n) ? `${(n * 100).toFixed(1)}%` : "n/a";
 }
 
 function fmtNum(v) {
+  if (v == null || v === "") return "n/a";
   const n = Number(v);
   if (!Number.isFinite(n)) return "n/a";
   if (Math.abs(n) >= 1e7) return `${(n / 1e7).toFixed(1)} Cr`;
@@ -40,6 +43,7 @@ function fmtNum(v) {
 }
 
 function fmtRupee(v) {
+  if (v == null || v === "") return "n/a";
   const n = Number(v);
   return Number.isFinite(n) ? `\u20B9${n.toLocaleString("en-IN", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}` : esc(v);
 }
@@ -157,37 +161,48 @@ function conclusionHtml(r, risk, quality, ta) {
     `This is combined fundamental-plus-technical research, not a buy or sell recommendation.</p>`;
 }
 
-function shortSetupHtml(short, daily) {
+function shortSetupHtml(short, daily, priceDate) {
   const ez = short.entry_zone || {};
   const tv = short.technical_view || {};
   const stop = Number(short.invalidation_level);
   const bearish = /bearish/i.test(tv.trend || "") || tv.breakdown === true;
+  const close = daily && Number(daily.last_close);
+  const closeLine = Number.isFinite(close)
+    ? `<p>Stored close: ${fmtRupee(close)}${priceDate ? ` (as of the research run ${esc(priceDate)}; Yahoo quote, typically delayed ~15 min)` : ""}.</p>` : "";
   const reasons = [];
   if (bearish) reasons.push(`stored short-term trend is ${tv.trend || "bearish"}`);
   if (ez.low == null || ez.high == null) reasons.push("no stored entry range");
   if (!Number.isFinite(stop)) reasons.push("no numeric stop-loss stored");
   if (!reasons.length && stop >= ez.low) reasons.push("stored stop-loss is not below the entry range");
   if (reasons.length) {
-    return `<p>No qualifying short-term setup in the stored research (${esc(reasons.join("; "))}). ` +
-      `The research does not force a target when the setup is unsupported.</p>`;
+    return closeLine + `<p>No qualifying short-term setup in the stored research (${esc(reasons.join("; "))}). No entry, stop or target arithmetic is shown.</p>`;
   }
   const entryRef = ez.high;
   const riskPerShare = entryRef - stop;
-  const target = entryRef + 5 * riskPerShare;
+  const required = entryRef + 5 * riskPerShare;
+  let position = "";
+  if (Number.isFinite(close)) {
+    if (close > ez.high) position = `<p>The stored close ${fmtRupee(close)} is above this entry range, so this is a conditional pullback setup: ` +
+      `it only becomes relevant if the price falls back into the range. It is not an actionable entry at the stored close.</p>`;
+    else if (close < ez.low) position = `<p>The stored close ${fmtRupee(close)} is below this entry range; the setup would need the price to recover into the range first.</p>`;
+    else position = `<p>The stored close ${fmtRupee(close)} is inside the entry range as of that session.</p>`;
+  }
   const res = daily && Number(daily.resistance);
-  const resistanceNote = Number.isFinite(res) && res < target
-    ? ` Note: the 1:5 target is above the identified resistance of ${fmtRupee(res)}, so reaching it needs a breakout beyond that level.`
+  const resistanceNote = Number.isFinite(res) && res < required
+    ? ` The required price is also above the identified resistance of ${fmtRupee(res)}; the stored research contains no evidence that this level will be broken.`
     : "";
-  return `<table class="kv"><tbody>` +
-    `<tr><td>Entry range</td><td>${fmtEntryZone(ez)}</td></tr>` +
+  return closeLine +
+    `<table class="kv"><tbody>` +
+    `<tr><td>Conditional entry range</td><td>${fmtEntryZone(ez)}</td></tr>` +
     `<tr><td>Stop-loss</td><td>${fmtRupee(stop)} <span class="feed-meta">(stored invalidation level)</span></td></tr>` +
     `<tr><td>Risk per share (from ${fmtRupee(entryRef)} entry)</td><td>${fmtRupee(riskPerShare)}</td></tr>` +
-    `<tr><td>Target at 1:5 reward-to-risk</td><td>${fmtRupee(target)}</td></tr>` +
-    `<tr><td>Potential per share</td><td>+${fmtRupee(5 * riskPerShare)} if the target is reached / -${fmtRupee(riskPerShare)} if stopped out</td></tr>` +
-    `</tbody></table>` +
-    `<p class="feed-meta">Arithmetic for the 1:5 reward-to-risk requested, from the stored entry range and stop-loss; ` +
-    `entry uses the top of the range (worst fill). Not a prediction: prices can gap past a stop, and profit is never guaranteed. ` +
-    `Research only, no trades.${resistanceNote}</p>`;
+    `</tbody></table>` + position +
+    `<p><strong>No verified 1:5 setup:</strong> the stored research holds no evidence-backed price target for this stock.</p>` +
+    `<p class="feed-meta">Hypothetical arithmetic only: for a 1:5 reward-to-risk from this entry and stop, the price would need to reach ` +
+    `${fmtRupee(required)} (+${(100 * 5 * riskPerShare / entryRef).toFixed(1)}% from the ${fmtRupee(entryRef)} entry; a hypothetical +${fmtRupee(5 * riskPerShare)} per share, ` +
+    `or +${fmtRupee(500 * riskPerShare)} on an illustrative 100 shares, against -${fmtRupee(riskPerShare)} per share / -${(100 * riskPerShare / entryRef).toFixed(1)}% if stopped out). ` +
+    `This required price is a calculation, not a verified target, and not anyone's actual holding or a realised gain.${resistanceNote} ` +
+    `Prices can gap past a stop, and profit is never guaranteed. Research only, no trades.</p>`;
 }
 
 function technicalHtml(ta) {
@@ -270,10 +285,10 @@ async function openReport(row) {
       (downloads ? `<p class="downloads">Download: ${downloads}</p>` : "") +
       (r["14_investment_thesis"] ? `<h4>Investment thesis</h4><p>${esc(r["14_investment_thesis"])}</p>` : "") +
       conclusionHtml(r, risk, quality, ta) +
-      `<h4>Short-term view and 1:5 reward-to-risk setup</h4>` +
+      `<h4>Short-term view <span class="feed-meta">(daily-chart technicals; holding duration not specified in the research)</span></h4>` +
       `<p>Score ${fmtScore(short.score)}; trend ${esc(tv.trend || "n/a")}, RSI(14) ${fmtNum(tv.rsi_14)}.</p>` +
-      shortSetupHtml(short, ta.daily) +
-      `<h4>Long-term view</h4>` +
+      shortSetupHtml(short, ta.daily, (r.automation || {}).rotation_data_date) +
+      `<h4>Long-term view <span class="feed-meta">(weekly/monthly trend and business classification; holding duration not specified in the research)</span></h4>` +
       `<p>Score ${fmtScore(long_.score)}; trend ${esc(lt.trend || "n/a")} (${esc((lt.timeframes || []).join(" + ") || "n/a")}), ` +
       `price vs 200-day EMA: ${esc(lt.price_vs_ema_200 || "n/a")}.<br>Business classification: ${esc(long_.business_classification || "n/a")}.</p>` +
       `<p class="feed-meta">No entry range, stop-loss or target is stored for the long-term horizon, so no 1:5 arithmetic is shown here. ` +
