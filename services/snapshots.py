@@ -71,3 +71,18 @@ def coverage_summary(snapshots: dict[str, dict] | None = None,
 def get_snapshot(symbol: str, exchange: str = "NSE") -> dict | None:
     """Single-stock lookup used as a fallback when the local DB has no score."""
     return load_snapshots().get(symbol.strip().upper())
+
+
+AUTOMATION_FEED_FILE = ROOT / "data" / "automation" / "alerts_feed.json"
+
+
+def load_automation_feed(path: Path = AUTOMATION_FEED_FILE) -> dict | None:
+    """The committed market-data-only alert feed from scheduled GitHub Actions
+    runs (scripts/automation_alerts.py). None when no run has committed yet.
+    Contains no watchlists, holdings, orders or user activity."""
+    if not path.exists():
+        return None
+    try:
+        return json.loads(path.read_text())
+    except (ValueError, OSError):
+        return None
