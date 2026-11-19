@@ -215,6 +215,60 @@ def load_report(symbol: str, exchange: str = "NSE",
     return _load_json_fresh(directory / fname, f"data/automation/reports/{fname}")
 
 
+def load_report_export(symbol: str, exchange: str = "NSE", fmt: str = "html",
+                       directory: Path = REPORTS_DIR) -> str | None:
+    """One committed report export (html/csv) as text, remote-first like the
+    JSON loaders. None when absent."""
+    if fmt not in ("html", "csv"):
+        return None
+    fname = f"{exchange}_{symbol}.{fmt}"
+    path = directory / fname
+    default = (ROOT / "data" / "automation" / "reports" / fname).resolve()
+    try:
+        is_default = path.resolve() == default
+    except OSError:
+        is_default = False
+    if is_default:
+        remote = _fetch_repo_text(f"data/automation/reports/{fname}")
+        if isinstance(remote, str):
+            return remote
+    if path.exists():
+        try:
+            return path.read_text()
+        except OSError:
+            return None
+    return None
+
+
+def _fetch_repo_text(repo_relpath: str) -> str | None:
+    """Raw text of one committed file via the contents API, TTL-cached like
+    the JSON fetch (shares the rate-limit budget)."""
+    now = time.time()
+    cache_key = f"text:{repo_relpath}"
+    cached = _text_cache.get(cache_key)
+    if cached is not None and now - cached[0] < REMOTE_TTL_SECONDS:
+        return cached[1]
+    value: str | None = None
+    try:
+        import requests
+        url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{repo_relpath}"
+        resp = requests.get(
+            url,
+            headers={"Accept": "application/vnd.github.v3.raw"},
+            params={"ref": GITHUB_BRANCH},
+            timeout=10,
+        )
+        if resp.ok:
+            value = resp.text
+    except Exception:
+        value = None
+    _text_cache[cache_key] = (now, value)
+    return value
+
+
+_text_cache: dict[str, tuple[float, str | None]] = {}
+
+
 def load_automation_feed_status(path: Path = AUTOMATION_FEED_FILE):
     """(feed, meta) - meta names the real source so the UI can say when it
     is showing a fallback copy instead of the latest committed feed."""
