@@ -62,7 +62,8 @@ def generate_top_reports(top_k: int = TOP_K,
             continue
         try:
             outcome = research_company(symbol, exchange, generate_report=True)
-            json_path = (outcome.get("reports") or {}).get("json")
+            report_paths = outcome.get("reports") or {}
+            json_path = report_paths.get("json")
             if not json_path or not Path(json_path).exists():
                 manifest["reports"].append({
                     "symbol": symbol, "status": "report_unavailable",
@@ -71,6 +72,15 @@ def generate_top_reports(top_k: int = TOP_K,
                 continue
             target = reports_dir / f"{exchange}_{symbol}.json"
             shutil.copyfile(json_path, target)
+            # the prompt asks for HTML/JSON/CSV per top candidate: keep every
+            # format the engine produced next to the JSON viewer source
+            exports = {"json": f"data/automation/reports/{exchange}_{symbol}.json"}
+            for fmt in ("html", "csv"):
+                src = report_paths.get(fmt)
+                if src and Path(src).exists():
+                    fmt_target = reports_dir / f"{exchange}_{symbol}.{fmt}"
+                    shutil.copyfile(src, fmt_target)
+                    exports[fmt] = f"data/automation/reports/{exchange}_{symbol}.{fmt}"
             # stamp honest automation context onto a copy of the report
             payload = _load_json(target, {})
             if isinstance(payload, dict):
@@ -87,6 +97,7 @@ def generate_top_reports(top_k: int = TOP_K,
                 "status": outcome.get("status", "partial"),
                 "agent_statuses": outcome.get("agent_statuses", {}),
                 "file": f"data/automation/reports/{exchange}_{symbol}.json",
+                "exports": exports,
             })
         except Exception as exc:  # one candidate must not kill the batch
             manifest["reports"].append({
