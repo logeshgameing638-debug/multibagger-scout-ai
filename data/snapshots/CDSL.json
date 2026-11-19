@@ -1,0 +1,212 @@
+{
+  "symbol": "CDSL",
+  "exchange": "NSE",
+  "updated_at": "2026-11-19 14:52 IST",
+  "status": "complete",
+  "agent_statuses": {
+    "fundamental": "success",
+    "technical": "success",
+    "business": "success",
+    "valuation": "success",
+    "risk": "success",
+    "news": "success",
+    "scoring": "success"
+  },
+  "name": "Central Depository Services (India) Limited",
+  "scores": {
+    "fundamental": 40.0,
+    "technical": 44.0,
+    "data_confidence": 72.0,
+    "risk": 0.0,
+    "long_term": 41.2,
+    "short_term": 42.8,
+    "balanced": 42.0
+  },
+  "classification": "neutral",
+  "explanation": {
+    "fundamental": {
+      "growth": {
+        "points": 10.0,
+        "max": 20,
+        "detail": [
+          "sales_cagr_3y: 5.0/5 (value 0.273 vs threshold 0.15)",
+          "sales_cagr_5y: 0.0/5 (missing input: 0 points)",
+          "profit_cagr_3y: 5.0/5 (value 0.182 vs threshold 0.15)",
+          "profit_cagr_5y: 0.0/5 (missing input: 0 points)"
+        ]
+      },
+      "roe_roce": {
+        "points": 15,
+        "max": 15,
+        "detail": [
+          "roe: 8/8 (value 0.233 vs threshold 0.2)",
+          "roce: 7/7 (value 0.31 vs threshold 0.2)"
+        ]
+      },
+      "debt_balance_sheet": {
+        "points": 0.0,
+        "max": 15,
+        "detail": [
+          "financial sector: industrial debt rules not applied; 0 awarded (not full points)"
+        ]
+      },
+      "cash_flow": {
+        "points": 15.0,
+        "max": 15,
+        "detail": [
+          "positive OCF: 5.0/5",
+          "positive FCF: 5.0/5",
+          "OCF/net profit: 5/5 (value 1.02 vs threshold 1)"
+        ]
+      },
+      "management_promoter": {
+        "points": 0.0,
+        "max": 15,
+        "detail": [
+          "insider holding 0.0%: 0.0/10",
+          "promoter pledge unavailable from free sources: 0/5"
+        ]
+      },
+      "valuation": {
+        "points": 0.0,
+        "max": 10,
+        "detail": [
+          "P/E 58.9 (no industry benchmark): value 58.9 below all bands"
+        ]
+      },
+      "industry_growth": {
+        "points": 0.0,
+        "max": 10,
+        "detail": [
+          "industry growth unavailable from free sources: 0/10"
+        ]
+      }
+    },
+    "technical": {
+      "long_term_trend": {
+        "points": 10,
+        "max": 20,
+        "detail": [
+          "long-term trend: sideways"
+        ]
+      },
+      "ema_alignment": {
+        "points": 8,
+        "max": 15,
+        "detail": [
+          "price above EMA50, partial alignment"
+        ]
+      },
+      "momentum": {
+        "points": 15.0,
+        "max": 15,
+        "detail": [
+          "RSI 65: 7/7 (value 65 vs threshold 55)",
+          "MACD histogram positive: 8.0/8"
+        ]
+      },
+      "volume": {
+        "points": 0.0,
+        "max": 15,
+        "detail": [
+          "relative volume: value 0.571 below all bands"
+        ]
+      },
+      "price_structure": {
+        "points": 5,
+        "max": 10,
+        "detail": [
+          "consolidation / mixed"
+        ]
+      },
+      "support_resistance": {
+        "points": 6,
+        "max": 10,
+        "detail": [
+          "near resistance: reduced reward/risk"
+        ]
+      },
+      "breakout_confirmation": {
+        "points": 0,
+        "max": 15,
+        "detail": [
+          "last bar provisional (intraday): breakout confirmation withheld"
+        ]
+      }
+    },
+    "data_confidence": {
+      "source_reliability": {
+        "points": 12,
+        "max": 25,
+        "detail": [
+          "yahoo_finance: ok",
+          "nse_archives: failed/unused",
+          "bse_site: failed/unused",
+          "rss_news: ok"
+        ]
+      },
+      "completeness": {
+        "points": 25.0,
+        "max": 25,
+        "detail": [
+          "0 fundamental metrics missing"
+        ]
+      },
+      "reporting_period": {
+        "points": 20,
+        "max": 20,
+        "detail": [
+          "4 annual periods available (value 4 vs threshold 4)"
+        ]
+      },
+      "freshness_depth": {
+        "points": 15,
+        "max": 15,
+        "detail": [
+          "1236 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+        ]
+      },
+      "cross_source_consistency": {
+        "points": 0.0,
+        "max": 15,
+        "detail": [
+          "not checked: no comparable same-company, same-period values from a second source"
+        ]
+      }
+    },
+    "risk": {
+      "findings_contribution": {
+        "points": 0,
+        "max": 100,
+        "detail": [
+          "no findings"
+        ]
+      },
+      "classification": "LOW",
+      "unassessed_items": [
+        "auditor resignation history",
+        "qualified audit opinions",
+        "related-party transactions",
+        "regulatory actions",
+        "promoter pledging (source unavailable)",
+        "promoter selling (source unavailable)"
+      ]
+    },
+    "labels": [
+      "neutral"
+    ],
+    "weights": {
+      "long_term": "0.7F+0.3T",
+      "short_term": "0.7T+0.3F",
+      "balanced": "0.5L+0.5S"
+    }
+  },
+  "technical_daily": {
+    "rsi_14": 65.00795921542803,
+    "breakout": false,
+    "breakdown": false,
+    "support": 1159.0999755859375,
+    "resistance": 1484.800048828125,
+    "trend": "sideways"
+  }
+}

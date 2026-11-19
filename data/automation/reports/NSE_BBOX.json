@@ -1,0 +1,576 @@
+{
+  "1_company_profile": {
+    "symbol": "BBOX",
+    "exchange": "NSE",
+    "name": "Black Box Limited",
+    "sector": "Technology",
+    "industry": "Software - Application",
+    "market_cap": 160425361408,
+    "website": "https://blackbox.com"
+  },
+  "2_source_and_timestamp": {
+    "generated_at": "2026-11-19 09:28:27.387055+00:00",
+    "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
+    "agent_statuses": {
+      "fundamental": "success",
+      "technical": "success",
+      "business": "success",
+      "valuation": "success",
+      "risk": "success",
+      "news": "success",
+      "scoring": "success"
+    }
+  },
+  "3_financial_analysis": {
+    "is_financial_sector": false,
+    "growth": {
+      "sales_growth_1y": 0.059276925088071544,
+      "sales_cagr_3y": 0.0022637492399826264,
+      "sales_cagr_5y": null,
+      "profit_growth_1y": 0.06221310674870593,
+      "profit_cagr_3y": 1.0937120353591,
+      "profit_cagr_5y": null,
+      "eps_growth_1y": 0.050986842105263094
+    },
+    "profitability": {
+      "roe": 0.16902371553787338,
+      "roce": 0.13066821863011902,
+      "operating_margin": 0.07622582640738051,
+      "net_margin": 0.034415379966236476,
+      "gross_margin": 0.16733355167290834
+    },
+    "balance_sheet": {
+      "total_debt": 11530000000.0,
+      "debt_to_equity": 0.8959375874180213,
+      "interest_coverage": 4.001255020080321,
+      "current_ratio": 1.8296019900497513,
+      "working_capital": 14674000000.0
+    },
+    "cash_flow": {
+      "operating_cash_flow": 839500000.0,
+      "free_cash_flow": 118000000.0,
+      "ocf_to_net_profit": 0.38594152261860976,
+      "fcf_conversion": 0.1405598570577725
+    },
+    "ownership": {
+      "promoter_or_insider_holding_pct": 0.74174005,
+      "institutional_holding_pct": 0.058509998,
+      "promoter_pledge_pct": null
+    },
+    "red_flags": [
+      "operating cash flow only 39% of net profit (profit quality)"
+    ],
+    "annual_periods": [
+      "2022-03-31",
+      "2023-03-31",
+      "2024-03-31",
+      "2025-03-31",
+      "2026-03-31"
+    ],
+    "quarterly_periods": [
+      "2025-09-30",
+      "2025-12-31",
+      "2026-03-31",
+      "2026-06-30",
+      "2026-09-30"
+    ],
+    "_run_id": 1093
+  },
+  "4_technical_analysis": {
+    "assessment": "bullish",
+    "daily": {
+      "timeframe": "1d",
+      "last_close": 903.2999877929688,
+      "emas": {
+        "ema_20": 859.3068463828411,
+        "ema_50": 839.1254694717474,
+        "ema_100": 817.4851347132925,
+        "ema_200": 760.2941200889836
+      },
+      "smas": {
+        "sma_20": 841.4475006103515,
+        "sma_50": 832.9869970703126,
+        "sma_100": 821.2855004882813,
+        "sma_200": 751.5827513122558
+      },
+      "rsi_14": 59.82774084966812,
+      "macd": {
+        "macd_line": 16.248143266073498,
+        "signal_line": 9.233572533234083,
+        "histogram": 7.014570732839415
+      },
+      "adx_14": 27.265970367517696,
+      "atr_14": 44.77407973931483,
+      "bollinger": {
+        "middle": 841.4475006103515,
+        "upper": 926.6639325216388,
+        "lower": 756.2310686990643
+      },
+      "volume_sma_20": 1070327.7,
+      "relative_volume": 2.720561188877014,
+      "support": 769.5499877929688,
+      "resistance": 952.0,
+      "price_structure": {
+        "structure": "uptrend (higher highs, higher lows)",
+        "higher_highs": true,
+        "higher_lows": true,
+        "lower_highs": false,
+        "lower_lows": false
+      },
+      "trend": "bullish",
+      "trend_strength": "strong",
+      "breakout": false,
+      "breakdown": false,
+      "momentum_divergence": null,
+      "entry_zone": {
+        "low": 769.55,
+        "high": 791.94,
+        "basis": "near identified support plus half ATR buffer"
+      },
+      "invalidation_level": 680.0,
+      "atr_risk_distance": 44.77407973931483,
+      "provisional_last_bar": true
+    },
+    "short_term_report": {
+      "timeframe": "daily",
+      "trend": "bullish",
+      "rsi_14": 59.82774084966812,
+      "macd_histogram": 7.014570732839415,
+      "breakout": false,
+      "breakdown": false
+    },
+    "long_term_report": {
+      "timeframes": [
+        "weekly",
+        "monthly"
+      ],
+      "trend": "sideways",
+      "ema_200_daily": 760.2941200889836,
+      "price_vs_ema_200": "above"
+    }
+  },
+  "5_business_quality": {
+    "classification": "average",
+    "positive_evidence_count": 1,
+    "negative_evidence_count": 1,
+    "evidence": [
+      "ROE 16.9% (>15%): capital allocated effectively",
+      "red flag: operating cash flow only 39% of net profit (profit quality)"
+    ],
+    "sector": "Technology",
+    "industry": "Software - Application",
+    "market_cap": 160425361408,
+    "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
+    "unassessed_areas": [
+      "business model detail (needs annual report reading)",
+      "industry growth rate",
+      "market share and competitor comparison",
+      "customer concentration",
+      "supplier dependency",
+      "expansion projects / order book",
+      "management quality and corporate governance depth"
+    ],
+    "_run_id": 1095
+  },
+  "6_valuation": {
+    "multiples": {
+      "pe_trailing": 64.33761,
+      "pe_forward": 30.516891,
+      "pb": 11.337735,
+      "ev_ebitda": 29.539,
+      "ev_sales": 2.365,
+      "peg": null,
+      "dividend_yield": 0.11,
+      "industry_pe": null
+    },
+    "valuation_view_vs_industry": null,
+    "dcf": {
+      "scenarios": {
+        "bear": 8.132423500946013,
+        "base": 10.770172375590189,
+        "bull": 12.41052053287956
+      },
+      "assumptions": {
+        "base_fcf": 118000000.0,
+        "growth_rates": {
+          "bear": 0.04,
+          "base": 0.08,
+          "bull": 0.1
+        },
+        "cost_of_equity": 0.13,
+        "terminal_growth": 0.05,
+        "projection_years": 10,
+        "shares_outstanding": 177599205
+      }
+    },
+    "dcf_not_calculated_reason": null,
+    "margin_of_safety_vs_base_case": -82.87052280056653,
+    "current_price": 903.2999877929688,
+    "_run_id": 1096
+  },
+  "7_news_intelligence": {
+    "items": [
+      {
+        "headline": "Black Box (NSEI:BBOX) Stock Forecast & Analyst Predictions - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Sat, 14 Nov 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1BdVNEU3hmNWZqTmZnZ29lZGtVWjZQNGhSS2NLQnUwdjQ4d2pGOEZaaHlKa3YyNmxaN0pmU1hwYUZsVndMXzFJT2JMZ2N1U3AydDI0ZFh6NnNnam5UeTlvRkU4S3NMT1ozTUVhY3hlQzFfWDNELTVaSk9JZkUyQQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Black Box Q2 Profit Jumps 31% to \u20b973 Crore; Shares Rise Nearly 3% - HDFC Sky",
+        "source": "HDFC Sky",
+        "published": "Fri, 13 Nov 2026 10:10:04 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPemZsbFgyZjB4WVpuVGNIRVBNYjFnbWI3WTMyOTZEZUIzTlkwYXRMWHpmT21JeC1mVFVPaExNNEFXNkhON09ESk5vdTBlM3ppSExCSnl6VU16VVFEZENBX09ydDZSNWxxUGlwU1hPWUg5S1lUWHo2QVZUcUVUbFA2emYxd2U1MnJpOU1jUlVZaWtiUm45bldTU2xnTGVob1VaZ1ViVGtTYmc?oc=5",
+        "sentiment": "positive",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "BBOX Forecast \u2014 Price Target \u2014 Prediction for 2027 - TradingView",
+        "source": "TradingView",
+        "published": "Thu, 25 Jun 2026 15:28:33 GMT",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyVHBPR014a0tEekotRHlQQ09IVkp2TGVOQzV5cDRINWZ4U0tGQ1VJYVQyTVhhWkFWaE43RGlJai1icDJyMW1KYnhsaEhKUlNIY2phOGV0cUpyX3RYX0ZlVjdOS1BDdGo2aWxEbUtYM1RXd1IwN2c?oc=5",
+        "sentiment": "neutral",
+        "relevance": "low",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Watch | Black Box shares its AI, hyperscaler and growth outlook on ET Now - Essar",
+        "source": "Essar",
+        "published": "Wed, 27 May 2026 11:06:16 GMT",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRWN0aEJ4MFQyRElPMnRlU2FTSnRYSm9SNVRISE9ZS19ZRm1pTkE1Slp0d2JRSmdjbDhUaVZWVXR6MHFVdG1jRnQzSHo5ZzFhNTNPSl9UVjN5WE14a0NheXdUY3Uza1RpYW1RNnVLWG9UaTNEQmJNNHFJRlR6ejl6RWloTGpUNlJLTl9JU290QXJEanFTRHRGMUx6VUVGakduVEY4Ym53?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Black Box FY26 profit rises 6%, backlog jumps 57% to $792 million - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Thu, 21 May 2026 19:43:42 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMU93S016b0tpS2RBTlVpMHVJN3UzWG9GVU1ONElZMGtiXzdsUGtHbjRIS2pta2tMWFYxSjBtTm80UWx3SGZFOW1ZMGVackFRTmh5dXNoTTlicjVMUUR2dVl4NUdZdUJPRGxJNFo1bXlIbnZKSFpJQzRPR0FiZTBwcTNCZm00UzNwbzJSOHAyT01TYXJLLTF1dDhSMXBRVkxiN1NiUlQtSHVLdndKQ1k0dVZaWDU4a0pK?oc=5",
+        "sentiment": "positive",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Black Box raises \u20b9386 cr via warrant conversion, promoters invest \u20b9200 cr - Business Standard",
+        "source": "Business Standard",
+        "published": "Mon, 30 Mar 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSlotUlFQT2dRM0lpLS04QzYyRWNNZzl5RXRTYWNPZ2ZQYlZ5SzlVZzEtVjRLdGZZYUNjVy1SWGdYUUJwNmhXaV9iZFBra1FRdkhuY2l4dHg3REVsQzkxTF9GamEzbzdNcGtfcmJ0X0JRV3ZKQ3lpY1RXUHp5SlVVUGRJUkpFbEZmZmdEWjdndU04WUVXLTUxUVdtSlcwSTR3RGxrWC15MkQ4ellqNXlBTHFmMm1rUmJyZVlTbXNKLWhOY3dDT1AwSE5DZ1dEV2Q2TTI3eEVB0gHbAUFVX3lxTE55RW1rVTQyd011amJNcWlMdWVoSTJXcjBVZGJmMDFWRmEwT3VxUDF5S2hjLWFWOUUxQUN0QW9lSmVndnRpTU12bHF2a0ZIWDU0VGtvN19QZ1JnWXNSaWl1Vnc3T3QyTG12bXV4NTRMYkNvMG9lZEg1LU9GT0l4UEVWVWhFbU13emJuMVJSb3dJQU01Z1RMVmEzZ3Y4TGpOVGNHQnJ6dkt1dkhCblZPd3JVZ3B1WlFBT2N2Z3lfVGhSTE15VGVveTF6QUtHb2QzcDluR0hJRGxqazZQZw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Black Box Limited (BBOX.NS) Falls 6.87% to \u20b9745.8 as Shares Retreat Toward Key Support - Retail Volume - siam.in",
+        "source": "siam.in",
+        "published": "Tue, 15 Sep 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOR2RRZEFUbU1fZjFSUXpseUJjSTJLSVR5dTJjdjJsYTN6ZHU3NHZkMWVHLUdMekJNeFlfQ2pUcFJ6Y2ZfNjY1N0Z3WUhMVWF5QXptMjhpN3JvWXVqbVZsNDlrV2pJdzFSTE4tWjVpNkZDUlNidExzYjc3dHRVSm95eXJOdHM4NmxjTXh4cUNpX3AwZkVqSGI5ZWw1Zi1aYnNMaFEtWTRjWmZ0TmxudmNzeXBjdWxaTWFYcWF1V2NYcTA?oc=5",
+        "sentiment": "negative",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Black Box Limited Shares Hit 52-Week High Amid Strong Market Outperformance - Kalkine India",
+        "source": "Kalkine India",
+        "published": "Mon, 18 May 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbzF4SXpTWWZWYUE0VFNjQUdxSHFacFF2NERqakVld09qTTMzbXZGeGt5WUd4b1g4V2hlVzFhM2tjMUFrTjVlUDB5XzdTalRfVDQxOVNlQkwzY0htX3ktdXZ6eWtONmdyYmdsNXlQcVhEMjBPYVJWZ3loY2w2NnRzTXlXTzRocDRwY1hYRDlHTlFpcUlBdEJPbEk0VjlyWTBFTHNMalRjY3h1bkJ3?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Black Box Ltd Share Price Today NSE/BSE Charts - Alice Blue",
+        "source": "Alice Blue",
+        "published": "Mon, 31 Aug 2026 23:02:45 GMT",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB3dldmZzFVN3FkamF4Z1dqNG1JVmtROWRMRGRmTFZxcmVlcTZTNjl3MG1SWEE1YzF0X0gxcVFJbXhFdG9EN1VETWNRR2FQeGhqenpyemYtS3BneGZoa2JVZEplV3U5Xy1UOWk0?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Solid Earnings May Not Tell The Whole Story For Black Box (NSE:BBOX) - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Wed, 03 Jun 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWkVOODdad2VYZUZnWHhGeTZocXg3cDBqaWlMRkVaN2tVLTBlR1BFVmtpenpUVk9oek5tZWRxMG1DYlJ5NGlvbmp5RHBxeVRFS1JtUzlhdk5LZDAxWW5tUDdtcFBRU3BETkg3b3FwVzFSdTg1MzMyTmZXYU1Db3dhQ2ZIMDJHeHhvRGdPOEFmcnE3d0VCQVFuSEdUUjF4c3hMWmZSYmhweTVGUzVSamxxZS12cTl1NFRfRzZzV2dLN2o1ZWMtMEl0OFlqSjHSAdIBQVVfeXFMT2tLREFZN1doNnVLZEVEcE9DMFFoYXZYT2N2ak9RTTFDZ2M2YnlPRHgwdl9PMGIyUVRYdHo3SU1rTG1VNHZ3cEFkU1Q3NWlGOUc2SXBLZG8zMmVpdWFsQk5MTy1laHBXV19OX01EYnExOU1NZzM3SDVKendpckgtSDRwdkdpUElHSVlCeU5UQ0pSemNWR2NsOHdlNHlNc0pMOUNiNXJUT1BVazZpM3dpZ2wzeEVxZDZPakw4ZzRvY2hyRTU4YlJLNlFyRnU2c2RvOWtn?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Black Box releases Q1FY27 earnings call audio recording - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Thu, 06 Aug 2026 16:35:59 GMT",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNk5pMHc2aGh1NE13Wm1nNzRPbl9OWFdBaml2TkluNmd6UEpYMkdfV3JER010c2hpdkF0ZzJ4VlpmcmV4QmZ2aU9jOUlsOTdjRjQ0X2EwX0FaSWt2RWd5SG0xUjQyeHNpYjBZd3lsTWVVMmdmNl94RndJaXFUR0JJSU9Hd1hQQXN2QXVNM0E5WUExSHE5T1FGNV9KVGtXZWU2V2ZTRjRHN3dEWkNWZ1NpQXlCMnB6UQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Black Box Limited (BBOX.NS) stock price, news, quote and history - Yahoo Finance Singapore",
+        "source": "Yahoo Finance Singapore",
+        "published": "Sat, 19 Aug 2023 06:11:08 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1aRmpZUklFSjNqb0dTV1VlT0l3MGFBNE0tUDVwNTYxdHZiVy1iSG5mbXl0dEdOc0xqd2VlbkVhNS1WYWwzVUpWV3kzQjROUDBGZ0x4SVJB?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Black Box Share Price Analysis | NSE BBOX Stock Hits 52-Week High - Kalkine India",
+        "source": "Kalkine India",
+        "published": "Tue, 05 May 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWUZORzRTMVp1MFZ3Z2x6eDZJMmE2cXRYa1NGZkxHTGxDcGpVSThjOEptdmV3UXNJWGpRdGtiMXVGRFAwU2FrUU1GNEVfZVhaYlk3cUVkQWlIVlRBT1hpbXJ4cEVkMVNMRWZ6UWg3WEFUN1AxYjNfVGtBQjNxa2wwYVk0WUZHSG84d0VUdndFOU01ZUtFOVYyNzR4enQ3cG1vLWtoZjZMN2M1Vjg1bHc?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Black Box Limited (NSE:BBOX) Pays A \u20b91.00 Dividend In Just Three Days - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Mon, 24 Aug 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPX2taelFmbk5Pam9ERXFpb2ZVUjNjMDlPZnJqZWhRUE53aEh4anc3LXczYmE1SUFIdElUcEJpQ0pHZnZZZTlXdTRsaHNTdUd3Ql9Yc1BiYnlSalVYeGFlR2NKeDFJZV9SRFdQVlpFY0t1S2RFbDF5Yi1JYTFMLXpTT3Z2alJpREpjZkR1NTgyd0R2TUcwYm9OSUYxaFQxR2ZVQzhLY1c3R0poRzN0VS1iM2VoakV5R0FqRG9ZdEFvNXBZNzI2SkNIb3VYZ9IB0AFBVV95cUxPYUl1V0ZRVHM1Um1jYXh0WDNQZ040TmJxWEx0STJIeDFUUjltS04wRzVhX3AwMHpOS1JiVlZPVXMzdnlySWtRNWRSR2RVdjBZM2lCR2NpTE9FalpBRjdjQ2V6d0hWZFAzX1Y0dkdoQjNqdjY1OXBERTRTS3NSNElwXzhPMVg0RTdwX3k0cnVPOGZxQUN2LUJyNU5qQktlQkozWFlmbHpvQ3BqcXdNWVV1dXhUSG1DUjRrckFuTlJ0enc5R05UUmFmX0xGTWtTTUs0?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Black Box targets $2B revenue by FY30 via organic and inorganic growth - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Mon, 01 Jun 2026 14:38:20 GMT",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSi1mN2hHWUtvTDVtY1ZZVDM3VVprN1BhbUpTcWJZbGV2eHVBMWM4OF8xbjJYZ1J4ME9NOTk5SlYzeENaXzVOOS1NOEVwS0E4MG9USmFyM0UzYm9SZzlhNHpHalZRQ2ZNZ0NlZkNfUXBzMEZyYzU4d0dzdVJzRG1MRnlPVDZQU2E0dkRPVzQyOXdiQlBjY1VraDBrYlp1WXBKMF93MVBFZWRGTmduLWs1SG5yeEdsVW9hcUdxenp6aTMtUmJH?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "BBOX Stock Price and Chart \u2014 NSE:BBOX - TradingView",
+        "source": "TradingView",
+        "published": "Fri, 03 Dec 2021 22:58:57 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5xYTFRR24tYUprSm40WDRwMUx4RGV1elM3dlRZcWxYTTdPZTlXZWh1c3U2dEw5SmxTbGRSaVRCVlBXLTI1NWhyNnhmZ2pDUDA5Mng0LWNTYUs?oc=5",
+        "sentiment": "neutral",
+        "relevance": "low",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Black Box Limited Issues Clarification Denying Promoter Shareholding Sale Rumors - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Sun, 15 Feb 2026 15:04:02 GMT",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOakdiQWZZbXJESWhzZ3RwNDdUWkJmV09IT2oxRUFxQmlHTEprS09mbWhfQnoydWUxX2pvNmFtUURsRnhoTHl2NkFsZEFLVEM2ZVVwWmplTVluT3FZOGN1bHEweDlkUVdaUERtTUU3c1FGZVRUaGNrRUlydkRIRGswemstVHltcjJ1V2UyQnM3LUJXY0lHUjJKVVpBZ3IzMDRwZkNZN1lwcm9zcTRGbGNTVkNrc0dDQUdVMC13SmViSld1NEdBVnhwVVdRcjBiQkU?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Here's What Analysts Are Forecasting For Black Box Limited (NSE:BBOX) After Its Third-Quarter Results - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Sun, 15 Feb 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWTBsUEVyYnI1UUtCSmFLQVphcXJEcGgwOW5na0Q5U2dnU1JRTDQwYWpQMEZ3YzZ0dWRRQkdaZy11a1FQSXItNWh2dDZsTktOYXdxQzR1VDFXZDUxMy1aVDRfWkJwWTFuRTRLVExDZENlMElDVDF5ZU9CNmp6aDBWS0Myb1RRX1ROM1hBOGVTYUswb0JYOHViVzR2c1ZFeDItc0NkZWVSUS13ajB0MmNXRlIycnZvY3lFRzUzajR2bDE4SXNpczVwS2ktckjSAdIBQVVfeXFMT0ducnlZVm9IU2ZHREVwLUtlTHMyVTVNdXM4VXQxaG5TcEN2eUFXRGtWM3AwOFdQTHgyRzNoeFNYS0w5MzRRZFRvMWRlMnFpYnhmRTlkTnExdnJvd09GcEw1UmRQNXVMSWhCcVJNVkxTQjFHOUdQd01DRVZ3UXJsZ3RhakpUMmxzM0FlQkRqZkIzOWlSMWhNdjllTkptUnNrNkM4cW9NRl9EUU80NjFpNVZIRXp2NnJVcTZHbzhlWmpEUkRSNWc2T3RydG5qOWhjM0ZB?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Black Box approves \u20b92,500 crore fund raise at EGM - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Sat, 20 Jun 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRlNiRTFXWTBNa1k0RER6amI5UFpWc0puMmRWbklNTDI5b2xZOVY2LTZ3WFZVVExXbmJkUlZVcm1qeWRoUkRzcUo3eTRpT2dJS1Z2c19KVWR2RXdlUnNnZEthdnVTUFFfZTl6R3Q5WEhfQkRwd2lpZDBmWGpBUURSYVBGZC1CZTByNkpjZzNfb3V1eUV6T2t3Ujd2VGM1c1Qtc0lzbEZLc2NqdlZsa0g5bA?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Black Box Share Price - Live NSE: BBOX Stock Price & Chart - Upstox",
+        "source": "Upstox",
+        "published": "Fri, 21 Jan 2022 09:06:28 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9RQV9sQ29JaVYtVUxtejQ2NHpaWnBXbjVwaVNtamRsZjhwMU1MQXZsZmJheG0ySlBJaEp5dzhlektMUFlUNDc3bUdNLXJMZ3ZCVlN0bU1nTER0bWF2NXp4UHhEcDYtdUE?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Black Box (BSE:500463) - Stock Analysis - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Fri, 26 Nov 2021 16:54:40 GMT",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA2WVFfVlpWNGNMRjU3WFB2YnhFNndfYmtDT3NlSktNcUdyM1ZBQjB6T21aUVNXNk9KM1psR2dtY3NTcFJBWXYwblRzQ0NQNE1YSTU0OU9nU0VZVGtfX3hCR2VyS05FaWRKbWZuOVA1Ml9lT1dCWmN3?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Black Box (NSEI:BBOX) - Stock Analysis - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Mon, 13 Dec 2021 15:40:46 GMT",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Zbml1T0oxT2lrZ1AyQV8zOHdXZG5XLVFzeFVIWEN3NmZhS0lyNWNpTFNMQ0ZPWEJ0dVY2Tk43QWFjN0Y2NF9LaC1rNmVLM3BXWVdfTk9NUkZpcmdLYXhjUTFydTdaZDItWUlJWnRYbFVWdkV5?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "BBOX Share Price Today - Black Box Ltd. Stock Price Live NSE/BSE - Univest",
+        "source": "Univest",
+        "published": "Sat, 13 Jan 2024 23:56:24 GMT",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5URXMyTjF0SUExMndHNktaSXVZUmdPY0plaEJjYlRUWTRGb180Q2ZoTUNFbnp5REpxVkZ4WkZLbkRGVkpic1hoTlRMV245VnEzUFN4U00xVU9oVjExUlQ2aElqendQd1BYSkk2UTNGdw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Black Box Limited Insider Trading & Ownership Structure - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Thu, 11 Aug 2022 17:12:54 GMT",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbmk3WVFXeThLTGpIbnk1V2wzaXVVT193VnlVU05XR1NCTHFmUUU1OG9TVDFZQ3dGbHFwcHhnT3RhclNSR3B3MHcyS2pTTXRIbTAwMElhOUNhbTNfNEk4UTFBbm5ZVjhveWpIX2FaWEhhc253LXVTM1c3eDgyc1QzUzRnSTk?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Black Box Limited (BBOX) Company Information - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Thu, 11 Aug 2022 16:37:59 GMT",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNR1ctM3BDLS1YR2RFa29TakNIZ3F3UTZfZThoTEowakNkRTZ6bkNmUHRGVWYwUWc0TGZTUllUeHMtZ3phUTVKckVxV3IyX2xLN3FhbHZZbkdIckFzcU1aQVlkYWlWdHIwcUVRVFh0cGpGUDBoSjVsOXFWZHBLbnE2ZkJmMFo?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Black Box shares have fallen by over 45% in 2025; Is there a chance of recovery? - Trade Brains",
+        "source": "Trade Brains",
+        "published": "Fri, 21 Mar 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWXpEUlN6aDNodS0wT0c2NUhpWTNreXpQVlVYNkhvQ0t3WmVwQlFMejVGWERoTS1zM1NGSllkOGhRZHUxbEZUTmxFUU1Rc0NERnZPLVB5YUxvUjM0ZFY5bHN1S1hGSnBrVndfV0hkUngtc2pTMkpwc01BeFVQOEN1V1FyZHl3eWZiY2c3TUFaQU5KRmtsQ2NmX0lEUkVueTc5Y0FB?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      }
+    ],
+    "stored_new": 26,
+    "duplicates_skipped": 0,
+    "note": "headlines are unverified signals, not confirmed financial evidence",
+    "_run_id": 1098
+  },
+  "8_risk_analysis": {
+    "classification": "MODERATE",
+    "findings": [
+      {
+        "category": "profit_quality",
+        "severity": "moderate",
+        "evidence": "OCF/net profit 39% (<50%)",
+        "source": "yahoo_finance",
+        "date": "2026-11-19",
+        "detected_at": "2026-11-19 09:28:26.996282+00:00"
+      },
+      {
+        "category": "high_valuation",
+        "severity": "moderate",
+        "evidence": "trailing P/E 64 (>60)",
+        "source": "yahoo_finance",
+        "date": "2026-11-19",
+        "detected_at": "2026-11-19 09:28:26.996294+00:00"
+      },
+      {
+        "category": "high_volatility",
+        "severity": "moderate",
+        "evidence": "ATR 5.0% of price (>4%)",
+        "source": "computed",
+        "date": "2026-11-19",
+        "detected_at": "2026-11-19 09:28:26.996299+00:00"
+      }
+    ],
+    "unassessed_governance_items": [
+      "auditor resignation history",
+      "qualified audit opinions",
+      "related-party transactions",
+      "regulatory actions",
+      "promoter pledging (source unavailable)",
+      "promoter selling (source unavailable)"
+    ],
+    "shares_outstanding_growth_yoy": 0.04811646310677276,
+    "atr_pct_of_price": 0.04956723164439674,
+    "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
+    "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
+    "_run_id": 1097
+  },
+  "9_fundamental_score": 44.5,
+  "10_technical_score": 75.0,
+  "11_data_confidence": 72.0,
+  "12_short_term_assessment": {
+    "score": 65.8,
+    "technical_view": {
+      "timeframe": "daily",
+      "trend": "bullish",
+      "rsi_14": 59.82774084966812,
+      "macd_histogram": 7.014570732839415,
+      "breakout": false,
+      "breakdown": false
+    },
+    "entry_zone": {
+      "low": 769.55,
+      "high": 791.94,
+      "basis": "near identified support plus half ATR buffer"
+    },
+    "invalidation_level": 680.0
+  },
+  "13_long_term_assessment": {
+    "score": 53.6,
+    "trend": {
+      "timeframes": [
+        "weekly",
+        "monthly"
+      ],
+      "trend": "sideways",
+      "ema_200_daily": 760.2941200889836,
+      "price_vs_ema_200": "above"
+    },
+    "business_classification": "average"
+  },
+  "14_investment_thesis": "Black Box Limited (BBOX) is classified as a 'average' business with a bullish technical trend. Balanced research score 59.8/100 (fundamental 44.5, technical 75.0, data confidence 72.0, risk 30/100 higher=worse). Supporting evidence: ROE 16.9% (>15%): capital allocated effectively; red flag: operating cash flow only 39% of net profit (profit quality).",
+  "15_thesis_invalidation": [
+    "Daily close below invalidation level 680.0 (2x ATR under support)",
+    "Operating cash flow turning negative in the next annual report",
+    "New critical governance or regulatory finding (currently unassessed items must be checked manually)"
+  ],
+  "16_missing_evidence": {
+    "fundamental_gaps": [
+      "operating cash flow only 39% of net profit (profit quality)"
+    ],
+    "unassessed_governance": [
+      "auditor resignation history",
+      "qualified audit opinions",
+      "related-party transactions",
+      "regulatory actions",
+      "promoter pledging (source unavailable)",
+      "promoter selling (source unavailable)"
+    ],
+    "valuation_gaps": null,
+    "business_unassessed": [
+      "business model detail (needs annual report reading)",
+      "industry growth rate",
+      "market share and competitor comparison",
+      "customer concentration",
+      "supplier dependency",
+      "expansion projects / order book",
+      "management quality and corporate governance depth"
+    ]
+  },
+  "17_sources": [
+    "yahoo_finance (prices, statements, profile)",
+    "rss_news (headlines, unverified)"
+  ],
+  "labels": [
+    "strong_technical_trend"
+  ],
+  "combined_scores": {
+    "long_term": 53.6,
+    "short_term": 65.8,
+    "balanced": 59.8,
+    "risk_score_higher_is_worse": 30
+  },
+  "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
+  "automation": {
+    "generated_at": "2026-11-19 14:58 IST",
+    "source": "scheduled GitHub Actions run",
+    "rotation_data_date": "2026-11-19 14:11 IST"
+  }
+}

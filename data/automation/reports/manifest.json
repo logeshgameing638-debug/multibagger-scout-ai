@@ -1,0 +1,155 @@
+{
+  "generated_at": "2026-11-19 14:58 IST",
+  "reports": [
+    {
+      "symbol": "BANCOINDIA",
+      "exchange": "NSE",
+      "status": "success",
+      "agent_statuses": {
+        "fundamental": "success",
+        "technical": "success",
+        "business": "success",
+        "valuation": "success",
+        "risk": "success",
+        "news": "success",
+        "scoring": "success"
+      },
+      "file": "data/automation/reports/NSE_BANCOINDIA.json"
+    },
+    {
+      "symbol": "AJAXENGG",
+      "exchange": "NSE",
+      "status": "success",
+      "agent_statuses": {
+        "fundamental": "success",
+        "technical": "success",
+        "business": "success",
+        "valuation": "success",
+        "risk": "success",
+        "news": "success",
+        "scoring": "success"
+      },
+      "file": "data/automation/reports/NSE_AJAXENGG.json"
+    },
+    {
+      "symbol": "BROOKS",
+      "exchange": "NSE",
+      "status": "success",
+      "agent_statuses": {
+        "fundamental": "success",
+        "technical": "success",
+        "business": "success",
+        "valuation": "success",
+        "risk": "success",
+        "news": "success",
+        "scoring": "success"
+      },
+      "file": "data/automation/reports/NSE_BROOKS.json"
+    },
+    {
+      "symbol": "COFORGE",
+      "exchange": "NSE",
+      "status": "success",
+      "agent_statuses": {
+        "fundamental": "success",
+        "technical": "success",
+        "business": "success",
+        "valuation": "success",
+        "risk": "success",
+        "news": "success",
+        "scoring": "success"
+      },
+      "file": "data/automation/reports/NSE_COFORGE.json"
+    },
+    {
+      "symbol": "ALLDIGI",
+      "exchange": "NSE",
+      "status": "success",
+      "agent_statuses": {
+        "fundamental": "success",
+        "technical": "success",
+        "business": "success",
+        "valuation": "success",
+        "risk": "success",
+        "news": "success",
+        "scoring": "success"
+      },
+      "file": "data/automation/reports/NSE_ALLDIGI.json"
+    },
+    {
+      "symbol": "CUPID",
+      "exchange": "NSE",
+      "status": "success",
+      "agent_statuses": {
+        "fundamental": "success",
+        "technical": "success",
+        "business": "success",
+        "valuation": "success",
+        "risk": "success",
+        "news": "success",
+        "scoring": "success"
+      },
+      "file": "data/automation/reports/NSE_CUPID.json"
+    },
+    {
+      "symbol": "BBOX",
+      "exchange": "NSE",
+      "status": "success",
+      "agent_statuses": {
+        "fundamental": "success",
+        "technical": "success",
+        "business": "success",
+        "valuation": "success",
+        "risk": "success",
+        "news": "success",
+        "scoring": "success"
+      },
+      "file": "data/automation/reports/NSE_BBOX.json"
+    },
+    {
+      "symbol": "ANTHEM",
+      "exchange": "NSE",
+      "status": "success",
+      "agent_statuses": {
+        "fundamental": "success",
+        "technical": "success",
+        "business": "success",
+        "valuation": "success",
+        "risk": "success",
+        "news": "success",
+        "scoring": "success"
+      },
+      "file": "data/automation/reports/NSE_ANTHEM.json"
+    },
+    {
+      "symbol": "ACE",
+      "exchange": "NSE",
+      "status": "success",
+      "agent_statuses": {
+        "fundamental": "success",
+        "technical": "success",
+        "business": "success",
+        "valuation": "success",
+        "risk": "success",
+        "news": "success",
+        "scoring": "success"
+      },
+      "file": "data/automation/reports/NSE_ACE.json"
+    },
+    {
+      "symbol": "DABUR",
+      "exchange": "NSE",
+      "status": "success",
+      "agent_statuses": {
+        "fundamental": "success",
+        "technical": "success",
+        "business": "success",
+        "valuation": "success",
+        "risk": "success",
+        "news": "success",
+        "scoring": "success"
+      },
+      "file": "data/automation/reports/NSE_DABUR.json"
+    }
+  ]
+}

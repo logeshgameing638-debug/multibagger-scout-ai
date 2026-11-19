@@ -1,0 +1,216 @@
+{
+  "symbol": "CSM",
+  "exchange": "NSE",
+  "updated_at": "2026-11-19 14:56 IST",
+  "status": "partial",
+  "agent_statuses": {
+    "fundamental": "success",
+    "technical": "success",
+    "business": "success",
+    "valuation": "partial",
+    "risk": "success",
+    "news": "success",
+    "scoring": "success"
+  },
+  "name": "CSM Technologies Limited",
+  "scores": {
+    "fundamental": 46.0,
+    "technical": 33.0,
+    "data_confidence": 62.0,
+    "risk": 40.0,
+    "long_term": 42.1,
+    "short_term": 36.9,
+    "balanced": 39.5
+  },
+  "classification": "high_risk",
+  "explanation": {
+    "fundamental": {
+      "growth": {
+        "points": 6.0,
+        "max": 20,
+        "detail": [
+          "sales_cagr_3y: 3.0/5 (value 0.121 vs threshold 0.08)",
+          "sales_cagr_5y: 0.0/5 (missing input: 0 points)",
+          "profit_cagr_3y: 3.0/5 (value 0.142 vs threshold 0.08)",
+          "profit_cagr_5y: 0.0/5 (missing input: 0 points)"
+        ]
+      },
+      "roe_roce": {
+        "points": 15,
+        "max": 15,
+        "detail": [
+          "roe: 8/8 (value 0.23 vs threshold 0.2)",
+          "roce: 7/7 (value 0.218 vs threshold 0.2)"
+        ]
+      },
+      "debt_balance_sheet": {
+        "points": 9,
+        "max": 15,
+        "detail": [
+          "debt/equity: 3/8 (value 0.703 vs threshold 1)",
+          "interest cover: 3/4 (value 6.27 vs threshold 4)",
+          "current ratio: 3/3 (value 1.66 vs threshold 1.5)"
+        ]
+      },
+      "cash_flow": {
+        "points": 0.0,
+        "max": 15,
+        "detail": [
+          "positive OCF: 0.0/5",
+          "positive FCF: 0.0/5",
+          "OCF/net profit: 0.0/5 (value -0.235 below all bands)"
+        ]
+      },
+      "management_promoter": {
+        "points": 10.0,
+        "max": 15,
+        "detail": [
+          "insider holding 79.6%: 10/10",
+          "promoter pledge unavailable from free sources: 0/5"
+        ]
+      },
+      "valuation": {
+        "points": 6,
+        "max": 10,
+        "detail": [
+          "P/E 18.1 (no industry benchmark): value 18.1 vs threshold 25"
+        ]
+      },
+      "industry_growth": {
+        "points": 0.0,
+        "max": 10,
+        "detail": [
+          "industry growth unavailable from free sources: 0/10"
+        ]
+      }
+    },
+    "technical": {
+      "long_term_trend": {
+        "points": 10,
+        "max": 20,
+        "detail": [
+          "long-term trend: sideways"
+        ]
+      },
+      "ema_alignment": {
+        "points": 0,
+        "max": 15,
+        "detail": [
+          "EMA values missing: 0/15"
+        ]
+      },
+      "momentum": {
+        "points": 8.0,
+        "max": 15,
+        "detail": [
+          "RSI 40: 0.0/7 (value 39.6 below all bands)",
+          "MACD histogram positive: 8.0/8"
+        ]
+      },
+      "volume": {
+        "points": 0.0,
+        "max": 15,
+        "detail": [
+          "relative volume: value 0.116 below all bands"
+        ]
+      },
+      "price_structure": {
+        "points": 5,
+        "max": 10,
+        "detail": [
+          "consolidation / mixed"
+        ]
+      },
+      "support_resistance": {
+        "points": 10,
+        "max": 10,
+        "detail": [
+          "price mid-range between S/R (32% of range)"
+        ]
+      },
+      "breakout_confirmation": {
+        "points": 0,
+        "max": 15,
+        "detail": [
+          "last bar provisional (intraday): breakout confirmation withheld"
+        ]
+      }
+    },
+    "data_confidence": {
+      "source_reliability": {
+        "points": 12,
+        "max": 25,
+        "detail": [
+          "yahoo_finance: ok",
+          "nse_archives: failed/unused",
+          "bse_site: failed/unused",
+          "rss_news: ok"
+        ]
+      },
+      "completeness": {
+        "points": 25.0,
+        "max": 25,
+        "detail": [
+          "0 fundamental metrics missing"
+        ]
+      },
+      "reporting_period": {
+        "points": 20,
+        "max": 20,
+        "detail": [
+          "4 annual periods available (value 4 vs threshold 4)"
+        ]
+      },
+      "freshness_depth": {
+        "points": 5,
+        "max": 15,
+        "detail": [
+          "97 validated daily bars (value 97 vs threshold 30); providers may delay quotes ~15 min"
+        ]
+      },
+      "cross_source_consistency": {
+        "points": 0.0,
+        "max": 15,
+        "detail": [
+          "not checked: no comparable same-company, same-period values from a second source"
+        ]
+      }
+    },
+    "risk": {
+      "findings_contribution": {
+        "points": 40,
+        "max": 100,
+        "detail": [
+          "negative_ocf (high): +20",
+          "profit_quality (moderate): +10",
+          "high_volatility (moderate): +10"
+        ]
+      },
+      "classification": "HIGH",
+      "unassessed_items": [
+        "auditor resignation history",
+        "qualified audit opinions",
+        "related-party transactions",
+        "regulatory actions",
+        "promoter pledging (source unavailable)",
+        "promoter selling (source unavailable)"
+      ]
+    },
+    "labels": [
+      "high_risk"
+    ],
+    "weights": {
+      "long_term": "0.7F+0.3T",
+      "short_term": "0.7T+0.3F",
+      "balanced": "0.5L+0.5S"
+    }
+  },
+  "technical_daily": {
+    "rsi_14": 39.61067627217399,
+    "breakout": false,
+    "breakdown": false,
+    "support": 76.26000213623047,
+    "resistance": 87.55999755859375,
+    "trend": "sideways"
+  }
+}

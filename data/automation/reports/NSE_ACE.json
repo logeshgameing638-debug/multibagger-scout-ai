@@ -1,0 +1,644 @@
+{
+  "1_company_profile": {
+    "symbol": "ACE",
+    "exchange": "NSE",
+    "name": "Action Construction Equipment Limited",
+    "sector": "Industrials",
+    "industry": "Farm & Heavy Construction Machinery",
+    "market_cap": 141658685440,
+    "website": "https://www.ace-cranes.com"
+  },
+  "2_source_and_timestamp": {
+    "generated_at": "2026-11-19 09:28:31.985466+00:00",
+    "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
+    "agent_statuses": {
+      "fundamental": "success",
+      "technical": "success",
+      "business": "success",
+      "valuation": "success",
+      "risk": "success",
+      "news": "success",
+      "scoring": "success"
+    }
+  },
+  "3_financial_analysis": {
+    "is_financial_sector": false,
+    "growth": {
+      "sales_growth_1y": -0.014090396586519786,
+      "sales_cagr_3y": 0.14960127910833676,
+      "sales_cagr_5y": null,
+      "profit_growth_1y": 0.014349054515117348,
+      "profit_cagr_3y": 0.34238062841681427,
+      "profit_cagr_5y": null,
+      "eps_growth_1y": 0.014248328002326316
+    },
+    "profitability": {
+      "roe": 0.2064107032490564,
+      "roce": 0.2866989103216432,
+      "operating_margin": 0.1482179116896075,
+      "net_margin": 0.12663928559530124,
+      "gross_margin": 0.2820653372379764
+    },
+    "balance_sheet": {
+      "total_debt": 79054000.0,
+      "debt_to_equity": 0.003931092553226562,
+      "interest_coverage": 26.181647118424802,
+      "current_ratio": 1.3335109119297186,
+      "working_capital": 4062337000.0
+    },
+    "cash_flow": {
+      "operating_cash_flow": 4172541000.0,
+      "free_cash_flow": 3239928000.0,
+      "ocf_to_net_profit": 1.005212357305214,
+      "fcf_conversion": 0.7764879961634888
+    },
+    "ownership": {
+      "promoter_or_insider_holding_pct": 0.66809,
+      "institutional_holding_pct": 0.08405,
+      "promoter_pledge_pct": null
+    },
+    "red_flags": [],
+    "annual_periods": [
+      "2023-03-31",
+      "2024-03-31",
+      "2025-03-31",
+      "2026-03-31"
+    ],
+    "quarterly_periods": [
+      "2025-06-30",
+      "2025-12-31",
+      "2026-03-31",
+      "2026-06-30",
+      "2026-09-30"
+    ],
+    "_run_id": 1107
+  },
+  "4_technical_analysis": {
+    "assessment": "bullish",
+    "daily": {
+      "timeframe": "1d",
+      "last_close": 1190.5999755859375,
+      "emas": {
+        "ema_20": 1142.6529693251916,
+        "ema_50": 1132.1315588479483,
+        "ema_100": 1099.6012761886489,
+        "ema_200": 1059.7753155993992
+      },
+      "smas": {
+        "sma_20": 1101.9774993896485,
+        "sma_50": 1151.530997314453,
+        "sma_100": 1109.9390014648438,
+        "sma_200": 997.7457510375976
+      },
+      "rsi_14": 62.028249114446616,
+      "macd": {
+        "macd_line": 16.510810245883704,
+        "signal_line": 2.6801622154692883,
+        "histogram": 13.830648030414416
+      },
+      "adx_14": 29.019696806125992,
+      "atr_14": 43.57290585185208,
+      "bollinger": {
+        "middle": 1101.9774993896485,
+        "upper": 1253.6169238449118,
+        "lower": 950.3380749343853
+      },
+      "volume_sma_20": 345921.6,
+      "relative_volume": 0.47045920231636307,
+      "support": 979.2000122070312,
+      "resistance": 1263.0,
+      "price_structure": {
+        "structure": "downtrend (lower highs, lower lows)",
+        "higher_highs": false,
+        "higher_lows": false,
+        "lower_highs": true,
+        "lower_lows": true
+      },
+      "trend": "bullish",
+      "trend_strength": "strong",
+      "breakout": false,
+      "breakdown": false,
+      "momentum_divergence": null,
+      "entry_zone": {
+        "low": 979.2,
+        "high": 1000.99,
+        "basis": "near identified support plus half ATR buffer"
+      },
+      "invalidation_level": 892.05,
+      "atr_risk_distance": 43.57290585185208,
+      "provisional_last_bar": true
+    },
+    "short_term_report": {
+      "timeframe": "daily",
+      "trend": "bullish",
+      "rsi_14": 62.028249114446616,
+      "macd_histogram": 13.830648030414416,
+      "breakout": false,
+      "breakdown": false
+    },
+    "long_term_report": {
+      "timeframes": [
+        "weekly",
+        "monthly"
+      ],
+      "trend": "sideways",
+      "ema_200_daily": 1059.7753155993992,
+      "price_vs_ema_200": "above"
+    }
+  },
+  "5_business_quality": {
+    "classification": "average",
+    "positive_evidence_count": 1,
+    "negative_evidence_count": 0,
+    "evidence": [
+      "ROE 20.6% (>15%): capital allocated effectively"
+    ],
+    "sector": "Industrials",
+    "industry": "Farm & Heavy Construction Machinery",
+    "market_cap": 141658685440,
+    "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
+    "unassessed_areas": [
+      "business model detail (needs annual report reading)",
+      "industry growth rate",
+      "market share and competitor comparison",
+      "customer concentration",
+      "supplier dependency",
+      "expansion projects / order book",
+      "management quality and corporate governance depth"
+    ],
+    "_run_id": 1109
+  },
+  "6_valuation": {
+    "multiples": {
+      "pe_trailing": 27.733519,
+      "pe_forward": 25.278131,
+      "pb": 7.046513,
+      "ev_ebitda": 25.318,
+      "ev_sales": 3.929,
+      "peg": null,
+      "dividend_yield": 0.17,
+      "industry_pe": null
+    },
+    "valuation_view_vs_industry": null,
+    "dcf": {
+      "scenarios": {
+        "bear": 333.30131685221994,
+        "base": 441.40748881216456,
+        "bull": 508.63593564072175
+      },
+      "assumptions": {
+        "base_fcf": 3239928000.0,
+        "growth_rates": {
+          "bear": 0.04,
+          "base": 0.08,
+          "bull": 0.1
+        },
+        "cost_of_equity": 0.13,
+        "terminal_growth": 0.05,
+        "projection_years": 10,
+        "shares_outstanding": 118980921
+      }
+    },
+    "dcf_not_calculated_reason": null,
+    "margin_of_safety_vs_base_case": -1.6972808703129694,
+    "current_price": 1190.5999755859375,
+    "_run_id": 1110
+  },
+  "7_news_intelligence": {
+    "items": [
+      {
+        "headline": "Action Construction Equipment to host investor meet at Kotak conference - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Mon, 16 Nov 2026 09:51:45 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUUI1WVpEbFZXdG0zLVJHcExpYU5aSTEyeDVESjZXZkx5V1hJdlVWOXlnMlIwRTFyVDFUQU84b294UWlEQW1RLXd2TkgyVkxxODR3anZzLVV0UUNmb2dGSVM0TkM0b2ZmTnl5VUJ2SW1lMkFFT2xoQjVMeGVIa29SN1drbTdGTUloZkdKakR5QzdpRFp5UHRqWFpKRGtrcnpvWm5FWTczYkdtX2cwZVQzY1V6cktzZG5rUEdIMmFWRQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Earnings call transcript: Action Construction Equipment posts record Q2 2026 By Investing.com - Investing.com India",
+        "source": "Investing.com India",
+        "published": "Fri, 13 Nov 2026 11:58:50 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPdE9aNTU1b3Ricjl2SHE4SUUtdXJqVGdwLVVjZVNmNC16UDRsSmZ0TEFZYWJZVkh3eWxRaVhkaTNPRHQxVWlDdWliVjZDZHdKMDFNa0tVT1NBRE13X09VSS1ISktZcVdRMlg4UGVjN0w3RWtGUUFVVDhQWDcwNzlQb0ZGMUVCM1haSnBMUXNQX09pMzlFTmlCN25ubUluSFBPWkxQeU9QdjQxaEIyb1dyTW80RkZ6VExVN2dRME41ZThPTjJJQ0l2TWhoakxsOUtSaFE?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Why You Might Be Interested In Action Construction Equipment Limited (NSE:ACE) For Its Upcoming Dividend - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Sun, 30 Aug 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPTVZHTzJvVmlYZmdjRWJfSHRvcS1hdnFuTWJXalNtVU5ZakVka1VUdFNreUxWY0lDM3dBZjFHd0E3Yk5IZVNaSUVJUi1VRjVwVFdYOUs2TTZUUEJTXzdrRUh1VUJKeUk4UmhVN0JFX1BoZl9oRV95UTRLamhYS2tKNTh2SERTMG1vYk83bk1FTndIVllHa3pfQWk4WGFGMm5neG54N3c5RjEwVm5rR3E3YS11RjhNbkpkdm5LUWpQSld5b1ZJdzY1X0ZfM1NDb0MycnJkRngzSGc5UkM2OFFEaTFwYU5nYU5Yanh3dtIB8gFBVV95cUxQVjNJaTQ5MWxWQlZnc2hLSkp3cE9BOERlT1dyQTRtRElJMHEwWkxoeXEwMnkyNHN6dUY1RzBMcnc0WTJOeG12N3lRZTFqVHB3bEM4d1MyS2s1bzJsQ3lqckh6SmZuQlA2S0pjcFZJTHVza1liLVdMSUhfdVlqdlBjeWZ2dXg5Nl9lSzNOZEp5RnpVcTBLNGUzWHdFQXplTUt6Q24zbEhoQTBDc2tfa051NjdTVC1JSlEyQm8tdnJFVGVHalpoejVrWGN1QVpaWlYxcVlEQ0s4T3ZuQkM0S3AxY05jU2R5R2ZJRUdYblhqN0otdw?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Action Construction Equipment To Meet Analysts And Investors On September 2 - Sahi",
+        "source": "Sahi",
+        "published": "Tue, 25 Aug 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNM3otUTducmlkTnlBYXJlajBaUW5TWXYwczh6T01CaTlRTXNzOTh2RzJXUjRuQ2NFZEpqSUJieTVFdXAyajNDREFuSmFXck9QbE8xa1hiQS0wbnBIbFMwZXpwUlNuREZEYUxVYlBtSXZPT3dMbnpMcTFlVlRIUmVYUUpZeE1Zcnl3NDQteUhmdDM5U01WaGNqUzRLd09SVXI1bE5QLTRZdF9FU3F4QnRmSElFcnU?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Action Construction Equipment (ACE.NS) Holds Above \u20b91,100 as Shares Edge Up 0.70% - Bollinger Band - siam.in",
+        "source": "siam.in",
+        "published": "Fri, 11 Sep 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVVp5clRhVFZFaUNfbnNTLXZPR01jcWluYndkS25GdTluaXJXWDFUZ0NaRnNTamllNzItWjdld1RZYzBuMnFpQ1ZtM29oR1dnMnVwUmVxN0E4WmFNdUtGeTNDZTNPcXl1Wlh4STV5aFEybVNSQi0xZnNVNWxTOU1oU0ZvQ01aMzdBMEtIMnVlZ2tXX040RXhtNWNhdllTMFNPbTFncWtsa2c1YUdWQktZbmVXS1BjVlRNNHc?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Action Construction Equipment Ltd Share Price Today NSE/BSE Charts - Alice Blue",
+        "source": "Alice Blue",
+        "published": "Sat, 05 Sep 2026 19:33:11 GMT",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUkVvYVE0ZTBRM2hxVVhlcjZOMXd2eEdzR0NpM3J6dFZHbTBYU0dkMzR3V0g5NkxIdlcxUXQ4azAzS2M2bGZHeTFaeE1Bbnk4aDlLRHpVazFJRWRobTh2TDd6dXp1R3FjaDN1X2s4bXc3aWpseVZEMFo2dUFpRWRvWnBlUmpQZw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Action Construction Equipment to host investor meet on Nov 17 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Fri, 06 Nov 2026 07:49:25 GMT",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbk9ySE5wVVVYZ0U4YWFaQTRMVHVRbi03bEM3RldVR0UtSVhvV2V1R1hIcERpVGNDajVVNkxQdUdGV0o4dGViRWxwTUVFSXlQeU5pX0czY19LUUREQ3dlNERBd0c0RWNyQm5tYTBSUm5uVWRYSnVKMUlRUWYzSFBaNU9LVFlJZjNjUzBmOXI1SWlTalFkQUtQaVJaRS1CY3VuQUVtU0FFSndWVnVRR2RrS2p3?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Earnings call transcript: Action Construction Equipment posts best-ever Q1 2026 - Investing.com",
+        "source": "Investing.com",
+        "published": "Tue, 21 Jul 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMHdjRmNzRF9PdmFkWDhUeTlkSXBWWWNJYnhQNWtuV1kzR2tLVzVYY2tYUk9CSU5PeU5xT1pya1diMy1uamFCVGpZZVpoekN0b1V2TUdvelp6WlVra0pDMVBGcjBMeDlheHJpQW5SR0s5eFFybWpFVTVzZFhoX2pDaWFsSUpSYXZrQ2JXaFZoeDJtVEt3ekF4UGIzcFZ0aUVTMmtyTjM4NVVwaE9lWG5jSi1DOXpYcGRQOHVGR3ROZGUtZEJoR2dLV0E1ODd0dw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Action Construction Equipment (NSEI:ACE) Stock Forecast & Analyst Predictions - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Thu, 23 Jul 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOR0czUHVvc2NTQ21YZlZUYm9HQk5sRm52Zktfelc1alRzeDRDbEkxMGhvOUJjN25CeUVLWGVIby1uWl90aVItYWNsYzhGbkNkc25xMmY0MVp0QWtaWnl1Wk1BSjJQYUtfUjU1RGI1Wk5Xb0IzYUNiQVdkQWtIR1VPZmd6bHhMc0haUXZTNWZNV0o4cjNXNmI4STh6bS02dw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Action Construction Equipment Q1FY26: PAT Rises, EBITDA Margin Expands to 14.86% - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Mon, 20 Jul 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaHdBZGJiZXRzWTVHUldlSWlNUFdieDk4ZXJnRzZFcWNlbEFfMEhNaWU5OS1uWnV6Z21GQXdsUGlhNkxjNnR3MlpCZm0yX2laaTk0NUwya2R1azZmRktEYzk1STc1dUVUQ29OdDhDNVoyYjVZMThUaWNHVllLekdDVlZGWWhDeFpNWjJoRFhJWmFvb3NNZWtqZzRUWHNuRGc5TU1YeldyY0NRbmhlOHRkd1hONC1ZMGcyR2pGM1pwLVU5QQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Action Construction Equipment hosts Sparx Capital for one-on-one meet - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Tue, 25 Aug 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQmktMVlmcGVEVFFMYS0zekxMLXNmUXd4bnVIa09oUXNVemY1TDlzQ0tsUjJkX2FXSkdpdnhybkVEam9iN1ZFajB6QTBIdnRtUDBkdjRqbHNMaHVaZzVaQzU1M2dIN2NlS20xcWZSV3RuUlJ0ekxSbU80QnBQMEpsa2pGbmVoXzlGWFdjNHVFV1Q4WDhRcG5Ya3o0R3dRUDUyOWZnYU1UcFRiOWd1dTRvZ0ttQl85VVc4ZGVj?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Action Construction Equipment schedules analyst meet with MAIQ Capital - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Sat, 25 Jul 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd2FJTThYWFVqTUhZbXhYenV3WnVIcjhxQmtycnZ0YUZOc20wYlk0QU94MjR6QVlhWlpIbUtoQWF4WVZUV0s0a05kX19TV1Y2Uk5acmlBbFBsdDgyR1ZMa1ZyVElVXzg1SEVEZ3JpNHBCYzV2VEdFeFI3X3dHYXd2Y1NHOVlydnVIekZBdzlVQWRKc1N6aERKVDRuWG1xaW43cmJUVzh5UU5xc1cxc2FyOVg1S3R4X0d6SFFlU3RVU3Z2bWprd3c?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "ACE FY26 Net Profit Rises 1.4% to Rs 4,151 Mn - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Wed, 20 May 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOTmx4cUNGWklkWkR2S3dDdW1vYlB6UG52RVRydzJHb2xhcFl3LUpKa3hiX0RGdENZMmtJc180emtrS01iZkswRmNxb1JOVkdvdk95a21IQVBHaGhrQkQ1U2NkLXBsM3lPdW5ZU281cUJlQXptLWp0ZmNtelFSQ1VQdlV2VGFZRXM1OGw3MnFMMDBUdnl5bTV4RDdJWlBnRWd3Z19HN2FuV0swdzJqN2twdElVUnlXaDBOWHJNMVVValJkS0VIbm9FMXo3dFBKRFJsZHA1MUktNGdYcnZWbmFTeGh0WXNVWjRYTTB1WGRMUXhvYi0xcmk3dzBjenN3c0ptX3FN?oc=5",
+        "sentiment": "positive",
+        "relevance": "low",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Action Construction Equipment files FY26 sustainability report - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Mon, 24 Aug 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQ3h1eXkwa1JFNUprbVlaTUxRVXBhRDBqUng2bmdabkJ5ckYzbjFDRXljb2h4Nm9teUZESXF3QTBRUXpEcjJPSWVHUkg3MlUtb3lOeG9VWDgwRVZIcnlkcXpjNVcwYnAzdG5SUmdOTGw1RzRyTUFyV3E2VVZpU0VCTHVuUFRQM3dRTXdJZW85N3NsLUYtdlZ5ZkdOcEVTMkZiY3ljaE1uV29LSU51N0o3UlFLbTM4Nzg1dmJV?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Action Construction Equipment schedules investor plant visit on August 12 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Sun, 09 Aug 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOaUlsOUEzZHhCZDNaY3YyMENnaTgtNEI1WlJDSXZZS2hsR09DV0pVMm1BLXprUHlzYTVzYWNGekV3aGZRUERlYzYtcXMyc1MyM21WbWM5aG1aRldlZTdDY1k2cEV2dkJ0ODQyUTc3a1lvbk9LcFpXbmo2VTJvekFHZ2hsc0c0RnFBcU1OTlhWNkRWM21UZ1JoRUR0RklRMUY4c1p2NFNGSWVKWkRwaUc2QVhucmVsYWZXLW5jNnlBdnM3akdPSm5tMU1R?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Action Construction Equipment reports FY26 PAT growth, skips FY27 guidance - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Wed, 27 May 2026 22:40:41 GMT",
+        "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxORHhaZXU3bHBBUE9qRFFLTVEzNUlna1d3Q2dkSW1tcHh6UklOOWpGbDdCQzdHLUZzeEluNElZblAzTjNSRGhXRzdlYWNsWFRlazRRcGpnYmNlQk1jYi1SVjV6cG1NSXZOSnd6V2hrenpEVTZocEdVd3FoOXNheGxWMjBKQXNUSllfNXhXT2ZlSWo2cTJqY0ZUVHdBZENRUGpDVElZRHpqRVdiOEw4ZnlkdThBRFc4STQ3SV9NeC1nNUFKRFZWcjVYOG02SS1WR3ZSWnJiSFVmbzVidnBJNV9VclFlcVc2eHRhek9uZFVreG9VX0daT01YVjJQd1I3Y2pBbVliUzhWRDhIaWl2Y0VvUDRsRWh5MmhPbENKNEFR?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Action Construction Equipment to declare \u20b92 per share final dividend for FY26 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Thu, 20 Aug 2026 10:41:17 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWGF6bmxCZ3lZOXJFdFc1dnhwUno3RG5weXNlQXlqWW9WYjhFV0JKTHFwUGp5aTJTVTN1eUdHX1RudUxOVFFCVlJZRDU2TmFJQ2Y0LTNHZlNrQXVnRHNzOVJTUHo3bUM0SEpjZ19kaVhvR2tyLW1sRGh1c1p6QkpPRXlJNzlmSG1ZcG44dm02T3BMUVJLQXpKa3NJenJNeXhVdDllV3hIVUFvMWFvemlWX05XaFp6ZFc0RGc?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Action Construction Equipment hosts virtual analyst meet on Sep 8 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Tue, 08 Sep 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNal9yYy15NWVmdTR6RkZmcVY5QWM1bldPcVZFUmZEY3dxWWVVQXZtXzF1RGp2bEw0LXNWQlZHbVlpMDQyVGRtM0FzQl9GX0tRdkdVWHRKQzd6SkFvQzlsWGFxNFhDcUhBRnlOV0tBR0JxeUNnR0ZlZjcxOW5CTjUzZW84VXhBM3psaFFFVkwwTldSYk81c3BTZkc5S2ZTdXhNdjJ4LUVJaHRqZHVmVU5OVFowRWN0UUk5Y2dz?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Action Construction Equipment Executes JV Agreement with Kato Works - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Thu, 12 Mar 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVlFieW42UGtOTUxuZnRfbFBLWjZuQ0N6UF9OS08yWVBYSFFrazdackloNU1lVGZWVDB6ZjNNUG9LUUNDTk9qZDd3S1dGczVGQTVJclJfMU5VenUyQzNaaVNWa21kZHU0N0ozQ2V4Mmc5TDBoclFRdnpKd0IycXNjOG94ZkhqMjlEUENhajFEYlpabzdBVDAwQ0NzY2hOazFRc3Bjc0YxVThvMXJoTGZxM0JPeVNkUFAyTTFSeWpwbF8zN0JfOEhfbUk4VDE?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Action Construction Equipment shareholders approve all AGM resolutions - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Fri, 18 Sep 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQM2QzWXg1SWhGSlM1SjVacURibXRQaHdSbjhyNEs0b3RJN0hHamxEMFNOdW9qaEVmR3E2M081LVFaOHU2LUcyNUNzZnYyMzc0UW5iNlViSnFEcDRZeFpnb3dFalVrQ2swcGxTdTBUbTNXY0pJczBfZzlSMlAtS0FFUm14TUtSNnBPNTUtZlc1UTVWc2VoeDBFeWNKQzluQ0UyMXhCOVNCTHNzZkxTQ0JjM2UxaDhwblU2TDRKRmZndDJnYzRLQ2c?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Action Construction Equipment Limited's (NSE:ACE) largest shareholder, CEO Vijay Agarwal sees holdings value fall by 6.1% following recent drop - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Thu, 15 Jan 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQcC1LLS10VUZvUzZzZEw0WnJfd1hlczI0M0RWSHVCanNCdk1wU202Q0puSTByWEZPTEhIV09kSzFOWjVCZmxNeXQtRF9xZUY5cmVkdy1IR1k4N2ZkeDJFR1NveUROZW90clhTN3FpcXgzU1A0eC1jMlBzSnYyLXhfalBzcktlWW92VVZaWlZ1ckl4cFA1V2Z3Mk9rQ2N0THp3SzNDRE9DVEtZNThpc0tUYlBUYVE2bXkyTUZPd3k0bVdJNEMtMW9WazBHWndxbS1QS0lTaERsNnh0Y3RTNmJYcHFIQ1NBa1FtUEJqenBJb9IB9AFBVV95cUxQWWZMLWtNdGVibVFFNWxDQXFxeElieVFjVVc5aHJpX19kZ3Raakhud29URTh4SVdSN3FEWDZkRkQ0clFjNDlnQXpMb3k3bElFaGg3RmFpODBBclRTUjlBZHRlSlNwMlcwbEstUG9XRXgyMXlpblROTVJXTG1pbF80TWM0Ry1OblA5RnNqcDMydE5WbVpGWG9pODFQaExkd18zcThMRGd2aHJfQU1OZmM4V1hYZmk5M1FUUHdhWXotZGc4cXM3bHJENTUyX2RxUjd6ajc3aWpfR3M4dFVSYTVaNlNoNEdDdExsUFpDY1c3S3c2anB4?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Action Construction Equipment (ACE.NS) Falls 2.74% to \u20b91,168.20, Sitting Midway Between Key Levels - Swing Trade Setups - siam.in",
+        "source": "siam.in",
+        "published": "Mon, 12 Oct 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaVo3SDFXMmdHd3ZldVpCbGlvYjlCdmhLWVZYZlozUDBicGxZS3lxeUYwbGlPR2JreGJzRTFoY01nXzhGOVB3VHFmc0lpWEZmeDg4cjFqOWE3TUVHYm5kTGZTOE1VcVFqeFlhZnZjWEFGNks0QURBZWFIaU5mZncycU15cVotbmdNRWhpWXhTelBhTDE1UklJeER0RHVrQTZ2SHlSakVFblFUeV81LWNQcjlVYnVheGZ0cHJTQkJFN2s2dExVS3hiMHd1QTI?oc=5",
+        "sentiment": "negative",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Rs 420 cr-order from MoD lifts Action Construction Equipment share 2% - Business Standard",
+        "source": "Business Standard",
+        "published": "Fri, 21 Feb 2025 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQR2VRVlpENW00UWJqcm9YaWNDd0JEZEFYaHZuZnJxdzBBYUt5SWNPZ2sxQzV5QWZpZlJsdUU4ZGtSVzhqanViajdOOC1EWUJEZDctOTVJVV85SC12aXZINFg3dGtjTEpUbVQ3SGJLakZjV0Z2VmROTld4N05BYkxYblVLRy1nVUE1ZEUzanVkc3F0bDRfSVFOWUxJejBsQVdvejNEdkpoaXdvdTRmc0ZNS0IwY2wyMVVGbnBYSENUY1VWdnp2c21EVS1wRFIwb29Y0gHWAUFVX3lxTE9NVzZ5QTczMWladlZRdWZaczRabDRwUFNHbkVPcGV5ZWhVV29FdFpHVzhGZnNGemllRm1oTEI1TlVrME5fZVNZSUQwN21OZ1lWQ0E5enYzZlBvY2ExemFsQm1rTVBZR1JoRkxwMjJSS184d29kX1lqdWxzdFNrWWxuUGZfaVJGTGxmNzlGYnJXdFJFN0JkcUZ3ZUJfeUxYREdYYVZqUnY1VURFZUh2dEJQbmpVS21VOXphT2sxX0pSNktqNHpTSjBxUGNRY2RTYmdlcmx1NUE?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Action Construction Equipment Ltd. Share Price Today | Action Const Live NSE/BSE - Value Research",
+        "source": "Value Research",
+        "published": "Fri, 25 Mar 2022 17:07:45 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbk5KUUo0R1RvZGlpdUlJWUMzYVJ4YVBoV0hhYXJ4czZySV95T3lFVGRIV0szcGpkSmVVUmFxc0lQZ2tGWlZrN0pSR1FyZ29IUVBFaVk4OHY1MFgxR2k3Q3JfamZYcGp5Q2UyTG82eW5BUzFsVjJRQzB1V2dkRTFlZjU3NVpnS0JOQ0ww?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Action Construction Equipment Limited (ACE.NS) stock price, news, quote and history - Yahoo Finance UK",
+        "source": "Yahoo Finance UK",
+        "published": "Sat, 10 Jun 2017 12:38:37 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9SMV84YUxXR1BuYkNiejduNHdEVjBxaXlLTjZ2VGFHZ3RzZ1ZLdk00VFlmYnBzLXozQU12UUlCU3hWVjE3RmNDSklCWUZFRXktb19uLQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Action Construction Equipment Limited (ACE.NS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "source": "Yahoo! Finance Canada",
+        "published": "Sat, 20 Jan 2018 06:48:06 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBpOFdkbDRJNzVBWjJYOUJjcW1xOVhRYnlxYVlZU1l2bllBRDlqTm40TnR6ektlZUpyVnpQSDdpa2lxWXpZdTJGZlJ5aHRhNU1JTFBlYw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "ACE Stock Price and Chart \u2014 NSE:ACE - TradingView",
+        "source": "TradingView",
+        "published": "Sat, 22 Jul 2017 04:33:08 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBSenV1bWtpazl5Z2V4bkJGMGdQVnU0by1JV0k2YW9BLTFuRk1ycG43dHdNWkJwSnZrNWhVV1F2YU1hYzlURW51TWttaWFCdno3V0xhWGVkOA?oc=5",
+        "sentiment": "neutral",
+        "relevance": "low",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Action Construction Equipment Limited (ACE.BO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "source": "Yahoo! Finance Canada",
+        "published": "Mon, 19 Jun 2017 04:04:31 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9rR0VjU3UzOEpPa0xMN29lQzU2UUdVVXRFeGxoYWpFenotaWcxdmN0MThkRW9yWGF0bmtIVGVSbjVFOGtFMnpLa3hERjNRTDFNRUJYVA?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Action Construction Shares Gain 1% on Securing Rs 420 Crore Order - Equitypandit",
+        "source": "Equitypandit",
+        "published": "Fri, 21 Feb 2025 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNHk0MWdLbWVLR2ktaWx1SktabnJDTXVwdmhkaVBXcDJRdk81cEV6eUFqOU1Pelk0Vk93amREcERQZmNYeWJqR3Y4ZEN4cmdSWi1GWUlHUUtmdy03RWdvUm9UYWVVa1ViWm1QRTBVSmREWC1vRGNEMFoyZDRKM0tDYTluV05KWVVYaFFodEhiVEFJeW44QnU4LXdR?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Action Construction Equipment Limited (ACE) Company Information - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Tue, 15 Nov 2022 10:56:51 GMT",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWEI4QW5xVmxkOHJnQmJwWnN6REVsenYtSnhjb2xqdXQxbWg2WjU4V3MzdWZnTmVXQXZ1MHh6eVlYT0tKSFdCUXZtczFmZ0FmU1kybTh0MnlHS1RCdGlPd1REV2JvYzY0NGZCbUhTWWZGY084WENtaHBIWmRrOXd2bTVpRjVDV3dENGZ6V3lpWjA3bzZadFJsUWo2VUxOd1FhSlRkSg?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Action Construction Equipment (NSEI:ACE) Stock Valuation, Peer Comparison & Price Targets - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Sat, 05 Nov 2022 04:19:07 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWmdiTlVHUFQ0NUpjU3ROYkI0X0VaZzJwOHBucjF5Q1l1b2o4ekZ0MDUwMC14d2ZxR0hsdzlGSEhNWUxSSlZ4cTFkNEs5NkJGYzVycEdULVRBcXNfRmNxUm1nWDRSZEM0czRlaTVON3R0UkVONkFsQkx1Y2MyT056aEQ3TWxsdWlFYlNST2lLa0tYeks0MmxvdXdTWDQ0M2hGSUE?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Who Really Owns Action Construction Equipment Limited (NSE:ACE)? - Yahoo Finance",
+        "source": "Yahoo Finance",
+        "published": "Thu, 24 May 2018 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVGtPclM3VWlsSVRxUW00SGpJbzNFSWlZMGpvYVNVa2xRQy1udkU0MlBuYmRraWIyNmFGSkZ1T0EzRm01c2dkNjBtVUV5QUZQdFdXV25MZnN0dlhRUWllRjFDOVltTnk2c0JucWVOV0IzaENwVUtXZ0l6U3lacHV2c1I3WS12VjZRVE1wWHM4cmM?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Action Construction Equipment (NSEI:ACE) - Stock Analysis - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Sat, 02 Dec 2017 00:04:07 GMT",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORkxSZVpmTnpjYTNCb1hzbm5xc081NW9KV2pGeE9oa3BlWlg5OG9QVGZhWUVGYndBSjBaODhteHF4ZTVEWlZXTXl4RlRRZ2ZJeWlXVV8ySWRjX1hzY3FpSmkxTXFONWEzLVB2ZTFMM3hWcEhVZlBMYXdUYlJ3c1JOM1RGSUg1U1Z2bUdPamRJejY5al9j?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Action Construction Equipment Ltd bags contract in Ghana - EquityBulls",
+        "source": "EquityBulls",
+        "published": "Mon, 20 Jun 2022 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMDNoZ1ZkdmhzcjcwaEdYRVlSM2NTZi0wR1Y4SVhwUzk0Z3RWckJaQ3czT290Nlk4MmR0THlNc3ZFV2NjWl9zYjlMZmZvTVp1Q3lFa0VEM0hxc1ZfMnJDX0c5Z2tfZk8ySTNUREhvbUVNblI1M2lkdGVVSkc2cGFwWFZ4andtSXJ0OWVxOVhQeTMyaWxFeUlaUjNxMEc?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Action Construction Equipment Ltd receives order from Ministry of Defence for supply of 4X4 Backhoe Loaders - EquityBulls",
+        "source": "EquityBulls",
+        "published": "Wed, 30 Sep 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOVNta1NTdXB0bHhoRGc4cGpUZmZvUmxvNHdvdHUwdTZqR0NmWU5YWnJBeTlCZ3RfS2tnekZqSDFidkJTZzR0UkZoVE1wVUtFT1BRSzd4TVEybFZ5OFpra1RWaXJ1M3U3VWprQUVaM0kxb1lCbnJIckNMR0YwUmp4dEt5RjROTFF3MjQtYS13NjFfdi10SWYzOWRPTktwLVM0bXFGTnVhYkROUHNWdzBUQ2R1UnJZRWUxUFNXWQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "ACE vs Escorts Kubota: Who will leads India\u2019s construction equipment market? - Trade Brains",
+        "source": "Trade Brains",
+        "published": "Sat, 04 Oct 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVENia3J6X09LemZGczFoZnlPbklURVpRZW5faVVvN3RyWWNtajlPSzlpekxHS0FrMmYzVXBPek5VaS1WMmdBcTJERXVvM1RWNm9IdkJpSEtOeW9LYTZNUE1KVi1adUpCU1lNRFMwQUV1bnJEMnVNWThNLU51T1FWdl81TkkzVmlRNUQ3bVMyVDJwek1taXMwV1JXZkk1QQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "low",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Action Construction Equipment Ltd updates on Special Mobile Crane - EquityBulls",
+        "source": "EquityBulls",
+        "published": "Thu, 12 Jan 2023 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRnE4SDhIU3hmQ2Z6dGg5TDdJbVdKeTd5bWpzMDdad1JBdWNUVGpzS29NME44U24zNXh5Z09Nel90MGd2S1EzNXk5V2xSVTZUQXVVRVpPTlRLOWd0dlppVDduRG1fZzQ0aHBEYjJxdHNvejE1c0w1NGpneklkeXV0a04yRmNOUUZkWTRqTjlRaTdZenZMaVEzYVIxWFB4TE5PendneEtpbUM?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      }
+    ],
+    "stored_new": 37,
+    "duplicates_skipped": 0,
+    "note": "headlines are unverified signals, not confirmed financial evidence",
+    "_run_id": 1112
+  },
+  "8_risk_analysis": {
+    "classification": "LOW",
+    "findings": [],
+    "unassessed_governance_items": [
+      "auditor resignation history",
+      "qualified audit opinions",
+      "related-party transactions",
+      "regulatory actions",
+      "promoter pledging (source unavailable)",
+      "promoter selling (source unavailable)"
+    ],
+    "shares_outstanding_growth_yoy": 0.00016164591779352147,
+    "atr_pct_of_price": 0.03659743553279368,
+    "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
+    "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
+    "_run_id": 1111
+  },
+  "9_fundamental_score": 65.0,
+  "10_technical_score": 52.0,
+  "11_data_confidence": 72.0,
+  "12_short_term_assessment": {
+    "score": 55.9,
+    "technical_view": {
+      "timeframe": "daily",
+      "trend": "bullish",
+      "rsi_14": 62.028249114446616,
+      "macd_histogram": 13.830648030414416,
+      "breakout": false,
+      "breakdown": false
+    },
+    "entry_zone": {
+      "low": 979.2,
+      "high": 1000.99,
+      "basis": "near identified support plus half ATR buffer"
+    },
+    "invalidation_level": 892.05
+  },
+  "13_long_term_assessment": {
+    "score": 61.1,
+    "trend": {
+      "timeframes": [
+        "weekly",
+        "monthly"
+      ],
+      "trend": "sideways",
+      "ema_200_daily": 1059.7753155993992,
+      "price_vs_ema_200": "above"
+    },
+    "business_classification": "average"
+  },
+  "14_investment_thesis": "Action Construction Equipment Limited (ACE) is classified as a 'average' business with a bullish technical trend. Balanced research score 58.5/100 (fundamental 65.0, technical 52.0, data confidence 72.0, risk 0/100 higher=worse). Supporting evidence: ROE 20.6% (>15%): capital allocated effectively.",
+  "15_thesis_invalidation": [
+    "Daily close below invalidation level 892.05 (2x ATR under support)",
+    "Operating cash flow turning negative in the next annual report",
+    "New critical governance or regulatory finding (currently unassessed items must be checked manually)"
+  ],
+  "16_missing_evidence": {
+    "fundamental_gaps": [],
+    "unassessed_governance": [
+      "auditor resignation history",
+      "qualified audit opinions",
+      "related-party transactions",
+      "regulatory actions",
+      "promoter pledging (source unavailable)",
+      "promoter selling (source unavailable)"
+    ],
+    "valuation_gaps": null,
+    "business_unassessed": [
+      "business model detail (needs annual report reading)",
+      "industry growth rate",
+      "market share and competitor comparison",
+      "customer concentration",
+      "supplier dependency",
+      "expansion projects / order book",
+      "management quality and corporate governance depth"
+    ]
+  },
+  "17_sources": [
+    "yahoo_finance (prices, statements, profile)",
+    "rss_news (headlines, unverified)"
+  ],
+  "labels": [
+    "neutral"
+  ],
+  "combined_scores": {
+    "long_term": 61.1,
+    "short_term": 55.9,
+    "balanced": 58.5,
+    "risk_score_higher_is_worse": 0
+  },
+  "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
+  "automation": {
+    "generated_at": "2026-11-19 14:58 IST",
+    "source": "scheduled GitHub Actions run",
+    "rotation_data_date": "2026-11-19 09:38 IST"
+  }
+}

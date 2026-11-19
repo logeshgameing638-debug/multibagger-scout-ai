@@ -1873,5 +1873,755 @@
     "balanced": 46.0,
     "classification": "neutral",
     "updated_at": "2026-11-19 14:17 IST"
+  },
+  "BSHSL": {
+    "balanced": 40.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:51 IST"
+  },
+  "BSL": {
+    "balanced": 39.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:51 IST"
+  },
+  "BSOFT": {
+    "balanced": 43.8,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:51 IST"
+  },
+  "BTML": {
+    "balanced": 33.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:51 IST"
+  },
+  "BTTL": {
+    "balanced": 30.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:51 IST"
+  },
+  "BUILDPRO": {
+    "balanced": 40.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:51 IST"
+  },
+  "BUTTERFLY": {
+    "balanced": 45.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:51 IST"
+  },
+  "BVCL": {
+    "balanced": 39.8,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:51 IST"
+  },
+  "BYKE": {
+    "balanced": 34.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:51 IST"
+  },
+  "CAMLINFINE": {
+    "balanced": 22.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:52 IST"
+  },
+  "CAMPUS": {
+    "balanced": 49.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:52 IST"
+  },
+  "CAMS": {
+    "balanced": 50.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:52 IST"
+  },
+  "CANBK": {
+    "balanced": 45.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:52 IST"
+  },
+  "CANFINHOME": {
+    "balanced": 36.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:52 IST"
+  },
+  "CANHLIFE": {
+    "balanced": 19.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:52 IST"
+  },
+  "CANTABIL": {
+    "balanced": 49.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:52 IST"
+  },
+  "CAPACITE": {
+    "balanced": 49.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:52 IST"
+  },
+  "CAPILLARY": {
+    "balanced": 35.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:52 IST"
+  },
+  "CAPITALSFB": {
+    "balanced": 34.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:52 IST"
+  },
+  "CAPLIPOINT": {
+    "balanced": 48.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:52 IST"
+  },
+  "CARBORUNIV": {
+    "balanced": 27.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:52 IST"
+  },
+  "CARERATING": {
+    "balanced": 37.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:52 IST"
+  },
+  "CARRARO": {
+    "balanced": 41.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:52 IST"
+  },
+  "CARTRADE": {
+    "balanced": 41.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:52 IST"
+  },
+  "CARYSIL": {
+    "balanced": 38.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:52 IST"
+  },
+  "CASTROLIND": {
+    "balanced": 45.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:52 IST"
+  },
+  "CCAVENUE": {
+    "balanced": 41.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:52 IST"
+  },
+  "CCCL": {
+    "balanced": 34.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:52 IST"
+  },
+  "CCHHL": {
+    "balanced": 30.8,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:52 IST"
+  },
+  "CCL": {
+    "balanced": 45.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:52 IST"
+  },
+  "CDSL": {
+    "balanced": 42.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:52 IST"
+  },
+  "CEATLTD": {
+    "balanced": 43.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:52 IST"
+  },
+  "CEIGALL": {
+    "balanced": 41.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:53 IST"
+  },
+  "CEINSYS": {
+    "balanced": 47.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:53 IST"
+  },
+  "CELEBRITY": {
+    "balanced": 23.0,
+    "classification": "high_risk,attractive_valuation",
+    "updated_at": "2026-11-19 14:53 IST"
+  },
+  "CELLO": {
+    "balanced": 51.8,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:53 IST"
+  },
+  "CEMPRO": {
+    "balanced": 56.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:53 IST"
+  },
+  "CENTENKA": {
+    "balanced": 35.2,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 14:53 IST"
+  },
+  "CENTEXT": {
+    "balanced": 33.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:53 IST"
+  },
+  "CENTRALBK": {
+    "balanced": 49.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:53 IST"
+  },
+  "CENTRUM": {
+    "balanced": 37.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:53 IST"
+  },
+  "CENTUM": {
+    "balanced": 48.8,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:53 IST"
+  },
+  "CENTURYPLY": {
+    "balanced": 38.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:53 IST"
+  },
+  "CERA": {
+    "balanced": 44.8,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:53 IST"
+  },
+  "CESC": {
+    "balanced": 34.8,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:53 IST"
+  },
+  "CEWATER": {
+    "balanced": 23.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:53 IST"
+  },
+  "CGCL": {
+    "balanced": 38.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:53 IST"
+  },
+  "CGPOWER": {
+    "balanced": 42.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:53 IST"
+  },
+  "CGVAK": {
+    "balanced": 54.0,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 14:53 IST"
+  },
+  "CHALET": {
+    "balanced": 47.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:53 IST"
+  },
+  "CHAMBLFERT": {
+    "balanced": 43.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:53 IST"
+  },
+  "CHEMBOND": {
+    "balanced": 50.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:53 IST"
+  },
+  "CHEMBONDCH": {
+    "balanced": 55.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:53 IST"
+  },
+  "CHEMCON": {
+    "balanced": 35.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:53 IST"
+  },
+  "CHEMCRUX": {
+    "balanced": 45.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:54 IST"
+  },
+  "CHEMFAB": {
+    "balanced": 34.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:54 IST"
+  },
+  "CHEMPLASTS": {
+    "balanced": 32.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:54 IST"
+  },
+  "CHENNPETRO": {
+    "balanced": 47.5,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 14:54 IST"
+  },
+  "CHEVIOT": {
+    "balanced": 45.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:54 IST"
+  },
+  "CHOICEIN": {
+    "balanced": 25.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:54 IST"
+  },
+  "CHOLAFIN": {
+    "balanced": 38.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:54 IST"
+  },
+  "CHOLAHLDNG": {
+    "balanced": 32.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:54 IST"
+  },
+  "CIEINDIA": {
+    "balanced": 43.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:54 IST"
+  },
+  "CIFL": {
+    "balanced": 22.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:54 IST"
+  },
+  "CINELINE": {
+    "balanced": 52.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:54 IST"
+  },
+  "CINEVISTA": {
+    "balanced": 44.0,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 14:54 IST"
+  },
+  "CIPLA": {
+    "balanced": 51.8,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:54 IST"
+  },
+  "CLEAN": {
+    "balanced": 41.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:54 IST"
+  },
+  "CLEANMAX": {
+    "balanced": 29.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:54 IST"
+  },
+  "CLEDUCATE": {
+    "balanced": 30.5,
+    "classification": "high_risk,attractive_valuation",
+    "updated_at": "2026-11-19 14:54 IST"
+  },
+  "CLSEL": {
+    "balanced": 53.7,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:54 IST"
+  },
+  "CMLL": {
+    "balanced": 56.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:54 IST"
+  },
+  "CMPDI": {
+    "balanced": 50.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:54 IST"
+  },
+  "CMRGREEN": {
+    "balanced": 37.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:54 IST"
+  },
+  "CMSINFO": {
+    "balanced": 30.8,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:54 IST"
+  },
+  "CNL": {
+    "balanced": 48.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:54 IST"
+  },
+  "COALINDIA": {
+    "balanced": 44.0,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 14:54 IST"
+  },
+  "COASTCORP": {
+    "balanced": 23.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:55 IST"
+  },
+  "COCHINSHIP": {
+    "balanced": 29.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:55 IST"
+  },
+  "COCKERILL": {
+    "balanced": 42.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:55 IST"
+  },
+  "COFFEEDAY": {
+    "balanced": 26.2,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 14:55 IST"
+  },
+  "COFORGE": {
+    "balanced": 61.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:55 IST"
+  },
+  "COHANCE": {
+    "balanced": 47.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:55 IST"
+  },
+  "COLPAL": {
+    "balanced": 58.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:55 IST"
+  },
+  "COMPEAU": {
+    "balanced": 33.5,
+    "classification": "high_risk,attractive_valuation",
+    "updated_at": "2026-11-19 14:55 IST"
+  },
+  "COMPUSOFT": {
+    "balanced": 33.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:55 IST"
+  },
+  "COMSYN": {
+    "balanced": 45.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:55 IST"
+  },
+  "CONCOR": {
+    "balanced": 46.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:55 IST"
+  },
+  "CONCORDBIO": {
+    "balanced": 34.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:55 IST"
+  },
+  "CONFIPET": {
+    "balanced": 46.8,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 14:55 IST"
+  },
+  "CONSOFINVT": {
+    "balanced": 35.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:55 IST"
+  },
+  "CONTROLPR": {
+    "balanced": 47.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:55 IST"
+  },
+  "CORALFINAC": {
+    "balanced": 43.5,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 14:55 IST"
+  },
+  "CORDELIA": {
+    "balanced": 27.2,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:55 IST"
+  },
+  "COROMANDEL": {
+    "balanced": 54.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:55 IST"
+  },
+  "CORONA": {
+    "balanced": 49.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:55 IST"
+  },
+  "COSMOFIRST": {
+    "balanced": 35.8,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:55 IST"
+  },
+  "COUNCODOS": {
+    "balanced": 34.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:55 IST"
+  },
+  "CPEDU": {
+    "balanced": 56.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:55 IST"
+  },
+  "CPL": {
+    "balanced": 42.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:55 IST"
+  },
+  "CPPLUS": {
+    "balanced": 51.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:56 IST"
+  },
+  "CRAFTSMAN": {
+    "balanced": 47.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:56 IST"
+  },
+  "CRAMC": {
+    "balanced": 43.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:56 IST"
+  },
+  "CRAVATEX": {
+    "balanced": 41.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:56 IST"
+  },
+  "CREATIVEYE": {
+    "balanced": 22.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:56 IST"
+  },
+  "CREDITACC": {
+    "balanced": 31.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:56 IST"
+  },
+  "CREST": {
+    "balanced": 29.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:56 IST"
+  },
+  "CRESTO": {
+    "balanced": 28.8,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:56 IST"
+  },
+  "CRISIL": {
+    "balanced": 31.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:56 IST"
+  },
+  "CRIZAC": {
+    "balanced": 51.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:56 IST"
+  },
+  "CROMPTON": {
+    "balanced": 38.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:56 IST"
+  },
+  "CROWN": {
+    "balanced": 34.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:56 IST"
+  },
+  "CSBBANK": {
+    "balanced": 36.2,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:56 IST"
+  },
+  "CSLFINANCE": {
+    "balanced": 38.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:56 IST"
+  },
+  "CSM": {
+    "balanced": 39.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:56 IST"
+  },
+  "CUB": {
+    "balanced": 40.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:56 IST"
+  },
+  "CUMMINSIND": {
+    "balanced": 39.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:56 IST"
+  },
+  "CUPID": {
+    "balanced": 60.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:56 IST"
+  },
+  "CURAA": {
+    "balanced": 23.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:56 IST"
+  },
+  "CYBERTECH": {
+    "balanced": 42.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:56 IST"
+  },
+  "CYIENT": {
+    "balanced": 38.8,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:56 IST"
+  },
+  "CYIENTDLM": {
+    "balanced": 50.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:56 IST"
+  },
+  "DABUR": {
+    "balanced": 58.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:56 IST"
+  },
+  "DALBHARAT": {
+    "balanced": 44.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:57 IST"
+  },
+  "DALMIASUG": {
+    "balanced": 46.8,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:57 IST"
+  },
+  "DAMCAPITAL": {
+    "balanced": 49.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:57 IST"
+  },
+  "DAMODARIND": {
+    "balanced": 42.5,
+    "classification": "high_risk,attractive_valuation",
+    "updated_at": "2026-11-19 14:57 IST"
+  },
+  "DANGEE": {
+    "balanced": 37.2,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:57 IST"
+  },
+  "DATAMATICS": {
+    "balanced": 37.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:57 IST"
+  },
+  "DATAPATTNS": {
+    "balanced": 48.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:57 IST"
+  },
+  "DAVANGERE": {
+    "balanced": 25.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:57 IST"
+  },
+  "DBCORP": {
+    "balanced": 43.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:57 IST"
+  },
+  "DBEIL": {
+    "balanced": 31.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:57 IST"
+  },
+  "DBL": {
+    "balanced": 38.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:57 IST"
+  },
+  "DBOL": {
+    "balanced": 48.5,
+    "classification": "high_risk,attractive_valuation,strong_technical_trend",
+    "updated_at": "2026-11-19 14:57 IST"
+  },
+  "DBREALTY": {
+    "balanced": 37.0,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 14:57 IST"
+  },
+  "DBSTOCKBRO": {
+    "balanced": 46.5,
+    "classification": "strong_technical_trend",
+    "updated_at": "2026-11-19 14:57 IST"
+  },
+  "DCAL": {
+    "balanced": 32.8,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 14:57 IST"
+  },
+  "DCBBANK": {
+    "balanced": 45.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:57 IST"
+  },
+  "DCI": {
+    "balanced": 56.0,
+    "classification": "high_risk,strong_technical_trend",
+    "updated_at": "2026-11-19 14:57 IST"
+  },
+  "DCM": {
+    "balanced": 38.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:57 IST"
+  },
+  "DCMFINSERV": {
+    "balanced": 24.5,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:57 IST"
+  },
+  "DCMSHRIRAM": {
+    "balanced": 39.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:57 IST"
+  },
+  "DCMSIL": {
+    "balanced": 23.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:57 IST"
+  },
+  "DCW": {
+    "balanced": 42.5,
+    "classification": "attractive_valuation",
+    "updated_at": "2026-11-19 14:57 IST"
+  },
+  "DCXINDIA": {
+    "balanced": 32.0,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:58 IST"
+  },
+  "DDEVPLSTIK": {
+    "balanced": 37.2,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:58 IST"
+  },
+  "DECCANCE": {
+    "balanced": 32.0,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:58 IST"
+  },
+  "DECNGOLD": {
+    "balanced": 28.2,
+    "classification": "high_risk",
+    "updated_at": "2026-11-19 14:58 IST"
+  },
+  "DEEDEV": {
+    "balanced": 37.5,
+    "classification": "neutral",
+    "updated_at": "2026-11-19 14:58 IST"
   }
 }

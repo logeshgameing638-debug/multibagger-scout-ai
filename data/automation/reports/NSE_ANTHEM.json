@@ -1,0 +1,610 @@
+{
+  "1_company_profile": {
+    "symbol": "ANTHEM",
+    "exchange": "NSE",
+    "name": "Anthem Biosciences Limited",
+    "sector": "Healthcare",
+    "industry": "Biotechnology",
+    "market_cap": 527913091072,
+    "website": "https://anthembio.com"
+  },
+  "2_source_and_timestamp": {
+    "generated_at": "2026-11-19 09:28:29.191303+00:00",
+    "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
+    "agent_statuses": {
+      "fundamental": "success",
+      "technical": "success",
+      "business": "success",
+      "valuation": "success",
+      "risk": "success",
+      "news": "success",
+      "scoring": "success"
+    }
+  },
+  "3_financial_analysis": {
+    "is_financial_sector": false,
+    "growth": {
+      "sales_growth_1y": 0.1516790246742707,
+      "sales_cagr_3y": 0.2620007469781338,
+      "sales_cagr_5y": null,
+      "profit_growth_1y": 0.31142135354341177,
+      "profit_cagr_3y": 0.15389575203384465,
+      "profit_cagr_5y": null,
+      "eps_growth_1y": 0.31298713533960254
+    },
+    "profitability": {
+      "roe": 0.1945074405524901,
+      "roce": 0.26830198550593587,
+      "operating_margin": 0.3319903235509687,
+      "net_margin": 0.2785777935945071,
+      "gross_margin": 0.6176291570106947
+    },
+    "balance_sheet": {
+      "total_debt": 539240000.0,
+      "debt_to_equity": 0.017723489375240754,
+      "interest_coverage": 127.011313254854,
+      "current_ratio": 5.535976347347673,
+      "working_capital": 14774310000.0
+    },
+    "cash_flow": {
+      "operating_cash_flow": 8444850000.0,
+      "free_cash_flow": 6333160000.0,
+      "ocf_to_net_profit": 1.4269963095141536,
+      "fcf_conversion": 0.7499434566629366
+    },
+    "ownership": {
+      "promoter_or_insider_holding_pct": 0.80934995,
+      "institutional_holding_pct": 0.13331,
+      "promoter_pledge_pct": null
+    },
+    "red_flags": [],
+    "annual_periods": [
+      "2022-03-31",
+      "2023-03-31",
+      "2024-03-31",
+      "2025-03-31",
+      "2026-03-31"
+    ],
+    "quarterly_periods": [
+      "2025-09-30",
+      "2025-12-31",
+      "2026-03-31",
+      "2026-06-30",
+      "2026-09-30"
+    ],
+    "_run_id": 1100
+  },
+  "4_technical_analysis": {
+    "assessment": "bullish",
+    "daily": {
+      "timeframe": "1d",
+      "last_close": 936.7999877929688,
+      "emas": {
+        "ema_20": 900.849772706703,
+        "ema_50": 880.9258879322547,
+        "ema_100": 854.6478734030114,
+        "ema_200": 813.060299909677
+      },
+      "smas": {
+        "sma_20": 883.4650024414062,
+        "sma_50": 884.4659997558593,
+        "sma_100": 856.1215008544922,
+        "sma_200": 786.1575009155273
+      },
+      "rsi_14": 62.89141016646821,
+      "macd": {
+        "macd_line": 20.721266023272165,
+        "signal_line": 15.422578835419504,
+        "histogram": 5.298687187852661
+      },
+      "adx_14": 29.06142571166993,
+      "atr_14": 27.351009754093127,
+      "bollinger": {
+        "middle": 883.4650024414062,
+        "upper": 992.0439560107069,
+        "lower": 774.8860488721056
+      },
+      "volume_sma_20": 430131.2,
+      "relative_volume": 0.951028430395191,
+      "support": 783.3499755859375,
+      "resistance": 989.0999755859375,
+      "price_structure": {
+        "structure": "consolidation / mixed",
+        "higher_highs": true,
+        "higher_lows": false,
+        "lower_highs": false,
+        "lower_lows": true
+      },
+      "trend": "bullish",
+      "trend_strength": "strong",
+      "breakout": false,
+      "breakdown": false,
+      "momentum_divergence": null,
+      "entry_zone": {
+        "low": 783.35,
+        "high": 797.03,
+        "basis": "near identified support plus half ATR buffer"
+      },
+      "invalidation_level": 728.65,
+      "atr_risk_distance": 27.351009754093127,
+      "provisional_last_bar": true
+    },
+    "short_term_report": {
+      "timeframe": "daily",
+      "trend": "bullish",
+      "rsi_14": 62.89141016646821,
+      "macd_histogram": 5.298687187852661,
+      "breakout": false,
+      "breakdown": false
+    },
+    "long_term_report": {
+      "timeframes": [
+        "weekly",
+        "monthly"
+      ],
+      "trend": "sideways",
+      "ema_200_daily": 813.060299909677,
+      "price_vs_ema_200": "above"
+    }
+  },
+  "5_business_quality": {
+    "classification": "average",
+    "positive_evidence_count": 2,
+    "negative_evidence_count": 0,
+    "evidence": [
+      "ROE 19.5% (>15%): capital allocated effectively",
+      "operating margin 33.2%: pricing power evidence"
+    ],
+    "sector": "Healthcare",
+    "industry": "Biotechnology",
+    "market_cap": 527913091072,
+    "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
+    "unassessed_areas": [
+      "business model detail (needs annual report reading)",
+      "industry growth rate",
+      "market share and competitor comparison",
+      "customer concentration",
+      "supplier dependency",
+      "expansion projects / order book",
+      "management quality and corporate governance depth"
+    ],
+    "_run_id": 1102
+  },
+  "6_valuation": {
+    "multiples": {
+      "pe_trailing": 86.58041,
+      "pe_forward": 58.585114,
+      "pb": 16.100647,
+      "ev_ebitda": 59.757,
+      "ev_sales": 24.825,
+      "peg": null,
+      "dividend_yield": 0.22,
+      "industry_pe": null
+    },
+    "valuation_view_vs_industry": null,
+    "dcf": {
+      "scenarios": {
+        "bear": 137.55738859226838,
+        "base": 182.17408211739527,
+        "bull": 209.92005585727938
+      },
+      "assumptions": {
+        "base_fcf": 6333160000.0,
+        "growth_rates": {
+          "bear": 0.04,
+          "base": 0.08,
+          "bull": 0.1
+        },
+        "cost_of_equity": 0.13,
+        "terminal_growth": 0.05,
+        "projection_years": 10,
+        "shares_outstanding": 563528045
+      }
+    },
+    "dcf_not_calculated_reason": null,
+    "margin_of_safety_vs_base_case": -4.14233406258791,
+    "current_price": 936.7999877929688,
+    "_run_id": 1103
+  },
+  "7_news_intelligence": {
+    "items": [
+      {
+        "headline": "Anthem Biosciences Q2FY27 results: Profit up 21.9%; Unit 4 capex intact - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Wed, 18 Nov 2026 21:01:52 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeGtOeEpmR18yWGRJY3BoZGdIc0l6d2Y2WEZ5QWJNZWlvWGdBZENTV21POTZZU1ZmLXBWZXNfdVdtbjFyLWQtcElxOXNsUXpFWEtaQjNUTzlseFVVbkR0dDAtNU1BckxvTVR5dVN1UzdPV1FsamhRZzJJOWZSRWh2N1BWOUh1ZHlBYXdrX1M3Y0J3Q1hqVnI3VkhRb1h3WlBkaDg4cmxnS2U1MTNMSlg3cjR2NVk2eGdjWWdhVDJySQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Top stocks to buy today: Stock market recommendations for November 6, 2026 - check list - The Times of India",
+        "source": "The Times of India",
+        "published": "Fri, 06 Nov 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxQQTB5VnlmOVVmZExXVndWa25CVlFpbW5hd0Q4UUJmMGw4SjFKTkY0LUZIaWVHVzQ3Qk5rSEowdjR0R1lhQ0E0VFU1QWZXRE5JbjdvV05HaHQ4UkJ3RkZTMDJUeEdSbXE3S2F0MGJXWmNrR0hJOXp0c2NnSHFyNUN5djlWMEY2RlRkeGkxYThGa1RKS1VVTHh0Um85bHdXd0gzcjE3NllvQVFzSUctZEc3QVJpODhuUlBmSjJQaThoQlFTVm1WOTVJVURPMUwybHhtcEJiNFluZjVUaDRMMHczNE9yN0stWkFyNWFZOFRwY2FFY2FrN0hzcnFnYS1zV3lyX3VJZE8zcG1RN084d2lDMlBuQUFXSEllQmtYM0hDdHFLckEzQVVmOWl3RzlVUdIBswJBVV95cUxNcHVoS1BFQmdXYUpWRVBlUXotb1VlTmNfalB6T0pVanRMR28zUkpGNDJaN1NXZk44R25QX0VUS1VlZmxKVHNtSGFwYVNLVjRZUU1RWS1NSVdPNTBqN00xS1RnYk9oN2xkUTNsRmljYVJHNy1xUmxiMzk1YXZpSDN4QXFKdVY3LXpUTVNLcU5fYy1JLVZqQ2I5N3RoOTNtRThHYlpvS3JVdjg0ZzdEbVFEeEUzV24yX3NWVXYtVXphaUIxZ2g5MlZ0MzZrTkZqbmVhUlNHRXpOakp6Y0xvdWRibDRvSUFtQ09ycFVRWUhIaXFSTzBocktwNVlZN3o3WWl4ckU5akFLclU5T3JkOFIxOHdJRW5LUHp0cDV6bDNqdjZKeVpaR3JqQXZLOWZKRnVQbUFB?oc=5",
+        "sentiment": "neutral",
+        "relevance": "low",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "ANTHEM Forecast \u2014 Price Target \u2014 Prediction for 2027 - TradingView",
+        "source": "TradingView",
+        "published": "Thu, 25 Jun 2026 15:04:51 GMT",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5aMUc3REQ3b3YyNVJvcXRHMlNfQ2l5ZmJPcVhRc21RQ3NBMGFCQlRiQmFzb0FiSjNMT1dvbWpRTzRPZHk2VHRBeG1MVXhVSUgtbU02Y2FlYlg0am5NU2VvLTN3MUYtMTVGV1kzZmtGTDBxQ3BwUmZkTw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Anthem Biosciences (NSEI:ANTHEM) Stock Price - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Thu, 12 Nov 2026 22:08:19 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1NUk9zWUN1MVdKaFlrT1NJcWxzcWhZQlQxekFscmctbnFSNEdTVUVpWmxHbEVOLUt5T0U2dU9sUzFBM2ZPZ2ltN0ZaaVd5bkNK?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "ANTHEM BIOSCIENCES LTD Share Price - Upstox",
+        "source": "Upstox",
+        "published": "Tue, 05 May 2026 11:36:03 GMT",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5jRnRrNURiS0lGVlEwSmtjUGx6Z2Vfck9KNlRVMlVqX0p6bS04TkZUbmZyWklTeXJlcm9LMVc0SDlkZHpPNnRzd3RhVVlqWGxiaHVDUjdhdlVMTEpyOGxZY19xc2VUNllGTThyUmxn?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Anthem Biosciences Climbs 5% as Rs 1,275 Cr Block Deal Hits the Market - Equitypandit",
+        "source": "Equitypandit",
+        "published": "Thu, 18 Jun 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZnhpQnVhMXQ1bU51QVlVWHBYc0t5QlltWG85alMzaXl0UENHX2xpY0l5RHpfNl9DUjB6bzNGaUVjUVBOa284OEw5YUc2QkZESUxYOWhUd3g0bGxVc1lrM2FDNVlPUGtuZVRoX2dDNVhwMk9NQmFBZk1pYWxuSm1ETS1IWWR1aWcxc19TcmxHZHdZZmdINUcxSXJHbEJtS0k?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Anthem Biosciences Results: Which Segment Contributed the Highest Revenue in Q4? By Trade Brains - Investing.com India",
+        "source": "Investing.com India",
+        "published": "Wed, 20 May 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWWR0eUMxN3lHMXpOOEFndENlN1hjMmt4S2tsSjJBU3dONzUxOTJBdW1rdFh3V3VCWHZpS3VtMFcxaEV4MUtybXdldzZ2VzNBaFNBTWtqdGtkTmFXTGhXcE5XMWRtOWVvaXJZTWQ1SXBQaGo4Tm9scmpjVVU1Mi02dEdRNS1uSTZaZ3lRRXhUYWxhbG4zWjlQaEt2RmdkaUFUTmlsRUdWaGhRM0tCemxnZHdpa1ZyYkVHMW1jdk5FZnBLZ0hMZzN6UTJkMXF3S2M?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Anthem Biosciences to participate in JM Financial India Xchange 2026 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Thu, 05 Nov 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQd1NPYmJtR01oU016QVpTc3JOcXJvSTFCa3UtWUc0RjgxR3g1VTU4cWxjZDNObS02TlZGbG5ZYUpZbUZVaEpYbHBIVlV2TVVBckZEZEJRdTd2MDFnWG1XRzR2SFpYN1ZueThJaTdMcGlTVWg4Snk2TEptTG9ic0FkcG1KekpHWUY4R2pWR0lqNTdIYk1Jc2duaDRLSzlldmtkdjU3RlJzMGRFVk94SHNjeTQtOEJjWmdKV3R3?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Analysts Have Made A Financial Statement On Anthem Biosciences Limited's (NSE:ANTHEM) Second-Quarter Report - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Fri, 06 Nov 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQZEhZaURlcVdmOFJoZWVFMWZNTGZVQTdRbU04Z09xbFNFTmZSVVpiZEU4UUlLa2w1eFByZzZKcm1rTmxmWWl1eDZpYVd0U19ncW9INURoci1uUUIzVC1NYWNOYU1IUjFKRU53TXZXV1pHZExPd21qMlplYXFmVzdFcHRJSmVMdGozT1JQaFN6Tno2ZkZETk1LNDU1ZlZLazBnanhkeGJVdTVPNTV0dHVmVjZHNHdHazhNNnhlU094YzhKcjFDYjZCWUlUemRmNHczdzQ1V3pydjk5a2FrNnFyM3lHUW1wdUdpc2dzejgyMNIB9AFBVV95cUxOVVN2cXpTTVZyT1o3QmJXTFVhRU5xNTY3dFNjX3Z6TWdOd2VoMWtSVURIQ2EwTWV2RDkxTUE2LWtyanB5MDByVHMxWG1ETkVqaDA2WWk5YXQ5dTNXNHlDaUFweXptMTh5V0VLdUNIbXpPaktqT0F2cFFweFdiSXQxMlVEVERIM3dib092UTdtQjY5X0ViZHc0a3MyWUFQYlpma1YtUjg5cmdJNGxWbm1hSE5DZmxoM0xCWnNZMy1uRkZUTkgwNEY1bDh3cFk0LWpWUElHQS0tU2JGbTNqSm01azN5OThWdjYySTg1TmZqR2dEZnE1?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Anthem Biosciences Ltd Share Price Today NSE/BSE Charts - Alice Blue",
+        "source": "Alice Blue",
+        "published": "Sat, 29 Aug 2026 10:30:32 GMT",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SakxNUHdTUTNPaWRRejRzRzVBNnZLUHJPNkJWTVRxQjFWODlEendDTHNDWlhhMy03d29SdndwNTNSU3RNYWxLNHVPOVZJdW0ydUZEVm1yUzlsU1M1RC16eTVkTUtWRnJQSFNJYjV3VHVyTy1iWDR3?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Anthem Biosciences Limited (ANTHEM.NS) stock price, news, quote and history - Yahoo Finance Singapore",
+        "source": "Yahoo Finance Singapore",
+        "published": "Tue, 22 Jul 2025 10:43:57 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1XUmhWdGluVFdjVWFtUWdDbUxENlhEQU9icjJUWFBYaWRYalB6NFRIZlRtc2FmWkVac0RXZVpxdEJXRWNqTU1idFpZQnJMaEFaeFpzckhyaG8?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "White & Case advises on Anthem Biosciences Limited IPO \u2013 largest Indian CRDMO IPO - White & Case LLP",
+        "source": "White & Case LLP",
+        "published": "Fri, 01 Aug 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcy0xTFZFSlhScWhTZ1RMVWJuUllfX0tTUTh1a3BZRE5rM0lUbUJWSTFRaVZ2WDQ5ZDZoQkZtaDhZY0ZYSTJzSU5ZZ2lPQThhT0FRQ1Fid0VHbFNrT2diYmhPT05KYXpZSFdPc1hmZld6bmV6dkZic0FLMDd6X3VLa256bWVQdE8tcWxZR0FGVU0xTVcwVVU2aUcwYUw5cmhFeFc3WnhibUtVcklZVzhUMVpnX2ZLcGJVSU9n?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Anthem Biosciences FY26 Profit Rises 32.5% to INR 6,705.64 Million - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Tue, 19 May 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNOW15VTYzaXA1d3cxbmh2dVFOdVE1azg1VG9IWnpERDZzR0pLcFQwcjlfakhLOUttTmFHMTBKUHcyYmxQMkJDZzBETmxmb1JRcG5Ibmtic1lid05uWDkyRWxfdFI4NnNZTmxTdVFwZDZfV0FzeW1pcGhGMEQySWF1dlZOSGk3SjFoMmh3Zl9POTYtdzJkQ0lIRHZwSTlzLTFfTHB4QWI1SDJOTnpVTmUyOENycC1TZ0wwWklocHFKRFRRZ3hZZXV6YjQtdzlrUGNpOHhPSTc0d0EwcnVkTnhHOWdVcmdtd2o1dTNUcS1TV2hHUGJMVEhkUF96NkZ3SDVxMVJJU1d1dw?oc=5",
+        "sentiment": "positive",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Anthem Biosciences (NSEI:ANTHEM) Stock Forecast & Analyst Predictions - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Wed, 04 Nov 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQU0dGOFlXYnFQMk0tcWlYdnEzUXhUdGhScWJYV3llYy1HTHJIYW90a2tMQmVKUXIxOEgtMTZrY2c4YmIwSklUeHRjZkowSnVoWU1mRl9TdkNVRkhMSl9FS2VBZVZIcEEtVzRuV0o1QUUySEtpSkJYUk9RdGxLc2JDZXNnWHpKbzRuR2c4Z0dZdHo1WF8ydjJ1NkFPam1GUzNL?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "ANTHEM Stock Price and Chart \u2014 NSE:ANTHEM - TradingView",
+        "source": "TradingView",
+        "published": "Mon, 21 Jul 2025 03:35:20 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB2ZDgtWjRHM3N5QzRQaHhJd2xXV0dWUnhEb3ZramMzVlR3cWVpek9QQXlpdngySEhxcjJKOVRVWGNCc29GUXZCUEFqS0pwYlg2bEgyVDNFQUpuZ0E?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Anthem Biosciences sets AGM for July 22 to approve \u20b92 dividend - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Mon, 29 Jun 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQS05OWlNaZ2NmUWdWNGdIdVlDUFRTamdmZ241MmR6N0hJT3dHamFFQl8taWRLQUljNXg0ck5La0hLaGMzLU1IMi1WRVJoQWZRR2NKTjY3cUNTVno3Z1FFZnA4c3ZfR3BRTk1HVW85WjdmUklrNkQ1STZuWnRkYndpbGJjenN3Tkc3TTlmQWhuU0F0YzNWMWZvYy1HdEhyTWF0TWZnOWRVQQ?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Anthem Biosciences confirms no encumbrance on promoter shares in FY26 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Thu, 09 Jul 2026 00:06:40 GMT",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWk9wR0RuSVFQVmp6YklYNjRjM0I1NjVRc3VGVlRmX0c3bGRfZ1ljWDNpR2VUaV9RT19pbWhoM3U0a1J2TDVUMmFkbXdLU09pc2tpTDV4VlNYcUpqaURFb05TcFUzbGtXeXg4dTBSSEZOdTdjMGgtekgxRGU0TmREcmJacmFFSG1jaE9Eek5JaUtSMDR0N0dVVlUtUjV1UmtzNHpTdVMyQTNsV1EzbXQzRUdScHQwR3JFb1pQTENSaTJVN19L?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Anthem Biosciences Annual Report FY 2025-26: Strong Revenue and Profit Growth, Unit IV Expansion Underway - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Wed, 01 Jul 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQenR6MS14RHFYc2ZmamJRZWg5RXZIYmZ2dkFYd21PaHpFRU8xSUFjV1ZiSllZR0QzQl9xMlM5R20zTEV1eEdNMW1kbkdGb0NmejA4ODBrdWNodTRSZ0dLNmx4c2NOcU1ORGRRX0NJOHhfM3lBRE96RnU0T1N5SUZEUGd4TVltWlRfYUN5UUN0dHc3OTU5T3ZUWjJLam1GMTJ5N0ZvMXRTLU1vOU1JUFJyanRMczAxQ2RRcWx3NlVfQVdaZDR1d3hyN2ZRVkhMRFNOc1dScTRoNGlNcFVsYmZhWHc4WnRuQnlhNHJZVC1Dam1mQQ?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Anthem Biosciences files BRSR for FY 2025-26 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Tue, 30 Jun 2026 19:31:10 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSVpzV3dOOTNIY2dvVVdRSzFsQWFEbHpBNGZmM1N0T0ZRa1NSQmtzdkdaQzRtVm1KLXBUdGNJc1JnZnJVOTNSZF93WmZ5dVZ5eDlsNG5HSmM3SkRaQXd4VUhiQ1l0Ujd0R3pXbGFBa1RBbUxtWURQclRRcGZDOW1fbWt1V2ZZcFBWNkJScVJkRWdDa3VnOWh3eTdFbVVGLVFRZTNZ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Anthem FY26 PAT Rises 31% to \u20b95,918 Mn - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Wed, 20 May 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVlk5VDU2UTZseEswOEk0dlNrS0o5RzlqMV9uUVN6YW5aSmdtRlJ5S1RrUWVMQkFnY29KaXlJNmRyTFVTV2hOdV9VOWg3MWNTdURfMGJlZDV0cXNuVHlWVEVOMXBRbVVOX3dJOWdXdTZDWGJlOGRKSE5vZVU0bGg2eXVLMmVNZlFMOTZSaHNNRXZ1YlNiQUJmNnh2VVd4WHQwTlczRTIyem1rS01FSmgwVXFPWFFtdWNGQ3pvVkY4SmVEajRFS1Q2LWxkX3hlSnUzVnc?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Anthem Biosciences Limited (ANTHEM.NS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "source": "Yahoo! Finance Canada",
+        "published": "Wed, 23 Jul 2025 03:20:47 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBKYVdBeS1lOVdhQkpMTFdTOG9IR2ZOSEsySTdkLVZvVUZhZXFRaXRhUnpuM09sdUd4OTVWTTIybmhoLUNQVFhoVUdxdmlzS2pkOTlzSTE5SlA?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Anthem Biosciences \u2013 Fast Growing High Margin CRDMO Player - India Infoline",
+        "source": "India Infoline",
+        "published": "Tue, 15 Jul 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUVo4cXhKT3hwdDZVZGV0NHIxVlBMZHNydTlsNXBWZWt2aDFtX2t6aDEyaGN1MjdsMDdwVWh5eWZPQ2JlUTJMUVM0dDBQNzNvREFONGY5VnVhck9LWFZjQW1wTE52b0ZVUTNVQ2ZmUjVSZEZzRWcwT1pkMWNIb0dMZlFBRGU2UTVwUjhrUE5fV3dvemNhc3JRdlNDdw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Anthem Biosciences (NSEI:ANTHEM) - Stock Analysis - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Sat, 19 Jul 2025 10:03:54 GMT",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVXRMQTI5SnlkcTJ3a3FaUFVfUHFaU3JtNFljZDM2b3Q1QXBmbWhzdF9uQnY4enpjclVDZzc1ekhrZ0lZVlhOdTdIYV90akV5TzBXNFJiSlBqZURYSTFZTzlaTGsyLVd0Wk4zNi15ZkN5VDJtaVc3Sm5EOS1nQ005RlJELUNoRVJnZ1NTMHRETWFPVXdvQmE0?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Anthem Biosciences Reports Strong Q1 Results with 59.5% Revenue Growth - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Wed, 13 Aug 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc2hFQ0FTby0xSzEwdHJITWVoX3F6d2l5YXBMV00wbmFfOVZ5MzFVQzB6em52Wm16RENBbl9QRkRwbkVTbnV6SWl1cHJvR3lZYUVlMWFxNnkxdXpWbjIyTzFERnZLMko5RjlaRURTLWszUTl5Sm9ZQTJ3Ql9jd1hZdGpRbGVmRlRyTi1WWHhWcE5nN01RS3lXOFlmU3JxWnZ1NFBXN1lGZDVGWjF1MDFBMFdhUVZpMmtiTnV0c0xKR3Nmbmc?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Anthem Biosciences Appoints Divya Prasad as Company Secretary and Compliance Officer - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Mon, 21 Jul 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPRXN3ZjVhMGY5N21OVjlNU2o4VEhRUndMNXIzakVFZjZsUjlKWktXTmVnWmRodTJ2c2FVbEtDWU5JTE9ZRjdtSDlCc0hPTmhmMXpQSXNWLTBlX2hwY0ZRV2tlR1JOODdaOVA5SS1IQkZGR01FY25DelRKbmNwX2NHT2g3RlhsMjJoRmFPLTR0TUEweENqM2x2LXpqYTQ4dWNRVUxZczR0QS1fdmtGUkt4anV2UXFPU2N0YmdqYU9YamZoUWs2VlNua0JOMEFySGRBeng2ag?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Anthem Biosciences Limited Company Information - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Sat, 19 Jul 2025 11:06:13 GMT",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUmxPWUR4SkpBR1M1MkxPZWJiTW5ibUo5RnF3dmhEbGpWc3RZUXFTbVE5N2JxREE5cFhKUUxmTFhqNTlSbDRkRVpXdkRLak1zakZobEI5SnVBc1JpMVFFRi1Ec0NIVXdOcmFhbmo3OHFJR1hBRWVvVS1mVWJBbnlRZEN5VEg2VXRLWjY3TnN5Z3Nhak5QS3llbUxjOGt5M0k1TVBRbzRCQQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Anthem Biosciences Limited (ANTHEM) Leadership & Management Team Analysis - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Sat, 19 Jul 2025 11:06:39 GMT",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbHB5N3BhRFFBcUk4UlBfMFU3ZEt4TEpwUnFEcml1V3FVbVh1VjBKeUZiXzFEcU5FWlA0Tm90WnUwcnYtczd4LXhLemU3MGRSR1oxNTZfSVFuRy01cUc4aE16RHVBRjQwaXFEcGdqdWxvczRKVVRtMjBiNXZQT1ZUZURRVmVOWnQ4VURqYlJGc2lnZG1CNEsyd0lTcnBLUHhnZ1RBUTV3?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Anthem Biosciences shares make robust debut, list at \u20b9723.05 on NSE, up 26.85% from IPO price - Livemint",
+        "source": "Livemint",
+        "published": "Mon, 21 Jul 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNalpOWWRwWTYzMVNtcmJtSUpDVktWamdWbU9hc3F5NW5uTFlaVHQtcVdneU4wQnVZLUUxd1Vka2hWUXNhUmVZTXowWndNc0daZ3hKdVg5S3JFQ1BvY1R6M0ktRXJtb3UyZGkyTjF0TERRd3ZYcHFYQlJaaGhHV1pUa040WjlwN0JHdnF0UFB5VHZzWWt4Nm93U25ZVjJxU2ZZUDhxUWJBWFdEYkZDWm8ycnM0TkJEN2tNcnN4eW5GTkxFS2I2Q1lVa1NtWXFrSDB5Nm5UY0RId3FOOThTLUdUVklXOVVrTVZwd0hMR0J2ckNpcURac2fSAfsBQVVfeXFMTkFDTmV5cUxqdDJ5R2JzMlhuUW5pYkRhQjdKRzE4Rlhra00yQTJGTFNxblQ1Z3p3cVhuYXF2ZVBES29VcVhubkVsSzJGU2hLMlBNNGI4RnVTVUg1elhZNEN6UFFnWWlfdll1OVNWQUJZQ1RteTJSbVI3ckVyTmlVQk1kek53cnUzUkJKbVFkS09zQ2dXaGRlTU42TE1nUWt0Y3pxNlh4RFlEeWlmTjVmMnkxVXJ3M1JGYkVGajc4NTNFcWc5a3RLT1o3aHJjeGc5SjFRaThRN3pQQTdMNUJNVVhsclVtS0J3WHd3blRYZk9xMnRQbFJoUGt3UFE?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Anthem Biosciences IPO listing date today. GMP, analysts signal strong debut of shares in stock market today - Livemint",
+        "source": "Livemint",
+        "published": "Mon, 21 Jul 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQTWtWd05GOFZzMGtoX0lSckd5SVdQMHlxX2VYSER5UFhkeEdpSVF5U1ZRdnRKWTdDS0tHTFM2dm1zaVl3azhIQ3p3QXptdHZnM1pBQldBY1ZmTkF0S3AyX0p6Q1ZaVkdNUnVwbHpIM2M5TG5Cek85a3g2LVltR2FOa0t1OTBROUtzVzh5c2FkOHFvTW1iSmpZcnVuQWVQbVRFc05INHF1amIyeTlVZ255SXAyTnlpbkNEOGxLTk9fQnM2bURaRHgxMVJFLS1VWU14SV9kN1BCaDV1Mkd6WVYtODNobVEwOU5aWmV1a0hRekhXS3VN0gH6AUFVX3lxTE5Ga0E1S3lOaDgwamhtRmpsTUF3YlZ3ZjBuWU9kbUQ1YXpTa0VqcDFkRjFzLWZXUlYwY3BrZjhhRjBnai1oWTQ4bjB2eHJ5Tlhwc1dHZmdWVUIyamMwX3Q2TG0wR183SFRmVVZ3QTBpalpDZ3U0X3MyZnJ1d3lZMnpnS09YX3lib3BBQ0tLZnNHTVdkNkc4SkZTaTc3Y0ZGM3pKZzdZTGRZd3dfQkpSMWJmMjBaUkZlb1JUajhfVW4zZGxMT1oxeG5QNlJQSTVtSTlTc0xRcC1CUEJwX1JBdDFOUDRHZTIyWFpLbVhYQlk2bmhKY1BXNl8zMnc?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Anthem Biosciences IPO day 3 Live: GMP, subscription status, review, other details. Buy or not? - Livemint",
+        "source": "Livemint",
+        "published": "Wed, 16 Jul 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxORl9HZVYyaVU4dmZxVjZEMmJIbTY2OURwVkV4UFB2cDM5NmdkNnBmTzJNM212MjdwNkV4eU9SaUJMaGY3ODdPemVmQ3Rjd1RKT29hcUJDbGUtU05JajUtMHlyRjNjMWdyeWJEeDAtdDRMTTJYNW5zTHIxWVNTbkFIVVdocUxORFV1MHlDZGp0MXhWQ2VHeEhONFF2dTZtU2VQNGpSS2E0NzBtNE51WUM3U2JjbXpLMjRyb1BSU3gxaW9vVTh5ZHY2WktMMkpqaEFIYlI4azAtc2I2dHJFalHSAeMBQVVfeXFMUEJGTGhTZl9oMXBNb0MzTHg3UjcxZzA2Vy1BTWdKNWMxM3R3bUJFbDZoREFGMHpOZWFab2NOUEMtQVR1dldjeXNyQ3J2djloOFh2dkVyUUJYQmtsQURuOWRMaGZIb3ZqMmtTSmpBVjJ4NDVPLVQ1eC1CMmJlNmUzVXVRbEFjMXdfYng5clc1NHJpZ19KNkRfSUVTSEJFZDZWcVM2dEQ2MnREeURSSzNjTUE2bGZXcHpQOXpTcTljaU1fUmM3aWM0LWhWT3hzNGVESWQ2RHJYWEg0NzI2R0Myb0FuenM?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Anthem Biosciences Limited IPO: From issue details to financials; Here\u2019s what you need to know - Trade Brains",
+        "source": "Trade Brains",
+        "published": "Tue, 15 Jul 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNS0hJNGE3ZkRBTC10cTlqUng2Y2hWRi1Lank0MElzN18wQmtab3N5LUFGd2NzYzFGRVVFMzdsVlYzV3pmVDhmaFZmZjdabVpRX2NRU0ctTmowT0ZzakRSWlVGRFBLdE83TnAwNWxFOXRIQVpxT3JXN2Z2NEQ0eVBQRC1OY0JlZUswVW01UG1NWE0wN0h2N2Q2eGY1aFowXzgwelpzT0Y1aDVwcng5cDJUV3lTSWVoUQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Anthem Biosciences IPO Opens on July 14 with Price Band at \u20b9540\u2013\u20b9570 - SMEStreet",
+        "source": "SMEStreet",
+        "published": "Thu, 10 Jul 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNazJIQ2RKcFV1bHV0b2pXTjAzLWpKYWkzSEo2RkZkUlNIdlBXZERNQkg4anRQbktUM2NLdEExY1JqekpDeWl1WGZva0tHQ09XUmEySFZHSTJPeGR4NVU3Mm9QdTJaamwwaGtBTDBkMW93VWxXUjZ5U2R1cnVZT3dDb0pMZ2pyMVpJcnRjNHM5Y1l0cUtzSUctN2ttNGNpWWVwR1VJTtIBpAFBVV95cUxNazJIQ2RKcFV1bHV0b2pXTjAzLWpKYWkzSEo2RkZkUlNIdlBXZERNQkg4anRQbktUM2NLdEExY1JqekpDeWl1WGZva0tHQ09XUmEySFZHSTJPeGR4NVU3Mm9QdTJaamwwaGtBTDBkMW93VWxXUjZ5U2R1cnVZT3dDb0pMZ2pyMVpJcnRjNHM5Y1l0cUtzSUctN2ttNGNpWWVwR1VJTg?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      }
+    ],
+    "stored_new": 32,
+    "duplicates_skipped": 0,
+    "note": "headlines are unverified signals, not confirmed financial evidence",
+    "_run_id": 1105
+  },
+  "8_risk_analysis": {
+    "classification": "MODERATE",
+    "findings": [
+      {
+        "category": "high_valuation",
+        "severity": "moderate",
+        "evidence": "trailing P/E 87 (>60)",
+        "source": "yahoo_finance",
+        "date": "2026-11-19",
+        "detected_at": "2026-11-19 09:28:28.899008+00:00"
+      }
+    ],
+    "unassessed_governance_items": [
+      "auditor resignation history",
+      "qualified audit opinions",
+      "related-party transactions",
+      "regulatory actions",
+      "promoter pledging (source unavailable)",
+      "promoter selling (source unavailable)"
+    ],
+    "shares_outstanding_growth_yoy": 0.00018482575198783258,
+    "atr_pct_of_price": 0.029196210621789263,
+    "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
+    "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
+    "_run_id": 1104
+  },
+  "9_fundamental_score": 63.0,
+  "10_technical_score": 60.0,
+  "11_data_confidence": 72.0,
+  "12_short_term_assessment": {
+    "score": 60.9,
+    "technical_view": {
+      "timeframe": "daily",
+      "trend": "bullish",
+      "rsi_14": 62.89141016646821,
+      "macd_histogram": 5.298687187852661,
+      "breakout": false,
+      "breakdown": false
+    },
+    "entry_zone": {
+      "low": 783.35,
+      "high": 797.03,
+      "basis": "near identified support plus half ATR buffer"
+    },
+    "invalidation_level": 728.65
+  },
+  "13_long_term_assessment": {
+    "score": 62.1,
+    "trend": {
+      "timeframes": [
+        "weekly",
+        "monthly"
+      ],
+      "trend": "sideways",
+      "ema_200_daily": 813.060299909677,
+      "price_vs_ema_200": "above"
+    },
+    "business_classification": "average"
+  },
+  "14_investment_thesis": "Anthem Biosciences Limited (ANTHEM) is classified as a 'average' business with a bullish technical trend. Balanced research score 61.5/100 (fundamental 63.0, technical 60.0, data confidence 72.0, risk 10/100 higher=worse). Supporting evidence: ROE 19.5% (>15%): capital allocated effectively; operating margin 33.2%: pricing power evidence.",
+  "15_thesis_invalidation": [
+    "Daily close below invalidation level 728.65 (2x ATR under support)",
+    "Operating cash flow turning negative in the next annual report",
+    "New critical governance or regulatory finding (currently unassessed items must be checked manually)"
+  ],
+  "16_missing_evidence": {
+    "fundamental_gaps": [],
+    "unassessed_governance": [
+      "auditor resignation history",
+      "qualified audit opinions",
+      "related-party transactions",
+      "regulatory actions",
+      "promoter pledging (source unavailable)",
+      "promoter selling (source unavailable)"
+    ],
+    "valuation_gaps": null,
+    "business_unassessed": [
+      "business model detail (needs annual report reading)",
+      "industry growth rate",
+      "market share and competitor comparison",
+      "customer concentration",
+      "supplier dependency",
+      "expansion projects / order book",
+      "management quality and corporate governance depth"
+    ]
+  },
+  "17_sources": [
+    "yahoo_finance (prices, statements, profile)",
+    "rss_news (headlines, unverified)"
+  ],
+  "labels": [
+    "neutral"
+  ],
+  "combined_scores": {
+    "long_term": 62.1,
+    "short_term": 60.9,
+    "balanced": 61.5,
+    "risk_score_higher_is_worse": 10
+  },
+  "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
+  "automation": {
+    "generated_at": "2026-11-19 14:58 IST",
+    "source": "scheduled GitHub Actions run",
+    "rotation_data_date": "2026-11-19 10:00 IST"
+  }
+}

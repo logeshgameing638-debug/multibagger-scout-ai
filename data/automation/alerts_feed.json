@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-11-19 14:17 IST",
+  "generated_at": "2026-11-19 14:58 IST",
   "alerts": [
+    {
+      "symbol": "CANBK",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "CANBK RSI(14) 70 >= 70 (overbought zone)",
+      "data_date": "2026-11-19 14:52 IST",
+      "detected_at": "2026-11-19 14:58 IST"
+    },
+    {
+      "symbol": "CAPLIPOINT",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "CAPLIPOINT RSI(14) 29 <= 30 (oversold zone)",
+      "data_date": "2026-11-19 14:52 IST",
+      "detected_at": "2026-11-19 14:58 IST"
+    },
+    {
+      "symbol": "CENTRALBK",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "CENTRALBK RSI(14) 73 >= 70 (overbought zone)",
+      "data_date": "2026-11-19 14:53 IST",
+      "detected_at": "2026-11-19 14:58 IST"
+    },
+    {
+      "symbol": "CREDITACC",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "CREDITACC RSI(14) 29 <= 30 (oversold zone)",
+      "data_date": "2026-11-19 14:56 IST",
+      "detected_at": "2026-11-19 14:58 IST"
+    },
+    {
+      "symbol": "CRISIL",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "CRISIL RSI(14) 29 <= 30 (oversold zone)",
+      "data_date": "2026-11-19 14:56 IST",
+      "detected_at": "2026-11-19 14:58 IST"
+    },
+    {
+      "symbol": "CROWN",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "CROWN RSI(14) 29 <= 30 (oversold zone)",
+      "data_date": "2026-11-19 14:56 IST",
+      "detected_at": "2026-11-19 14:58 IST"
+    },
+    {
+      "symbol": "DCAL",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "DCAL RSI(14) 30 <= 30 (oversold zone)",
+      "data_date": "2026-11-19 14:57 IST",
+      "detected_at": "2026-11-19 14:58 IST"
+    },
     {
       "symbol": "ACL",
       "type": "risk_high",
@@ -163,8 +219,8 @@
     }
   ],
   "stats": {
-    "snapshots_scanned": 375,
-    "new_alerts": 20,
-    "active_alerts": 20
+    "snapshots_scanned": 525,
+    "new_alerts": 7,
+    "active_alerts": 27
   }
 }

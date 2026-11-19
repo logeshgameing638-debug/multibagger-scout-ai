@@ -1,0 +1,312 @@
+{
+  "1_company_profile": {
+    "symbol": "COFORGE",
+    "exchange": "NSE",
+    "name": "Coforge Limited",
+    "sector": "Technology",
+    "industry": "Information Technology Services",
+    "market_cap": 900702470144,
+    "website": "https://www.coforge.com"
+  },
+  "2_source_and_timestamp": {
+    "generated_at": "2026-11-19 09:28:21.292720+00:00",
+    "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
+    "agent_statuses": {
+      "fundamental": "success",
+      "technical": "success",
+      "business": "success",
+      "valuation": "success",
+      "risk": "success",
+      "news": "success",
+      "scoring": "success"
+    }
+  },
+  "3_financial_analysis": {
+    "is_financial_sector": false,
+    "growth": {
+      "sales_growth_1y": 0.3575907167054575,
+      "sales_cagr_3y": 0.26931964009288367,
+      "sales_cagr_5y": null,
+      "profit_growth_1y": 0.9156507819234084,
+      "profit_cagr_3y": 0.3088720247913117,
+      "profit_cagr_5y": null,
+      "eps_growth_1y": 0.8878048780487803
+    },
+    "profitability": {
+      "roe": 0.1631123133702399,
+      "roce": 0.2036842207804859,
+      "operating_margin": 0.1421729527900138,
+      "net_margin": 0.09491415811501715,
+      "gross_margin": 0.3988444596292997
+    },
+    "balance_sheet": {
+      "total_debt": 7278000000.0,
+      "debt_to_equity": 0.07630850528434827,
+      "interest_coverage": 13.225173940543959,
+      "current_ratio": 1.6094729383550443,
+      "working_capital": 22364000000.0
+    },
+    "cash_flow": {
+      "operating_cash_flow": 17917000000.0,
+      "free_cash_flow": 10492000000.0,
+      "ocf_to_net_profit": 1.151700199267211,
+      "fcf_conversion": 0.5855891053189708
+    },
+    "ownership": {
+      "promoter_or_insider_holding_pct": 0.21338,
+      "institutional_holding_pct": 0.59099996,
+      "promoter_pledge_pct": null
+    },
+    "red_flags": [],
+    "annual_periods": [
+      "2022-03-31",
+      "2023-03-31",
+      "2024-03-31",
+      "2025-03-31",
+      "2026-03-31"
+    ],
+    "quarterly_periods": [
+      "2025-06-30",
+      "2025-09-30",
+      "2025-12-31",
+      "2026-03-31",
+      "2026-06-30",
+      "2026-09-30"
+    ],
+    "_run_id": 1072
+  },
+  "4_technical_analysis": {
+    "assessment": "bullish",
+    "daily": {
+      "timeframe": "1d",
+      "last_close": 2032.9000244140625,
+      "emas": {
+        "ema_20": 2010.9158052679932,
+        "ema_50": 1932.9180468346049,
+        "ema_100": 1821.0123865908952,
+        "ema_200": 1709.7381139206993
+      },
+      "smas": {
+        "sma_20": 2020.1200073242187,
+        "sma_50": 1913.9900024414062,
+        "sma_100": 1803.1960034179688,
+        "sma_200": 1563.8950036621093
+      },
+      "rsi_14": 56.53068689854427,
+      "macd": {
+        "macd_line": 35.54987097035132,
+        "signal_line": 42.733210045810324,
+        "histogram": -7.183339075459003
+      },
+      "adx_14": 12.5261096146645,
+      "atr_14": 64.32467914151991,
+      "bollinger": {
+        "middle": 2020.1200073242187,
+        "upper": 2126.6779262256086,
+        "lower": 1913.562088422829
+      },
+      "volume_sma_20": 2639875.8,
+      "relative_volume": 1.2153522525567302,
+      "support": 1812.199951171875,
+      "resistance": 2127.89990234375,
+      "price_structure": {
+        "structure": "uptrend (higher highs, higher lows)",
+        "higher_highs": true,
+        "higher_lows": true,
+        "lower_highs": false,
+        "lower_lows": false
+      },
+      "trend": "bullish",
+      "trend_strength": "weak",
+      "breakout": false,
+      "breakdown": false,
+      "momentum_divergence": null,
+      "entry_zone": {
+        "low": 1812.2,
+        "high": 1844.36,
+        "basis": "near identified support plus half ATR buffer"
+      },
+      "invalidation_level": 1683.55,
+      "atr_risk_distance": 64.32467914151991,
+      "provisional_last_bar": true
+    },
+    "short_term_report": {
+      "timeframe": "daily",
+      "trend": "bullish",
+      "rsi_14": 56.53068689854427,
+      "macd_histogram": -7.183339075459003,
+      "breakout": false,
+      "breakdown": false
+    },
+    "long_term_report": {
+      "timeframes": [
+        "weekly",
+        "monthly"
+      ],
+      "trend": "sideways",
+      "ema_200_daily": 1709.7381139206993,
+      "price_vs_ema_200": "above"
+    }
+  },
+  "5_business_quality": {
+    "classification": "average",
+    "positive_evidence_count": 1,
+    "negative_evidence_count": 0,
+    "evidence": [
+      "ROE 16.3% (>15%): capital allocated effectively"
+    ],
+    "sector": "Technology",
+    "industry": "Information Technology Services",
+    "market_cap": 900702470144,
+    "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
+    "unassessed_areas": [
+      "business model detail (needs annual report reading)",
+      "industry growth rate",
+      "market share and competitor comparison",
+      "customer concentration",
+      "supplier dependency",
+      "expansion projects / order book",
+      "management quality and corporate governance depth"
+    ],
+    "_run_id": 1074
+  },
+  "6_valuation": {
+    "multiples": {
+      "pe_trailing": 39.884247,
+      "pe_forward": 27.049976,
+      "pb": 4.028967,
+      "ev_ebitda": 24.639,
+      "ev_sales": 4.668,
+      "peg": null,
+      "dividend_yield": 0.78,
+      "industry_pe": null
+    },
+    "valuation_view_vs_industry": null,
+    "dcf": {
+      "scenarios": {
+        "bear": 289.8490813214702,
+        "base": 383.86153504863023,
+        "bull": 442.32546113196594
+      },
+      "assumptions": {
+        "base_fcf": 10492000000.0,
+        "growth_rates": {
+          "bear": 0.04,
+          "base": 0.08,
+          "bull": 0.1
+        },
+        "cost_of_equity": 0.13,
+        "terminal_growth": 0.05,
+        "projection_years": 10,
+        "shares_outstanding": 443062864
+      }
+    },
+    "dcf_not_calculated_reason": null,
+    "margin_of_safety_vs_base_case": -4.295920113893466,
+    "current_price": 2032.9000244140625,
+    "_run_id": 1075
+  },
+  "7_news_intelligence": {
+    "items": [],
+    "stored_new": 0,
+    "duplicates_skipped": 23,
+    "note": "headlines are unverified signals, not confirmed financial evidence",
+    "_run_id": 1077
+  },
+  "8_risk_analysis": {
+    "classification": "LOW",
+    "findings": [],
+    "unassessed_governance_items": [
+      "auditor resignation history",
+      "qualified audit opinions",
+      "related-party transactions",
+      "regulatory actions",
+      "promoter pledging (source unavailable)",
+      "promoter selling (source unavailable)"
+    ],
+    "shares_outstanding_growth_yoy": 0.004236486939908183,
+    "atr_pct_of_price": 0.03164183106351236,
+    "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
+    "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
+    "_run_id": 1076
+  },
+  "9_fundamental_score": 60.0,
+  "10_technical_score": 62.0,
+  "11_data_confidence": 72.0,
+  "12_short_term_assessment": {
+    "score": 61.4,
+    "technical_view": {
+      "timeframe": "daily",
+      "trend": "bullish",
+      "rsi_14": 56.53068689854427,
+      "macd_histogram": -7.183339075459003,
+      "breakout": false,
+      "breakdown": false
+    },
+    "entry_zone": {
+      "low": 1812.2,
+      "high": 1844.36,
+      "basis": "near identified support plus half ATR buffer"
+    },
+    "invalidation_level": 1683.55
+  },
+  "13_long_term_assessment": {
+    "score": 60.6,
+    "trend": {
+      "timeframes": [
+        "weekly",
+        "monthly"
+      ],
+      "trend": "sideways",
+      "ema_200_daily": 1709.7381139206993,
+      "price_vs_ema_200": "above"
+    },
+    "business_classification": "average"
+  },
+  "14_investment_thesis": "Coforge Limited (COFORGE) is classified as a 'average' business with a bullish technical trend. Balanced research score 61.0/100 (fundamental 60.0, technical 62.0, data confidence 72.0, risk 0/100 higher=worse). Supporting evidence: ROE 16.3% (>15%): capital allocated effectively.",
+  "15_thesis_invalidation": [
+    "Daily close below invalidation level 1683.55 (2x ATR under support)",
+    "Operating cash flow turning negative in the next annual report",
+    "New critical governance or regulatory finding (currently unassessed items must be checked manually)"
+  ],
+  "16_missing_evidence": {
+    "fundamental_gaps": [],
+    "unassessed_governance": [
+      "auditor resignation history",
+      "qualified audit opinions",
+      "related-party transactions",
+      "regulatory actions",
+      "promoter pledging (source unavailable)",
+      "promoter selling (source unavailable)"
+    ],
+    "valuation_gaps": null,
+    "business_unassessed": [
+      "business model detail (needs annual report reading)",
+      "industry growth rate",
+      "market share and competitor comparison",
+      "customer concentration",
+      "supplier dependency",
+      "expansion projects / order book",
+      "management quality and corporate governance depth"
+    ]
+  },
+  "17_sources": [
+    "yahoo_finance (prices, statements, profile)",
+    "rss_news (headlines, unverified)"
+  ],
+  "labels": [
+    "neutral"
+  ],
+  "combined_scores": {
+    "long_term": 60.6,
+    "short_term": 61.4,
+    "balanced": 61.0,
+    "risk_score_higher_is_worse": 0
+  },
+  "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
+  "automation": {
+    "generated_at": "2026-11-19 14:58 IST",
+    "source": "scheduled GitHub Actions run",
+    "rotation_data_date": "2026-11-19 14:55 IST"
+  }
+}

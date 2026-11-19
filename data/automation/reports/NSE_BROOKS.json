@@ -1,0 +1,488 @@
+{
+  "1_company_profile": {
+    "symbol": "BROOKS",
+    "exchange": "NSE",
+    "name": "Brooks Laboratories Limited",
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic",
+    "market_cap": 1988364288,
+    "website": "https://www.brookslabs.net"
+  },
+  "2_source_and_timestamp": {
+    "generated_at": "2026-11-19 09:28:19.560964+00:00",
+    "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
+    "agent_statuses": {
+      "fundamental": "success",
+      "technical": "success",
+      "business": "success",
+      "valuation": "success",
+      "risk": "success",
+      "news": "success",
+      "scoring": "success"
+    }
+  },
+  "3_financial_analysis": {
+    "is_financial_sector": false,
+    "growth": {
+      "sales_growth_1y": 0.038813368765331153,
+      "sales_cagr_3y": 0.10967674879434908,
+      "sales_cagr_5y": null,
+      "profit_growth_1y": 3.4664894150697303,
+      "profit_cagr_3y": null,
+      "profit_cagr_5y": null,
+      "eps_growth_1y": 3.2446236559139785
+    },
+    "profitability": {
+      "roe": 0.20042459833144596,
+      "roce": 0.19289006527198183,
+      "operating_margin": 0.06408512980890302,
+      "net_margin": 0.2879456050037774,
+      "gross_margin": 0.3330627639076784
+    },
+    "balance_sheet": {
+      "total_debt": 85171000.0,
+      "debt_to_equity": 0.06943829586709616,
+      "interest_coverage": 35.205509948518156,
+      "current_ratio": 1.7151809371877034,
+      "working_capital": 156011000.0
+    },
+    "cash_flow": {
+      "operating_cash_flow": 92934000.0,
+      "free_cash_flow": 57877000.0,
+      "ocf_to_net_profit": 0.37803404722679845,
+      "fcf_conversion": 0.6227753029031355
+    },
+    "ownership": {
+      "promoter_or_insider_holding_pct": 0.54838,
+      "institutional_holding_pct": 0.09899,
+      "promoter_pledge_pct": null
+    },
+    "red_flags": [
+      "operating cash flow only 38% of net profit (profit quality)"
+    ],
+    "annual_periods": [
+      "2022-03-31",
+      "2023-03-31",
+      "2024-03-31",
+      "2025-03-31",
+      "2026-03-31"
+    ],
+    "quarterly_periods": [
+      "2025-06-30",
+      "2025-09-30",
+      "2025-12-31",
+      "2026-03-31",
+      "2026-06-30",
+      "2026-09-30"
+    ],
+    "_run_id": 1065
+  },
+  "4_technical_analysis": {
+    "assessment": "sideways",
+    "daily": {
+      "timeframe": "1d",
+      "last_close": 67.5,
+      "emas": {
+        "ema_20": 65.21504579571965,
+        "ema_50": 63.928689783122046,
+        "ema_100": 64.25801064842804,
+        "ema_200": 70.40656839061802
+      },
+      "smas": {
+        "sma_20": 63.95499973297119,
+        "sma_50": 62.91759971618652,
+        "sma_100": 64.1738999557495,
+        "sma_200": 63.19755014419556
+      },
+      "rsi_14": 55.25280521796393,
+      "macd": {
+        "macd_line": 1.3627348539559136,
+        "signal_line": 1.02054025892378,
+        "histogram": 0.3421945950321337
+      },
+      "adx_14": 17.17761044575444,
+      "atr_14": 4.604802351618377,
+      "bollinger": {
+        "middle": 63.95499973297119,
+        "upper": 70.87330271056499,
+        "lower": 57.036696755377385
+      },
+      "volume_sma_20": 78904.55,
+      "relative_volume": 1.1003801428434734,
+      "support": 55.5,
+      "resistance": 75.5999984741211,
+      "price_structure": {
+        "structure": "uptrend (higher highs, higher lows)",
+        "higher_highs": true,
+        "higher_lows": true,
+        "lower_highs": false,
+        "lower_lows": false
+      },
+      "trend": "sideways",
+      "trend_strength": "weak",
+      "breakout": false,
+      "breakdown": false,
+      "momentum_divergence": null,
+      "entry_zone": {
+        "low": 55.5,
+        "high": 57.8,
+        "basis": "near identified support plus half ATR buffer"
+      },
+      "invalidation_level": 46.29,
+      "atr_risk_distance": 4.604802351618377,
+      "provisional_last_bar": true
+    },
+    "short_term_report": {
+      "timeframe": "daily",
+      "trend": "sideways",
+      "rsi_14": 55.25280521796393,
+      "macd_histogram": 0.3421945950321337,
+      "breakout": false,
+      "breakdown": false
+    },
+    "long_term_report": {
+      "timeframes": [
+        "weekly",
+        "monthly"
+      ],
+      "trend": "sideways",
+      "ema_200_daily": 70.40656839061802,
+      "price_vs_ema_200": "below"
+    }
+  },
+  "5_business_quality": {
+    "classification": "average",
+    "positive_evidence_count": 1,
+    "negative_evidence_count": 1,
+    "evidence": [
+      "ROE 20.0% (>15%): capital allocated effectively",
+      "red flag: operating cash flow only 38% of net profit (profit quality)"
+    ],
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic",
+    "market_cap": 1988364288,
+    "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
+    "unassessed_areas": [
+      "business model detail (needs annual report reading)",
+      "industry growth rate",
+      "market share and competitor comparison",
+      "customer concentration",
+      "supplier dependency",
+      "expansion projects / order book",
+      "management quality and corporate governance depth"
+    ],
+    "_run_id": 1067
+  },
+  "6_valuation": {
+    "multiples": {
+      "pe_trailing": 2.6946108,
+      "pe_forward": 11.6179,
+      "pb": 1.0550337,
+      "ev_ebitda": 36.585,
+      "ev_sales": 1.759,
+      "peg": null,
+      "dividend_yield": 0.0,
+      "industry_pe": null
+    },
+    "valuation_view_vs_industry": null,
+    "dcf": {
+      "scenarios": {
+        "bear": 24.048768264824435,
+        "base": 31.84897830304245,
+        "bull": 36.699728230624906
+      },
+      "assumptions": {
+        "base_fcf": 57877000.0,
+        "growth_rates": {
+          "bear": 0.04,
+          "base": 0.08,
+          "bull": 0.1
+        },
+        "cost_of_equity": 0.13,
+        "terminal_growth": 0.05,
+        "projection_years": 10,
+        "shares_outstanding": 29457248
+      }
+    },
+    "dcf_not_calculated_reason": null,
+    "margin_of_safety_vs_base_case": -1.1193772483920434,
+    "current_price": 67.5,
+    "_run_id": 1068
+  },
+  "7_news_intelligence": {
+    "items": [
+      {
+        "headline": "Brooks Laboratories posts \u20b970 crore Q2FY27 profit on stake sale - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Sat, 07 Nov 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZWI5d002U1E1RGtyQXBPWXoyeUd3S01mSGJfdXhhYWNHbGtCdjFmLUJoQ19HV2tQek5IQS1xUnM3cmIwUVl4ZG5hamhjN0tHVFNENkYwNHJWd0dBZXJfSWNVX0hWS29hN1hQZllwY09vdHFvU3NnZElYWTJMTmRHQWhzZHZYenM5aXJONUhCVG5ZTTBGWlhZaUFOWFhoSGc2dm1uOWNBRF9NcGg2UldpblZ1eVlQN1E?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Brooks Laboratories (BROOKS.NS) Slips 4.09% to \u20b953.52 as Stock Tests Lower Support Zone - Revenue Weighted - siam.in",
+        "source": "siam.in",
+        "published": "Fri, 02 Oct 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeG82dGRvaGhJa3pHbkQ1RHljbURHUWRDQ2RVa1hGaEcyLXNTbk1TaDByMWM3Y19ZSzZhNlREaUlFNFU2eC1hMG9mZjhjR1lZeVJUd3BIWDdXRlVQUXZVWjZENGFxZTZVUC1mOVJ4UGFNc1BvR1UwamRGV2paUUpFY3JKX0RjN1BhS1R1U3JVYUtUMDl3N2VuWlI4dzhDdnZvTmhuMjd3dnJ3eHpYSzdFRkIzOUs4bHhWb0t1VG5GM28?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Brooks Laboratories Stock Recovery and Outlook - Kalkine India",
+        "source": "Kalkine India",
+        "published": "Thu, 08 Oct 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbWhSVFBUclBPSE5laDVIQmJTUjNFZy1ZWWdnLUExWUZWVDNkNHBhYzAwb1Q0SVR1cThIUWx0TFVkNTFTaXEzZE9sdkFWaHh1a1lBWXk5d1BCcm9mamp2T3FxU21NT0JybFB0RjhhS2psY0daczJSTGZHelRfRmMxSUowcV9VU2tqZlY0MWpRTDFzSlhfUVhMRlJ0RHZaekQ4ZzU3dU1sdi1DQ1dndjFnNE5lTWs0WDZJUlhvOA?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Brooks Laboratories Ltd sells stake in Brooks Steriscience for \u20b9106.33 crore - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Fri, 19 Jun 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVUtSMmRYTGVtdG1CVC1JR2drY09Ca1lqeGkyVTZURmd0Zmp4djQzb2NRZnBDR1VnSWtPREF6VDE3WUR2dXA5VGdvRUVKR1UyZnJSUWlvbDg1ekFPNVNucnBOY3lfMjlGak54UU5zd3ZZXzVhWkJoMWdjdnJZQlBLUE1fWEVUbkhKRF9uTi1YbnpVUEZ2NUdKVU9HdDlobjVoejJ6VE1rUDJCOXZjRFBNUlI2WlVRRDlZdHRYa1BEZmJURVU?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Brooks Laboratories Ltd. Share Price Today | Brooks Lab Live NSE/BSE - Value Research",
+        "source": "Value Research",
+        "published": "Thu, 24 Mar 2022 23:04:12 GMT",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE45anpYSFhvR24zSzlYVFJqeHpYSUpEa0hsRTdSNHVxYXdzZXN6LUlFLXRCdzdZVlRpSFNBUGl3M3Bld3E4MktoSGxCdGExNk1hYzlqNjh1S3NoLTNSdVhTallYU09xazEtN0NlYnNaVXN6VmNGYnFLb3RMRmxHQQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Brooks Laboratories Limited (BROOKS.NS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "source": "Yahoo! Finance Canada",
+        "published": "Sun, 11 Jun 2017 15:34:10 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5MMVBEaE9POGE5SUdkMVFGelFfR0V5RDBSVGZVUUVJc095bnJQMVQ4akI5U19JMDhYSExaUE1jTFota2J6Y2dvUlZQeElta1l6QkF2bVNvS2E?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Brooks Laboratories amends AGM resolution for \u20b948.15 crore BSL guarantee - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Sat, 22 Aug 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbVJlRUo5UENfazAzbU10TkduTWdhZ1NETl9heTNNNTBVdkQzUnB6NXdwUThfYXRvRWFFT1kyLUhEaktIcnFVWmhWcDJnT0NSNkg3Ql9lVjVBYTlpMUhYd0VFN1NEN1JQa0R0bXVua3BlSVhKczVXcWpmNEZBX044eXZ3QVZpNTJKRUdUSUJZSzRWRGxKUDhmZjNXbXRmT1NlaVlkOEV6cXNjZWJad0hEQTJaOXB1d0V3bF9ZNEZGM0VBNENFZEZwUFRsZl8?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "BROOKS Stock Price and Chart \u2014 NSE:BROOKS - TradingView",
+        "source": "TradingView",
+        "published": "Sun, 13 Aug 2017 06:49:33 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wX3JET2ROM2FiRkJoMWIxYV9tM3R4bk1Ud1lrb2lRR1RKanlmY2Y3UWdQeVdaTm9nNzNtbENaQTl4ZWNrYnRhSVN3TG5EVkRfdjBPdTBRY1RsOUE?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Brooks Laboratories (NSEI:BROOKS) Stock Forecast & Analyst Predictions - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Wed, 10 Aug 2022 06:33:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZ0lkTEY2Y0tpU0hOVlFydVlqd3JhdTVsY19RUUVNN2NIUHIxWTNKQU8xTFpFN3ppNks5c0Mtb0F2ZC14Nms2UlR2YjZzaWtscjRqRHFKakNITW1RSG9TQ0N2aVZDbVRUNFFaekJVWkZlbnBWZk0yc0d4cFY3NFlxNVgzbzJJWGk5dGxJU2VoTkYwa211d0FiSklZSW0xZmVEQUE?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Brooks Laboratories Limited (BROOKS.NS) stock price, news, quote and history - Yahoo Finance Australia",
+        "source": "Yahoo Finance Australia",
+        "published": "Wed, 12 Jul 2017 13:19:36 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB1d1hrdnhObWJ3X09Rd2ZTVDd3cnVRSV85SkRLWGVSQWU4anRWeDVDQ3Z0MHFFMDJ1Nk9vTUVZbENnV2pFdThVUnUtYkpGOV9OMzIwdjZWb0k?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Brooks Laboratories Informs Exchanges: Associate Firm Brooks Steriscience Limited Withdraws From Proposed Merger Scheme - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Fri, 15 May 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQazZlQjB4dUFPSmtYNmhOUVdVRC1hTjAzdUV0cy1uaExxenlGRnplMlFkY0JIM3J2ck05NFA1NmpjS2NiUElCckNsSnZBUzRfM0xwemJ0LWJSSENEWFRIZFVObXN2MDhTN3B0QUNMUzdHVWI2ajFDR3B1M0Z6N0pMNmF1eXJUS0laN1ViRnl3TXdfN2FIZXcyaFZNSmVDS1VLOHZleUZhNjlGOUlkUkhsVG9wT0NpN1dJRjN1anM3TElncTZSSnhaR0xCQWU5V1d5ZEJZUEFSNHFuQVJJWDNTNzVHcndQaFMxaVlidURVY0xmQWhsNHNlN01BcTUwclMzcXdwTWlR?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "ZENOTECH Stock Price and Chart \u2014 BSE:ZENOTECH - TradingView",
+        "source": "TradingView",
+        "published": "Tue, 06 Jul 2021 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5GdE5sMmw4YjFwdVZPSnhpRk5lRHlKVlpVMmk2SDhWMWpZY1FIUW9ORWVaalRKbmRKVE1McF9SbUc0M3dFMHpCSDFDbXlCOFpLaEZlMzFrWUEyTWtRM2c?oc=5",
+        "sentiment": "neutral",
+        "relevance": "low",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Brooks Laboratories (NSEI:BROOKS) - Stock Analysis - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Sat, 02 Dec 2017 09:38:35 GMT",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNk9OT3pmX3kyYmVNeURsal9mSEM5REEyYmUzQjRsaW9rNDBVRGZpcUc3V2Z2UndmeTNqeUFJZVZPTE1seThXWUc0aG5QZ1h0ZDRmbkI0WGx2NmE2SHhabmVteVY0TGdIZ0REX1Z6NnNFTFZad3JQTW5lT2pMcHhQTFhPMFNaM2JuanhqUnZUUXhtYXJRVEx1MA?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Brooks Laboratories appoints Prashant Rathi as CEO effective June 1 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Sat, 30 May 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVWE0YVZSWkRycUVZTGszNm1JQ2xpRWQ4NFlMOEFHLVlvZ3BqYzNSNlRrSUN1WXVlVk91NFdXdVRTd2Q4NTdRM1NRa2FLQTRDeVA2MExZd1hmbTMxeEVrdWRCYmp6RnVWMDZYS0VGWjd1RnZwSDhwTVBtT0dQQnNPSHl2RkNPRFNYWkw5b3h1YzBzemdaT1BmOEs4ZEhjLVJNNktOMWFDUUxYUmNQS2R0VTJVeU0yWllKUWVYa0ZnYnZ5dw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "GENNEX Stock Price and Chart \u2014 BSE:GENNEX - TradingView",
+        "source": "TradingView",
+        "published": "Thu, 27 Jul 2017 22:43:35 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE10djloTDBZSVhlNzkxcmwzS0lUalNmRC1OOFd5YlRDRUJjel8waU1IbVpldVUyTk1UUVRtVnZVbmpaUDVRZXRWdFhmT2w4QXc1ZEZFWFJpYU9zdUk?oc=5",
+        "sentiment": "neutral",
+        "relevance": "low",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Brooks Laboratories Updates on Scheme of Arrangement Progress Involving Brooks Steriscience Limited - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Fri, 06 Mar 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPSjJMdlNaVHdMbkxueVgxQXVaNG9xdUMwMXVscEk0QUIxQjk5WmJjYTV1dEFFUjRNZ2pHM2pxVEp4Y2djOURxQ0ctNmxpTFhnbS1fcm5DOS1PSHBiSXZvX1ZQT0dNLW9ZNXJRdWt4aUg2Ny05SVZOek9MYmlwbXlmYzlremlSZHZDdk5Gc0NGRXpkbmVQU1ZRS09rOHRZREFGVlVMU29pYWxRcE42Zi1uS3l5M0FkQUpKeFRxT2tubWhLMXFQV3FZQXJFV0tCTmRJYUtIMF9oZ1JKZmI2Qk8wbS1nZTBibFd4?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Brooks Steriscience Approves Multi-Entity Merger Scheme to Consolidate Sterile Injectable Operations - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Fri, 26 Sep 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPQVhNZUZGbzVXbXVPYTI3cHVZRWlvTlZqVjBaaGFJYlk2a0tWb3RvRWpOd21SaEpkMTlMang3YnQxSlZTd2kwNm1pMVA0RndTdFBta2RqZldoTjBhSkVGOTBqUWtVTC03VW9oVldaZ0x6bG5qZmRRZ0tzVG1xUVk3OXVBUkVLVmpPRUZMT2JDLUNIY3Q3X1hraDlwSk1DMTAtOW0zQWZnQUlxVjlTTmJIc0NZYW9rMUVMcTNTTFNXazNDMThPSWRoOWVjN1g1TXRjNmtQd3RRTEZqU1F6akFlZWRqN2pVdmFLdGM5b3FxcnZrVG1yRjR0cw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      }
+    ],
+    "stored_new": 17,
+    "duplicates_skipped": 0,
+    "note": "headlines are unverified signals, not confirmed financial evidence",
+    "_run_id": 1070
+  },
+  "8_risk_analysis": {
+    "classification": "MODERATE",
+    "findings": [
+      {
+        "category": "profit_quality",
+        "severity": "moderate",
+        "evidence": "OCF/net profit 38% (<50%)",
+        "source": "yahoo_finance",
+        "date": "2026-11-19",
+        "detected_at": "2026-11-19 09:28:19.250803+00:00"
+      },
+      {
+        "category": "high_volatility",
+        "severity": "moderate",
+        "evidence": "ATR 6.8% of price (>4%)",
+        "source": "computed",
+        "date": "2026-11-19",
+        "detected_at": "2026-11-19 09:28:19.250816+00:00"
+      }
+    ],
+    "unassessed_governance_items": [
+      "auditor resignation history",
+      "qualified audit opinions",
+      "related-party transactions",
+      "regulatory actions",
+      "promoter pledging (source unavailable)",
+      "promoter selling (source unavailable)"
+    ],
+    "shares_outstanding_growth_yoy": 0.0,
+    "atr_pct_of_price": 0.06821929409805004,
+    "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
+    "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
+    "_run_id": 1069
+  },
+  "9_fundamental_score": 59.0,
+  "10_technical_score": 63.0,
+  "11_data_confidence": 72.0,
+  "12_short_term_assessment": {
+    "score": 61.8,
+    "technical_view": {
+      "timeframe": "daily",
+      "trend": "sideways",
+      "rsi_14": 55.25280521796393,
+      "macd_histogram": 0.3421945950321337,
+      "breakout": false,
+      "breakdown": false
+    },
+    "entry_zone": {
+      "low": 55.5,
+      "high": 57.8,
+      "basis": "near identified support plus half ATR buffer"
+    },
+    "invalidation_level": 46.29
+  },
+  "13_long_term_assessment": {
+    "score": 60.2,
+    "trend": {
+      "timeframes": [
+        "weekly",
+        "monthly"
+      ],
+      "trend": "sideways",
+      "ema_200_daily": 70.40656839061802,
+      "price_vs_ema_200": "below"
+    },
+    "business_classification": "average"
+  },
+  "14_investment_thesis": "Brooks Laboratories Limited (BROOKS) is classified as a 'average' business with a sideways technical trend. Balanced research score 61.0/100 (fundamental 59.0, technical 63.0, data confidence 72.0, risk 20/100 higher=worse). Supporting evidence: ROE 20.0% (>15%): capital allocated effectively; red flag: operating cash flow only 38% of net profit (profit quality).",
+  "15_thesis_invalidation": [
+    "Daily close below invalidation level 46.29 (2x ATR under support)",
+    "Operating cash flow turning negative in the next annual report",
+    "New critical governance or regulatory finding (currently unassessed items must be checked manually)"
+  ],
+  "16_missing_evidence": {
+    "fundamental_gaps": [
+      "operating cash flow only 38% of net profit (profit quality)"
+    ],
+    "unassessed_governance": [
+      "auditor resignation history",
+      "qualified audit opinions",
+      "related-party transactions",
+      "regulatory actions",
+      "promoter pledging (source unavailable)",
+      "promoter selling (source unavailable)"
+    ],
+    "valuation_gaps": null,
+    "business_unassessed": [
+      "business model detail (needs annual report reading)",
+      "industry growth rate",
+      "market share and competitor comparison",
+      "customer concentration",
+      "supplier dependency",
+      "expansion projects / order book",
+      "management quality and corporate governance depth"
+    ]
+  },
+  "17_sources": [
+    "yahoo_finance (prices, statements, profile)",
+    "rss_news (headlines, unverified)"
+  ],
+  "labels": [
+    "neutral"
+  ],
+  "combined_scores": {
+    "long_term": 60.2,
+    "short_term": 61.8,
+    "balanced": 61.0,
+    "risk_score_higher_is_worse": 20
+  },
+  "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
+  "automation": {
+    "generated_at": "2026-11-19 14:58 IST",
+    "source": "scheduled GitHub Actions run",
+    "rotation_data_date": "2026-11-19 14:17 IST"
+  }
+}
