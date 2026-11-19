@@ -41,11 +41,15 @@ jobs:
           MB_MAX_MINUTES: "16"
         run: python scripts/daily_update.py
 
+      - name: Run automation alert checks
+        # market-data-only alerts from committed snapshots; no user state
+        run: python scripts/automation_alerts.py
+
       - name: Commit snapshots
         run: |
           git config user.name "multibagger-scout-bot"
           git config user.email "logeshgameing638@gmail.com"
-          git add data/snapshots data/rotation_state.json
+          git add data/snapshots data/rotation_state.json data/automation
           git diff --cached --quiet || git commit -m "Daily rotation update $(date -u +%F)"
           # web-editor commits can land while a run is in flight; rebase then retry once
           git pull --rebase origin main || (git rebase --abort; git pull --rebase origin main)
