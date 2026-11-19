@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-19T13:59:02Z",
+  "as_of": "2026-11-19T14:06:39Z",
   "source": "api.mfapi.in (free mirror of AMFI NAV history)",
   "basis": "Computed on daily NAV history (source: api.mfapi.in, a free mirror of AMFI data), not exchange market price. Informational only - no trade entries, stop-losses or targets are derived from NAV. Market-price technical setups for ETFs remain unavailable on free data. Splits are adjusted only for corporate actions verified against exchange/issuer sources. NAV-change returns exclude dividend/distribution reinvestment and are not investor total returns.",
   "etfs": {
@@ -281,8 +281,28 @@
       "sessions": 1159
     },
     "ABSLNN50ET": {
-      "status": "unavailable",
-      "reason": "unverified NAV jump 0.099x on 2021-11-29 - no matching verified corporate action; series left untouched and indicators withheld"
+      "nav": 75.7037,
+      "nav_date": "2026-11-18",
+      "ema_20": 74.9312,
+      "ema_50": 74.5825,
+      "ema_200": 73.9799,
+      "rsi_14": 56.2,
+      "trend_vs_ema50": "above",
+      "trend_vs_ema200": "above",
+      "nav_52w_high": 78.7453,
+      "nav_52w_low": 63.3228,
+      "pct_from_52w_high": -3.86,
+      "pct_from_52w_low": 19.55,
+      "return_1m_pct": 4.44,
+      "return_6m_pct": 3.98,
+      "return_1y_pct": 3.92,
+      "status": "ok",
+      "scheme_code": 145881,
+      "adjustment": "adjusted x10 pre-2021-11-25",
+      "sessions": 1951,
+      "adjustment_sources": [
+        "NSE circular CML50382, Listing ref 1335/2021, 23 Nov 2021: ABSL Nifty Next 50 ETF sub-division 10 -> 1, ex-date 25 Nov 2021: https://archives.nseindia.com/content/circulars/CML50382.pdf"
+      ]
     },
     "PHARMABEES": {
       "nav": 28.9949,
@@ -348,5 +368,5 @@
       "sessions": 1164
     }
   },
-  "coverage": "15/17 ETFs with NAV indicators"
+  "coverage": "16/17 ETFs with NAV indicators"
 }
