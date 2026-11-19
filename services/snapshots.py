@@ -100,3 +100,30 @@ def load_ranking_feed(path: Path = RANKING_FEED_FILE) -> dict | None:
         return json.loads(path.read_text())
     except (ValueError, OSError):
         return None
+
+
+REPORTS_MANIFEST_FILE = ROOT / "data" / "automation" / "reports" / "manifest.json"
+REPORTS_DIR = ROOT / "data" / "automation" / "reports"
+
+
+def load_reports_manifest(path: Path = REPORTS_MANIFEST_FILE) -> dict | None:
+    """Manifest of automated narrative research reports from scheduled runs.
+    None when no run has committed reports yet."""
+    if not path.exists():
+        return None
+    try:
+        return json.loads(path.read_text())
+    except (ValueError, OSError):
+        return None
+
+
+def load_report(symbol: str, exchange: str = "NSE",
+                directory: Path = REPORTS_DIR) -> dict | None:
+    """One committed automated research report JSON. None when absent."""
+    path = directory / f"{exchange}_{symbol}.json"
+    if not path.exists():
+        return None
+    try:
+        return json.loads(path.read_text())
+    except (ValueError, OSError):
+        return None
