@@ -104,3 +104,25 @@ def test_status_meta_missing_when_nothing(monkeypatch):
     else:
         assert meta["source"] == "local-fallback"
         assert meta["fallback_reason"]
+
+
+def test_report_export_remote_first_then_local(tmp_path, monkeypatch):
+    _fresh(monkeypatch)
+    snapshots._text_cache.clear()
+    target_dir = snapshots.ROOT / "data" / "automation" / "reports"
+    with mock.patch("requests.get") as get:
+        get.return_value = type("R", (), {"ok": True, "text": "<html>x</html>"})()
+        out = snapshots.load_report_export("AAA", "NSE", "html")
+    assert out == "<html>x</html>"
+    # bad format guard
+    assert snapshots.load_report_export("AAA", "NSE", "exe") is None
+
+
+def test_report_export_local_fallback(tmp_path, monkeypatch):
+    _fresh(monkeypatch)
+    snapshots._text_cache.clear()
+    d = tmp_path / "reports"
+    d.mkdir()
+    (d / "NSE_BBB.csv").write_text("a,b\n")
+    out = snapshots.load_report_export("BBB", "NSE", "csv", directory=d)
+    assert out == "a,b\n"
