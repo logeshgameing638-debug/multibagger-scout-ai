@@ -13,6 +13,7 @@ const FEEDS = {
   rotation: `${RAW}/data/rotation_state.json`,
   capSections: `${RAW}/data/automation/cap_sections.json`,
   etfSections: `${RAW}/data/automation/etf_sections.json`,
+  companyProfiles: `${RAW}/data/automation/company_profiles.json`,
   etfTechnicals: `${RAW}/data/etf_technicals.json`,
 };
 const UNIVERSE_CSVS = [1, 2, 3].map(i => `${RAW}/data/universe_nse_part${i}.csv`);
@@ -604,6 +605,40 @@ function renderTop50(data) {
     `Research ranking, not buy recommendations; scores are ${esc(data.sources.scores)}. Each stock keeps its own data date.`);
 }
 
+
+function fmtCr(v) {
+  return v === null || v === undefined ? "n/a" : `Rs ${Number(v).toLocaleString("en-IN")} cr`;
+}
+
+function renderProfiles(data) {
+  const host = document.getElementById("company-profiles");
+  host.innerHTML = "";
+  const profiles = data.profiles || {};
+  const symbols = Object.keys(profiles).sort();
+  let ok = 0, unavailable = 0;
+  for (const sym of symbols) {
+    const p = profiles[sym];
+    if (!p || p.status !== "ok") { unavailable++; continue; }
+    ok++;
+    const card = document.createElement("div");
+    card.className = "profile";
+    const q = (p.quarterly || []).filter(r => r.revenue_cr !== null || r.net_profit_cr !== null).slice(-1)[0];
+    const y = (p.annual || []).filter(r => r.revenue_cr !== null || r.net_profit_cr !== null).slice(-1)[0];
+    card.innerHTML =
+      `<h3>${esc(p.name || sym)} <span class="basis">${esc(sym)} · ${p.consolidated ? "consolidated" : "standalone"}</span></h3>` +
+      (p.description ? `<p class="desc">${esc(p.description)}</p>` : "") +
+      `<div class="periods">` +
+      (q ? `<div>Latest quarter ${esc(q.period)}: revenue ${fmtCr(q.revenue_cr)} · net profit ${fmtCr(q.net_profit_cr)}</div>` : "") +
+      (y ? `<div>Latest year ${esc(y.period)}: revenue ${fmtCr(y.revenue_cr)} · net profit ${fmtCr(y.net_profit_cr)}</div>` : "") +
+      `</div>` +
+      `<div class="src">Company-reported figures as published on <a href="${esc(p.source_url)}" target="_blank" rel="noopener">source page</a>, fetched ${esc(p.fetched_at || "unknown")}.</div>`;
+    host.appendChild(card);
+  }
+  setMeta("profiles-meta",
+    `${ok} companies profiled (${unavailable} unavailable - shown as nothing rather than wrong data). ` +
+    `Written descriptions and per-period results from ${esc(data.source || "source")}; figures are company-reported Rs crore, not independently audited. Coverage grows each weekday run; feed generated ${esc(data.as_of || "unknown")}.`);
+}
+
 async function boot() {
   const status = document.getElementById("header-status");
   let failures = 0;
@@ -633,6 +668,8 @@ async function boot() {
     renderEtfs(etfSections, etfTech);
   }
   catch (err) { failures++; setMeta("etf-meta", "ETF feed not committed yet."); }
+  try { renderProfiles(await fetchJson(FEEDS.companyProfiles)); }
+  catch (err) { failures++; setMeta("profiles-meta", "Company profiles feed not committed yet."); }
   try { renderCommand(await fetchJson(FEEDS.rotation)); }
   catch (err) { setMeta("floor00-meta", "Automation health feed not committed yet."); }
   wireUniverseSearch();
