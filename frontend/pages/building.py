@@ -432,8 +432,35 @@ def render_floor06(st) -> None:
 
 # ---------------------------------------------------------------- Floor 07
 
+
+
+def _render_ranking_feed(st) -> None:
+    """Automated research ranking from scheduled GitHub Actions runs, with
+    run timestamps and per-stock data dates. Market-derived research only."""
+    from services import snapshots as snapshot_service
+
+    feed = snapshot_service.load_ranking_feed()
+    st.subheader("Automated research ranking (scheduled runs)")
+    if not feed:
+        st.caption("No scheduled automation run has committed a ranking yet - the "
+                   "evening rotation job writes this feed after each batch.")
+        return
+    st.caption(
+        f"Ranked {feed.get('ranked_count', 0)} of {feed.get('universe_size', 'the')} "
+        f"universe stocks ({feed.get('excluded_count', 0)} unavailable/excluded) - "
+        f"feed generated {feed.get('generated_at', 'unknown')}, rotation last ran "
+        f"{feed.get('rotation_last_run_at', 'unknown')}. Each stock keeps its own "
+        "data date; missing agents are flagged. Scheduled-batch automation, not "
+        "continuous monitoring.")
+    top = feed.get("top", [])
+    if top:
+        st.dataframe(pd.DataFrame(top), hide_index=True, use_container_width=True)
+    else:
+        st.caption("No ranked candidates yet.")
+
 def render_floor07(st) -> None:
     _floor_chrome(st, 7)
+    _render_ranking_feed(st)
     st.caption("Consolidates stored research scores, ranks candidates and records a verdict "
                "with its rationale. Every verdict stays explainable via the score breakdown "
                "on Floor 02.")
