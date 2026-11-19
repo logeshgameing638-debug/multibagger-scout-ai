@@ -37,10 +37,13 @@ Optional: `scripts\run_backend.bat` starts the REST API on
 - **Stock Scout** - run a scan (NIFTY 50 / NIFTY NEXT 50 / NIFTY 100 or your
   own `SYMBOL:NSE` / `CODE:BSE` list). A 50-stock scan takes a few minutes.
 - **Full-market universe** - Stock Scout can load every NSE listed equity
-  (official EQ-series master, ~2,400 stocks) and every BSE stock (official
-  daily common bhavcopy, ~4,700 instruments; a scrip-master CSV path is a
-  configurable override via `BSE_EQUITY_MASTER_URL`; failures are shown, not
-  hidden). Dual-listed companies are deduplicated by ISIN. Scanning runs in
+  (official EQ-series master, ~2,400 stocks) and the BSE session universe
+  (official daily common bhavcopy: the instruments of the latest trading
+  session, ~5,100 STK rows as of 18 Nov 2026 - active session coverage, not
+  a registry of every listed BSE company; suspended or untraded names can be
+  absent. A scrip-master CSV path is a configurable override via
+  `BSE_EQUITY_MASTER_URL`; failures are shown, not hidden). Dual-listed
+  companies are deduplicated by ISIN. Scanning runs in
   resumable batches: every stock ends up **complete / partial / unavailable**
   and the page always shows the coverage count against the whole listed
   universe - a batch is never presented as a full-market result. A
@@ -63,7 +66,7 @@ Optional: `scripts\run_backend.bat` starts the REST API on
 | --- | --- | --- |
 | Yahoo Finance via yfinance | prices, statements, profile, ratios | unofficial; NSE/BSE quotes typically delayed ~15 min; occasional missing fields |
 | NSE archives CSV | index constituents, equity master | public files; NSE may throttle |
-| BSE daily common bhavcopy | equity universe (STK instruments, ISIN, names) | official daily file; needs a recent trading day; failures shown on Data Source Health |
+| BSE daily common bhavcopy | equity universe (STK instruments, ISIN, names) | official daily file; covers the session's instruments, not every listed company; needs a recent trading day; failures shown on Data Source Health |
 | BSE site CSV | scrip master (optional override) | path changes over time; configurable via `BSE_EQUITY_MASTER_URL`; failures shown on Data Source Health |
 | Google News RSS | company headlines | headlines are labelled UNVERIFIED, never treated as confirmed evidence |
 
