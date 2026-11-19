@@ -25,6 +25,7 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+UNIVERSE_GLOB = "universe_nse_part*.csv"
 UNIVERSE_CSV = ROOT / "data" / "universe_nse.csv"
 SNAPSHOT_DIR = ROOT / "data" / "snapshots"
 STATE_FILE = ROOT / "data" / "rotation_state.json"
@@ -37,13 +38,27 @@ PER_STOCK_SLEEP_SECONDS = 0.5
 
 
 def load_universe(path: Path | None = None) -> list[dict]:
-    """Read the committed NSE universe list (symbol, name, isin)."""
-    path = path or UNIVERSE_CSV
+    """Read the committed NSE universe list (symbol, name, isin).
+
+    The list is committed as data/universe_nse_part1..3.csv (kept small so it
+    can be maintained through the GitHub web UI); a single combined
+    universe_nse.csv or an explicit path also works."""
+    if path is None:
+        parts = sorted((ROOT / "data").glob(UNIVERSE_GLOB))
+        paths = parts if parts else [UNIVERSE_CSV]
+    else:
+        paths = [path]
     rows: list[dict] = []
-    with open(path, newline="") as handle:
-        for row in csv.DictReader(handle):
-            if row.get("symbol"):
-                rows.append(row)
+    seen: set[str] = set()
+    for one in paths:
+        if not one.exists():
+            continue
+        with open(one, newline="") as handle:
+            for row in csv.DictReader(handle):
+                symbol = (row.get("symbol") or "").strip().upper()
+                if symbol and symbol not in seen:
+                    seen.add(symbol)
+                    rows.append(row)
     return rows
 
 
