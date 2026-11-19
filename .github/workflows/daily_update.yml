@@ -30,24 +30,28 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Skip if a batch already committed today
-        # Freshness definition: one committed rotation batch per UTC day.
-        # Checks for a bot rotation commit today, NOT for a green run: a run
-        # can succeed without committing (failed/empty batch) and a skipped
-        # backup run exits green without committing, so run success must
-        # never count as a landed batch. Scheduled slots only; a manual
-        # dispatch always runs. Concurrency group above serializes the two
-        # slots, so batches never run concurrently.
+      - name: Skip if a batch already ran today
+        # Freshness definition: one processed rotation batch per IST day,
+        # evidenced by data/rotation_state.json last_run_at - an outcome
+        # signal, not a green run (a run can succeed without committing; a
+        # skipped backup exits green without processing; bot pushes can be
+        # orphaned by history rewrites, so commit presence is unreliable).
+        # Scheduled slots only; a manual dispatch always runs. The
+        # concurrency group serializes the two slots. Fail-open: if the
+        # state file cannot be read, the batch runs (bounded: 150 stocks,
+        # 16-minute budget, aborts on sustained provider 429s).
         id: dupcheck
         if: github.event_name == 'schedule'
         run: |
-          today=$(date -u +%F)
-          resp=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
-            -H "Accept: application/vnd.github+json" \
-            "https://api.github.com/repos/${{ github.repository }}/commits?author=multibagger-scout-bot&since=${today}T00:00:00Z&per_page=5")
-          n=$(echo "$resp" | jq 'length')
-          echo "bot rotation commits today: $n"
-          if [ "$n" -gt 0 ]; then echo "skip=true" >> "$GITHUB_OUTPUT"; else echo "skip=false" >> "$GITHUB_OUTPUT"; fi
+          today_ist=$(TZ=Asia/Kolkata date +%F)
+          state=$(curl -s "https://raw.githubusercontent.com/${{ github.repository }}/${{ github.sha }}/data/rotation_state.json")
+          last=$(echo "$state" | jq -r '.last_run_at // ""')
+          echo "last_run_at=$last  today_ist=$today_ist"
+          if [ -n "$last" ] && [ "${last:0:10}" = "$today_ist" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
 
       - uses: actions/setup-python@v5
         if: steps.dupcheck.outputs.skip != 'true'
