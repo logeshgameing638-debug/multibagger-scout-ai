@@ -161,48 +161,69 @@ function conclusionHtml(r, risk, quality, ta) {
     `This is combined fundamental-plus-technical research, not a buy or sell recommendation.</p>`;
 }
 
-function shortSetupHtml(short, daily, priceDate) {
+function ticketRows(rows) {
+  return `<table class="kv trade-ticket"><tbody>${rows.map(([k, v]) => `<tr><td>${esc(k)}</td><td>${esc(v)}</td></tr>`).join("")}</tbody></table>`;
+}
+
+function shortTicketHtml(short, daily, priceDate) {
   const ez = short.entry_zone || {};
   const tv = short.technical_view || {};
   const stop = Number(short.invalidation_level);
   const bearish = /bearish/i.test(tv.trend || "") || tv.breakdown === true;
   const close = daily && Number(daily.last_close);
-  const closeLine = Number.isFinite(close)
-    ? `<p>Stored close: ${fmtRupee(close)}${priceDate ? ` (as of the research run ${esc(priceDate)}; Yahoo quote, typically delayed ~15 min)` : ""}.</p>` : "";
+  const closeNote = Number.isFinite(close)
+    ? `Stored close ${fmtRupee(close)} (as of the research run ${esc(priceDate)}; Yahoo quote, typically delayed ~15 min).` : "";
   const reasons = [];
   if (bearish) reasons.push(`stored short-term trend is ${tv.trend || "bearish"}`);
   if (ez.low == null || ez.high == null) reasons.push("no stored entry range");
   if (!Number.isFinite(stop)) reasons.push("no numeric stop-loss stored");
   if (!reasons.length && stop >= ez.low) reasons.push("stored stop-loss is not below the entry range");
   if (reasons.length) {
-    return closeLine + `<p>No qualifying short-term setup in the stored research (${esc(reasons.join("; "))}). No entry, stop or target arithmetic is shown.</p>`;
+    return ticketRows([
+      ["Timeframe", "Daily chart; holding duration not specified in the research"],
+      ["Status", `No qualifying setup (${reasons.join("; ")})`],
+    ]) +
+      (closeNote ? `<p class="feed-meta">${closeNote}</p>` : "") +
+      `<p class="feed-meta">No entry, stop, target or profit/loss figures are shown when the setup is unsupported.</p>`;
   }
   const entryRef = ez.high;
   const riskPerShare = entryRef - stop;
   const required = entryRef + 5 * riskPerShare;
-  let position = "";
+  const lossPct = (100 * riskPerShare / entryRef).toFixed(1);
+  const gainPct = (100 * 5 * riskPerShare / entryRef).toFixed(1);
+  let entryNote = "";
   if (Number.isFinite(close)) {
-    if (close > ez.high) position = `<p>The stored close ${fmtRupee(close)} is above this entry range, so this is a conditional pullback setup: ` +
-      `it only becomes relevant if the price falls back into the range. It is not an actionable entry at the stored close.</p>`;
-    else if (close < ez.low) position = `<p>The stored close ${fmtRupee(close)} is below this entry range; the setup would need the price to recover into the range first.</p>`;
-    else position = `<p>The stored close ${fmtRupee(close)} is inside the entry range as of that session.</p>`;
+    if (close > ez.high) entryNote = `conditional pullback only: stored close ${fmtRupee(close)} is above the range, so it is not an actionable entry at that close`;
+    else if (close < ez.low) entryNote = `stored close ${fmtRupee(close)} is below the range; the price would need to recover into it first`;
+    else entryNote = `stored close ${fmtRupee(close)} is inside the range as of that run`;
   }
   const res = daily && Number(daily.resistance);
   const resistanceNote = Number.isFinite(res) && res < required
-    ? ` The required price is also above the identified resistance of ${fmtRupee(res)}; the stored research contains no evidence that this level will be broken.`
+    ? `, which is also above the identified resistance of ${fmtRupee(res)}, and the stored research holds no evidence that level will break`
     : "";
-  return closeLine +
-    `<table class="kv"><tbody>` +
-    `<tr><td>Conditional entry range</td><td>${fmtEntryZone(ez)}</td></tr>` +
-    `<tr><td>Stop-loss</td><td>${fmtRupee(stop)} <span class="feed-meta">(stored invalidation level)</span></td></tr>` +
-    `<tr><td>Risk per share (from ${fmtRupee(entryRef)} entry)</td><td>${fmtRupee(riskPerShare)}</td></tr>` +
-    `</tbody></table>` + position +
-    `<p><strong>No verified 1:5 setup:</strong> the stored research holds no evidence-backed price target for this stock.</p>` +
-    `<p class="feed-meta">Hypothetical arithmetic only: for a 1:5 reward-to-risk from this entry and stop, the price would need to reach ` +
-    `${fmtRupee(required)} (+${(100 * 5 * riskPerShare / entryRef).toFixed(1)}% from the ${fmtRupee(entryRef)} entry; a hypothetical +${fmtRupee(5 * riskPerShare)} per share, ` +
-    `or +${fmtRupee(500 * riskPerShare)} on an illustrative 100 shares, against -${fmtRupee(riskPerShare)} per share / -${(100 * riskPerShare / entryRef).toFixed(1)}% if stopped out). ` +
-    `This required price is a calculation, not a verified target, and not anyone's actual holding or a realised gain.${resistanceNote} ` +
-    `Prices can gap past a stop, and profit is never guaranteed. Research only, no trades.</p>`;
+  return ticketRows([
+    ["Timeframe", "Daily chart; holding duration not specified in the research"],
+    ["Status", "No verified 1:5 setup: the stored research holds no evidence-backed price target"],
+    ["Entry", `${fmtRupee(ez.low)} - ${fmtRupee(ez.high)}${ez.basis ? ` (${ez.basis})` : ""}${entryNote ? `; ${entryNote}` : ""}`],
+    ["Stop-loss", `${fmtRupee(stop)} (stored invalidation level)`],
+    ["Target", "None verified in the stored research"],
+    ["Risk if stopped out", `-${fmtRupee(riskPerShare)} per share (-${lossPct}% from the ${fmtRupee(entryRef)} entry)`],
+    ["Reward-to-risk", `Unverified. Hypothetical arithmetic only: a 1:5 ratio would require the price to reach ${fmtRupee(required)} (+${gainPct}% from entry)${resistanceNote}. A calculation, not a verified target`],
+    ["Hypothetical P&L", `+${fmtRupee(5 * riskPerShare)} per share (illustrative 100 shares: +${fmtRupee(500 * riskPerShare)}) if that required price is reached, against -${fmtRupee(riskPerShare)} per share if stopped out. Hypothetical; not anyone's actual holding or a realised gain`],
+  ]) +
+    (closeNote ? `<p class="feed-meta">${closeNote}</p>` : "") +
+    `<p class="feed-meta">Research scenario only: not an order, not a prediction. Prices can gap past a stop and profit is never guaranteed. No trades are placed.</p>`;
+}
+
+function longTicketHtml(long_, quality) {
+  const lt = long_.trend || {};
+  return ticketRows([
+    ["Timeframe", "Weekly/monthly trend and business classification; holding duration not specified in the research"],
+    ["Status", "No verified long-term trade setup stored; current evidence does not define one"],
+    ["Entry / Stop-loss / Target", "Not defined by the stored research for this horizon"],
+    ["Research basis", `Score ${fmtScore(long_.score)}, trend ${lt.trend || "n/a"} (${(lt.timeframes || []).join(" + ") || "n/a"}), price vs 200-day EMA ${lt.price_vs_ema_200 || "n/a"}, business '${long_.business_classification || quality.classification || "n/a"}'`],
+  ]) +
+    `<p class="feed-meta">Long-term profit depends on business performance over years; it is uncertain and never guaranteed, and no 1:5 arithmetic applies to this horizon.</p>`;
 }
 
 function technicalHtml(ta) {
@@ -285,14 +306,11 @@ async function openReport(row) {
       (downloads ? `<p class="downloads">Download: ${downloads}</p>` : "") +
       (r["14_investment_thesis"] ? `<h4>Investment thesis</h4><p>${esc(r["14_investment_thesis"])}</p>` : "") +
       conclusionHtml(r, risk, quality, ta) +
-      `<h4>Short-term view <span class="feed-meta">(daily-chart technicals; holding duration not specified in the research)</span></h4>` +
+      `<h4>Short-term trade view <span class="feed-meta">(research scenario, not an order)</span></h4>` +
       `<p>Score ${fmtScore(short.score)}; trend ${esc(tv.trend || "n/a")}, RSI(14) ${fmtNum(tv.rsi_14)}.</p>` +
-      shortSetupHtml(short, ta.daily, (r.automation || {}).rotation_data_date) +
-      `<h4>Long-term view <span class="feed-meta">(weekly/monthly trend and business classification; holding duration not specified in the research)</span></h4>` +
-      `<p>Score ${fmtScore(long_.score)}; trend ${esc(lt.trend || "n/a")} (${esc((lt.timeframes || []).join(" + ") || "n/a")}), ` +
-      `price vs 200-day EMA: ${esc(lt.price_vs_ema_200 || "n/a")}.<br>Business classification: ${esc(long_.business_classification || "n/a")}.</p>` +
-      `<p class="feed-meta">No entry range, stop-loss or target is stored for the long-term horizon, so no 1:5 arithmetic is shown here. ` +
-      `Long-term profit depends on business performance over years; it is uncertain and never guaranteed.</p>` +
+      shortTicketHtml(short, ta.daily, (r.automation || {}).rotation_data_date) +
+      `<h4>Long-term trade view <span class="feed-meta">(research scenario, not an order)</span></h4>` +
+      longTicketHtml(long_, quality) +
       (invalidation ? `<h4>What would break this thesis</h4><ul>${invalidation}</ul>` : "") +
       `<h4>Technical analysis</h4>` + technicalHtml(ta) +
       `<h4>Financial analysis</h4>` +
