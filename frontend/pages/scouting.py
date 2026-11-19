@@ -44,7 +44,7 @@ def render_stock_scout(st) -> None:
         if outcome.get("error"):
             st.error(outcome["error"])
 
-    st.subheader("Full-market universe (NSE + BSE listed equities)")
+    st.subheader("Full-market universe (NSE listed equities + BSE latest-session instruments)")
     st.caption(
         "NSE loads from the official equity master (EQ series); BSE loads from the official "
         "daily common bhavcopy - the instruments of the latest trading session (about 5,100 "
@@ -83,7 +83,7 @@ def render_stock_scout(st) -> None:
 
     progress_info = universe_service.universe_progress()
     st.caption(
-        f"Universe coverage: {progress_info['total']} listed companies in library | "
+        f"Universe coverage: {progress_info['total']} instruments in library (NSE listed + BSE session scope) | "
         + " | ".join(f"{k}: {v}" for k, v in sorted(progress_info["by_status"].items()))
     )
 
