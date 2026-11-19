@@ -12,6 +12,7 @@ const FEEDS = {
   manifest: `${RAW}/data/automation/reports/manifest.json`,
   rotation: `${RAW}/data/rotation_state.json`,
   capSections: `${RAW}/data/automation/cap_sections.json`,
+  etfSections: `${RAW}/data/automation/etf_sections.json`,
 };
 const UNIVERSE_CSVS = [1, 2, 3].map(i => `${RAW}/data/universe_nse_part${i}.csv`);
 const BSE_UNIVERSE_CSV = `${RAW}/data/universe_bse.csv`;
@@ -304,6 +305,7 @@ async function openReport(row) {
       `price data as of ${esc((r.automation || {}).rotation_data_date || "unknown")}</p>` +
       `<div class="report-scores">${scoreCards}</div>` +
       (downloads ? `<p class="downloads">Download: ${downloads}</p>` : "") +
+      companyDetailsHtml(profile, fin) +
       (r["14_investment_thesis"] ? `<h4>Investment thesis</h4><p>${esc(r["14_investment_thesis"])}</p>` : "") +
       conclusionHtml(r, risk, quality, ta) +
       `<h4>Short-term trade view <span class="feed-meta">(research scenario, not an order)</span></h4>` +
@@ -465,6 +467,65 @@ function priceSessionLabel(data) {
   return m ? m[1] : "latest session";
 }
 
+
+function renderEtfs(data) {
+  const list = data.etfs || [];
+  const first = list[0] || {};
+  setMeta("etf-meta",
+    `${data.count != null ? data.count : list.length} Indian-listed ETFs. NAVs: AMFI official file, dated ${first.nav_date || "unknown"}; ` +
+    `closes and traded values: BSE official bhavcopy, session ${first.close_session || "unknown"}. ` +
+    `"Close vs NAV" compares differently dated sources and is indicative only. ` +
+    `Expense ratios are not available in the free feeds yet. Technical and short/long-term trade research is not yet generated for ETFs, ` +
+    `so no setups or targets are shown. Research only, not recommendations.`);
+  const head = document.querySelector("#etf-table thead");
+  const body = document.querySelector("#etf-table tbody");
+  head.innerHTML = "<tr><th>Symbol</th><th>Fund (official AMFI name)</th><th>Category</th><th>Tracks</th>" +
+    "<th>NAV</th><th>Close (session)</th><th>Close vs NAV</th><th>Traded value (liquidity)</th><th>Research status</th></tr>";
+  body.innerHTML = "";
+  for (const e of list) {
+    const tr = document.createElement("tr");
+    tr.innerHTML =
+      `<td><strong>${esc(e.symbol)}</strong></td>` +
+      `<td>${esc(e.name)}</td>` +
+      `<td>${esc(e.category)}</td>` +
+      `<td>${esc(e.tracks)}</td>` +
+      `<td>${fmtRupee(e.nav)} <span class="feed-meta">${esc(e.nav_date)}</span></td>` +
+      `<td>${fmtRupee(e.close)} <span class="feed-meta">${esc(e.close_session)}</span></td>` +
+      `<td>${Number(e.close_vs_nav_pct) > 0 ? "+" : ""}${fmtNum(e.close_vs_nav_pct)}%</td>` +
+      `<td>${fmtNum(e.day_traded_value)}</td>` +
+      `<td>No verified setup - technical research not yet generated for ETFs</td>`;
+    body.appendChild(tr);
+  }
+}
+
+function companyDetailsHtml(profile, fin) {
+  const own = fin.ownership || {};
+  const annual = fin.annual_periods || [];
+  const quarterly = fin.quarterly_periods || [];
+  const coverage = [];
+  if (annual.length) coverage.push(`annual periods ${annual[0]} to ${annual[annual.length - 1]} (${annual.length})`);
+  if (quarterly.length) coverage.push(`quarterly periods ${quarterly[0]} to ${quarterly[quarterly.length - 1]} (${quarterly.length})`);
+  const rows = [
+    ["Exchange", profile.exchange || "NSE"],
+    ["Sector", profile.sector || "n/a"],
+    ["Industry", profile.industry || "n/a"],
+    ["Market cap", fmtNum(profile.market_cap)],
+    ["Promoter / insider holding", fmtPct(own.promoter_or_insider_holding_pct)],
+    ["Institutional holding", fmtPct(own.institutional_holding_pct)],
+    ["Promoter pledge", fmtPct(own.promoter_pledge_pct)],
+    ["Results coverage", coverage.join("; ") || "n/a"],
+  ];
+  const websiteRow = profile.website
+    ? `<tr><td>Website</td><td><a href="${esc(profile.website)}" target="_blank" rel="noopener">${esc(profile.website)}</a></td></tr>` : "";
+  return `<h4>Company details</h4>` +
+    `<table class="kv"><tbody>` +
+    rows.map(([k, v]) => `<tr><td>${esc(k)}</td><td>${esc(v)}</td></tr>`).join("") +
+    websiteRow + `</tbody></table>` +
+    `<p class="feed-meta">A written business description is not stored in the research snapshot; the sector and industry above are the ` +
+    `price-data provider's classification. Per-period revenue and profit figures are not stored in this snapshot either - the derived ` +
+    `growth, profitability, balance-sheet and cash-flow aggregates appear under Financial analysis below.</p>`;
+}
+
 function renderCapSections(data) {
   const c = data.counts || {};
   const priceDate = priceSessionLabel(data);
@@ -537,6 +598,10 @@ async function boot() {
     renderCapSections(caps);
   }
   catch (err) { failures++; setMeta("ranking-meta", "Cap sections feed not committed yet."); setMeta("caps-meta", "Cap sections feed not committed yet."); }
+  try {
+    renderEtfs(await fetchJson(FEEDS.etfSections));
+  }
+  catch (err) { failures++; setMeta("etf-meta", "ETF feed not committed yet."); }
   try { renderCommand(await fetchJson(FEEDS.rotation)); }
   catch (err) { setMeta("floor00-meta", "Automation health feed not committed yet."); }
   wireUniverseSearch();
