@@ -11,6 +11,7 @@ const FEEDS = {
   ranking: `${RAW}/data/automation/ranking_feed.json`,
   manifest: `${RAW}/data/automation/reports/manifest.json`,
   rotation: `${RAW}/data/rotation_state.json`,
+  capSections: `${RAW}/data/automation/cap_sections.json`,
 };
 const UNIVERSE_CSVS = [1, 2, 3].map(i => `${RAW}/data/universe_nse_part${i}.csv`);
 const BSE_UNIVERSE_CSV = `${RAW}/data/universe_bse.csv`;
@@ -330,6 +331,60 @@ function wireUniverseSearch() {
   });
 }
 
+
+function capRow(r) {
+  return `<td><strong>${esc(r.symbol)}</strong></td>` +
+    `<td>${esc(r.name || "")}</td>` +
+    `<td>${fmtScore(r.balanced)}</td>` +
+    `<td>${fmtScore(r.risk)}</td>` +
+    `<td>${fmtScore(r.data_confidence)}</td>` +
+    `<td>${r.close != null ? "\u20B9" + Number(r.close).toFixed(2) : "n/a"}</td>` +
+    `<td>${esc(r.data_date || "n/a")}</td>`;
+}
+
+const CAP_HEAD = "<tr><th>Symbol</th><th>Company</th><th>Balanced</th><th>Risk (higher=worse)</th><th>Confidence</th><th>Close</th><th>Data date</th></tr>";
+
+function renderCapSections(data) {
+  const c = data.counts || {};
+  setMeta("caps-meta",
+    `Cap classes from the ${esc(data.sources.cap_classification)}. ` +
+    `Prices: ${esc(data.sources.prices)}. Penny = close below \u20B9${esc(String(data.penny_cutoff_inr))} per share. ` +
+    `Unclassified stocks were not in the AMFI list; unpriced stocks were absent from the session file. Sections cover the ${data.ranked_count} stocks researched so far this cycle.`);
+  const defs = [
+    ["Large cap", data.sections.large_cap, c.large_cap],
+    ["Mid cap", data.sections.mid_cap, c.mid_cap],
+    ["Small cap", data.sections.small_cap, c.small_cap],
+    [`Penny stocks (close < \u20B9${esc(String(data.penny_cutoff_inr))})`, data.penny, c.penny],
+  ];
+  const host = document.getElementById("cap-sections");
+  host.innerHTML = "";
+  for (const [title, rows, total] of defs) {
+    const div = document.createElement("div");
+    div.className = "cap-block";
+    const shown = (rows || []).slice(0, 25);
+    div.innerHTML = `<h3>${esc(title)} <span class="cap-count">${total || 0} stocks</span></h3>` +
+      (total > shown.length ? `<p class="feed-meta">Showing first ${shown.length} of ${total}, ordered by balanced research score.</p>` : "") +
+      `<div class="table-wrap"><table><thead>${CAP_HEAD}</thead><tbody>` +
+      shown.map(r => `<tr>${capRow(r)}</tr>`).join("") + "</tbody></table></div>";
+    host.appendChild(div);
+  }
+}
+
+function renderTop50(data) {
+  const head = document.querySelector("#ranking-table thead");
+  const body = document.querySelector("#ranking-table tbody");
+  head.innerHTML = CAP_HEAD;
+  body.innerHTML = "";
+  for (const r of data.top50 || []) {
+    const tr = document.createElement("tr");
+    tr.innerHTML = capRow(r);
+    body.appendChild(tr);
+  }
+  setMeta("ranking-meta",
+    `Top ${(data.top50 || []).length} candidates by balanced research score out of ${data.ranked_count} stocks researched this cycle. ` +
+    `Research ranking, not buy recommendations; scores are ${esc(data.sources.scores)}. Each stock keeps its own data date.`);
+}
+
 async function boot() {
   const status = document.getElementById("header-status");
   let failures = 0;
@@ -344,10 +399,15 @@ async function boot() {
   }
   try {
     const feed = await fetchJson(FEEDS.ranking);
-    renderRanking(feed);
     renderFloorRisk(feed);
   }
-  catch (err) { failures++; setMeta("ranking-meta", "Ranking feed not committed yet."); }
+  catch (err) { failures++; setMeta("floor03-meta", "Risk feed not committed yet."); }
+  try {
+    const caps = await fetchJson(FEEDS.capSections);
+    renderTop50(caps);
+    renderCapSections(caps);
+  }
+  catch (err) { failures++; setMeta("ranking-meta", "Cap sections feed not committed yet."); setMeta("caps-meta", "Cap sections feed not committed yet."); }
   try { renderCommand(await fetchJson(FEEDS.rotation)); }
   catch (err) { setMeta("floor00-meta", "Automation health feed not committed yet."); }
   wireUniverseSearch();
