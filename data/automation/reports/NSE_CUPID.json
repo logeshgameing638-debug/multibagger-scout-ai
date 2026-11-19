@@ -9,7 +9,7 @@
     "website": "https://www.cupidlimited.com"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-19 21:22:07.690483+00:00",
+    "generated_at": "2026-11-19 22:33:52.667879+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -17,7 +17,7 @@
       "business": "success",
       "valuation": "success",
       "risk": "success",
-      "news": "failed",
+      "news": "success",
       "scoring": "success"
     }
   },
@@ -74,7 +74,7 @@
       "2026-03-31",
       "2026-06-30"
     ],
-    "_run_id": 715
+    "_run_id": 1093
   },
   "4_technical_analysis": {
     "assessment": "bullish",
@@ -171,7 +171,7 @@
       "expansion projects / order book",
       "management quality and corporate governance depth"
     ],
-    "_run_id": 717
+    "_run_id": 1095
   },
   "6_valuation": {
     "multiples": {
@@ -207,10 +207,14 @@
     "dcf_not_calculated_reason": null,
     "margin_of_safety_vs_base_case": -139.60715639965122,
     "current_price": 363.20001220703125,
-    "_run_id": 718
+    "_run_id": 1096
   },
   "7_news_intelligence": {
-    "_run_id": 720
+    "items": [],
+    "stored_new": 0,
+    "duplicates_skipped": 40,
+    "note": "headlines are unverified signals, not confirmed financial evidence",
+    "_run_id": 1098
   },
   "8_risk_analysis": {
     "classification": "MODERATE",
@@ -221,7 +225,7 @@
         "evidence": "OCF/net profit 43% (<50%)",
         "source": "yahoo_finance",
         "date": "2026-11-19",
-        "detected_at": "2026-11-19 21:21:57.955339+00:00"
+        "detected_at": "2026-11-19 22:33:52.651576+00:00"
       },
       {
         "category": "high_valuation",
@@ -229,7 +233,7 @@
         "evidence": "trailing P/E 293 (>60)",
         "source": "yahoo_finance",
         "date": "2026-11-19",
-        "detected_at": "2026-11-19 21:21:57.955353+00:00"
+        "detected_at": "2026-11-19 22:33:52.651590+00:00"
       },
       {
         "category": "high_volatility",
@@ -237,7 +241,7 @@
         "evidence": "ATR 4.6% of price (>4%)",
         "source": "computed",
         "date": "2026-11-19",
-        "detected_at": "2026-11-19 21:21:57.955374+00:00"
+        "detected_at": "2026-11-19 22:33:52.651596+00:00"
       }
     ],
     "unassessed_governance_items": [
@@ -252,11 +256,11 @@
     "atr_pct_of_price": 0.046253305037362705,
     "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
     "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
-    "_run_id": 719
+    "_run_id": 1097
   },
   "9_fundamental_score": 61.0,
   "10_technical_score": 60.0,
-  "11_data_confidence": 70.0,
+  "11_data_confidence": 72.0,
   "12_short_term_assessment": {
     "score": 60.3,
     "technical_view": {
@@ -287,7 +291,7 @@
     },
     "business_classification": "average"
   },
-  "14_investment_thesis": "Cupid Limited (CUPID) is classified as a 'average' business with a bullish technical trend. Balanced research score 60.5/100 (fundamental 61.0, technical 60.0, data confidence 70.0, risk 30/100 higher=worse). Supporting evidence: ROE 24.0% (>15%): capital allocated effectively; operating margin 32.2%: pricing power evidence; red flag: operating cash flow only 43% of net profit (profit quality).",
+  "14_investment_thesis": "Cupid Limited (CUPID) is classified as a 'average' business with a bullish technical trend. Balanced research score 60.5/100 (fundamental 61.0, technical 60.0, data confidence 72.0, risk 30/100 higher=worse). Supporting evidence: ROE 24.0% (>15%): capital allocated effectively; operating margin 32.2%: pricing power evidence; red flag: operating cash flow only 43% of net profit (profit quality).",
   "15_thesis_invalidation": [
     "Daily close below invalidation level 268.7 (2x ATR under support)",
     "Operating cash flow turning negative in the next annual report",
@@ -331,8 +335,8 @@
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-20 02:52 IST",
+    "generated_at": "2026-11-20 04:03 IST",
     "source": "scheduled GitHub Actions run",
-    "rotation_data_date": "2026-11-19 14:56 IST"
+    "rotation_data_date": "2026-11-20 03:54 IST"
   }
 }

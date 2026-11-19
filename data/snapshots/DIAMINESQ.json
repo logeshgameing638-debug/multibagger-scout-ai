@@ -1,7 +1,7 @@
 {
   "symbol": "DIAMINESQ",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:28 IST",
+  "updated_at": "2026-11-20 04:01 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Diamines and Chemicals Limited",
   "scores": {
     "fundamental": 24.0,
-    "technical": 16.0,
+    "technical": 39.0,
     "data_confidence": 72.0,
     "risk": 20.0,
-    "long_term": 21.6,
-    "short_term": 18.4,
-    "balanced": 20.0
+    "long_term": 28.5,
+    "short_term": 34.5,
+    "balanced": 31.5
   },
   "classification": "high_risk",
   "explanation": {
@@ -100,18 +100,18 @@
         ]
       },
       "momentum": {
-        "points": 0.0,
+        "points": 8.0,
         "max": 15,
         "detail": [
-          "RSI 39: 0.0/7 (value 39 below all bands)",
-          "MACD histogram non-positive/missing: 0.0/8"
+          "RSI 41: 0.0/7 (value 40.9 below all bands)",
+          "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 15,
         "max": 15,
         "detail": [
-          "relative volume: value 0.45 below all bands"
+          "relative volume: value 1.98 vs threshold 1.5"
         ]
       },
       "price_structure": {
@@ -132,7 +132,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "775 validated daily bars (value 775 vs threshold 200); providers may delay quotes ~15 min"
+          "774 validated daily bars (value 774 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -204,11 +204,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 39.030891430484786,
+    "rsi_14": 40.86626792272825,
     "breakout": false,
     "breakdown": false,
     "support": 216.60000610351562,
-    "resistance": 244.85000610351562,
+    "resistance": 245.89999389648438,
     "trend": "bearish"
   }
 }

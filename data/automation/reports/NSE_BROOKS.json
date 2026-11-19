@@ -9,7 +9,7 @@
     "website": "https://www.brookslabs.net"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-19 10:06:18.378820+00:00",
+    "generated_at": "2026-11-19 22:34:02.998097+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -75,40 +75,40 @@
       "2026-06-30",
       "2026-09-30"
     ],
-    "_run_id": 1086
+    "_run_id": 1114
   },
   "4_technical_analysis": {
     "assessment": "sideways",
     "daily": {
       "timeframe": "1d",
-      "last_close": 67.30000305175781,
+      "last_close": 66.95999908447266,
       "emas": {
-        "ema_20": 65.19599846731563,
-        "ema_50": 63.92084676554392,
-        "ema_100": 64.25405031281927,
-        "ema_200": 70.40457837123252
+        "ema_20": 64.97452430053224,
+        "ema_50": 63.78292201916784,
+        "ema_100": 64.19251591405285,
+        "ema_200": 70.43578013323729
       },
       "smas": {
-        "sma_20": 63.944999885559085,
-        "sma_50": 62.91359977722168,
-        "sma_100": 64.17189998626709,
-        "sma_200": 63.19655015945435
+        "sma_20": 63.61899967193604,
+        "sma_50": 62.888999710083006,
+        "sma_100": 64.23439998626709,
+        "sma_200": 63.17595014572144
       },
-      "rsi_14": 54.93942462243905,
+      "rsi_14": 54.3964676856886,
       "macd": {
-        "macd_line": 1.3467806814465746,
-        "signal_line": 1.0173494244219121,
-        "histogram": 0.32943125702466247
+        "macd_line": 1.3312158895489006,
+        "signal_line": 0.9349916101657465,
+        "histogram": 0.3962242793831541
       },
-      "adx_14": 17.17761044575444,
-      "atr_14": 4.604802351618377,
+      "adx_14": 17.062143495633265,
+      "atr_14": 4.690556542991366,
       "bollinger": {
-        "middle": 63.944999885559085,
-        "upper": 70.84227427929744,
-        "lower": 57.04772549182073
+        "middle": 63.61899967193604,
+        "upper": 70.46473649005107,
+        "lower": 56.77326285382101
       },
-      "volume_sma_20": 79312.2,
-      "relative_volume": 1.19752068408139,
+      "volume_sma_20": 78280.65,
+      "relative_volume": 0.6347162421364667,
       "support": 55.5,
       "resistance": 75.5999984741211,
       "price_structure": {
@@ -125,18 +125,18 @@
       "momentum_divergence": null,
       "entry_zone": {
         "low": 55.5,
-        "high": 57.8,
+        "high": 57.85,
         "basis": "near identified support plus half ATR buffer"
       },
-      "invalidation_level": 46.29,
-      "atr_risk_distance": 4.604802351618377,
-      "provisional_last_bar": true
+      "invalidation_level": 46.12,
+      "atr_risk_distance": 4.690556542991366,
+      "provisional_last_bar": false
     },
     "short_term_report": {
       "timeframe": "daily",
       "trend": "sideways",
-      "rsi_14": 54.93942462243905,
-      "macd_histogram": 0.32943125702466247,
+      "rsi_14": 54.3964676856886,
+      "macd_histogram": 0.3962242793831541,
       "breakout": false,
       "breakdown": false
     },
@@ -146,7 +146,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 70.40457837123252,
+      "ema_200_daily": 70.43578013323729,
       "price_vs_ema_200": "below"
     }
   },
@@ -171,15 +171,15 @@
       "expansion projects / order book",
       "management quality and corporate governance depth"
     ],
-    "_run_id": 1088
+    "_run_id": 1116
   },
   "6_valuation": {
     "multiples": {
       "pe_trailing": 2.7202911,
       "pe_forward": 11.583477,
       "pb": 1.0519077,
-      "ev_ebitda": 36.585,
-      "ev_sales": 1.759,
+      "ev_ebitda": 36.848,
+      "ev_sales": 1.772,
       "peg": null,
       "dividend_yield": 0.0,
       "industry_pe": null
@@ -205,9 +205,9 @@
       }
     },
     "dcf_not_calculated_reason": null,
-    "margin_of_safety_vs_base_case": -1.113097707920157,
-    "current_price": 67.30000305175781,
-    "_run_id": 1089
+    "margin_of_safety_vs_base_case": -1.1024222016590133,
+    "current_price": 66.95999908447266,
+    "_run_id": 1117
   },
   "7_news_intelligence": {
     "items": [
@@ -368,7 +368,7 @@
     "stored_new": 17,
     "duplicates_skipped": 0,
     "note": "headlines are unverified signals, not confirmed financial evidence",
-    "_run_id": 1091
+    "_run_id": 1119
   },
   "8_risk_analysis": {
     "classification": "MODERATE",
@@ -379,15 +379,15 @@
         "evidence": "OCF/net profit 38% (<50%)",
         "source": "yahoo_finance",
         "date": "2026-11-19",
-        "detected_at": "2026-11-19 10:06:17.958607+00:00"
+        "detected_at": "2026-11-19 22:34:02.682235+00:00"
       },
       {
         "category": "high_volatility",
         "severity": "moderate",
-        "evidence": "ATR 6.8% of price (>4%)",
+        "evidence": "ATR 7.0% of price (>4%)",
         "source": "computed",
         "date": "2026-11-19",
-        "detected_at": "2026-11-19 10:06:17.958625+00:00"
+        "detected_at": "2026-11-19 22:34:02.682248+00:00"
       }
     ],
     "unassessed_governance_items": [
@@ -399,47 +399,47 @@
       "promoter selling (source unavailable)"
     ],
     "shares_outstanding_growth_yoy": 0.0,
-    "atr_pct_of_price": 0.06842202292438239,
+    "atr_pct_of_price": 0.07005012854128097,
     "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
     "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
-    "_run_id": 1090
+    "_run_id": 1118
   },
   "9_fundamental_score": 59.0,
-  "10_technical_score": 60.0,
+  "10_technical_score": 50.0,
   "11_data_confidence": 72.0,
   "12_short_term_assessment": {
-    "score": 59.7,
+    "score": 52.7,
     "technical_view": {
       "timeframe": "daily",
       "trend": "sideways",
-      "rsi_14": 54.93942462243905,
-      "macd_histogram": 0.32943125702466247,
+      "rsi_14": 54.3964676856886,
+      "macd_histogram": 0.3962242793831541,
       "breakout": false,
       "breakdown": false
     },
     "entry_zone": {
       "low": 55.5,
-      "high": 57.8,
+      "high": 57.85,
       "basis": "near identified support plus half ATR buffer"
     },
-    "invalidation_level": 46.29
+    "invalidation_level": 46.12
   },
   "13_long_term_assessment": {
-    "score": 59.3,
+    "score": 56.3,
     "trend": {
       "timeframes": [
         "weekly",
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 70.40457837123252,
+      "ema_200_daily": 70.43578013323729,
       "price_vs_ema_200": "below"
     },
     "business_classification": "average"
   },
-  "14_investment_thesis": "Brooks Laboratories Limited (BROOKS) is classified as a 'average' business with a sideways technical trend. Balanced research score 59.5/100 (fundamental 59.0, technical 60.0, data confidence 72.0, risk 20/100 higher=worse). Supporting evidence: ROE 20.0% (>15%): capital allocated effectively; red flag: operating cash flow only 38% of net profit (profit quality).",
+  "14_investment_thesis": "Brooks Laboratories Limited (BROOKS) is classified as a 'average' business with a sideways technical trend. Balanced research score 54.5/100 (fundamental 59.0, technical 50.0, data confidence 72.0, risk 20/100 higher=worse). Supporting evidence: ROE 20.0% (>15%): capital allocated effectively; red flag: operating cash flow only 38% of net profit (profit quality).",
   "15_thesis_invalidation": [
-    "Daily close below invalidation level 46.29 (2x ATR under support)",
+    "Daily close below invalidation level 46.12 (2x ATR under support)",
     "Operating cash flow turning negative in the next annual report",
     "New critical governance or regulatory finding (currently unassessed items must be checked manually)"
   ],
@@ -474,15 +474,15 @@
     "neutral"
   ],
   "combined_scores": {
-    "long_term": 59.3,
-    "short_term": 59.7,
-    "balanced": 59.5,
+    "long_term": 56.3,
+    "short_term": 52.7,
+    "balanced": 54.5,
     "risk_score_higher_is_worse": 20
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-19 15:36 IST",
+    "generated_at": "2026-11-20 04:04 IST",
     "source": "scheduled GitHub Actions run",
-    "rotation_data_date": "2026-11-19 14:17 IST"
+    "rotation_data_date": "2026-11-19 20:39 IST"
   }
 }

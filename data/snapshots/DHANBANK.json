@@ -1,7 +1,7 @@
 {
   "symbol": "DHANBANK",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:28 IST",
+  "updated_at": "2026-11-20 04:00 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,14 +15,14 @@
   "name": "Dhanlaxmi Bank Limited",
   "scores": {
     "fundamental": 41.0,
-    "technical": 60.0,
+    "technical": 65.0,
     "data_confidence": 72.0,
     "risk": 10.0,
-    "long_term": 46.7,
-    "short_term": 54.3,
-    "balanced": 50.5
+    "long_term": 48.2,
+    "short_term": 57.8,
+    "balanced": 53.0
   },
-  "classification": "neutral",
+  "classification": "strong_technical_trend",
   "explanation": {
     "fundamental": {
       "growth": {
@@ -71,7 +71,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 11.2 (no industry benchmark): value 11.2 vs threshold 15"
+          "P/E 11.0 (no industry benchmark): value 11 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -101,15 +101,15 @@
         "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 62: 7/7 (value 62.1 vs threshold 55)",
+          "RSI 65: 7/7 (value 64.6 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 5,
         "max": 15,
         "detail": [
-          "relative volume: value 0.57 below all bands"
+          "relative volume: value 0.961 vs threshold 0.7"
         ]
       },
       "price_structure": {
@@ -123,14 +123,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (64% of range)"
+          "price mid-range between S/R (69% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -163,7 +163,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1236 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -193,7 +193,7 @@
       ]
     },
     "labels": [
-      "neutral"
+      "strong_technical_trend"
     ],
     "weights": {
       "long_term": "0.7F+0.3T",
@@ -202,7 +202,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 62.139555548786944,
+    "rsi_14": 64.6463101765556,
     "breakout": false,
     "breakdown": false,
     "support": 30.31999969482422,

@@ -1,7 +1,7 @@
 {
   "symbol": "DATAPATTNS",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:57 IST",
+  "updated_at": "2026-11-20 03:56 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 0.0,
         "max": 10,
         "detail": [
-          "P/E 96.1 (no industry benchmark): value 96.1 below all bands"
+          "P/E 95.8 (no industry benchmark): value 95.8 below all bands"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 51: 4/7 (value 51.2 vs threshold 45)",
+          "RSI 51: 4/7 (value 50.6 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.329 below all bands"
+          "relative volume: value 0.34 below all bands"
         ]
       },
       "price_structure": {
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (68% of range)"
+          "price mid-range between S/R (66% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1212 validated daily bars (value 1.21e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1211 validated daily bars (value 1.21e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -206,7 +206,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 51.1695824454573,
+    "rsi_14": 50.56656103179958,
     "breakout": false,
     "breakdown": false,
     "support": 3630.5,

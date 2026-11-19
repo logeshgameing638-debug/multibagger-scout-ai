@@ -1,7 +1,7 @@
 {
   "symbol": "DELPHIFX",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:27 IST",
+  "updated_at": "2026-11-20 03:59 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Delphi World Money Limited",
   "scores": {
     "fundamental": 28.0,
-    "technical": 53.0,
+    "technical": 58.0,
     "data_confidence": 72.0,
     "risk": 20.0,
-    "long_term": 35.5,
-    "short_term": 45.5,
-    "balanced": 40.5
+    "long_term": 37.0,
+    "short_term": 49.0,
+    "balanced": 43.0
   },
   "classification": "neutral",
   "explanation": {
@@ -71,7 +71,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 29.3 (no industry benchmark): value 29.3 vs threshold 40"
+          "P/E 29.5 (no industry benchmark): value 29.5 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -101,15 +101,15 @@
         "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 61: 7/7 (value 61.4 vs threshold 55)",
+          "RSI 64: 7/7 (value 64.3 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 5,
         "max": 15,
         "detail": [
-          "relative volume: value 0.675 below all bands"
+          "relative volume: value 0.712 vs threshold 0.7"
         ]
       },
       "price_structure": {
@@ -123,14 +123,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (57% of range)"
+          "price mid-range between S/R (62% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -163,7 +163,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1234 validated daily bars (value 1.23e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -203,7 +203,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 61.42607119348395,
+    "rsi_14": 64.34058266413649,
     "breakout": false,
     "breakdown": false,
     "support": 5.050000190734863,

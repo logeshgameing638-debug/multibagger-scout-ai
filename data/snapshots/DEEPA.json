@@ -1,7 +1,7 @@
 {
   "symbol": "DEEPA",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:27 IST",
+  "updated_at": "2026-11-20 03:58 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -14,13 +14,13 @@
   },
   "name": "DEEPA",
   "scores": {
-    "fundamental": 54.0,
-    "technical": 35.0,
+    "fundamental": 56.0,
+    "technical": 30.0,
     "data_confidence": 62.0,
     "risk": 40.0,
-    "long_term": 48.3,
-    "short_term": 40.7,
-    "balanced": 44.5
+    "long_term": 48.2,
+    "short_term": 37.8,
+    "balanced": 43.0
   },
   "classification": "high_risk",
   "explanation": {
@@ -70,10 +70,10 @@
         ]
       },
       "valuation": {
-        "points": 6,
+        "points": 8,
         "max": 10,
         "detail": [
-          "P/E 15.0 (no industry benchmark): value 15 vs threshold 25"
+          "P/E 14.9 (no industry benchmark): value 14.9 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -103,15 +103,15 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 44: 0.0/7 (value 43.8 below all bands)",
+          "RSI 44: 0.0/7 (value 43.9 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
       "volume": {
-        "points": 5,
+        "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.704 vs threshold 0.7"
+          "relative volume: value 0.639 below all bands"
         ]
       },
       "price_structure": {
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (37% of range)"
+          "price mid-range between S/R (31% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 5,
         "max": 15,
         "detail": [
-          "49 validated daily bars (value 49 vs threshold 30); providers may delay quotes ~15 min"
+          "48 validated daily bars (value 48 vs threshold 30); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -206,11 +206,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 43.76638473019507,
+    "rsi_14": 43.93977965204807,
     "breakout": false,
     "breakdown": false,
     "support": 164.7899932861328,
-    "resistance": 258.0,
+    "resistance": 277.0,
     "trend": "sideways"
   }
 }

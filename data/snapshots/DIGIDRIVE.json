@@ -1,7 +1,7 @@
 {
   "symbol": "DIGIDRIVE",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:29 IST",
+  "updated_at": "2026-11-20 04:02 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Digidrive Distributors Limited",
   "scores": {
     "fundamental": 36.0,
-    "technical": 24.0,
+    "technical": 19.0,
     "data_confidence": 72.0,
     "risk": 40.0,
-    "long_term": 32.4,
-    "short_term": 27.6,
-    "balanced": 30.0
+    "long_term": 30.9,
+    "short_term": 24.1,
+    "balanced": 27.5
   },
   "classification": "high_risk",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 6.4 (no industry benchmark): value 6.42 vs threshold 15"
+          "P/E 6.4 (no industry benchmark): value 6.36 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -103,15 +103,15 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 45: 0.0/7 (value 44.9 below all bands)",
+          "RSI 42: 0.0/7 (value 42.2 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
       "volume": {
-        "points": 5,
+        "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.773 vs threshold 0.7"
+          "relative volume: value 0.423 below all bands"
         ]
       },
       "price_structure": {
@@ -132,7 +132,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "706 validated daily bars (value 706 vs threshold 200); providers may delay quotes ~15 min"
+          "705 validated daily bars (value 705 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -206,7 +206,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 44.933456352840466,
+    "rsi_14": 42.23688753600759,
     "breakout": false,
     "breakdown": false,
     "support": 16.799999237060547,

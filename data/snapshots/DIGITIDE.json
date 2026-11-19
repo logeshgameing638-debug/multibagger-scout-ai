@@ -1,7 +1,7 @@
 {
   "symbol": "DIGITIDE",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:29 IST",
+  "updated_at": "2026-11-20 04:02 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -103,7 +103,7 @@
         "points": 8.0,
         "max": 15,
         "detail": [
-          "RSI 32: 0.0/7 (value 31.6 below all bands)",
+          "RSI 30: 0.0/7 (value 30.5 below all bands)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.311 below all bands"
+          "relative volume: value 0.339 below all bands"
         ]
       },
       "price_structure": {
@@ -132,7 +132,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "357 validated daily bars (value 357 vs threshold 200); providers may delay quotes ~15 min"
+          "356 validated daily bars (value 356 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -205,10 +205,10 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 31.5915953408619,
+    "rsi_14": 30.488099585941328,
     "breakout": false,
     "breakdown": false,
-    "support": 58.13999938964844,
+    "support": 58.220001220703125,
     "resistance": 74.83000183105469,
     "trend": "bearish"
   }

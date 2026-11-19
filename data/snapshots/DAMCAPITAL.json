@@ -1,7 +1,7 @@
 {
   "symbol": "DAMCAPITAL",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:57 IST",
+  "updated_at": "2026-11-20 03:55 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "DAM Capital Advisors Limited",
   "scores": {
     "fundamental": 46.0,
-    "technical": 52.0,
+    "technical": 60.0,
     "data_confidence": 72.0,
     "risk": 10.0,
-    "long_term": 47.8,
-    "short_term": 50.2,
-    "balanced": 49.0
+    "long_term": 50.2,
+    "short_term": 55.8,
+    "balanced": 53.0
   },
   "classification": "neutral",
   "explanation": {
@@ -98,18 +98,18 @@
         ]
       },
       "momentum": {
-        "points": 12.0,
+        "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 54: 4/7 (value 53.8 vs threshold 45)",
+          "RSI 60: 7/7 (value 60.2 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 10,
+        "points": 15,
         "max": 15,
         "detail": [
-          "relative volume: value 1.03 vs threshold 1"
+          "relative volume: value 1.95 vs threshold 1.5"
         ]
       },
       "price_structure": {
@@ -123,14 +123,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (50% of range)"
+          "price mid-range between S/R (63% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -163,7 +163,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "470 validated daily bars (value 470 vs threshold 200); providers may delay quotes ~15 min"
+          "469 validated daily bars (value 469 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -202,7 +202,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 53.80064398644188,
+    "rsi_14": 60.22962921240754,
     "breakout": false,
     "breakdown": false,
     "support": 125.0999984741211,

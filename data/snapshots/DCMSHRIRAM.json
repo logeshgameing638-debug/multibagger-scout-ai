@@ -1,7 +1,7 @@
 {
   "symbol": "DCMSHRIRAM",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:57 IST",
+  "updated_at": "2026-11-20 03:57 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "DCM Shriram Limited",
   "scores": {
     "fundamental": 51.5,
-    "technical": 27.0,
+    "technical": 19.0,
     "data_confidence": 72.0,
     "risk": 0.0,
-    "long_term": 44.1,
-    "short_term": 34.3,
-    "balanced": 39.2
+    "long_term": 41.8,
+    "short_term": 28.8,
+    "balanced": 35.2
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 10.5 (no industry benchmark): value 10.5 vs threshold 15"
+          "P/E 10.6 (no industry benchmark): value 10.6 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -100,18 +100,18 @@
         ]
       },
       "momentum": {
-        "points": 8.0,
+        "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 39: 0.0/7 (value 38.9 below all bands)",
-          "MACD histogram positive: 8.0/8"
+          "RSI 35: 0.0/7 (value 35.1 below all bands)",
+          "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
       "volume": {
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.408 below all bands"
+          "relative volume: value 0.288 below all bands"
         ]
       },
       "price_structure": {
@@ -132,7 +132,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1234 validated daily bars (value 1.23e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 38.92642935535755,
+    "rsi_14": 35.072883084145886,
     "breakout": false,
     "breakdown": false,
     "support": 866.5999755859375,

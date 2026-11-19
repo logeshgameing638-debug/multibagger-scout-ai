@@ -1,7 +1,7 @@
 {
   "symbol": "DCI",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:57 IST",
+  "updated_at": "2026-11-20 03:57 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,14 +15,14 @@
   "name": "DC Infotech and Communication Limited",
   "scores": {
     "fundamental": 42.0,
-    "technical": 70.0,
+    "technical": 62.0,
     "data_confidence": 72.0,
     "risk": 50.0,
-    "long_term": 50.4,
-    "short_term": 61.6,
-    "balanced": 56.0
+    "long_term": 48.0,
+    "short_term": 56.0,
+    "balanced": 52.0
   },
-  "classification": "high_risk,strong_technical_trend",
+  "classification": "high_risk",
   "explanation": {
     "fundamental": {
       "growth": {
@@ -73,7 +73,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 26.7 (no industry benchmark): value 26.7 vs threshold 40"
+          "P/E 26.8 (no industry benchmark): value 26.8 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -100,18 +100,18 @@
         ]
       },
       "momentum": {
-        "points": 15.0,
+        "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 70: 7/7 (value 70 vs threshold 55)",
+          "RSI 53: 4/7 (value 52.8 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 15,
+        "points": 10,
         "max": 15,
         "detail": [
-          "relative volume: value 4.83 vs threshold 1.5"
+          "relative volume: value 1.04 vs threshold 1"
         ]
       },
       "price_structure": {
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (42% of range)"
+          "price mid-range between S/R (75% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1234 validated daily bars (value 1.23e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -198,8 +198,7 @@
       ]
     },
     "labels": [
-      "high_risk",
-      "strong_technical_trend"
+      "high_risk"
     ],
     "weights": {
       "long_term": "0.7F+0.3T",
@@ -208,11 +207,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 69.96782537511135,
+    "rsi_14": 52.752881725111266,
     "breakout": false,
     "breakdown": false,
     "support": 293.20001220703125,
-    "resistance": 464.0,
+    "resistance": 347.0,
     "trend": "bullish"
   }
 }

@@ -1,7 +1,7 @@
 {
   "symbol": "DELTACORP",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:27 IST",
+  "updated_at": "2026-11-20 03:59 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Delta Corp Limited",
   "scores": {
     "fundamental": 32.0,
-    "technical": 55.0,
+    "technical": 60.0,
     "data_confidence": 72.0,
     "risk": 10.0,
-    "long_term": 38.9,
-    "short_term": 48.1,
-    "balanced": 43.5
+    "long_term": 40.4,
+    "short_term": 51.6,
+    "balanced": 46.0
   },
   "classification": "neutral",
   "explanation": {
@@ -93,46 +93,46 @@
         ]
       },
       "ema_alignment": {
-        "points": 8,
+        "points": 15,
         "max": 15,
         "detail": [
-          "price above EMA50, partial alignment"
+          "full bullish alignment (price > 20 > 50 > 100 > 200)"
         ]
       },
       "momentum": {
-        "points": 12.0,
+        "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 50: 4/7 (value 50 vs threshold 45)",
+          "RSI 57: 7/7 (value 57 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 10,
+        "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 1.12 vs threshold 1"
+          "relative volume: value 0.51 below all bands"
         ]
       },
       "price_structure": {
-        "points": 5,
+        "points": 10,
         "max": 10,
         "detail": [
-          "consolidation / mixed"
+          "uptrend (higher highs, higher lows)"
         ]
       },
       "support_resistance": {
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (43% of range)"
+          "price mid-range between S/R (63% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1236 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -204,11 +204,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 50.028455796426606,
+    "rsi_14": 57.02178125798604,
     "breakout": false,
     "breakdown": false,
     "support": 69.6500015258789,
-    "resistance": 88.5,
-    "trend": "sideways"
+    "resistance": 88.5999984741211,
+    "trend": "bullish"
   }
 }

@@ -1,6 +1,150 @@
 {
-  "generated_at": "2026-11-20 02:50 IST",
+  "generated_at": "2026-11-20 04:03 IST",
   "alerts": [
+    {
+      "symbol": "ANANTRAJ",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "ANANTRAJ balanced score moved -11.0 pts (32.5 -> 21.5)",
+      "data_date": "2026-11-20 03:57 IST",
+      "detected_at": "2026-11-20 04:03 IST"
+    },
+    {
+      "symbol": "ASAHIINDIA",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "ASAHIINDIA RSI(14) 80 >= 70 (overbought zone)",
+      "data_date": "2026-11-20 03:56 IST",
+      "detected_at": "2026-11-20 04:03 IST"
+    },
+    {
+      "symbol": "AVTNPL",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "AVTNPL balanced score moved -26.4 pts (49.2 -> 22.8)",
+      "data_date": "2026-11-20 04:02 IST",
+      "detected_at": "2026-11-20 04:03 IST"
+    },
+    {
+      "symbol": "DABUR",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "DABUR balanced score moved -10.5 pts (58.5 -> 48.0)",
+      "data_date": "2026-11-20 03:55 IST",
+      "detected_at": "2026-11-20 04:03 IST"
+    },
+    {
+      "symbol": "DANGEE",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "DANGEE balanced score moved -17.0 pts (37.2 -> 20.2)",
+      "data_date": "2026-11-20 03:55 IST",
+      "detected_at": "2026-11-20 04:03 IST"
+    },
+    {
+      "symbol": "DBOL",
+      "type": "classification_change",
+      "severity": "info",
+      "message": "DBOL classification changed high_risk,attractive_valuation,strong_technical_trend -> high_risk,attractive_valuation",
+      "data_date": "2026-11-20 03:56 IST",
+      "detected_at": "2026-11-20 04:03 IST"
+    },
+    {
+      "symbol": "DBSTOCKBRO",
+      "type": "classification_change",
+      "severity": "info",
+      "message": "DBSTOCKBRO classification changed strong_technical_trend -> neutral",
+      "data_date": "2026-11-20 03:57 IST",
+      "detected_at": "2026-11-20 04:03 IST"
+    },
+    {
+      "symbol": "DCI",
+      "type": "classification_change",
+      "severity": "info",
+      "message": "DCI classification changed high_risk,strong_technical_trend -> high_risk",
+      "data_date": "2026-11-20 03:57 IST",
+      "detected_at": "2026-11-20 04:03 IST"
+    },
+    {
+      "symbol": "DCMFINSERV",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "DCMFINSERV balanced score moved +11.5 pts (24.5 -> 36.0)",
+      "data_date": "2026-11-20 03:57 IST",
+      "detected_at": "2026-11-20 04:03 IST"
+    },
+    {
+      "symbol": "DDEVPLSTIK",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "DDEVPLSTIK balanced score moved +11.5 pts (37.2 -> 48.7)",
+      "data_date": "2026-11-20 03:58 IST",
+      "detected_at": "2026-11-20 04:03 IST"
+    },
+    {
+      "symbol": "DEEPAKFERT",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "DEEPAKFERT RSI(14) 71 >= 70 (overbought zone)",
+      "data_date": "2026-11-20 03:58 IST",
+      "detected_at": "2026-11-20 04:03 IST"
+    },
+    {
+      "symbol": "DHANBANK",
+      "type": "classification_change",
+      "severity": "info",
+      "message": "DHANBANK classification changed neutral -> strong_technical_trend",
+      "data_date": "2026-11-20 04:00 IST",
+      "detected_at": "2026-11-20 04:03 IST"
+    },
+    {
+      "symbol": "DIAMINESQ",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "DIAMINESQ balanced score moved +11.5 pts (20.0 -> 31.5)",
+      "data_date": "2026-11-20 04:01 IST",
+      "detected_at": "2026-11-20 04:03 IST"
+    },
+    {
+      "symbol": "DICIND",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "DICIND balanced score moved -11.4 pts (43.2 -> 31.8)",
+      "data_date": "2026-11-20 04:02 IST",
+      "detected_at": "2026-11-20 04:03 IST"
+    },
+    {
+      "symbol": "DIVGIITTS",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "DIVGIITTS RSI(14) 27 <= 30 (oversold zone)",
+      "data_date": "2026-11-20 04:02 IST",
+      "detected_at": "2026-11-20 04:03 IST"
+    },
+    {
+      "symbol": "DIVISLAB",
+      "type": "classification_change",
+      "severity": "info",
+      "message": "DIVISLAB classification changed strong_technical_trend -> neutral",
+      "data_date": "2026-11-20 04:03 IST",
+      "detected_at": "2026-11-20 04:03 IST"
+    },
+    {
+      "symbol": "SANGAMIND",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "SANGAMIND RSI(14) 70 >= 70 (overbought zone)",
+      "data_date": "2026-11-20 03:55 IST",
+      "detected_at": "2026-11-20 04:03 IST"
+    },
+    {
+      "symbol": "SPELS",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "SPELS RSI(14) 10 <= 30 (oversold zone)",
+      "data_date": "2026-11-20 03:59 IST",
+      "detected_at": "2026-11-20 04:03 IST"
+    },
     {
       "symbol": "CHEMPLASTS",
       "type": "rsi_overbought",
@@ -451,8 +595,8 @@
     }
   ],
   "stats": {
-    "snapshots_scanned": 766,
-    "new_alerts": 6,
-    "active_alerts": 56
+    "snapshots_scanned": 827,
+    "new_alerts": 18,
+    "active_alerts": 74
   }
 }

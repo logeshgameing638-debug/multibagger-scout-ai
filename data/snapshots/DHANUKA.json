@@ -1,7 +1,7 @@
 {
   "symbol": "DHANUKA",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:28 IST",
+  "updated_at": "2026-11-20 04:01 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Dhanuka Agritech Limited",
   "scores": {
     "fundamental": 60.0,
-    "technical": 34.0,
+    "technical": 45.0,
     "data_confidence": 72.0,
     "risk": 0.0,
-    "long_term": 52.2,
-    "short_term": 41.8,
-    "balanced": 47.0
+    "long_term": 55.5,
+    "short_term": 49.5,
+    "balanced": 52.5
   },
   "classification": "neutral",
   "explanation": {
@@ -93,17 +93,17 @@
         ]
       },
       "ema_alignment": {
-        "points": 0,
+        "points": 8,
         "max": 15,
         "detail": [
-          "below key EMAs"
+          "price above EMA50, partial alignment"
         ]
       },
       "momentum": {
-        "points": 12.0,
+        "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 51: 4/7 (value 51.1 vs threshold 45)",
+          "RSI 56: 7/7 (value 55.7 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.231 below all bands"
+          "relative volume: value 0.608 below all bands"
         ]
       },
       "price_structure": {
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (48% of range)"
+          "price mid-range between S/R (57% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1234 validated daily bars (value 1.23e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 51.09309270601468,
+    "rsi_14": 55.71745329897023,
     "breakout": false,
     "breakdown": false,
     "support": 820.0,

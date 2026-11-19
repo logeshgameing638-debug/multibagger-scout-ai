@@ -1,7 +1,7 @@
 {
   "symbol": "DCMFINSERV",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:57 IST",
+  "updated_at": "2026-11-20 03:57 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "DCM Financial Services Limited",
   "scores": {
     "fundamental": 12.0,
-    "technical": 37.0,
+    "technical": 60.0,
     "data_confidence": 72.0,
     "risk": 30.0,
-    "long_term": 19.5,
-    "short_term": 29.5,
-    "balanced": 24.5
+    "long_term": 26.4,
+    "short_term": 45.6,
+    "balanced": 36.0
   },
   "classification": "high_risk",
   "explanation": {
@@ -91,25 +91,25 @@
         ]
       },
       "ema_alignment": {
-        "points": 0,
+        "points": 8,
         "max": 15,
         "detail": [
-          "below key EMAs"
+          "price above EMA50, partial alignment"
         ]
       },
       "momentum": {
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 48: 4/7 (value 48.4 vs threshold 45)",
+          "RSI 54: 4/7 (value 54 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 15,
         "max": 15,
         "detail": [
-          "relative volume: value 0.026 below all bands"
+          "relative volume: value 4.36 vs threshold 1.5"
         ]
       },
       "price_structure": {
@@ -123,14 +123,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (67% of range)"
+          "price mid-range between S/R (60% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -163,7 +163,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1234 validated daily bars (value 1.23e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1233 validated daily bars (value 1.23e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -203,11 +203,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 48.39309732424732,
+    "rsi_14": 53.97420321559851,
     "breakout": false,
     "breakdown": false,
     "support": 3.8399999141693115,
-    "resistance": 5.269999980926514,
-    "trend": "bearish"
+    "resistance": 5.769999980926514,
+    "trend": "sideways"
   }
 }

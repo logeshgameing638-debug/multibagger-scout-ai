@@ -1,7 +1,7 @@
 {
   "symbol": "DIFFNKG",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:29 IST",
+  "updated_at": "2026-11-20 04:02 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Diffusion Engineers Limited",
   "scores": {
     "fundamental": 52.0,
-    "technical": 49.0,
+    "technical": 57.0,
     "data_confidence": 72.0,
     "risk": 20.0,
-    "long_term": 51.1,
-    "short_term": 49.9,
-    "balanced": 50.5
+    "long_term": 53.5,
+    "short_term": 55.5,
+    "balanced": 54.5
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 28.2 (no industry benchmark): value 28.2 vs threshold 40"
+          "P/E 29.3 (no industry benchmark): value 29.3 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -100,18 +100,18 @@
         ]
       },
       "momentum": {
-        "points": 12.0,
+        "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 53: 4/7 (value 53.4 vs threshold 45)",
+          "RSI 60: 7/7 (value 60 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 5,
         "max": 15,
         "detail": [
-          "relative volume: value 0.534 below all bands"
+          "relative volume: value 0.833 vs threshold 0.7"
         ]
       },
       "price_structure": {
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (54% of range)"
+          "price mid-range between S/R (69% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "526 validated daily bars (value 526 vs threshold 200); providers may delay quotes ~15 min"
+          "525 validated daily bars (value 525 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -205,7 +205,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 53.42171046742446,
+    "rsi_14": 59.95709077940977,
     "breakout": false,
     "breakdown": false,
     "support": 384.70001220703125,

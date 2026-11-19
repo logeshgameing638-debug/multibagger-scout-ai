@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-20 02:50 IST",
+  "generated_at": "2026-11-20 04:03 IST",
   "reports": [
     {
       "symbol": "EICHERMOT",
       "exchange": "NSE",
-      "status": "partial",
+      "status": "success",
       "agent_statuses": {
         "fundamental": "success",
         "technical": "success",
         "business": "success",
         "valuation": "success",
         "risk": "success",
-        "news": "failed",
+        "news": "success",
         "scoring": "success"
       },
       "file": "data/automation/reports/NSE_EICHERMOT.json",
@@ -24,14 +24,14 @@
     {
       "symbol": "EIHOTEL",
       "exchange": "NSE",
-      "status": "partial",
+      "status": "success",
       "agent_statuses": {
         "fundamental": "success",
         "technical": "success",
         "business": "success",
         "valuation": "success",
         "risk": "success",
-        "news": "failed",
+        "news": "success",
         "scoring": "success"
       },
       "file": "data/automation/reports/NSE_EIHOTEL.json",
@@ -42,36 +42,16 @@
       }
     },
     {
-      "symbol": "DIVISLAB",
-      "exchange": "NSE",
-      "status": "partial",
-      "agent_statuses": {
-        "fundamental": "success",
-        "technical": "success",
-        "business": "success",
-        "valuation": "success",
-        "risk": "success",
-        "news": "failed",
-        "scoring": "success"
-      },
-      "file": "data/automation/reports/NSE_DIVISLAB.json",
-      "exports": {
-        "json": "data/automation/reports/NSE_DIVISLAB.json",
-        "html": "data/automation/reports/NSE_DIVISLAB.html",
-        "csv": "data/automation/reports/NSE_DIVISLAB.csv"
-      }
-    },
-    {
       "symbol": "BANCOINDIA",
       "exchange": "NSE",
-      "status": "partial",
+      "status": "success",
       "agent_statuses": {
         "fundamental": "success",
         "technical": "success",
         "business": "success",
         "valuation": "success",
         "risk": "success",
-        "news": "failed",
+        "news": "success",
         "scoring": "success"
       },
       "file": "data/automation/reports/NSE_BANCOINDIA.json",
@@ -84,14 +64,14 @@
     {
       "symbol": "CEMPRO",
       "exchange": "NSE",
-      "status": "partial",
+      "status": "success",
       "agent_statuses": {
         "fundamental": "success",
         "technical": "success",
         "business": "success",
         "valuation": "success",
         "risk": "success",
-        "news": "failed",
+        "news": "success",
         "scoring": "success"
       },
       "file": "data/automation/reports/NSE_CEMPRO.json",
@@ -104,14 +84,14 @@
     {
       "symbol": "AJAXENGG",
       "exchange": "NSE",
-      "status": "partial",
+      "status": "success",
       "agent_statuses": {
         "fundamental": "success",
         "technical": "success",
         "business": "success",
         "valuation": "success",
         "risk": "success",
-        "news": "failed",
+        "news": "success",
         "scoring": "success"
       },
       "file": "data/automation/reports/NSE_AJAXENGG.json",
@@ -124,14 +104,14 @@
     {
       "symbol": "ALLDIGI",
       "exchange": "NSE",
-      "status": "partial",
+      "status": "success",
       "agent_statuses": {
         "fundamental": "success",
         "technical": "success",
         "business": "success",
         "valuation": "success",
         "risk": "success",
-        "news": "failed",
+        "news": "success",
         "scoring": "success"
       },
       "file": "data/automation/reports/NSE_ALLDIGI.json",
@@ -144,14 +124,14 @@
     {
       "symbol": "CUPID",
       "exchange": "NSE",
-      "status": "partial",
+      "status": "success",
       "agent_statuses": {
         "fundamental": "success",
         "technical": "success",
         "business": "success",
         "valuation": "success",
         "risk": "success",
-        "news": "failed",
+        "news": "success",
         "scoring": "success"
       },
       "file": "data/automation/reports/NSE_CUPID.json",
@@ -164,14 +144,14 @@
     {
       "symbol": "ENDURANCE",
       "exchange": "NSE",
-      "status": "partial",
+      "status": "success",
       "agent_statuses": {
         "fundamental": "success",
         "technical": "success",
         "business": "success",
         "valuation": "success",
         "risk": "success",
-        "news": "failed",
+        "news": "success",
         "scoring": "success"
       },
       "file": "data/automation/reports/NSE_ENDURANCE.json",
@@ -184,14 +164,14 @@
     {
       "symbol": "BBOX",
       "exchange": "NSE",
-      "status": "partial",
+      "status": "success",
       "agent_statuses": {
         "fundamental": "success",
         "technical": "success",
         "business": "success",
         "valuation": "success",
         "risk": "success",
-        "news": "failed",
+        "news": "success",
         "scoring": "success"
       },
       "file": "data/automation/reports/NSE_BBOX.json",
@@ -199,6 +179,26 @@
         "json": "data/automation/reports/NSE_BBOX.json",
         "html": "data/automation/reports/NSE_BBOX.html",
         "csv": "data/automation/reports/NSE_BBOX.csv"
+      }
+    },
+    {
+      "symbol": "BROOKS",
+      "exchange": "NSE",
+      "status": "success",
+      "agent_statuses": {
+        "fundamental": "success",
+        "technical": "success",
+        "business": "success",
+        "valuation": "success",
+        "risk": "success",
+        "news": "success",
+        "scoring": "success"
+      },
+      "file": "data/automation/reports/NSE_BROOKS.json",
+      "exports": {
+        "json": "data/automation/reports/NSE_BROOKS.json",
+        "html": "data/automation/reports/NSE_BROOKS.html",
+        "csv": "data/automation/reports/NSE_BROOKS.csv"
       }
     }
   ]

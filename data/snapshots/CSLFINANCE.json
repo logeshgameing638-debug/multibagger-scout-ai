@@ -1,7 +1,7 @@
 {
   "symbol": "CSLFINANCE",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:56 IST",
+  "updated_at": "2026-11-20 03:54 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -71,7 +71,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 6.1 (no industry benchmark): value 6.07 vs threshold 15"
+          "P/E 6.1 (no industry benchmark): value 6.06 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -101,7 +101,7 @@
         "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 64: 7/7 (value 63.8 vs threshold 55)",
+          "RSI 64: 7/7 (value 63.9 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -109,7 +109,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.12 below all bands"
+          "relative volume: value 0.296 below all bands"
         ]
       },
       "price_structure": {
@@ -130,7 +130,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -163,7 +163,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1068 validated daily bars (value 1.07e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1067 validated daily bars (value 1.07e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -203,7 +203,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 63.76174640480881,
+    "rsi_14": 63.941791388111284,
     "breakout": false,
     "breakdown": false,
     "support": 210.0,

@@ -1,7 +1,7 @@
 {
   "symbol": "DLF",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:29 IST",
+  "updated_at": "2026-11-20 04:03 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -103,7 +103,7 @@
         "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 70: 7/7 (value 70 vs threshold 55)",
+          "RSI 69: 7/7 (value 69.2 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.597 below all bands"
+          "relative volume: value 0.553 below all bands"
         ]
       },
       "price_structure": {
@@ -132,7 +132,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1236 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 70.04924820766757,
+    "rsi_14": 69.17474534550138,
     "breakout": false,
     "breakdown": false,
     "support": 647.5999755859375,

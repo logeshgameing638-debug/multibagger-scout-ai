@@ -1,7 +1,7 @@
 {
   "symbol": "CUB",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:56 IST",
+  "updated_at": "2026-11-20 03:54 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "City Union Bank Limited",
   "scores": {
     "fundamental": 28.0,
-    "technical": 52.0,
+    "technical": 57.0,
     "data_confidence": 72.0,
     "risk": 0.0,
-    "long_term": 35.2,
-    "short_term": 44.8,
-    "balanced": 40.0
+    "long_term": 36.7,
+    "short_term": 48.3,
+    "balanced": 42.5
   },
   "classification": "neutral",
   "explanation": {
@@ -71,7 +71,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 14.6 (no industry benchmark): value 14.6 vs threshold 15"
+          "P/E 14.7 (no industry benchmark): value 14.7 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -101,15 +101,15 @@
         "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 57: 7/7 (value 56.8 vs threshold 55)",
+          "RSI 57: 7/7 (value 56.6 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 5,
         "max": 15,
         "detail": [
-          "relative volume: value 0.589 below all bands"
+          "relative volume: value 0.746 vs threshold 0.7"
         ]
       },
       "price_structure": {
@@ -123,14 +123,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (80% of range)"
+          "price mid-range between S/R (79% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -163,7 +163,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1236 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -202,11 +202,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 56.766219494079245,
+    "rsi_14": 56.629462219698006,
     "breakout": false,
     "breakdown": false,
     "support": 206.41000366210938,
-    "resistance": 239.0,
+    "resistance": 239.1699981689453,
     "trend": "bullish"
   }
 }

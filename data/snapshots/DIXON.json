@@ -1,7 +1,7 @@
 {
   "symbol": "DIXON",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:29 IST",
+  "updated_at": "2026-11-20 04:03 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Dixon Technologies (India) Limited",
   "scores": {
     "fundamental": 61.0,
-    "technical": 50.0,
+    "technical": 34.0,
     "data_confidence": 72.0,
     "risk": 0.0,
-    "long_term": 57.7,
-    "short_term": 53.3,
-    "balanced": 55.5
+    "long_term": 52.9,
+    "short_term": 42.1,
+    "balanced": 47.5
   },
   "classification": "neutral",
   "explanation": {
@@ -93,25 +93,25 @@
         ]
       },
       "ema_alignment": {
-        "points": 8,
+        "points": 0,
         "max": 15,
         "detail": [
-          "price above EMA50, partial alignment"
+          "below key EMAs"
         ]
       },
       "momentum": {
-        "points": 15.0,
+        "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 58: 7/7 (value 57.8 vs threshold 55)",
+          "RSI 51: 4/7 (value 51.4 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 5,
+        "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.867 vs threshold 0.7"
+          "relative volume: value 0.68 below all bands"
         ]
       },
       "price_structure": {
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (75% of range)"
+          "price mid-range between S/R (71% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1236 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -204,11 +204,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 57.755669067310045,
+    "rsi_14": 51.38371238646079,
     "breakout": false,
     "breakdown": false,
     "support": 10932.0,
-    "resistance": 13766.0,
+    "resistance": 13290.0,
     "trend": "sideways"
   }
 }

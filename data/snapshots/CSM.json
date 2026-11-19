@@ -1,7 +1,7 @@
 {
   "symbol": "CSM",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:56 IST",
+  "updated_at": "2026-11-20 03:54 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "CSM Technologies Limited",
   "scores": {
     "fundamental": 46.0,
-    "technical": 33.0,
+    "technical": 42.0,
     "data_confidence": 62.0,
     "risk": 40.0,
-    "long_term": 42.1,
-    "short_term": 36.9,
-    "balanced": 39.5
+    "long_term": 44.8,
+    "short_term": 43.2,
+    "balanced": 44.0
   },
   "classification": "high_risk",
   "explanation": {
@@ -103,15 +103,15 @@
         "points": 8.0,
         "max": 15,
         "detail": [
-          "RSI 40: 0.0/7 (value 39.6 below all bands)",
+          "RSI 39: 0.0/7 (value 38.8 below all bands)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 15,
         "max": 15,
         "detail": [
-          "relative volume: value 0.116 below all bands"
+          "relative volume: value 2.06 vs threshold 1.5"
         ]
       },
       "price_structure": {
@@ -122,17 +122,17 @@
         ]
       },
       "support_resistance": {
-        "points": 10,
+        "points": 4,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (32% of range)"
+          "near support: watch for breakdown or bounce confirmation"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 5,
         "max": 15,
         "detail": [
-          "97 validated daily bars (value 97 vs threshold 30); providers may delay quotes ~15 min"
+          "96 validated daily bars (value 96 vs threshold 30); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -206,11 +206,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 39.61067627217399,
+    "rsi_14": 38.76120109526539,
     "breakout": false,
     "breakdown": false,
     "support": 76.26000213623047,
-    "resistance": 87.55999755859375,
+    "resistance": 91.0,
     "trend": "sideways"
   }
 }

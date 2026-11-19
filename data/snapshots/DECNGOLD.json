@@ -1,7 +1,7 @@
 {
   "symbol": "DECNGOLD",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:58 IST",
+  "updated_at": "2026-11-20 03:58 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Deccan Gold Mines Limited",
   "scores": {
     "fundamental": 22.5,
-    "technical": 34.0,
+    "technical": 30.0,
     "data_confidence": 62.0,
     "risk": 40.0,
-    "long_term": 25.9,
-    "short_term": 30.5,
-    "balanced": 28.2
+    "long_term": 24.8,
+    "short_term": 27.8,
+    "balanced": 26.2
   },
   "classification": "high_risk",
   "explanation": {
@@ -100,10 +100,10 @@
         ]
       },
       "momentum": {
-        "points": 12.0,
+        "points": 8.0,
         "max": 15,
         "detail": [
-          "RSI 46: 4/7 (value 46.4 vs threshold 45)",
+          "RSI 39: 0.0/7 (value 39.1 below all bands)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.628 below all bands"
+          "relative volume: value 0.571 below all bands"
         ]
       },
       "price_structure": {
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (46% of range)"
+          "price mid-range between S/R (31% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 5,
         "max": 15,
         "detail": [
-          "64 validated daily bars (value 64 vs threshold 30); providers may delay quotes ~15 min"
+          "63 validated daily bars (value 63 vs threshold 30); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -206,11 +206,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 46.36908274266158,
+    "rsi_14": 39.11861722906676,
     "breakout": false,
     "breakdown": false,
     "support": 159.0,
-    "resistance": 204.0,
+    "resistance": 197.8000030517578,
     "trend": "sideways"
   }
 }

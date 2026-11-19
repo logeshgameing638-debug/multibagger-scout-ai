@@ -1,7 +1,7 @@
 {
   "symbol": "DIACABS",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:28 IST",
+  "updated_at": "2026-11-20 04:01 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Diamond Power Infrastructure Limited",
   "scores": {
     "fundamental": 32.0,
-    "technical": 54.0,
+    "technical": 42.0,
     "data_confidence": 72.0,
     "risk": 50.0,
-    "long_term": 38.6,
-    "short_term": 47.4,
-    "balanced": 43.0
+    "long_term": 35.0,
+    "short_term": 39.0,
+    "balanced": 37.0
   },
   "classification": "high_risk",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 0.0,
         "max": 10,
         "detail": [
-          "P/E 72.0 (no industry benchmark): value 72 below all bands"
+          "P/E 71.8 (no industry benchmark): value 71.8 below all bands"
         ]
       },
       "industry_growth": {
@@ -93,25 +93,25 @@
         ]
       },
       "ema_alignment": {
-        "points": 15,
+        "points": 8,
         "max": 15,
         "detail": [
-          "full bullish alignment (price > 20 > 50 > 100 > 200)"
+          "price above EMA50, partial alignment"
         ]
       },
       "momentum": {
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 53: 4/7 (value 52.5 vs threshold 45)",
+          "RSI 51: 4/7 (value 50.5 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 5,
+        "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.968 vs threshold 0.7"
+          "relative volume: value 0.627 below all bands"
         ]
       },
       "price_structure": {
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (67% of range)"
+          "price mid-range between S/R (63% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1236 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -207,11 +207,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 52.518570527449675,
+    "rsi_14": 50.502509135976865,
     "breakout": false,
     "breakdown": false,
     "support": 303.1000061035156,
     "resistance": 398.5,
-    "trend": "bullish"
+    "trend": "sideways"
   }
 }

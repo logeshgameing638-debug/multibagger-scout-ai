@@ -1,7 +1,7 @@
 {
   "symbol": "DHUNINV",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:28 IST",
+  "updated_at": "2026-11-20 04:01 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Dhunseri Investments Limited",
   "scores": {
     "fundamental": 33.0,
-    "technical": 47.0,
+    "technical": 45.0,
     "data_confidence": 72.0,
     "risk": 10.0,
-    "long_term": 37.2,
-    "short_term": 42.8,
-    "balanced": 40.0
+    "long_term": 36.6,
+    "short_term": 41.4,
+    "balanced": 39.0
   },
   "classification": "neutral",
   "explanation": {
@@ -71,7 +71,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 6.2 (no industry benchmark): value 6.21 vs threshold 15"
+          "P/E 6.2 (no industry benchmark): value 6.18 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -98,18 +98,18 @@
         ]
       },
       "momentum": {
-        "points": 12.0,
+        "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 53: 4/7 (value 52.7 vs threshold 45)",
+          "RSI 63: 7/7 (value 62.9 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 5,
+        "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.707 vs threshold 0.7"
+          "relative volume: value 0.0835 below all bands"
         ]
       },
       "price_structure": {
@@ -123,14 +123,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (44% of range)"
+          "price mid-range between S/R (57% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -163,7 +163,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1234 validated daily bars (value 1.23e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -202,7 +202,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 52.66793786468219,
+    "rsi_14": 62.884968332339426,
     "breakout": false,
     "breakdown": false,
     "support": 790.0999755859375,

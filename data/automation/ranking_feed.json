@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-20 02:50 IST",
-  "rotation_last_run_at": "2026-11-20 02:50 IST",
+  "generated_at": "2026-11-20 04:03 IST",
+  "rotation_last_run_at": "2026-11-20 04:03 IST",
   "cycle_started_at": "2026-11-19 09:36 IST",
   "universe_size": 4945,
-  "ranked_count": 766,
+  "ranked_count": 827,
   "excluded_count": 0,
   "top": [
     {
@@ -41,22 +41,6 @@
       "rank": 2
     },
     {
-      "symbol": "DIVISLAB",
-      "exchange": "NSE",
-      "verdict": "strong_technical_trend - balanced 62.0, stored risk 10.0",
-      "name": "Divi's Laboratories Limited",
-      "balanced": 62.0,
-      "long_term": 60.8,
-      "short_term": 63.2,
-      "risk": 10.0,
-      "data_confidence": 72.0,
-      "classification": "strong_technical_trend",
-      "status": "complete",
-      "data_date": "2026-11-19 15:29 IST",
-      "missing_agents": [],
-      "rank": 3
-    },
-    {
       "symbol": "BANCOINDIA",
       "exchange": "NSE",
       "verdict": "neutral - balanced 61.5, stored risk 0.0",
@@ -70,7 +54,7 @@
       "status": "complete",
       "data_date": "2026-11-19 14:11 IST",
       "missing_agents": [],
-      "rank": 4
+      "rank": 3
     },
     {
       "symbol": "CEMPRO",
@@ -86,7 +70,7 @@
       "status": "complete",
       "data_date": "2026-11-19 20:44 IST",
       "missing_agents": [],
-      "rank": 5
+      "rank": 4
     },
     {
       "symbol": "AJAXENGG",
@@ -102,7 +86,7 @@
       "status": "complete",
       "data_date": "2026-11-19 09:57 IST",
       "missing_agents": [],
-      "rank": 6
+      "rank": 5
     },
     {
       "symbol": "ALLDIGI",
@@ -118,7 +102,7 @@
       "status": "complete",
       "data_date": "2026-11-19 09:58 IST",
       "missing_agents": [],
-      "rank": 7
+      "rank": 6
     },
     {
       "symbol": "CUPID",
@@ -132,9 +116,9 @@
       "data_confidence": 72.0,
       "classification": "neutral",
       "status": "complete",
-      "data_date": "2026-11-19 14:56 IST",
+      "data_date": "2026-11-20 03:54 IST",
       "missing_agents": [],
-      "rank": 8
+      "rank": 7
     },
     {
       "symbol": "ENDURANCE",
@@ -150,7 +134,7 @@
       "status": "complete",
       "data_date": "2026-11-19 15:33 IST",
       "missing_agents": [],
-      "rank": 9
+      "rank": 8
     },
     {
       "symbol": "BBOX",
@@ -166,7 +150,7 @@
       "status": "complete",
       "data_date": "2026-11-19 14:11 IST",
       "missing_agents": [],
-      "rank": 10
+      "rank": 9
     },
     {
       "symbol": "BROOKS",
@@ -181,6 +165,22 @@
       "classification": "neutral",
       "status": "complete",
       "data_date": "2026-11-19 20:39 IST",
+      "missing_agents": [],
+      "rank": 10
+    },
+    {
+      "symbol": "DIVISLAB",
+      "exchange": "NSE",
+      "verdict": "neutral - balanced 59.5, stored risk 10.0",
+      "name": "Divi's Laboratories Limited",
+      "balanced": 59.5,
+      "long_term": 59.3,
+      "short_term": 59.7,
+      "risk": 10.0,
+      "data_confidence": 72.0,
+      "classification": "neutral",
+      "status": "complete",
+      "data_date": "2026-11-20 04:03 IST",
       "missing_agents": [],
       "rank": 11
     },
@@ -267,22 +267,6 @@
       "rank": 16
     },
     {
-      "symbol": "DABUR",
-      "exchange": "NSE",
-      "verdict": "neutral - balanced 58.5, stored risk 0.0",
-      "name": "Dabur India Limited",
-      "balanced": 58.5,
-      "long_term": 58.7,
-      "short_term": 58.3,
-      "risk": 0.0,
-      "data_confidence": 72.0,
-      "classification": "neutral",
-      "status": "complete",
-      "data_date": "2026-11-19 14:56 IST",
-      "missing_agents": [],
-      "rank": 17
-    },
-    {
       "symbol": "ETHOSLTD",
       "exchange": "NSE",
       "verdict": "strong_technical_trend - balanced 58.5, stored risk 20.0",
@@ -296,7 +280,7 @@
       "status": "complete",
       "data_date": "2026-11-19 15:34 IST",
       "missing_agents": [],
-      "rank": 18
+      "rank": 17
     },
     {
       "symbol": "BBTC",
@@ -312,7 +296,7 @@
       "status": "complete",
       "data_date": "2026-11-19 14:11 IST",
       "missing_agents": [],
-      "rank": 19
+      "rank": 18
     },
     {
       "symbol": "MASTERTR",
@@ -330,7 +314,41 @@
       "missing_agents": [
         "news"
       ],
+      "rank": 19
+    },
+    {
+      "symbol": "MODINATUR",
+      "exchange": "BSE",
+      "verdict": "neutral - balanced 58.0, stored risk 10.0, partial data",
+      "name": "Modi Naturals Limited",
+      "balanced": 58.0,
+      "long_term": 60.0,
+      "short_term": 56.0,
+      "risk": 10.0,
+      "data_confidence": 72.0,
+      "classification": "neutral",
+      "status": "partial",
+      "data_date": "2026-11-20 04:02 IST",
+      "missing_agents": [
+        "valuation"
+      ],
       "rank": 20
+    },
+    {
+      "symbol": "JYOTIRES",
+      "exchange": "BSE",
+      "verdict": "neutral - balanced 57.8, stored risk 10.0",
+      "name": "Jyoti Resins and Adhesives Limited",
+      "balanced": 57.8,
+      "long_term": 59.2,
+      "short_term": 56.2,
+      "risk": 10.0,
+      "data_confidence": 72.0,
+      "classification": "neutral",
+      "status": "complete",
+      "data_date": "2026-11-20 03:56 IST",
+      "missing_agents": [],
+      "rank": 21
     },
     {
       "symbol": "BLS",
@@ -346,7 +364,7 @@
       "status": "complete",
       "data_date": "2026-11-19 20:36 IST",
       "missing_agents": [],
-      "rank": 21
+      "rank": 22
     },
     {
       "symbol": "BRITANNIA",
@@ -362,7 +380,23 @@
       "status": "complete",
       "data_date": "2026-11-19 20:39 IST",
       "missing_agents": [],
-      "rank": 22
+      "rank": 23
+    },
+    {
+      "symbol": "ROTO",
+      "exchange": "BSE",
+      "verdict": "neutral - balanced 57.5, stored risk 10.0",
+      "name": "Roto Pumps Limited",
+      "balanced": 57.5,
+      "long_term": 55.3,
+      "short_term": 59.7,
+      "risk": 10.0,
+      "data_confidence": 72.0,
+      "classification": "neutral",
+      "status": "complete",
+      "data_date": "2026-11-20 04:01 IST",
+      "missing_agents": [],
+      "rank": 24
     },
     {
       "symbol": "COFORGE",
@@ -380,40 +414,6 @@
       "missing_agents": [
         "news"
       ],
-      "rank": 23
-    },
-    {
-      "symbol": "DOMS",
-      "exchange": "NSE",
-      "verdict": "neutral - balanced 57.0, stored risk 10.0, partial data",
-      "name": "DOMS Industries Limited",
-      "balanced": 57.0,
-      "long_term": 57.4,
-      "short_term": 56.6,
-      "risk": 10.0,
-      "data_confidence": 72.0,
-      "classification": "neutral",
-      "status": "partial",
-      "data_date": "2026-11-19 15:30 IST",
-      "missing_agents": [
-        "valuation"
-      ],
-      "rank": 24
-    },
-    {
-      "symbol": "ENGINERSIN",
-      "exchange": "NSE",
-      "verdict": "neutral - balanced 56.8, stored risk 20.0",
-      "name": "Engineers India Limited",
-      "balanced": 56.8,
-      "long_term": 59.0,
-      "short_term": 54.4,
-      "risk": 20.0,
-      "data_confidence": 72.0,
-      "classification": "neutral",
-      "status": "complete",
-      "data_date": "2026-11-19 15:33 IST",
-      "missing_agents": [],
       "rank": 25
     }
   ]

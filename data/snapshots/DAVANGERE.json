@@ -1,7 +1,7 @@
 {
   "symbol": "DAVANGERE",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:57 IST",
+  "updated_at": "2026-11-20 03:56 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 9.4 (no industry benchmark): value 9.43 vs threshold 15"
+          "P/E 9.4 (no industry benchmark): value 9.38 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.668 below all bands"
+          "relative volume: value 0.358 below all bands"
         ]
       },
       "price_structure": {
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (77% of range)"
+          "price mid-range between S/R (73% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "696 validated daily bars (value 696 vs threshold 200); providers may delay quotes ~15 min"
+          "695 validated daily bars (value 695 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -211,7 +211,7 @@
     "breakout": false,
     "breakdown": false,
     "support": 1.6200000047683716,
-    "resistance": 2.0899999141693115,
+    "resistance": 2.109999895095825,
     "trend": "bearish"
   }
 }

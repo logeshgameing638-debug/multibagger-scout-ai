@@ -1,7 +1,7 @@
 {
   "symbol": "DALBHARAT",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:57 IST",
+  "updated_at": "2026-11-20 03:55 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Dalmia Bharat Limited",
   "scores": {
     "fundamental": 40.0,
-    "technical": 49.0,
+    "technical": 34.0,
     "data_confidence": 72.0,
     "risk": 0.0,
-    "long_term": 42.7,
-    "short_term": 46.3,
-    "balanced": 44.5
+    "long_term": 38.2,
+    "short_term": 35.8,
+    "balanced": 37.0
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 0.0,
         "max": 10,
         "detail": [
-          "P/E 58.7 (no industry benchmark): value 58.7 below all bands"
+          "P/E 59.8 (no industry benchmark): value 59.8 below all bands"
         ]
       },
       "industry_growth": {
@@ -103,15 +103,15 @@
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 52: 4/7 (value 52.5 vs threshold 45)",
+          "RSI 47: 4/7 (value 47.4 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 15,
+        "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 1.51 vs threshold 1.5"
+          "relative volume: value 0.125 below all bands"
         ]
       },
       "price_structure": {
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (58% of range)"
+          "price mid-range between S/R (49% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1236 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 52.45395468394414,
+    "rsi_14": 47.425474662825785,
     "breakout": false,
     "breakdown": false,
     "support": 1319.0,

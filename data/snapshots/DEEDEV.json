@@ -1,7 +1,7 @@
 {
   "symbol": "DEEDEV",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:58 IST",
+  "updated_at": "2026-11-20 03:58 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 0.0,
         "max": 10,
         "detail": [
-          "P/E 46.1 (no industry benchmark): value 46.1 below all bands"
+          "P/E 47.6 (no industry benchmark): value 47.6 below all bands"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 48: 4/7 (value 47.5 vs threshold 45)",
+          "RSI 49: 4/7 (value 48.6 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 5,
         "max": 15,
         "detail": [
-          "relative volume: value 0.901 vs threshold 0.7"
+          "relative volume: value 0.881 vs threshold 0.7"
         ]
       },
       "price_structure": {
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (39% of range)"
+          "price mid-range between S/R (35% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "595 validated daily bars (value 595 vs threshold 200); providers may delay quotes ~15 min"
+          "594 validated daily bars (value 594 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -205,11 +205,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 47.541865271506154,
+    "rsi_14": 48.63950206422336,
     "breakout": false,
     "breakdown": false,
     "support": 502.54998779296875,
-    "resistance": 626.0,
+    "resistance": 657.4000244140625,
     "trend": "sideways"
   }
 }

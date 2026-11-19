@@ -9,7 +9,7 @@
     "website": "https://www.cemindia.co.in"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-19 21:21:35.789275+00:00",
+    "generated_at": "2026-11-19 22:33:42.836844+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -17,7 +17,7 @@
       "business": "success",
       "valuation": "success",
       "risk": "success",
-      "news": "failed",
+      "news": "success",
       "scoring": "success"
     }
   },
@@ -74,7 +74,7 @@
       "2026-06-30",
       "2026-09-30"
     ],
-    "_run_id": 694
+    "_run_id": 1072
   },
   "4_technical_analysis": {
     "assessment": "bullish",
@@ -169,7 +169,7 @@
       "expansion projects / order book",
       "management quality and corporate governance depth"
     ],
-    "_run_id": 696
+    "_run_id": 1074
   },
   "6_valuation": {
     "multiples": {
@@ -205,10 +205,339 @@
     "dcf_not_calculated_reason": null,
     "margin_of_safety_vs_base_case": -5.529878298433759,
     "current_price": 1354.4000244140625,
-    "_run_id": 697
+    "_run_id": 1075
   },
   "7_news_intelligence": {
-    "_run_id": 699
+    "items": [
+      {
+        "headline": "Cemindia Projects (NSEI:CEMPRO) Stock Forecast & Analyst Predictions - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Mon, 09 Nov 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVl9wQ3V6ajVCSGNOSE0waC0xR3dXa21lNklHYXNnTzV1TjJNOEVZYjVsR0hLV2Z4SkVQTTRNU09Rck43UlUxTFY2Zzk5QXNGQk9YV0RDZ20yMDRhV1V2OXBaWjdCMDNJQmNQNDVnTFNLUmRwTFU5UjJhQnAtRVBlRHFNU2l1M3N2VzR1U1loMVEzQQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cemindia Projects Limited Files FY2025-26 Annual Report; Posts \u20b9598 Cr PAT, Record \u20b914,821 Cr Order Inflows - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Sat, 30 May 2026 11:58:02 GMT",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxONklGRERPajlfLW4yVl85emJmZjlxaVpKX3FHQWVIZTJNc3J2YXFobDZ1VEViOEs4b2ZuaFNkT1gyZ3QtVXhCYk9ETVhPMnFIWjF0a3p5bE81WVMxbE1kTERFUnUzZXRvY3NxQlp3bTFabjFPYnpuNnFTN2cyc0pOSlRqa1NoaG1RUXVwUG1naW1HZ2pTOUJHMGVUeTJkSXVHOC1SQm01Rk9zRkFsOENoZU53UFByZFdnV2FtUXA4ZWlSc1h5RUNWaVdrVXE0NFAzZFRSVENtWm80R0FVMjFSQUpjcjd3TVNWVVRSdUx1UlJ6MGlsZ0RkWHdwVk9RSFdvMndFVDE3OVp6RXEydGc?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cemindia Projects hits 20% upper circuit in weak market; here's why - Business Standard",
+        "source": "Business Standard",
+        "published": "Thu, 30 Apr 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPRHNZcDh5LU5TczNHZk42SDNkYy13aEdlYTNrTnZkUGRRUTh0OW10eDBkY0RFQm9WcDRuRVpOdEo5SGtNM1dDYkZJWVcxUjBjR0dpdF9nWFBWdXFwUy1ON01KcW1venRtV1paOHJ3QzR3OXRuQ3JsTklZTEpjc3dBSEl0Q0pHdzlRRU5yczltei1VaHpmQnk0UnRNYXloNnpMNFBvZ2cyS3dBZ2JSUV9jcS1ha01IYU90RWYzbXNOM1ZJa1VMOGZkOVhVMWNxUThVMDgzZmd5bFYwV05FZzVCWExDeWlUVlYxTnYw0gHwAUFVX3lxTE8zTzJRV3I0bm9EdzluWVBPdmxBTWliRW1DZXN4QWx0bDctQkJXaHVYMFFUSUE5cm1DRTZBNnlQSTNPd1BLS29zQjJ4ZVkwbEJTYzNUbWtab3RGMThQWHRNbGxxbHlSblhkdGx1bzM2UkRDNzFoQ3NDQVlZa2U3ckJ6R2tsOG10aGRhdjNlbFFUWURmcGFXaFIyUnl2R21xOGRpZjM0bHdCeUZad1RMSlNObGtpUTJOMTIzNy1VMTh6My1DOTNzcE9zNVhHMTF0eXM0WVNPeWdpVERzZVN5Y2hxV2ZWTjFPb2c5d1ZQZUhUeg?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cemindia Projects Ltd Stock Price: ITD Cem Share Price Today - India Infoline",
+        "source": "India Infoline",
+        "published": "Mon, 08 Jun 2026 11:46:13 GMT",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE10emVnZGw0SllhN042Ui1hMEMwOUhqSXp0OVdWQWdBcHU5aXlGNGRGbVNjaDN2bVhrZGh2LVJ1Q1lLU21nck9ONmZhX2RJR1F2cTh1RUNDSjN3T1hlTTlqeTVEbHEwRkdsbkJSSG5BWUp4R25FTVRaUFF0OA?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "ITD Cementation India Share Price - Live NSE: CEMPRO Stock Price & Chart - Upstox",
+        "source": "Upstox",
+        "published": "Tue, 05 May 2026 11:38:09 GMT",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ZR1pub3BrSmFEMG92Tl9rUmNsSm1oc3pjY2FzVjA1UjMzQWZNUzhCbUl1QVQzVzZXRGI5dHBRZDdELTBwNnpKbUtta1pHRXhJX0dJQnNiU0w1c0FwYXQyY3NHRGkxdldDcVRfWUVCeTRLdw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "low",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cemindia Projects (CEMPRO.NS) Gains 1.29% to Trade Near \u20b91,153.5 on NSE - Post-Earnings Moves - siam.in",
+        "source": "siam.in",
+        "published": "Wed, 14 Oct 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQal9ENVBvbGNGUFFNQXdYRk02MlVKeFptSkRSRzlpWGY4QkRjLU00Q2RPQ2ktbXBUdWI2YXI3Rk9BYkcwOWNUa0g4UXBQeEFoZXgwSk50NVY2cjVoZ1lnVGdnWEtmQTNya3c5cTlla3Y3T1d1VGtDRXh4NDV6U29FX1M1RjZRYWF6M1hRdV9hLXk0eXhjVXA1S2gyN1RiMmYySlo2LW83VmhQUQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cemindia Projects (BSE:509496) Stock Forecast & Analyst Predictions - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Mon, 09 Nov 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZy1nanpLZWVwNWNNWXFvRXRxQzBObmNHWE5QTG5ZUHQxWUNNdDJISnZjWlpjbkhnejh4cnF1c3MzR1VLSFc1VVZQdlRuZUkzYnBJa0d3d2pudklpY29yb2VCbnMwRTBWLWpWR1JlNl9KcGczeWYxMERtNFlTbXhPcjJndkZlOWlrVkVNLWhCazR1dw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cemindia Projects seeks approval to raise \u20b95,000 crore via QIP - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Mon, 20 Jul 2026 18:35:18 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSks0MGRkcWU4ck9LXzczcWhreENXV1RPbDloLWw1bGZzRm9EWXBjN1NrYWl2aGVaTGFpX01OQ284cXRZdEdtMGFIN2VmLW5HdkN4dGRJSmpaVTliaDk4bmtKQjRVMDBlcHBHcVJLS0ozV2RwTXM4MjF6WnAwU1VCOGVfNXVialVEdm1UUTh6QTMySWcza2JLY2xjT3lJeEl5emxCakN4X0E4LTF4cnZ4bVVNTnR2WTNsRVl5WlJGM3ItUQ?oc=5",
+        "sentiment": "positive",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Impressive Earnings May Not Tell The Whole Story For Cemindia Projects (NSE:CEMPRO) - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Fri, 13 Nov 2026 00:03:55 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZFJ3T2F0UGg3ZkpsY1hvVGI5VjdLckFtR1hwb0gzQjhmRXdLYm5YOVhfTWltYVBVN3ZQbE1SRlE5R1gweTRXSmtKdFVLS0FqZEhRd0tuc1FQNEQyZVNXdkl5eWdWdXd2THVkWGJzUUFKSnZ6RWtrZW52QWxKd29LUWt3aFoyNnNjbjJlVmdibzM3N1FQSlpFRkFmWjkzZ2htWUx6Ukl2bS01RG9RUTA1cDVacy1aangydmhZTDgwYjlpOGt5Qzk5dWJnMGczZmNQSXZWdkhEekxNbV9Kemx6MtIB5gFBVV95cUxNZExZZVVZekh3RWdBdDlXUEd3NUpMU1BwYkoxcGw0SG1jMXBQa2tZc0VFVjRSZTJ1Y0JOWnZKMDJfQXowa2hQNkRGRm11TllsbnJNT21xRldQY2dqMXNBNG1sQUsxVHV0MnNXT3Noa2FDVE9QTHVETXJXRlhkZXR4cDR1UWhsUm9aTFQzN2ExYTU5ajNkSzNuWGJPTzN2VUZ2bGdNSDlUeEFSMHk2eVMwMktyenpUTjdESU9KNDlBeldrTnRNOHhJdWZIbFAwUzlVeDJVb1dBMnMzMkZYRzNLaU13N1d4Zw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cemindia shareholders approve capital raise resolution with 99% support - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Mon, 17 Aug 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOS19DTXFfRkhtM0stNFM4YnJuUzlBVEJmQVdKT2Q3VzRtX3RwMjZwUXFfWHA1QVRHbjVyZDJhUzEtODZ5S0xoV1RFcmVGUWRoblJTYlRYaDMwaFduUVBVNk1tY2NMSE5fU1dtcEFHMXpIQlVjS0dhRHk1ZzNnbTVvUlB6YXJBdUh2OHlYRERROXlac1c1RHVEeHc2SVJjVXJaSUZwV0hyZzZjTDBFcFZLZw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cemindia Projects Limited Announces Special Window for Physical Share Transfer and Dematerialisation - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Thu, 16 Apr 2026 10:59:08 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPajQ3V1RCMmlWc0poOVBqRm5yYlBqX3c5QS1rX250YjFmcVJvUHBpaGVQVDZsSzFqTWp1VEFMaUQweHRQeGtBak4wOVdLdWFjWkxNbmhMSTVMalQzaFZvOHJxYmNQeFBYRmRFYk56LVhsYk5hbVUzMDhRTnNOb1JYRnZEcUdzZFh0VXJyRDZtcFpQcmRpdmhpZlVpckFOazJiUE1EZ21aSUxyVWZtbVBXUUJDMEtBV1pVODR4Q3BOS0lwRnpSWE5KQ1lrTGpadHBYbFlsQ2t2c3o3SXVCYkpoRkFhMS12WTM4YXVlUXd3?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Is There Now An Opportunity In Cemindia Projects Limited (NSE:CEMPRO)? - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Fri, 31 Jul 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNYVEyY1Z2YjVnYl9zSDhoTEhHVGZqTnIzZWhELXdDemhzXzJ2RURBd3QtbDZKT0ZRd1hNaFVPVWk0MEFRVXN3bEtyVWlmTGRNc0VNMUo4ZzNXSDAwNE8zbnhGUi02cEpIcjJBVjlZaE01VkJ0UlFLNGtycTdVS1JPWU1IV2UxU2d3dW04b18tc2FhOWFNVm1JWmxKVTgzbnRVQ1lxMktNWEJHdUppbHNubHNMcDJCaXBOYWlFM05LNVZfaGhrTWI0cVhOekY1TFRTNFJGMlFjNFc2RERYSzl3V9IB5gFBVV95cUxOT0xEaldydk1vNWVNdUQwbjlUMlVxVkVjS1laRHlOaklIaWV6YTFCNUNwZlk1Q2dUeTNwcno4TWtkYVl0WnY2cm5aLVBvbHR1a243QVUybzR1dnphM1dxS2Y3WUhWWDFETlFaSUx1N0dpR3lsWW1PNDR1ZHgwVHFhb3p1WHFKbjdOem9xbHVWV1lHbWo4RFdxbVB1c3RNZ1RLbzIzUW40anhGOXpUTVVLY1pGZTNYbDFKSFRpM0Y1d0ZhVzZXX3JOWlpERG9yMUtFOURRZDUxWWdGQVNPOHc4MEU0anlkZw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cemindia Projects secures \u20b98,519 crore orders, upgrades credit rating - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Tue, 28 Jul 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMU1jRzRFZHQ2VV80LUx6NnJiOENoMXYtbXZxWWYtUXQ1MU5xUmxKSEc0a2xzR2NGZTl0NENXQUkwa2YyWm1tOXNiaXhTWmhvOHI2ZkMyUmJlZEgxWVZfOTNqc3hOc3l3Slg2aVVVRzFMQ0JTbUdneFJEX1k5VlVkUW1fczJzT0RvdDI4aEdJWFc1b3Qxa3dVZ1IxNU8tUzBoSXJZd0dtaEF3YkM5VHRHaU04MENQVjlfV2VMRnNGWVQ?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cemindia Projects Limited Just Missed Earnings - But Analysts Have Updated Their Models - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Sat, 01 Aug 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNmZFel9CX3FQRWg5RnFZRjN2eHFOaEhzSWJvMXN3cDd6QXppSG5mU2ctVmVwZ0t1Q25reGVnRGc0QURtMG4yN25zY1prdWN3dDF1WDFUNzBhOHV0VzRYNllIdWZBWktKTEZnOXRPYk44U1g4dWtORy0xM19vTlNHZW55R3Nza3hKS1JCdWp6T05KU191U1l4aHNjSnpna29sRkppMVNmTUVySExoeFFwSVY3WU1QWk5xV3p5X05HekRFYWJJbl9iRW1qS1ljWk1YYmhwYU5USV9MWUFsaFZN0gHkAUFVX3lxTE5iR0RyUUdQOU9kMUxRUm9GcWFvNmdKWHdhUWNjQ0ZQOFFLc0F6RG9SbmJCQmdxTkpUcVNVdE56Wi1oN05SRU53TWhrWHVrVnU1dEwtVFZZWEdVMUJVNFFoUFhmSVdjN2toaXZDTzlySldLdjhGM3hsb2xzb20zNGZIS3ZOYXZfSUxGVGtpTmJmeUpMUFl4MHd0TnhuODR5SExQUkJfVlBBTV9jNU8zTUdVRENoWlhucWlkd3p2WjVfeEFEcnZyQTVobDNWRTNjd0V4c1lqdld0cjc0eEc0R0pHbDlOMA?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cemindia Projects Recommends Rs 3 Final Dividend for FY26, Record Date June 12 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Thu, 14 May 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNNTJSVlFYWFJTMndTeEw0SThkN3VKbmRpWXZ4V01oaHZnY0RWRUZ2MThCR3BwV3RxWTFMbFJ0YUNmdVlQeHk3bkhEVlRsWmNZRTRtVjJmbU9vOGRTNEtUbjVBNVVvMjJjMnhqVmtwbXVMODlRbmJqMTJHLWhORW1UbEdVdnRTdXlnTm51ZmtsaHAycDRiVHpudnNodHNUV3lNMVV3dWdQenVPTDBtemlXSFZoRXZNTFJyakJvZ3pJeXlVYTN3WlYwUmh0ckJfWHJoXzN5TzZzYTFZdGdSbV9hc0twd2ljQkx1bXVTbFNB?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "There's A Lot To Like About Cemindia Projects' (NSE:CEMPRO) Upcoming \u20b93.00 Dividend - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Mon, 08 Jun 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSl9IQnRpN2IwTVdaYkQ4Z3RJWGpLNkU3Z3BCaklPMFllQkRyNDc3c25rZGZuUDhvTWhTTnRxb1hVUExFNDQ3N1hoVWFDVlV4NjBjdnR3Vm9tczRLeWoxRTdwa054NDhUQ3lrWTRKYVFHSFR6X3JGTW9QWXJGbmZrRlFKbnptT256S084cjYwWGxkenhENHoyRmNMQk01RGxSNU0ydjRMLVE0YkE5eWNXT25SQkM2Y0hIdGpnd1pGUy1NdTZqS09vaDR6cmJ6NTZXekJWTEZ2ZWlqZ1FKVllOStIB5gFBVV95cUxQRVJSZEgtZUppLWFCZWZNdDlMSVA3cFdGaFdQTnhmMHdaTGFMa29YWnQwVjRuQ0VZc3pNUzA1TGRBX0F0UTBCWjRLanZ5OThNRXZsSGwyVXlXT3h3eENTTjhQN2JRa3ZyS093OWlINGFYVU53eU0xZnRfSXQ1c2JqNG9SLVJVT003WDNYR0RiQ3QzNUstT3dsNnNQZmlrTkpyMzl1MnpaX1NrT0Q1aGxFdV9wbFZUZjZtOUdUbUh0c19TbHpFcHo5YnNuQlF1MzJFMWk3NUZuY2d0UW1jbW9zczFGdHRtUQ?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cemindia Projects JV awarded \u20b9212.54 Cr by tribunal in DMRCL dispute - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Sun, 02 Aug 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSzdjcVZrOGJTY2M2Vjc3R3k0QUl2UmJIb1pqcTVVYVB6bVpvRVJWRUZNc2NNTDZyZ3FCRlU0SGhwZnUyaFRfS1I3OVdPR05GUWFMT2JTdVB1bTFjQmtFLVBMdGxFcldQYWo0ZGhWNmNGOENQbXRQYWY3VGU4MmloRGF1ZUtyaTVVcnN4NlE1b0tPbmFnaUZDWklXRTY0Z2VLNGd6bnB5TFU3S2lWeTk2cElCNVRtcE83VVA4MHpVczBzUQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cemindia Projects hosts investor meets; order book hits \u20b931,307 crore - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Thu, 20 Aug 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNampTOGRnZVB0ZUc0eElvMzJqYWdzb2xiWUY0VDRVUVFtSzVZQ3U2dFVObmJhRHhNTE51ZndNYmlnLWZqaDl1cEpBTTFhem9qUUNJUkdSQWVrMW4xbjRqbElvVzZYQW1xMDZZODBtZHlRbUE0QVpoTUFveUplbVQzUmZNQXRJQmxaMmM0MTRaeUUtNjdxYmUyczBfa1NubEFfNHdKeXZfb0t6UGNqeDZXVjBjUEpXQVZLTXpJNUxMdkRxZw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cemindia Projects submits BRSR for FY26 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Fri, 29 May 2026 21:13:14 GMT",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNV0JIM1lsLXdDeWwyUWVIRmtxMmRBMGNWNm94VDlIYjJDQWwxWVdOalRoX3hwYmhEQnQ5bmtiNjBSbURaUFN6M080S21yUzRrVGhwMEpLTEF4d29vNVQ4c1dkQzFVS1JmZnNkY3VrWURjR29UcFhJeU5jaVpMOXlHX3NWaElvU3ZGX050YjZWR251b0lvRUFseG1ubHE?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cemindia Projects discharged from bribery case - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Thu, 21 May 2026 08:07:03 GMT",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMmtiX1l0Q3VQd3FHR1d2cm1FbzJvTklBUURmdUwxQTl3RVdlNndaMUZwUXUtdzJ3VTA1S2lOVWZGeE83MGFsQ25xUDJrVy1mRHpEZmpPbjNiVjNkaFFrbVBtUENjcGM5bFU5R0x1VjNsYnZ1MWRzc1FwTTVEZEd2QWZGc0dtbEh5NFhLR21FQU9WaExJYnVjNExsckNJeVpNdVFsUUY5V0FqODlnb2FNR0l3?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cemindia Projects Limited Announces Superannuation of Senior Executive Vice President Rupak Sarkar - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Wed, 01 Apr 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPQzFReDdsdWRtVzM3QVFQMC1XYlB2ZkRzRlowZkRfbnZ2eFJUQkFXTV9Vc3doLUd3d1lxcXduV3lHYy1wNV9icy04bE1NNWdEcGxjQkJ1c2ZoT29tMi1XNzJwM043R1Bra09ORWQ5QnR2cXB5SndRbE5kOWo4SGtRVUNOZm5hNmdXVWVaOHptcVA2ZTBkUW5NMXlHSnZtYWNGdjBPMFY5SEFCSzlKR0tzbGJGbFk1bnVYR2pQU2kwRnJjYmlsZ3JUcGE5dm1aVjljbFFDTE1vOGpQTXlUTTYyXzIxckhnQzJrM19v?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cemindia Projects Completes \u20b91,400-Crore QIP, Issues 1.26 Crore Shares at \u20b91,108 Each - Sahi",
+        "source": "Sahi",
+        "published": "Mon, 19 Oct 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZXJqYnJKcTltbTlUWWs0bVBSckM1SmpoWDA1eUdDMzdyY2Z6YXhoUEhWQ0pQU0Y1bTRsVUVvYVVlXy0yLWQyTTFBaVN2cUYxbkFsX0hRSmVZbXlCTXRXQWJGclZuUkJzLUJKQkNCckxsQVpRNDFjYmxUN2FDbDdDT0pSdW9FRm52OFZ4aW1lZjM0eWJiOTRwMU5Ga25HLUtfTHpwYk1BelROQkpv?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cemindia Projects Board Agrees to Raise Up to \u20b95,000 Crore Via QIP - Sahi",
+        "source": "Sahi",
+        "published": "Thu, 23 Jul 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTWRJcmdlZVVDcTVBY3NMbkhkSi1tWnVpR19CNWREcWg0S0xGcnF1elE0Wmx0UWh3UGdyOS1XZ1dDZm1hV2w4NjNXTHMxR2NTZmw4SThJNS1GQlFfME5xS05VX2N4aUJhY2JXeWFXV3VvT2hiRnM1RDEwZURlMTZpVGVKSXVEamtvdEt5WG1fTHlmX3dZbzRmMEtPTnpuVzV1N2RoOEtQZw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cemindia Projects Board Approves Elevation of Soumitra Ghosh to Senior Management - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Fri, 27 Mar 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPOG5QMzNPQXNjZVhMQlVFNF82R1VrWWhxTk1pamVLU01XZUFpM1ZzTlVLM2x0ejZ4bmlNbkFpeEk2cHd4b3RJTW54aFBWRi1rMzN6dnF6bnZxanNlbEU2ZzNOdlo3WUhHTm1ReGdHUTlLUlZXTVRvLTBCZWVwSFBxUFdKb0Z1N0hUNDhUNWhmOHlpeWZIeENQdzRLM0RsRnNuaWdaeU5nODRGaEswVEItWEpvRG4wT1Frc0ZPbGFVaHVDT21pUkhaNkF5QS05cHBCVVpkWTVmdERQLXA0djdmS1VB?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cemindia Projects Limited Submits SEBI Compliance Certificate for Q4 FY26 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Mon, 06 Apr 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYkxFTi1paG9IeUt3TFE2WlBCZ29vMndKYlFCdlAzMjE3ZjlTVjQ3YUk3NmQxN2kzTDRseVRFZDhMNlVETW14RnZ5Y3JMOC1iNlBGaGZ6cERuNDNLdHc5OUxTQ3pRVnZZaGFkejhKRDRsZkRoYVVLMHRVVU9GSUNic0hLTTJULTNDcG5yTFdvNG1KWGYzMDZlcDBmX0dRbERuWVZ6WkJaRHdxSmZQc2FHZEVRQ3ViaE91ZDJtUmRiaEJaUW8tZHNKZkZR?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cemindia Projects Ltd Share Price Today NSE/BSE Charts - Alice Blue",
+        "source": "Alice Blue",
+        "published": "Tue, 25 Aug 2026 18:32:51 GMT",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Zam1saVNkYXFySHBaTDFwYnJrUmlEZHlLT1ZvTVl2QU9sU3JMSnJjRkRhV1BJaFI1TTNvU2FaeXJ4SGNVY1NsVHNJSEpWWlY2c2lfei1JcVBkZm1jVC1ic05tWmxnS1MtQ2NqcmNDQi0tYXN6MUE?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cemindia Projects Limited (CEMPRO.BO) interactive stock chart - Yahoo Finance UK",
+        "source": "Yahoo Finance UK",
+        "published": "Tue, 03 Feb 2026 00:32:47 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE42bDcxQXQ4ODdHSE41SjUwZWVPRjA1Y2RiZ0o4UG9UbEhpTC1CZnFEOE8wTmNuS2c1THdOelp6d2VLb25kYXVaUG0tNEo0cUZoRWRwanFmeXNJcUhfOFpVOA?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "CEMPRO Stock Price and Chart \u2014 NSE:CEMPRO - TradingView",
+        "source": "TradingView",
+        "published": "Wed, 17 Sep 2025 03:47:22 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB5clowaWRtTEd2c2xUTTRBZk10clF6ODFhWDlwV24zd3VpeC1kajRLRnhnYkVsRlBTQXZtQTRoNnZtZXViT2lVUkZKZ0xvUmFrS0NDNENPNFJMalk?oc=5",
+        "sentiment": "neutral",
+        "relevance": "low",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cemindia Projects Ltd. Share Price Today | Cemindia Projects Live NSE/BSE - Value Research",
+        "source": "Value Research",
+        "published": "Wed, 17 Sep 2025 09:51:58 GMT",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5CaWZLbGluV0xVSGtrR3hsSWpCRkx3TGE3TWZtbnozR21MQ3VIaFRYOXRJWF9ENG5ObFRISlNOOERNcElmQlFzSUdmT0h4bnpuVkFRWU5Ea2hSc0RMR1FabDZCWElRRWF0NEVuN0hZb3N0cmNJb2VPNjd6cw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cemindia Projects Limited | Stock Share Price Live - MarketSmith India",
+        "source": "MarketSmith India",
+        "published": "Wed, 22 Oct 2025 23:40:16 GMT",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9TUjROcEFWUkUwU01CY2Q0WG5KalJwN3pZd3Jzc2VxYTNVNzNRTEZ2MFRFWF9oSmRNQmliME8wbTdLc2psczd5Z0Y3MlpmWElGLWktWHltWW92YXJkMGZRWGdCQVFGTnc2dzQ4ZHdTQQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cemindia Projects Limited (CEMPRO.NS) stock historical prices and data - Yahoo Finance Singapore",
+        "source": "Yahoo Finance Singapore",
+        "published": "Sat, 20 Sep 2025 17:48:31 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9EYTNGRmJlZldxWlFHNG5pb1Rja2JRbUF3S1d4YzZBdUpia0pUYVF6MEpvei1nNUlFWE5qZzcwZUhzWEk1Z1hBeFBYSXJDYjZpLVRLLXVJcmV3UHlFczhHU1dtWQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cemindia Projects Limited Reports Strong Q2 FY26 Results with 49% PAT Growth - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Thu, 30 Oct 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORE51M3pMaHBaTFRvMFQ3aXRfX0g0YW5UOHNLTEhmdy1TT3RsVjhkcGZkVnZaTmxPc2RXenBRTTRqeTQtNFhKUGVybkhGTEQzMDVnaC1mS2dlNFFqcHBtY1hGeXFhWFliaUQwS1I4R2x2bVJ3ODdTdndjMV9uWExrMXZOa0I5MmFlTUtLLUprd090NnJCTzFhUHBkRVdNSjh1ZlBDWG12dDhEZS1GcVFkalljZ1ZyUDVXRXZMWWNaODZWc0RVY1pUWHJfUQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "ITD Cementation Rebrands as Cemindia Projects, Files Compliance Certificate - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Wed, 03 Sep 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPeU9UQWM2NEpZMlZpTVpMZXNtQXJ1UC00MzdsZ3ZKalVnSndkQjNpaGZCRHFPakR3Y0FYR0JrNEZCbUNYaE1CS0JJcEYyTHJrWElRYXFCSXFWRXJTZUczazd3QnNvcVIxazZCa1B4dFpYdGE1NVV1dFFXZzRSSC1qXzE1WXhhUzVucGxocnBCM2JZRkxEM0VQV2NDQXlySG5ibUV3VERocEVaUDdmS0padW5DWGd6QktacEU4NVZTUjhjTkhMVTFuanAtVE9KYlBVSi0xd1d3?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cemindia Projects (BSE:509496) Stock Price - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Mon, 28 Jul 2025 17:21:06 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBFQVZ0UWp6Z1JveEhQQVhVSEVyekFPSnlIcm00UTQ3RXBkMFBmc2lpQVZNazM4T004ZXRqaWFOaG02M2ZZZ3V6ZW56WDFFSmc?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Cemindia Projects Limited (509496) Company Information - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Fri, 12 Sep 2025 13:12:39 GMT",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSUUzbG9wSEZJYjRPRFY5X2RhaWlsX1VGUzB5QnlYYWVzazVqT1Bsc1VRdGUwc3pEa0dvOExacGpDQW1DRmZlWUtzMWtfMmJiTGllUWhaM3diRzdFbF93SFIwMmhKXzZVNTVhR3VHTi1vckpST2cwMU5LcTR5TVlsYzExQ0RwN0NfR1dGVGI3ZVdNb2pLcWtvRQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "ITD Cementation India Changes Name To Cemindia Projects - NDTV Profit",
+        "source": "NDTV Profit",
+        "published": "Thu, 15 Jan 2026 08:26:24 GMT",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYmx0alJkVF9rbzJjWm5sdDRWenJMbG85WERKd0NiZDNtd2xXcVhITi15T29kZWJkak9oTHQ2WHBJQ080eGhKTWlZd3N2MF9HZzh0dWdENE8xS2x3YVBxaVFwY2Z5UzIwa19aSmlaNGkzQkNuaWMzTnpwUkdmcTZJTDFGSGl1MDlXLXpsaklXOGpkcV9abkJ6cFRwZ19qLTc00gGoAUFVX3lxTE1JNmFoVDlwRXU0SmZSVzREUEp5WW51ajdqeWdpMWQzNEFHWElNVFlaSzY5VXFZNWlsNHZ3NXFjTXFVUVRoUUhFLVl4enNhd2JXSDdfX2JqdzZYRkh6eFFlSkczUUd5dnNMYUpMdzUyZ0ctU1AwRDVBczBtNXk2TF9RMHJmdy1qanFnTmxHYnpTSzJsWThnZFBKR01GUmpCdDZyOVpBcDMwYg?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      }
+    ],
+    "stored_new": 36,
+    "duplicates_skipped": 0,
+    "note": "headlines are unverified signals, not confirmed financial evidence",
+    "_run_id": 1077
   },
   "8_risk_analysis": {
     "classification": "MODERATE",
@@ -219,7 +548,7 @@
         "evidence": "ATR 4.2% of price (>4%)",
         "source": "computed",
         "date": "2026-11-19",
-        "detected_at": "2026-11-19 21:21:26.935495+00:00"
+        "detected_at": "2026-11-19 22:33:42.473342+00:00"
       }
     ],
     "unassessed_governance_items": [
@@ -234,11 +563,11 @@
     "atr_pct_of_price": 0.04249498102041655,
     "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
     "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
-    "_run_id": 698
+    "_run_id": 1076
   },
   "9_fundamental_score": 62.0,
   "10_technical_score": 61.0,
-  "11_data_confidence": 70.0,
+  "11_data_confidence": 72.0,
   "12_short_term_assessment": {
     "score": 61.3,
     "technical_view": {
@@ -269,7 +598,7 @@
     },
     "business_classification": "average"
   },
-  "14_investment_thesis": "Cemindia Projects Limited (CEMPRO) is classified as a 'average' business with a bullish technical trend. Balanced research score 61.5/100 (fundamental 62.0, technical 61.0, data confidence 70.0, risk 10/100 higher=worse). Supporting evidence: ROE 24.9% (>15%): capital allocated effectively.",
+  "14_investment_thesis": "Cemindia Projects Limited (CEMPRO) is classified as a 'average' business with a bullish technical trend. Balanced research score 61.5/100 (fundamental 62.0, technical 61.0, data confidence 72.0, risk 10/100 higher=worse). Supporting evidence: ROE 24.9% (>15%): capital allocated effectively.",
   "15_thesis_invalidation": [
     "Daily close below invalidation level 950.89 (2x ATR under support)",
     "Operating cash flow turning negative in the next annual report",
@@ -311,7 +640,7 @@
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-20 02:51 IST",
+    "generated_at": "2026-11-20 04:03 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-19 20:44 IST"
   }

@@ -1,7 +1,7 @@
 {
   "symbol": "DEN",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:28 IST",
+  "updated_at": "2026-11-20 03:59 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -17,7 +17,7 @@
     "fundamental": 33.0,
     "technical": 34.0,
     "data_confidence": 72.0,
-    "risk": 30.0,
+    "risk": 40.0,
     "long_term": 33.3,
     "short_term": 33.7,
     "balanced": 33.5
@@ -103,7 +103,7 @@
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 46: 4/7 (value 46 vs threshold 45)",
+          "RSI 45: 4/7 (value 45.4 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.366 below all bands"
+          "relative volume: value 0.5 below all bands"
         ]
       },
       "price_structure": {
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (39% of range)"
+          "price mid-range between S/R (38% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1234 validated daily bars (value 1.23e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -178,11 +178,12 @@
     },
     "risk": {
       "findings_contribution": {
-        "points": 30,
+        "points": 40,
         "max": 100,
         "detail": [
           "negative_ocf (high): +20",
-          "profit_quality (moderate): +10"
+          "profit_quality (moderate): +10",
+          "high_volatility (moderate): +10"
         ]
       },
       "classification": "HIGH",
@@ -205,7 +206,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 46.00144028509355,
+    "rsi_14": 45.43323003232924,
     "breakout": false,
     "breakdown": false,
     "support": 23.549999237060547,

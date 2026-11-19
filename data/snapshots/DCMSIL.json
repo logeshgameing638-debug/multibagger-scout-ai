@@ -1,7 +1,7 @@
 {
   "symbol": "DCMSIL",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:57 IST",
+  "updated_at": "2026-11-20 03:57 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "DCM Shriram International Limited",
   "scores": {
     "fundamental": 31.0,
-    "technical": 16.0,
+    "technical": 21.0,
     "data_confidence": 55.0,
     "risk": 20.0,
-    "long_term": 26.5,
-    "short_term": 20.5,
-    "balanced": 23.5
+    "long_term": 28.0,
+    "short_term": 24.0,
+    "balanced": 26.0
   },
   "classification": "neutral",
   "explanation": {
@@ -103,15 +103,15 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 36: 0.0/7 (value 36.1 below all bands)",
+          "RSI 37: 0.0/7 (value 36.8 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 5,
         "max": 15,
         "detail": [
-          "relative volume: value 0.281 below all bands"
+          "relative volume: value 0.71 vs threshold 0.7"
         ]
       },
       "price_structure": {
@@ -132,7 +132,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 10,
         "max": 15,
         "detail": [
-          "186 validated daily bars (value 186 vs threshold 100); providers may delay quotes ~15 min"
+          "185 validated daily bars (value 185 vs threshold 100); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -205,11 +205,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 36.09922730768111,
+    "rsi_14": 36.758920103367224,
     "breakout": false,
     "breakdown": false,
     "support": 56.5099983215332,
-    "resistance": 74.95999908447266,
+    "resistance": 75.0,
     "trend": "sideways"
   }
 }

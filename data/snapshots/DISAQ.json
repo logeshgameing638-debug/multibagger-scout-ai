@@ -1,7 +1,7 @@
 {
   "symbol": "DISAQ",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:29 IST",
+  "updated_at": "2026-11-20 04:02 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "failed",
@@ -103,7 +103,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 40: 0.0/7 (value 39.7 below all bands)",
+          "RSI 40: 0.0/7 (value 39.9 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 5,
         "max": 15,
         "detail": [
-          "relative volume: value 0.842 vs threshold 0.7"
+          "relative volume: value 0.835 vs threshold 0.7"
         ]
       },
       "price_structure": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 39.7121463149198,
+    "rsi_14": 39.88443912224207,
     "breakout": false,
     "breakdown": false,
     "support": 10295.0,

@@ -1,7 +1,7 @@
 {
   "symbol": "CYIENT",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:56 IST",
+  "updated_at": "2026-11-20 03:55 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Cyient Limited",
   "scores": {
     "fundamental": 41.5,
-    "technical": 36.0,
+    "technical": 29.0,
     "data_confidence": 72.0,
     "risk": 0.0,
-    "long_term": 39.8,
-    "short_term": 37.6,
-    "balanced": 38.8
+    "long_term": 37.8,
+    "short_term": 32.8,
+    "balanced": 35.2
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 32.5 (no industry benchmark): value 32.5 vs threshold 40"
+          "P/E 32.7 (no industry benchmark): value 32.7 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -93,17 +93,17 @@
         ]
       },
       "ema_alignment": {
-        "points": 8,
+        "points": 5,
         "max": 15,
         "detail": [
-          "price above EMA50, partial alignment"
+          "price above EMA200 only"
         ]
       },
       "momentum": {
-        "points": 4.0,
+        "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 47: 4/7 (value 46.8 vs threshold 45)",
+          "RSI 42: 0.0/7 (value 42.4 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.191 below all bands"
+          "relative volume: value 0.176 below all bands"
         ]
       },
       "price_structure": {
@@ -132,7 +132,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1236 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -204,10 +204,10 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 46.80987917181392,
+    "rsi_14": 42.408902749767975,
     "breakout": false,
     "breakdown": false,
-    "support": 1032.0,
+    "support": 1030.300048828125,
     "resistance": 1277.0,
     "trend": "sideways"
   }

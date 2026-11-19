@@ -1,7 +1,7 @@
 {
   "symbol": "DECCANCE",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:58 IST",
+  "updated_at": "2026-11-20 03:58 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Deccan Cements Limited",
   "scores": {
     "fundamental": 21.0,
-    "technical": 43.0,
+    "technical": 28.0,
     "data_confidence": 72.0,
     "risk": 30.0,
-    "long_term": 27.6,
-    "short_term": 36.4,
-    "balanced": 32.0
+    "long_term": 23.1,
+    "short_term": 25.9,
+    "balanced": 24.5
   },
   "classification": "high_risk",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 0.0,
         "max": 10,
         "detail": [
-          "P/E 117.8 (no industry benchmark): value 118 below all bands"
+          "P/E 117.5 (no industry benchmark): value 117 below all bands"
         ]
       },
       "industry_growth": {
@@ -103,15 +103,15 @@
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 47: 4/7 (value 47.2 vs threshold 45)",
+          "RSI 47: 4/7 (value 46.7 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 15,
+        "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 1.63 vs threshold 1.5"
+          "relative volume: value 0.552 below all bands"
         ]
       },
       "price_structure": {
@@ -132,7 +132,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1234 validated daily bars (value 1.23e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -205,7 +205,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 47.24965312638215,
+    "rsi_14": 46.69416889512593,
     "breakout": false,
     "breakdown": false,
     "support": 465.0,

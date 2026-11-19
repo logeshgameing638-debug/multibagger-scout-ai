@@ -1,7 +1,7 @@
 {
   "symbol": "DEEPINDS",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:27 IST",
+  "updated_at": "2026-11-20 03:59 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Deep Industries Limited",
   "scores": {
     "fundamental": 54.0,
-    "technical": 35.0,
+    "technical": 32.0,
     "data_confidence": 72.0,
     "risk": 10.0,
-    "long_term": 48.3,
-    "short_term": 40.7,
-    "balanced": 44.5
+    "long_term": 47.4,
+    "short_term": 38.6,
+    "balanced": 43.0
   },
   "classification": "neutral",
   "explanation": {
@@ -100,18 +100,18 @@
         ]
       },
       "momentum": {
-        "points": 8.0,
-        "max": 15,
-        "detail": [
-          "RSI 41: 0.0/7 (value 41.3 below all bands)",
-          "MACD histogram positive: 8.0/8"
-        ]
-      },
-      "volume": {
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.347 below all bands"
+          "RSI 41: 0.0/7 (value 41.1 below all bands)",
+          "MACD histogram non-positive/missing: 0.0/8"
+        ]
+      },
+      "volume": {
+        "points": 5,
+        "max": 15,
+        "detail": [
+          "relative volume: value 0.742 vs threshold 0.7"
         ]
       },
       "price_structure": {
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (33% of range)"
+          "price mid-range between S/R (30% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1236 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -204,11 +204,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 41.275193090185574,
+    "rsi_14": 41.08397713140489,
     "breakout": false,
     "breakdown": false,
     "support": 595.25,
-    "resistance": 718.0999755859375,
+    "resistance": 726.7000122070312,
     "trend": "sideways"
   }
 }

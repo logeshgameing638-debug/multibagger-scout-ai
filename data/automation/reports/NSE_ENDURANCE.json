@@ -9,7 +9,7 @@
     "website": "https://www.endurancegroup.com"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-19 21:22:15.582774+00:00",
+    "generated_at": "2026-11-19 22:33:56.311810+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -17,7 +17,7 @@
       "business": "success",
       "valuation": "success",
       "risk": "success",
-      "news": "failed",
+      "news": "success",
       "scoring": "success"
     }
   },
@@ -72,7 +72,7 @@
       "2026-06-30",
       "2026-09-30"
     ],
-    "_run_id": 722
+    "_run_id": 1100
   },
   "4_technical_analysis": {
     "assessment": "sideways",
@@ -165,7 +165,7 @@
       "expansion projects / order book",
       "management quality and corporate governance depth"
     ],
-    "_run_id": 724
+    "_run_id": 1102
   },
   "6_valuation": {
     "multiples": {
@@ -201,10 +201,267 @@
     "dcf_not_calculated_reason": null,
     "margin_of_safety_vs_base_case": -2.8655035026026434,
     "current_price": 2471.89990234375,
-    "_run_id": 725
+    "_run_id": 1103
   },
   "7_news_intelligence": {
-    "_run_id": 727
+    "items": [
+      {
+        "headline": "Endurance Technologies (NSEI:ENDURANCE) Stock Forecast & Analyst Predictions - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Mon, 09 Nov 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWXk2QVpMQUUtQ19iMVZSd0c3NHZvS0tMRFFfOFRIZS01aEtmcm5VUVBWWWhxTU5GaU9LY09ERDdwVTlnUWhDa256Ri05eWIyNXo5VVlmLWZWcGJzWDZoaHQ4dFFrb3h6Z19fQjViSnVmWDRjQlZjbmN0Qi1KRkRIMTBNOXBiOFp1UVZMSzQta0c2Zng0UUt3anJn?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Endurance Technologies board approves Q1FY26 unaudited financial results - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Fri, 14 Aug 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcU9qbk9ZdWF6ajR3Q1B0aVpkXzIydkU4TmJCRl9CQll5SnFiX0tTcHFGRktGLTdBc0RpWVVjMFJKZ1ZrT1NFTlpsbEdja1BvU005ZjdMNkt3eDBGRUt0c2wzRmRLRktaWFd5dGl5YktMeFV0ZW9adkMwUW9nRTlEdzJKY1dUWk1SNFd5ZU0wSVIzd1gzckZqY3RFU1QzRjd5bGdKbzRHRDJNazlNeS1oWl9n?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Endurance Technologies Q1 Results: Earnings call scheduled for Aug 14, 2026 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Tue, 04 Aug 2026 07:40:47 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNTdaaWNYRDFZeHRfNW94UmtuVU1RTVloWFhVcDNYZzRlQ2NqME1oVTFwS0hqRjJFMTZVM1BIZ0V4Qkl2N3pPRHJSWHAxM0NmUWFnekt1bmllZV9VbHU4elduLTJvZEtaeEhELUFWVFd5YTBCVkhVSGRQZm9lRnoyT0FzRlRlWFRScHBaMnYxQkNmekREZUJWX1Y0YnoyTzVkOS10M2tCOEtnWl8yUGdmdUZiVENEaFBIVFB5XzFEbUdhMFhhenlmMV9B?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Endurance Technologies Ltd Share Price Today NSE/BSE Charts - Alice Blue",
+        "source": "Alice Blue",
+        "published": "Tue, 25 Aug 2026 18:50:16 GMT",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1Sc3VkajNKc19DSG56Zm5iWW5fd0JzZHZTRlRlWHdZVFZsOEN5bXNPRTI0cVdUNlF5TXhUcUFUc1VBd1ZVTFg2Z1M3OS12cERWS3phLWs0NmltS3dvREJQWlhjQWswWk9WQndRT1pFc3FSTy04YjYtTmhTRTU?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Earnings Update: Endurance Technologies Limited (NSE:ENDURANCE) Just Reported Its First-Quarter Results And Analysts Are Updating Their Forecasts - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Sun, 16 Aug 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOUm5xa05uRkVHS01uTEtaWHJiRUs5S005V0ZZRUE0RGRsSUxCdl91TVhJZ2ZnNFl1ZHFNM2JvRHQ2U0d2bjBMX0VXQklLVlFLdlZRQ2xEYWtmZTM2NHRuc3BoeGVFc09DSElPMlRLZHFZOGwtRVA4Q1JJMVJBOXdROHlXbXhNakp3Z3VLZjZtenE5Z0VyS2VkSS1DNXhrTVREeUZyWGZOTWxnVlRpYml6TUdUV2E3a0Z1dnBlUm4xRC16SmluYl9TVVZOY2hmaFZIcjgzNEZ2bmJEeWF2b21Nd1VPMG1KWTDSAewBQVVfeXFMTU1WTEtkMjRHanJRZGNPcHRfUXFQclIwMUF5OWthVTVSSW9BamZyWFhKTHItZDdKS3ozZzBSckhPM2NHcC1aLUdPWXpZUVdsVWgyNW1sOUtpeDFydWF5RXkwYzh0Mk9mRUxoaHphR2JudDlKR0xxY3F4WmxiX0pVMER4azJyZEpXZ0FsU0pMeTgtRGJDQzM4TGpBTndoU3lxNjRGdlZpTDc5bHBjcjBxaWhOamNOaGJZMC14Q19PSEQ0aW14NFVpMFd2U1R4V1lHOEN2c2IxaGxFYWdIRGZpT05oUS13bks3aFB3TjQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Endurance Technologies Reports Cybersecurity Incident, Operations Unaffected - Autocar Professional",
+        "source": "Autocar Professional",
+        "published": "Mon, 29 Dec 2025 14:33:01 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSFBZSEdjcXN0YUhZREs5Q0o4cU84dnBCa0kyUHZPYVJGV0x3NzJRRWJHbURadHN3aHdfU2JRSmVOb1pSaWEyMG9Md2hTbENoQXNyWkwwdnUyNFhKV3pWLW0zX1poMEVmM2lUZE9OSVdLWnFRTnZ6M0c2d1NDT05Tc3k4aVZSOUlQM3hCRUQ0SWlxVUJjWXY1V0VUOHZra0w0ZnpaYWowd1NXWWx3eUJSZjd6TdIBuwFBVV95cUxNNjBIVHd5ZXBuMjlYTlMtcjRQbl9nNGFUb2Z6SXc4R25Fc3lkU3p3Z1RxS19Dc0huT1dOejh5T3ZidXAxd0RXelRjUGF0N1lrb3l1UXF0R0xKWUh6VUpDalpfa0ZJZTZoa1ROUkloYU9pYXdQcUlZbnBzNXZvQ0RvRVd1SktBN0ZJMlFUN05Ed3hDanZIMTBPMjRYaXhFOS1TWEE0aEdHc055SGliem1CVGp6WlZoQk42Y2pr?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Endurance Technologies Ltd. Share Price Today | Endurance Tech Live NSE/BSE - Value Research",
+        "source": "Value Research",
+        "published": "Thu, 06 Oct 2022 13:15:36 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcmJQYzl1LUR2RWhrb3dQbHQ1T0Y5RlgtQjFhaTJpVXJHX0V1WlB4TlMxNXJKdk96SG41cEUzWmx6R3dnXzhsd1UtTk10ZW9wWlNCemxoT0NENmpPdWNTTkozbUZ3dFFoRHg2RE9YNzNNLVB0LUZZaEY0SGhlQWU4SVZR?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Endurance Technologies acquires Italian die-caster for \u20ac12.34 million - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Tue, 06 Oct 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQkpHNlRBMHRtaTROVHRnODRHdlVnTGR5LUpISjBFYXJ5VU9VUG9KMExIWW41ejNyc1Z6UE9fY1Y1ejVFOUV6YU1hM1JlcUhUdXJ2SHVzbUZ0cUhNMGNyeXlBLUJWQ2N6Sk1YekpOcmZWa3E2OG0tQ0Z1X1NReDVfYWlGaE9XZTZtRC1wOXJZbUplZldwYW5KWE14VXY1M1JCWkp4SjlWaEo5bmU3TVJ3eE5jTjNKTXZZZUZkWVhn?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Endurance Technologies Completes Italian Subsidiary Merger - Autocar Professional",
+        "source": "Autocar Professional",
+        "published": "Mon, 29 Dec 2025 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQc1RyTjNjQzk0alFOTVRWSFJ5ZzdvUUYyVk1tY0Ewd2g4N1VLWHoyRXJTU1FIRnNBOU5KUzlDQkRVeG9wVmVPSng5Mi1tdm80enlnM05MMHNEZU1rUmRCT0lvUHNRMXY5dF9POU5qX3JreVJTTVhVdGhGTjkyV3dOOXZVLWdXQ3FDbjVBNi1JcXdzNGRlU3JmaXZPQWfSAaQBQVVfeXFMT2ppNjNDYmVjcElNRGQ0bmxGMUpORUpoWFFXeDk1bTljVXh3T1R6TDYzaG4ybUZiaWl1OFRQSDUtWTVHUjR1aFdKbmFhYWRhUW5ETjlXOFZ5a1VmNGlRV19TT3dYVF92S0ZyWE5rZXlocE1WLVRrN3Zqd25BMjRXd3lxY2J3dzZfX3dJd2otenJIS3RmRG1zWTlHdzViby1mdkM5QUU?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Endurance Technologies appoints Aditya Jhavar as Head \u2013 Growth - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Thu, 10 Sep 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPLVl2R3l6dGNmOTJLLWZ3OERmR3JGbXJ4bk54YkgyWkgtdkVnTmgyRG5YLXVLY0FpQm1oMjhtczVnZ3RsSkZYOU1NZlEycTBIMWwtaXdsVk52SGN6Sm5iVHFNX2p6OHdONC15ak9ldF9JdVhTMG4zMk5GUTYtVDFWTXNGeGF0ZE9SSGlaVjA4T2hYTUxQYlJ6b3hzcUJuRXA4MGNWUXNmcV94NS0yZmQ0U3NacDM?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Endurance Technologies acquires balance 32% stake in St\u00f6ferle for \u20ac18 million - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTGF0c0pBM3RvRlRGd1YzbFJNWDAzRWo1aTlINl9xSk1jYVRVVFNZNngxSGZ1UnJzd2NEOXptUEJpaXdJeG1BOGVxNWZmWlpHRTMzdlRLWm5GSjBXZWhpd0s4OWJaMnkxNWVOd1htZkVBSExVejR6SVVFMVBYWXJnVmhjS0JDTXVxV2xsbllVUWZnZWRvRDVfdGc1TnZfdWlGOXdlQUpBN21MSFdNc2t5ME9TVXpfSXNXbnR2RV9wVmpZRlE?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Endurance Technologies to invest Rs 62 crore for four-wheeler battery capacity - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Wed, 17 Jun 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeXBJeVMzRVU3Qnp2RW42WjlTdWo0cVdpdy1RUWJFOUZMbGJTRkFsVkxvN0V3SDRjZHpFRWRJWkhxYzU3Rko2NVRxeEcyQ1FnWmhqbWNQVjFhV3M4NjBuWFBaaFl1SERxcmRCcTQ1TTRuaW1LMTdkV3JkTTc3N191SS1Nc3BnRG1wNjU4RUpMZHhwYXdHMzlDeEc3bERCTVZQNGJzeGxxUElZNko4R0loMGdiMHdwcDQyNmkxU2ViSHlDSXFWQmlDejhrX1lqQjBiS2ZhTzRn?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Endurance Technologies Completes Postal Ballot Notice Publication for Director Re-appointment - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Thu, 30 Apr 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOci1SRWlrNFZ2LVQ3eTZFUmJfR3BBMkw3UXI0YUFxNV9fQWRNOVZiaFY4R0M2UEp1YXJCdVZpaHJTQ051UmpqaXN1WU5WWHNxa3o3bHhhUU5UZFlCbl9zN3M4b1g3QXJEVzdoZHNoQzJvWk8zeXZsX2tZc1NpNmVzc2FyU09qdGVnbS1NclhpYXVpbXp0a3RwaXVtMWdGNUllVEZuTl9MZV92STMyTXdFTjJqZkg4Z3Q3YnRuZUxmTEJENWhOXzB2a2FvdW40ZDh3STRnX3huT2ZJVWs?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Endurance Technologies to sell Veicoli Srl for \u20ac2.2 million - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Wed, 24 Jun 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRF9oRUpqcGlYZnhub3E2TmF1SjlCUEdlSFU3bkprY0thekdvTWZieTlzOTA0Vml3VThnVERobHZma1BsU1lTVkx3M1BZeGFrX3VldnNpd1dXbzBxT0M3N25fUl82Vm5YS3lFRW9JWEJEZTI2QTFOZXN4TWYtRkprRWdmbmdmU0xqMy1VcmdGWWFvbVUwU0wtNVVHQjJ3RGwxSDd4REpMbGNTT1NYb2I1OHJySHVpU1JXSDc2SnFn?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Endurance Technologies Board Meeting on May 14, 2026 for Q4FY26 Results Approval - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Wed, 25 Mar 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOM3RWUnhxcnJWbF9wTUVYSERuWjZPRXFDZTlUbWRoMmNlc0U1RlBHNHZNVnVyaXdDWEpXNGRBdDhDMzloNFF3X20yNGVKeXZpY0c3LU9heXl0czdzZ0Z5SWktUDdzM3dacmdNUWpqYmZtZEJ5VHd6Zm9FN2syU2ZCMUdQOVd4Z1Axbzhic1h1TDVicWxhSHpfdGRZdG1KcnJTVHlhcFhEb05FaklJYnd2Q0VLelpNejczMEpWNk1WNVdNc3FtdkV4SzA5bTd6ajA?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Endurance Tech Posts Record FY26 Results; Q4 EBITDA Margin at 13.90% - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Thu, 14 May 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdmZBQWY1WVUzZUNtdmVtSEJoT0k0Rm5xTjZCWFZ4bHV5c3hQVFBVd2F4X2h6bXdFaGU4UTAySnBIVkFUYkdFZnBXaGtLU2VYSGpobTBfcWg5V0VpUjl2WUZBSk4tbEhYMl9vNGZvaDQtVTItd24yZVV4dzc0c1NOQUNrSWJaLV8xaUw2cHNlazl2WkRuTENMVWFoUW9iTk5Ed3lYSDZ5RjlYc1p0ZXhOWmRRSjlqTlp3TlN2UVpQZ2RKOFlRcHlv?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Endurance Technologies Reports Strong Q3FY26 Results with 26.5% Revenue Growth - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Fri, 13 Feb 2026 09:11:36 GMT",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOOFJjeW1PX2VCckVVOHJmTmpnUFhqOHRtLXlQLURKTE1kLW8wc3FoR0dEMTFCRDdMbXRSbGxxa3Q0b2hCNWRYRVI0SEhDVTZtZ2RrNS01bkxFcm5JOGp1cTlmako0R2hWd2RDNWlYUi1yUm5jc1cxQmgtVVFlOW5CSVNMckdiNnpLY09aRTJiOTdnRHdWZGZxbDNXVXRFcUZvZzg3dkVadGpoYUE0LThGcjVvMFhNVXFwUXBNODZWNTJ6N3VsTTFvREcwODNqQQ?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Endurance Technologies Receives Enhanced Industrial Promotion Subsidy of \u20b9858.29 Crore - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Tue, 13 Jan 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbzNReEUwSktlSVI5YnlzYU1ROHY4ZzRvc1Z1SGpjSmRNa01YNUZleHBkMmFhZXdLd1NtTGdib0E0V0xBdGNYdGVidzQ5dWJTRERDX0JMYlFqY2M2dTJrSlBETHBMUkdGZDliUVRvZVZOWkxENzI2VnhGRkZxWXBIcENCQ2hXeTUtOTA2Z3R6Mzl4a2RHNVFKRjZyUmIzZzRYSVpEb0pSSmp0SU1LY3M2WFFQRHk0RnRCSHlWeVBpbFM1Q0pVbzJyd1k3RUNwWGtKaWJTSkV3?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Endurance Technologies Promoter Group Executes Inter Se Shareholders' Agreement - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Wed, 11 Feb 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPclNyYnJ5ZnRuZkw3cWRnSFh4elZZelBiM1B6RnNSZWR1clBNUlk4Rm5oN3ljZnlBMXp3cnN4TTdGTHlQV0NQdTlNcjdTYnZtUTRSYWpLN0YwUVhvTmJwbDBwYXo4MU9qSk9xSlhodXFOb2NUNkx3SkhrTkNRUTEtRVRpU0ZvWTA1TFZzSUF6MzRBdHIwU05IZDBWYS1DWmdiQ1RyekJqcWR3NUFIQkVFdnFGMl83NGQwX2d4a2JBZjNCYk9RVDB2VDE3VFI?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Endurance Technologies Reports 20% Growth in Consolidated Income for Half Year - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Wed, 12 Nov 2025 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNblJjM0hnR0UwRTFWRzVGb01Kb3hUNjUtR1BUSV9rRktfTEpPVjdGdllsd3FVYUtOSHFJc1Nnb0NhVlBfWkhCUjI0TFBIQVE3RVdDa1JQWUN5UVhUNjBiLTRWYW9zZW5lTlJfNjdYZk80Zy1iNFZFMi1lWFlJQ2pCM1JwcXlKWk0tamVJRGQtMTJjZUt1R2x3WHd6RFdlWWVRZHZmX2kyZ2hJSjZpU1Rxbm5qSlVELUpCWi1IcEpOSzE1YUFj?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Endurance Technologies Reports 22.6% Revenue Growth in Q2 FY26, Expands EV-Ready Component Capacity - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Wed, 12 Nov 2025 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQSmxLTk9NTUtIRzdvSHQ4YlNhN3ZjXzBCRERhUWhBdjg2SmI1U1RtckVvZ19RUzFFeXVlZl9QaUZTZUdXeXVDNzdMaTFYNFF4SC14NUMxMDE5MlF4QUtmdUo0cGt6c1F5c2R0RU5PckxzdGpJRk4tbGdXNzdfQVlKYkZIWEg5RVN2S3VTUW5DNmRlRUN4cUNZa29vZVY5Q0JJbXVMZlNEcGp0ZTZWTWFFbXg5TVBXVmM1LVJsSnVISXZiUTlsSTc1VjBWcnFld1N5SXJkTFNfUld3dlY2OXpIOU9pZnBxcUw5?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Endurance Technologies Limited (ENDURANCE.BO) stock price, news, quote and history - Yahoo Finance Singapore",
+        "source": "Yahoo Finance Singapore",
+        "published": "Wed, 08 Aug 2018 19:54:57 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8yQTVpeXVSMXFMdkFSSXM5aFYwcXpFR3B5ZUVNT0pRNTAyVGN6aFE2Rlk5UjV4ZWcyUGpkeUo4N3c4QXUzdGwwNWtUTzJLNXlBcnZHbXJPOVFzOUw5?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Endurance Technologies Expands Footprint with 8.9-Acre Land Acquisition in Tamil Nadu - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Thu, 11 Sep 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOV1Y0NTZCNkNYSUxvZGV5ZzQ2QkRuM2VvTVhSVE1feVgzLUo1Y3JtTTZCdW0zVXEwZVg5ZnZyNklDX2NBZDFSX1psZjRzNVVMS08tZzBxdkFzdlpkeEtEck9UVjJDa0VGM0VxQ0VBR0d1OElrZzNTd2VZc3N2WEdoQTNROG5WWG9LV1d4R09jWllTY1R2YlpCMGJ2a2Fjdnpsb2xzSGwyMmEtdnBKc1hydUZsMlpnZWhQMkJuQUpKc2VEWVZpdGJNcU9wTldCVExBbFhwN2M2dDg1eTlZQTVzSmwwc1E?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Endurance Technologies Gears Up for Major Expansion in ABS and Brake Systems - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Tue, 19 Aug 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONGtsVWliVU95TXdMTW9TZVJ0MlhOTWtPcDFWaU1lVnFyNWFER01YZGNCbkNZZkVJSXAxVVU3TVJhbFFoSnBnOVFYcGVPaEdmdXBXVlZZNGhjcjFQUk4yQTVLSmNwWEx5TklyS2FUc3k1N29LYXpBSjJSdGREQlRjSjlObEVwWXhoX2lSc3U2NTI1dm03VkJEby1VTnV1OFhUME5FdnNWNW12TVM0M0xrNER3SVh0czhyYmoxUXNRX3lYS1MtY1V0UDVHbWVXQ29DaWUwV2lEOV8?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Endurance Technologies (NSEI:ENDURANCE) - Stock Analysis - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Fri, 01 Dec 2017 14:48:43 GMT",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPeGJoZTNjcVJvSUpLTXczekdZbTNZWE9qWmlkOVNXMVBLZWNVLXRNZFlmakh4MnNYS0drakxYUGl1NkZ5ZmZBZ2dCM2xJNEZxWkhlbkNvNTFPN2VSRktWQi1DdmxLYnBLMzRDdzVIUVZjNHJXQ1c4dTFZXzVwZTA4ZW5LaXpjeEhMTVhrcEwxalg?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Endurance Technologies Commences Commercial Production at New Alloy Wheels Plant in AURIC, Bidkin - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Fri, 10 Oct 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOVTBIZXhhNzZKUVB1NXZzUHJMX2RzNHdlVEZqbVhQMVVDaHJvRWZ5ZnphejZZVERxWTFKWTBvUUNWOWt1Z2N3QUVTejQxaUpLb2NUazVNNlMxb3ZwTTNIbll3akpmblNnRWNFZ2dvbjhUWjFmbUktajRiM0N5Z2pmclY1dVFCeUgzVnBjM2lVbXQ1MC0yN0pKU3dZQkUyQWI4S2dHTnNaR1dCWXZTWUd3cTdDQUQtOE83a2lUM2JmSS15NjhScVlQTF9KNm00UXlQMWRMbXJHZWxodG5OUzYzUHZiYUhSbENXNUNmTnJFMF9PS1E?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Endurance Technologies (BSE:540153) - Stock Analysis - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Fri, 01 Dec 2017 15:53:12 GMT",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQY2ZtRVBIeFBCb2ZhdzVKampYMThObFVvV2g1MzdaTVA3aWpRU0F5dUN5MUVFeGY4S0FyZFpLSW1JMHQydS01QmFyZVFIVGdYVzF1NnJUb0VVcUswV2ZJTU1nbEZlVWc3STVPQS1yM2JhQW9SX1IxOGluSUh1cm5hbm9BaXhraTVIZF9yag?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Endurance Technologies Acquires Italy's Fondalpress and Anna Milena SpA for \u20ac12.34 Million - EquityBulls",
+        "source": "EquityBulls",
+        "published": "Tue, 06 Oct 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbjIxZG9sMnF2QnFiLTIyekZEeWNiQXN3U3lXLXBMVU5MSERKbW9NQWt2WXFqZnpzbXF1RjFteVhFVnNpZm42MHhPSEJpZzNBXzVHcDV5Q3QzdlNfMkw5LWoydkpxMjIwMHlmWml1VUtvbUlVdHk0RGJvS3g1S3AtNVRLR294ZUFqWlNOY3V6MVpPTWtSTHpraHVUQXB2cVdVTnpaaG5rTnlXZXpEMXRaZWNLRWk5RTJNTTBlZQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      }
+    ],
+    "stored_new": 28,
+    "duplicates_skipped": 0,
+    "note": "headlines are unverified signals, not confirmed financial evidence",
+    "_run_id": 1105
   },
   "8_risk_analysis": {
     "classification": "LOW",
@@ -221,11 +478,11 @@
     "atr_pct_of_price": 0.028587511091850818,
     "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
     "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
-    "_run_id": 726
+    "_run_id": 1104
   },
   "9_fundamental_score": 61.0,
   "10_technical_score": 34.0,
-  "11_data_confidence": 70.0,
+  "11_data_confidence": 72.0,
   "12_short_term_assessment": {
     "score": 42.1,
     "technical_view": {
@@ -256,7 +513,7 @@
     },
     "business_classification": "insufficient_evidence"
   },
-  "14_investment_thesis": "Endurance Technologies Limited (ENDURANCE) is classified as a 'insufficient_evidence' business with a sideways technical trend. Balanced research score 47.5/100 (fundamental 61.0, technical 34.0, data confidence 70.0, risk 0/100 higher=worse).",
+  "14_investment_thesis": "Endurance Technologies Limited (ENDURANCE) is classified as a 'insufficient_evidence' business with a sideways technical trend. Balanced research score 47.5/100 (fundamental 61.0, technical 34.0, data confidence 72.0, risk 0/100 higher=worse).",
   "15_thesis_invalidation": [
     "Daily close below invalidation level 2060.67 (2x ATR under support)",
     "Operating cash flow turning negative in the next annual report",
@@ -298,7 +555,7 @@
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-20 02:52 IST",
+    "generated_at": "2026-11-20 04:03 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-19 15:33 IST"
   }

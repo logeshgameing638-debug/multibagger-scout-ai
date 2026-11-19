@@ -1,7 +1,7 @@
 {
   "symbol": "DJML",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:29 IST",
+  "updated_at": "2026-11-20 04:03 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 6,
         "max": 10,
         "detail": [
-          "P/E 20.5 (no industry benchmark): value 20.5 vs threshold 25"
+          "P/E 19.9 (no industry benchmark): value 19.9 vs threshold 25"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 45: 4/7 (value 45.3 vs threshold 45)",
+          "RSI 48: 4/7 (value 47.7 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.285 below all bands"
+          "relative volume: value 0.497 below all bands"
         ]
       },
       "price_structure": {
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (56% of range)"
+          "price mid-range between S/R (61% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "978 validated daily bars (value 978 vs threshold 200); providers may delay quotes ~15 min"
+          "977 validated daily bars (value 977 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -206,11 +206,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 45.30201462727994,
+    "rsi_14": 47.66204080407827,
     "breakout": false,
     "breakdown": false,
     "support": 62.0,
-    "resistance": 75.0,
+    "resistance": 75.55000305175781,
     "trend": "bearish"
   }
 }

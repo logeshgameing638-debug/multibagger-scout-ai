@@ -1,7 +1,7 @@
 {
   "symbol": "DBREALTY",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:57 IST",
+  "updated_at": "2026-11-20 03:56 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 0.0,
         "max": 10,
         "detail": [
-          "P/E 170.8 (no industry benchmark): value 171 below all bands"
+          "P/E 177.8 (no industry benchmark): value 178 below all bands"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 49: 4/7 (value 49.2 vs threshold 45)",
+          "RSI 47: 4/7 (value 47.1 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.399 below all bands"
+          "relative volume: value 0.589 below all bands"
         ]
       },
       "price_structure": {
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (53% of range)"
+          "price mid-range between S/R (46% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1236 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -205,11 +205,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 49.24457722077624,
+    "rsi_14": 47.08131138655972,
     "breakout": false,
     "breakdown": false,
     "support": 76.6500015258789,
     "resistance": 93.0199966430664,
-    "trend": "sideways"
+    "trend": "bearish"
   }
 }

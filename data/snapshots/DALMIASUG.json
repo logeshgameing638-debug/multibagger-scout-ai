@@ -1,7 +1,7 @@
 {
   "symbol": "DALMIASUG",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:57 IST",
+  "updated_at": "2026-11-20 03:55 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -14,13 +14,13 @@
   },
   "name": "Dalmia Bharat Sugar and Industries Limited",
   "scores": {
-    "fundamental": 41.5,
-    "technical": 52.0,
+    "fundamental": 39.5,
+    "technical": 45.0,
     "data_confidence": 72.0,
     "risk": 10.0,
-    "long_term": 44.6,
-    "short_term": 48.8,
-    "balanced": 46.8
+    "long_term": 41.1,
+    "short_term": 43.3,
+    "balanced": 42.2
   },
   "classification": "neutral",
   "explanation": {
@@ -70,10 +70,10 @@
         ]
       },
       "valuation": {
-        "points": 8,
+        "points": 6,
         "max": 10,
         "detail": [
-          "P/E 14.3 (no industry benchmark): value 14.3 vs threshold 15"
+          "P/E 15.1 (no industry benchmark): value 15.1 vs threshold 25"
         ]
       },
       "industry_growth": {
@@ -93,17 +93,17 @@
         ]
       },
       "ema_alignment": {
-        "points": 15,
+        "points": 8,
         "max": 15,
         "detail": [
-          "full bullish alignment (price > 20 > 50 > 100 > 200)"
+          "price above EMA50, partial alignment"
         ]
       },
       "momentum": {
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 52: 4/7 (value 52.1 vs threshold 45)",
+          "RSI 51: 4/7 (value 51.1 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.16 below all bands"
+          "relative volume: value 0.202 below all bands"
         ]
       },
       "price_structure": {
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (63% of range)"
+          "price mid-range between S/R (60% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1234 validated daily bars (value 1.23e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -204,11 +204,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 52.05408357283356,
+    "rsi_14": 51.13178390318633,
     "breakout": false,
     "breakdown": false,
     "support": 388.70001220703125,
     "resistance": 503.8999938964844,
-    "trend": "bullish"
+    "trend": "sideways"
   }
 }

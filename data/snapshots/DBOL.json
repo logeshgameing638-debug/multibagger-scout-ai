@@ -1,7 +1,7 @@
 {
   "symbol": "DBOL",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:57 IST",
+  "updated_at": "2026-11-20 03:56 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,14 +15,14 @@
   "name": "Dhampur Bio Organics Limited",
   "scores": {
     "fundamental": 30.0,
-    "technical": 67.0,
+    "technical": 55.0,
     "data_confidence": 72.0,
     "risk": 30.0,
-    "long_term": 41.1,
-    "short_term": 55.9,
-    "balanced": 48.5
+    "long_term": 37.5,
+    "short_term": 47.5,
+    "balanced": 42.5
   },
-  "classification": "high_risk,attractive_valuation,strong_technical_trend",
+  "classification": "high_risk,attractive_valuation",
   "explanation": {
     "fundamental": {
       "growth": {
@@ -73,7 +73,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 27.4 (no industry benchmark): value 27.4 vs threshold 40"
+          "P/E 27.7 (no industry benchmark): value 27.7 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -93,25 +93,25 @@
         ]
       },
       "ema_alignment": {
-        "points": 15,
+        "points": 8,
         "max": 15,
         "detail": [
-          "full bullish alignment (price > 20 > 50 > 100 > 200)"
+          "price above EMA50, partial alignment"
         ]
       },
       "momentum": {
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 54: 4/7 (value 54 vs threshold 45)",
+          "RSI 48: 4/7 (value 47.5 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 10,
+        "points": 5,
         "max": 15,
         "detail": [
-          "relative volume: value 1.12 vs threshold 1"
+          "relative volume: value 0.863 vs threshold 0.7"
         ]
       },
       "price_structure": {
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (56% of range)"
+          "price mid-range between S/R (42% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1037 validated daily bars (value 1.04e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1036 validated daily bars (value 1.04e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -197,8 +197,7 @@
     },
     "labels": [
       "high_risk",
-      "attractive_valuation",
-      "strong_technical_trend"
+      "attractive_valuation"
     ],
     "weights": {
       "long_term": "0.7F+0.3T",
@@ -207,11 +206,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 53.983835845841156,
+    "rsi_14": 47.52415093089897,
     "breakout": false,
     "breakdown": false,
-    "support": 117.0,
+    "support": 112.0,
     "resistance": 153.99000549316406,
-    "trend": "bullish"
+    "trend": "sideways"
   }
 }

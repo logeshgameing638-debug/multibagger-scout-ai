@@ -1,7 +1,7 @@
 {
   "symbol": "DEVX",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:28 IST",
+  "updated_at": "2026-11-20 04:00 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Dev Accelerator Limited",
   "scores": {
     "fundamental": 33.0,
-    "technical": 49.0,
+    "technical": 45.0,
     "data_confidence": 72.0,
     "risk": 30.0,
-    "long_term": 37.8,
-    "short_term": 44.2,
-    "balanced": 41.0
+    "long_term": 36.6,
+    "short_term": 41.4,
+    "balanced": 39.0
   },
   "classification": "high_risk",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 28.2 (no industry benchmark): value 28.2 vs threshold 40"
+          "P/E 28.0 (no industry benchmark): value 28 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -100,18 +100,18 @@
         ]
       },
       "momentum": {
-        "points": 15.0,
+        "points": 7.0,
         "max": 15,
         "detail": [
-          "RSI 61: 7/7 (value 61.2 vs threshold 55)",
-          "MACD histogram positive: 8.0/8"
+          "RSI 60: 7/7 (value 59.6 vs threshold 55)",
+          "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
       "volume": {
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.333 below all bands"
+          "relative volume: value 0.251 below all bands"
         ]
       },
       "price_structure": {
@@ -122,17 +122,17 @@
         ]
       },
       "support_resistance": {
-        "points": 6,
+        "points": 10,
         "max": 10,
         "detail": [
-          "near resistance: reduced reward/risk"
+          "price mid-range between S/R (76% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "290 validated daily bars (value 290 vs threshold 200); providers may delay quotes ~15 min"
+          "289 validated daily bars (value 289 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -205,7 +205,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 61.16153051112815,
+    "rsi_14": 59.55412737696997,
     "breakout": false,
     "breakdown": false,
     "support": 38.310001373291016,

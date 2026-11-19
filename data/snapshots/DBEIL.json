@@ -1,7 +1,7 @@
 {
   "symbol": "DBEIL",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:57 IST",
+  "updated_at": "2026-11-20 03:56 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Deepak Builders & Engineers India Limited",
   "scores": {
     "fundamental": 33.0,
-    "technical": 30.0,
+    "technical": 39.0,
     "data_confidence": 72.0,
     "risk": 40.0,
-    "long_term": 32.1,
-    "short_term": 30.9,
-    "balanced": 31.5
+    "long_term": 34.8,
+    "short_term": 37.2,
+    "balanced": 36.0
   },
   "classification": "high_risk",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 10.3 (no industry benchmark): value 10.3 vs threshold 15"
+          "P/E 10.4 (no industry benchmark): value 10.4 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -100,18 +100,18 @@
         ]
       },
       "momentum": {
-        "points": 8.0,
+        "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 45: 0.0/7 (value 44.7 below all bands)",
+          "RSI 45: 4/7 (value 45.3 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 5,
         "max": 15,
         "detail": [
-          "relative volume: value 0.298 below all bands"
+          "relative volume: value 0.936 vs threshold 0.7"
         ]
       },
       "price_structure": {
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (55% of range)"
+          "price mid-range between S/R (56% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "511 validated daily bars (value 511 vs threshold 200); providers may delay quotes ~15 min"
+          "510 validated daily bars (value 510 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -206,7 +206,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 44.70345423808984,
+    "rsi_14": 45.27964352003562,
     "breakout": false,
     "breakdown": false,
     "support": 5.389999866485596,

@@ -1,7 +1,7 @@
 {
   "symbol": "DAMODARIND",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:57 IST",
+  "updated_at": "2026-11-20 03:55 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 11.1 (no industry benchmark): value 11.1 vs threshold 15"
+          "P/E 11.2 (no industry benchmark): value 11.2 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 53: 4/7 (value 53 vs threshold 45)",
+          "RSI 54: 4/7 (value 54.1 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.0395 below all bands"
+          "relative volume: value 0.519 below all bands"
         ]
       },
       "price_structure": {
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (55% of range)"
+          "price mid-range between S/R (57% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1236 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -206,7 +206,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 52.95126052848256,
+    "rsi_14": 54.132514708377094,
     "breakout": false,
     "breakdown": false,
     "support": 23.75,

@@ -1,7 +1,7 @@
 {
   "symbol": "DHAMPURSUG",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:28 IST",
+  "updated_at": "2026-11-20 04:00 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Dhampur Sugar Mills Limited",
   "scores": {
     "fundamental": 37.0,
-    "technical": 33.0,
+    "technical": 34.0,
     "data_confidence": 72.0,
     "risk": 10.0,
-    "long_term": 35.8,
-    "short_term": 34.2,
-    "balanced": 35.0
+    "long_term": 36.1,
+    "short_term": 34.9,
+    "balanced": 35.5
   },
   "classification": "attractive_valuation",
   "explanation": {
@@ -100,18 +100,18 @@
         ]
       },
       "momentum": {
-        "points": 4.0,
+        "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 46: 4/7 (value 46.3 vs threshold 45)",
+          "RSI 40: 0.0/7 (value 40.5 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 5,
         "max": 15,
         "detail": [
-          "relative volume: value 0.691 below all bands"
+          "relative volume: value 0.888 vs threshold 0.7"
         ]
       },
       "price_structure": {
@@ -132,7 +132,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1236 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -204,10 +204,10 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 46.2720159204641,
+    "rsi_14": 40.49255573763878,
     "breakout": false,
     "breakdown": false,
-    "support": 158.25,
+    "support": 148.61000061035156,
     "resistance": 196.0,
     "trend": "sideways"
   }

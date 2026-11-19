@@ -1,7 +1,7 @@
 {
   "symbol": "DENTA",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:28 IST",
+  "updated_at": "2026-11-20 04:00 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Denta Water and Infra Solutions Limited",
   "scores": {
     "fundamental": 45.5,
-    "technical": 24.0,
+    "technical": 34.0,
     "data_confidence": 72.0,
     "risk": 40.0,
-    "long_term": 39.0,
-    "short_term": 30.4,
-    "balanced": 34.8
+    "long_term": 42.0,
+    "short_term": 37.4,
+    "balanced": 39.8
   },
   "classification": "high_risk",
   "explanation": {
@@ -103,15 +103,15 @@
         "points": 8.0,
         "max": 15,
         "detail": [
-          "RSI 36: 0.0/7 (value 36.5 below all bands)",
+          "RSI 37: 0.0/7 (value 36.8 below all bands)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 10,
         "max": 15,
         "detail": [
-          "relative volume: value 0.671 below all bands"
+          "relative volume: value 1.24 vs threshold 1"
         ]
       },
       "price_structure": {
@@ -132,7 +132,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "447 validated daily bars (value 447 vs threshold 200); providers may delay quotes ~15 min"
+          "446 validated daily bars (value 446 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -206,11 +206,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 36.46682969179484,
+    "rsi_14": 36.83524301327729,
     "breakout": false,
     "breakdown": false,
     "support": 220.14999389648438,
-    "resistance": 253.2899932861328,
+    "resistance": 253.5,
     "trend": "bearish"
   }
 }

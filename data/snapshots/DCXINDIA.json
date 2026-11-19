@@ -1,7 +1,7 @@
 {
   "symbol": "DCXINDIA",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:58 IST",
+  "updated_at": "2026-11-20 03:58 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -103,7 +103,7 @@
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 50: 4/7 (value 49.6 vs threshold 45)",
+          "RSI 50: 4/7 (value 49.8 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.151 below all bands"
+          "relative volume: value 0.173 below all bands"
         ]
       },
       "price_structure": {
@@ -132,7 +132,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "994 validated daily bars (value 994 vs threshold 200); providers may delay quotes ~15 min"
+          "993 validated daily bars (value 993 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -205,7 +205,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 49.59799210989941,
+    "rsi_14": 49.83111521428919,
     "breakout": false,
     "breakdown": false,
     "support": 128.9600067138672,

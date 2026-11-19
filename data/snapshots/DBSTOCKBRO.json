@@ -1,7 +1,7 @@
 {
   "symbol": "DBSTOCKBRO",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:57 IST",
+  "updated_at": "2026-11-20 03:57 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,14 +15,14 @@
   "name": "DB (International) Stock Brokers Limited",
   "scores": {
     "fundamental": 28.0,
-    "technical": 65.0,
+    "technical": 52.0,
     "data_confidence": 72.0,
     "risk": 10.0,
-    "long_term": 39.1,
-    "short_term": 53.9,
-    "balanced": 46.5
+    "long_term": 35.2,
+    "short_term": 44.8,
+    "balanced": 40.0
   },
-  "classification": "strong_technical_trend",
+  "classification": "neutral",
   "explanation": {
     "fundamental": {
       "growth": {
@@ -71,7 +71,7 @@
         "points": 0.0,
         "max": 10,
         "detail": [
-          "P/E 47.4 (no industry benchmark): value 47.4 below all bands"
+          "P/E 46.7 (no industry benchmark): value 46.7 below all bands"
         ]
       },
       "industry_growth": {
@@ -98,18 +98,18 @@
         ]
       },
       "momentum": {
-        "points": 15.0,
+        "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 58: 7/7 (value 57.9 vs threshold 55)",
+          "RSI 54: 4/7 (value 54.3 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 10,
+        "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 1.41 vs threshold 1"
+          "relative volume: value 0.172 below all bands"
         ]
       },
       "price_structure": {
@@ -123,14 +123,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (72% of range)"
+          "price mid-range between S/R (69% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -163,7 +163,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1235 validated daily bars (value 1.24e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1234 validated daily bars (value 1.23e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -193,7 +193,7 @@
       ]
     },
     "labels": [
-      "strong_technical_trend"
+      "neutral"
     ],
     "weights": {
       "long_term": "0.7F+0.3T",
@@ -202,11 +202,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 57.87444641461784,
+    "rsi_14": 54.28262832954965,
     "breakout": false,
     "breakdown": false,
     "support": 26.600000381469727,
-    "resistance": 35.0,
+    "resistance": 34.11000061035156,
     "trend": "bullish"
   }
 }

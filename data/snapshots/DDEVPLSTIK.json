@@ -1,7 +1,7 @@
 {
   "symbol": "DDEVPLSTIK",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 14:58 IST",
+  "updated_at": "2026-11-20 03:58 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Ddev Plastiks Industries Limited",
   "scores": {
     "fundamental": 58.5,
-    "technical": 16.0,
+    "technical": 39.0,
     "data_confidence": 72.0,
     "risk": 10.0,
-    "long_term": 45.7,
-    "short_term": 28.8,
-    "balanced": 37.2
+    "long_term": 52.6,
+    "short_term": 44.8,
+    "balanced": 48.7
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 11.9 (no industry benchmark): value 11.9 vs threshold 15"
+          "P/E 11.8 (no industry benchmark): value 11.8 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -100,18 +100,18 @@
         ]
       },
       "momentum": {
-        "points": 0.0,
+        "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 44: 0.0/7 (value 43.9 below all bands)",
-          "MACD histogram non-positive/missing: 0.0/8"
+          "RSI 48: 4/7 (value 47.6 vs threshold 45)",
+          "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 5,
         "max": 15,
         "detail": [
-          "relative volume: value 0.566 below all bands"
+          "relative volume: value 0.738 vs threshold 0.7"
         ]
       },
       "price_structure": {
@@ -122,17 +122,17 @@
         ]
       },
       "support_resistance": {
-        "points": 4,
+        "points": 10,
         "max": 10,
         "detail": [
-          "near support: watch for breakdown or bounce confirmation"
+          "price mid-range between S/R (40% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "456 validated daily bars (value 456 vs threshold 200); providers may delay quotes ~15 min"
+          "455 validated daily bars (value 455 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -204,11 +204,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 43.89455800402285,
+    "rsi_14": 47.63792418128494,
     "breakout": false,
     "breakdown": false,
     "support": 238.0500030517578,
-    "resistance": 264.239990234375,
+    "resistance": 266.0899963378906,
     "trend": "bearish"
   }
 }
