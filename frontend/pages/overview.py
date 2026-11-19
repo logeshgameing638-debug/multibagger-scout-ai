@@ -29,18 +29,7 @@ def render(st) -> None:
             select(AgentRun).order_by(AgentRun.id.desc()).limit(8)
         ).all()
 
-    c1, c2, c3, c4 = st.columns(4)
-    c1.metric("Companies in library", total_companies)
-    c2.metric("Research complete", status_counts.get("complete", 0))
-    c3.metric("Price rows stored", total_prices)
-    c4.metric("Open alerts", open_alerts)
-    st.caption(
-        "Research status across the library: "
-        + ", ".join(f"{name} {count}" for name, count in sorted(status_counts.items()))
-        + f". Price data as of {str(latest_price_ts)[:10] if latest_price_ts else 'no data yet'}."
-    )
-
-    st.subheader("Hosted daily updates (rotation)")
+    st.subheader("Universe coverage (hosted rotation)")
     from services.snapshots import coverage_summary
 
     coverage = coverage_summary()
@@ -50,23 +39,43 @@ def render(st) -> None:
             "committed snapshots, coverage appears here."
         )
     else:
-        r1, r2, r3 = st.columns(3)
+        r1, r2 = st.columns(2)
         r1.metric(
             "Stocks refreshed this cycle",
             f"{coverage['stocks_with_data']} of {coverage['universe_size']}",
         )
         r2.metric("Coverage", f"{coverage['coverage_pct']}%")
-        r3.metric("Last update run", coverage["last_run_at"] or "unknown")
-        st.caption(
-            "Free hosting cannot scan the whole market every day: one batch is "
-            "refreshed each weekday, so every stock carries its own date. "
-            f"Data spans {coverage['oldest_data']} to {coverage['newest_data']}. "
+        # full timestamp as caption: st.metric truncates long values
+        st.caption(f"Last update run: {coverage['last_run_at'] or 'unknown'}")
+        status_line = (
             f"Statuses: {coverage['complete']} complete, {coverage['partial']} partial, "
-            f"{coverage['unavailable']} unavailable (retried next cycle). "
-            "A full scan of every stock completes over several weeks, not daily."
+            f"{coverage['unavailable']} no data available from free sources"
+        )
+        if coverage.get("system_error"):
+            status_line += f", {coverage['system_error']} system errors (our side, retried next cycle)"
+        st.caption(
+            "One batch of stocks is refreshed each weekday via GitHub Actions, so every "
+            "stock carries its own refresh date; a full pass of all "
+            f"{coverage['universe_size']} stocks completes over several weeks, not daily. "
+            f"Data spans {coverage['oldest_data']} to {coverage['newest_data']}. "
+            + status_line + "."
         )
 
-    st.subheader("Top research candidates (latest scores)")
+    with st.expander("On-demand research library (this hosted session)"):
+        c1, c2, c3, c4 = st.columns(4)
+        c1.metric("Companies in library", total_companies)
+        c2.metric("Research complete", status_counts.get("complete", 0))
+        c3.metric("Price rows stored", total_prices)
+        c4.metric("Open alerts", open_alerts)
+        st.caption(
+            "On-demand research you trigger from Stock Scout is stored in a session "
+            "database that resets when the hosted app restarts. The rotation snapshots "
+            "above are the durable record. Research status: "
+            + (", ".join(f"{name} {count}" for name, count in sorted(status_counts.items())) or "none")
+            + f". Price data as of {str(latest_price_ts)[:10] if latest_price_ts else 'no data yet'}."
+        )
+
+    st.subheader("Top research candidates (latest rotation scores)")
     scores = components.latest_scores()
     if scores.empty:
         st.info("No research yet. Run a scan from the Stock Scout page.")
