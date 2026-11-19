@@ -44,7 +44,8 @@ def _latest_risk_classification(symbol: str, exchange: str) -> str | None:
 
 def evaluate_order(symbol: str, exchange: str, side: str, qty: int,
                    price: float, stop_loss: float | None,
-                   cash: float, invested: float) -> dict:
+                   cash: float, invested: float,
+                   existing_cost: float = 0.0) -> dict:
     """Approve or reject a SIMULATED order. Returns {approved, status, reasons, warnings}."""
     reasons: list[str] = []
     warnings: list[str] = []
@@ -52,10 +53,12 @@ def evaluate_order(symbol: str, exchange: str, side: str, qty: int,
     cost = price * qty
 
     if side == "BUY":
-        if total > 0 and cost > total * MAX_POSITION_PCT:
+        aggregate = existing_cost + cost
+        if total > 0 and aggregate > total * MAX_POSITION_PCT:
             reasons.append(
-                f"position cost {cost:,.2f} exceeds {MAX_POSITION_PCT:.0%} of virtual "
-                f"capital {total:,.2f}")
+                f"position would total {aggregate:,.2f} "
+                f"(existing {existing_cost:,.2f} + new {cost:,.2f}), exceeding "
+                f"{MAX_POSITION_PCT:.0%} of virtual capital {total:,.2f}")
         if stop_loss is None:
             warnings.append("no stop-loss supplied - position is unprotected")
         elif stop_loss < price and total > 0:
