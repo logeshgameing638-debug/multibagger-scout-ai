@@ -15,6 +15,69 @@ ROOT = Path(__file__).resolve().parent.parent
 SNAPSHOT_DIR = ROOT / "data" / "snapshots"
 STATE_FILE = ROOT / "data" / "rotation_state.json"
 
+# The hosted app can serve a stale on-disk copy of the committed automation
+# feeds when a redeploy does not restart the running process. Reading the
+# files from the GitHub contents API instead makes each nightly feed commit
+# visible to any fresh session without a manual reboot. Local disk remains
+# the fallback (and the only source in tests and offline runs).
+import os
+import time
+
+GITHUB_REPO = os.environ.get("MSA_GITHUB_REPO", "logeshgameing638-debug/multibagger-scout-ai")
+GITHUB_BRANCH = os.environ.get("MSA_GITHUB_BRANCH", "main")
+REMOTE_TTL_SECONDS = 900  # 15 min: hourly commits stay fresh, API limits safe
+_remote_cache: dict[str, tuple[float, dict | None]] = {}
+
+
+def _fetch_repo_json(repo_relpath: str) -> dict | None:
+    """Fetch one committed JSON file from the GitHub contents API, cached
+    in-process for REMOTE_TTL_SECONDS. None on any failure."""
+    now = time.time()
+    cached = _remote_cache.get(repo_relpath)
+    if cached is not None and now - cached[0] < REMOTE_TTL_SECONDS:
+        return cached[1]
+    value: dict | None = None
+    try:
+        import requests
+        url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{repo_relpath}"
+        resp = requests.get(
+            url,
+            headers={"Accept": "application/vnd.github.v3.raw"},
+            params={"ref": GITHUB_BRANCH},
+            timeout=10,
+        )
+        if resp.ok:
+            value = resp.json()
+    except Exception:
+        value = None
+    _remote_cache[repo_relpath] = (now, value)
+    return value
+
+
+def _load_json_local(path: Path) -> dict | None:
+    if not path.exists():
+        return None
+    try:
+        return json.loads(path.read_text())
+    except (ValueError, OSError):
+        return None
+
+
+def _load_json_fresh(path: Path, repo_relpath: str) -> dict | None:
+    """Remote-first for the repo's default committed path, local fallback;
+    custom paths (tests) stay local-only."""
+    default = (ROOT / repo_relpath).resolve()
+    try:
+        is_default = path.resolve() == default
+    except OSError:
+        is_default = False
+    if is_default:
+        remote = _fetch_repo_json(repo_relpath)
+        if isinstance(remote, dict):
+            return remote
+    return _load_json_local(path)
+
+
 
 def load_snapshots(directory: Path = SNAPSHOT_DIR) -> dict[str, dict]:
     """symbol -> snapshot dict. Empty when no rotation run has committed yet."""
@@ -80,12 +143,7 @@ def load_automation_feed(path: Path = AUTOMATION_FEED_FILE) -> dict | None:
     """The committed market-data-only alert feed from scheduled GitHub Actions
     runs (scripts/automation_alerts.py). None when no run has committed yet.
     Contains no watchlists, holdings, orders or user activity."""
-    if not path.exists():
-        return None
-    try:
-        return json.loads(path.read_text())
-    except (ValueError, OSError):
-        return None
+    return _load_json_fresh(path, "data/automation/alerts_feed.json")
 
 
 RANKING_FEED_FILE = ROOT / "data" / "automation" / "ranking_feed.json"
@@ -94,12 +152,7 @@ RANKING_FEED_FILE = ROOT / "data" / "automation" / "ranking_feed.json"
 def load_ranking_feed(path: Path = RANKING_FEED_FILE) -> dict | None:
     """The committed automated research ranking from scheduled runs
     (scripts/automation_rank.py). None when no run has committed yet."""
-    if not path.exists():
-        return None
-    try:
-        return json.loads(path.read_text())
-    except (ValueError, OSError):
-        return None
+    return _load_json_fresh(path, "data/automation/ranking_feed.json")
 
 
 REPORTS_MANIFEST_FILE = ROOT / "data" / "automation" / "reports" / "manifest.json"
@@ -109,21 +162,11 @@ REPORTS_DIR = ROOT / "data" / "automation" / "reports"
 def load_reports_manifest(path: Path = REPORTS_MANIFEST_FILE) -> dict | None:
     """Manifest of automated narrative research reports from scheduled runs.
     None when no run has committed reports yet."""
-    if not path.exists():
-        return None
-    try:
-        return json.loads(path.read_text())
-    except (ValueError, OSError):
-        return None
+    return _load_json_fresh(path, "data/automation/reports/manifest.json")
 
 
 def load_report(symbol: str, exchange: str = "NSE",
                 directory: Path = REPORTS_DIR) -> dict | None:
     """One committed automated research report JSON. None when absent."""
-    path = directory / f"{exchange}_{symbol}.json"
-    if not path.exists():
-        return None
-    try:
-        return json.loads(path.read_text())
-    except (ValueError, OSError):
-        return None
+    fname = f"{exchange}_{symbol}.json"
+    return _load_json_fresh(directory / fname, f"data/automation/reports/{fname}")
