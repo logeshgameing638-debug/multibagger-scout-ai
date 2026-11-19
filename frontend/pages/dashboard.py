@@ -36,9 +36,11 @@ AGENT_STAGES = [
 TAB_NAMES = ["Overview", "Fundamentals", "Financials", "Technical", "Business",
              "Valuation", "Risk", "News", "AI Report", "Charts", "History"]
 
-GOVERNANCE_NOTE = (
+GOVERNANCE_NOTE = "Governance checks are UNASSESSED (no free verifiable source)."
+GOVERNANCE_DETAIL = (
     "Governance checks (share pledging, auditor changes, related-party deals, "
-    "regulatory actions) are UNASSESSED: no free verifiable source."
+    "regulatory actions) are UNASSESSED: no free verifiable source. A low risk score "
+    "counts quantitative checks only and is not an all-clear."
 )
 
 
@@ -397,6 +399,7 @@ def render_overview(st, view: dict, frame: pd.DataFrame, source: str) -> None:
                            "(long-term = 0.7 x fundamental + 0.3 x technical; short-term swapped).")
                 st.caption("Missing inputs score 0 under the formula - shown as 'not assessed' "
                            "in insights, not as measured weakness.")
+                st.caption(GOVERNANCE_DETAIL)
                 for agent, sections in (view.get("explanation") or {}).items():
                     if not isinstance(sections, dict):
                         continue
@@ -545,8 +548,8 @@ def _agent_tab(st, view: dict, agent_name: str, title: str, renderer) -> None:
     cap, btn = st.columns([4, 1])
     cap.caption(f"Source agent: {agent_name} | run status: {output.get('run_status')} | "
                 f"finished: {_ist(output.get('finished_at'))}")
-    if btn.button("\U0001F504 Re-run", key=f"rerun-{agent_name}-{title}",
-                  use_container_width=True, help="Re-run the full eight-agent research for this company"):
+    if btn.button("\U0001F504 Re-run full research", key=f"rerun-{agent_name}-{title}",
+                  use_container_width=True, help="Re-runs the full eight-agent research for this company"):
         _run_research(view)
     data = output.get("data") or {}
     if output.get("missing"):
