@@ -39,15 +39,23 @@ jobs:
         # Scheduled slots only; a manual dispatch always runs. The
         # concurrency group serializes the two slots. Fail-open: if the
         # state file cannot be read, the batch runs (bounded: 150 stocks,
-        # 16-minute budget, aborts on sustained provider 429s).
+        # 16-minute budget, aborts on sustained provider 429s). The
+        # stopped_reason/system_error/skipped_time_budget fields are written
+        # by scripts/daily_update.py run_batch and are the actual provider-
+        # halt representation.
         id: dupcheck
         if: github.event_name == 'schedule'
         run: |
           today_ist=$(TZ=Asia/Kolkata date +%F)
           state=$(curl -s "https://raw.githubusercontent.com/${{ github.repository }}/${{ github.sha }}/data/rotation_state.json")
           last=$(echo "$state" | jq -r '.last_run_at // ""')
-          echo "last_run_at=$last  today_ist=$today_ist"
-          if [ -n "$last" ] && [ "${last:0:10}" = "$today_ist" ]; then
+          stopped=$(echo "$state" | jq -r '.last_run_stopped_reason // ""')
+          syserr=$(echo "$state" | jq -r '.last_run.system_error // 1')
+          skipped=$(echo "$state" | jq -r '.last_run.skipped_time_budget // 1')
+          echo "last_run_at=$last today_ist=$today_ist stopped='$stopped' system_error=$syserr skipped_budget=$skipped"
+          # healthy completion only: a provider-halt (last_run_stopped_reason),
+          # any system_error, or a time-budget cut means the backup still runs
+          if [ -n "$last" ] && [ "${last:0:10}" = "$today_ist" ] && [ -z "$stopped" ] && [ "$syserr" = "0" ] && [ "$skipped" = "0" ]; then
             echo "skip=true" >> "$GITHUB_OUTPUT"
           else
             echo "skip=false" >> "$GITHUB_OUTPUT"
