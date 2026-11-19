@@ -1,0 +1,69 @@
+"""Remote-first loading keeps committed automation feeds visible on fresh
+sessions even when the hosted app serves a stale on-disk copy (redeploy
+without process restart)."""
+import json
+from pathlib import Path
+from unittest import mock
+
+import services.snapshots as snapshots
+
+
+class FakeResp:
+    def __init__(self, payload, ok=True):
+        self._payload = payload
+        self.ok = ok
+
+    def json(self):
+        return self._payload
+
+
+def _fresh(monkeypatch):
+    snapshots._remote_cache.clear()
+
+
+def test_remote_wins_over_stale_local(tmp_path, monkeypatch):
+    _fresh(monkeypatch)
+    local = tmp_path / "alerts_feed.json"
+    local.write_text(json.dumps({"generated_at": "old", "alerts": []}))
+    remote = {"generated_at": "new", "alerts": [{"symbol": "ABB"}]}
+    monkeypatch.setattr(snapshots, "AUTOMATION_FEED_FILE", local)
+    # default path check: point ROOT-derived default at tmp via monkeypatch of _load_json_fresh default
+    # instead, call the helper directly with the real default path relationship
+    with mock.patch("requests.get", return_value=FakeResp(remote)):
+        out = snapshots._load_json_fresh(
+            snapshots.ROOT / "data/automation/alerts_feed.json",
+            "data/automation/alerts_feed.json",
+        )
+    assert out == remote
+
+
+def test_local_fallback_when_remote_fails(tmp_path, monkeypatch):
+    _fresh(monkeypatch)
+    local = tmp_path / "x.json"
+    local.write_text(json.dumps({"generated_at": "local"}))
+    with mock.patch("requests.get", side_effect=Exception("no net")):
+        out = snapshots._load_json_fresh(local, "data/automation/x.json")
+    assert out == {"generated_at": "local"}
+
+
+def test_custom_path_stays_local_only(tmp_path, monkeypatch):
+    _fresh(monkeypatch)
+    local = tmp_path / "custom.json"
+    local.write_text(json.dumps({"generated_at": "local"}))
+    with mock.patch("requests.get", side_effect=AssertionError("must not fetch")):
+        out = snapshots._load_json_fresh(local, "data/automation/other.json")
+    assert out == {"generated_at": "local"}
+
+
+def test_cache_avoids_repeat_fetches(monkeypatch):
+    _fresh(monkeypatch)
+    calls = {"n": 0}
+
+    def fake_get(*a, **k):
+        calls["n"] += 1
+        return FakeResp({"v": 1})
+
+    with mock.patch("requests.get", side_effect=fake_get):
+        assert snapshots._fetch_repo_json("data/automation/alerts_feed.json") == {"v": 1}
+        assert snapshots._fetch_repo_json("data/automation/alerts_feed.json") == {"v": 1}
+    assert calls["n"] == 1
