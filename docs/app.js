@@ -636,7 +636,7 @@ function renderProfiles(data) {
   }
   setMeta("profiles-meta",
     `${ok} companies profiled (${unavailable} unavailable - shown as nothing rather than wrong data). ` +
-    `Written descriptions and per-period results from ${esc(data.source || "source")}; figures are company-reported Rs crore, not independently audited. Coverage grows each weekday run; feed generated ${esc(data.as_of || "unknown")}.`);
+    `Written descriptions and per-period results from ${esc(data.source || "source")}; figures are company-reported Rs crore, not independently audited. Coverage grows with each processed research run; feed generated ${esc(data.as_of || "unknown")}.`);
 }
 
 async function boot() {
