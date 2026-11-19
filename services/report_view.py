@@ -27,6 +27,30 @@ def _num(v) -> str:
     return f"{f:,.2f}"
 
 
+def _rupee(v) -> str:
+    try:
+        return f"\u20B9{float(v):,.2f}"
+    except (TypeError, ValueError):
+        return str(v)
+
+
+def format_entry_zone(ez) -> str:
+    """Human-readable entry zone: rupee range with its basis."""
+    if not ez:
+        return ""
+    if isinstance(ez, dict):
+        low, high, basis = ez.get("low"), ez.get("high"), ez.get("basis")
+        parts = []
+        if low is not None and high is not None:
+            parts.append(f"{_rupee(low)} - {_rupee(high)}")
+        elif low is not None:
+            parts.append(f"from {_rupee(low)}")
+        if basis:
+            parts.append(f"({basis})")
+        return " ".join(parts)
+    return str(ez)
+
+
 def _score(v) -> str:
     if v is None:
         return "n/a"
@@ -82,7 +106,7 @@ def build_narrative(report: dict) -> dict:
         "score": _score(short.get("score")),
         "trend": tv.get("trend"),
         "rsi_14": _num(tv.get("rsi_14")),
-        "entry_zone": short.get("entry_zone"),
+        "entry_zone": format_entry_zone(short.get("entry_zone")),
         "invalidation_level": short.get("invalidation_level"),
     }
     lt = long_.get("trend") or {}
