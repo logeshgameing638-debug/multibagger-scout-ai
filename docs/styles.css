@@ -160,3 +160,12 @@ a.floor-card:hover { border-color: #60a5fa; background: #1a2438; }
 
 .cap-block { margin-top: 18px; }
 .cap-count { font-size: 0.8rem; color: #94a3b8; font-weight: 400; margin-left: 6px; }
+
+#company-profiles .profile { border-top: 1px solid var(--panel-edge); padding: 0.9rem 0; }
+#company-profiles .profile:first-child { border-top: 0; }
+#company-profiles .profile h3 { margin: 0 0 0.3rem; font-size: 0.98rem; }
+#company-profiles .profile .basis { color: var(--muted); font-size: 0.78rem; margin-left: 0.4rem; }
+#company-profiles .profile .desc { margin: 0.3rem 0 0.5rem; }
+#company-profiles .profile .periods { color: var(--muted); font-size: 0.84rem; }
+#company-profiles .profile .periods div { margin: 0.15rem 0; }
+#company-profiles .profile .src { color: var(--muted); font-size: 0.76rem; margin-top: 0.4rem; }
