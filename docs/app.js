@@ -604,7 +604,7 @@ function renderTop50(data) {
     body.appendChild(tr);
   }
   setMeta("ranking-meta",
-    `Top ${(data.top50 || []).length} candidates by balanced research score out of ${data.ranked_count} stocks researched this cycle. ` +
+    `Top ${(data.top50 || []).length} candidates by balanced research score out of ${data.ranked_count} unique symbols researched this cycle (dual-listed companies count once). ` +
     `Research ranking, not buy recommendations; scores are ${esc(data.sources.scores)}. Each stock keeps its own data date.`);
 }
 
