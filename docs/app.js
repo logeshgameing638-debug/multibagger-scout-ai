@@ -567,8 +567,9 @@ function renderCapSections(data) {
     `Sections cover the ${data.ranked_count} stocks researched so far this cycle. ` +
     `Risk scores cover quantitative checks only; governance items are not assessed by the free feeds and are named inside each report. `;
   const links = document.createElement("span");
-  links.innerHTML = `Sources: <a href="https://portal.amfiindia.com/spages/AverageMarketCapitalization30Jun2026.pdf" target="_blank" rel="noopener">AMFI list (PDF)</a> · ` +
-    `<a href="https://www.bseindia.com/download/Bhavcopy/Equity/BhavCopy_BSE_CM_0_0_0_20261119_F_0000.CSV" target="_blank" rel="noopener">BSE bhavcopy (CSV)</a>`;
+  const sessionYmd = /^\d{4}-\d{2}-\d{2}$/.test(priceDate) ? priceDate.replace(/-/g, "") : null;
+  links.innerHTML = `Sources: <a href="https://portal.amfiindia.com/spages/AverageMarketCapitalization30Jun2026.pdf" target="_blank" rel="noopener">AMFI list (PDF)</a>` +
+    (sessionYmd ? ` · <a href="https://www.bseindia.com/download/Bhavcopy/Equity/BhavCopy_BSE_CM_0_0_0_${sessionYmd}_F_0000.CSV" target="_blank" rel="noopener">BSE bhavcopy (CSV, session ${priceDate})</a>` : "");
   meta.appendChild(links);
   const defs = [
     ["Large cap", data.sections.large_cap, c.large_cap],
