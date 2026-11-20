@@ -353,7 +353,7 @@ function renderCommand(state) {
   document.getElementById("floor00-stats").innerHTML = stats.map(([l, v]) =>
     `<div class="stat-card"><div class="sv">${esc(v)}</div><div class="sl">${esc(l)}</div></div>`).join("");
   setMeta("floor00-meta",
-    `One scheduled research run per weekday evening (IST). Cycle started ${state.cycle_started_at || "unknown"}; ` +
+    `Research runs are attempted each weekday evening (IST) with a backup slot; runner delays can shift them by hours, and the backup runs only when the first attempt was unhealthy. Cycle started ${state.cycle_started_at || "unknown"}; ` +
     `rotation cursor at ${state.cursor != null ? state.cursor : "n/a"} of ${state.universe_size || "n/a"} exchange listings` +
     `${state.universe_breakdown ? ` (${state.universe_breakdown.NSE || "?"} NSE + ${state.universe_breakdown.BSE || "?"} BSE)` : ""}.` +
     (state.last_run_stopped_reason ? ` Last run stopped early: ${state.last_run_stopped_reason}` : ""));
@@ -604,7 +604,7 @@ function renderTop50(data) {
     body.appendChild(tr);
   }
   setMeta("ranking-meta",
-    `Top ${(data.top50 || []).length} candidates by balanced research score out of ${data.ranked_count} unique symbols researched this cycle (dual-listed companies count once). ` +
+    `Top ${(data.top50 || []).length} candidates by balanced research score out of ${data.ranked_count} unique symbols researched this cycle (symbol-level dedupe only; same-company duplicates across exchanges are not fully removed). ` +
     `Research ranking, not buy recommendations; scores are ${esc(data.sources.scores)}. Each stock keeps its own data date.`);
 }
 
