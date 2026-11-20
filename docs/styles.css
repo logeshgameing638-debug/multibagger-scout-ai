@@ -91,6 +91,11 @@ tr.clickable:hover td { background: var(--panel-edge); }
   text-decoration: none; font-size: 0.85rem;
 }
 .downloads a:hover { text-decoration: underline; }
+
+/* Content links: the accent blue stays readable on the navy panels
+   (browser-default link blue fails contrast there). */
+main a { color: var(--accent); }
+main a:hover { text-decoration: underline; }
 .disclaimer { color: var(--muted); font-size: 0.85rem; border-left: 3px solid var(--warn); padding-left: 0.8rem; }
 .site-footer {
   display: flex; flex-wrap: wrap; gap: 1rem; justify-content: space-between;
