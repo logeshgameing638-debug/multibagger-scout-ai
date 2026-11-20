@@ -1,7 +1,7 @@
 {
   "symbol": "DPWIRES",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:30 IST",
+  "updated_at": "2026-11-21 02:22 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 11.7 (no industry benchmark): value 11.7 vs threshold 15"
+          "P/E 11.3 (no industry benchmark): value 11.3 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 40: 0.0/7 (value 39.8 below all bands)",
+          "RSI 41: 0.0/7 (value 40.7 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (47% of range)"
+          "price mid-range between S/R (50% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 39.76789453103781,
+    "rsi_14": 40.74415303717345,
     "breakout": false,
     "breakdown": false,
     "support": 141.38999938964844,

@@ -1,7 +1,7 @@
 {
   "symbol": "EDELWEISS",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:31 IST",
+  "updated_at": "2026-11-21 02:24 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -71,7 +71,7 @@
         "points": 6,
         "max": 10,
         "detail": [
-          "P/E 16.7 (no industry benchmark): value 16.7 vs threshold 25"
+          "P/E 16.8 (no industry benchmark): value 16.8 vs threshold 25"
         ]
       },
       "industry_growth": {
@@ -101,7 +101,7 @@
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 52: 4/7 (value 51.8 vs threshold 45)",
+          "RSI 52: 4/7 (value 51.6 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -123,14 +123,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (61% of range)"
+          "price mid-range between S/R (65% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -202,11 +202,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 51.82911067194526,
+    "rsi_14": 51.588689935824526,
     "breakout": false,
     "breakdown": false,
     "support": 112.01000213623047,
-    "resistance": 142.0,
+    "resistance": 139.8000030517578,
     "trend": "bullish"
   }
 }

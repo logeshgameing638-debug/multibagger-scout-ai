@@ -1,7 +1,7 @@
 {
   "symbol": "DYNPRO",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:31 IST",
+  "updated_at": "2026-11-21 02:23 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Dynemic Products Limited",
   "scores": {
     "fundamental": 47.0,
-    "technical": 31.0,
+    "technical": 27.0,
     "data_confidence": 72.0,
     "risk": 10.0,
-    "long_term": 42.2,
-    "short_term": 35.8,
-    "balanced": 39.0
+    "long_term": 41.0,
+    "short_term": 33.0,
+    "balanced": 37.0
   },
   "classification": "attractive_valuation",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 12.5 (no industry benchmark): value 12.5 vs threshold 15"
+          "P/E 12.2 (no industry benchmark): value 12.2 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -100,10 +100,10 @@
         ]
       },
       "momentum": {
-        "points": 12.0,
+        "points": 8.0,
         "max": 15,
         "detail": [
-          "RSI 45: 4/7 (value 45.1 vs threshold 45)",
+          "RSI 44: 0.0/7 (value 44.2 below all bands)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -132,7 +132,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 45.12453759338423,
+    "rsi_14": 44.248647093627035,
     "breakout": false,
     "breakdown": false,
     "support": 217.60000610351562,

@@ -1,7 +1,7 @@
 {
   "symbol": "DSFCL",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:30 IST",
+  "updated_at": "2026-11-21 02:22 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -103,7 +103,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 33: 0.0/7 (value 33.2 below all bands)",
+          "RSI 35: 0.0/7 (value 34.6 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 10,
         "max": 15,
         "detail": [
-          "relative volume: value 1.31 vs threshold 1"
+          "relative volume: value 1.32 vs threshold 1"
         ]
       },
       "price_structure": {
@@ -132,7 +132,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -205,7 +205,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 33.17332752419469,
+    "rsi_14": 34.5756633335037,
     "breakout": false,
     "breakdown": false,
     "support": 23.450000762939453,

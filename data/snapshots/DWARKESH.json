@@ -1,7 +1,7 @@
 {
   "symbol": "DWARKESH",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:30 IST",
+  "updated_at": "2026-11-21 02:23 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 6,
         "max": 10,
         "detail": [
-          "P/E 24.3 (no industry benchmark): value 24.3 vs threshold 25"
+          "P/E 23.5 (no industry benchmark): value 23.5 vs threshold 25"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 52: 4/7 (value 52.5 vs threshold 45)",
+          "RSI 52: 4/7 (value 52.3 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -132,7 +132,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 52.47892424936078,
+    "rsi_14": 52.29078045358859,
     "breakout": false,
     "breakdown": false,
     "support": 40.04999923706055,

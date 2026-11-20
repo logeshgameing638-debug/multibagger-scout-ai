@@ -1,7 +1,7 @@
 {
   "symbol": "EMMBI",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:33 IST",
+  "updated_at": "2026-11-21 02:27 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 6,
         "max": 10,
         "detail": [
-          "P/E 17.4 (no industry benchmark): value 17.4 vs threshold 25"
+          "P/E 17.2 (no industry benchmark): value 17.2 vs threshold 25"
         ]
       },
       "industry_growth": {
@@ -132,7 +132,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },

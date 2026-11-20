@@ -1,7 +1,7 @@
 {
   "symbol": "EKC",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:32 IST",
+  "updated_at": "2026-11-21 02:25 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 9.2 (no industry benchmark): value 9.16 vs threshold 15"
+          "P/E 9.1 (no industry benchmark): value 9.06 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -132,7 +132,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },

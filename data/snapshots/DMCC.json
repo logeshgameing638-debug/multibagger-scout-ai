@@ -1,7 +1,7 @@
 {
   "symbol": "DMCC",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:29 IST",
+  "updated_at": "2026-11-21 02:21 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 6,
         "max": 10,
         "detail": [
-          "P/E 17.3 (no industry benchmark): value 17.3 vs threshold 25"
+          "P/E 16.6 (no industry benchmark): value 16.6 vs threshold 25"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 8.0,
         "max": 15,
         "detail": [
-          "RSI 43: 0.0/7 (value 42.5 below all bands)",
+          "RSI 43: 0.0/7 (value 43.1 below all bands)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -132,7 +132,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -206,7 +206,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 42.51661243518972,
+    "rsi_14": 43.12551720783721,
     "breakout": false,
     "breakdown": false,
     "support": 223.10000610351562,

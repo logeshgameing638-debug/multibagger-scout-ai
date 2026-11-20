@@ -1,7 +1,7 @@
 {
   "symbol": "EMSLIMITED",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:33 IST",
+  "updated_at": "2026-11-21 02:28 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -14,13 +14,13 @@
   },
   "name": "EMS Limited",
   "scores": {
-    "fundamental": 34.0,
+    "fundamental": 37.0,
     "technical": 49.0,
     "data_confidence": 72.0,
     "risk": 40.0,
-    "long_term": 38.5,
-    "short_term": 44.5,
-    "balanced": 41.5
+    "long_term": 40.6,
+    "short_term": 45.4,
+    "balanced": 43.0
   },
   "classification": "high_risk",
   "explanation": {
@@ -70,10 +70,10 @@
         ]
       },
       "valuation": {
-        "points": 3,
+        "points": 6,
         "max": 10,
         "detail": [
-          "P/E 25.5 (no industry benchmark): value 25.5 vs threshold 40"
+          "P/E 24.6 (no industry benchmark): value 24.6 vs threshold 25"
         ]
       },
       "industry_growth": {
@@ -132,7 +132,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },

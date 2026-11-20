@@ -2,14 +2,14 @@ section,metric,value
 profile,symbol,BBOX
 profile,name,Black Box Limited
 scores,fundamental,44.5
-scores,technical,60.0
+scores,technical,75.0
 scores,data_confidence,72.0
 scores,risk,30
-scores,long_term,49.1
-scores,short_term,55.4
-scores,balanced,52.2
+scores,long_term,53.6
+scores,short_term,65.8
+scores,balanced,59.8
 scores,weights,"{'long_term': '0.7F+0.3T', 'short_term': '0.7T+0.3F', 'balanced': '0.5L+0.5S'}"
-classification,labels,neutral
+classification,labels,strong_technical_trend
 growth,sales_growth_1y,0.059276925088071544
 growth,sales_cagr_3y,0.0022637492399826264
 growth,sales_cagr_5y,

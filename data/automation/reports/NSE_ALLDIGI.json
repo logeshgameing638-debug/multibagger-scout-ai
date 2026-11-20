@@ -5,11 +5,11 @@
     "name": "Alldigi Tech Limited",
     "sector": "Industrials",
     "industry": "Specialty Business Services",
-    "market_cap": 12635620352,
+    "market_cap": 12621143040,
     "website": "https://www.alldigitech.com"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-19 22:33:50.520649+00:00",
+    "generated_at": "2026-11-20 20:59:07.541866+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -72,40 +72,40 @@
       "2026-06-30",
       "2026-09-30"
     ],
-    "_run_id": 1086
+    "_run_id": 1093
   },
   "4_technical_analysis": {
     "assessment": "sideways",
     "daily": {
       "timeframe": "1d",
-      "last_close": 831.9000244140625,
+      "last_close": 829.2000122070312,
       "emas": {
-        "ema_20": 821.3509258554302,
-        "ema_50": 810.3542578811796,
-        "ema_100": 809.9779177021427,
-        "ema_200": 822.0947805914806
+        "ema_20": 822.0984578889161,
+        "ema_50": 811.0933070704286,
+        "ema_100": 810.3585532368929,
+        "ema_200": 822.1654794135259
       },
       "smas": {
-        "sma_20": 814.9725036621094,
-        "sma_50": 800.432001953125,
-        "sma_100": 808.9004998779296,
-        "sma_200": 813.3850018310546
+        "sma_20": 818.1700042724609,
+        "sma_50": 800.8990026855469,
+        "sma_100": 809.1634997558593,
+        "sma_200": 813.4712518310547
       },
-      "rsi_14": 59.75757053335096,
+      "rsi_14": 57.730385416842175,
       "macd": {
-        "macd_line": 10.720820120987923,
-        "signal_line": 10.23263755656296,
-        "histogram": 0.48818256442496377
+        "macd_line": 10.009901431548315,
+        "signal_line": 10.188090331560032,
+        "histogram": -0.17818890001171717
       },
-      "adx_14": 24.73229625615771,
-      "atr_14": 18.098714273742097,
+      "adx_14": 24.16704520660074,
+      "atr_14": 17.441664998050697,
       "bollinger": {
-        "middle": 814.9725036621094,
-        "upper": 869.1680572159552,
-        "lower": 760.7769501082636
+        "middle": 818.1700042724609,
+        "upper": 867.325215046606,
+        "lower": 769.0147934983158
       },
-      "volume_sma_20": 21405.25,
-      "relative_volume": 0.4848343280270027,
+      "volume_sma_20": 21824.95,
+      "relative_volume": 0.6888446479831569,
       "support": 742.5,
       "resistance": 863.3499755859375,
       "price_structure": {
@@ -122,18 +122,18 @@
       "momentum_divergence": null,
       "entry_zone": {
         "low": 742.5,
-        "high": 751.55,
+        "high": 751.22,
         "basis": "near identified support plus half ATR buffer"
       },
-      "invalidation_level": 706.3,
-      "atr_risk_distance": 18.098714273742097,
+      "invalidation_level": 707.62,
+      "atr_risk_distance": 17.441664998050697,
       "provisional_last_bar": false
     },
     "short_term_report": {
       "timeframe": "daily",
       "trend": "sideways",
-      "rsi_14": 59.75757053335096,
-      "macd_histogram": 0.48818256442496377,
+      "rsi_14": 57.730385416842175,
+      "macd_histogram": -0.17818890001171717,
       "breakout": false,
       "breakdown": false
     },
@@ -143,7 +143,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 822.0947805914806,
+      "ema_200_daily": 822.1654794135259,
       "price_vs_ema_200": "above"
     }
   },
@@ -157,7 +157,7 @@
     ],
     "sector": "Industrials",
     "industry": "Specialty Business Services",
-    "market_cap": 12635620352,
+    "market_cap": 12621143040,
     "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
     "unassessed_areas": [
       "business model detail (needs annual report reading)",
@@ -168,17 +168,17 @@
       "expansion projects / order book",
       "management quality and corporate governance depth"
     ],
-    "_run_id": 1088
+    "_run_id": 1095
   },
   "6_valuation": {
     "multiples": {
-      "pe_trailing": 13.382828,
+      "pe_trailing": 13.367496,
       "pe_forward": null,
-      "pb": 4.9931655,
-      "ev_ebitda": 8.999,
-      "ev_sales": 2.11,
+      "pb": 4.987445,
+      "ev_ebitda": 8.989,
+      "ev_sales": 2.107,
       "peg": 0.15,
-      "dividend_yield": 7.21,
+      "dividend_yield": 7.24,
       "industry_pe": null
     },
     "valuation_view_vs_industry": null,
@@ -202,9 +202,9 @@
       }
     },
     "dcf_not_calculated_reason": null,
-    "margin_of_safety_vs_base_case": 0.32379076747617336,
-    "current_price": 831.9000244140625,
-    "_run_id": 1089
+    "margin_of_safety_vs_base_case": 0.3259854701192073,
+    "current_price": 829.2000122070312,
+    "_run_id": 1096
   },
   "7_news_intelligence": {
     "items": [
@@ -227,15 +227,6 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Alldigi Tech seeks approval for \u20b948 crore buyback - Multibagg AI",
-        "source": "Multibagg AI",
-        "published": "Thu, 05 Nov 2026 05:45:04 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNX29sa1Y2dVRZZ0k1eFRKd1RubVRBVE9yYUFBdGlrOUdiYjFoTXEyaDFrS3RnZnpscFlPbFAtc3Y0Qlo4SHROTGtxbDhIUWJpSUhGWEtmOExaNHdzV0VTejkwLVRSc043Z2p1b3UySWtoa3ByRnVHSFkzWWZ6N21WekxwcTR1ZDdsT080dnhLeVZrbFE1SEN4OWM5TVNsY0lqWVRaRFBVZEJiVl96RFRwQzl6YXpNck4yQzdhVHpXRQ?oc=5",
-        "sentiment": "positive",
-        "relevance": "high",
-        "verification_status": "unverified"
-      },
-      {
         "headline": "Alldigi Tech (ALLDIGI.NS) Eases 0.60% to \u20b9809.9, Holding Mid-Range Between \u20b9769 Support and \u20b9850 Resistance - Virgin POC - https://www.siam.in/",
         "source": "https://www.siam.in/",
         "published": "Fri, 16 Oct 2026 07:00:00 GMT",
@@ -245,28 +236,28 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Alldigi Tech Limited announces an Equity Buyback for 480,000 shares, representing 3.15% for INR 480 million. - www.marketscreener.com",
-        "source": "www.marketscreener.com",
-        "published": "Thu, 29 Oct 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVVNTX2Y2OWxnZVZ0SjF6NDN6aFNtSXdSbmRra0NNS2diMzliaktYY0x4OEpVWTVoQmxSS01PT0xRR0VMV1VmSmV5Q0M2OWhiUDk2M09OUjZRXzJSQ2s5eXQ2bWtndzZQR2pMY0ZzbU1MQ29JRWhSZGs3Q0dkZm1YdTJDRkotOW1wdF83NnNsd3RCb1JTUWdwOGI4d0I2UjlBMDFxMDJ2bXBCci11V1MtaVVFUnkzaUprZ2J1aENITGpDd1JSMTJZWXpjYk1WSnNrMEdQaWh4YW5UcVBrY1Z2OHVUSkk?oc=5",
+        "headline": "Alldigi Tech Limited (NSE:ALLDIGI) Stock Goes Ex-Dividend In Just Three Days - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Sat, 31 Jan 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOclRKdGktTXo4YW91RU5yUlFsV01lUjh5dXVfLVg1bmVoMEJ5eWowV1FjTnl6VkJteWdGWkNMT3YtOXJvcXRPNE1UR3NwZ3YwSDJWN1BqSEZ4aVVjNDR0THM5STg0NGdXVldWZy0yczllVGVHcF9Db0JDbUttbDVSZHQzZDRCamlNZXlsTnpDZU5DdXNCMVNtcmxxeS1zdDZvbnMwamlwYkRGWFpWc0RmbHdITFZTdlVtZjlyd0Eyal9UVW1xeVBtQzZhT21yZkYwS1BGNFhGdWFXdjNNQnBqbTd2SdIB6AFBVV95cUxQb1pzM0hYV2kzRU9SektVX1NGWWVtMF9kV0I3a3ZTZzkxSmk3NU1mR3BvaGFDNDdUX2xnRTMyTklKNlZFa3oxVnNkcjJpbC1ZWTlRRE56RGhlNWhkbDRmQ3E1U01vM3ZaR1ppd3daME5vZ3ZoNk15RUVJbDZ5QW4wQl95VmNzVGMyVHFwQzc4Zk9DdUo2SWhiN0diTDVZNzdqUlJZRm9wNkFwWjZ1c3pPOTV6a1ZISEpOYW5lbUt1bE1DWi1NQi1kNTlOMkN0RXlVWWFzb203Y0hmLTFtWUd0M2NSOE1lODc4?oc=5",
         "sentiment": "positive",
         "relevance": "high",
         "verification_status": "unverified"
       },
       {
-        "headline": "IT dividend heavyweights compared: TCS, Infosys, HCL Tech, Wipro, Accelya Solutions - Which IT stock has highest yield? - TradingView",
-        "source": "TradingView",
-        "published": "Thu, 24 Sep 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPS2dLdGlzUWl1SGZrZ01HNkpleVY0N05vX0hvUWk4VzhueWlfb3dxSDJVTXdKajVMcGg1aFFPaTJ0S2xrTjU2a1N5aXlRejVzbjN6RzRVSk9fZnM1SWFCQ0JUQVZaRkxtRXB1aW5qV1N0YUp3TldSYk54amN6Nm5hRXFzbXJEZXZyRUZlOXZubGVJVE1uV0h5dlVxVl9FOEdoU3VORFRSRXZ1bXREOWFJdHFIWnh2NF9zZ0hXWXR3bDFhdkhIb3BoZGpXTF81QTF4S0NWSElQd3JRSl9sOU5kc3EtT3J4R3Nrbjd2T2RYaUpCZVBPbHVDRnl5T2s?oc=5",
+        "headline": "Alldigi Tech seeks approval for \u20b948 crore buyback - Multibagg AI",
+        "source": "Multibagg AI",
+        "published": "Thu, 05 Nov 2026 05:45:04 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNX29sa1Y2dVRZZ0k1eFRKd1RubVRBVE9yYUFBdGlrOUdiYjFoTXEyaDFrS3RnZnpscFlPbFAtc3Y0Qlo4SHROTGtxbDhIUWJpSUhGWEtmOExaNHdzV0VTejkwLVRSc043Z2p1b3UySWtoa3ByRnVHSFkzWWZ6N21WekxwcTR1ZDdsT080dnhLeVZrbFE1SEN4OWM5TVNsY0lqWVRaRFBVZEJiVl96RFRwQzl6YXpNck4yQzdhVHpXRQ?oc=5",
         "sentiment": "positive",
-        "relevance": "medium",
+        "relevance": "high",
         "verification_status": "unverified"
       },
       {
-        "headline": "Alldigi Tech Limited (NSE:ALLDIGI) Stock Goes Ex-Dividend In Just Three Days - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Sat, 31 Jan 2026 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOclRKdGktTXo4YW91RU5yUlFsV01lUjh5dXVfLVg1bmVoMEJ5eWowV1FjTnl6VkJteWdGWkNMT3YtOXJvcXRPNE1UR3NwZ3YwSDJWN1BqSEZ4aVVjNDR0THM5STg0NGdXVldWZy0yczllVGVHcF9Db0JDbUttbDVSZHQzZDRCamlNZXlsTnpDZU5DdXNCMVNtcmxxeS1zdDZvbnMwamlwYkRGWFpWc0RmbHdITFZTdlVtZjlyd0Eyal9UVW1xeVBtQzZhT21yZkYwS1BGNFhGdWFXdjNNQnBqbTd2SdIB6AFBVV95cUxQb1pzM0hYV2kzRU9SektVX1NGWWVtMF9kV0I3a3ZTZzkxSmk3NU1mR3BvaGFDNDdUX2xnRTMyTklKNlZFa3oxVnNkcjJpbC1ZWTlRRE56RGhlNWhkbDRmQ3E1U01vM3ZaR1ppd3daME5vZ3ZoNk15RUVJbDZ5QW4wQl95VmNzVGMyVHFwQzc4Zk9DdUo2SWhiN0diTDVZNzdqUlJZRm9wNkFwWjZ1c3pPOTV6a1ZISEpOYW5lbUt1bE1DWi1NQi1kNTlOMkN0RXlVWWFzb203Y0hmLTFtWUd0M2NSOE1lODc4?oc=5",
+        "headline": "Alldigi Tech Limited announces an Equity Buyback for 480,000 shares, representing 3.15% for INR 480 million. - www.marketscreener.com",
+        "source": "www.marketscreener.com",
+        "published": "Thu, 29 Oct 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVVNTX2Y2OWxnZVZ0SjF6NDN6aFNtSXdSbmRra0NNS2diMzliaktYY0x4OEpVWTVoQmxSS01PT0xRR0VMV1VmSmV5Q0M2OWhiUDk2M09OUjZRXzJSQ2s5eXQ2bWtndzZQR2pMY0ZzbU1MQ29JRWhSZGs3Q0dkZm1YdTJDRkotOW1wdF83NnNsd3RCb1JTUWdwOGI4d0I2UjlBMDFxMDJ2bXBCci11V1MtaVVFUnkzaUprZ2J1aENITGpDd1JSMTJZWXpjYk1WSnNrMEdQaWh4YW5UcVBrY1Z2OHVUSkk?oc=5",
         "sentiment": "positive",
         "relevance": "high",
         "verification_status": "unverified"
@@ -290,30 +281,21 @@
         "verification_status": "unverified"
       },
       {
+        "headline": "IT dividend heavyweights compared: TCS, Infosys, HCL Tech, Wipro, Accelya Solutions - Which IT stock has highest yield? - TradingView",
+        "source": "TradingView",
+        "published": "Thu, 24 Sep 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPS2dLdGlzUWl1SGZrZ01HNkpleVY0N05vX0hvUWk4VzhueWlfb3dxSDJVTXdKajVMcGg1aFFPaTJ0S2xrTjU2a1N5aXlRejVzbjN6RzRVSk9fZnM1SWFCQ0JUQVZaRkxtRXB1aW5qV1N0YUp3TldSYk54amN6Nm5hRXFzbXJEZXZyRUZlOXZubGVJVE1uV0h5dlVxVl9FOEdoU3VORFRSRXZ1bXREOWFJdHFIWnh2NF9zZ0hXWXR3bDFhdkhIb3BoZGpXTF81QTF4S0NWSElQd3JRSl9sOU5kc3EtT3J4R3Nrbjd2T2RYaUpCZVBPbHVDRnl5T2s?oc=5",
+        "sentiment": "positive",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
         "headline": "Alldigi Tech Ltd. Share Price Today | Alldigi Live NSE/BSE - Value Research",
         "source": "Value Research",
         "published": "Fri, 18 Jul 2025 18:53:00 GMT",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0tTW5JM256dFpFTFJGYV9hS1V6MFpBRW1lbl9pWVV6OFBDcEZsZ2s5S1dIdlZXWUJtbDJPa25ldmtrb2Z2TFotTGFEa19mU2Q3S2xraW9vNWxYalNxSVhMNlM0YVVKcXhKSFdzU1htR01KbUJB?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Alldigi Tech Schedules Board Meeting and Earnings Call for Q4FY26 Results - scanx.trade",
-        "source": "scanx.trade",
-        "published": "Thu, 30 Apr 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPS01SQWEtR2Q3MmotNzRhelFMT2ZoWWM2Z0pYbWVvbE5zd01qR1dhT0hydXFGMjBTRVhaVG02SjVkXzlXMWY1VE94Z2tYQlM4dW9aSnlQTWJJVXl4TTBkZGRJR2w5V1p3MlF2bHhzUklJcDVtVTZCbHpLTjJmYm9haDV3UlUwYi0zd1pLMFNUMDE3Q0Q5eE9yWTlPVDlobThwYjJQd3FkRF9WaE45V1ZWVVhtRGd1WWV4R3ZVTEJmUlp3WFlXOThmc0JXaUxHeWIzOEgwS3Iyc3hiM3NJUGtUM1R3?oc=5",
-        "sentiment": "neutral",
-        "relevance": "high",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Allsec Technologies Share Price - Upstox",
-        "source": "Upstox",
-        "published": "Sun, 19 Oct 2025 14:04:32 GMT",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5XSUVNTjQ4NndlSFVQemtaOWxRcHl2ZGFJNHlkQjlMQi1BNl9jU2RTbWpLUkgtVFEweFJtY1RONkh1WFBhdnh1ek9xaFVPRTRMWVVRWHdMeEFEYXE4VjNUMWVUS2NQaDlFT0NR?oc=5",
-        "sentiment": "neutral",
-        "relevance": "low",
         "verification_status": "unverified"
       },
       {
@@ -326,6 +308,33 @@
         "verification_status": "unverified"
       },
       {
+        "headline": "Allsec Technologies Share Price - Upstox",
+        "source": "Upstox",
+        "published": "Sun, 19 Oct 2025 14:04:32 GMT",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5XSUVNTjQ4NndlSFVQemtaOWxRcHl2ZGFJNHlkQjlMQi1BNl9jU2RTbWpLUkgtVFEweFJtY1RONkh1WFBhdnh1ek9xaFVPRTRMWVVRWHdMeEFEYXE4VjNUMWVUS2NQaDlFT0NR?oc=5",
+        "sentiment": "neutral",
+        "relevance": "low",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Alldigi Tech Schedules Board Meeting and Earnings Call for Q4FY26 Results - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Thu, 30 Apr 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPS01SQWEtR2Q3MmotNzRhelFMT2ZoWWM2Z0pYbWVvbE5zd01qR1dhT0hydXFGMjBTRVhaVG02SjVkXzlXMWY1VE94Z2tYQlM4dW9aSnlQTWJJVXl4TTBkZGRJR2w5V1p3MlF2bHhzUklJcDVtVTZCbHpLTjJmYm9haDV3UlUwYi0zd1pLMFNUMDE3Q0Q5eE9yWTlPVDlobThwYjJQd3FkRF9WaE45V1ZWVVhtRGd1WWV4R3ZVTEJmUlp3WFlXOThmc0JXaUxHeWIzOEgwS3Iyc3hiM3NJUGtUM1R3?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Alldigi Tech appoints three senior management personnel - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Tue, 22 Sep 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxON1l1TE9YcHZYd2tyUTZUT05UMGFDTHJWazlhVWJGblBaUy1CRVZyRXJIa3NFV0xxZzJIMmdieVRxT3JCLXRPTHZUanFlUUc3Yk1lRFdMUkNhcnM0aFFWb3pYYzduUjk5MHB4Q3M4blN3a01OLW1UX1VOMDlKQmRxbWhkc3ZTTExBYWpMd2NFUlR5TG9FWVdSOE0zUE5scDhTam9iREVxTDBYd21PY1VsUTNB?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
         "headline": "Alldigi Tech (NSEI:ALLDIGI) - Stock Analysis - Simply Wall St",
         "source": "Simply Wall St",
         "published": "Sat, 28 Sep 2024 15:16:09 GMT",
@@ -335,10 +344,10 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Alldigi Tech: \u0bb7\u0bc7\u0bb0\u0bcd \u0baa\u0bc8\u0baa\u0bc7\u0b95\u0bcd \u0b95\u0bc1\u0bb1\u0bbf\u0ba4\u0bcd\u0ba4\u0bc1 \u0b86\u0bb2\u0bcb\u0b9a\u0ba9\u0bc8! \u0b85\u0b95\u0bcd\u0b9f\u0bcb\u0baa\u0bb0\u0bcd 29-\u0bb2\u0bcd \u0bae\u0bc1\u0b95\u0bcd\u0b95\u0bbf\u0baf \u0baa\u0bcb\u0bb0\u0bcd\u0b9f\u0bc1 \u0bae\u0bc0\u0b9f\u0bcd\u0b9f\u0bbf\u0b99\u0bcd - Whalesbook",
-        "source": "Whalesbook",
-        "published": "Mon, 26 Oct 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPeVhLNC1pQk1PR1BpZUkteFpnaU82bS11WVVOOXRIaHZVWVRWd0tCY1Y1NFZZdTF4YlpRd2xoNjBNdy05NWIzaFgwcUI5WTFqRlcxX1MxUHVydDU4R0ZKWTVmTjA1MFdESExkalFIT2VFYlkxNE9TQkZiSlFnOGpKOWliX1hRUy1IQWhqRFBkMkZhdXVMUFZvX3NmNmNnRW1JckE2dHhnX1kxVHpEcllQNlNSaUYwTTBMTTliYWYxT2hyYmIzSXF3elZ0OXFRRzZUOHgzWUFpNFVFUk0tcm5LYlNkZ1A?oc=5",
+        "headline": "Alldigi Tech appoints Manish Agarwal as CFO from June 22 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Tue, 26 May 2026 14:22:13 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNExLWDV1RlZkLW9jRWhjcTc4OU5mUTd5MDhhT2N3NWx1ZUV3cVJKSFdTZkloZVFrSUM5Wl9fX0tObHJycmtJTTdpb1d2WjljeE5kQU1YZEtQemY3b1VzQjlFRWlKdkxYZFplSlA3SE1UUF9tR2JZeUg5anFPRWt6WG5pZ3J0el9QRnE2OGhpODNDQXVNVmwwb1hDOVdyR09POUJDVVNyejFyeUZvLVhFOHBHOA?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -353,12 +362,12 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Alldigi delivers strong Q2 FY27: PAT up 50.9%, EBITDA up 28.5%, EBITDA margin expands 576 bps to 30.2% YOY - EquityBulls",
+        "headline": "Alldigi Tech Reports Strong Q1 FY27 Results: PAT Up 21.7% YoY, Declares Interim Dividend of \u20b930/Share - EquityBulls",
         "source": "EquityBulls",
-        "published": "Fri, 30 Oct 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOX2xCUWl1Q1dCX19qT19ZYmpPbmdKb1lndGs1aXR3MGJIOEQtYUJKelcxQjNST0JmMTgyRlZRbGozMTc2MDI5QXRrY0J1ZlVTcUxoMFNVS0Vqc0FIb2M1eUpCQW1CRXF5enk5MlB6X0doeWxLSno0cjc1MnJ1eHFjYmhQZTZtRVdaenNRd2lqVUI3R1ZLc0IyTXZEUXU1Q1otTnU3NTE2X2dHZjBERVZBbzRTYlNpSlpCNmVVZw?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
+        "published": "Sat, 25 Jul 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaUVjNGs1YzI5VGhGMlI0VkYtWHppaTlXQ29lb3lmUk1MSDN5V3pGRGxYNDM5SEJET2VoSjVSa3p0cGItWXBUalliY0JINWxOY2VmY2xvNTI2TTlWdnlSWmZuMk1ucXVkZ1lsVjVmVUZyM3Z3cHZsRkQwVGk1Z0tQV1c3YXJyd3FtY3l3SnZjQUx6N05MV2tzUW9pTTYwakc4V0FyMC1hSGFfSGRiYWNxVkxaby1HalQtSzVaNw?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
         "verification_status": "unverified"
       },
       {
@@ -371,12 +380,12 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Alldigi Tech Reports Strong Q1 FY27 Results: PAT Up 21.7% YoY, Declares Interim Dividend of \u20b930/Share - EquityBulls",
+        "headline": "Alldigi delivers strong Q2 FY27: PAT up 50.9%, EBITDA up 28.5%, EBITDA margin expands 576 bps to 30.2% YOY - EquityBulls",
         "source": "EquityBulls",
-        "published": "Sat, 25 Jul 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaUVjNGs1YzI5VGhGMlI0VkYtWHppaTlXQ29lb3lmUk1MSDN5V3pGRGxYNDM5SEJET2VoSjVSa3p0cGItWXBUalliY0JINWxOY2VmY2xvNTI2TTlWdnlSWmZuMk1ucXVkZ1lsVjVmVUZyM3Z3cHZsRkQwVGk1Z0tQV1c3YXJyd3FtY3l3SnZjQUx6N05MV2tzUW9pTTYwakc4V0FyMC1hSGFfSGRiYWNxVkxaby1HalQtSzVaNw?oc=5",
-        "sentiment": "positive",
-        "relevance": "high",
+        "published": "Fri, 30 Oct 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOX2xCUWl1Q1dCX19qT19ZYmpPbmdKb1lndGs1aXR3MGJIOEQtYUJKelcxQjNST0JmMTgyRlZRbGozMTc2MDI5QXRrY0J1ZlVTcUxoMFNVS0Vqc0FIb2M1eUpCQW1CRXF5enk5MlB6X0doeWxLSno0cjc1MnJ1eHFjYmhQZTZtRVdaenNRd2lqVUI3R1ZLc0IyTXZEUXU1Q1otTnU3NTE2X2dHZjBERVZBbzRTYlNpSlpCNmVVZw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
         "verification_status": "unverified"
       },
       {
@@ -398,10 +407,10 @@
         "verification_status": "unverified"
       }
     ],
-    "stored_new": 21,
+    "stored_new": 22,
     "duplicates_skipped": 0,
     "note": "headlines are unverified signals, not confirmed financial evidence",
-    "_run_id": 1091
+    "_run_id": 1098
   },
   "8_risk_analysis": {
     "classification": "LOW",
@@ -415,47 +424,47 @@
       "promoter selling (source unavailable)"
     ],
     "shares_outstanding_growth_yoy": 0.0,
-    "atr_pct_of_price": 0.02175587659886136,
+    "atr_pct_of_price": 0.02103432795620357,
     "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
     "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
-    "_run_id": 1090
+    "_run_id": 1097
   },
   "9_fundamental_score": 68.0,
-  "10_technical_score": 53.0,
+  "10_technical_score": 45.0,
   "11_data_confidence": 72.0,
   "12_short_term_assessment": {
-    "score": 57.5,
+    "score": 51.9,
     "technical_view": {
       "timeframe": "daily",
       "trend": "sideways",
-      "rsi_14": 59.75757053335096,
-      "macd_histogram": 0.48818256442496377,
+      "rsi_14": 57.730385416842175,
+      "macd_histogram": -0.17818890001171717,
       "breakout": false,
       "breakdown": false
     },
     "entry_zone": {
       "low": 742.5,
-      "high": 751.55,
+      "high": 751.22,
       "basis": "near identified support plus half ATR buffer"
     },
-    "invalidation_level": 706.3
+    "invalidation_level": 707.62
   },
   "13_long_term_assessment": {
-    "score": 63.5,
+    "score": 61.1,
     "trend": {
       "timeframes": [
         "weekly",
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 822.0947805914806,
+      "ema_200_daily": 822.1654794135259,
       "price_vs_ema_200": "above"
     },
     "business_classification": "average"
   },
-  "14_investment_thesis": "Alldigi Tech Limited (ALLDIGI) is classified as a 'average' business with a sideways technical trend. Balanced research score 60.5/100 (fundamental 68.0, technical 53.0, data confidence 72.0, risk 0/100 higher=worse). Supporting evidence: ROE 32.8% (>15%): capital allocated effectively; operating margin 17.7%: pricing power evidence.",
+  "14_investment_thesis": "Alldigi Tech Limited (ALLDIGI) is classified as a 'average' business with a sideways technical trend. Balanced research score 56.5/100 (fundamental 68.0, technical 45.0, data confidence 72.0, risk 0/100 higher=worse). Supporting evidence: ROE 32.8% (>15%): capital allocated effectively; operating margin 17.7%: pricing power evidence.",
   "15_thesis_invalidation": [
-    "Daily close below invalidation level 706.3 (2x ATR under support)",
+    "Daily close below invalidation level 707.62 (2x ATR under support)",
     "Operating cash flow turning negative in the next annual report",
     "New critical governance or regulatory finding (currently unassessed items must be checked manually)"
   ],
@@ -488,14 +497,14 @@
     "attractive_valuation"
   ],
   "combined_scores": {
-    "long_term": 63.5,
-    "short_term": 57.5,
-    "balanced": 60.5,
+    "long_term": 61.1,
+    "short_term": 51.9,
+    "balanced": 56.5,
     "risk_score_higher_is_worse": 0
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-20 04:03 IST",
+    "generated_at": "2026-11-21 02:29 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-19 09:58 IST"
   }

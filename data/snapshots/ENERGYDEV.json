@@ -1,7 +1,7 @@
 {
   "symbol": "ENERGYDEV",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:33 IST",
+  "updated_at": "2026-11-21 02:28 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -132,7 +132,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },

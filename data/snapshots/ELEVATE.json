@@ -1,11 +1,11 @@
 {
   "symbol": "ELEVATE",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:32 IST",
+  "updated_at": "2026-11-21 02:26 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
-    "technical": "partial",
+    "technical": "success",
     "business": "success",
     "valuation": "partial",
     "risk": "success",
@@ -15,12 +15,12 @@
   "name": "Elevate Campuses Limited",
   "scores": {
     "fundamental": 36.0,
-    "technical": 2.0,
-    "data_confidence": 57.0,
-    "risk": 45.0,
-    "long_term": 25.8,
-    "short_term": 12.2,
-    "balanced": 19.0
+    "technical": 47.0,
+    "data_confidence": 62.0,
+    "risk": 55.0,
+    "long_term": 39.3,
+    "short_term": 43.7,
+    "balanced": 41.5
   },
   "classification": "high_risk",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 35.1 (no industry benchmark): value 35.1 vs threshold 40"
+          "P/E 35.3 (no industry benchmark): value 35.3 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -86,10 +86,10 @@
     },
     "technical": {
       "long_term_trend": {
-        "points": 0,
+        "points": 10,
         "max": 20,
         "detail": [
-          "long-term trend: None"
+          "long-term trend: sideways"
         ]
       },
       "ema_alignment": {
@@ -100,32 +100,32 @@
         ]
       },
       "momentum": {
-        "points": 0.0,
+        "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI missing: 0.0/7 (missing input: 0 points)",
-          "MACD histogram non-positive/missing: 0.0/8"
+          "RSI 62: 7/7 (value 62.4 vs threshold 55)",
+          "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 10,
         "max": 15,
         "detail": [
-          "relative volume: missing input: 0 points"
+          "relative volume: value 1.12 vs threshold 1"
         ]
       },
       "price_structure": {
         "points": 2,
         "max": 10,
         "detail": [
-          ""
+          "downtrend (lower highs, lower lows)"
         ]
       },
       "support_resistance": {
-        "points": 0,
+        "points": 10,
         "max": 10,
         "detail": [
-          "support/resistance unavailable: 0/10"
+          "price mid-range between S/R (43% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -162,10 +162,10 @@
         ]
       },
       "freshness_depth": {
-        "points": 0.0,
+        "points": 5,
         "max": 15,
         "detail": [
-          "0 validated daily bars (value 0 below all bands); providers may delay quotes ~15 min"
+          "34 validated daily bars (value 34 vs threshold 30); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -178,10 +178,11 @@
     },
     "risk": {
       "findings_contribution": {
-        "points": 45,
+        "points": 55,
         "max": 100,
         "detail": [
-          "high_debt (critical): +45"
+          "high_debt (critical): +45",
+          "high_volatility (moderate): +10"
         ]
       },
       "classification": "CRITICAL",
@@ -202,5 +203,13 @@
       "short_term": "0.7T+0.3F",
       "balanced": "0.5L+0.5S"
     }
+  },
+  "technical_daily": {
+    "rsi_14": 62.44351688083379,
+    "breakout": false,
+    "breakdown": false,
+    "support": 266.70001220703125,
+    "resistance": 356.95001220703125,
+    "trend": "sideways"
   }
 }

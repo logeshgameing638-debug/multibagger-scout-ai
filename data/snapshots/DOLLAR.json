@@ -1,7 +1,7 @@
 {
   "symbol": "DOLLAR",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:30 IST",
+  "updated_at": "2026-11-21 02:21 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 13.1 (no industry benchmark): value 13.1 vs threshold 15"
+          "P/E 13.0 (no industry benchmark): value 13 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 51: 4/7 (value 51.1 vs threshold 45)",
+          "RSI 50: 4/7 (value 50 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (56% of range)"
+          "price mid-range between S/R (52% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 51.108873130293176,
+    "rsi_14": 50.04549252958869,
     "breakout": false,
     "breakdown": false,
     "support": 236.5500030517578,

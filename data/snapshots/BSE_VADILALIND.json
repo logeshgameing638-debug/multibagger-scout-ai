@@ -1,7 +1,7 @@
 {
   "symbol": "VADILALIND",
   "exchange": "BSE",
-  "updated_at": "2026-11-20 04:03 IST",
+  "updated_at": "2026-11-21 02:21 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Vadilal Industries Limited",
   "scores": {
     "fundamental": 63.0,
-    "technical": 24.0,
+    "technical": 44.0,
     "data_confidence": 72.0,
     "risk": 0.0,
-    "long_term": 51.3,
-    "short_term": 35.7,
-    "balanced": 43.5
+    "long_term": 57.3,
+    "short_term": 49.7,
+    "balanced": 53.5
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 6,
         "max": 10,
         "detail": [
-          "P/E 21.1 (no industry benchmark): value 21.1 vs threshold 25"
+          "P/E 21.0 (no industry benchmark): value 21 vs threshold 25"
         ]
       },
       "industry_growth": {
@@ -100,18 +100,18 @@
         ]
       },
       "momentum": {
-        "points": 0.0,
+        "points": 4.0,
         "max": 15,
         "detail": [
-          "RSI 44: 0.0/7 (value 43.5 below all bands)",
+          "RSI 45: 4/7 (value 45.1 vs threshold 45)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 10,
         "max": 15,
         "detail": [
-          "relative volume: value 0.638 below all bands"
+          "relative volume: value 1.18 vs threshold 1"
         ]
       },
       "price_structure": {
@@ -122,10 +122,10 @@
         ]
       },
       "support_resistance": {
-        "points": 4,
+        "points": 10,
         "max": 10,
         "detail": [
-          "near support: watch for breakdown or bounce confirmation"
+          "price mid-range between S/R (30% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1232 validated daily bars (value 1.23e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1233 validated daily bars (value 1.23e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 43.54501512341126,
+    "rsi_14": 45.13463335276703,
     "breakout": false,
     "breakdown": false,
     "support": 6723.5,

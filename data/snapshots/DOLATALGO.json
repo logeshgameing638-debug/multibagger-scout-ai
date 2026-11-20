@@ -1,7 +1,7 @@
 {
   "symbol": "DOLATALGO",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:29 IST",
+  "updated_at": "2026-11-21 02:21 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -71,7 +71,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 7.7 (no industry benchmark): value 7.69 vs threshold 15"
+          "P/E 7.8 (no industry benchmark): value 7.82 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -130,7 +130,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },

@@ -1,7 +1,7 @@
 {
   "symbol": "DNAMEDIA",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:29 IST",
+  "updated_at": "2026-11-21 02:21 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Diligent Media Corporation Limited",
   "scores": {
     "fundamental": 21.0,
-    "technical": 16.0,
+    "technical": 22.0,
     "data_confidence": 72.0,
     "risk": 40.0,
-    "long_term": 19.5,
-    "short_term": 17.5,
-    "balanced": 18.5
+    "long_term": 21.3,
+    "short_term": 21.7,
+    "balanced": 21.5
   },
   "classification": "high_risk",
   "explanation": {
@@ -103,7 +103,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 39: 0.0/7 (value 38.8 below all bands)",
+          "RSI 42: 0.0/7 (value 42.3 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.545 below all bands"
+          "relative volume: value 0.536 below all bands"
         ]
       },
       "price_structure": {
@@ -122,17 +122,17 @@
         ]
       },
       "support_resistance": {
-        "points": 4,
+        "points": 10,
         "max": 10,
         "detail": [
-          "near support: watch for breakdown or bounce confirmation"
+          "price mid-range between S/R (32% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -206,7 +206,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 38.771223350362796,
+    "rsi_14": 42.30827139952085,
     "breakout": false,
     "breakdown": false,
     "support": 2.0199999809265137,

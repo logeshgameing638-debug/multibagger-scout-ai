@@ -1,22 +1,22 @@
 {
   "symbol": "EIHOTEL",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:31 IST",
-  "status": "partial",
+  "updated_at": "2026-11-21 02:25 IST",
+  "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
     "technical": "success",
     "business": "success",
     "valuation": "success",
     "risk": "success",
-    "news": "failed",
+    "news": "success",
     "scoring": "success"
   },
   "name": "EIH Limited",
   "scores": {
     "fundamental": 59.0,
     "technical": 68.0,
-    "data_confidence": 70.0,
+    "data_confidence": 72.0,
     "risk": 0.0,
     "long_term": 61.7,
     "short_term": 65.3,
@@ -73,7 +73,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 26.7 (no industry benchmark): value 26.7 vs threshold 40"
+          "P/E 28.5 (no industry benchmark): value 28.5 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -132,19 +132,19 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 10,
+        "points": 12,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: failed/unused"
+          "rss_news: ok"
         ]
       },
       "completeness": {

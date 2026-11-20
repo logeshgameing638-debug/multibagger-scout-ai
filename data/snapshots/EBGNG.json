@@ -1,7 +1,7 @@
 {
   "symbol": "EBGNG",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:31 IST",
+  "updated_at": "2026-11-21 02:24 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 35.7 (no industry benchmark): value 35.7 vs threshold 40"
+          "P/E 32.4 (no industry benchmark): value 32.4 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 31: 0.0/7 (value 31.5 below all bands)",
+          "RSI 31: 0.0/7 (value 31.1 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
@@ -132,7 +132,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -206,7 +206,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 31.49583219081515,
+    "rsi_14": 31.130720142362094,
     "breakout": false,
     "breakdown": false,
     "support": 511.1000061035156,

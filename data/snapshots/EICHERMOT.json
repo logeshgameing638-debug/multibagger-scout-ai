@@ -1,7 +1,7 @@
 {
   "symbol": "EICHERMOT",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:31 IST",
+  "updated_at": "2026-11-21 02:24 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 37.1 (no industry benchmark): value 37.1 vs threshold 40"
+          "P/E 37.3 (no industry benchmark): value 37.3 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -111,7 +111,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "relative volume: value 1.59 vs threshold 1.5"
+          "relative volume: value 1.55 vs threshold 1.5"
         ]
       },
       "price_structure": {
@@ -132,7 +132,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },

@@ -1,7 +1,7 @@
 {
   "symbol": "EIDPARRY",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:31 IST",
+  "updated_at": "2026-11-21 02:24 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -9,14 +9,14 @@
     "business": "success",
     "valuation": "partial",
     "risk": "success",
-    "news": "failed",
+    "news": "success",
     "scoring": "success"
   },
   "name": "E.I.D.- Parry (India) Limited",
   "scores": {
     "fundamental": 34.0,
     "technical": 35.0,
-    "data_confidence": 70.0,
+    "data_confidence": 72.0,
     "risk": 0.0,
     "long_term": 34.3,
     "short_term": 34.7,
@@ -73,7 +73,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 39.0 (no industry benchmark): value 39 vs threshold 40"
+          "P/E 39.4 (no industry benchmark): value 39.4 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -132,19 +132,19 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 10,
+        "points": 12,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: failed/unused"
+          "rss_news: ok"
         ]
       },
       "completeness": {

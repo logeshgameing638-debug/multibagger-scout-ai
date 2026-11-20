@@ -1,7 +1,7 @@
 {
   "symbol": "DONEAR",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:30 IST",
+  "updated_at": "2026-11-21 02:22 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 10.2 (no industry benchmark): value 10.2 vs threshold 15"
+          "P/E 9.9 (no industry benchmark): value 9.92 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 66: 7/7 (value 66 vs threshold 55)",
+          "RSI 67: 7/7 (value 66.5 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.521 below all bands"
+          "relative volume: value 0.487 below all bands"
         ]
       },
       "price_structure": {
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (75% of range)"
+          "price mid-range between S/R (76% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -205,7 +205,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 65.97938464758501,
+    "rsi_14": 66.50269247027506,
     "breakout": false,
     "breakdown": false,
     "support": 73.83999633789062,

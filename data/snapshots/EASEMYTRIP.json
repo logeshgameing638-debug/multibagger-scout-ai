@@ -1,7 +1,7 @@
 {
   "symbol": "EASEMYTRIP",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:31 IST",
+  "updated_at": "2026-11-21 02:23 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -103,7 +103,7 @@
         "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 61: 7/7 (value 61 vs threshold 55)",
+          "RSI 61: 7/7 (value 61.4 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (73% of range)"
+          "price mid-range between S/R (74% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -205,7 +205,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 60.97123522201143,
+    "rsi_14": 61.390346332950365,
     "breakout": false,
     "breakdown": false,
     "support": 5.199999809265137,

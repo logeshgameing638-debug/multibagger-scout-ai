@@ -1,7 +1,7 @@
 {
   "symbol": "ELANTAS",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:32 IST",
+  "updated_at": "2026-11-21 02:25 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 0.0,
         "max": 10,
         "detail": [
-          "P/E 51.3 (no industry benchmark): value 51.3 below all bands"
+          "P/E 51.1 (no industry benchmark): value 51.1 below all bands"
         ]
       },
       "industry_growth": {
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.229 below all bands"
+          "relative volume: value 0.228 below all bands"
         ]
       },
       "price_structure": {
@@ -132,7 +132,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },

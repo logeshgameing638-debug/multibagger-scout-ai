@@ -1,7 +1,7 @@
 {
   "symbol": "ANIKINDS",
   "exchange": "BSE",
-  "updated_at": "2026-11-20 04:03 IST",
+  "updated_at": "2026-11-21 02:21 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Anik Industries Limited",
   "scores": {
     "fundamental": 28.5,
-    "technical": 29.0,
+    "technical": 30.0,
     "data_confidence": 72.0,
     "risk": 30.0,
-    "long_term": 28.6,
-    "short_term": 28.8,
-    "balanced": 28.7
+    "long_term": 28.9,
+    "short_term": 29.5,
+    "balanced": 29.2
   },
   "classification": "high_risk",
   "explanation": {
@@ -103,15 +103,15 @@
         "points": 8.0,
         "max": 15,
         "detail": [
-          "RSI 45: 0.0/7 (value 44.7 below all bands)",
+          "RSI 41: 0.0/7 (value 41.5 below all bands)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 5,
+        "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.886 vs threshold 0.7"
+          "relative volume: value 0.0823 below all bands"
         ]
       },
       "price_structure": {
@@ -122,10 +122,10 @@
         ]
       },
       "support_resistance": {
-        "points": 4,
+        "points": 10,
         "max": 10,
         "detail": [
-          "near support: watch for breakdown or bounce confirmation"
+          "price mid-range between S/R (37% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1231 validated daily bars (value 1.23e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1232 validated daily bars (value 1.23e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -205,11 +205,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 44.6817806045645,
+    "rsi_14": 41.49942293750662,
     "breakout": false,
     "breakdown": false,
     "support": 36.5,
-    "resistance": 47.5,
+    "resistance": 43.0,
     "trend": "bearish"
   }
 }

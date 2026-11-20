@@ -1,6 +1,110 @@
 {
-  "generated_at": "2026-11-20 04:03 IST",
+  "generated_at": "2026-11-21 02:28 IST",
   "alerts": [
+    {
+      "symbol": "ASAL",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "ASAL balanced score moved -15.9 pts (43.7 -> 27.8)",
+      "data_date": "2026-11-21 02:23 IST",
+      "detected_at": "2026-11-21 02:28 IST"
+    },
+    {
+      "symbol": "DOLLEX",
+      "type": "risk_high",
+      "severity": "critical",
+      "message": "DOLLEX stored risk score 70 >= 70 (high stored risk)",
+      "data_date": "2026-11-21 02:21 IST",
+      "detected_at": "2026-11-21 02:28 IST"
+    },
+    {
+      "symbol": "DRREDDY",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "DRREDDY RSI(14) 74 >= 70 (overbought zone)",
+      "data_date": "2026-11-21 02:22 IST",
+      "detected_at": "2026-11-21 02:28 IST"
+    },
+    {
+      "symbol": "ECLERX",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "ECLERX RSI(14) 28 <= 30 (oversold zone)",
+      "data_date": "2026-11-21 02:24 IST",
+      "detected_at": "2026-11-21 02:28 IST"
+    },
+    {
+      "symbol": "ELEVATE",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "ELEVATE balanced score moved +22.5 pts (19.0 -> 41.5)",
+      "data_date": "2026-11-21 02:26 IST",
+      "detected_at": "2026-11-21 02:28 IST"
+    },
+    {
+      "symbol": "ELGIRUBCO",
+      "type": "risk_high",
+      "severity": "critical",
+      "message": "ELGIRUBCO stored risk score 85 >= 70 (high stored risk)",
+      "data_date": "2026-11-21 02:26 IST",
+      "detected_at": "2026-11-21 02:28 IST"
+    },
+    {
+      "symbol": "ELITECON",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "ELITECON RSI(14) 18 <= 30 (oversold zone)",
+      "data_date": "2026-11-21 02:26 IST",
+      "detected_at": "2026-11-21 02:28 IST"
+    },
+    {
+      "symbol": "EMAMILTD",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "EMAMILTD RSI(14) 73 >= 70 (overbought zone)",
+      "data_date": "2026-11-21 02:26 IST",
+      "detected_at": "2026-11-21 02:28 IST"
+    },
+    {
+      "symbol": "EMCURE",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "EMCURE RSI(14) 78 >= 70 (overbought zone)",
+      "data_date": "2026-11-21 02:27 IST",
+      "detected_at": "2026-11-21 02:28 IST"
+    },
+    {
+      "symbol": "EMPOWER",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "EMPOWER RSI(14) 28 <= 30 (oversold zone)",
+      "data_date": "2026-11-21 02:27 IST",
+      "detected_at": "2026-11-21 02:28 IST"
+    },
+    {
+      "symbol": "UNIDT",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "UNIDT RSI(14) 29 <= 30 (oversold zone)",
+      "data_date": "2026-11-21 02:25 IST",
+      "detected_at": "2026-11-21 02:28 IST"
+    },
+    {
+      "symbol": "VADILALIND",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "VADILALIND balanced score moved +10.0 pts (43.5 -> 53.5)",
+      "data_date": "2026-11-21 02:21 IST",
+      "detected_at": "2026-11-21 02:28 IST"
+    },
+    {
+      "symbol": "VADILENT",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "VADILENT RSI(14) 25 <= 30 (oversold zone)",
+      "data_date": "2026-11-21 02:21 IST",
+      "detected_at": "2026-11-21 02:28 IST"
+    },
     {
       "symbol": "ANANTRAJ",
       "type": "score_change",
@@ -595,8 +699,8 @@
     }
   ],
   "stats": {
-    "snapshots_scanned": 827,
-    "new_alerts": 18,
-    "active_alerts": 74
+    "snapshots_scanned": 882,
+    "new_alerts": 13,
+    "active_alerts": 87
   }
 }

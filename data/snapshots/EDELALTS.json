@@ -1,7 +1,7 @@
 {
   "symbol": "EDELALTS",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:31 IST",
+  "updated_at": "2026-11-21 02:24 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -71,7 +71,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 40.0 (no industry benchmark): value 40 vs threshold 40"
+          "P/E 39.8 (no industry benchmark): value 39.8 vs threshold 40"
         ]
       },
       "industry_growth": {

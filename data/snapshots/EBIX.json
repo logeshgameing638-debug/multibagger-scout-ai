@@ -1,7 +1,7 @@
 {
   "symbol": "EBIX",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:31 IST",
+  "updated_at": "2026-11-21 02:24 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "EBIX Limited",
   "scores": {
     "fundamental": 38.0,
-    "technical": 35.0,
+    "technical": 29.0,
     "data_confidence": 62.0,
     "risk": 40.0,
-    "long_term": 37.1,
-    "short_term": 35.9,
-    "balanced": 36.5
+    "long_term": 35.3,
+    "short_term": 31.7,
+    "balanced": 33.5
   },
   "classification": "high_risk",
   "explanation": {
@@ -103,7 +103,7 @@
         "points": 8.0,
         "max": 15,
         "detail": [
-          "RSI 39: 0.0/7 (value 39 below all bands)",
+          "RSI 36: 0.0/7 (value 35.7 below all bands)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 5,
         "max": 15,
         "detail": [
-          "relative volume: value 0.94 vs threshold 0.7"
+          "relative volume: value 0.932 vs threshold 0.7"
         ]
       },
       "price_structure": {
@@ -122,17 +122,17 @@
         ]
       },
       "support_resistance": {
-        "points": 10,
+        "points": 4,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (30% of range)"
+          "near support: watch for breakdown or bounce confirmation"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -206,7 +206,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 38.99354129852278,
+    "rsi_14": 35.66714022106083,
     "breakout": false,
     "breakdown": false,
     "support": 13.5,

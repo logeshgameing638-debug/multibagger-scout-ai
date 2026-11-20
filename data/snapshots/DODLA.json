@@ -1,7 +1,7 @@
 {
   "symbol": "DODLA",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:29 IST",
+  "updated_at": "2026-11-21 02:21 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -103,7 +103,7 @@
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 50: 4/7 (value 49.6 vs threshold 45)",
+          "RSI 49: 4/7 (value 49.5 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -132,7 +132,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 49.64895327719229,
+    "rsi_14": 49.45920374111566,
     "breakout": false,
     "breakdown": false,
     "support": 940.0999755859375,

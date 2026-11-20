@@ -1,7 +1,7 @@
 {
   "symbol": "ENDURANCE",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:33 IST",
+  "updated_at": "2026-11-21 02:28 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 35.9 (no industry benchmark): value 35.9 vs threshold 40"
+          "P/E 35.4 (no industry benchmark): value 35.4 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -132,7 +132,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
