@@ -100,8 +100,9 @@ function renderManifest(manifest) {
 
 function renderRanking(feed) {
   setMeta("ranking-meta",
-    `Ranked ${feed.ranked_count || 0} of ${feed.universe_size || "?"} universe stocks ` +
-    `(${feed.excluded_count || 0} unavailable/excluded). Feed generated ${feed.generated_at || "unknown"}; ` +
+    `Ranked ${feed.ranked_count || 0} unique symbols of a ${feed.universe_size || "?"}-entry NSE + BSE listing universe ` +
+    `(a dual-listed company appears once per exchange in the universe; ${feed.excluded_count || 0} unavailable/excluded). ` +
+    `Feed generated ${feed.generated_at || "unknown"}; ` +
     `each stock keeps its own data date. Scheduled batch research, not continuous monitoring.`);
   const head = document.querySelector("#ranking-table thead");
   const body = document.querySelector("#ranking-table tbody");
@@ -346,14 +347,15 @@ function renderCommand(state) {
     ["Partial data", last.partial != null ? String(last.partial) : "n/a"],
     ["Unavailable", last.unavailable != null ? String(last.unavailable) : "n/a"],
     ["Run length", last.minutes != null ? `${last.minutes} min` : "n/a"],
-    ["Universe size", state.universe_size != null ? String(state.universe_size) : "n/a"],
+    ["Universe listings (NSE+BSE)", state.universe_size != null ? String(state.universe_size) : "n/a"],
     ["Runs this cycle", state.run_count != null ? String(state.run_count) : "n/a"],
   ];
   document.getElementById("floor00-stats").innerHTML = stats.map(([l, v]) =>
     `<div class="stat-card"><div class="sv">${esc(v)}</div><div class="sl">${esc(l)}</div></div>`).join("");
   setMeta("floor00-meta",
     `One scheduled research run per weekday evening (IST). Cycle started ${state.cycle_started_at || "unknown"}; ` +
-    `rotation cursor at ${state.cursor != null ? state.cursor : "n/a"} of ${state.universe_size || "n/a"} stocks.` +
+    `rotation cursor at ${state.cursor != null ? state.cursor : "n/a"} of ${state.universe_size || "n/a"} exchange listings` +
+    `${state.universe_breakdown ? ` (${state.universe_breakdown.NSE || "?"} NSE + ${state.universe_breakdown.BSE || "?"} BSE)` : ""}.` +
     (state.last_run_stopped_reason ? ` Last run stopped early: ${state.last_run_stopped_reason}` : ""));
 }
 
