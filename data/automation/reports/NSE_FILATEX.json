@@ -9,7 +9,7 @@
     "website": "https://www.filatex.com"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-24 00:35:47.986370+00:00",
+    "generated_at": "2026-11-24 22:59:05.601456+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -78,34 +78,34 @@
     "assessment": "bullish",
     "daily": {
       "timeframe": "1d",
-      "last_close": 110.83000183105469,
+      "last_close": 108.01000213623047,
       "emas": {
-        "ema_20": 101.79587862469894,
-        "ema_50": 96.78936834607948,
-        "ema_100": 87.12625910281511,
-        "ema_200": 74.72848292346717
+        "ema_20": 102.38769991151148,
+        "ema_50": 97.22939320059521,
+        "ema_100": 87.53979856882333,
+        "ema_200": 75.05964231861905
       },
       "smas": {
-        "sma_20": 97.91350059509277,
-        "sma_50": 99.43740036010742,
-        "sma_100": 86.30069995880127,
-        "sma_200": 65.86169998168945
+        "sma_20": 98.72450065612793,
+        "sma_50": 100.06880035400391,
+        "sma_100": 86.86169998168945,
+        "sma_200": 66.17654998779297
       },
-      "rsi_14": 64.93189512580602,
+      "rsi_14": 59.945031003666045,
       "macd": {
-        "macd_line": 3.0634839110131935,
-        "signal_line": 1.114259089833465,
-        "histogram": 1.9492248211797285
+        "macd_line": 3.1629840264871376,
+        "signal_line": 1.5240040771641996,
+        "histogram": 1.638979949322938
       },
-      "adx_14": 26.185745637896197,
-      "atr_14": 6.463574905886353,
+      "adx_14": 26.707062940845137,
+      "atr_14": 6.321891223818299,
       "bollinger": {
-        "middle": 97.91350059509277,
-        "upper": 112.944185818078,
-        "lower": 82.88281537210754
+        "middle": 98.72450065612793,
+        "upper": 114.11017266381634,
+        "lower": 83.33882864843952
       },
-      "volume_sma_20": 2661965.4,
-      "relative_volume": 1.5597204982453943,
+      "volume_sma_20": 2573206.45,
+      "relative_volume": 0.4747298841878777,
       "support": 84.19999694824219,
       "resistance": 119.77999877929688,
       "price_structure": {
@@ -122,18 +122,18 @@
       "momentum_divergence": null,
       "entry_zone": {
         "low": 84.2,
-        "high": 87.43,
+        "high": 87.36,
         "basis": "near identified support plus half ATR buffer"
       },
-      "invalidation_level": 71.27,
-      "atr_risk_distance": 6.463574905886353,
+      "invalidation_level": 71.56,
+      "atr_risk_distance": 6.321891223818299,
       "provisional_last_bar": false
     },
     "short_term_report": {
       "timeframe": "daily",
       "trend": "bullish",
-      "rsi_14": 64.93189512580602,
-      "macd_histogram": 1.9492248211797285,
+      "rsi_14": 59.945031003666045,
+      "macd_histogram": 1.638979949322938,
       "breakout": false,
       "breakdown": false
     },
@@ -143,7 +143,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 74.72848292346717,
+      "ema_200_daily": 75.05964231861905,
       "price_vs_ema_200": "above"
     }
   },
@@ -169,13 +169,13 @@
   },
   "6_valuation": {
     "multiples": {
-      "pe_trailing": 25.118605,
+      "pe_trailing": 24.492065,
       "pe_forward": 8.127164,
       "pb": 3.001028,
       "ev_ebitda": 13.997,
       "ev_sales": 1.077,
       "peg": null,
-      "dividend_yield": 0.27,
+      "dividend_yield": 0.28,
       "industry_pe": null
     },
     "valuation_view_vs_industry": null,
@@ -199,8 +199,8 @@
       }
     },
     "dcf_not_calculated_reason": null,
-    "margin_of_safety_vs_base_case": -4.713372720777758,
-    "current_price": 110.83000183105469,
+    "margin_of_safety_vs_base_case": -4.567999545077821,
+    "current_price": 108.01000213623047,
     "_run_id": 1061
   },
   "7_news_intelligence": {
@@ -216,10 +216,10 @@
       {
         "category": "high_volatility",
         "severity": "moderate",
-        "evidence": "ATR 5.8% of price (>4%)",
+        "evidence": "ATR 5.9% of price (>4%)",
         "source": "computed",
         "date": "2026-11-24",
-        "detected_at": "2026-11-24 00:35:47.971763+00:00"
+        "detected_at": "2026-11-24 22:59:05.586482+00:00"
       }
     ],
     "unassessed_governance_items": [
@@ -231,47 +231,47 @@
       "promoter selling (source unavailable)"
     ],
     "shares_outstanding_growth_yoy": 0.0004570744307550543,
-    "atr_pct_of_price": 0.05831972208878239,
+    "atr_pct_of_price": 0.058530609191588076,
     "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
     "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
     "_run_id": 1062
   },
-  "9_fundamental_score": 55.0,
-  "10_technical_score": 75.0,
+  "9_fundamental_score": 58.0,
+  "10_technical_score": 60.0,
   "11_data_confidence": 72.0,
   "12_short_term_assessment": {
-    "score": 69.0,
+    "score": 59.4,
     "technical_view": {
       "timeframe": "daily",
       "trend": "bullish",
-      "rsi_14": 64.93189512580602,
-      "macd_histogram": 1.9492248211797285,
+      "rsi_14": 59.945031003666045,
+      "macd_histogram": 1.638979949322938,
       "breakout": false,
       "breakdown": false
     },
     "entry_zone": {
       "low": 84.2,
-      "high": 87.43,
+      "high": 87.36,
       "basis": "near identified support plus half ATR buffer"
     },
-    "invalidation_level": 71.27
+    "invalidation_level": 71.56
   },
   "13_long_term_assessment": {
-    "score": 61.0,
+    "score": 58.6,
     "trend": {
       "timeframes": [
         "weekly",
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 74.72848292346717,
+      "ema_200_daily": 75.05964231861905,
       "price_vs_ema_200": "above"
     },
     "business_classification": "insufficient_evidence"
   },
-  "14_investment_thesis": "Filatex India Limited (FILATEX) is classified as a 'insufficient_evidence' business with a bullish technical trend. Balanced research score 65.0/100 (fundamental 55.0, technical 75.0, data confidence 72.0, risk 10/100 higher=worse).",
+  "14_investment_thesis": "Filatex India Limited (FILATEX) is classified as a 'insufficient_evidence' business with a bullish technical trend. Balanced research score 59.0/100 (fundamental 58.0, technical 60.0, data confidence 72.0, risk 10/100 higher=worse).",
   "15_thesis_invalidation": [
-    "Daily close below invalidation level 71.27 (2x ATR under support)",
+    "Daily close below invalidation level 71.56 (2x ATR under support)",
     "Operating cash flow turning negative in the next annual report",
     "New critical governance or regulatory finding (currently unassessed items must be checked manually)"
   ],
@@ -301,17 +301,17 @@
     "rss_news (headlines, unverified)"
   ],
   "labels": [
-    "strong_technical_trend"
+    "neutral"
   ],
   "combined_scores": {
-    "long_term": 61.0,
-    "short_term": 69.0,
-    "balanced": 65.0,
+    "long_term": 58.6,
+    "short_term": 59.4,
+    "balanced": 59.0,
     "risk_score_higher_is_worse": 10
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-24 06:05 IST",
+    "generated_at": "2026-11-25 04:29 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-24 06:02 IST"
   }

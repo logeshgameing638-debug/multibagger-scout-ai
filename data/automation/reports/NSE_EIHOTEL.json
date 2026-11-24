@@ -9,7 +9,7 @@
     "website": "https://www.eihltd.com"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-24 00:35:54.577874+00:00",
+    "generated_at": "2026-11-24 22:59:15.186012+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -80,36 +80,36 @@
     "assessment": "sideways",
     "daily": {
       "timeframe": "1d",
-      "last_close": 334.1499938964844,
+      "last_close": 333.3999938964844,
       "emas": {
-        "ema_20": 308.23488301127236,
-        "ema_50": 303.6891865175221,
-        "ema_100": 306.36088189686336,
-        "ema_200": 316.82458467998634
+        "ema_20": 310.6315602384354,
+        "ema_50": 304.8543162186579,
+        "ema_100": 306.8963098572519,
+        "ema_200": 316.98951412492664
       },
       "smas": {
-        "sma_20": 304.12749938964845,
-        "sma_50": 299.5010003662109,
-        "sma_100": 307.78099945068357,
-        "sma_200": 312.419499206543
+        "sma_20": 306.3924987792969,
+        "sma_50": 300.2540002441406,
+        "sma_100": 307.91199951171876,
+        "sma_200": 312.5384991455078
       },
-      "rsi_14": 70.54179000780765,
+      "rsi_14": 69.77760593940513,
       "macd": {
-        "macd_line": 6.271699221452764,
-        "signal_line": 4.115690252094312,
-        "histogram": 2.156008969358451
+        "macd_line": 7.471274228704601,
+        "signal_line": 4.786807047416371,
+        "histogram": 2.6844671812882304
       },
-      "adx_14": 27.601374350173963,
-      "atr_14": 10.989944882195083,
+      "adx_14": 29.172885368014327,
+      "atr_14": 10.990663104895434,
       "bollinger": {
-        "middle": 304.12749938964845,
-        "upper": 329.2828803286454,
-        "lower": 278.9721184506515
+        "middle": 306.3924987792969,
+        "upper": 333.54959188122507,
+        "lower": 279.2354056773687
       },
-      "volume_sma_20": 517706.85,
-      "relative_volume": 9.86227823719157,
+      "volume_sma_20": 571397.05,
+      "relative_volume": 2.1553926468468814,
       "support": 281.20001220703125,
-      "resistance": 337.25,
+      "resistance": 338.45001220703125,
       "price_structure": {
         "structure": "uptrend (higher highs, higher lows)",
         "higher_highs": true,
@@ -124,18 +124,18 @@
       "momentum_divergence": null,
       "entry_zone": {
         "low": 281.2,
-        "high": 286.69,
+        "high": 286.7,
         "basis": "near identified support plus half ATR buffer"
       },
       "invalidation_level": 259.22,
-      "atr_risk_distance": 10.989944882195083,
+      "atr_risk_distance": 10.990663104895434,
       "provisional_last_bar": false
     },
     "short_term_report": {
       "timeframe": "daily",
       "trend": "sideways",
-      "rsi_14": 70.54179000780765,
-      "macd_histogram": 2.156008969358451,
+      "rsi_14": 69.77760593940513,
+      "macd_histogram": 2.6844671812882304,
       "breakout": false,
       "breakdown": false
     },
@@ -145,7 +145,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 316.82458467998634,
+      "ema_200_daily": 316.98951412492664,
       "price_vs_ema_200": "above"
     }
   },
@@ -203,8 +203,8 @@
       }
     },
     "dcf_not_calculated_reason": null,
-    "margin_of_safety_vs_base_case": -3.3471989206876884,
-    "current_price": 334.1499938964844,
+    "margin_of_safety_vs_base_case": -3.33744162830382,
+    "current_price": 333.3999938964844,
     "_run_id": 1082
   },
   "7_news_intelligence": {
@@ -224,15 +224,6 @@
         "published": "Thu, 06 Aug 2026 06:16:30 GMT",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVmdRX2tTbWVDQkdsaFBKR2c3S3ZmcmRGQjlJOXJKMUFmYldYaGh4dFJzQndHdG8wRTh1TFpPelBJNElRb2NTbC1QMUJnb0NUVGRKdlZGdnRoZXV6aEd0VnF4eVZKUm9SVHRkbDZWbjNiYmR5eGszMGNjQ2U0RTVINFBJQ3JZZnNjWWttc0R0MjNqeFYwQmJ4bDE0eG9wOEg3ZGNoeDZFY1pJbTIyOFhXcDM3NA?oc=5",
         "sentiment": "positive",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "EIH says Wildflower Hall dispute closed after share transfer - Multibagg AI",
-        "source": "Multibagg AI",
-        "published": "Thu, 12 Nov 2026 13:17:43 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTFQtcE1raUhPYWs1bTVuc3VXcDc2LVdwTDUtUFNvV3lSaHJYY0wyQmxxeXY1NGhZaGlaaHVVUS1zR1BCTmQ2N3JKQ0xXNmN1aE81QzEtY19tUUdWWHlfQkFINXV2blBNaWxwaUU5WUk1X0J5OXh6NWJadEhnT09mREpyNnEtakN1S2RvbGd4dGgwb3o2ZG5acmN5aGdMVjVhSENNczJCeWNXbFotNlNwREdqMmFmdHFlbDdqQg?oc=5",
-        "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
       },
@@ -282,15 +273,6 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "EIH Ltd Shares Fall 2.6% After Q2 Profit Drops 12.4% YoY to \u20b9114 Cr - HDFC Sky",
-        "source": "HDFC Sky",
-        "published": "Wed, 12 Nov 2025 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYlBUSkpVOEt0TkszUUVqV2N3cVQ2UHpFX01qNUJ2b2piUks0ZmZicUZWQk1BTlFfQUdlUDVvRTJhZkNHN3ZLYlcyYmtaTXFzUDUtVWJMQko1RjMzSUJwNkxveWVLcTBOMVZjRGE4Q01OUkg5MFBuSjlMclJjNnpXOXZNbWVORUl5VE9zblI0Y0NHbVExS2pJ?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
         "headline": "EIH Ltd. Share Price Today | EIH Live NSE/BSE - Value Research",
         "source": "Value Research",
         "published": "Fri, 25 Mar 2022 08:48:44 GMT",
@@ -318,21 +300,12 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "EIH posts 15% revenue growth in Q1 FY27, expands luxury hotel pipeline - ET TravelWorld",
-        "source": "ET TravelWorld",
-        "published": "Sat, 08 Aug 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQWTF3R21GbWYwYVBKTHd1OTBGaHZfbTVFcTREOHRta05KZ051cVJXc0R4X0VleEJ1cWN2dmpFSUZCWjM2bElBdnlTNlZoZGgyV2RFUkdSeWlmYlgzS3poc04zQUhJOGZ4eTc2YmFwOWFRLUZOWUpQXzVuN2trQ2dRUi1kTUZ0OEkwem9HT0lHa0FIby1oV1JrTjNzZEF5SzB4TGxwMk1DOWRILXN2OU5pYmloMXdBeFhkWnBsa2RIbUNfR25LTWs2cGxndWhaalZvcTNlUlhEZXVrNVRPTUF2NUhNaV9rVmY2RnMtNm8tTdIB9AFBVV95cUxPd1dVa19oR1BHY1d4ZTQxZ25HemVScWR4UllzRVh6alNvTHdiLXNWb3VkMGtnd3haZUtWNnZDajZsaEFWdEF6NHFnOUxNaTVIUDNIS2lPM0xvTGdzQk04Ym5NaVdvanV5bXBldkNGQ3ptSXpzblJKZ3dVU3NueWZoUnBpaHc5S3VIMmVrbTFTaVpUY3VxWkpCTlduaElGSUZRS0ZRSnlSdDVpckU0SnZTUVhvLWl2a1FfRVJGeWNtTlk1azNzUzJRWFVoN2p1Q0ZxYnJKT0VsSm1yVXBNaVhWUHR3cy11Rkc0WkdUOVlLb014RDk2?oc=5",
-        "sentiment": "positive",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "EIH Hotels shareholders approve FY26 dividend, Modi reappointment - scanx.trade",
+        "headline": "EIH Limited schedules 76th AGM on August 7, 2026 via VC - scanx.trade",
         "source": "scanx.trade",
         "published": "Fri, 07 Aug 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWktObjlSakpvUXdpTDJBME9lRzJ4SFhPd2xyRXNHSGhyTkdnbVZzQWJxX2xxM0tybnhIMjBHcGhrZlpETDhsT3JqTHJXM0dxei1PWmdWN2xxYlhMaVJlT1g0Vl9UbkdqNV9lUVBJM0FMMENocFpETk5EaVlpWFgxVnQyMTdFU2E3UnFaeWlBcTU5UmlHRjc3dGNIb2thWFRQdDB6VTRPT0VSR2FROTZsMVZmUzhFSHkzQXc?oc=5",
-        "sentiment": "positive",
-        "relevance": "high",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQk1VNjBUQU13aFZGZjNLQkRSdWhLV0V6dUd2RDdWaVlIcUM5bUhySkQ5V3pHc0xJNmtEYnE0VE1iWXlDakpJbTZTb0dkUW9MM2Y4MnZpZTlBckRkWXRJMllSc2RlLUxUdE91TFVWbGdCd05mWjAxSklsY2ptdXFBN1RVNE5EeUhzUlg0QndiRHFOSUEtdkZUS0Z6b0N4M2JUUmtKQzNLcVJEMU90TTZ6eQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
         "verification_status": "unverified"
       },
       {
@@ -345,100 +318,10 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Declining Stock and Solid Fundamentals: Is The Market Wrong About EIH Limited (NSE:EIHOTEL)? - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Wed, 17 Dec 2025 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOS01IV3ozLWo4c2dIT1RDc3ZyVkN2Vjk5R3dfd2JiNFB0RFpGeUhoRW4xMS1yVmtPbTVYbVF2QmxSeFdaVUVfUmxpclpNYS1JeV85V0d1aGV2NERjZmVJd3l1emJRc0NTcEZaYUJJOEtLSkNRbTBwbDEwYnZaTl9MWGNZY2Y2M2VTbkxnUGpCTTlGM0h4ZzM0dHlIZi0xT05vTnd1ZmM3dkVDSmp3T0FhdkZwSGN6VFNBQVhXRzlMWmY2SnFJZGNNS0poN3JXczdHOEY5OV9WdkJZeGPSAeABQVVfeXFMTUJtNlpmeGI3enBnRmpKNHhMd1RmX2ZCdFdDcjUzMDJFSFlmN2pKcjRqTGVvdkRrRndhTkkyTXFJUDBQVjdLYVh5NnExUnhmSHVOaGJEREdJZTJmS1l3ZS01NWNOOEluM3pETTMwYlp6VWhQeFVMQTJndk1xdFJvVldsajNSTzBxZUcwYVU1LWFPMmNieE1Pcy1lRGhwbmZYTWtfSnhhaVVyNkxzTnh6MnFzQVhmUEtQckJpOUJlRkRzeW5vUU1TVU5SeDc1QUt4WEdvYTY4Tm1CYXJYN2RvdlA?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Earnings call transcript: EIH Limited misses Q2 2026 EPS, revenue edges up By Investing.com - Investing.com India",
-        "source": "Investing.com India",
-        "published": "Mon, 16 Nov 2026 14:38:15 GMT",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPX3RNSW8yZ2x5bmVGbVVHUEhHV2huOUxUYV9yalMzdkdjaUJqRWQ1QWtRSC01U3FsSHZqREYyczcwSTRXRmxGbTlUclU4Rlp1VFpzb3VxQWU0ODUyem42WjdLSGczblJPRUVFWEFCVVZMRlRDOWxqakZHQjIyMWxFYThjSXlvMWp4Ry1YSUZHbUF4QlkwdXNYTWdza2R4dlFqV0VOY2hTM3ZlSVU0cXF5am1XMVBRdFhLUmZYWW5QWld5Q1dNQk9TQ2VTdi1jdw?oc=5",
-        "sentiment": "neutral",
-        "relevance": "high",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "EIH Limited files BRSR for FY 2025-26 with verified ESG data - scanx.trade",
-        "source": "scanx.trade",
-        "published": "Wed, 15 Jul 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNGpIWkFvYkFWMHV1eEw2OHo2V2h4ZF9LQUFmNXpJOGVLeldXMEpBRkxMbWEzWjg4a1ZJQmhaX0lwdXZ1UE00V2JGWi1qNURwcWs1Q1RDMFFZOTdPZl82dDVBRDZZcEZSSVVJSEV3TlZBcFZPQ05NSHl4c09VMkRfbVVCZ25peU9VRG11UFZTd3R4MVhuVExLamdJQVJBeUR6T0E?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "5 Hotel Stocks India 2026: Strong Future Roadmaps - Univest",
-        "source": "Univest",
-        "published": "Tue, 25 Aug 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ldjRfUHp6Q2xDMzdFV01OUXBjY1lUMlBnVkEwQWlCSTlCQlFTNGZMVUxjcjdPTkFtRUw3amZlaldKY29OSllOdXlMeEpkcXh5SWdYWXdfamZnTlN6LVVxSTdKaFU4R3NYajJLTlIwdnZuQQ?oc=5",
-        "sentiment": "neutral",
-        "relevance": "low",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "EIH Limited Reports Mixed Q2 FY26 Results Amid Challenging Conditions - scanx.trade",
-        "source": "scanx.trade",
-        "published": "Thu, 13 Nov 2025 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOUpWZE5UU3hSR1lzUWVxNDZlUzZOQW1RUHBMczFSbGo2SkttSkdDVHBVcnprTmx0QUtBZHR6clp4aVJ3N2FLQUtlMWJfdUFQdFBPLTJRTHdTR05zNDBPb2llaEM3YW10SVFHUUNKZnlYTE5MLXRFMi15QmxJdDMyU0Jnd2gzY3JhN0hBeWlMT0x3UGJWM1ZfOGF3M1U2MFVIWXBkZmgtYWQ2YkNZcGxPQ25jNHpDNVcyRmNCaGxiUS0tWjQ?oc=5",
-        "sentiment": "neutral",
-        "relevance": "high",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "EIH Limited Reports Strong Q1 Performance with 9% Revenue Growth and Ambitious Expansion Plans - scanx.trade",
-        "source": "scanx.trade",
-        "published": "Thu, 07 Aug 2025 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNUGJxN19rZ0dBdjBXd2hhWkgzTVcwZEtGcFVnY1JtVGRHdExVRnA4Njlja3NtZFB2OUJRVVlGSXQxcDhaM0pVQjUyVUx0dWVsQVhfYURMclpLbjlWaElmVk1ra3dBTHBPbFBlcTBhODR4S3lHcWk3WHdqVGNWZWZweml5MWVOdGJLb0FFYmJTcVI5am9KQTJKWDRsRXVKLWp3bzZFMng3ZXhIM1NpR0F5d1NmQ1VSb3hZYXl0eDd4NnFSdUE2Uk5yNGE0VHBPRlJWYXRwZFhCQWIxMWl6Sl83VHdXbw?oc=5",
-        "sentiment": "positive",
-        "relevance": "high",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "EIH Reports Mixed Q2 Results: Revenue Up, Profitability Down - scanx.trade",
-        "source": "scanx.trade",
-        "published": "Tue, 11 Nov 2025 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQklfdDZHTlVpRHE4RWFTTzY3bkNxTmFhMlo4NEluTWtjM2lTa0hVSUNBbE9OeWFoTGRmNHZKSTB2LVg5Z0VReUZrNzBNUnNBQm4ySnlkU2g5UHFtS1Y1Z1dtQXdlX00yX2JiaXNabkxhOWhZVFBZa3ZCNU1XSEhoTk0ybFRUZlFXczYtY3QyOHo5NVZ4a3d6WVIwLUh6ei1WVm1TNVN0VC1VS3pqM0k4QWY4b0s?oc=5",
-        "sentiment": "neutral",
-        "relevance": "high",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "EIH Limited Reports Rs 36.36 Crore Quarterly Profit Despite Rs 110.32 Crore Exceptional Loss - scanx.trade",
-        "source": "scanx.trade",
-        "published": "Tue, 05 Aug 2025 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUnAzUV9hYm5jLXJ0WVpmbWlKNDdYN0taeXBBNE9xLTJ6ZG5jRVRka1VIUEZNMFlQLWV1RXRQWmZYNnFFV18zWW9LcUsyQVJvcV9DUlpvT2xKbTVPdDJfM0tEN1pzbHhEZUl1TmEzZElYMGxYOXJEc0N1ZnBKdldHbVNSb3FjakdiX3ZZb3lJdTlrNlJWb2o0YlJ1ZGRIM0FEQ3dESTljTUQ5WHRFcVVWbFEzczdYYU9IOTZiRlB3U1FKMVdpOVZRcXducVNsT1hId2Iw?oc=5",
-        "sentiment": "negative",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
         "headline": "EIHOTEL Stock Price and Chart \u2014 NSE:EIHOTEL - TradingView",
         "source": "TradingView",
         "published": "Fri, 21 Jul 2017 02:26:51 GMT",
         "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8yQTMtOWQ4X0RCOU5XWEdzOU5zZk5LbDgwYkExdXJWcGc2QUJFb1V6VkRvRHpCODl3bUxVZHQ4RTFJZXdkYWFsQnJKMzdDdVlRNDBMU1gyTUM0OVB6?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "EIH jumps 20% on record Q3 earnings; stock up 150% in a year - Moneycontrol.com",
-        "source": "Moneycontrol.com",
-        "published": "Wed, 07 Feb 2024 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYTBMSTE4MUhGbE5yR0hHZkFCR184X1hrSS1SWW1LLS1UZDYxbDdkaERSdUNxSFlTRkJvc3VQUzNscU1vMUYtcUkxM1JBMFluY2s0RTN6VTdrUmE2THJ6NkdjYVV1Q00yaVhlYXVWaG5CaktVX3lvQlE1WVFIZnhERjFncG90V3RxNmg4QkQ5LWJZbFkzX1JEZUo2YTRldkt6bk92MXNKNDZMaEVyYzhoXy0yVkJrMHNfSm9udHplSdIBxAFBVV95cUxNQktaWDFjOVd2em95QUpDdmJpeFRtUTlxc0k5TjFoM3F4cTRCS0lzVkVrbG1oZGJCN3ZuNFpncTNVdFlwMlhPd1huNHhZZHpIMUNFTDlnNzZiOUVNbUczTm1UUEtZNGo0MGN3TXFKOEQ4N1IzdGdlRnJIeHpoakp5ZS1jTEJWdk1aM194cGdSQmxsZWdNUFh0Y25XWlhCWG9qMW1ZWVZOeV96S2ZrN2EwdzZzY21Ja1FHWXpnOE1VWm5oZzNq?oc=5",
-        "sentiment": "neutral",
-        "relevance": "high",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "EIH Limited Reports Strong Q1 Performance Despite Geopolitical Challenges - scanx.trade",
-        "source": "scanx.trade",
-        "published": "Wed, 13 Aug 2025 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdWlDX0N2R05HZDZwNkNSbFpJY05MY0FPMlBTN0VqX2ZnVXE0azRtbHBwaDRVYmR0SUFOTFdPOVVHNlpxSkxkZ3FDenFIYnEzdkpfMlVJbzZiRml2QTNPeEdRSVVhbUo3dGV0Q3Y4RHNtNFduR2FXR0hYSnlXeVNITHRUTW91M2xjQ1c4WTdfSEVJNDVkdkRHNzMtaDJiLXczZ0tPLVZ3Vzl4d0poTzRsOUVoWlB5ZEJHdHdVZFRyNzNOVS1wOHd1VA?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -453,29 +336,47 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Stocks to Watch today, Dec 16: Biocon, EIH, Zee Media, HCLTech, MTNL, SBI - Business Standard",
-        "source": "Business Standard",
-        "published": "Tue, 16 Dec 2025 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPWHhhVUJDc1c1R0lVSnNxdVVrUmhPTEJTSDFhRnNvWDNETkRoTlk5eEFrVVJlQ0ZwMm0tZ0dGOHJKbzFtWWI2QVBhcms4Vm51cVFtY2tPcWRwaWhWbXZfRTBBaTZ4SThWY1VIWUFOaHN1RzhrdUdvZ0VWeGg2QWV6RWozdlR0Qkt1TzNEOWQxZDRTcVd5RGYzZzkyMDdJOW9SdmljMndYNkpZZEtyOXVzTktEbVpCRnJxUF9NQUJvQll2LUpRN3RucnBETzFZRy1vZFN0M3NhcTB0aGdZaERBVWRlSXdSekMwZUhPeWNlZlZrSTRoUXBCRXFudGJ6ZFlH0gGGAkFVX3lxTE05WGNvcnIzSUQxOTNJVjVPc1pPdFpuSThfYjROTmd5TVlwZ2o3RGZPcnFQb3FVS3JuTXdIcjhPbDlnVWlaSXlpRXh5UXNHRVpoNWZLSm1fMjlOdUpFbFIzNzNWQ21VcEV0b0RPYWRYRHY5MUdKQjFHazA5dEhMZkhEY3RwLVBOd25FQjhjOGhyUVVtQ0ZrQXhQVUNELTdPaFZHOTJHNUZiTnlEdVNVMEhaMk8yT2liWHpEY1UwNEFSR2NLNGVTLWVpc0NOY20xaHJWRzhLb1BpNk1zZjNKMG9YRzhuMDhDYmF2SGxiMmJrbVQ0Wk16UnVyWWRjSEJvQmFZcWVnSnc?oc=5",
+        "headline": "Declining Stock and Solid Fundamentals: Is The Market Wrong About EIH Limited (NSE:EIHOTEL)? - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Wed, 17 Dec 2025 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOS01IV3ozLWo4c2dIT1RDc3ZyVkN2Vjk5R3dfd2JiNFB0RFpGeUhoRW4xMS1yVmtPbTVYbVF2QmxSeFdaVUVfUmxpclpNYS1JeV85V0d1aGV2NERjZmVJd3l1emJRc0NTcEZaYUJJOEtLSkNRbTBwbDEwYnZaTl9MWGNZY2Y2M2VTbkxnUGpCTTlGM0h4ZzM0dHlIZi0xT05vTnd1ZmM3dkVDSmp3T0FhdkZwSGN6VFNBQVhXRzlMWmY2SnFJZGNNS0poN3JXczdHOEY5OV9WdkJZeGPSAeABQVVfeXFMTUJtNlpmeGI3enBnRmpKNHhMd1RmX2ZCdFdDcjUzMDJFSFlmN2pKcjRqTGVvdkRrRndhTkkyTXFJUDBQVjdLYVh5NnExUnhmSHVOaGJEREdJZTJmS1l3ZS01NWNOOEluM3pETTMwYlp6VWhQeFVMQTJndk1xdFJvVldsajNSTzBxZUcwYVU1LWFPMmNieE1Pcy1lRGhwbmZYTWtfSnhhaVVyNkxzTnh6MnFzQVhmUEtQckJpOUJlRkRzeW5vUU1TVU5SeDc1QUt4WEdvYTY4Tm1CYXJYN2RvdlA?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
       },
       {
-        "headline": "EIH Limited Unveils Four New Hotel Projects Amid Strong Q1 Performance - scanx.trade",
+        "headline": "EIH Limited announces FY26 dividend of \u20b91.50 per share - scanx.trade",
         "source": "scanx.trade",
-        "published": "Wed, 06 Aug 2025 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNeERzNzFwWXdWZmtUS2VIbXdVcExzRm9pWGZOTm5oSnI1LVpnQVlRMEhfY1p4QzFaUGF1MmZ1ZmpkbkRtU2NIbllyRlNGakRoTE5LWDdSU3p1TzN5Q3BuZENtaEpSOVNhMFRfbGdMU0tsVXF5MGZNcW9JSUpUdWNNcTdPZi1tY3JNZ3laUENUeE8xYXlnb2tvUlJXd1hBRXFmUkhsWE5Sc1EzTXEySEhob3hTRzRKcFZ3dTRsVlNqM0dFakhablNXYWtGa3FxaEFE?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
+        "published": "Tue, 19 May 2026 17:49:27 GMT",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVzFKbkwtRzk1QlN5TmNSNndNMDNsQ2pKU0RJdW51cmw4N3hsaExTM0lZdHNoU1dZLVJsWldlRjZlLVFqQ2dMM2xoX2laYV8yUzZQcENfeGEtdldqNWIzaUNvOGM1VkNPSHJaQlo1NFFkWXZNQ3JzS2ppczVHS3lRZE96NWFabXFJaTNxYnpxM0dHbkRnOVZkcm04LTNfUEZfWjBQLXlCUFJNc2ViM0E?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
         "verification_status": "unverified"
       },
       {
-        "headline": "EIH Posts Q1 Consolidated Net Profit of \u20b9117 Crore, Revenue Hits \u20b9657 Crore YoY - Sahi",
-        "source": "Sahi",
-        "published": "Thu, 06 Aug 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaGdzcHFYLXJLTnpQWGJYbE5wOGoxOFF1Yld4QVhWUzVrcGJ0emZJYzRFbWx2eHRqT3J4RGZDeV9hYXlIMVVVa2g1LWdQUXJmb1pvMXR3dDNEMEVpWFQ0dEg0c2ptX0k5aVlpTFB4NFIySTVOVVplRXdGVk92X1pWT2tmV3hLMURtNFVRbUZlWi12aWl1NjBLMEpCd0IyakhKR0tLaC1ZeHBpc1lYSURuNi1pb0Y5UQ?oc=5",
+        "headline": "EIH Limited Reports Strong Q1 Performance with 9% Revenue Growth and Ambitious Expansion Plans - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Thu, 07 Aug 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNUGJxN19rZ0dBdjBXd2hhWkgzTVcwZEtGcFVnY1JtVGRHdExVRnA4Njlja3NtZFB2OUJRVVlGSXQxcDhaM0pVQjUyVUx0dWVsQVhfYURMclpLbjlWaElmVk1ra3dBTHBPbFBlcTBhODR4S3lHcWk3WHdqVGNWZWZweml5MWVOdGJLb0FFYmJTcVI5am9KQTJKWDRsRXVKLWp3bzZFMng3ZXhIM1NpR0F5d1NmQ1VSb3hZYXl0eDd4NnFSdUE2Uk5yNGE0VHBPRlJWYXRwZFhCQWIxMWl6Sl83VHdXbw?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH Limited Reports Mixed Q2 FY26 Results Amid Challenging Conditions - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Thu, 13 Nov 2025 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOUpWZE5UU3hSR1lzUWVxNDZlUzZOQW1RUHBMczFSbGo2SkttSkdDVHBVcnprTmx0QUtBZHR6clp4aVJ3N2FLQUtlMWJfdUFQdFBPLTJRTHdTR05zNDBPb2llaEM3YW10SVFHUUNKZnlYTE5MLXRFMi15QmxJdDMyU0Jnd2gzY3JhN0hBeWlMT0x3UGJWM1ZfOGF3M1U2MFVIWXBkZmgtYWQ2YkNZcGxPQ25jNHpDNVcyRmNCaGxiUS0tWjQ?oc=5",
         "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH Limited Reports Rs 36.36 Crore Quarterly Profit Despite Rs 110.32 Crore Exceptional Loss - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Tue, 05 Aug 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUnAzUV9hYm5jLXJ0WVpmbWlKNDdYN0taeXBBNE9xLTJ6ZG5jRVRka1VIUEZNMFlQLWV1RXRQWmZYNnFFV18zWW9LcUsyQVJvcV9DUlpvT2xKbTVPdDJfM0tEN1pzbHhEZUl1TmEzZElYMGxYOXJEc0N1ZnBKdldHbVNSb3FjakdiX3ZZb3lJdTlrNlJWb2o0YlJ1ZGRIM0FEQ3dESTljTUQ5WHRFcVVWbFEzczdYYU9IOTZiRlB3U1FKMVdpOVZRcXducVNsT1hId2Iw?oc=5",
+        "sentiment": "negative",
         "relevance": "medium",
         "verification_status": "unverified"
       },
@@ -489,28 +390,10 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "ITC HOTELS LIMITED Share Price - Live NSE: ITCHOTELS Stock Price & Chart - Upstox",
-        "source": "Upstox",
-        "published": "Tue, 05 May 2026 11:35:56 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE54ekEtS1BNTlF3VnN1bUg0YVpoTUVxdXc2THdfb19HMkw1czNrRDFaVHZpU2NraGVpYXlMZGJGamhhcTJsTjNLazJHMzltX3lxdlRySWVJM29Ob0Z1cmJpNHRfcDFfTzJj?oc=5",
-        "sentiment": "neutral",
-        "relevance": "low",
-        "verification_status": "unverified"
-      },
-      {
         "headline": "EIH (NSEI:EIHOTEL) - Stock Analysis - Simply Wall St",
         "source": "Simply Wall St",
         "published": "Fri, 01 Dec 2017 06:57:35 GMT",
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAwZjhwd19nTHlWajBYd1A5R1hWMzVhcm1fTmFudnJmbXZSYkJGR3JDYmtQbWREX0poZ00wN1M2emRUTVhPb0YyekRTUWNoMG81SUpaS09sNkFUSmg1SDYwcFFoMHFTM0FzbndnQU5hTmIwbmNLc1IyeUp6eGc?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "EIH Ltd Share Price Today NSE/BSE Charts - Alice Blue",
-        "source": "Alice Blue",
-        "published": "Tue, 25 Aug 2026 21:36:24 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1NaDJjR0VNVFo4RjFLMjJzb1M5Y1RMdVBXNEVtN2RqaFBKWm5meW5uMGpXSmdiMXBRU1FFa3U4UGMwSWx1MHNuWm5kRjRobkozaXhkbFdjZ0N6Rk11NDZLRW9CYw?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -523,28 +406,10 @@
         "sentiment": "positive",
         "relevance": "high",
         "verification_status": "unverified"
-      },
-      {
-        "headline": "EIH shares in focus after ITC acquires 2.44% stake - The Economic Times",
-        "source": "The Economic Times",
-        "published": "Thu, 19 Dec 2024 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRXkybkNQU2xDT0J3SkMxOTgybU9EaW00aVppLUYwSk01MmNWQnNKbFlLYUR5VVM0LXNJWGdJLW9sY2JiV0U0bHN6dVc2S0hoR2ZOZkRYWm1sNFR1TF84bndyeVFONUc5aEVTWE1WZ1g0YkhjZUFxUmRaQjJKbnVXcjJZVVh1cC1JRWpHd1d1dXRSLTVJVGt2X3VKdkV1cU1HMDh4SFdJOUVCRlpHMjNTWnFqc1VzRFpqcW5XVGFpM03SAcYBQVVfeXFMT3NSaW9Ka005bHZYalhsNFJYem82TlpLZWVlYVRtSmFnVXF5Q2FaVFA3bXJDaUNtaU8tWWdLanJkRHowU0NaMTdaa0VOaWw4OTAwWkVVbHJmZEJ6Unpud0ljS0NJX2o5WkV1X01UOTlWbVhlRWV6bXc3WVhKQjBOVGRNU3FkVW85VE9fNW01Q1VVQ1RlWHdJdE5penZldEQtM2xfeUluNEs5ZWhNcEl5WC1yX2F3UVlMWDcwQ1JlMlJZLVpQdk9R?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "ITC acquires 2.44% stake in EIH and 0.53% in Leela Mumbai - The Economic Times",
-        "source": "The Economic Times",
-        "published": "Wed, 18 Dec 2024 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOekdsREsyVUJxV1VNejhOSmxHS1E0V1lXYTVxX21wcGYyWEprUkZMd2pqZ0dEXzFDM1RNMkhzTFVoYTlWblVUb2FncVlKamlYbHVGUFBRbjB0bC1nQld2a081aklOdUJzSFg0VE91T1dqNnpxZVZ0YVF2SDNMT1dBXzJhYWNIenRkc0trT25oM0FxT1VoUzMyR2dNeHhUTl84NTVselBQdUZpV0FDZkdITWY1SHNYN0JxbFd3b1BwVS01aXZVNUtPQ9IBzgFBVV95cUxNMWJMS1dVaGxuSVc4ZEQwaUxybkREZ2RSNzV1QVBHMXNUZEszRVhmNlRqX2ZqS0hPRGRyVUN6RUhCSGs4VDBUVlRnOHl0MG1uRDdtdjA0WTd3ZV9xUVRnSENzVEJSQllHVHg2ZFg3Q1hBOHZKOFo3LVRaSVh0Zjl5dnNCLXlsQlJiZU5kZWdUQVBmSktJZjd2SDd2anI1c3NkTEt0Qms4YWg1SGM1SV8zSXV4dU5lXzJMcC1ldlkwUlV4VjFYVFFrb0N6NGo3UQ?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
       }
     ],
-    "stored_new": 37,
-    "duplicates_skipped": 3,
+    "stored_new": 22,
+    "duplicates_skipped": 0,
     "note": "headlines are unverified signals, not confirmed financial evidence",
     "_run_id": 1084
   },
@@ -560,7 +425,7 @@
       "promoter selling (source unavailable)"
     ],
     "shares_outstanding_growth_yoy": 0.0,
-    "atr_pct_of_price": 0.03288925657020851,
+    "atr_pct_of_price": 0.03296539683893296,
     "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
     "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
     "_run_id": 1083
@@ -573,14 +438,14 @@
     "technical_view": {
       "timeframe": "daily",
       "trend": "sideways",
-      "rsi_14": 70.54179000780765,
-      "macd_histogram": 2.156008969358451,
+      "rsi_14": 69.77760593940513,
+      "macd_histogram": 2.6844671812882304,
       "breakout": false,
       "breakdown": false
     },
     "entry_zone": {
       "low": 281.2,
-      "high": 286.69,
+      "high": 286.7,
       "basis": "near identified support plus half ATR buffer"
     },
     "invalidation_level": 259.22
@@ -593,7 +458,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 316.82458467998634,
+      "ema_200_daily": 316.98951412492664,
       "price_vs_ema_200": "above"
     },
     "business_classification": "average"
@@ -640,7 +505,7 @@
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-24 06:05 IST",
+    "generated_at": "2026-11-25 04:29 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-21 02:25 IST"
   }

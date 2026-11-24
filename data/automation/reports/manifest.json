@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24 06:05 IST",
+  "generated_at": "2026-11-25 04:28 IST",
   "reports": [
     {
       "symbol": "SYNCOMF",
@@ -102,6 +102,26 @@
       }
     },
     {
+      "symbol": "TPLPLASTEH",
+      "exchange": "BSE",
+      "status": "success",
+      "agent_statuses": {
+        "fundamental": "success",
+        "technical": "success",
+        "business": "success",
+        "valuation": "success",
+        "risk": "success",
+        "news": "success",
+        "scoring": "success"
+      },
+      "file": "data/automation/reports/BSE_TPLPLASTEH.json",
+      "exports": {
+        "json": "data/automation/reports/BSE_TPLPLASTEH.json",
+        "html": "data/automation/reports/BSE_TPLPLASTEH.html",
+        "csv": "data/automation/reports/BSE_TPLPLASTEH.csv"
+      }
+    },
+    {
       "symbol": "KOVAI",
       "exchange": "BSE",
       "status": "success",
@@ -179,26 +199,6 @@
         "json": "data/automation/reports/NSE_CEMPRO.json",
         "html": "data/automation/reports/NSE_CEMPRO.html",
         "csv": "data/automation/reports/NSE_CEMPRO.csv"
-      }
-    },
-    {
-      "symbol": "GABRIEL",
-      "exchange": "NSE",
-      "status": "success",
-      "agent_statuses": {
-        "fundamental": "success",
-        "technical": "success",
-        "business": "success",
-        "valuation": "success",
-        "risk": "success",
-        "news": "success",
-        "scoring": "success"
-      },
-      "file": "data/automation/reports/NSE_GABRIEL.json",
-      "exports": {
-        "json": "data/automation/reports/NSE_GABRIEL.json",
-        "html": "data/automation/reports/NSE_GABRIEL.html",
-        "csv": "data/automation/reports/NSE_GABRIEL.csv"
       }
     }
   ]

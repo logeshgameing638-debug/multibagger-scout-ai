@@ -1,6 +1,86 @@
 {
-  "generated_at": "2026-11-24 06:05 IST",
+  "generated_at": "2026-11-25 04:28 IST",
   "alerts": [
+    {
+      "symbol": "AUROPHARMA",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "AUROPHARMA balanced score moved -26.5 pts (54.5 -> 28.0)",
+      "data_date": "2026-11-25 04:22 IST",
+      "detected_at": "2026-11-25 04:28 IST"
+    },
+    {
+      "symbol": "GANGAFORGE",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "GANGAFORGE RSI(14) 26 <= 30 (oversold zone)",
+      "data_date": "2026-11-25 04:21 IST",
+      "detected_at": "2026-11-25 04:28 IST"
+    },
+    {
+      "symbol": "GCSL",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "GCSL RSI(14) 88 >= 70 (overbought zone)",
+      "data_date": "2026-11-25 04:22 IST",
+      "detected_at": "2026-11-25 04:28 IST"
+    },
+    {
+      "symbol": "GENESYS",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "GENESYS RSI(14) 28 <= 30 (oversold zone)",
+      "data_date": "2026-11-25 04:22 IST",
+      "detected_at": "2026-11-25 04:28 IST"
+    },
+    {
+      "symbol": "GKSL",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "GKSL RSI(14) 28 <= 30 (oversold zone)",
+      "data_date": "2026-11-25 04:24 IST",
+      "detected_at": "2026-11-25 04:28 IST"
+    },
+    {
+      "symbol": "GOACARBON",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "GOACARBON balanced score moved -10.5 pts (33.0 -> 22.5)",
+      "data_date": "2026-11-25 04:27 IST",
+      "detected_at": "2026-11-25 04:28 IST"
+    },
+    {
+      "symbol": "GODREJIND",
+      "type": "risk_high",
+      "severity": "critical",
+      "message": "GODREJIND stored risk score 85 >= 70 (high stored risk)",
+      "data_date": "2026-11-25 04:28 IST",
+      "detected_at": "2026-11-25 04:28 IST"
+    },
+    {
+      "symbol": "SOTL",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "SOTL RSI(14) 27 <= 30 (oversold zone)",
+      "data_date": "2026-11-25 04:20 IST",
+      "detected_at": "2026-11-25 04:28 IST"
+    },
+    {
+      "symbol": "TFCILTD",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "TFCILTD RSI(14) 72 >= 70 (overbought zone)",
+      "data_date": "2026-11-25 04:25 IST",
+      "detected_at": "2026-11-25 04:28 IST"
+    },
+    {
+      "symbol": "URJA",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "URJA RSI(14) 26 <= 30 (oversold zone)",
+      "data_date": "2026-11-25 04:27 IST",
+      "detected_at": "2026-11-25 04:28 IST"
+    },
     {
       "symbol": "AAREYDRUGS",
       "type": "score_change",
@@ -843,8 +923,8 @@
     }
   ],
   "stats": {
-    "snapshots_scanned": 966,
-    "new_alerts": 18,
-    "active_alerts": 105
+    "snapshots_scanned": 1091,
+    "new_alerts": 10,
+    "active_alerts": 115
   }
 }

@@ -1,0 +1,319 @@
+{
+  "1_company_profile": {
+    "symbol": "TPLPLASTEH",
+    "exchange": "BSE",
+    "name": "TPL Plastech Limited",
+    "sector": "Consumer Cyclical",
+    "industry": "Packaging & Containers",
+    "market_cap": 5615435776,
+    "website": "https://www.tplplastech.in"
+  },
+  "2_source_and_timestamp": {
+    "generated_at": "2026-11-24 22:59:17.268272+00:00",
+    "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
+    "agent_statuses": {
+      "fundamental": "success",
+      "technical": "success",
+      "business": "success",
+      "valuation": "success",
+      "risk": "success",
+      "news": "success",
+      "scoring": "success"
+    }
+  },
+  "3_financial_analysis": {
+    "is_financial_sector": false,
+    "growth": {
+      "sales_growth_1y": 0.20959302400474503,
+      "sales_cagr_3y": 0.16045229694234187,
+      "sales_cagr_5y": null,
+      "profit_growth_1y": 0.23218002026033255,
+      "profit_cagr_3y": 0.219369032887625,
+      "profit_cagr_5y": null,
+      "eps_growth_1y": 0.23509933774834435
+    },
+    "profitability": {
+      "roe": 0.1721210822229906,
+      "roce": 0.22530007031801016,
+      "operating_margin": 0.10020795009765632,
+      "net_margin": 0.06879771143664007,
+      "gross_margin": 0.15707225573673192
+    },
+    "balance_sheet": {
+      "total_debt": 198173000.0,
+      "debt_to_equity": 0.11733378015450856,
+      "interest_coverage": 8.154136780330635,
+      "current_ratio": 2.076695035423398,
+      "working_capital": 812459000.0
+    },
+    "cash_flow": {
+      "operating_cash_flow": 458311000.0,
+      "free_cash_flow": 364316000.0,
+      "ocf_to_net_profit": 1.576539264620391,
+      "fcf_conversion": 0.7949100065239543
+    },
+    "ownership": {
+      "promoter_or_insider_holding_pct": 0.78360003,
+      "institutional_holding_pct": 0.0,
+      "promoter_pledge_pct": null
+    },
+    "red_flags": [],
+    "annual_periods": [
+      "2023-03-31",
+      "2024-03-31",
+      "2025-03-31",
+      "2026-03-31"
+    ],
+    "quarterly_periods": [
+      "2025-09-30",
+      "2025-12-31",
+      "2026-03-31",
+      "2026-06-30",
+      "2026-09-30"
+    ],
+    "_run_id": 1086
+  },
+  "4_technical_analysis": {
+    "assessment": "sideways",
+    "daily": {
+      "timeframe": "1d",
+      "last_close": 70.80000305175781,
+      "emas": {
+        "ema_20": 70.19723879389842,
+        "ema_50": 69.547172024198,
+        "ema_100": 70.07112920378475,
+        "ema_200": 70.5769258018022
+      },
+      "smas": {
+        "sma_20": 68.61299934387208,
+        "sma_50": 67.73239967346191,
+        "sma_100": 72.78379978179932,
+        "sma_200": 69.16944971084595
+      },
+      "rsi_14": 53.1972424630823,
+      "macd": {
+        "macd_line": 1.539700961623268,
+        "signal_line": 1.1604181701410616,
+        "histogram": 0.37928279148220634
+      },
+      "adx_14": 14.046448179784026,
+      "atr_14": 3.1896353224294223,
+      "bollinger": {
+        "middle": 68.61299934387208,
+        "upper": 77.93312726418827,
+        "lower": 59.29287142355588
+      },
+      "volume_sma_20": 7234.75,
+      "relative_volume": 1.9250146860637893,
+      "support": 57.189998626708984,
+      "resistance": 77.9000015258789,
+      "price_structure": {
+        "structure": "downtrend (lower highs, lower lows)",
+        "higher_highs": false,
+        "higher_lows": false,
+        "lower_highs": true,
+        "lower_lows": true
+      },
+      "trend": "sideways",
+      "trend_strength": "weak",
+      "breakout": false,
+      "breakdown": false,
+      "momentum_divergence": null,
+      "entry_zone": {
+        "low": 57.19,
+        "high": 58.78,
+        "basis": "near identified support plus half ATR buffer"
+      },
+      "invalidation_level": 50.81,
+      "atr_risk_distance": 3.1896353224294223,
+      "provisional_last_bar": false
+    },
+    "short_term_report": {
+      "timeframe": "daily",
+      "trend": "sideways",
+      "rsi_14": 53.1972424630823,
+      "macd_histogram": 0.37928279148220634,
+      "breakout": false,
+      "breakdown": false
+    },
+    "long_term_report": {
+      "timeframes": [
+        "weekly",
+        "monthly"
+      ],
+      "trend": "sideways",
+      "ema_200_daily": 70.5769258018022,
+      "price_vs_ema_200": "above"
+    }
+  },
+  "5_business_quality": {
+    "classification": "average",
+    "positive_evidence_count": 1,
+    "negative_evidence_count": 0,
+    "evidence": [
+      "ROE 17.2% (>15%): capital allocated effectively"
+    ],
+    "sector": "Consumer Cyclical",
+    "industry": "Packaging & Containers",
+    "market_cap": 5615435776,
+    "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
+    "unassessed_areas": [
+      "business model detail (needs annual report reading)",
+      "industry growth rate",
+      "market share and competitor comparison",
+      "customer concentration",
+      "supplier dependency",
+      "expansion projects / order book",
+      "management quality and corporate governance depth"
+    ],
+    "_run_id": 1088
+  },
+  "6_valuation": {
+    "multiples": {
+      "pe_trailing": 17.775307,
+      "pe_forward": 3.9360304,
+      "pb": 3.245863,
+      "ev_ebitda": 11.493,
+      "ev_sales": 1.171,
+      "peg": null,
+      "dividend_yield": 1.84,
+      "industry_pe": null
+    },
+    "valuation_view_vs_industry": null,
+    "dcf": {
+      "scenarios": {
+        "bear": 57.16707026115759,
+        "base": 75.70919060579187,
+        "bull": 87.24005816939247
+      },
+      "assumptions": {
+        "base_fcf": 364316000.0,
+        "growth_rates": {
+          "bear": 0.04,
+          "base": 0.08,
+          "bull": 0.1
+        },
+        "cost_of_equity": 0.13,
+        "terminal_growth": 0.05,
+        "projection_years": 10,
+        "shares_outstanding": 78003000
+      }
+    },
+    "dcf_not_calculated_reason": null,
+    "margin_of_safety_vs_base_case": 0.0648426897019092,
+    "current_price": 70.80000305175781,
+    "_run_id": 1089
+  },
+  "7_news_intelligence": {
+    "items": [],
+    "stored_new": 0,
+    "duplicates_skipped": 21,
+    "note": "headlines are unverified signals, not confirmed financial evidence",
+    "_run_id": 1091
+  },
+  "8_risk_analysis": {
+    "classification": "MODERATE",
+    "findings": [
+      {
+        "category": "high_volatility",
+        "severity": "moderate",
+        "evidence": "ATR 4.5% of price (>4%)",
+        "source": "computed",
+        "date": "2026-11-24",
+        "detected_at": "2026-11-24 22:59:17.256823+00:00"
+      }
+    ],
+    "unassessed_governance_items": [
+      "auditor resignation history",
+      "qualified audit opinions",
+      "related-party transactions",
+      "regulatory actions",
+      "promoter pledging (source unavailable)",
+      "promoter selling (source unavailable)"
+    ],
+    "shares_outstanding_growth_yoy": 0.0,
+    "atr_pct_of_price": 0.04505134442010777,
+    "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
+    "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
+    "_run_id": 1090
+  },
+  "9_fundamental_score": 69.0,
+  "10_technical_score": 57.0,
+  "11_data_confidence": 72.0,
+  "12_short_term_assessment": {
+    "score": 60.6,
+    "technical_view": {
+      "timeframe": "daily",
+      "trend": "sideways",
+      "rsi_14": 53.1972424630823,
+      "macd_histogram": 0.37928279148220634,
+      "breakout": false,
+      "breakdown": false
+    },
+    "entry_zone": {
+      "low": 57.19,
+      "high": 58.78,
+      "basis": "near identified support plus half ATR buffer"
+    },
+    "invalidation_level": 50.81
+  },
+  "13_long_term_assessment": {
+    "score": 65.4,
+    "trend": {
+      "timeframes": [
+        "weekly",
+        "monthly"
+      ],
+      "trend": "sideways",
+      "ema_200_daily": 70.5769258018022,
+      "price_vs_ema_200": "above"
+    },
+    "business_classification": "average"
+  },
+  "14_investment_thesis": "TPL Plastech Limited (TPLPLASTEH) is classified as a 'average' business with a sideways technical trend. Balanced research score 63.0/100 (fundamental 69.0, technical 57.0, data confidence 72.0, risk 10/100 higher=worse). Supporting evidence: ROE 17.2% (>15%): capital allocated effectively.",
+  "15_thesis_invalidation": [
+    "Daily close below invalidation level 50.81 (2x ATR under support)",
+    "Operating cash flow turning negative in the next annual report",
+    "New critical governance or regulatory finding (currently unassessed items must be checked manually)"
+  ],
+  "16_missing_evidence": {
+    "fundamental_gaps": [],
+    "unassessed_governance": [
+      "auditor resignation history",
+      "qualified audit opinions",
+      "related-party transactions",
+      "regulatory actions",
+      "promoter pledging (source unavailable)",
+      "promoter selling (source unavailable)"
+    ],
+    "valuation_gaps": null,
+    "business_unassessed": [
+      "business model detail (needs annual report reading)",
+      "industry growth rate",
+      "market share and competitor comparison",
+      "customer concentration",
+      "supplier dependency",
+      "expansion projects / order book",
+      "management quality and corporate governance depth"
+    ]
+  },
+  "17_sources": [
+    "yahoo_finance (prices, statements, profile)",
+    "rss_news (headlines, unverified)"
+  ],
+  "labels": [
+    "neutral"
+  ],
+  "combined_scores": {
+    "long_term": 65.4,
+    "short_term": 60.6,
+    "balanced": 63.0,
+    "risk_score_higher_is_worse": 10
+  },
+  "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
+  "automation": {
+    "generated_at": "2026-11-25 04:29 IST",
+    "source": "scheduled GitHub Actions run",
+    "rotation_data_date": "2026-11-25 04:24 IST"
+  }
+}

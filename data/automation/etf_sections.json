@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24 06:06 IST",
+ "generated_at": "2026-11-25 04:29 IST",
  "sources": {
   "nav": "AMFI NAVAll file, NAVs dated 23-Nov-2026 (https://portal.amfiindia.com/spages/NAVAll.txt)",
   "prices": "BSE official equity bhavcopy, session 2026-11-23"
@@ -125,7 +125,7 @@
    "category": "Debt",
    "tracks": "Nifty 1D Rate index (overnight money market)",
    "nav": 1000.0,
-   "nav_date": "23-Nov-2026",
+   "nav_date": "24-Nov-2026",
    "close": 1000.01,
    "close_session": "2026-11-23",
    "day_volume": 202825,
@@ -152,13 +152,13 @@
    "name": "Motilal Oswal Nasdaq 100 ETF",
    "category": "International equity",
    "tracks": "Nasdaq 100 index",
-   "nav": 226.6689,
-   "nav_date": "20-Nov-2026",
+   "nav": 242.8249,
+   "nav_date": "23-Nov-2026",
    "close": 296.21,
    "close_session": "2026-11-23",
    "day_volume": 121237,
    "day_traded_value": 35668162.0,
-   "close_vs_nav_pct": 30.68
+   "close_vs_nav_pct": 21.99
   },
   {
    "symbol": "MAFANG",
@@ -166,13 +166,13 @@
    "name": "Mirae Asset NYSE FANG+ ETF",
    "category": "International equity",
    "tracks": "NYSE FANG+ index",
-   "nav": 139.5558,
-   "nav_date": "20-Nov-2026",
+   "nav": 149.624,
+   "nav_date": "23-Nov-2026",
    "close": 211.83,
    "close_session": "2026-11-23",
    "day_volume": 125788,
    "day_traded_value": 26797465.0,
-   "close_vs_nav_pct": 51.79
+   "close_vs_nav_pct": 41.57
   },
   {
    "symbol": "MIDCAPETF",

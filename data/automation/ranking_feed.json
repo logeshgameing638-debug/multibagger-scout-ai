@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-24 06:05 IST",
-  "rotation_last_run_at": "2026-11-24 06:05 IST",
+  "generated_at": "2026-11-25 04:28 IST",
+  "rotation_last_run_at": "2026-11-25 04:28 IST",
   "cycle_started_at": "2026-11-19 09:36 IST",
   "universe_size": 4985,
-  "ranked_count": 966,
+  "ranked_count": 1091,
   "excluded_count": 0,
   "top": [
     {
@@ -87,6 +87,22 @@
       "rank": 5
     },
     {
+      "symbol": "TPLPLASTEH",
+      "exchange": "BSE",
+      "verdict": "neutral - balanced 63.0, stored risk 10.0",
+      "name": "TPL Plastech Limited",
+      "balanced": 63.0,
+      "long_term": 65.4,
+      "short_term": 60.6,
+      "risk": 10.0,
+      "data_confidence": 72.0,
+      "classification": "neutral",
+      "status": "complete",
+      "data_date": "2026-11-25 04:24 IST",
+      "missing_agents": [],
+      "rank": 6
+    },
+    {
       "symbol": "KOVAI",
       "exchange": "BSE",
       "verdict": "neutral - balanced 62.0, stored risk 0.0",
@@ -100,7 +116,7 @@
       "status": "complete",
       "data_date": "2026-11-24 05:59 IST",
       "missing_agents": [],
-      "rank": 6
+      "rank": 7
     },
     {
       "symbol": "JAMNAAUTO",
@@ -116,7 +132,7 @@
       "status": "complete",
       "data_date": "2026-11-21 02:22 IST",
       "missing_agents": [],
-      "rank": 7
+      "rank": 8
     },
     {
       "symbol": "BANCOINDIA",
@@ -132,7 +148,7 @@
       "status": "complete",
       "data_date": "2026-11-19 14:11 IST",
       "missing_agents": [],
-      "rank": 8
+      "rank": 9
     },
     {
       "symbol": "CEMPRO",
@@ -148,7 +164,7 @@
       "status": "complete",
       "data_date": "2026-11-19 20:44 IST",
       "missing_agents": [],
-      "rank": 9
+      "rank": 10
     },
     {
       "symbol": "GABRIEL",
@@ -164,7 +180,23 @@
       "status": "complete",
       "data_date": "2026-11-24 06:05 IST",
       "missing_agents": [],
-      "rank": 10
+      "rank": 11
+    },
+    {
+      "symbol": "TITANBIO",
+      "exchange": "BSE",
+      "verdict": "strong_technical_trend - balanced 61.2, stored risk 10.0",
+      "name": "Titan Biotech Limited",
+      "balanced": 61.2,
+      "long_term": 59.8,
+      "short_term": 62.8,
+      "risk": 10.0,
+      "data_confidence": 72.0,
+      "classification": "strong_technical_trend",
+      "status": "complete",
+      "data_date": "2026-11-25 04:21 IST",
+      "missing_agents": [],
+      "rank": 12
     },
     {
       "symbol": "AJAXENGG",
@@ -180,7 +212,7 @@
       "status": "complete",
       "data_date": "2026-11-19 09:57 IST",
       "missing_agents": [],
-      "rank": 11
+      "rank": 13
     },
     {
       "symbol": "ALLDIGI",
@@ -196,7 +228,7 @@
       "status": "complete",
       "data_date": "2026-11-19 09:58 IST",
       "missing_agents": [],
-      "rank": 12
+      "rank": 14
     },
     {
       "symbol": "CUPID",
@@ -212,7 +244,7 @@
       "status": "complete",
       "data_date": "2026-11-20 03:54 IST",
       "missing_agents": [],
-      "rank": 13
+      "rank": 15
     },
     {
       "symbol": "ENDURANCE",
@@ -228,7 +260,7 @@
       "status": "complete",
       "data_date": "2026-11-21 02:28 IST",
       "missing_agents": [],
-      "rank": 14
+      "rank": 16
     },
     {
       "symbol": "BBOX",
@@ -244,7 +276,7 @@
       "status": "complete",
       "data_date": "2026-11-19 14:11 IST",
       "missing_agents": [],
-      "rank": 15
+      "rank": 17
     },
     {
       "symbol": "BROOKS",
@@ -260,7 +292,7 @@
       "status": "complete",
       "data_date": "2026-11-19 20:39 IST",
       "missing_agents": [],
-      "rank": 16
+      "rank": 18
     },
     {
       "symbol": "DIVISLAB",
@@ -276,7 +308,7 @@
       "status": "complete",
       "data_date": "2026-11-20 04:03 IST",
       "missing_agents": [],
-      "rank": 17
+      "rank": 19
     },
     {
       "symbol": "ECOSMOBLTY",
@@ -292,7 +324,7 @@
       "status": "complete",
       "data_date": "2026-11-21 02:24 IST",
       "missing_agents": [],
-      "rank": 18
+      "rank": 20
     },
     {
       "symbol": "SAFARI",
@@ -308,7 +340,7 @@
       "status": "complete",
       "data_date": "2026-11-24 05:58 IST",
       "missing_agents": [],
-      "rank": 19
+      "rank": 21
     },
     {
       "symbol": "ANTHEM",
@@ -324,7 +356,7 @@
       "status": "complete",
       "data_date": "2026-11-19 10:00 IST",
       "missing_agents": [],
-      "rank": 20
+      "rank": 22
     },
     {
       "symbol": "EMAMILTD",
@@ -340,7 +372,7 @@
       "status": "complete",
       "data_date": "2026-11-21 02:26 IST",
       "missing_agents": [],
-      "rank": 21
+      "rank": 23
     },
     {
       "symbol": "ACE",
@@ -356,7 +388,7 @@
       "status": "complete",
       "data_date": "2026-11-19 09:38 IST",
       "missing_agents": [],
-      "rank": 22
+      "rank": 24
     },
     {
       "symbol": "BBTC",
@@ -372,42 +404,6 @@
       "status": "complete",
       "data_date": "2026-11-19 14:11 IST",
       "missing_agents": [],
-      "rank": 23
-    },
-    {
-      "symbol": "MASTERTR",
-      "exchange": "BSE",
-      "verdict": "neutral - balanced 58.0, stored risk 0.0, partial data",
-      "name": "Master Trust Limited",
-      "balanced": 58.0,
-      "long_term": 57.2,
-      "short_term": 58.8,
-      "risk": 0.0,
-      "data_confidence": 70.0,
-      "classification": "neutral",
-      "status": "partial",
-      "data_date": "2026-11-20 02:43 IST",
-      "missing_agents": [
-        "news"
-      ],
-      "rank": 24
-    },
-    {
-      "symbol": "MODINATUR",
-      "exchange": "BSE",
-      "verdict": "neutral - balanced 58.0, stored risk 10.0, partial data",
-      "name": "Modi Naturals Limited",
-      "balanced": 58.0,
-      "long_term": 60.0,
-      "short_term": 56.0,
-      "risk": 10.0,
-      "data_confidence": 72.0,
-      "classification": "neutral",
-      "status": "partial",
-      "data_date": "2026-11-20 04:02 IST",
-      "missing_agents": [
-        "valuation"
-      ],
       "rank": 25
     }
   ]

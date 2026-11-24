@@ -9,7 +9,7 @@
     "website": "https://www.syncomformulations.com"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-24 00:35:46.256551+00:00",
+    "generated_at": "2026-11-24 22:59:02.695018+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -79,34 +79,34 @@
     "assessment": "bullish",
     "daily": {
       "timeframe": "1d",
-      "last_close": 21.959999084472656,
+      "last_close": 22.920000076293945,
       "emas": {
-        "ema_20": 21.02094676144611,
-        "ema_50": 20.44963386647361,
-        "ema_100": 18.943456111792255,
-        "ema_200": 17.395856793190323
+        "ema_20": 21.201808981907806,
+        "ema_50": 20.54651097274108,
+        "ema_100": 19.022199556633872,
+        "ema_200": 17.4508233930222
       },
       "smas": {
-        "sma_20": 20.545999908447264,
-        "sma_50": 21.19279998779297,
-        "sma_100": 18.18099991798401,
-        "sma_200": 15.81419994354248
+        "sma_20": 20.63149995803833,
+        "sma_50": 21.23159999847412,
+        "sma_100": 18.26769991874695,
+        "sma_200": 15.865849943161011
       },
-      "rsi_14": 57.7572708124214,
+      "rsi_14": 63.28007173942251,
       "macd": {
-        "macd_line": 0.14905004297779456,
-        "signal_line": -0.07947837652454492,
-        "histogram": 0.22852841950233949
+        "macd_line": 0.28089446364815274,
+        "signal_line": -0.007403808490005388,
+        "histogram": 0.2882982721381581
       },
-      "adx_14": 19.86905716591893,
-      "atr_14": 1.2400856064785262,
+      "adx_14": 21.791665504804445,
+      "atr_14": 1.3036508603562458,
       "bollinger": {
-        "middle": 20.545999908447264,
-        "upper": 22.266077977345997,
-        "lower": 18.82592183954853
+        "middle": 20.63149995803833,
+        "upper": 22.63688493991653,
+        "lower": 18.626114976160128
       },
-      "volume_sma_20": 856575.75,
-      "relative_volume": 1.3661745619111911,
+      "volume_sma_20": 905290.15,
+      "relative_volume": 2.309968798401264,
       "support": 18.90999984741211,
       "resistance": 27.530000686645508,
       "price_structure": {
@@ -123,18 +123,18 @@
       "momentum_divergence": null,
       "entry_zone": {
         "low": 18.91,
-        "high": 19.53,
+        "high": 19.56,
         "basis": "near identified support plus half ATR buffer"
       },
-      "invalidation_level": 16.43,
-      "atr_risk_distance": 1.2400856064785262,
+      "invalidation_level": 16.3,
+      "atr_risk_distance": 1.3036508603562458,
       "provisional_last_bar": false
     },
     "short_term_report": {
       "timeframe": "daily",
       "trend": "bullish",
-      "rsi_14": 57.7572708124214,
-      "macd_histogram": 0.22852841950233949,
+      "rsi_14": 63.28007173942251,
+      "macd_histogram": 0.2882982721381581,
       "breakout": false,
       "breakdown": false
     },
@@ -144,7 +144,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 17.395856793190323,
+      "ema_200_daily": 17.4508233930222,
       "price_vs_ema_200": "above"
     }
   },
@@ -173,13 +173,13 @@
   },
   "6_valuation": {
     "multiples": {
-      "pe_trailing": 24.382978,
+      "pe_trailing": 21.828573,
       "pe_forward": null,
       "pb": 4.643436,
       "ev_ebitda": 20.378,
       "ev_sales": 3.909,
       "peg": null,
-      "dividend_yield": 0.46,
+      "dividend_yield": 0.44,
       "industry_pe": null
     },
     "valuation_view_vs_industry": null,
@@ -203,14 +203,186 @@
       }
     },
     "dcf_not_calculated_reason": null,
-    "margin_of_safety_vs_base_case": -1.7439270009749592,
-    "current_price": 21.959999084472656,
+    "margin_of_safety_vs_base_case": -1.863880222843886,
+    "current_price": 22.920000076293945,
     "_run_id": 1054
   },
   "7_news_intelligence": {
-    "items": [],
-    "stored_new": 0,
-    "duplicates_skipped": 20,
+    "items": [
+      {
+        "headline": "Syncom Formulations (India)'s (NSE:SYNCOMF) Solid Profits Have Weak Fundamentals - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Sat, 21 Nov 2026 02:12:09 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNVDdtS1I1cktoVEtxSGY3d25sdHdtMTliSkpNSG9GUnZWWlFLbThBZ2ZNRWZRQUN0V0hmOTd3dmgzWUM0RHN2bkZLNmJRRGhXMnAxUERBZ1ZFdUxHLTJweE1IajJiQTdHLUo4dDZQN1MyVGs2VDZURkt5bmxyak16c2UwYnVOREdDMnlMTDJRNnl3RVBHZXlWRy00U0ZhRDVTaVNaSkhxVWtmLV91enZhdnB6eDI2UmNtRTNwUUdxUExLQUdKaGJoSzVHelBSZDNwWFdZOUZsV1hlbHh0SlZ6SmdQSF9GX2VOQklYa202ZjFScFpyQW1MMTNn0gH_AUFVX3lxTFBXd21xOWE4V2dWclhER1d1WWVXWEtqR3VWOXRwYk1pdEQ2MHIwRW0tTVZiMmNfdkdLVlppeVdyXzk4bm4xVXlqMWtMTWtXckxUQXdfX0t5dGFKLVZBbGFsekpGQlBmT1E2dDNSWV92LVROSXVDREtiSGZFN3VpbmkybVE3OEtaWGxDNWp5UVZfRDJqNWY3dmVlNHpBaEozNGxfNVlmVzhtdGpaX1hIai1hb0VfeVUzcVN2anZSeTd0SmNuNmg0a0NOR2FmYzN5YXNpd0lZblhsT0JRLWZqOWZzclNIN2JJQV9GZjhVV0ZlNXhoSHd3LVFKVUk5eGgxWQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Syncom Formulations (India) Share Price Today Live NSE/BSE Graph & Chart - Kotak Neo",
+        "source": "Kotak Neo",
+        "published": "Sun, 18 Jan 2026 06:41:35 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9qeGNXekhYby1IQXdILWZOck1uQVd6SFp4cUc1eFlzWllSdDF2WE9TcHlCYlNPREpadml4dTJuNUQxTzBuU0szY2szb25iRDdBNW1OSjE3WHNlYl84UkZqYzl4amQ1MnFoRVlxSnZ0b0poVmUtdDU4LTZ3?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Syncom Formulations net profit rises 57.7% in Q1FY27 on margin expansion - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Tue, 11 Aug 2026 17:22:47 GMT",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcmZTWGdMUnpOWmpfbGw5aWx0dFdNQ3JjTzQ5TnpqVGYtX0FkMVRxSG1CMzAyZzZOa0t5Nmxpb0hsLXBYVFE2T1k0R3dKa2Z1UWZZOWxaLXo5MHduZVRacDB6VU5oRC1weDh2RFktZDFUMUtJdmtGM1FtclBKU0h0SUlkZHMtODRIbmI0S19UTzBUeGppY29uczU4NmhtcTVjNkpuVGdYQlZ4ZkxSNTc4MUM3Y2dvZzRxYkg4U1YzWTRNOS1U?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Syncom Formulations (India) Ltd Share Price Today NSE/BSE Charts - Alice Blue",
+        "source": "Alice Blue",
+        "published": "Fri, 28 Aug 2026 04:48:32 GMT",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeGZyTkdvVDVUV25wdkwzZk1LbnprV0tpTG1IQ3hOd1JKVWxKT3JxRVE3OW4yMXphUGhYRTZqZjNZbGlrcGNjaWUtdUZFVzdKc2J3VXMtdkNBVWdxUzV1eDJhNDQ1OUR1ajRQTUQ4dmxkVEs2ZTdZWC1JR3BqaWJhTQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Syncom Formulations (India) Limited Acquires Commercial Property from HDFC Bank Ltd for \u20b957,26,00,000 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Mon, 04 May 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQbi1RaFh4ZVUzeW83b0E1dTlhTVZNbndfelZuWGFhdEg3LVUwT3A1Ymt6OGtfUk5nLTNpR2FNOFhpMWpJZThhZWRZaUhNSi1nbjVsVzhMNnlvSTdqejQ0ZVhJbHhhQ3B3OElZWi05T2xoQmtGR3c1QlFkNFlvbEJBZllnNW9wRGlwbEZPU3NZTGFHQVkxdEN2NVVYOU1zUWNpVUxocG4teERSQWJWTjEzR1RaVnR0S1BfdURmVTdoem9BWThQRXNaUnRiTVpibC1ybTZVeEV1SHBPM05iVnlyVDhmRFpBVW5oZzYw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Syncom Formulations (India) Limited (SYNCOMF.NS) stock price, news, quote and history - Yahoo Finance UK",
+        "source": "Yahoo Finance UK",
+        "published": "Fri, 23 Aug 2024 08:28:41 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE02MG1fTjNTOUpBVjdOTHVQcTk3WTVpU0FFNi1OdUtYc2dpYWJuSmk3S2VkRV9CQ1JVUUxYXzVTcFVkWnZqLWtTSWdGZ0VNaEQtejJSTnZ4N3o1dw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Syncom FY26 Net Profit Rises 55.5% to \u20b9764.38 Crore - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Fri, 22 May 2026 16:36:04 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSHVFRElxMXRfckRWRkM5bk9FR0xsT2FoZXItb2ljQVlHdk9vdHE1bDh5czVIekkzcHZYSGRMdV9wdzc4UzRQVURXdC1rSjlIMXBZOGxuTUlFQW82cXA3V3dFdUJNcWEwN3pDdTRISFpzSEFfOE9mMzJtOHJqWU5UNmVxSVpwbHRvaUdUdkczTE1Dd01aYVczZk1TOWpjU3AzOWpUOTVWMjFlZw?oc=5",
+        "sentiment": "positive",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Syncom Formulations Share Price - Upstox",
+        "source": "Upstox",
+        "published": "Wed, 20 Mar 2024 22:28:22 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5LZk16dEhEdm5vemdOUTdvQlhoNzBTOXdEOVFldXAtaTg1Nm5wOWJQOEhpd2R4N1VtSkF5aFU5UjlwSVBwUEZ2UnBPYTgtM3pLN2k0bmEzSHRpcnU2N24zOUIyZklTV1Fr?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Syncom Formulations (India) Limited (SYNCOMF.NS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "source": "Yahoo! Finance Canada",
+        "published": "Sun, 25 Dec 2022 07:05:59 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0zZGhwVFVIcXc0cW5TMEhwRnRGNk02dWdhOEcwVXJLQnQ3YmpxOGMweUxLelVHWmdkUEZXcU9ZbF9HUlZrNWZnYzZ5YlFEbGhLY3I4Z0JyMmRkQQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Syncom Formulations Submits Q4FY26 Compliance Certificate Under SEBI Depositories Regulation - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Tue, 07 Apr 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNVFo5Ml82TlRMcEo0dl93STZBOXVyVm5uMEdka3lhd2Q0SkdKV09USEhqTnl1SDdESlFqTDlYM3gxLUo2Y285R3NLX3QwY29rZm5DbTlHd1NVbEt4OTZ0NDhOUVl3bzh5TjE3aGtPdE9xMWVlSi1kbXVlOG9GMEVyRFNTTVlDblBtM0FDTWNwOHZYY3l1MWw1dkxHTGI3Zzg1eWl4SlJGeHpUNUdKTHI0dndRSExtN0xpYVJ3Wi11RWpremVEVC03bXRnUTJqcnJ6NDFyVS1XMzdOalhPUjh2UU1YVQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Syncom Formulations promoters waive \u20b94.75 crore dividend for FY26 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Sat, 26 Sep 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdlU3bmlLR1RkY1BuVFQ0MTVsYVdwem9KeW5DQ2RoWkhNa1E4M3NRZlVtLWwxMlo4ZlZvdF85Zzg4OUFpbzRfdlpMTUNTM3B4b3VydzBhdDYtcTJfc0h3dTdjYk41YjY3MDJzLWkxYlJNNTYxVnFDWjM0S0FBSkpnLWJlMjliVXg3WmdaeXJXd3JUUUI4RzBTU2s4WXdxaEU0MDRkWEc1SDB4ZXRFYVFCT2RMc2NHV2dw?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Syncom Formulations (India) (NSEI:SYNCOMF) - Stock Analysis - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Mon, 21 Nov 2022 16:01:24 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTS1QOENpdlhzb2lXbmxKZ1VVd1h2Q1k0S0xrajJ1dm1BOFJGbkRjOGt0UjVySnFxY2Zja25ZaURKdWRSdmZKNzJaNkdqOUJKay0wbGJ1bldNaUVRcms0WDdVWDlZa3hNMDRubW1ZODU1NHVSM0VKNFNZZ0V1YWxybFo3SlNfSGdObURaRFZhVVNFekVpQS1KeVlDTE1ock1HRVE?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Syncom Formulations (India) Limited (SYNCOMF.BO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "source": "Yahoo! Finance Canada",
+        "published": "Wed, 24 May 2017 23:20:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5XSzNNZmFZZ0lrVlFIemhPYk9HVWZ4MW5OMXo2b1hfVGVzRlhZMjFDeGlpVkVzMWF4R2ZqLVdyeVpQTEJXMTdoU1hZdWJxLXFNUFpRTnA2QkJYQQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Syncom Formulations (India) (NSEI:SYNCOMF) - Earnings & Revenue Performance - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Mon, 21 Nov 2022 16:11:57 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZGxTZ0R5bGU0N1VsQXpRZGJQV1o5WjdLOHBQQ2hkY2VPR1E3bXZDT2xGREUxd0Zha05FTTN0MEF3SEF2WnJ5VllDelJlbEJNTG9WV3BIREIzRGlSOVA0MFNWZ1Nhc1luYmx4T2tpN0VRU3ZVQmRDeDd4em9mVmFXXzczX3ZYYURTVTFqZWRkMlNJR2FRZDE4ZTJlT2U2YUpWWW0zZUlSTmw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Syncom Formulations CFO Rahul Vijay Bankda resigns for new role - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Sat, 08 Aug 2026 08:06:11 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSjEwMUFuaEVhMGFwRGlTdm05NC1DRHpfN3U0V0FQd1RKeWRSOHRkMWVGcDJEYklnbGRTS0lKSjBoWGZWMGNhZzNzSFU1eFlLVGJWVWRuOXlyaW04RHNZbkVTbXl3Z1drUklwbFcyZUhCWWFTV1FZT1Y0LUUtLXNaTTBCZnd5cjVhd2wwaGdoMGpCcncxQTNfTkRYSGRuSjlvdW9hS1REWk1SRzYxQzVhYmE0RkMtdlZMbnRudA?oc=5",
+        "sentiment": "negative",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Syncom Formulations (India) Limited (SYNCOMF) Company Information - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Mon, 21 Nov 2022 16:01:23 GMT",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdVAwaGZHTDhzckczdU84R0RPd1ZCS0NseUhtWThZdmxnbkZVdlNaYnFzWVN1ZGZhWlZIckNBRWFrXzZycEdnZHJCYlNVYTRNSHhOMWw0UzRIVkdkTU1nZ2VlV2NBMUhfc1B5UHQxT3BqQlNHTUZqcWJtRElteEkwM2JSQ251UlNzQ3hnamdjN1U3NXVIbkh6T1JYYURxZE00TmJ3dUpEb2tHYllBTjVoeENn?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Syncom Formulations MD Vijay Shankarlal Bankda resigns on Aug 11 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Sat, 08 Aug 2026 09:53:04 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdFB6ekpWMHBTTTJHWExMbzBhNTZqQWVQX3RyUjc5WFRDa0RlS0hNc2hYenpJaEYyWlIwMnVCRF9QZDlTNmxtZDlrYUpUbVVYYnRJem9BSDlVV2VwRmJFbHZzVXh6SlFNR2FPYnd0MTNXMG1JM3dxZm1xSjhlQjFKY2JCd2tRUmd2aWR1X0M3eTFaY3MydzhISVNqa3ltU3d5ZnRhakhLUzdOOTBrcjk5WkVvRVVDWEFsU19sdm9n?oc=5",
+        "sentiment": "negative",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Syncom Formulations (India) (BSE:524470) Stock Forecast & Analyst Predictions - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Mon, 08 Aug 2022 07:37:08 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQVMtZml5ejNLMlg1SHkzd1M5azVXRHN2eTBla2FUUUdlcmd6ZG1PRWtXOUFFRUNzS29sVmZnOFRFSTV4VmtkQVlSQVRYWjJnTWxBSGt6VlpXLTBaalZ3R3JRQUZkU3ZnSE5ZVlJNOVNGbG5ldUdsR05uYnNseTNvaHFCUmtjVUdJR2cyUXlLMWdpNGtSN2RzVV9yakdrYVB5MDU2Y2Q5dDZJUQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "8 Debt-Free Stocks Where FIIs Increased Stakes in Q3 FY26; Are They in Your Portfolio? - Trade Brains",
+        "source": "Trade Brains",
+        "published": "Sun, 15 Mar 2026 07:35:54 GMT",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMFI3MWVqLWs5QXd1bGx4R3ZSZ3BnVkRaeVFNYWVkbTZVR0pxQ1h0ZUtpZHVBNjNFYkdEenpMRDNKM3F1Y1gzN3g5dmM4VE9LY0cxcjNfeW9uTmUyb2NoRndOekQ2UlI2RWhWV2RLckdJU3JScDkzNWZMM1Njc1hfZl9TWEhjVXRGNGFNd0tWNndJeHMzd3Mzdy1TcFJnSnl3dG11dXc2NzJhV2N5?oc=5",
+        "sentiment": "neutral",
+        "relevance": "low",
+        "verification_status": "unverified"
+      }
+    ],
+    "stored_new": 19,
+    "duplicates_skipped": 0,
     "note": "headlines are unverified signals, not confirmed financial evidence",
     "_run_id": 1056
   },
@@ -220,10 +392,10 @@
       {
         "category": "high_volatility",
         "severity": "moderate",
-        "evidence": "ATR 5.6% of price (>4%)",
+        "evidence": "ATR 5.7% of price (>4%)",
         "source": "computed",
         "date": "2026-11-24",
-        "detected_at": "2026-11-24 00:35:46.243065+00:00"
+        "detected_at": "2026-11-24 22:59:02.386360+00:00"
       }
     ],
     "unassessed_governance_items": [
@@ -235,47 +407,47 @@
       "promoter selling (source unavailable)"
     ],
     "shares_outstanding_growth_yoy": 0.0,
-    "atr_pct_of_price": 0.05647020301359477,
+    "atr_pct_of_price": 0.056878309599335736,
     "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
     "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
     "_run_id": 1055
   },
   "9_fundamental_score": 67.0,
-  "10_technical_score": 65.0,
+  "10_technical_score": 70.0,
   "11_data_confidence": 72.0,
   "12_short_term_assessment": {
-    "score": 65.6,
+    "score": 69.1,
     "technical_view": {
       "timeframe": "daily",
       "trend": "bullish",
-      "rsi_14": 57.7572708124214,
-      "macd_histogram": 0.22852841950233949,
+      "rsi_14": 63.28007173942251,
+      "macd_histogram": 0.2882982721381581,
       "breakout": false,
       "breakdown": false
     },
     "entry_zone": {
       "low": 18.91,
-      "high": 19.53,
+      "high": 19.56,
       "basis": "near identified support plus half ATR buffer"
     },
-    "invalidation_level": 16.43
+    "invalidation_level": 16.3
   },
   "13_long_term_assessment": {
-    "score": 66.4,
+    "score": 67.9,
     "trend": {
       "timeframes": [
         "weekly",
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 17.395856793190323,
+      "ema_200_daily": 17.4508233930222,
       "price_vs_ema_200": "above"
     },
     "business_classification": "average"
   },
-  "14_investment_thesis": "Syncom Formulations (India) Limited (SYNCOMF) is classified as a 'average' business with a bullish technical trend. Balanced research score 66.0/100 (fundamental 67.0, technical 65.0, data confidence 72.0, risk 10/100 higher=worse). Supporting evidence: ROE 18.4% (>15%): capital allocated effectively; operating margin 16.1%: pricing power evidence.",
+  "14_investment_thesis": "Syncom Formulations (India) Limited (SYNCOMF) is classified as a 'average' business with a bullish technical trend. Balanced research score 68.5/100 (fundamental 67.0, technical 70.0, data confidence 72.0, risk 10/100 higher=worse). Supporting evidence: ROE 18.4% (>15%): capital allocated effectively; operating margin 16.1%: pricing power evidence.",
   "15_thesis_invalidation": [
-    "Daily close below invalidation level 16.43 (2x ATR under support)",
+    "Daily close below invalidation level 16.3 (2x ATR under support)",
     "Operating cash flow turning negative in the next annual report",
     "New critical governance or regulatory finding (currently unassessed items must be checked manually)"
   ],
@@ -308,14 +480,14 @@
     "strong_technical_trend"
   ],
   "combined_scores": {
-    "long_term": 66.4,
-    "short_term": 65.6,
-    "balanced": 66.0,
+    "long_term": 67.9,
+    "short_term": 69.1,
+    "balanced": 68.5,
     "risk_score_higher_is_worse": 10
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-24 06:05 IST",
+    "generated_at": "2026-11-25 04:29 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-24 06:05 IST"
   }
