@@ -1,7 +1,7 @@
 {
   "symbol": "ESTER",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:34 IST",
+  "updated_at": "2026-11-24 06:00 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Ester Industries Limited",
   "scores": {
     "fundamental": 26.5,
-    "technical": 44.0,
+    "technical": 30.0,
     "data_confidence": 72.0,
     "risk": 20.0,
-    "long_term": 31.7,
-    "short_term": 38.8,
-    "balanced": 35.2
+    "long_term": 27.5,
+    "short_term": 28.9,
+    "balanced": 28.2
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 0.0,
         "max": 10,
         "detail": [
-          "P/E 41.8 (no industry benchmark): value 41.8 below all bands"
+          "P/E 40.5 (no industry benchmark): value 40.5 below all bands"
         ]
       },
       "industry_growth": {
@@ -100,18 +100,18 @@
         ]
       },
       "momentum": {
-        "points": 4.0,
+        "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 46: 4/7 (value 46.5 vs threshold 45)",
+          "RSI 43: 0.0/7 (value 43.4 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
       "volume": {
-        "points": 15,
+        "points": 5,
         "max": 15,
         "detail": [
-          "relative volume: value 6.11 vs threshold 1.5"
+          "relative volume: value 0.762 vs threshold 0.7"
         ]
       },
       "price_structure": {
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (42% of range)"
+          "price mid-range between S/R (31% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -205,11 +205,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 46.47113601441849,
+    "rsi_14": 43.427624940441994,
     "breakout": false,
     "breakdown": false,
     "support": 83.0,
-    "resistance": 95.3499984741211,
+    "resistance": 95.0,
     "trend": "bearish"
   }
 }

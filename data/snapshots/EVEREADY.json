@@ -1,7 +1,7 @@
 {
   "symbol": "EVEREADY",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:35 IST",
+  "updated_at": "2026-11-24 06:00 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Eveready Industries India Limited",
   "scores": {
     "fundamental": 57.5,
-    "technical": 60.0,
+    "technical": 47.0,
     "data_confidence": 72.0,
     "risk": 10.0,
-    "long_term": 58.2,
-    "short_term": 59.2,
-    "balanced": 58.8
+    "long_term": 54.4,
+    "short_term": 50.1,
+    "balanced": 52.2
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 10.9 (no industry benchmark): value 10.9 vs threshold 15"
+          "P/E 10.5 (no industry benchmark): value 10.5 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -100,18 +100,18 @@
         ]
       },
       "momentum": {
-        "points": 15.0,
+        "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 59: 7/7 (value 58.7 vs threshold 55)",
+          "RSI 55: 4/7 (value 54.8 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 15,
+        "points": 5,
         "max": 15,
         "detail": [
-          "relative volume: value 2.12 vs threshold 1.5"
+          "relative volume: value 0.902 vs threshold 0.7"
         ]
       },
       "price_structure": {
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (43% of range)"
+          "price mid-range between S/R (41% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -204,11 +204,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 58.73010049003464,
+    "rsi_14": 54.818619703084636,
     "breakout": false,
     "breakdown": false,
     "support": 295.1000061035156,
-    "resistance": 369.3999938964844,
+    "resistance": 362.95001220703125,
     "trend": "sideways"
   }
 }

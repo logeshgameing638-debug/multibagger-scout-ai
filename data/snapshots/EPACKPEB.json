@@ -1,7 +1,7 @@
 {
   "symbol": "EPACKPEB",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:33 IST",
+  "updated_at": "2026-11-24 05:58 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "EPack Prefab Technologies Limited",
   "scores": {
     "fundamental": 58.0,
-    "technical": 27.0,
+    "technical": 40.0,
     "data_confidence": 72.0,
     "risk": 10.0,
-    "long_term": 48.7,
-    "short_term": 36.3,
-    "balanced": 42.5
+    "long_term": 52.6,
+    "short_term": 45.4,
+    "balanced": 49.0
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 6,
         "max": 10,
         "detail": [
-          "P/E 20.5 (no industry benchmark): value 20.5 vs threshold 25"
+          "P/E 20.3 (no industry benchmark): value 20.3 vs threshold 25"
         ]
       },
       "industry_growth": {
@@ -103,36 +103,36 @@
         "points": 8.0,
         "max": 15,
         "detail": [
-          "RSI 43: 0.0/7 (value 43.2 below all bands)",
+          "RSI 41: 0.0/7 (value 41 below all bands)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 10,
         "max": 15,
         "detail": [
-          "relative volume: value 0.343 below all bands"
+          "relative volume: value 1.01 vs threshold 1"
         ]
       },
       "price_structure": {
-        "points": 5,
+        "points": 2,
         "max": 10,
         "detail": [
-          "consolidation / mixed"
+          "downtrend (lower highs, lower lows)"
         ]
       },
       "support_resistance": {
-        "points": 4,
+        "points": 10,
         "max": 10,
         "detail": [
-          "near support: watch for breakdown or bounce confirmation"
+          "price mid-range between S/R (30% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "278 validated daily bars (value 278 vs threshold 200); providers may delay quotes ~15 min"
+          "279 validated daily bars (value 279 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -204,11 +204,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 43.198098556179936,
+    "rsi_14": 40.99508098555131,
     "breakout": false,
     "breakdown": false,
     "support": 190.89999389648438,
-    "resistance": 255.75,
+    "resistance": 242.99000549316406,
     "trend": "sideways"
   }
 }

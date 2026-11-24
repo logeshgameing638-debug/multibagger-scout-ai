@@ -1,7 +1,7 @@
 {
   "symbol": "EQUITASBNK",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:34 IST",
+  "updated_at": "2026-11-24 05:59 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -71,7 +71,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 9.1 (no industry benchmark): value 9.11 vs threshold 15"
+          "P/E 9.4 (no industry benchmark): value 9.4 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -101,7 +101,7 @@
         "points": 8.0,
         "max": 15,
         "detail": [
-          "RSI 37: 0.0/7 (value 37.3 below all bands)",
+          "RSI 43: 0.0/7 (value 43.2 below all bands)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -109,7 +109,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.283 below all bands"
+          "relative volume: value 0.316 below all bands"
         ]
       },
       "price_structure": {
@@ -123,14 +123,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (37% of range)"
+          "price mid-range between S/R (44% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 37.27243713773852,
+    "rsi_14": 43.19262570991457,
     "breakout": false,
     "breakdown": false,
     "support": 47.31999969482422,

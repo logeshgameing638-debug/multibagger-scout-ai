@@ -1,0 +1,318 @@
+{
+  "1_company_profile": {
+    "symbol": "FILATEX",
+    "exchange": "NSE",
+    "name": "Filatex India Limited",
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing",
+    "market_cap": 47962746880,
+    "website": "https://www.filatex.com"
+  },
+  "2_source_and_timestamp": {
+    "generated_at": "2026-11-24 00:35:47.986370+00:00",
+    "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
+    "agent_statuses": {
+      "fundamental": "success",
+      "technical": "success",
+      "business": "success",
+      "valuation": "success",
+      "risk": "success",
+      "news": "success",
+      "scoring": "success"
+    }
+  },
+  "3_financial_analysis": {
+    "is_financial_sector": false,
+    "growth": {
+      "sales_growth_1y": -0.02109018515229731,
+      "sales_cagr_3y": -0.01080356807087246,
+      "sales_cagr_5y": null,
+      "profit_growth_1y": 0.36892373432142295,
+      "profit_cagr_3y": 0.2679388072868609,
+      "profit_cagr_5y": null,
+      "eps_growth_1y": 0.3675496688741721
+    },
+    "profitability": {
+      "roe": 0.12177784198915383,
+      "roce": 0.1531465498151381,
+      "operating_margin": 0.06531853469474798,
+      "net_margin": 0.04412600007744213,
+      "gross_margin": 0.12861868574542767
+    },
+    "balance_sheet": {
+      "total_debt": 1502937000.0,
+      "debt_to_equity": 0.09987935556706871,
+      "interest_coverage": 32.45011458346669,
+      "current_ratio": 1.4291910771192586,
+      "working_capital": 2942319000.0
+    },
+    "cash_flow": {
+      "operating_cash_flow": 2464068000.0,
+      "free_cash_flow": 531402000.0,
+      "ocf_to_net_profit": 1.3446813155029729,
+      "fcf_conversion": 0.21566044443578666
+    },
+    "ownership": {
+      "promoter_or_insider_holding_pct": 0.70704,
+      "institutional_holding_pct": 0.09621,
+      "promoter_pledge_pct": null
+    },
+    "red_flags": [],
+    "annual_periods": [
+      "2022-03-31",
+      "2023-03-31",
+      "2024-03-31",
+      "2025-03-31",
+      "2026-03-31"
+    ],
+    "quarterly_periods": [
+      "2025-09-30",
+      "2025-12-31",
+      "2026-03-31",
+      "2026-06-30",
+      "2026-09-30"
+    ],
+    "_run_id": 1058
+  },
+  "4_technical_analysis": {
+    "assessment": "bullish",
+    "daily": {
+      "timeframe": "1d",
+      "last_close": 110.83000183105469,
+      "emas": {
+        "ema_20": 101.79587862469894,
+        "ema_50": 96.78936834607948,
+        "ema_100": 87.12625910281511,
+        "ema_200": 74.72848292346717
+      },
+      "smas": {
+        "sma_20": 97.91350059509277,
+        "sma_50": 99.43740036010742,
+        "sma_100": 86.30069995880127,
+        "sma_200": 65.86169998168945
+      },
+      "rsi_14": 64.93189512580602,
+      "macd": {
+        "macd_line": 3.0634839110131935,
+        "signal_line": 1.114259089833465,
+        "histogram": 1.9492248211797285
+      },
+      "adx_14": 26.185745637896197,
+      "atr_14": 6.463574905886353,
+      "bollinger": {
+        "middle": 97.91350059509277,
+        "upper": 112.944185818078,
+        "lower": 82.88281537210754
+      },
+      "volume_sma_20": 2661965.4,
+      "relative_volume": 1.5597204982453943,
+      "support": 84.19999694824219,
+      "resistance": 119.77999877929688,
+      "price_structure": {
+        "structure": "uptrend (higher highs, higher lows)",
+        "higher_highs": true,
+        "higher_lows": true,
+        "lower_highs": false,
+        "lower_lows": false
+      },
+      "trend": "bullish",
+      "trend_strength": "strong",
+      "breakout": false,
+      "breakdown": false,
+      "momentum_divergence": null,
+      "entry_zone": {
+        "low": 84.2,
+        "high": 87.43,
+        "basis": "near identified support plus half ATR buffer"
+      },
+      "invalidation_level": 71.27,
+      "atr_risk_distance": 6.463574905886353,
+      "provisional_last_bar": false
+    },
+    "short_term_report": {
+      "timeframe": "daily",
+      "trend": "bullish",
+      "rsi_14": 64.93189512580602,
+      "macd_histogram": 1.9492248211797285,
+      "breakout": false,
+      "breakdown": false
+    },
+    "long_term_report": {
+      "timeframes": [
+        "weekly",
+        "monthly"
+      ],
+      "trend": "sideways",
+      "ema_200_daily": 74.72848292346717,
+      "price_vs_ema_200": "above"
+    }
+  },
+  "5_business_quality": {
+    "classification": "insufficient_evidence",
+    "positive_evidence_count": 0,
+    "negative_evidence_count": 0,
+    "evidence": [],
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing",
+    "market_cap": 47962746880,
+    "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
+    "unassessed_areas": [
+      "business model detail (needs annual report reading)",
+      "industry growth rate",
+      "market share and competitor comparison",
+      "customer concentration",
+      "supplier dependency",
+      "expansion projects / order book",
+      "management quality and corporate governance depth"
+    ],
+    "_run_id": 1060
+  },
+  "6_valuation": {
+    "multiples": {
+      "pe_trailing": 25.118605,
+      "pe_forward": 8.127164,
+      "pb": 3.001028,
+      "ev_ebitda": 13.997,
+      "ev_sales": 1.077,
+      "peg": null,
+      "dividend_yield": 0.27,
+      "industry_pe": null
+    },
+    "valuation_view_vs_industry": null,
+    "dcf": {
+      "scenarios": {
+        "bear": 14.647453098438387,
+        "base": 19.398349669714435,
+        "bull": 22.352810009391877
+      },
+      "assumptions": {
+        "base_fcf": 531402000.0,
+        "growth_rates": {
+          "bear": 0.04,
+          "base": 0.08,
+          "bull": 0.1
+        },
+        "cost_of_equity": 0.13,
+        "terminal_growth": 0.05,
+        "projection_years": 10,
+        "shares_outstanding": 444058375
+      }
+    },
+    "dcf_not_calculated_reason": null,
+    "margin_of_safety_vs_base_case": -4.713372720777758,
+    "current_price": 110.83000183105469,
+    "_run_id": 1061
+  },
+  "7_news_intelligence": {
+    "items": [],
+    "stored_new": 0,
+    "duplicates_skipped": 37,
+    "note": "headlines are unverified signals, not confirmed financial evidence",
+    "_run_id": 1063
+  },
+  "8_risk_analysis": {
+    "classification": "MODERATE",
+    "findings": [
+      {
+        "category": "high_volatility",
+        "severity": "moderate",
+        "evidence": "ATR 5.8% of price (>4%)",
+        "source": "computed",
+        "date": "2026-11-24",
+        "detected_at": "2026-11-24 00:35:47.971763+00:00"
+      }
+    ],
+    "unassessed_governance_items": [
+      "auditor resignation history",
+      "qualified audit opinions",
+      "related-party transactions",
+      "regulatory actions",
+      "promoter pledging (source unavailable)",
+      "promoter selling (source unavailable)"
+    ],
+    "shares_outstanding_growth_yoy": 0.0004570744307550543,
+    "atr_pct_of_price": 0.05831972208878239,
+    "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
+    "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
+    "_run_id": 1062
+  },
+  "9_fundamental_score": 55.0,
+  "10_technical_score": 75.0,
+  "11_data_confidence": 72.0,
+  "12_short_term_assessment": {
+    "score": 69.0,
+    "technical_view": {
+      "timeframe": "daily",
+      "trend": "bullish",
+      "rsi_14": 64.93189512580602,
+      "macd_histogram": 1.9492248211797285,
+      "breakout": false,
+      "breakdown": false
+    },
+    "entry_zone": {
+      "low": 84.2,
+      "high": 87.43,
+      "basis": "near identified support plus half ATR buffer"
+    },
+    "invalidation_level": 71.27
+  },
+  "13_long_term_assessment": {
+    "score": 61.0,
+    "trend": {
+      "timeframes": [
+        "weekly",
+        "monthly"
+      ],
+      "trend": "sideways",
+      "ema_200_daily": 74.72848292346717,
+      "price_vs_ema_200": "above"
+    },
+    "business_classification": "insufficient_evidence"
+  },
+  "14_investment_thesis": "Filatex India Limited (FILATEX) is classified as a 'insufficient_evidence' business with a bullish technical trend. Balanced research score 65.0/100 (fundamental 55.0, technical 75.0, data confidence 72.0, risk 10/100 higher=worse).",
+  "15_thesis_invalidation": [
+    "Daily close below invalidation level 71.27 (2x ATR under support)",
+    "Operating cash flow turning negative in the next annual report",
+    "New critical governance or regulatory finding (currently unassessed items must be checked manually)"
+  ],
+  "16_missing_evidence": {
+    "fundamental_gaps": [],
+    "unassessed_governance": [
+      "auditor resignation history",
+      "qualified audit opinions",
+      "related-party transactions",
+      "regulatory actions",
+      "promoter pledging (source unavailable)",
+      "promoter selling (source unavailable)"
+    ],
+    "valuation_gaps": null,
+    "business_unassessed": [
+      "business model detail (needs annual report reading)",
+      "industry growth rate",
+      "market share and competitor comparison",
+      "customer concentration",
+      "supplier dependency",
+      "expansion projects / order book",
+      "management quality and corporate governance depth"
+    ]
+  },
+  "17_sources": [
+    "yahoo_finance (prices, statements, profile)",
+    "rss_news (headlines, unverified)"
+  ],
+  "labels": [
+    "strong_technical_trend"
+  ],
+  "combined_scores": {
+    "long_term": 61.0,
+    "short_term": 69.0,
+    "balanced": 65.0,
+    "risk_score_higher_is_worse": 10
+  },
+  "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
+  "automation": {
+    "generated_at": "2026-11-24 06:05 IST",
+    "source": "scheduled GitHub Actions run",
+    "rotation_data_date": "2026-11-24 06:02 IST"
+  }
+}

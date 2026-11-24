@@ -1,7 +1,7 @@
 {
   "symbol": "ESSENTIA",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:34 IST",
+  "updated_at": "2026-11-24 06:00 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Integra Essentia Limited",
   "scores": {
     "fundamental": 21.0,
-    "technical": 30.0,
+    "technical": 24.0,
     "data_confidence": 72.0,
     "risk": 40.0,
-    "long_term": 23.7,
-    "short_term": 27.3,
-    "balanced": 25.5
+    "long_term": 21.9,
+    "short_term": 23.1,
+    "balanced": 22.5
   },
   "classification": "high_risk",
   "explanation": {
@@ -103,7 +103,7 @@
         "points": 8.0,
         "max": 15,
         "detail": [
-          "RSI 44: 0.0/7 (value 43.7 below all bands)",
+          "RSI 40: 0.0/7 (value 39.7 below all bands)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.504 below all bands"
+          "relative volume: value 0.488 below all bands"
         ]
       },
       "price_structure": {
@@ -122,17 +122,17 @@
         ]
       },
       "support_resistance": {
-        "points": 10,
+        "points": 4,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (31% of range)"
+          "near support: watch for breakdown or bounce confirmation"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -206,11 +206,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 43.67275832624417,
+    "rsi_14": 39.692680057862425,
     "breakout": false,
     "breakdown": false,
     "support": 0.8600000143051147,
-    "resistance": 1.0199999809265137,
+    "resistance": 0.9800000190734863,
     "trend": "bearish"
   }
 }

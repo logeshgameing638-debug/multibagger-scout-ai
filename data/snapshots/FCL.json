@@ -1,7 +1,7 @@
 {
   "symbol": "FCL",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:35 IST",
+  "updated_at": "2026-11-24 06:01 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Fineotex Chemical Limited",
   "scores": {
     "fundamental": 40.5,
-    "technical": 31.0,
+    "technical": 21.0,
     "data_confidence": 72.0,
     "risk": 50.0,
-    "long_term": 37.6,
-    "short_term": 33.9,
-    "balanced": 35.8
+    "long_term": 34.6,
+    "short_term": 26.9,
+    "balanced": 30.8
   },
   "classification": "high_risk",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 35.2 (no industry benchmark): value 35.2 vs threshold 40"
+          "P/E 29.6 (no industry benchmark): value 29.6 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -103,15 +103,15 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 36: 0.0/7 (value 36.2 below all bands)",
+          "RSI 36: 0.0/7 (value 35.9 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
       "volume": {
-        "points": 10,
+        "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 1.1 vs threshold 1"
+          "relative volume: value 0.617 below all bands"
         ]
       },
       "price_structure": {
@@ -132,7 +132,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -207,7 +207,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 36.24285726746203,
+    "rsi_14": 35.877215836094535,
     "breakout": false,
     "breakdown": false,
     "support": 43.75,

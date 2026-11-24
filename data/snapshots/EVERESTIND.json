@@ -1,7 +1,7 @@
 {
   "symbol": "EVERESTIND",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:35 IST",
+  "updated_at": "2026-11-24 06:00 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Everest Industries Limited",
   "scores": {
     "fundamental": 31.0,
-    "technical": 24.0,
+    "technical": 29.0,
     "data_confidence": 72.0,
     "risk": 20.0,
-    "long_term": 28.9,
-    "short_term": 26.1,
-    "balanced": 27.5
+    "long_term": 30.4,
+    "short_term": 29.6,
+    "balanced": 30.0
   },
   "classification": "attractive_valuation",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 34.6 (no industry benchmark): value 34.6 vs threshold 40"
+          "P/E 33.4 (no industry benchmark): value 33.4 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -103,22 +103,22 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 36: 0.0/7 (value 35.6 below all bands)",
+          "RSI 31: 0.0/7 (value 31.4 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 10,
         "max": 15,
         "detail": [
-          "relative volume: value 0.324 below all bands"
+          "relative volume: value 1.11 vs threshold 1"
         ]
       },
       "price_structure": {
-        "points": 10,
+        "points": 5,
         "max": 10,
         "detail": [
-          "uptrend (higher highs, higher lows)"
+          "consolidation / mixed"
         ]
       },
       "support_resistance": {
@@ -132,7 +132,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -205,11 +205,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 35.6116097868903,
+    "rsi_14": 31.39935638930966,
     "breakout": false,
     "breakdown": false,
     "support": 390.0,
-    "resistance": 499.8999938964844,
+    "resistance": 491.04998779296875,
     "trend": "sideways"
   }
 }

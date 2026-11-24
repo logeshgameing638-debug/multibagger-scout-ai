@@ -1,7 +1,7 @@
 {
   "symbol": "BHARATSE",
   "exchange": "BSE",
-  "updated_at": "2026-11-21 02:28 IST",
+  "updated_at": "2026-11-24 05:59 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 6,
         "max": 10,
         "detail": [
-          "P/E 25.0 (no industry benchmark): value 25 vs threshold 25"
+          "P/E 24.7 (no industry benchmark): value 24.7 vs threshold 25"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 49: 4/7 (value 48.7 vs threshold 45)",
+          "RSI 48: 4/7 (value 48 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.333 below all bands"
+          "relative volume: value 0.181 below all bands"
         ]
       },
       "price_structure": {
@@ -125,7 +125,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (54% of range)"
+          "price mid-range between S/R (62% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -204,11 +204,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 48.74022943622095,
+    "rsi_14": 48.045985641316506,
     "breakout": false,
     "breakdown": false,
     "support": 179.10000610351562,
-    "resistance": 227.9499969482422,
+    "resistance": 221.0,
     "trend": "sideways"
   }
 }

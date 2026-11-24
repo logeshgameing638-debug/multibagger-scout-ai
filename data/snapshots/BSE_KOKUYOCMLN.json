@@ -1,7 +1,7 @@
 {
   "symbol": "KOKUYOCMLN",
   "exchange": "BSE",
-  "updated_at": "2026-11-21 02:28 IST",
+  "updated_at": "2026-11-24 05:59 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Kokuyo Camlin Limited",
   "scores": {
     "fundamental": 46.0,
-    "technical": 22.0,
+    "technical": 21.0,
     "data_confidence": 72.0,
     "risk": 0.0,
-    "long_term": 38.8,
-    "short_term": 29.2,
-    "balanced": 34.0
+    "long_term": 38.5,
+    "short_term": 28.5,
+    "balanced": 33.5
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 0.0,
         "max": 10,
         "detail": [
-          "P/E 41.5 (no industry benchmark): value 41.5 below all bands"
+          "P/E 41.3 (no industry benchmark): value 41.3 below all bands"
         ]
       },
       "industry_growth": {
@@ -103,15 +103,15 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 44: 0.0/7 (value 44.1 below all bands)",
+          "RSI 38: 0.0/7 (value 38.3 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 5,
         "max": 15,
         "detail": [
-          "relative volume: value 0.341 below all bands"
+          "relative volume: value 0.906 vs threshold 0.7"
         ]
       },
       "price_structure": {
@@ -122,10 +122,10 @@
         ]
       },
       "support_resistance": {
-        "points": 10,
+        "points": 4,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (31% of range)"
+          "near support: watch for breakdown or bounce confirmation"
         ]
       },
       "breakout_confirmation": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 44.11965317480788,
+    "rsi_14": 38.292738722422385,
     "breakout": false,
     "breakdown": false,
     "support": 68.23999786376953,

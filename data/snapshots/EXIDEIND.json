@@ -1,7 +1,7 @@
 {
   "symbol": "EXIDEIND",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:35 IST",
+  "updated_at": "2026-11-24 06:01 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 32.5 (no industry benchmark): value 32.5 vs threshold 40"
+          "P/E 32.6 (no industry benchmark): value 32.6 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 61: 7/7 (value 60.8 vs threshold 55)",
+          "RSI 63: 7/7 (value 63.5 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 10,
         "max": 15,
         "detail": [
-          "relative volume: value 1.26 vs threshold 1"
+          "relative volume: value 1.2 vs threshold 1"
         ]
       },
       "price_structure": {
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (62% of range)"
+          "price mid-range between S/R (69% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 60.818128894165994,
+    "rsi_14": 63.487341386842274,
     "breakout": false,
     "breakdown": false,
     "support": 328.6499938964844,

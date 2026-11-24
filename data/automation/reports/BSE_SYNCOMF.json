@@ -1,0 +1,322 @@
+{
+  "1_company_profile": {
+    "symbol": "SYNCOMF",
+    "exchange": "BSE",
+    "name": "Syncom Formulations (India) Limited",
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic",
+    "market_cap": 21544800256,
+    "website": "https://www.syncomformulations.com"
+  },
+  "2_source_and_timestamp": {
+    "generated_at": "2026-11-24 00:35:46.256551+00:00",
+    "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
+    "agent_statuses": {
+      "fundamental": "success",
+      "technical": "success",
+      "business": "success",
+      "valuation": "success",
+      "risk": "success",
+      "news": "success",
+      "scoring": "success"
+    }
+  },
+  "3_financial_analysis": {
+    "is_financial_sector": false,
+    "growth": {
+      "sales_growth_1y": 0.05316534794022648,
+      "sales_cagr_3y": 0.29366381917942297,
+      "sales_cagr_5y": null,
+      "profit_growth_1y": 0.5462449377561465,
+      "profit_cagr_3y": 0.561644820937129,
+      "profit_cagr_5y": null,
+      "eps_growth_1y": 0.5283018867924528
+    },
+    "profitability": {
+      "roe": 0.18419314472239337,
+      "roce": 0.24433007389266057,
+      "operating_margin": 0.16126218238097365,
+      "net_margin": 0.15868728714244343,
+      "gross_margin": 0.389192000240819
+    },
+    "balance_sheet": {
+      "total_debt": 14942000.0,
+      "debt_to_equity": 0.0036005834381354846,
+      "interest_coverage": 159.07331561669534,
+      "current_ratio": 3.1849877272578277,
+      "working_capital": 2266396000.0
+    },
+    "cash_flow": {
+      "operating_cash_flow": 580793000.0,
+      "free_cash_flow": 464094000.0,
+      "ocf_to_net_profit": 0.7598223396739842,
+      "fcf_conversion": 0.799069548014525
+    },
+    "ownership": {
+      "promoter_or_insider_holding_pct": 0.50569,
+      "institutional_holding_pct": 0.00137,
+      "promoter_pledge_pct": null
+    },
+    "red_flags": [],
+    "annual_periods": [
+      "2023-03-31",
+      "2024-03-31",
+      "2025-03-31",
+      "2026-03-31"
+    ],
+    "quarterly_periods": [
+      "2025-03-31",
+      "2025-06-30",
+      "2025-09-30",
+      "2025-12-31",
+      "2026-03-31",
+      "2026-06-30",
+      "2026-09-30"
+    ],
+    "_run_id": 1051
+  },
+  "4_technical_analysis": {
+    "assessment": "bullish",
+    "daily": {
+      "timeframe": "1d",
+      "last_close": 21.959999084472656,
+      "emas": {
+        "ema_20": 21.02094676144611,
+        "ema_50": 20.44963386647361,
+        "ema_100": 18.943456111792255,
+        "ema_200": 17.395856793190323
+      },
+      "smas": {
+        "sma_20": 20.545999908447264,
+        "sma_50": 21.19279998779297,
+        "sma_100": 18.18099991798401,
+        "sma_200": 15.81419994354248
+      },
+      "rsi_14": 57.7572708124214,
+      "macd": {
+        "macd_line": 0.14905004297779456,
+        "signal_line": -0.07947837652454492,
+        "histogram": 0.22852841950233949
+      },
+      "adx_14": 19.86905716591893,
+      "atr_14": 1.2400856064785262,
+      "bollinger": {
+        "middle": 20.545999908447264,
+        "upper": 22.266077977345997,
+        "lower": 18.82592183954853
+      },
+      "volume_sma_20": 856575.75,
+      "relative_volume": 1.3661745619111911,
+      "support": 18.90999984741211,
+      "resistance": 27.530000686645508,
+      "price_structure": {
+        "structure": "consolidation / mixed",
+        "higher_highs": false,
+        "higher_lows": true,
+        "lower_highs": true,
+        "lower_lows": false
+      },
+      "trend": "bullish",
+      "trend_strength": "weak",
+      "breakout": false,
+      "breakdown": false,
+      "momentum_divergence": null,
+      "entry_zone": {
+        "low": 18.91,
+        "high": 19.53,
+        "basis": "near identified support plus half ATR buffer"
+      },
+      "invalidation_level": 16.43,
+      "atr_risk_distance": 1.2400856064785262,
+      "provisional_last_bar": false
+    },
+    "short_term_report": {
+      "timeframe": "daily",
+      "trend": "bullish",
+      "rsi_14": 57.7572708124214,
+      "macd_histogram": 0.22852841950233949,
+      "breakout": false,
+      "breakdown": false
+    },
+    "long_term_report": {
+      "timeframes": [
+        "weekly",
+        "monthly"
+      ],
+      "trend": "sideways",
+      "ema_200_daily": 17.395856793190323,
+      "price_vs_ema_200": "above"
+    }
+  },
+  "5_business_quality": {
+    "classification": "average",
+    "positive_evidence_count": 2,
+    "negative_evidence_count": 0,
+    "evidence": [
+      "ROE 18.4% (>15%): capital allocated effectively",
+      "operating margin 16.1%: pricing power evidence"
+    ],
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic",
+    "market_cap": 21544800256,
+    "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
+    "unassessed_areas": [
+      "business model detail (needs annual report reading)",
+      "industry growth rate",
+      "market share and competitor comparison",
+      "customer concentration",
+      "supplier dependency",
+      "expansion projects / order book",
+      "management quality and corporate governance depth"
+    ],
+    "_run_id": 1053
+  },
+  "6_valuation": {
+    "multiples": {
+      "pe_trailing": 24.382978,
+      "pe_forward": null,
+      "pb": 4.643436,
+      "ev_ebitda": 20.378,
+      "ev_sales": 3.909,
+      "peg": null,
+      "dividend_yield": 0.46,
+      "industry_pe": null
+    },
+    "valuation_view_vs_industry": null,
+    "dcf": {
+      "scenarios": {
+        "bear": 6.043062652570633,
+        "base": 8.003128026609284,
+        "bull": 9.222042251301998
+      },
+      "assumptions": {
+        "base_fcf": 464094000.0,
+        "growth_rates": {
+          "bear": 0.04,
+          "base": 0.08,
+          "bull": 0.1
+        },
+        "cost_of_equity": 0.13,
+        "terminal_growth": 0.05,
+        "projection_years": 10,
+        "shares_outstanding": 940000000
+      }
+    },
+    "dcf_not_calculated_reason": null,
+    "margin_of_safety_vs_base_case": -1.7439270009749592,
+    "current_price": 21.959999084472656,
+    "_run_id": 1054
+  },
+  "7_news_intelligence": {
+    "items": [],
+    "stored_new": 0,
+    "duplicates_skipped": 20,
+    "note": "headlines are unverified signals, not confirmed financial evidence",
+    "_run_id": 1056
+  },
+  "8_risk_analysis": {
+    "classification": "MODERATE",
+    "findings": [
+      {
+        "category": "high_volatility",
+        "severity": "moderate",
+        "evidence": "ATR 5.6% of price (>4%)",
+        "source": "computed",
+        "date": "2026-11-24",
+        "detected_at": "2026-11-24 00:35:46.243065+00:00"
+      }
+    ],
+    "unassessed_governance_items": [
+      "auditor resignation history",
+      "qualified audit opinions",
+      "related-party transactions",
+      "regulatory actions",
+      "promoter pledging (source unavailable)",
+      "promoter selling (source unavailable)"
+    ],
+    "shares_outstanding_growth_yoy": 0.0,
+    "atr_pct_of_price": 0.05647020301359477,
+    "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
+    "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
+    "_run_id": 1055
+  },
+  "9_fundamental_score": 67.0,
+  "10_technical_score": 65.0,
+  "11_data_confidence": 72.0,
+  "12_short_term_assessment": {
+    "score": 65.6,
+    "technical_view": {
+      "timeframe": "daily",
+      "trend": "bullish",
+      "rsi_14": 57.7572708124214,
+      "macd_histogram": 0.22852841950233949,
+      "breakout": false,
+      "breakdown": false
+    },
+    "entry_zone": {
+      "low": 18.91,
+      "high": 19.53,
+      "basis": "near identified support plus half ATR buffer"
+    },
+    "invalidation_level": 16.43
+  },
+  "13_long_term_assessment": {
+    "score": 66.4,
+    "trend": {
+      "timeframes": [
+        "weekly",
+        "monthly"
+      ],
+      "trend": "sideways",
+      "ema_200_daily": 17.395856793190323,
+      "price_vs_ema_200": "above"
+    },
+    "business_classification": "average"
+  },
+  "14_investment_thesis": "Syncom Formulations (India) Limited (SYNCOMF) is classified as a 'average' business with a bullish technical trend. Balanced research score 66.0/100 (fundamental 67.0, technical 65.0, data confidence 72.0, risk 10/100 higher=worse). Supporting evidence: ROE 18.4% (>15%): capital allocated effectively; operating margin 16.1%: pricing power evidence.",
+  "15_thesis_invalidation": [
+    "Daily close below invalidation level 16.43 (2x ATR under support)",
+    "Operating cash flow turning negative in the next annual report",
+    "New critical governance or regulatory finding (currently unassessed items must be checked manually)"
+  ],
+  "16_missing_evidence": {
+    "fundamental_gaps": [],
+    "unassessed_governance": [
+      "auditor resignation history",
+      "qualified audit opinions",
+      "related-party transactions",
+      "regulatory actions",
+      "promoter pledging (source unavailable)",
+      "promoter selling (source unavailable)"
+    ],
+    "valuation_gaps": null,
+    "business_unassessed": [
+      "business model detail (needs annual report reading)",
+      "industry growth rate",
+      "market share and competitor comparison",
+      "customer concentration",
+      "supplier dependency",
+      "expansion projects / order book",
+      "management quality and corporate governance depth"
+    ]
+  },
+  "17_sources": [
+    "yahoo_finance (prices, statements, profile)",
+    "rss_news (headlines, unverified)"
+  ],
+  "labels": [
+    "strong_technical_trend"
+  ],
+  "combined_scores": {
+    "long_term": 66.4,
+    "short_term": 65.6,
+    "balanced": 66.0,
+    "risk_score_higher_is_worse": 10
+  },
+  "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
+  "automation": {
+    "generated_at": "2026-11-24 06:05 IST",
+    "source": "scheduled GitHub Actions run",
+    "rotation_data_date": "2026-11-24 06:05 IST"
+  }
+}

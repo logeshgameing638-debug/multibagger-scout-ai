@@ -1,20 +1,20 @@
 {
-  "cursor": 1275,
+  "cursor": 1425,
   "cycle_started_at": "2026-11-19 09:36 IST",
-  "run_count": 12,
-  "last_run_at": "2026-11-21 02:28 IST",
+  "run_count": 13,
+  "last_run_at": "2026-11-24 06:05 IST",
   "last_run": {
     "attempted": 150,
-    "complete": 86,
-    "partial": 64,
+    "complete": 82,
+    "partial": 68,
     "unavailable": 0,
     "system_error": 0,
     "skipped_time_budget": 0,
-    "minutes": 7.7
+    "minutes": 7.0
   },
-  "universe_size": 4952,
+  "universe_size": 4985,
   "universe_breakdown": {
     "NSE": 2404,
-    "BSE": 2548
+    "BSE": 2581
   }
 }

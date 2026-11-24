@@ -1,6 +1,150 @@
 {
-  "generated_at": "2026-11-21 02:28 IST",
+  "generated_at": "2026-11-24 06:05 IST",
   "alerts": [
+    {
+      "symbol": "AAREYDRUGS",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "AAREYDRUGS balanced score moved +14.5 pts (37.5 -> 52.0)",
+      "data_date": "2026-11-24 06:05 IST",
+      "detected_at": "2026-11-24 06:05 IST"
+    },
+    {
+      "symbol": "AAREYDRUGS",
+      "type": "classification_change",
+      "severity": "info",
+      "message": "AAREYDRUGS classification changed neutral -> strong_technical_trend",
+      "data_date": "2026-11-24 06:05 IST",
+      "detected_at": "2026-11-24 06:05 IST"
+    },
+    {
+      "symbol": "AARTIIND",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "AARTIIND balanced score moved -15.9 pts (29.7 -> 13.8)",
+      "data_date": "2026-11-24 06:03 IST",
+      "detected_at": "2026-11-24 06:05 IST"
+    },
+    {
+      "symbol": "APCOTEXIND",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "APCOTEXIND balanced score moved -11.0 pts (44.0 -> 33.0)",
+      "data_date": "2026-11-24 06:02 IST",
+      "detected_at": "2026-11-24 06:05 IST"
+    },
+    {
+      "symbol": "AXTEL",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "AXTEL RSI(14) 26 <= 30 (oversold zone)",
+      "data_date": "2026-11-24 06:02 IST",
+      "detected_at": "2026-11-24 06:05 IST"
+    },
+    {
+      "symbol": "ESAFSFB",
+      "type": "classification_change",
+      "severity": "info",
+      "message": "ESAFSFB classification changed high_risk -> high_risk,strong_technical_trend",
+      "data_date": "2026-11-24 05:59 IST",
+      "detected_at": "2026-11-24 06:05 IST"
+    },
+    {
+      "symbol": "EVONILE",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "EVONILE RSI(14) 30 <= 30 (oversold zone)",
+      "data_date": "2026-11-24 06:00 IST",
+      "detected_at": "2026-11-24 06:05 IST"
+    },
+    {
+      "symbol": "EXICOM",
+      "type": "risk_high",
+      "severity": "critical",
+      "message": "EXICOM stored risk score 80 >= 70 (high stored risk)",
+      "data_date": "2026-11-24 06:01 IST",
+      "detected_at": "2026-11-24 06:05 IST"
+    },
+    {
+      "symbol": "FABTECH",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "FABTECH balanced score moved +13.0 pts (41.5 -> 54.5)",
+      "data_date": "2026-11-24 06:01 IST",
+      "detected_at": "2026-11-24 06:05 IST"
+    },
+    {
+      "symbol": "FEDERALBNK",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "FEDERALBNK RSI(14) 70 >= 70 (overbought zone)",
+      "data_date": "2026-11-24 06:02 IST",
+      "detected_at": "2026-11-24 06:05 IST"
+    },
+    {
+      "symbol": "FILATFASH",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "FILATFASH RSI(14) 13 <= 30 (oversold zone)",
+      "data_date": "2026-11-24 06:02 IST",
+      "detected_at": "2026-11-24 06:05 IST"
+    },
+    {
+      "symbol": "FISCHER",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "FISCHER RSI(14) 28 <= 30 (oversold zone)",
+      "data_date": "2026-11-24 06:03 IST",
+      "detected_at": "2026-11-24 06:05 IST"
+    },
+    {
+      "symbol": "FLEXITUFF",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "FLEXITUFF RSI(14) 73 >= 70 (overbought zone)",
+      "data_date": "2026-11-24 06:03 IST",
+      "detected_at": "2026-11-24 06:05 IST"
+    },
+    {
+      "symbol": "FORCEMOT",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "FORCEMOT RSI(14) 71 >= 70 (overbought zone)",
+      "data_date": "2026-11-24 06:04 IST",
+      "detected_at": "2026-11-24 06:05 IST"
+    },
+    {
+      "symbol": "GAIL",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "GAIL RSI(14) 71 >= 70 (overbought zone)",
+      "data_date": "2026-11-24 06:05 IST",
+      "detected_at": "2026-11-24 06:05 IST"
+    },
+    {
+      "symbol": "KMCSHIL",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "KMCSHIL RSI(14) 75 >= 70 (overbought zone)",
+      "data_date": "2026-11-24 06:05 IST",
+      "detected_at": "2026-11-24 06:05 IST"
+    },
+    {
+      "symbol": "PIIND",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "PIIND RSI(14) 24 <= 30 (oversold zone)",
+      "data_date": "2026-11-24 06:01 IST",
+      "detected_at": "2026-11-24 06:05 IST"
+    },
+    {
+      "symbol": "POONAWALLA",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "POONAWALLA RSI(14) 72 >= 70 (overbought zone)",
+      "data_date": "2026-11-24 06:03 IST",
+      "detected_at": "2026-11-24 06:05 IST"
+    },
     {
       "symbol": "ASAL",
       "type": "score_change",
@@ -699,8 +843,8 @@
     }
   ],
   "stats": {
-    "snapshots_scanned": 882,
-    "new_alerts": 13,
-    "active_alerts": 87
+    "snapshots_scanned": 966,
+    "new_alerts": 18,
+    "active_alerts": 105
   }
 }

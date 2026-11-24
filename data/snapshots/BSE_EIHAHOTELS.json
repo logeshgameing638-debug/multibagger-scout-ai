@@ -1,7 +1,7 @@
 {
   "symbol": "EIHAHOTELS",
   "exchange": "BSE",
-  "updated_at": "2026-11-21 02:28 IST",
+  "updated_at": "2026-11-24 05:58 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "EIH Associated Hotels Limited",
   "scores": {
     "fundamental": 58.5,
-    "technical": 34.0,
+    "technical": 57.0,
     "data_confidence": 72.0,
     "risk": 0.0,
-    "long_term": 51.1,
-    "short_term": 41.3,
-    "balanced": 46.2
+    "long_term": 58.0,
+    "short_term": 57.5,
+    "balanced": 57.8
   },
   "classification": "neutral",
   "explanation": {
@@ -93,25 +93,25 @@
         ]
       },
       "ema_alignment": {
-        "points": 0,
+        "points": 8,
         "max": 15,
         "detail": [
-          "below key EMAs"
+          "price above EMA50, partial alignment"
         ]
       },
       "momentum": {
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 51: 4/7 (value 51.1 vs threshold 45)",
+          "RSI 54: 4/7 (value 54.4 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 15,
         "max": 15,
         "detail": [
-          "relative volume: value 0.442 below all bands"
+          "relative volume: value 1.84 vs threshold 1.5"
         ]
       },
       "price_structure": {
@@ -125,7 +125,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (40% of range)"
+          "price mid-range between S/R (42% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -204,11 +204,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 51.071293082503146,
+    "rsi_14": 54.38937152012156,
     "breakout": false,
     "breakdown": false,
     "support": 270.04998779296875,
-    "resistance": 319.0,
+    "resistance": 323.79998779296875,
     "trend": "sideways"
   }
 }

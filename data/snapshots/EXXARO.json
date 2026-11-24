@@ -1,7 +1,7 @@
 {
   "symbol": "EXXARO",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:35 IST",
+  "updated_at": "2026-11-24 06:01 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -73,7 +73,7 @@
         "points": 0.0,
         "max": 10,
         "detail": [
-          "P/E 51.3 (no industry benchmark): value 51.3 below all bands"
+          "P/E 50.8 (no industry benchmark): value 50.8 below all bands"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 44: 0.0/7 (value 44.3 below all bands)",
+          "RSI 43: 0.0/7 (value 43.2 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.181 below all bands"
+          "relative volume: value 0.197 below all bands"
         ]
       },
       "price_structure": {
@@ -132,7 +132,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -204,11 +204,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 44.268036609837495,
+    "rsi_14": 43.22107974087619,
     "breakout": false,
     "breakdown": false,
     "support": 5.989999771118164,
-    "resistance": 6.900000095367432,
+    "resistance": 6.650000095367432,
     "trend": "bearish"
   }
 }

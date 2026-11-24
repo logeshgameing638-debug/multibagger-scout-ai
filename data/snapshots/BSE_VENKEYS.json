@@ -1,7 +1,7 @@
 {
   "symbol": "VENKEYS",
   "exchange": "BSE",
-  "updated_at": "2026-11-21 02:28 IST",
+  "updated_at": "2026-11-24 05:59 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Venky's (India) Limited",
   "scores": {
     "fundamental": 56.0,
-    "technical": 31.0,
+    "technical": 16.0,
     "data_confidence": 72.0,
-    "risk": 0.0,
-    "long_term": 48.5,
-    "short_term": 38.5,
-    "balanced": 43.5
+    "risk": 10.0,
+    "long_term": 44.0,
+    "short_term": 28.0,
+    "balanced": 36.0
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 11.3 (no industry benchmark): value 11.3 vs threshold 15"
+          "P/E 11.1 (no industry benchmark): value 11.1 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -103,15 +103,15 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 37: 0.0/7 (value 36.8 below all bands)",
+          "RSI 31: 0.0/7 (value 31.2 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
       "volume": {
-        "points": 15,
+        "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 3.92 vs threshold 1.5"
+          "relative volume: value 0.476 below all bands"
         ]
       },
       "price_structure": {
@@ -178,13 +178,13 @@
     },
     "risk": {
       "findings_contribution": {
-        "points": 0,
+        "points": 10,
         "max": 100,
         "detail": [
-          "no findings"
+          "high_volatility (moderate): +10"
         ]
       },
-      "classification": "LOW",
+      "classification": "MODERATE",
       "unassessed_items": [
         "auditor resignation history",
         "qualified audit opinions",
@@ -204,11 +204,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 36.8030768561403,
+    "rsi_14": 31.185541663601697,
     "breakout": false,
     "breakdown": false,
-    "support": 1452.0,
-    "resistance": 1673.5999755859375,
+    "support": 1379.5,
+    "resistance": 1651.1500244140625,
     "trend": "sideways"
   }
 }

@@ -1,7 +1,7 @@
 {
   "symbol": "SAFARI",
   "exchange": "BSE",
-  "updated_at": "2026-11-21 02:28 IST",
+  "updated_at": "2026-11-24 05:58 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Safari Industries (India) Limited",
   "scores": {
     "fundamental": 59.0,
-    "technical": 45.0,
+    "technical": 60.0,
     "data_confidence": 72.0,
     "risk": 0.0,
-    "long_term": 54.8,
-    "short_term": 49.2,
-    "balanced": 52.0
+    "long_term": 59.3,
+    "short_term": 59.7,
+    "balanced": 59.5
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 0.0,
         "max": 10,
         "detail": [
-          "P/E 45.5 (no industry benchmark): value 45.5 below all bands"
+          "P/E 46.8 (no industry benchmark): value 46.8 below all bands"
         ]
       },
       "industry_growth": {
@@ -103,15 +103,15 @@
         "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 64: 7/7 (value 63.8 vs threshold 55)",
+          "RSI 67: 7/7 (value 67.2 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 15,
         "max": 15,
         "detail": [
-          "relative volume: value 0.229 below all bands"
+          "relative volume: value 8.71 vs threshold 1.5"
         ]
       },
       "price_structure": {
@@ -125,7 +125,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (55% of range)"
+          "price mid-range between S/R (63% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 63.812524508955846,
+    "rsi_14": 67.16174090755221,
     "breakout": false,
     "breakdown": false,
     "support": 1163.4000244140625,

@@ -1,7 +1,7 @@
 {
   "symbol": "FCSSOFT",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:35 IST",
+  "updated_at": "2026-11-24 06:01 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "FCS Software Solutions Limited",
   "scores": {
     "fundamental": 43.0,
-    "technical": 37.0,
+    "technical": 29.0,
     "data_confidence": 72.0,
     "risk": 10.0,
-    "long_term": 41.2,
-    "short_term": 38.8,
-    "balanced": 40.0
+    "long_term": 38.8,
+    "short_term": 33.2,
+    "balanced": 36.0
   },
   "classification": "attractive_valuation",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 0.0,
         "max": 10,
         "detail": [
-          "P/E 47.7 (no industry benchmark): value 47.7 below all bands"
+          "P/E 46.0 (no industry benchmark): value 46 below all bands"
         ]
       },
       "industry_growth": {
@@ -93,17 +93,17 @@
         ]
       },
       "ema_alignment": {
-        "points": 8,
+        "points": 0,
         "max": 15,
         "detail": [
-          "price above EMA50, partial alignment"
+          "below key EMAs"
         ]
       },
       "momentum": {
         "points": 4.0,
         "max": 15,
         "detail": [
-          "RSI 53: 4/7 (value 52.7 vs threshold 45)",
+          "RSI 50: 4/7 (value 50 vs threshold 45)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.607 below all bands"
+          "relative volume: value 0.343 below all bands"
         ]
       },
       "price_structure": {
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (51% of range)"
+          "price mid-range between S/R (46% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -204,11 +204,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 52.70423024464237,
+    "rsi_14": 50.022876513466926,
     "breakout": false,
     "breakdown": false,
     "support": 1.25,
     "resistance": 1.600000023841858,
-    "trend": "sideways"
+    "trend": "bearish"
   }
 }

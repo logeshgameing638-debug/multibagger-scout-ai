@@ -1,7 +1,7 @@
 {
   "symbol": "FABTECH",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:35 IST",
+  "updated_at": "2026-11-24 06:01 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -9,18 +9,18 @@
     "business": "success",
     "valuation": "partial",
     "risk": "success",
-    "news": "success",
+    "news": "failed",
     "scoring": "success"
   },
   "name": "Fabtech Technologies Limited",
   "scores": {
     "fundamental": 49.0,
-    "technical": 34.0,
-    "data_confidence": 72.0,
+    "technical": 60.0,
+    "data_confidence": 70.0,
     "risk": 20.0,
-    "long_term": 44.5,
-    "short_term": 38.5,
-    "balanced": 41.5
+    "long_term": 52.3,
+    "short_term": 56.7,
+    "balanced": 54.5
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 6,
         "max": 10,
         "detail": [
-          "P/E 15.4 (no industry benchmark): value 15.4 vs threshold 25"
+          "P/E 16.6 (no industry benchmark): value 16.6 vs threshold 25"
         ]
       },
       "industry_growth": {
@@ -93,25 +93,25 @@
         ]
       },
       "ema_alignment": {
-        "points": 0,
+        "points": 8,
         "max": 15,
         "detail": [
-          "below key EMAs"
+          "price above EMA50, partial alignment"
         ]
       },
       "momentum": {
-        "points": 12.0,
+        "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 48: 4/7 (value 48.3 vs threshold 45)",
+          "RSI 57: 7/7 (value 57.3 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 15,
         "max": 15,
         "detail": [
-          "relative volume: value 0.145 below all bands"
+          "relative volume: value 8.95 vs threshold 1.5"
         ]
       },
       "price_structure": {
@@ -125,26 +125,26 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (54% of range)"
+          "price mid-range between S/R (72% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 12,
+        "points": 10,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: ok"
+          "rss_news: failed/unused"
         ]
       },
       "completeness": {
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "277 validated daily bars (value 277 vs threshold 200); providers may delay quotes ~15 min"
+          "278 validated daily bars (value 278 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -205,11 +205,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 48.25742805598321,
+    "rsi_14": 57.30068487084122,
     "breakout": false,
     "breakdown": false,
     "support": 115.0999984741211,
-    "resistance": 148.92999267578125,
-    "trend": "bearish"
+    "resistance": 150.39999389648438,
+    "trend": "sideways"
   }
 }

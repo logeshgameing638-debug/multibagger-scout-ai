@@ -1,7 +1,7 @@
 {
   "symbol": "PEARLPOLY",
   "exchange": "BSE",
-  "updated_at": "2026-11-21 02:28 IST",
+  "updated_at": "2026-11-24 05:59 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Pearl Polymers Limited",
   "scores": {
     "fundamental": 27.5,
-    "technical": 31.0,
+    "technical": 16.0,
     "data_confidence": 72.0,
     "risk": 30.0,
-    "long_term": 28.5,
-    "short_term": 29.9,
-    "balanced": 29.2
+    "long_term": 24.1,
+    "short_term": 19.4,
+    "balanced": 21.8
   },
   "classification": "high_risk",
   "explanation": {
@@ -103,15 +103,15 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 38: 0.0/7 (value 37.9 below all bands)",
+          "RSI 38: 0.0/7 (value 37.7 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
       "volume": {
-        "points": 15,
+        "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 1.72 vs threshold 1.5"
+          "relative volume: value 0.0425 below all bands"
         ]
       },
       "price_structure": {
@@ -205,7 +205,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 37.86194408259419,
+    "rsi_14": 37.65046430827566,
     "breakout": false,
     "breakdown": false,
     "support": 14.609999656677246,

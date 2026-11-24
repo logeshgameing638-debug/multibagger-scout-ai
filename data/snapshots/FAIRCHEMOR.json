@@ -1,7 +1,7 @@
 {
   "symbol": "FAIRCHEMOR",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:35 IST",
+  "updated_at": "2026-11-24 06:01 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -103,7 +103,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 43: 0.0/7 (value 43.4 below all bands)",
+          "RSI 43: 0.0/7 (value 43.1 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.142 below all bands"
+          "relative volume: value 0.0952 below all bands"
         ]
       },
       "price_structure": {
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (36% of range)"
+          "price mid-range between S/R (35% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 43.43342188362218,
+    "rsi_14": 43.07194470622023,
     "breakout": false,
     "breakdown": false,
     "support": 585.2000122070312,

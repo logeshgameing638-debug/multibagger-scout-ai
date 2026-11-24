@@ -1,7 +1,7 @@
 {
   "symbol": "EVONILE",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:35 IST",
+  "updated_at": "2026-11-24 06:00 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Evonile Pharma Limited",
   "scores": {
     "fundamental": 44.0,
-    "technical": 21.0,
+    "technical": 16.0,
     "data_confidence": 72.0,
     "risk": 10.0,
-    "long_term": 37.1,
-    "short_term": 27.9,
-    "balanced": 32.5
+    "long_term": 35.6,
+    "short_term": 24.4,
+    "balanced": 30.0
   },
   "classification": "neutral",
   "explanation": {
@@ -103,15 +103,15 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 31: 0.0/7 (value 31.2 below all bands)",
+          "RSI 30: 0.0/7 (value 29.9 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
       "volume": {
-        "points": 5,
+        "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.932 vs threshold 0.7"
+          "relative volume: value 0.287 below all bands"
         ]
       },
       "price_structure": {
@@ -132,7 +132,7 @@
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 31.15472500590269,
+    "rsi_14": 29.94230789577456,
     "breakout": false,
     "breakdown": false,
     "support": 1346.47314453125,

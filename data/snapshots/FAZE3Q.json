@@ -1,7 +1,7 @@
 {
   "symbol": "FAZE3Q",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:35 IST",
+  "updated_at": "2026-11-24 06:01 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Faze Three Limited",
   "scores": {
     "fundamental": 34.0,
-    "technical": 58.0,
+    "technical": 48.0,
     "data_confidence": 72.0,
     "risk": 10.0,
-    "long_term": 41.2,
-    "short_term": 50.8,
-    "balanced": 46.0
+    "long_term": 38.2,
+    "short_term": 43.8,
+    "balanced": 41.0
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 27.9 (no industry benchmark): value 27.9 vs threshold 40"
+          "P/E 27.8 (no industry benchmark): value 27.8 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -103,15 +103,15 @@
         "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 69: 7/7 (value 69.2 vs threshold 55)",
+          "RSI 69: 7/7 (value 69.3 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 10,
+        "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 1.2 vs threshold 1"
+          "relative volume: value 0.434 below all bands"
         ]
       },
       "price_structure": {
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (65% of range)"
+          "price mid-range between S/R (66% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "988 validated daily bars (value 988 vs threshold 200); providers may delay quotes ~15 min"
+          "989 validated daily bars (value 989 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 69.19139321162133,
+    "rsi_14": 69.25751942420027,
     "breakout": false,
     "breakdown": false,
     "support": 399.95001220703125,

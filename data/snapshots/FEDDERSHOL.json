@@ -1,7 +1,7 @@
 {
   "symbol": "FEDDERSHOL",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:36 IST",
+  "updated_at": "2026-11-24 06:02 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Fedders Holding Limited",
   "scores": {
     "fundamental": 47.0,
-    "technical": 29.0,
+    "technical": 25.0,
     "data_confidence": 62.0,
     "risk": 10.0,
-    "long_term": 41.6,
-    "short_term": 34.4,
-    "balanced": 38.0
+    "long_term": 40.4,
+    "short_term": 31.6,
+    "balanced": 36.0
   },
   "classification": "neutral",
   "explanation": {
@@ -71,7 +71,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 13.5 (no industry benchmark): value 13.5 vs threshold 15"
+          "P/E 12.7 (no industry benchmark): value 12.7 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -98,10 +98,10 @@
         ]
       },
       "momentum": {
-        "points": 4.0,
+        "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 48: 4/7 (value 48.3 vs threshold 45)",
+          "RSI 42: 0.0/7 (value 42.5 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
@@ -109,7 +109,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.388 below all bands"
+          "relative volume: value 0.385 below all bands"
         ]
       },
       "price_structure": {
@@ -123,14 +123,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (53% of range)"
+          "price mid-range between S/R (44% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -163,7 +163,7 @@
         "points": 5,
         "max": 15,
         "detail": [
-          "64 validated daily bars (value 64 vs threshold 30); providers may delay quotes ~15 min"
+          "65 validated daily bars (value 65 vs threshold 30); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -202,10 +202,10 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 48.30052583775846,
+    "rsi_14": 42.49550977206296,
     "breakout": false,
     "breakdown": false,
-    "support": 49.0099983215332,
+    "support": 45.9900016784668,
     "resistance": 65.22000122070312,
     "trend": "sideways"
   }

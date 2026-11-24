@@ -1,7 +1,7 @@
 {
   "symbol": "EXICOM",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:35 IST",
+  "updated_at": "2026-11-24 06:01 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Exicom Tele-Systems Limited",
   "scores": {
     "fundamental": 17.0,
-    "technical": 30.0,
+    "technical": 29.0,
     "data_confidence": 72.0,
     "risk": 80.0,
-    "long_term": 20.9,
-    "short_term": 26.1,
-    "balanced": 23.5
+    "long_term": 20.6,
+    "short_term": 25.4,
+    "balanced": 23.0
   },
   "classification": "high_risk",
   "explanation": {
@@ -103,15 +103,15 @@
         "points": 8.0,
         "max": 15,
         "detail": [
-          "RSI 44: 0.0/7 (value 43.5 below all bands)",
+          "RSI 40: 0.0/7 (value 40 below all bands)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 5,
         "max": 15,
         "detail": [
-          "relative volume: value 0.393 below all bands"
+          "relative volume: value 0.7 vs threshold 0.7"
         ]
       },
       "price_structure": {
@@ -122,17 +122,17 @@
         ]
       },
       "support_resistance": {
-        "points": 10,
+        "points": 4,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (36% of range)"
+          "near support: watch for breakdown or bounce confirmation"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "669 validated daily bars (value 669 vs threshold 200); providers may delay quotes ~15 min"
+          "670 validated daily bars (value 670 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -209,11 +209,11 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 43.51905754544847,
+    "rsi_14": 39.95268564866474,
     "breakout": false,
     "breakdown": false,
     "support": 124.0,
-    "resistance": 149.89999389648438,
+    "resistance": 148.83999633789062,
     "trend": "sideways"
   }
 }

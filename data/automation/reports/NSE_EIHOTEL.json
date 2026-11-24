@@ -5,11 +5,11 @@
     "name": "EIH Limited",
     "sector": "Consumer Cyclical",
     "industry": "Lodging",
-    "market_cap": 208965435392,
+    "market_cap": 208496410624,
     "website": "https://www.eihltd.com"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-20 20:58:54.850108+00:00",
+    "generated_at": "2026-11-24 00:35:54.577874+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -74,42 +74,42 @@
       "2026-06-30",
       "2026-09-30"
     ],
-    "_run_id": 1058
+    "_run_id": 1079
   },
   "4_technical_analysis": {
     "assessment": "sideways",
     "daily": {
       "timeframe": "1d",
-      "last_close": 310.0,
+      "last_close": 334.1499938964844,
       "emas": {
-        "ema_20": 305.5069766023027,
-        "ema_50": 302.4458882571563,
-        "ema_100": 305.79948569485674,
-        "ema_200": 316.65046126298193
+        "ema_20": 308.23488301127236,
+        "ema_50": 303.6891865175221,
+        "ema_100": 306.36088189686336,
+        "ema_200": 316.82458467998634
       },
       "smas": {
-        "sma_20": 302.18249969482423,
-        "sma_50": 298.69800048828125,
-        "sma_100": 307.6484994506836,
-        "sma_200": 312.32549926757815
+        "sma_20": 304.12749938964845,
+        "sma_50": 299.5010003662109,
+        "sma_100": 307.78099945068357,
+        "sma_200": 312.419499206543
       },
-      "rsi_14": 56.198834075498425,
+      "rsi_14": 70.54179000780765,
       "macd": {
-        "macd_line": 4.5730169507938285,
-        "signal_line": 3.5766880097546996,
-        "histogram": 0.996328941039129
+        "macd_line": 6.271699221452764,
+        "signal_line": 4.115690252094312,
+        "histogram": 2.156008969358451
       },
-      "adx_14": 25.972155766822937,
-      "atr_14": 9.662248334671627,
+      "adx_14": 27.601374350173963,
+      "atr_14": 10.989944882195083,
       "bollinger": {
-        "middle": 302.18249969482423,
-        "upper": 323.24664731522483,
-        "lower": 281.1183520744236
+        "middle": 304.12749938964845,
+        "upper": 329.2828803286454,
+        "lower": 278.9721184506515
       },
-      "volume_sma_20": 293124.5,
-      "relative_volume": 3.07101931090714,
+      "volume_sma_20": 517706.85,
+      "relative_volume": 9.86227823719157,
       "support": 281.20001220703125,
-      "resistance": 326.0,
+      "resistance": 337.25,
       "price_structure": {
         "structure": "uptrend (higher highs, higher lows)",
         "higher_highs": true,
@@ -124,18 +124,18 @@
       "momentum_divergence": null,
       "entry_zone": {
         "low": 281.2,
-        "high": 286.03,
+        "high": 286.69,
         "basis": "near identified support plus half ATR buffer"
       },
-      "invalidation_level": 261.88,
-      "atr_risk_distance": 9.662248334671627,
+      "invalidation_level": 259.22,
+      "atr_risk_distance": 10.989944882195083,
       "provisional_last_bar": false
     },
     "short_term_report": {
       "timeframe": "daily",
       "trend": "sideways",
-      "rsi_14": 56.198834075498425,
-      "macd_histogram": 0.996328941039129,
+      "rsi_14": 70.54179000780765,
+      "macd_histogram": 2.156008969358451,
       "breakout": false,
       "breakdown": false
     },
@@ -145,8 +145,8 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 316.65046126298193,
-      "price_vs_ema_200": "below"
+      "ema_200_daily": 316.82458467998634,
+      "price_vs_ema_200": "above"
     }
   },
   "5_business_quality": {
@@ -158,7 +158,7 @@
     ],
     "sector": "Consumer Cyclical",
     "industry": "Lodging",
-    "market_cap": 208965435392,
+    "market_cap": 208496410624,
     "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
     "unassessed_areas": [
       "business model detail (needs annual report reading)",
@@ -169,17 +169,17 @@
       "expansion projects / order book",
       "management quality and corporate governance depth"
     ],
-    "_run_id": 1060
+    "_run_id": 1081
   },
   "6_valuation": {
     "multiples": {
-      "pe_trailing": 28.46252,
-      "pe_forward": 21.095327,
-      "pb": 3.8487232,
-      "ev_ebitda": 18.18,
-      "ev_sales": 6.369,
+      "pe_trailing": 28.398638,
+      "pe_forward": 21.04798,
+      "pb": 3.8400848,
+      "ev_ebitda": 18.137,
+      "ev_sales": 6.355,
       "peg": null,
-      "dividend_yield": 0.48,
+      "dividend_yield": 0.45,
       "industry_pe": null
     },
     "valuation_view_vs_industry": null,
@@ -203,16 +203,350 @@
       }
     },
     "dcf_not_calculated_reason": null,
-    "margin_of_safety_vs_base_case": -3.0330141853321817,
-    "current_price": 310.0,
-    "_run_id": 1061
+    "margin_of_safety_vs_base_case": -3.3471989206876884,
+    "current_price": 334.1499938964844,
+    "_run_id": 1082
   },
   "7_news_intelligence": {
-    "items": [],
-    "stored_new": 0,
-    "duplicates_skipped": 19,
+    "items": [
+      {
+        "headline": "EIH Limited Share Price - Live NSE: EIHOTEL Stock Price & Chart - Upstox",
+        "source": "Upstox",
+        "published": "Fri, 20 Nov 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBqaWhDWGNZVzlsbzNtcXJabHF5eExlSUxTdTJ2ZDhYbnBtMk5ZdklJWkZrMGN5SGZ5VjNWN2pMUlBHWjlSdnZjaWlGQm1YaWNQWjJMeFgtNWlid0o2NVYw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH Limited Q1FY27 profit surges 248%, RevPAR leads industry - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Thu, 06 Aug 2026 06:16:30 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVmdRX2tTbWVDQkdsaFBKR2c3S3ZmcmRGQjlJOXJKMUFmYldYaGh4dFJzQndHdG8wRTh1TFpPelBJNElRb2NTbC1QMUJnb0NUVGRKdlZGdnRoZXV6aEd0VnF4eVZKUm9SVHRkbDZWbjNiYmR5eGszMGNjQ2U0RTVINFBJQ3JZZnNjWWttc0R0MjNqeFYwQmJ4bDE0eG9wOEg3ZGNoeDZFY1pJbTIyOFhXcDM3NA?oc=5",
+        "sentiment": "positive",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH says Wildflower Hall dispute closed after share transfer - Multibagg AI",
+        "source": "Multibagg AI",
+        "published": "Thu, 12 Nov 2026 13:17:43 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTFQtcE1raUhPYWs1bTVuc3VXcDc2LVdwTDUtUFNvV3lSaHJYY0wyQmxxeXY1NGhZaGlaaHVVUS1zR1BCTmQ2N3JKQ0xXNmN1aE81QzEtY19tUUdWWHlfQkFINXV2blBNaWxwaUU5WUk1X0J5OXh6NWJadEhnT09mREpyNnEtakN1S2RvbGd4dGgwb3o2ZG5acmN5aGdMVjVhSENNczJCeWNXbFotNlNwREdqMmFmdHFlbDdqQg?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Earnings call transcript: EIH Limited Q1 2027 revenue rises, stock falls - Investing.com",
+        "source": "Investing.com",
+        "published": "Wed, 12 Aug 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTnJmUDhDYjRHR2FHUTBkY3ZIaGhmMmJmTG40aWVQVDJKVFVJZFlJOUdfNk5nYkQ5cU5FOUFZWG11Z0tFQXFoeDVwZWJWN0djSkNmOFUwcDBiTXU1QzFBY1VWUFowVG5KTzVyRFhOeXM0V05XT3JkR0pmYk53aFlDVzAwN1JZOW0xWEpDX2ZLNUVCSm5kQ0M0RVllOUhOLTdlQUdPRHJxMUZnLWpHZ3dGcDl3V0lpemRjb1Nsci1qenFPVzND?oc=5",
+        "sentiment": "negative",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH Limited (NSE:EIHOTEL): Why Did It Publish a Special Window Notice for Physical Share Transfer Re-lodgment? - Kalkine India",
+        "source": "Kalkine India",
+        "published": "Mon, 05 Oct 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQQ0VZb3g3ZEdIaXp2ZnUtbzcteUZzYklyMmZxM0NGa0lEejJ2amlRNlV3Yk9ZTmg4R2dIR2djRDFuUTZsTUx3WThZb0o0YjhSZ3I0VkxoaWpKTUJoazFqRjk1aHc4Wkc5S1VNaTE3NVNIb2pmeWt4aUFnWV9JVXFxbGs3eFRYMFBjS2dkX25XWkZpaXh3dnNyQU5uRkpETlBnOUtHTGUxdU1nRVQyOEJ5My1pNW5za2s2d3ZNbjVwSV85UmQwVGJ0NEttQzJIX3UyWF9xQzhYeGU1MlZiRnRmNUxydlJHT2Vt?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Be Sure To Check Out EIH Limited (NSE:EIHOTEL) Before It Goes Ex-Dividend - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Mon, 27 Jul 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNeDNlQ2l0VkE5R1k4VkVzU0tXSE8tWDBWeEN0ZmVMb3pTeDJMaDJqek04aWdVSjZFdmpQLTdfSmhNejFRb0NwZnB2ajhVaUQ0dldONU9tVUYtRFVRTkRzOVlOZ0Vpc2VyNlIySkduQ0U3TnFrTHZsajlkQTktVldzMDMwTHZkNmtnVE5HS2NpSHMtRHB0TzM2RWNQeTluWVF3RHliX1F1b2R6SlhnN09iUEV2eWRlbTdJd21fTUNTR2RkN3QxMzl4YktGM1k0ejZCWTBKU9IB2gFBVV95cUxNaS03RUJKSTZYVGdlTkdVb0l1OW9QWlBWaGYtX040Ny04T2Rwa3F1WXVzQkllQTlJY1FtZmNXVk9zdkU2aXphZUFRcXdKWnhZRkFOa2sxbG1yLWFmdVcwTGJxTmxMLUpmUmt3YXA1YWxTaURZS2xXWFo5VGIxekdaQ1NJTGx6aHBKZXJwNW9VYXhaV1BUNVQ4TmRkd3YxdzM3dFdJQmUxRzN3Y01QSmZrUWZhVGE1aTl6VWE4a1JBZzVaQWhxcHRaWnlGcHUzXzFlQURGSGhnMTRnZw?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH Limited Stock Prediction 2026: Expert Analysis, Forecast Scenarios and Full Stock Review - Univest",
+        "source": "Univest",
+        "published": "Wed, 10 Jun 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAyTXZWakF1V3JYYmVmNEk1QUV4MFdzNHB6eW9fenRQVEt4cXJXdV9LOU5KYnplVmRxOWNlMlFXdEpTakNNTVlUZm1UR1dVcUhTUVpUenNCbTdfdHpNbzJWX0hXVFRfUmJTSmc?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH Limited fixes July 31 record date for \u20b91.50 dividend - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Wed, 15 Jul 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQV0FsZHJMUWFzQWwyOUs5Yi12Q0NWY05jNTNQRTFycHR4X1g2UlhGd0RJZUVDM2Y0QUJNYmtvZEZoQlcyQkxQUGVxNTJxY0VTTlB3cTJhc1JUUzNsT25ST2paR3ZrWC0wTjRNRmdtbk9EWHRERFk3b00tU203cm9xOU1sNnZQZUdMTFJ4ck5WdTZoVWVabldqZ2RKVFBZLS1wZnVTcDhMRWhQcEUzUDNuVXNn?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH Ltd Shares Fall 2.6% After Q2 Profit Drops 12.4% YoY to \u20b9114 Cr - HDFC Sky",
+        "source": "HDFC Sky",
+        "published": "Wed, 12 Nov 2025 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYlBUSkpVOEt0TkszUUVqV2N3cVQ2UHpFX01qNUJ2b2piUks0ZmZicUZWQk1BTlFfQUdlUDVvRTJhZkNHN3ZLYlcyYmtaTXFzUDUtVWJMQko1RjMzSUJwNkxveWVLcTBOMVZjRGE4Q01OUkg5MFBuSjlMclJjNnpXOXZNbWVORUl5VE9zblI0Y0NHbVExS2pJ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH Ltd. Share Price Today | EIH Live NSE/BSE - Value Research",
+        "source": "Value Research",
+        "published": "Fri, 25 Mar 2022 08:48:44 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9kX0Vqb0d6VWZGdklIT1VhSjBCMU1yWVdwMVpkaGRkSjdycFBoZUFpTHJpcm8tYzZrU29keFdIdU9JWFZ1SG5hdXd6Z0JGZVhFQmdvckNUWnpYbm5ZNWhPNUd6R0pET09z?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH Limited EIHOTEL Trading Window Closure Q2 FY27 - Kalkine India",
+        "source": "Kalkine India",
+        "published": "Wed, 30 Sep 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcnRyazc3emZiYk9CU0s3TEVXZXpab1Z4UGZENjBGSVFlMmZtZWJ2UTE4ZDBoc0I3TkNmYzVlbXg0ajVQdFJGSWJjOFRsei10R2lHOVhmUExvbG1DYTl2bFZDQ1dpcFRlem5FcW9xOVpKQzgwZ0hZTW40b0RockM1ckZwNUtwN200OURraVNXVE1QNXZsb2V6THVDT0Q5RmZibF8xa3I4TTFuS3g0WU9zaFVTVnVsLXdNRFpaY0JZRHBrT0l3?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH Limited's (NSE:EIHOTEL) last week's 6.2% decline must have disappointed public companies who have a significant stake - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Wed, 28 Jan 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQM2tmMEZudVJEN2p1YWlxbmo1WlZub2YtWndzemNKcjRWU0VBSG1sUFRSaklVZFBSdkZsSnpXOUU0ZEx5NEV0elVGWXdfenFFbkVmWktZdTltOUZSNW1lQWlZY1dDaWpvMVBTbmg5N3dHV3JVaV9sSGdiaEU4SkNVRFVnbDk5MXlZU0NuZFJEbVVOR1FQZ0xJS1V5dWpUR3dIRURxbHc1WXl5bGxfOTBWdEZreU5oZWpfRUZ6MjhlVEFTd1NMVllZdXdJbEg4S19LSk5jbw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH posts 15% revenue growth in Q1 FY27, expands luxury hotel pipeline - ET TravelWorld",
+        "source": "ET TravelWorld",
+        "published": "Sat, 08 Aug 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQWTF3R21GbWYwYVBKTHd1OTBGaHZfbTVFcTREOHRta05KZ051cVJXc0R4X0VleEJ1cWN2dmpFSUZCWjM2bElBdnlTNlZoZGgyV2RFUkdSeWlmYlgzS3poc04zQUhJOGZ4eTc2YmFwOWFRLUZOWUpQXzVuN2trQ2dRUi1kTUZ0OEkwem9HT0lHa0FIby1oV1JrTjNzZEF5SzB4TGxwMk1DOWRILXN2OU5pYmloMXdBeFhkWnBsa2RIbUNfR25LTWs2cGxndWhaalZvcTNlUlhEZXVrNVRPTUF2NUhNaV9rVmY2RnMtNm8tTdIB9AFBVV95cUxPd1dVa19oR1BHY1d4ZTQxZ25HemVScWR4UllzRVh6alNvTHdiLXNWb3VkMGtnd3haZUtWNnZDajZsaEFWdEF6NHFnOUxNaTVIUDNIS2lPM0xvTGdzQk04Ym5NaVdvanV5bXBldkNGQ3ptSXpzblJKZ3dVU3NueWZoUnBpaHc5S3VIMmVrbTFTaVpUY3VxWkpCTlduaElGSUZRS0ZRSnlSdDVpckU0SnZTUVhvLWl2a1FfRVJGeWNtTlk1azNzUzJRWFVoN2p1Q0ZxYnJKT0VsSm1yVXBNaVhWUHR3cy11Rkc0WkdUOVlLb014RDk2?oc=5",
+        "sentiment": "positive",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH Hotels shareholders approve FY26 dividend, Modi reappointment - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Fri, 07 Aug 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWktObjlSakpvUXdpTDJBME9lRzJ4SFhPd2xyRXNHSGhyTkdnbVZzQWJxX2xxM0tybnhIMjBHcGhrZlpETDhsT3JqTHJXM0dxei1PWmdWN2xxYlhMaVJlT1g0Vl9UbkdqNV9lUVBJM0FMMENocFpETk5EaVlpWFgxVnQyMTdFU2E3UnFaeWlBcTU5UmlHRjc3dGNIb2thWFRQdDB6VTRPT0VSR2FROTZsMVZmUzhFSHkzQXc?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH Limited (Oberoi Hotels) Share Price Target 2026: Analyst Forecast, Growth Catalysts and Key Risks - Univest",
+        "source": "Univest",
+        "published": "Wed, 06 May 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1xVTN6YkNiM2pNLU1lcnNnaEs0RmlDYTNZV2IyUTRzdUxXODNIYXZrZ2dGT1E3TW9UdXVhY2JfaDJFNHNTMDZZLW03d2dmZjlZMm9jVjhHa0pnb1ZTS1hrR2tkYV9qTGNBTnJWWHR0Wm5mZmsxeDcxaU91MTNmWms?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Declining Stock and Solid Fundamentals: Is The Market Wrong About EIH Limited (NSE:EIHOTEL)? - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Wed, 17 Dec 2025 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOS01IV3ozLWo4c2dIT1RDc3ZyVkN2Vjk5R3dfd2JiNFB0RFpGeUhoRW4xMS1yVmtPbTVYbVF2QmxSeFdaVUVfUmxpclpNYS1JeV85V0d1aGV2NERjZmVJd3l1emJRc0NTcEZaYUJJOEtLSkNRbTBwbDEwYnZaTl9MWGNZY2Y2M2VTbkxnUGpCTTlGM0h4ZzM0dHlIZi0xT05vTnd1ZmM3dkVDSmp3T0FhdkZwSGN6VFNBQVhXRzlMWmY2SnFJZGNNS0poN3JXczdHOEY5OV9WdkJZeGPSAeABQVVfeXFMTUJtNlpmeGI3enBnRmpKNHhMd1RmX2ZCdFdDcjUzMDJFSFlmN2pKcjRqTGVvdkRrRndhTkkyTXFJUDBQVjdLYVh5NnExUnhmSHVOaGJEREdJZTJmS1l3ZS01NWNOOEluM3pETTMwYlp6VWhQeFVMQTJndk1xdFJvVldsajNSTzBxZUcwYVU1LWFPMmNieE1Pcy1lRGhwbmZYTWtfSnhhaVVyNkxzTnh6MnFzQVhmUEtQckJpOUJlRkRzeW5vUU1TVU5SeDc1QUt4WEdvYTY4Tm1CYXJYN2RvdlA?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Earnings call transcript: EIH Limited misses Q2 2026 EPS, revenue edges up By Investing.com - Investing.com India",
+        "source": "Investing.com India",
+        "published": "Mon, 16 Nov 2026 14:38:15 GMT",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPX3RNSW8yZ2x5bmVGbVVHUEhHV2huOUxUYV9yalMzdkdjaUJqRWQ1QWtRSC01U3FsSHZqREYyczcwSTRXRmxGbTlUclU4Rlp1VFpzb3VxQWU0ODUyem42WjdLSGczblJPRUVFWEFCVVZMRlRDOWxqakZHQjIyMWxFYThjSXlvMWp4Ry1YSUZHbUF4QlkwdXNYTWdza2R4dlFqV0VOY2hTM3ZlSVU0cXF5am1XMVBRdFhLUmZYWW5QWld5Q1dNQk9TQ2VTdi1jdw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH Limited files BRSR for FY 2025-26 with verified ESG data - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Wed, 15 Jul 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNGpIWkFvYkFWMHV1eEw2OHo2V2h4ZF9LQUFmNXpJOGVLeldXMEpBRkxMbWEzWjg4a1ZJQmhaX0lwdXZ1UE00V2JGWi1qNURwcWs1Q1RDMFFZOTdPZl82dDVBRDZZcEZSSVVJSEV3TlZBcFZPQ05NSHl4c09VMkRfbVVCZ25peU9VRG11UFZTd3R4MVhuVExLamdJQVJBeUR6T0E?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "5 Hotel Stocks India 2026: Strong Future Roadmaps - Univest",
+        "source": "Univest",
+        "published": "Tue, 25 Aug 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ldjRfUHp6Q2xDMzdFV01OUXBjY1lUMlBnVkEwQWlCSTlCQlFTNGZMVUxjcjdPTkFtRUw3amZlaldKY29OSllOdXlMeEpkcXh5SWdYWXdfamZnTlN6LVVxSTdKaFU4R3NYajJLTlIwdnZuQQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "low",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH Limited Reports Mixed Q2 FY26 Results Amid Challenging Conditions - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Thu, 13 Nov 2025 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOUpWZE5UU3hSR1lzUWVxNDZlUzZOQW1RUHBMczFSbGo2SkttSkdDVHBVcnprTmx0QUtBZHR6clp4aVJ3N2FLQUtlMWJfdUFQdFBPLTJRTHdTR05zNDBPb2llaEM3YW10SVFHUUNKZnlYTE5MLXRFMi15QmxJdDMyU0Jnd2gzY3JhN0hBeWlMT0x3UGJWM1ZfOGF3M1U2MFVIWXBkZmgtYWQ2YkNZcGxPQ25jNHpDNVcyRmNCaGxiUS0tWjQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH Limited Reports Strong Q1 Performance with 9% Revenue Growth and Ambitious Expansion Plans - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Thu, 07 Aug 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNUGJxN19rZ0dBdjBXd2hhWkgzTVcwZEtGcFVnY1JtVGRHdExVRnA4Njlja3NtZFB2OUJRVVlGSXQxcDhaM0pVQjUyVUx0dWVsQVhfYURMclpLbjlWaElmVk1ra3dBTHBPbFBlcTBhODR4S3lHcWk3WHdqVGNWZWZweml5MWVOdGJLb0FFYmJTcVI5am9KQTJKWDRsRXVKLWp3bzZFMng3ZXhIM1NpR0F5d1NmQ1VSb3hZYXl0eDd4NnFSdUE2Uk5yNGE0VHBPRlJWYXRwZFhCQWIxMWl6Sl83VHdXbw?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH Reports Mixed Q2 Results: Revenue Up, Profitability Down - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Tue, 11 Nov 2025 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQklfdDZHTlVpRHE4RWFTTzY3bkNxTmFhMlo4NEluTWtjM2lTa0hVSUNBbE9OeWFoTGRmNHZKSTB2LVg5Z0VReUZrNzBNUnNBQm4ySnlkU2g5UHFtS1Y1Z1dtQXdlX00yX2JiaXNabkxhOWhZVFBZa3ZCNU1XSEhoTk0ybFRUZlFXczYtY3QyOHo5NVZ4a3d6WVIwLUh6ei1WVm1TNVN0VC1VS3pqM0k4QWY4b0s?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH Limited Reports Rs 36.36 Crore Quarterly Profit Despite Rs 110.32 Crore Exceptional Loss - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Tue, 05 Aug 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUnAzUV9hYm5jLXJ0WVpmbWlKNDdYN0taeXBBNE9xLTJ6ZG5jRVRka1VIUEZNMFlQLWV1RXRQWmZYNnFFV18zWW9LcUsyQVJvcV9DUlpvT2xKbTVPdDJfM0tEN1pzbHhEZUl1TmEzZElYMGxYOXJEc0N1ZnBKdldHbVNSb3FjakdiX3ZZb3lJdTlrNlJWb2o0YlJ1ZGRIM0FEQ3dESTljTUQ5WHRFcVVWbFEzczdYYU9IOTZiRlB3U1FKMVdpOVZRcXducVNsT1hId2Iw?oc=5",
+        "sentiment": "negative",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIHOTEL Stock Price and Chart \u2014 NSE:EIHOTEL - TradingView",
+        "source": "TradingView",
+        "published": "Fri, 21 Jul 2017 02:26:51 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8yQTMtOWQ4X0RCOU5XWEdzOU5zZk5LbDgwYkExdXJWcGc2QUJFb1V6VkRvRHpCODl3bUxVZHQ4RTFJZXdkYWFsQnJKMzdDdVlRNDBMU1gyTUM0OVB6?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH jumps 20% on record Q3 earnings; stock up 150% in a year - Moneycontrol.com",
+        "source": "Moneycontrol.com",
+        "published": "Wed, 07 Feb 2024 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYTBMSTE4MUhGbE5yR0hHZkFCR184X1hrSS1SWW1LLS1UZDYxbDdkaERSdUNxSFlTRkJvc3VQUzNscU1vMUYtcUkxM1JBMFluY2s0RTN6VTdrUmE2THJ6NkdjYVV1Q00yaVhlYXVWaG5CaktVX3lvQlE1WVFIZnhERjFncG90V3RxNmg4QkQ5LWJZbFkzX1JEZUo2YTRldkt6bk92MXNKNDZMaEVyYzhoXy0yVkJrMHNfSm9udHplSdIBxAFBVV95cUxNQktaWDFjOVd2em95QUpDdmJpeFRtUTlxc0k5TjFoM3F4cTRCS0lzVkVrbG1oZGJCN3ZuNFpncTNVdFlwMlhPd1huNHhZZHpIMUNFTDlnNzZiOUVNbUczTm1UUEtZNGo0MGN3TXFKOEQ4N1IzdGdlRnJIeHpoakp5ZS1jTEJWdk1aM194cGdSQmxsZWdNUFh0Y25XWlhCWG9qMW1ZWVZOeV96S2ZrN2EwdzZzY21Ja1FHWXpnOE1VWm5oZzNq?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH Limited Reports Strong Q1 Performance Despite Geopolitical Challenges - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Wed, 13 Aug 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdWlDX0N2R05HZDZwNkNSbFpJY05MY0FPMlBTN0VqX2ZnVXE0azRtbHBwaDRVYmR0SUFOTFdPOVVHNlpxSkxkZ3FDenFIYnEzdkpfMlVJbzZiRml2QTNPeEdRSVVhbUo3dGV0Q3Y4RHNtNFduR2FXR0hYSnlXeVNITHRUTW91M2xjQ1c4WTdfSEVJNDVkdkRHNzMtaDJiLXczZ0tPLVZ3Vzl4d0poTzRsOUVoWlB5ZEJHdHdVZFRyNzNOVS1wOHd1VA?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH Limited (EIHOTEL.NS) stock price, news, quote and history - Yahoo Finance UK",
+        "source": "Yahoo Finance UK",
+        "published": "Tue, 19 Sep 2017 09:13:48 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5hcVBGNEdUUVc1U19SM3pTVzlZOURvU2ltanhDeXFhYnpSQmlTekZyMWM2Um1RVF9GZUtHb1BBS3lrMGtIcjZmdUN6eTJjQ29JNkVUTGV2NG9jZw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Stocks to Watch today, Dec 16: Biocon, EIH, Zee Media, HCLTech, MTNL, SBI - Business Standard",
+        "source": "Business Standard",
+        "published": "Tue, 16 Dec 2025 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPWHhhVUJDc1c1R0lVSnNxdVVrUmhPTEJTSDFhRnNvWDNETkRoTlk5eEFrVVJlQ0ZwMm0tZ0dGOHJKbzFtWWI2QVBhcms4Vm51cVFtY2tPcWRwaWhWbXZfRTBBaTZ4SThWY1VIWUFOaHN1RzhrdUdvZ0VWeGg2QWV6RWozdlR0Qkt1TzNEOWQxZDRTcVd5RGYzZzkyMDdJOW9SdmljMndYNkpZZEtyOXVzTktEbVpCRnJxUF9NQUJvQll2LUpRN3RucnBETzFZRy1vZFN0M3NhcTB0aGdZaERBVWRlSXdSekMwZUhPeWNlZlZrSTRoUXBCRXFudGJ6ZFlH0gGGAkFVX3lxTE05WGNvcnIzSUQxOTNJVjVPc1pPdFpuSThfYjROTmd5TVlwZ2o3RGZPcnFQb3FVS3JuTXdIcjhPbDlnVWlaSXlpRXh5UXNHRVpoNWZLSm1fMjlOdUpFbFIzNzNWQ21VcEV0b0RPYWRYRHY5MUdKQjFHazA5dEhMZkhEY3RwLVBOd25FQjhjOGhyUVVtQ0ZrQXhQVUNELTdPaFZHOTJHNUZiTnlEdVNVMEhaMk8yT2liWHpEY1UwNEFSR2NLNGVTLWVpc0NOY20xaHJWRzhLb1BpNk1zZjNKMG9YRzhuMDhDYmF2SGxiMmJrbVQ0Wk16UnVyWWRjSEJvQmFZcWVnSnc?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH Limited Unveils Four New Hotel Projects Amid Strong Q1 Performance - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Wed, 06 Aug 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNeERzNzFwWXdWZmtUS2VIbXdVcExzRm9pWGZOTm5oSnI1LVpnQVlRMEhfY1p4QzFaUGF1MmZ1ZmpkbkRtU2NIbllyRlNGakRoTE5LWDdSU3p1TzN5Q3BuZENtaEpSOVNhMFRfbGdMU0tsVXF5MGZNcW9JSUpUdWNNcTdPZi1tY3JNZ3laUENUeE8xYXlnb2tvUlJXd1hBRXFmUkhsWE5Sc1EzTXEySEhob3hTRzRKcFZ3dTRsVlNqM0dFakhablNXYWtGa3FxaEFE?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH Posts Q1 Consolidated Net Profit of \u20b9117 Crore, Revenue Hits \u20b9657 Crore YoY - Sahi",
+        "source": "Sahi",
+        "published": "Thu, 06 Aug 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaGdzcHFYLXJLTnpQWGJYbE5wOGoxOFF1Yld4QVhWUzVrcGJ0emZJYzRFbWx2eHRqT3J4RGZDeV9hYXlIMVVVa2g1LWdQUXJmb1pvMXR3dDNEMEVpWFQ0dEg0c2ptX0k5aVlpTFB4NFIySTVOVVplRXdGVk92X1pWT2tmV3hLMURtNFVRbUZlWi12aWl1NjBLMEpCd0IyakhKR0tLaC1ZeHBpc1lYSURuNi1pb0Y5UQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH Limited Expands Footprint with Four New Hotels Across India - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Wed, 06 Aug 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQ1ZkSV9fOUZHNDRwV3lwUXl4Ty1PSXdmN3VBNmtNTmxqQzA1UFZNdVh1WVNpTkxiOWltZkV2SllEdi1Jc0F5X1A1eExnWTVwdllQZkJzdjB4OXpQdFJ1bGZsdnBtcl92UTZZa0x1aXhaVUU0RV9US0ppekQ1MG91Ym8xRkNQVzBZY3RDOGRqYm5XR09pWWxkSGtnTWw5eGtpcTNWcUhFTVNQNG5TaGZuTGxpVmxacmthTy1sVi1zQ3dXNnQ3emk4?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "ITC HOTELS LIMITED Share Price - Live NSE: ITCHOTELS Stock Price & Chart - Upstox",
+        "source": "Upstox",
+        "published": "Tue, 05 May 2026 11:35:56 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE54ekEtS1BNTlF3VnN1bUg0YVpoTUVxdXc2THdfb19HMkw1czNrRDFaVHZpU2NraGVpYXlMZGJGamhhcTJsTjNLazJHMzltX3lxdlRySWVJM29Ob0Z1cmJpNHRfcDFfTzJj?oc=5",
+        "sentiment": "neutral",
+        "relevance": "low",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH (NSEI:EIHOTEL) - Stock Analysis - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Fri, 01 Dec 2017 06:57:35 GMT",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAwZjhwd19nTHlWajBYd1A5R1hWMzVhcm1fTmFudnJmbXZSYkJGR3JDYmtQbWREX0poZ00wN1M2emRUTVhPb0YyekRTUWNoMG81SUpaS09sNkFUSmg1SDYwcFFoMHFTM0FzbndnQU5hTmIwbmNLc1IyeUp6eGc?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH Ltd Share Price Today NSE/BSE Charts - Alice Blue",
+        "source": "Alice Blue",
+        "published": "Tue, 25 Aug 2026 21:36:24 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1NaDJjR0VNVFo4RjFLMjJzb1M5Y1RMdVBXNEVtN2RqaFBKWm5meW5uMGpXSmdiMXBRU1FFa3U4UGMwSWx1MHNuWm5kRjRobkozaXhkbFdjZ0N6Rk11NDZLRW9CYw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH Q1FY27 results: Net profit jumps 226% YoY, revenue rises 14.50% - Livemint",
+        "source": "Livemint",
+        "published": "Fri, 07 Aug 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRXByemhTN19laWQtbGhESWFWa19RN1k0RmFEM3J1RnNRN2kzLXprSndKWjlrQjIybHpoWVZkaG9yYUkwU09OMldrQWJCV2NhNG9GbWJYN0Jtbk5DaXBaTWhpUzVZM3ktamR2ajVJcllzYWdFeHJOc2pqN2Z5YlB3ZHBfSzN3Y0FHTzFNbGZ6WVpKUExjbk5tYkUxWFdXb3dFZTFsV2Z3UUhJZ1VLRzQ0SWpHMjVmbW5HdTFZYnRLNDRfRzY5T2c00gHMAUFVX3lxTE9hVVV2VUpQMTdNVUs5clRGX1BvZmZVMHZOUC1pMng0SDM3T0w5T0Jja0xNcWtxeUhBRmxHVGlEbTBFZEp5WlZHY1pEZ0pkY2w2SndOdzBLU1QxQy1oX2JpT3lpWm02M29zckIzUEVpdjdPejZzelFxRVU2OEIwcHZ0UVktLVAwOUtESlowVUpjakhrNWc1RGNYQ0I5QnVJaFJORGlfdFZFSDBCN1FrT3EzRDc0djRYZnFDd1ROYlhnTmV1bzhUUlZNVXE2cQ?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EIH shares in focus after ITC acquires 2.44% stake - The Economic Times",
+        "source": "The Economic Times",
+        "published": "Thu, 19 Dec 2024 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRXkybkNQU2xDT0J3SkMxOTgybU9EaW00aVppLUYwSk01MmNWQnNKbFlLYUR5VVM0LXNJWGdJLW9sY2JiV0U0bHN6dVc2S0hoR2ZOZkRYWm1sNFR1TF84bndyeVFONUc5aEVTWE1WZ1g0YkhjZUFxUmRaQjJKbnVXcjJZVVh1cC1JRWpHd1d1dXRSLTVJVGt2X3VKdkV1cU1HMDh4SFdJOUVCRlpHMjNTWnFqc1VzRFpqcW5XVGFpM03SAcYBQVVfeXFMT3NSaW9Ka005bHZYalhsNFJYem82TlpLZWVlYVRtSmFnVXF5Q2FaVFA3bXJDaUNtaU8tWWdLanJkRHowU0NaMTdaa0VOaWw4OTAwWkVVbHJmZEJ6Unpud0ljS0NJX2o5WkV1X01UOTlWbVhlRWV6bXc3WVhKQjBOVGRNU3FkVW85VE9fNW01Q1VVQ1RlWHdJdE5penZldEQtM2xfeUluNEs5ZWhNcEl5WC1yX2F3UVlMWDcwQ1JlMlJZLVpQdk9R?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "ITC acquires 2.44% stake in EIH and 0.53% in Leela Mumbai - The Economic Times",
+        "source": "The Economic Times",
+        "published": "Wed, 18 Dec 2024 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOekdsREsyVUJxV1VNejhOSmxHS1E0V1lXYTVxX21wcGYyWEprUkZMd2pqZ0dEXzFDM1RNMkhzTFVoYTlWblVUb2FncVlKamlYbHVGUFBRbjB0bC1nQld2a081aklOdUJzSFg0VE91T1dqNnpxZVZ0YVF2SDNMT1dBXzJhYWNIenRkc0trT25oM0FxT1VoUzMyR2dNeHhUTl84NTVselBQdUZpV0FDZkdITWY1SHNYN0JxbFd3b1BwVS01aXZVNUtPQ9IBzgFBVV95cUxNMWJMS1dVaGxuSVc4ZEQwaUxybkREZ2RSNzV1QVBHMXNUZEszRVhmNlRqX2ZqS0hPRGRyVUN6RUhCSGs4VDBUVlRnOHl0MG1uRDdtdjA0WTd3ZV9xUVRnSENzVEJSQllHVHg2ZFg3Q1hBOHZKOFo3LVRaSVh0Zjl5dnNCLXlsQlJiZU5kZWdUQVBmSktJZjd2SDd2anI1c3NkTEt0Qms4YWg1SGM1SV8zSXV4dU5lXzJMcC1ldlkwUlV4VjFYVFFrb0N6NGo3UQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      }
+    ],
+    "stored_new": 37,
+    "duplicates_skipped": 3,
     "note": "headlines are unverified signals, not confirmed financial evidence",
-    "_run_id": 1063
+    "_run_id": 1084
   },
   "8_risk_analysis": {
     "classification": "LOW",
@@ -226,47 +560,47 @@
       "promoter selling (source unavailable)"
     ],
     "shares_outstanding_growth_yoy": 0.0,
-    "atr_pct_of_price": 0.031168543015069765,
+    "atr_pct_of_price": 0.03288925657020851,
     "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
     "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
-    "_run_id": 1062
+    "_run_id": 1083
   },
   "9_fundamental_score": 59.0,
-  "10_technical_score": 68.0,
+  "10_technical_score": 64.0,
   "11_data_confidence": 72.0,
   "12_short_term_assessment": {
-    "score": 65.3,
+    "score": 62.5,
     "technical_view": {
       "timeframe": "daily",
       "trend": "sideways",
-      "rsi_14": 56.198834075498425,
-      "macd_histogram": 0.996328941039129,
+      "rsi_14": 70.54179000780765,
+      "macd_histogram": 2.156008969358451,
       "breakout": false,
       "breakdown": false
     },
     "entry_zone": {
       "low": 281.2,
-      "high": 286.03,
+      "high": 286.69,
       "basis": "near identified support plus half ATR buffer"
     },
-    "invalidation_level": 261.88
+    "invalidation_level": 259.22
   },
   "13_long_term_assessment": {
-    "score": 61.7,
+    "score": 60.5,
     "trend": {
       "timeframes": [
         "weekly",
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 316.65046126298193,
-      "price_vs_ema_200": "below"
+      "ema_200_daily": 316.82458467998634,
+      "price_vs_ema_200": "above"
     },
     "business_classification": "average"
   },
-  "14_investment_thesis": "EIH Limited (EIHOTEL) is classified as a 'average' business with a sideways technical trend. Balanced research score 63.5/100 (fundamental 59.0, technical 68.0, data confidence 72.0, risk 0/100 higher=worse). Supporting evidence: operating margin 30.6%: pricing power evidence.",
+  "14_investment_thesis": "EIH Limited (EIHOTEL) is classified as a 'average' business with a sideways technical trend. Balanced research score 61.5/100 (fundamental 59.0, technical 64.0, data confidence 72.0, risk 0/100 higher=worse). Supporting evidence: operating margin 30.6%: pricing power evidence.",
   "15_thesis_invalidation": [
-    "Daily close below invalidation level 261.88 (2x ATR under support)",
+    "Daily close below invalidation level 259.22 (2x ATR under support)",
     "Operating cash flow turning negative in the next annual report",
     "New critical governance or regulatory finding (currently unassessed items must be checked manually)"
   ],
@@ -296,17 +630,17 @@
     "rss_news (headlines, unverified)"
   ],
   "labels": [
-    "strong_technical_trend"
+    "neutral"
   ],
   "combined_scores": {
-    "long_term": 61.7,
-    "short_term": 65.3,
-    "balanced": 63.5,
+    "long_term": 60.5,
+    "short_term": 62.5,
+    "balanced": 61.5,
     "risk_score_higher_is_worse": 0
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-21 02:28 IST",
+    "generated_at": "2026-11-24 06:05 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-21 02:25 IST"
   }

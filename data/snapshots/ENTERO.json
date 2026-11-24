@@ -1,7 +1,7 @@
 {
   "symbol": "ENTERO",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:33 IST",
+  "updated_at": "2026-11-24 05:58 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Entero Healthcare Solutions Limited",
   "scores": {
     "fundamental": 40.0,
-    "technical": 60.0,
+    "technical": 55.0,
     "data_confidence": 72.0,
-    "risk": 20.0,
-    "long_term": 46.0,
-    "short_term": 54.0,
-    "balanced": 50.0
+    "risk": 10.0,
+    "long_term": 44.5,
+    "short_term": 50.5,
+    "balanced": 47.5
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 0.0,
         "max": 10,
         "detail": [
-          "P/E 62.3 (no industry benchmark): value 62.3 below all bands"
+          "P/E 59.5 (no industry benchmark): value 59.5 below all bands"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 66: 7/7 (value 66 vs threshold 55)",
+          "RSI 58: 7/7 (value 58.5 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,28 +111,28 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.346 below all bands"
+          "relative volume: value 0.361 below all bands"
         ]
       },
       "price_structure": {
-        "points": 10,
+        "points": 5,
         "max": 10,
         "detail": [
-          "uptrend (higher highs, higher lows)"
+          "consolidation / mixed"
         ]
       },
       "support_resistance": {
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (77% of range)"
+          "price mid-range between S/R (66% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "681 validated daily bars (value 681 vs threshold 200); providers may delay quotes ~15 min"
+          "682 validated daily bars (value 682 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -178,10 +178,9 @@
     },
     "risk": {
       "findings_contribution": {
-        "points": 20,
+        "points": 10,
         "max": 100,
         "detail": [
-          "high_valuation (moderate): +10",
           "high_volatility (moderate): +10"
         ]
       },
@@ -205,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 65.96188753016715,
+    "rsi_14": 58.48358907315179,
     "breakout": false,
     "breakdown": false,
     "support": 1434.0999755859375,

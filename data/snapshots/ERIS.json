@@ -1,26 +1,26 @@
 {
   "symbol": "ERIS",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:34 IST",
-  "status": "partial",
+  "updated_at": "2026-11-24 05:59 IST",
+  "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
     "technical": "success",
     "business": "success",
     "valuation": "success",
     "risk": "success",
-    "news": "failed",
+    "news": "success",
     "scoring": "success"
   },
   "name": "Eris Lifesciences Limited",
   "scores": {
     "fundamental": 51.0,
-    "technical": 44.0,
-    "data_confidence": 70.0,
+    "technical": 48.0,
+    "data_confidence": 72.0,
     "risk": 0.0,
-    "long_term": 48.9,
-    "short_term": 46.1,
-    "balanced": 47.5
+    "long_term": 50.1,
+    "short_term": 48.9,
+    "balanced": 49.5
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 3,
         "max": 10,
         "detail": [
-          "P/E 25.8 (no industry benchmark): value 25.8 vs threshold 40"
+          "P/E 25.1 (no industry benchmark): value 25.1 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 67: 7/7 (value 67.4 vs threshold 55)",
+          "RSI 64: 7/7 (value 64.2 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.266 below all bands"
+          "relative volume: value 0.237 below all bands"
         ]
       },
       "price_structure": {
@@ -122,29 +122,29 @@
         ]
       },
       "support_resistance": {
-        "points": 6,
+        "points": 10,
         "max": 10,
         "detail": [
-          "near resistance: reduced reward/risk"
+          "price mid-range between S/R (80% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
     "data_confidence": {
       "source_reliability": {
-        "points": 10,
+        "points": 12,
         "max": 25,
         "detail": [
           "yahoo_finance: ok",
           "nse_archives: failed/unused",
           "bse_site: failed/unused",
-          "rss_news: failed/unused"
+          "rss_news: ok"
         ]
       },
       "completeness": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 67.41848990475867,
+    "rsi_14": 64.24184674713055,
     "breakout": false,
     "breakdown": false,
     "support": 1069.0,

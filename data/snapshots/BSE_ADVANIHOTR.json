@@ -1,7 +1,7 @@
 {
   "symbol": "ADVANIHOTR",
   "exchange": "BSE",
-  "updated_at": "2026-11-21 02:28 IST",
+  "updated_at": "2026-11-24 05:59 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Advani Hotels & Resorts (India) Limited",
   "scores": {
     "fundamental": 45.5,
-    "technical": 34.0,
+    "technical": 44.0,
     "data_confidence": 72.0,
     "risk": 10.0,
-    "long_term": 42.0,
-    "short_term": 37.4,
-    "balanced": 39.8
+    "long_term": 45.0,
+    "short_term": 44.4,
+    "balanced": 44.8
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 6,
         "max": 10,
         "detail": [
-          "P/E 18.3 (no industry benchmark): value 18.3 vs threshold 25"
+          "P/E 18.5 (no industry benchmark): value 18.5 vs threshold 25"
         ]
       },
       "industry_growth": {
@@ -103,15 +103,15 @@
         "points": 12.0,
         "max": 15,
         "detail": [
-          "RSI 48: 4/7 (value 48.1 vs threshold 45)",
+          "RSI 45: 4/7 (value 45.2 vs threshold 45)",
           "MACD histogram positive: 8.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 10,
         "max": 15,
         "detail": [
-          "relative volume: value 0.175 below all bands"
+          "relative volume: value 1.12 vs threshold 1"
         ]
       },
       "price_structure": {
@@ -125,7 +125,7 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (64% of range)"
+          "price mid-range between S/R (57% of range)"
         ]
       },
       "breakout_confirmation": {
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 48.081574885204475,
+    "rsi_14": 45.19291618523148,
     "breakout": false,
     "breakdown": false,
     "support": 40.75,

@@ -1,7 +1,7 @@
 {
   "symbol": "EUREKAFORB",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:34 IST",
+  "updated_at": "2026-11-24 06:00 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -14,13 +14,13 @@
   },
   "name": "Eureka Forbes Limited",
   "scores": {
-    "fundamental": 47.0,
+    "fundamental": 50.0,
     "technical": 45.0,
     "data_confidence": 72.0,
-    "risk": 0.0,
-    "long_term": 46.4,
-    "short_term": 45.6,
-    "balanced": 46.0
+    "risk": 10.0,
+    "long_term": 48.5,
+    "short_term": 46.5,
+    "balanced": 47.5
   },
   "classification": "neutral",
   "explanation": {
@@ -70,10 +70,10 @@
         ]
       },
       "valuation": {
-        "points": 0.0,
+        "points": 3,
         "max": 10,
         "detail": [
-          "P/E 40.3 (no industry benchmark): value 40.3 below all bands"
+          "P/E 38.2 (no industry benchmark): value 38.2 vs threshold 40"
         ]
       },
       "industry_growth": {
@@ -103,7 +103,7 @@
         "points": 15.0,
         "max": 15,
         "detail": [
-          "RSI 68: 7/7 (value 68.1 vs threshold 55)",
+          "RSI 62: 7/7 (value 61.8 vs threshold 55)",
           "MACD histogram positive: 8.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.32 below all bands"
+          "relative volume: value 0.249 below all bands"
         ]
       },
       "price_structure": {
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (70% of range)"
+          "price mid-range between S/R (63% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "542 validated daily bars (value 542 vs threshold 200); providers may delay quotes ~15 min"
+          "543 validated daily bars (value 543 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -178,13 +178,13 @@
     },
     "risk": {
       "findings_contribution": {
-        "points": 0,
+        "points": 10,
         "max": 100,
         "detail": [
-          "no findings"
+          "high_volatility (moderate): +10"
         ]
       },
-      "classification": "LOW",
+      "classification": "MODERATE",
       "unassessed_items": [
         "auditor resignation history",
         "qualified audit opinions",
@@ -204,7 +204,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 68.07284390585762,
+    "rsi_14": 61.761496370981064,
     "breakout": false,
     "breakdown": false,
     "support": 299.79998779296875,

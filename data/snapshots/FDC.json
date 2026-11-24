@@ -1,7 +1,7 @@
 {
   "symbol": "FDC",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:35 IST",
+  "updated_at": "2026-11-24 06:02 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "FDC Limited",
   "scores": {
     "fundamental": 56.5,
-    "technical": 40.0,
+    "technical": 37.0,
     "data_confidence": 72.0,
     "risk": 0.0,
-    "long_term": 51.5,
-    "short_term": 45.0,
-    "balanced": 48.2
+    "long_term": 50.6,
+    "short_term": 42.8,
+    "balanced": 46.8
   },
   "classification": "neutral",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 6,
         "max": 10,
         "detail": [
-          "P/E 19.5 (no industry benchmark): value 19.5 vs threshold 25"
+          "P/E 19.4 (no industry benchmark): value 19.4 vs threshold 25"
         ]
       },
       "industry_growth": {
@@ -100,10 +100,10 @@
         ]
       },
       "momentum": {
-        "points": 7.0,
+        "points": 4.0,
         "max": 15,
         "detail": [
-          "RSI 55: 7/7 (value 55.4 vs threshold 55)",
+          "RSI 55: 4/7 (value 54.9 vs threshold 45)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
@@ -111,7 +111,7 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "relative volume: value 0.173 below all bands"
+          "relative volume: value 0.328 below all bands"
         ]
       },
       "price_structure": {
@@ -125,14 +125,14 @@
         "points": 10,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (72% of range)"
+          "price mid-range between S/R (71% of range)"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -204,10 +204,10 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 55.358803997851076,
+    "rsi_14": 54.94560885968969,
     "breakout": false,
     "breakdown": false,
-    "support": 330.1499938964844,
+    "support": 330.20001220703125,
     "resistance": 396.8500061035156,
     "trend": "sideways"
   }

@@ -1,7 +1,7 @@
 {
   "symbol": "EUROBOND",
   "exchange": "NSE",
-  "updated_at": "2026-11-19 15:34 IST",
+  "updated_at": "2026-11-24 06:00 IST",
   "status": "partial",
   "agent_statuses": {
     "fundamental": "success",
@@ -15,12 +15,12 @@
   "name": "Euro Panel Products Limited",
   "scores": {
     "fundamental": 42.0,
-    "technical": 22.0,
+    "technical": 31.0,
     "data_confidence": 72.0,
     "risk": 60.0,
-    "long_term": 36.0,
-    "short_term": 28.0,
-    "balanced": 32.0
+    "long_term": 38.7,
+    "short_term": 34.3,
+    "balanced": 36.5
   },
   "classification": "high_risk",
   "explanation": {
@@ -73,7 +73,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 12.6 (no industry benchmark): value 12.6 vs threshold 15"
+          "P/E 13.0 (no industry benchmark): value 13 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -103,15 +103,15 @@
         "points": 0.0,
         "max": 15,
         "detail": [
-          "RSI 41: 0.0/7 (value 40.5 below all bands)",
+          "RSI 38: 0.0/7 (value 38.3 below all bands)",
           "MACD histogram non-positive/missing: 0.0/8"
         ]
       },
       "volume": {
-        "points": 0.0,
+        "points": 15,
         "max": 15,
         "detail": [
-          "relative volume: value 0.685 below all bands"
+          "relative volume: value 1.72 vs threshold 1.5"
         ]
       },
       "price_structure": {
@@ -122,17 +122,17 @@
         ]
       },
       "support_resistance": {
-        "points": 10,
+        "points": 4,
         "max": 10,
         "detail": [
-          "price mid-range between S/R (34% of range)"
+          "near support: watch for breakdown or bounce confirmation"
         ]
       },
       "breakout_confirmation": {
         "points": 0,
         "max": 15,
         "detail": [
-          "last bar provisional (intraday): breakout confirmation withheld"
+          "no confirmed breakout"
         ]
       }
     },
@@ -165,7 +165,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1200 validated daily bars (value 1.2e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1201 validated daily bars (value 1.2e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {
@@ -207,7 +207,7 @@
     }
   },
   "technical_daily": {
-    "rsi_14": 40.505180731872265,
+    "rsi_14": 38.315757676104155,
     "breakout": false,
     "breakdown": false,
     "support": 121.30000305175781,
