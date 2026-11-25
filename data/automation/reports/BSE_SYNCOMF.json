@@ -5,11 +5,11 @@
     "name": "Syncom Formulations (India) Limited",
     "sector": "Healthcare",
     "industry": "Drug Manufacturers - Specialty & Generic",
-    "market_cap": 21544800256,
+    "market_cap": 22165200896,
     "website": "https://www.syncomformulations.com"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-24 22:59:02.695018+00:00",
+    "generated_at": "2026-11-25 22:10:36.917244+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -83,8 +83,8 @@
       "emas": {
         "ema_20": 21.201808981907806,
         "ema_50": 20.54651097274108,
-        "ema_100": 19.022199556633872,
-        "ema_200": 17.4508233930222
+        "ema_100": 19.02219955664831,
+        "ema_200": 17.45082666275988
       },
       "smas": {
         "sma_20": 20.63149995803833,
@@ -144,7 +144,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 17.4508233930222,
+      "ema_200_daily": 17.45082666275988,
       "price_vs_ema_200": "above"
     }
   },
@@ -158,7 +158,7 @@
     ],
     "sector": "Healthcare",
     "industry": "Drug Manufacturers - Specialty & Generic",
-    "market_cap": 21544800256,
+    "market_cap": 22165200896,
     "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
     "unassessed_areas": [
       "business model detail (needs annual report reading)",
@@ -173,12 +173,12 @@
   },
   "6_valuation": {
     "multiples": {
-      "pe_trailing": 21.828573,
+      "pe_trailing": 22.457144,
       "pe_forward": null,
-      "pb": 4.643436,
-      "ev_ebitda": 20.378,
-      "ev_sales": 3.909,
-      "peg": null,
+      "pb": 4.777148,
+      "ev_ebitda": 21.01,
+      "ev_sales": 4.03,
+      "peg": 0.84,
       "dividend_yield": 0.44,
       "industry_pe": null
     },
@@ -210,10 +210,10 @@
   "7_news_intelligence": {
     "items": [
       {
-        "headline": "Syncom Formulations (India)'s (NSE:SYNCOMF) Solid Profits Have Weak Fundamentals - Simply Wall St",
+        "headline": "Syncom Formulations (India) (NSEI:SYNCOMF) - Stock Analysis - Simply Wall St",
         "source": "Simply Wall St",
-        "published": "Sat, 21 Nov 2026 02:12:09 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNVDdtS1I1cktoVEtxSGY3d25sdHdtMTliSkpNSG9GUnZWWlFLbThBZ2ZNRWZRQUN0V0hmOTd3dmgzWUM0RHN2bkZLNmJRRGhXMnAxUERBZ1ZFdUxHLTJweE1IajJiQTdHLUo4dDZQN1MyVGs2VDZURkt5bmxyak16c2UwYnVOREdDMnlMTDJRNnl3RVBHZXlWRy00U0ZhRDVTaVNaSkhxVWtmLV91enZhdnB6eDI2UmNtRTNwUUdxUExLQUdKaGJoSzVHelBSZDNwWFdZOUZsV1hlbHh0SlZ6SmdQSF9GX2VOQklYa202ZjFScFpyQW1MMTNn0gH_AUFVX3lxTFBXd21xOWE4V2dWclhER1d1WWVXWEtqR3VWOXRwYk1pdEQ2MHIwRW0tTVZiMmNfdkdLVlppeVdyXzk4bm4xVXlqMWtMTWtXckxUQXdfX0t5dGFKLVZBbGFsekpGQlBmT1E2dDNSWV92LVROSXVDREtiSGZFN3VpbmkybVE3OEtaWGxDNWp5UVZfRDJqNWY3dmVlNHpBaEozNGxfNVlmVzhtdGpaX1hIai1hb0VfeVUzcVN2anZSeTd0SmNuNmg0a0NOR2FmYzN5YXNpd0lZblhsT0JRLWZqOWZzclNIN2JJQV9GZjhVV0ZlNXhoSHd3LVFKVUk5eGgxWQ?oc=5",
+        "published": "Mon, 23 Nov 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTS1QOENpdlhzb2lXbmxKZ1VVd1h2Q1k0S0xrajJ1dm1BOFJGbkRjOGt0UjVySnFxY2Zja25ZaURKdWRSdmZKNzJaNkdqOUJKay0wbGJ1bldNaUVRcms0WDdVWDlZa3hNMDRubW1ZODU1NHVSM0VKNFNZZ0V1YWxybFo3SlNfSGdObURaRFZhVVNFekVpQS1KeVlDTE1ock1HRVE?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -234,6 +234,15 @@
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcmZTWGdMUnpOWmpfbGw5aWx0dFdNQ3JjTzQ5TnpqVGYtX0FkMVRxSG1CMzAyZzZOa0t5Nmxpb0hsLXBYVFE2T1k0R3dKa2Z1UWZZOWxaLXo5MHduZVRacDB6VU5oRC1weDh2RFktZDFUMUtJdmtGM1FtclBKU0h0SUlkZHMtODRIbmI0S19UTzBUeGppY29uczU4NmhtcTVjNkpuVGdYQlZ4ZkxSNTc4MUM3Y2dvZzRxYkg4U1YzWTRNOS1U?oc=5",
         "sentiment": "positive",
         "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Syncom Formulations (India)'s (NSE:SYNCOMF) Solid Profits Have Weak Fundamentals - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Sat, 21 Nov 2026 02:12:09 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNVDdtS1I1cktoVEtxSGY3d25sdHdtMTliSkpNSG9GUnZWWlFLbThBZ2ZNRWZRQUN0V0hmOTd3dmgzWUM0RHN2bkZLNmJRRGhXMnAxUERBZ1ZFdUxHLTJweE1IajJiQTdHLUo4dDZQN1MyVGs2VDZURkt5bmxyak16c2UwYnVOREdDMnlMTDJRNnl3RVBHZXlWRy00U0ZhRDVTaVNaSkhxVWtmLV91enZhdnB6eDI2UmNtRTNwUUdxUExLQUdKaGJoSzVHelBSZDNwWFdZOUZsV1hlbHh0SlZ6SmdQSF9GX2VOQklYa202ZjFScFpyQW1MMTNn0gH_AUFVX3lxTFBXd21xOWE4V2dWclhER1d1WWVXWEtqR3VWOXRwYk1pdEQ2MHIwRW0tTVZiMmNfdkdLVlppeVdyXzk4bm4xVXlqMWtMTWtXckxUQXdfX0t5dGFKLVZBbGFsekpGQlBmT1E2dDNSWV92LVROSXVDREtiSGZFN3VpbmkybVE3OEtaWGxDNWp5UVZfRDJqNWY3dmVlNHpBaEozNGxfNVlmVzhtdGpaX1hIai1hb0VfeVUzcVN2anZSeTd0SmNuNmg0a0NOR2FmYzN5YXNpd0lZblhsT0JRLWZqOWZzclNIN2JJQV9GZjhVV0ZlNXhoSHd3LVFKVUk5eGgxWQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
         "verification_status": "unverified"
       },
       {
@@ -309,38 +318,11 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Syncom Formulations (India) (NSEI:SYNCOMF) - Stock Analysis - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Mon, 21 Nov 2022 16:01:24 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTS1QOENpdlhzb2lXbmxKZ1VVd1h2Q1k0S0xrajJ1dm1BOFJGbkRjOGt0UjVySnFxY2Zja25ZaURKdWRSdmZKNzJaNkdqOUJKay0wbGJ1bldNaUVRcms0WDdVWDlZa3hNMDRubW1ZODU1NHVSM0VKNFNZZ0V1YWxybFo3SlNfSGdObURaRFZhVVNFekVpQS1KeVlDTE1ock1HRVE?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
         "headline": "Syncom Formulations (India) Limited (SYNCOMF.BO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
         "source": "Yahoo! Finance Canada",
         "published": "Wed, 24 May 2017 23:20:00 GMT",
         "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5XSzNNZmFZZ0lrVlFIemhPYk9HVWZ4MW5OMXo2b1hfVGVzRlhZMjFDeGlpVkVzMWF4R2ZqLVdyeVpQTEJXMTdoU1hZdWJxLXFNUFpRTnA2QkJYQQ?oc=5",
         "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Syncom Formulations (India) (NSEI:SYNCOMF) - Earnings & Revenue Performance - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Mon, 21 Nov 2022 16:11:57 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZGxTZ0R5bGU0N1VsQXpRZGJQV1o5WjdLOHBQQ2hkY2VPR1E3bXZDT2xGREUxd0Zha05FTTN0MEF3SEF2WnJ5VllDelJlbEJNTG9WV3BIREIzRGlSOVA0MFNWZ1Nhc1luYmx4T2tpN0VRU3ZVQmRDeDd4em9mVmFXXzczX3ZYYURTVTFqZWRkMlNJR2FRZDE4ZTJlT2U2YUpWWW0zZUlSTmw?oc=5",
-        "sentiment": "neutral",
-        "relevance": "high",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Syncom Formulations CFO Rahul Vijay Bankda resigns for new role - scanx.trade",
-        "source": "scanx.trade",
-        "published": "Sat, 08 Aug 2026 08:06:11 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSjEwMUFuaEVhMGFwRGlTdm05NC1DRHpfN3U0V0FQd1RKeWRSOHRkMWVGcDJEYklnbGRTS0lKSjBoWGZWMGNhZzNzSFU1eFlLVGJWVWRuOXlyaW04RHNZbkVTbXl3Z1drUklwbFcyZUhCWWFTV1FZT1Y0LUUtLXNaTTBCZnd5cjVhd2wwaGdoMGpCcncxQTNfTkRYSGRuSjlvdW9hS1REWk1SRzYxQzVhYmE0RkMtdlZMbnRudA?oc=5",
-        "sentiment": "negative",
         "relevance": "medium",
         "verification_status": "unverified"
       },
@@ -354,10 +336,10 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Syncom Formulations MD Vijay Shankarlal Bankda resigns on Aug 11 - scanx.trade",
+        "headline": "Syncom Formulations CFO Rahul Vijay Bankda resigns for new role - scanx.trade",
         "source": "scanx.trade",
-        "published": "Sat, 08 Aug 2026 09:53:04 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdFB6ekpWMHBTTTJHWExMbzBhNTZqQWVQX3RyUjc5WFRDa0RlS0hNc2hYenpJaEYyWlIwMnVCRF9QZDlTNmxtZDlrYUpUbVVYYnRJem9BSDlVV2VwRmJFbHZzVXh6SlFNR2FPYnd0MTNXMG1JM3dxZm1xSjhlQjFKY2JCd2tRUmd2aWR1X0M3eTFaY3MydzhISVNqa3ltU3d5ZnRhakhLUzdOOTBrcjk5WkVvRVVDWEFsU19sdm9n?oc=5",
+        "published": "Sat, 08 Aug 2026 08:06:11 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSjEwMUFuaEVhMGFwRGlTdm05NC1DRHpfN3U0V0FQd1RKeWRSOHRkMWVGcDJEYklnbGRTS0lKSjBoWGZWMGNhZzNzSFU1eFlLVGJWVWRuOXlyaW04RHNZbkVTbXl3Z1drUklwbFcyZUhCWWFTV1FZT1Y0LUUtLXNaTTBCZnd5cjVhd2wwaGdoMGpCcncxQTNfTkRYSGRuSjlvdW9hS1REWk1SRzYxQzVhYmE0RkMtdlZMbnRudA?oc=5",
         "sentiment": "negative",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -370,18 +352,9 @@
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
-      },
-      {
-        "headline": "8 Debt-Free Stocks Where FIIs Increased Stakes in Q3 FY26; Are They in Your Portfolio? - Trade Brains",
-        "source": "Trade Brains",
-        "published": "Sun, 15 Mar 2026 07:35:54 GMT",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMFI3MWVqLWs5QXd1bGx4R3ZSZ3BnVkRaeVFNYWVkbTZVR0pxQ1h0ZUtpZHVBNjNFYkdEenpMRDNKM3F1Y1gzN3g5dmM4VE9LY0cxcjNfeW9uTmUyb2NoRndOekQ2UlI2RWhWV2RLckdJU3JScDkzNWZMM1Njc1hfZl9TWEhjVXRGNGFNd0tWNndJeHMzd3Mzdy1TcFJnSnl3dG11dXc2NzJhV2N5?oc=5",
-        "sentiment": "neutral",
-        "relevance": "low",
-        "verification_status": "unverified"
       }
     ],
-    "stored_new": 19,
+    "stored_new": 16,
     "duplicates_skipped": 0,
     "note": "headlines are unverified signals, not confirmed financial evidence",
     "_run_id": 1056
@@ -394,8 +367,8 @@
         "severity": "moderate",
         "evidence": "ATR 5.7% of price (>4%)",
         "source": "computed",
-        "date": "2026-11-24",
-        "detected_at": "2026-11-24 22:59:02.386360+00:00"
+        "date": "2026-11-25",
+        "detected_at": "2026-11-25 22:10:36.580907+00:00"
       }
     ],
     "unassessed_governance_items": [
@@ -440,7 +413,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 17.4508233930222,
+      "ema_200_daily": 17.45082666275988,
       "price_vs_ema_200": "above"
     },
     "business_classification": "average"
@@ -487,7 +460,7 @@
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-25 04:29 IST",
+    "generated_at": "2026-11-26 03:40 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-24 06:05 IST"
   }

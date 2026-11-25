@@ -5,11 +5,11 @@
     "name": "Jamna Auto Industries Limited",
     "sector": "Consumer Cyclical",
     "industry": "Auto Parts",
-    "market_cap": 53849878528,
+    "market_cap": 54489993216,
     "website": "https://www.jaispring.com"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-24 22:59:23.909206+00:00",
+    "generated_at": "2026-11-25 22:10:58.370934+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -73,7 +73,7 @@
       "2026-06-30",
       "2026-09-30"
     ],
-    "_run_id": 1100
+    "_run_id": 1107
   },
   "4_technical_analysis": {
     "assessment": "sideways",
@@ -83,8 +83,8 @@
       "emas": {
         "ema_20": 136.83512676874892,
         "ema_50": 134.6342837869624,
-        "ema_100": 132.23894002863457,
-        "ema_200": 127.72826994485598
+        "ema_100": 132.23894002875414,
+        "ema_200": 127.72829686605837
       },
       "smas": {
         "sma_20": 133.90000076293944,
@@ -102,8 +102,8 @@
       "atr_14": 6.438953318611692,
       "bollinger": {
         "middle": 133.90000076293944,
-        "upper": 150.52028003321374,
-        "lower": 117.27972149266513
+        "upper": 150.52028003321377,
+        "lower": 117.27972149266512
       },
       "volume_sma_20": 151674.7,
       "relative_volume": 0.6548092727396196,
@@ -144,7 +144,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 127.72826994485598,
+      "ema_200_daily": 127.72829686605837,
       "price_vs_ema_200": "above"
     }
   },
@@ -157,7 +157,7 @@
     ],
     "sector": "Consumer Cyclical",
     "industry": "Auto Parts",
-    "market_cap": 53849878528,
+    "market_cap": 54489993216,
     "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
     "unassessed_areas": [
       "business model detail (needs annual report reading)",
@@ -168,16 +168,16 @@
       "expansion projects / order book",
       "management quality and corporate governance depth"
     ],
-    "_run_id": 1102
+    "_run_id": 1109
   },
   "6_valuation": {
     "multiples": {
-      "pe_trailing": 20.487062,
-      "pe_forward": 16.825,
-      "pb": 4.518143,
-      "ev_ebitda": 12.782,
-      "ev_sales": 1.929,
-      "peg": 0.17,
+      "pe_trailing": 20.730593,
+      "pe_forward": 17.025,
+      "pb": 4.5718503,
+      "ev_ebitda": 12.896,
+      "ev_sales": 1.947,
+      "peg": 1.44,
       "dividend_yield": 1.85,
       "industry_pe": null
     },
@@ -204,7 +204,7 @@
     "dcf_not_calculated_reason": null,
     "margin_of_safety_vs_base_case": -0.3126003825413917,
     "current_price": 134.9499969482422,
-    "_run_id": 1103
+    "_run_id": 1110
   },
   "7_news_intelligence": {
     "items": [
@@ -241,15 +241,6 @@
         "published": "Thu, 25 Jun 2026 19:38:36 GMT",
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9kQnVobXlNaWMtQzR1TWNscm9NTUZQaUU0c21VX190UU9JQlVFZ1NnTVBud2hzeTlNN2tWVDh5QUozRDh1VHlJRnFhTlNxaTJsYVd0Vk9wMXRhSjNfQ055QTZ5WWRCbVAtQ3Q1c3huLUVndHQtZUNkTUx4eHM?oc=5",
         "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Auto Ancillary Stock Gains After Announcing UK Acquisition Worth GBP 2 Million to Expand Global Presence; Check Details - Dalal Street Investment Journal",
-        "source": "Dalal Street Investment Journal",
-        "published": "Sat, 25 Jul 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOVkdrM2hncGxqQ0ktVTFwdHYwV0xiaXpQTXZ5UG9Xc1pzeHpjSHhCeEhPX0hoaTdqdGxBSGFEOFNqS1JnNVF3VUlBZ0NYYVBQYVF6WHV4V0Q1Tl9RS2tPZUhVaFVwdFhsbERzSFk1SEVyUEpCUGNlN0kwbjBaN2FxYW5EdC1YemFERU12QVNzbVI2eFJMaFlfWThEMXdZSGpCYmxEaVd1R0ZDdEI0ZjdFT0xvUUFPSjJhVXdhTmd4a3dPb1p4LUNyUXU5ZmU1dFhwejNMNDlKYU9zanR0eXpxOVN6Qm1KWXpReTJ2ZHJLRTA1dVhsSlVCbnJwMA?oc=5",
-        "sentiment": "positive",
         "relevance": "medium",
         "verification_status": "unverified"
       },
@@ -299,15 +290,6 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Stocks to Watch Tomorrow - Dalal Street Investment Journal",
-        "source": "Dalal Street Investment Journal",
-        "published": "Tue, 01 Sep 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9IS0dpTTZSNXlsTzFlOFNZVElmc0hnQ2hRN05PTVdIUkM0cUNMbHhjeEJhbFIxVEtOQ3JmSFlkcmQ4WW01X25ubVVlZ2s1TV9DSmI0R29lYkZoVXFTZ2VCUEIzTjhwUjJqX3BPTmZnWGZJVGtfMzFxc250dTRGUQ?oc=5",
-        "sentiment": "neutral",
-        "relevance": "low",
-        "verification_status": "unverified"
-      },
-      {
         "headline": "Jamna Auto Industries Limited (JAMNAAUTO.BO) stock price, news, quote and history - Yahoo Finance UK",
         "source": "Yahoo Finance UK",
         "published": "Wed, 21 Feb 2018 17:12:25 GMT",
@@ -335,19 +317,19 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Jamna Auto reports record revenue in FY26 led by volume surge - scanx.trade",
-        "source": "scanx.trade",
-        "published": "Fri, 29 May 2026 09:12:57 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNN0xMWWRvZkFmM0NTVmVKc0hjSDJ4cVdhTl9WWklJOU13Z1lDV3JBTmxZT2dBOVhZMlY2NjJ0TUh2c0ZlVFRxb3FtT29OWU81SDlPZGxwWnM2YkFXYkpqdkVHbjhHNm9vY3dRNWY3VDFtQmZnR2Y4dXpJaXk0eloxRlpTVUdJaXlyN1pQSU1PcjQ5dnkxUE9UMXpWeVVSTDFIZ09qLTgzYXVhOEZIWnJJNHBVRS16eHMwZEE?oc=5",
+        "headline": "JAMNAAUTO Stock Price and Chart \u2014 NSE:JAMNAAUTO - TradingView",
+        "source": "TradingView",
+        "published": "Fri, 21 Jul 2017 03:29:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1EVklFWDdQOWdXQy1uVGIxeXYyUVV4R05obWNodGdnQ0dEOTQwTlVzcno2bGtNLUd1QkRrd1VWRkc3WUYtZ1JYbUV1SmVJSVpiZDZjYUJ6T2ZmdEZvYXU0?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
       },
       {
-        "headline": "MAP Holdings Limited Declares No Encumbrance of Shares in Jamna Auto Industries Limited for FY26 - scanx.trade",
+        "headline": "Jamna Auto reports record revenue in FY26 led by volume surge - scanx.trade",
         "source": "scanx.trade",
-        "published": "Fri, 24 Apr 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQQ05lLWtOeDRfTVZuR3N1cFJ2Yk1GZkFFZGxjOF9RMzFwVU1ISFBEcGxhSWpnMkp0cjVHUU5PNHNXeGFuMmVKUGZqWUUtdFJHOXZ5LS0wb3lNMTMyWmFjYk9rN2V3dFVJSzNXa0ZyQlNWOF9mT1NTZTZmNVA4SXVxTXNORkVJakpUVUNCcHZCMDVEMXN5eTFnZUlGMGliMkIwbEZGaUZzZW5LWHNxM3BJenBmdTd4OEU1eDY3eHpFZV9Qa0Uza1hLUUtNelprV0ZXdWVRdDJONDd0MHJjMmFxag?oc=5",
+        "published": "Fri, 29 May 2026 09:12:57 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNN0xMWWRvZkFmM0NTVmVKc0hjSDJ4cVdhTl9WWklJOU13Z1lDV3JBTmxZT2dBOVhZMlY2NjJ0TUh2c0ZlVFRxb3FtT29OWU81SDlPZGxwWnM2YkFXYkpqdkVHbjhHNm9vY3dRNWY3VDFtQmZnR2Y4dXpJaXk0eloxRlpTVUdJaXlyN1pQSU1PcjQ5dnkxUE9UMXpWeVVSTDFIZ09qLTgzYXVhOEZIWnJJNHBVRS16eHMwZEE?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -359,6 +341,15 @@
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcmgyRTB3bFAwV2l2U19EZnhDaDE5d05udVNoNS1oOGVqWmhzaHRvbVZZdzJ6bDZEOERyR3JRcXIzZkxJODJ3alZUcFlBT1lubnRac3BpRnNvS0Zqc0Nya2JMd1dTeFQ3WDF5ZFJrM3pId0QydEdPelY5SE5KU1hQZEFwU0IyeXE2SWZqdE1nMkc3OXp1b3RPOEx5RzY3SGQyNnB3Mk9ZMzVVd3V1aENUQzVKdEtmYkRGQjFsVURTd2FHeDRpTkE?oc=5",
         "sentiment": "neutral",
         "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "MAP Holdings Limited Declares No Encumbrance of Shares in Jamna Auto Industries Limited for FY26 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Fri, 24 Apr 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQQ05lLWtOeDRfTVZuR3N1cFJ2Yk1GZkFFZGxjOF9RMzFwVU1ISFBEcGxhSWpnMkp0cjVHUU5PNHNXeGFuMmVKUGZqWUUtdFJHOXZ5LS0wb3lNMTMyWmFjYk9rN2V3dFVJSzNXa0ZyQlNWOF9mT1NTZTZmNVA4SXVxTXNORkVJakpUVUNCcHZCMDVEMXN5eTFnZUlGMGliMkIwbEZGaUZzZW5LWHNxM3BJenBmdTd4OEU1eDY3eHpFZV9Qa0Uza1hLUUtNelprV0ZXdWVRdDJONDd0MHJjMmFxag?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
         "verification_status": "unverified"
       },
       {
@@ -376,33 +367,6 @@
         "published": "Thu, 16 Apr 2026 07:00:00 GMT",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX1U1OGxWMTBfSUpjTmpFZGZrUjUxbjJOMzlYZXpxbGR3bFRsczZMMko0d3BlemEtcDRFQjhQNnpGSWhWYkVaT2xsM0xzbVpNR0xUZ3RSM1hoUllhZkRaVEdWSC16N2F5OVE4RHl6Z2ZoazlGVXhtZWFjLWNVeUZaczVobVA0SmpwQTlDOWI2T1E2aHd1Qkcya05UTWhxREIwZWxJNE5JUHZVYmZnemduWFY2cVgxb05hQ2wxS1hyYXphUQ?oc=5",
         "sentiment": "positive",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Jamna Auto Industries Limited (JAMNAAUTO.NS) stock price, news, quote and history - Yahoo Finance Singapore",
-        "source": "Yahoo Finance Singapore",
-        "published": "Thu, 24 Aug 2017 07:23:23 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBILWdyNGgtSlhKUUZ2RXhhNnpNNlZ2WEs2c3g3a3lpdElSdDZYN1l2YXg5cFJPT05XeXRjMmVxVGM0RGRjanNoNlZBZHBibnNRS2VEeDZfbzVzcmts?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "JAMNAAUTO Stock Price and Chart \u2014 NSE:JAMNAAUTO - TradingView",
-        "source": "TradingView",
-        "published": "Fri, 21 Jul 2017 03:29:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1EVklFWDdQOWdXQy1uVGIxeXYyUVV4R05obWNodGdnQ0dEOTQwTlVzcno2bGtNLUd1QkRrd1VWRkc3WUYtZ1JYbUV1SmVJSVpiZDZjYUJ6T2ZmdEZvYXU0?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Jamna Auto Industries Limited (JAMNAAUTO.NS) stock price, news, quote and history - Yahoo Finance UK",
-        "source": "Yahoo Finance UK",
-        "published": "Mon, 31 Jul 2017 10:42:53 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5QNmhoM0hUVlBGQTlkX3lkb29FSjV3ckNyWUNnTTVvWkRYMXRvODJxejRpZXU2czRpajlzN2RzN202cEJXSkVoQTBwQ3Atc0FqREJBZ05Sc1V6Um10?oc=5",
-        "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
       },
@@ -434,21 +398,21 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Rico Auto Industries Limited (RICOAUTO.NS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-        "source": "Yahoo! Finance Canada",
-        "published": "Sun, 09 Jul 2017 15:58:17 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vUVFWSFJCZm5tQU03V0ZBM3NNYms4ak9QaWZyRTNrN1M3U3RncWh0eXV5V18yUlRPQy16WVpjeWdUQzhWenVCQkNldnlJNzVVdEc4eXJLZ0tITTg?oc=5",
-        "sentiment": "neutral",
-        "relevance": "low",
-        "verification_status": "unverified"
-      },
-      {
         "headline": "Munjal Auto Industries Limited (MUNJALAU.BO) stock price, news, quote and history - Yahoo Finance UK",
         "source": "Yahoo Finance UK",
         "published": "Sun, 02 Jul 2017 13:03:42 GMT",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5VWlltLWtZaHoyX0hxSlE2QV9YUXBjeUhyOUNpRFcwb05lOGdybG9rS3JHaTBCUFZ2eVE0Q2FLV3hCN19hWWVyNmZ0aGFVYld3XzFaUVZDZ3pZdE0?oc=5",
         "sentiment": "neutral",
         "relevance": "low",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Jamna Auto Industries (BSE:520051) Dividend Yield, History and Growth - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Mon, 08 Aug 2022 07:39:02 GMT",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQkRRQWpWWGo1UXdsakM1RHlsU21McHNRVVB2TTlBOEdhQzVUSmJwRS1SSTdRckNzdlhQcWMtLXVVOWpMal9pTFJEQTNORHpFbm5rOUNJc2djSVhldklucFJYc0x2d3dJZ1BWUkdMelo4aXNuM0NXUEN0U3dxcHZYelZIbnk1R1pyamRvZkUyVU5BX3ZOdzE2RUdB?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
         "verification_status": "unverified"
       },
       {
@@ -459,66 +423,12 @@
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
-      },
-      {
-        "headline": "ASKAUTOLTD Stock Price and Chart \u2014 NSE:ASKAUTOLTD - TradingView",
-        "source": "TradingView",
-        "published": "Wed, 15 Nov 2023 10:36:57 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5rRzVkWjNtc2pYenRoeXotYkJMWG10cHhfazlhb25aRksxTTVsRDdOa0xzdFhRV1ZwU0VLNVpSQWFLVU8wT1N0VFRGUnRIYXlRcjNrdXRkVFFUREJJRmhjcw?oc=5",
-        "sentiment": "neutral",
-        "relevance": "low",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "High Dividend Yield Auto Parts Stocks under Rs 1000 - Alice Blue",
-        "source": "Alice Blue",
-        "published": "Sat, 31 Aug 2024 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRlRCSnp6NTNRdWxoTkpQNnBVVnNodWRSQThVUV9ZUlZIUWFuWEwwaDNva2xGR3JKYndCbm91amVoU2dxWGJCRWtWc1EzMkQtekpsUGhQcEJUTXlTTGs1aDlhUEl1VDV0UTd5S1NnSTlDVC1Hc0lQQmp0S1gzOEUxOTBmb0ZiZzFfbVUxVk0wUQ?oc=5",
-        "sentiment": "positive",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "FIEMIND Stock Price and Chart \u2014 NSE:FIEMIND - TradingView",
-        "source": "TradingView",
-        "published": "Fri, 28 Jul 2017 19:03:55 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE00MXhtY0pfQ2dHeXpaR0p6UXdrNHZBSFlPUUdNSXVuNEtONFlSYmU0ejVZNVNIMk9mcm5jaUMxaWd6OUF5Xzg3a3ZCLVJyMmJ3RUtpdkp0VTExdXdO?oc=5",
-        "sentiment": "neutral",
-        "relevance": "low",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "SJS Stock Price and Chart \u2014 NSE:SJS - TradingView",
-        "source": "TradingView",
-        "published": "Mon, 15 Nov 2021 12:00:42 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5zdTlGRXNlNldXTjZ6V3hRUVkyUHJYbHlSOG5YZG8xN2Z6VFF6Y1FsSlVlTC1Nb05VeFNjWjRibDZWSHdObkpTaUpGSHBNb3hpMlpfUl84dw?oc=5",
-        "sentiment": "neutral",
-        "relevance": "low",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "SUPRAJIT Stock Price and Chart \u2014 NSE:SUPRAJIT - TradingView",
-        "source": "TradingView",
-        "published": "Fri, 28 Jul 2017 16:38:15 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5HdkhEXzVpM2RVTzJiMGVnYUl1M1AyXzlmNXNIVzVzdDV1Nk1TSnRqV09vNHg1ZVBnZVB1cTAtLXM5dmhQMU5KWHY5UlJjaURENWFDdzEwNGZJRHR5Nnc?oc=5",
-        "sentiment": "neutral",
-        "relevance": "low",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Jamna Auto Industries declares interim dividend and approves Q2 2026 results - InvestyWise",
-        "source": "InvestyWise",
-        "published": "Sat, 14 Nov 2026 08:24:10 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNDNNYjctWkFVbWRSajdYamZVeXRIZVBLblFHcHZaNW5ndmVXejZBNmFBTTlyOU93WVRjOEQxUkpVcmFha3ljUE1nMndXTzdIQkJyRmhpUGUtc1U5SXFObzNqMUtWS0Y4NkVtMXFXRk9GOHpmTEQzQlFaZ0VpWV9ubEN0a2JQaXdpeU9KaDNxaWVZbG5RZ2Z0dGZDVTN4b1ZXUEM0?oc=5",
-        "sentiment": "positive",
-        "relevance": "high",
-        "verification_status": "unverified"
       }
     ],
-    "stored_new": 34,
+    "stored_new": 24,
     "duplicates_skipped": 0,
     "note": "headlines are unverified signals, not confirmed financial evidence",
-    "_run_id": 1105
+    "_run_id": 1112
   },
   "8_risk_analysis": {
     "classification": "MODERATE",
@@ -528,8 +438,8 @@
         "severity": "moderate",
         "evidence": "ATR 4.8% of price (>4%)",
         "source": "computed",
-        "date": "2026-11-24",
-        "detected_at": "2026-11-24 22:59:23.595453+00:00"
+        "date": "2026-11-25",
+        "detected_at": "2026-11-25 22:10:58.066274+00:00"
       }
     ],
     "unassessed_governance_items": [
@@ -544,7 +454,7 @@
     "atr_pct_of_price": 0.0477136232991635,
     "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
     "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
-    "_run_id": 1104
+    "_run_id": 1111
   },
   "9_fundamental_score": 61.5,
   "10_technical_score": 50.0,
@@ -574,7 +484,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 127.72826994485598,
+      "ema_200_daily": 127.72829686605837,
       "price_vs_ema_200": "above"
     },
     "business_classification": "average"
@@ -621,7 +531,7 @@
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-25 04:29 IST",
+    "generated_at": "2026-11-26 03:40 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-21 02:22 IST"
   }

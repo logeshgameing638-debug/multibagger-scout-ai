@@ -1,0 +1,214 @@
+{
+  "symbol": "PICCADIL",
+  "exchange": "BSE",
+  "updated_at": "2026-11-26 03:34 IST",
+  "status": "partial",
+  "agent_statuses": {
+    "fundamental": "success",
+    "technical": "success",
+    "business": "success",
+    "valuation": "partial",
+    "risk": "success",
+    "news": "success",
+    "scoring": "success"
+  },
+  "name": "Piccadily Agro Industries Limited",
+  "scores": {
+    "fundamental": 52.0,
+    "technical": 16.0,
+    "data_confidence": 72.0,
+    "risk": 0.0,
+    "long_term": 41.2,
+    "short_term": 26.8,
+    "balanced": 34.0
+  },
+  "classification": "neutral",
+  "explanation": {
+    "fundamental": {
+      "growth": {
+        "points": 10.0,
+        "max": 20,
+        "detail": [
+          "sales_cagr_3y: 5.0/5 (value 0.195 vs threshold 0.15)",
+          "sales_cagr_5y: 0.0/5 (missing input: 0 points)",
+          "profit_cagr_3y: 5.0/5 (value 0.833 vs threshold 0.15)",
+          "profit_cagr_5y: 0.0/5 (missing input: 0 points)"
+        ]
+      },
+      "roe_roce": {
+        "points": 11,
+        "max": 15,
+        "detail": [
+          "roe: 6/8 (value 0.153 vs threshold 0.15)",
+          "roce: 5/7 (value 0.152 vs threshold 0.15)"
+        ]
+      },
+      "debt_balance_sheet": {
+        "points": 10,
+        "max": 15,
+        "detail": [
+          "debt/equity: 3/8 (value 0.589 vs threshold 1)",
+          "interest cover: 4/4 (value 8.13 vs threshold 8)",
+          "current ratio: 3/3 (value 1.63 vs threshold 1.5)"
+        ]
+      },
+      "cash_flow": {
+        "points": 8.0,
+        "max": 15,
+        "detail": [
+          "positive OCF: 5.0/5",
+          "positive FCF: 0.0/5",
+          "OCF/net profit: 3/5 (value 0.859 vs threshold 0.7)"
+        ]
+      },
+      "management_promoter": {
+        "points": 10.0,
+        "max": 15,
+        "detail": [
+          "insider holding 73.1%: 10/10",
+          "promoter pledge unavailable from free sources: 0/5"
+        ]
+      },
+      "valuation": {
+        "points": 3,
+        "max": 10,
+        "detail": [
+          "P/E 37.5 (no industry benchmark): value 37.5 vs threshold 40"
+        ]
+      },
+      "industry_growth": {
+        "points": 0.0,
+        "max": 10,
+        "detail": [
+          "industry growth unavailable from free sources: 0/10"
+        ]
+      }
+    },
+    "technical": {
+      "long_term_trend": {
+        "points": 10,
+        "max": 20,
+        "detail": [
+          "long-term trend: sideways"
+        ]
+      },
+      "ema_alignment": {
+        "points": 0,
+        "max": 15,
+        "detail": [
+          "below key EMAs"
+        ]
+      },
+      "momentum": {
+        "points": 0.0,
+        "max": 15,
+        "detail": [
+          "RSI 37: 0.0/7 (value 37.2 below all bands)",
+          "MACD histogram non-positive/missing: 0.0/8"
+        ]
+      },
+      "volume": {
+        "points": 0.0,
+        "max": 15,
+        "detail": [
+          "relative volume: value 0.313 below all bands"
+        ]
+      },
+      "price_structure": {
+        "points": 2,
+        "max": 10,
+        "detail": [
+          "downtrend (lower highs, lower lows)"
+        ]
+      },
+      "support_resistance": {
+        "points": 4,
+        "max": 10,
+        "detail": [
+          "near support: watch for breakdown or bounce confirmation"
+        ]
+      },
+      "breakout_confirmation": {
+        "points": 0,
+        "max": 15,
+        "detail": [
+          "no confirmed breakout"
+        ]
+      }
+    },
+    "data_confidence": {
+      "source_reliability": {
+        "points": 12,
+        "max": 25,
+        "detail": [
+          "yahoo_finance: ok",
+          "nse_archives: failed/unused",
+          "bse_site: failed/unused",
+          "rss_news: ok"
+        ]
+      },
+      "completeness": {
+        "points": 25.0,
+        "max": 25,
+        "detail": [
+          "0 fundamental metrics missing"
+        ]
+      },
+      "reporting_period": {
+        "points": 20,
+        "max": 20,
+        "detail": [
+          "5 annual periods available (value 5 vs threshold 4)"
+        ]
+      },
+      "freshness_depth": {
+        "points": 15,
+        "max": 15,
+        "detail": [
+          "1232 validated daily bars (value 1.23e+03 vs threshold 200); providers may delay quotes ~15 min"
+        ]
+      },
+      "cross_source_consistency": {
+        "points": 0.0,
+        "max": 15,
+        "detail": [
+          "not checked: no comparable same-company, same-period values from a second source"
+        ]
+      }
+    },
+    "risk": {
+      "findings_contribution": {
+        "points": 0,
+        "max": 100,
+        "detail": [
+          "no findings"
+        ]
+      },
+      "classification": "LOW",
+      "unassessed_items": [
+        "auditor resignation history",
+        "qualified audit opinions",
+        "related-party transactions",
+        "regulatory actions",
+        "promoter pledging (source unavailable)",
+        "promoter selling (source unavailable)"
+      ]
+    },
+    "labels": [
+      "neutral"
+    ],
+    "weights": {
+      "long_term": "0.7F+0.3T",
+      "short_term": "0.7T+0.3F",
+      "balanced": "0.5L+0.5S"
+    }
+  },
+  "technical_daily": {
+    "rsi_14": 37.21041035773487,
+    "breakout": false,
+    "breakdown": false,
+    "support": 527.0,
+    "resistance": 610.2999877929688,
+    "trend": "bearish"
+  }
+}

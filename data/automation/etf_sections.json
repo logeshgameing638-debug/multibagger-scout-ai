@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-25 04:29 IST",
+ "generated_at": "2026-11-26 03:41 IST",
  "sources": {
-  "nav": "AMFI NAVAll file, NAVs dated 23-Nov-2026 (https://portal.amfiindia.com/spages/NAVAll.txt)",
-  "prices": "BSE official equity bhavcopy, session 2026-11-23"
+  "nav": "AMFI NAVAll file, NAVs dated 25-Nov-2026 (https://portal.amfiindia.com/spages/NAVAll.txt)",
+  "prices": "BSE official equity bhavcopy, session 2026-11-25"
  },
  "count": 17,
  "etfs": [
@@ -12,13 +12,13 @@
    "name": "Nippon India ETF Nifty 50 BeES",
    "category": "Broad equity",
    "tracks": "Nifty 50 index",
-   "nav": 289.3289,
-   "nav_date": "23-Nov-2026",
-   "close": 289.38,
-   "close_session": "2026-11-23",
-   "day_volume": 824353,
-   "day_traded_value": 240743593.0,
-   "close_vs_nav_pct": 0.02
+   "nav": 294.6848,
+   "nav_date": "25-Nov-2026",
+   "close": 294.03,
+   "close_session": "2026-11-25",
+   "day_volume": 680995,
+   "day_traded_value": 200314928.0,
+   "close_vs_nav_pct": -0.22
   },
   {
    "symbol": "JUNIORBEES",
@@ -26,13 +26,13 @@
    "name": "Nippon India ETF Nifty Next 50 Junior BeES",
    "category": "Broad equity",
    "tracks": "Nifty Next 50 index",
-   "nav": 782.4852,
-   "nav_date": "23-Nov-2026",
-   "close": 784.06,
-   "close_session": "2026-11-23",
-   "day_volume": 27705,
-   "day_traded_value": 21865103.0,
-   "close_vs_nav_pct": 0.2
+   "nav": 788.3655,
+   "nav_date": "25-Nov-2026",
+   "close": 788.76,
+   "close_session": "2026-11-25",
+   "day_volume": 14307,
+   "day_traded_value": 11266374.0,
+   "close_vs_nav_pct": 0.05
   },
   {
    "symbol": "BANKBEES",
@@ -40,13 +40,13 @@
    "name": "Nippon India ETF Nifty Bank BeES",
    "category": "Sector equity",
    "tracks": "Nifty Bank index",
-   "nav": 648.6142,
-   "nav_date": "23-Nov-2026",
-   "close": 649.69,
-   "close_session": "2026-11-23",
-   "day_volume": 96034,
-   "day_traded_value": 63146179.0,
-   "close_vs_nav_pct": 0.17
+   "nav": 660.1917,
+   "nav_date": "25-Nov-2026",
+   "close": 660.34,
+   "close_session": "2026-11-25",
+   "day_volume": 120963,
+   "day_traded_value": 79857822.0,
+   "close_vs_nav_pct": 0.02
   },
   {
    "symbol": "PSUBNKBEES",
@@ -54,13 +54,13 @@
    "name": "Nippon India ETF Nifty PSU Bank BeES",
    "category": "Sector equity",
    "tracks": "Nifty PSU Bank index",
-   "nav": 106.69,
-   "nav_date": "23-Nov-2026",
-   "close": 106.58,
-   "close_session": "2026-11-23",
-   "day_volume": 270697,
-   "day_traded_value": 29281532.0,
-   "close_vs_nav_pct": -0.1
+   "nav": 107.0813,
+   "nav_date": "25-Nov-2026",
+   "close": 107.11,
+   "close_session": "2026-11-25",
+   "day_volume": 121739,
+   "day_traded_value": 13020098.0,
+   "close_vs_nav_pct": 0.03
   },
   {
    "symbol": "INFRABEES",
@@ -68,13 +68,13 @@
    "name": "Nippon India ETF Nifty Infrastructure BeES",
    "category": "Sector equity",
    "tracks": "Nifty Infrastructure index",
-   "nav": 986.012,
-   "nav_date": "23-Nov-2026",
-   "close": 985.79,
-   "close_session": "2026-11-23",
-   "day_volume": 1233,
-   "day_traded_value": 1223516.0,
-   "close_vs_nav_pct": -0.02
+   "nav": 993.0046,
+   "nav_date": "25-Nov-2026",
+   "close": 992.71,
+   "close_session": "2026-11-25",
+   "day_volume": 106,
+   "day_traded_value": 104830.0,
+   "close_vs_nav_pct": -0.03
   },
   {
    "symbol": "SHARIABEES",
@@ -82,13 +82,13 @@
    "name": "Nippon India ETF Nifty 50 Shariah BeES",
    "category": "Broad equity",
    "tracks": "Nifty50 Shariah index",
-   "nav": 465.4413,
-   "nav_date": "23-Nov-2026",
-   "close": 467.64,
-   "close_session": "2026-11-23",
-   "day_volume": 997,
-   "day_traded_value": 467660.0,
-   "close_vs_nav_pct": 0.47
+   "nav": 476.2369,
+   "nav_date": "25-Nov-2026",
+   "close": 474.56,
+   "close_session": "2026-11-25",
+   "day_volume": 1070,
+   "day_traded_value": 505947.0,
+   "close_vs_nav_pct": -0.35
   },
   {
    "symbol": "GOLDBEES",
@@ -96,13 +96,13 @@
    "name": "Nippon India ETF Gold BeES",
    "category": "Commodity",
    "tracks": "Domestic gold price",
-   "nav": 102.689,
-   "nav_date": "23-Nov-2026",
-   "close": 103.03,
-   "close_session": "2026-11-23",
-   "day_volume": 3579499,
-   "day_traded_value": 369065634.0,
-   "close_vs_nav_pct": 0.33
+   "nav": 99.8063,
+   "nav_date": "25-Nov-2026",
+   "close": 100.11,
+   "close_session": "2026-11-25",
+   "day_volume": 3697273,
+   "day_traded_value": 372009926.0,
+   "close_vs_nav_pct": 0.3
   },
   {
    "symbol": "HNGSNGBEES",
@@ -110,13 +110,13 @@
    "name": "Nippon India ETF Hang Seng BeES",
    "category": "International equity",
    "tracks": "Hang Seng index",
-   "nav": 395.675,
-   "nav_date": "23-Nov-2026",
-   "close": 420.62,
-   "close_session": "2026-11-23",
-   "day_volume": 15073,
-   "day_traded_value": 6294453.0,
-   "close_vs_nav_pct": 6.3
+   "nav": 385.6833,
+   "nav_date": "25-Nov-2026",
+   "close": 424.22,
+   "close_session": "2026-11-25",
+   "day_volume": 5963,
+   "day_traded_value": 2523979.0,
+   "close_vs_nav_pct": 9.99
   },
   {
    "symbol": "LIQUIDBEES",
@@ -125,11 +125,11 @@
    "category": "Debt",
    "tracks": "Nifty 1D Rate index (overnight money market)",
    "nav": 1000.0,
-   "nav_date": "24-Nov-2026",
+   "nav_date": "25-Nov-2026",
    "close": 1000.01,
-   "close_session": "2026-11-23",
-   "day_volume": 202825,
-   "day_traded_value": 202824848.0,
+   "close_session": "2026-11-25",
+   "day_volume": 163169,
+   "day_traded_value": 163168660.0,
    "close_vs_nav_pct": 0.0
   },
   {
@@ -138,13 +138,13 @@
    "name": "CPSE ETF",
    "category": "Sector equity",
    "tracks": "Nifty CPSE index (central public sector enterprises)",
-   "nav": 90.2473,
-   "nav_date": "23-Nov-2026",
-   "close": 90.05,
-   "close_session": "2026-11-23",
-   "day_volume": 113955,
-   "day_traded_value": 10370527.0,
-   "close_vs_nav_pct": -0.22
+   "nav": 90.9681,
+   "nav_date": "25-Nov-2026",
+   "close": 90.72,
+   "close_session": "2026-11-25",
+   "day_volume": 72041,
+   "day_traded_value": 6518353.0,
+   "close_vs_nav_pct": -0.27
   },
   {
    "symbol": "MON100",
@@ -154,11 +154,11 @@
    "tracks": "Nasdaq 100 index",
    "nav": 242.8249,
    "nav_date": "23-Nov-2026",
-   "close": 296.21,
-   "close_session": "2026-11-23",
-   "day_volume": 121237,
-   "day_traded_value": 35668162.0,
-   "close_vs_nav_pct": 21.99
+   "close": 294.02,
+   "close_session": "2026-11-25",
+   "day_volume": 123671,
+   "day_traded_value": 36915549.0,
+   "close_vs_nav_pct": 21.08
   },
   {
    "symbol": "MAFANG",
@@ -168,11 +168,11 @@
    "tracks": "NYSE FANG+ index",
    "nav": 149.624,
    "nav_date": "23-Nov-2026",
-   "close": 211.83,
-   "close_session": "2026-11-23",
-   "day_volume": 125788,
-   "day_traded_value": 26797465.0,
-   "close_vs_nav_pct": 41.57
+   "close": 217.68,
+   "close_session": "2026-11-25",
+   "day_volume": 98423,
+   "day_traded_value": 21583922.0,
+   "close_vs_nav_pct": 45.48
   },
   {
    "symbol": "MIDCAPETF",
@@ -180,13 +180,13 @@
    "name": "Mirae Asset Nifty Midcap 150 ETF",
    "category": "Broad equity",
    "tracks": "Nifty Midcap 150 index",
-   "nav": 23.0808,
-   "nav_date": "23-Nov-2026",
-   "close": 23.11,
-   "close_session": "2026-11-23",
-   "day_volume": 192267,
-   "day_traded_value": 4456936.0,
-   "close_vs_nav_pct": 0.13
+   "nav": 23.131,
+   "nav_date": "25-Nov-2026",
+   "close": 23.14,
+   "close_session": "2026-11-25",
+   "day_volume": 64873,
+   "day_traded_value": 1503852.0,
+   "close_vs_nav_pct": 0.04
   },
   {
    "symbol": "ABSLNN50ET",
@@ -194,13 +194,13 @@
    "name": "Aditya Birla Sun Life Nifty Next 50 ETF",
    "category": "Broad equity",
    "tracks": "Nifty Next 50 index",
-   "nav": 76.2628,
-   "nav_date": "23-Nov-2026",
-   "close": 77.01,
-   "close_session": "2026-11-23",
-   "day_volume": 560,
-   "day_traded_value": 42581.0,
-   "close_vs_nav_pct": 0.98
+   "nav": 76.835,
+   "nav_date": "25-Nov-2026",
+   "close": 76.53,
+   "close_session": "2026-11-25",
+   "day_volume": 566,
+   "day_traded_value": 43333.0,
+   "close_vs_nav_pct": -0.4
   },
   {
    "symbol": "PHARMABEES",
@@ -208,13 +208,13 @@
    "name": "Nippon India Nifty Pharma ETF",
    "category": "Sector equity",
    "tracks": "Nifty Pharma index",
-   "nav": 29.085,
-   "nav_date": "23-Nov-2026",
-   "close": 29.07,
-   "close_session": "2026-11-23",
-   "day_volume": 116238,
-   "day_traded_value": 3387681.0,
-   "close_vs_nav_pct": -0.05
+   "nav": 29.7764,
+   "nav_date": "25-Nov-2026",
+   "close": 29.69,
+   "close_session": "2026-11-25",
+   "day_volume": 300297,
+   "day_traded_value": 8862519.0,
+   "close_vs_nav_pct": -0.29
   },
   {
    "symbol": "SILVER",
@@ -222,13 +222,13 @@
    "name": "Aditya Birla Sun Life Silver ETF",
    "category": "Commodity",
    "tracks": "Domestic silver price",
-   "nav": 151.8445,
-   "nav_date": "23-Nov-2026",
-   "close": 152.62,
-   "close_session": "2026-11-23",
-   "day_volume": 257021,
-   "day_traded_value": 39129244.0,
-   "close_vs_nav_pct": 0.51
+   "nav": 142.9527,
+   "nav_date": "25-Nov-2026",
+   "close": 145.68,
+   "close_session": "2026-11-25",
+   "day_volume": 279718,
+   "day_traded_value": 40640806.0,
+   "close_vs_nav_pct": 1.91
   },
   {
    "symbol": "MAHKTECH",
@@ -236,13 +236,13 @@
    "name": "Mirae Asset Hang Seng TECH ETF",
    "category": "International equity",
    "tracks": "Hang Seng TECH index",
-   "nav": 13.9809,
-   "nav_date": "23-Nov-2026",
-   "close": 20.77,
-   "close_session": "2026-11-23",
-   "day_volume": 59155,
-   "day_traded_value": 1231202.0,
-   "close_vs_nav_pct": 48.56
+   "nav": 13.3715,
+   "nav_date": "25-Nov-2026",
+   "close": 20.6,
+   "close_session": "2026-11-25",
+   "day_volume": 40508,
+   "day_traded_value": 833881.0,
+   "close_vs_nav_pct": 54.06
   }
  ]
 }

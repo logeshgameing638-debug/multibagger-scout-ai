@@ -5,11 +5,11 @@
     "name": "KMC Speciality Hospitals (India) Limited",
     "sector": "Healthcare",
     "industry": "Medical Care Facilities",
-    "market_cap": 31075846144,
+    "market_cap": 31149234176,
     "website": "https://www.kauveryhospital.com"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-24 22:59:11.982764+00:00",
+    "generated_at": "2026-11-25 22:10:45.360484+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -82,8 +82,8 @@
       "emas": {
         "ema_20": 174.95720443818527,
         "ema_50": 161.98813098235027,
-        "ema_100": 147.90727628713756,
-        "ema_200": 128.22753347415772
+        "ema_100": 147.9072762871199,
+        "ema_200": 128.22752948574458
       },
       "smas": {
         "sma_20": 167.4224998474121,
@@ -143,7 +143,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 128.22753347415772,
+      "ema_200_daily": 128.22752948574458,
       "price_vs_ema_200": "above"
     }
   },
@@ -157,7 +157,7 @@
     ],
     "sector": "Healthcare",
     "industry": "Medical Care Facilities",
-    "market_cap": 31075846144,
+    "market_cap": 31149234176,
     "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
     "unassessed_areas": [
       "business model detail (needs annual report reading)",
@@ -172,12 +172,12 @@
   },
   "6_valuation": {
     "multiples": {
-      "pe_trailing": 50.813335,
+      "pe_trailing": 50.933334,
       "pe_forward": null,
-      "pb": 12.843759,
-      "ev_ebitda": 29.686,
-      "ev_sales": 8.937,
-      "peg": null,
+      "pb": 12.874089,
+      "ev_ebitda": 29.756,
+      "ev_sales": 8.958,
+      "peg": 2.12,
       "dividend_yield": 0.0,
       "industry_pe": null
     },
@@ -209,15 +209,6 @@
   "7_news_intelligence": {
     "items": [
       {
-        "headline": "KMC Speciality Hospitals (India) (BSE:524520) - Stock Analysis - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Sun, 22 Nov 2026 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQ2czUmN3OS10RmwzaENyRTJHVkxjMl9TR0FJRU1jd2t1ODBIVDJJTVh1MGpodXFGZ0VRX0FVdWFPd2p2R0xEZGxNc2V5VjZodmdCcHVUSVp0eEdiZE9OYi1ZS3hCQkNMWGV4aS0xeEJ6Q3FKMWlzZ1BSem52MkdxMHdWdWVnRWFKLUJmZUkta0hnWTNyalE?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
         "headline": "KMCSHIL Stock Price and Chart \u2014 NSE:KMCSHIL - TradingView",
         "source": "TradingView",
         "published": "Tue, 18 Aug 2026 00:59:11 GMT",
@@ -232,6 +223,15 @@
         "published": "Tue, 11 Aug 2026 07:00:00 GMT",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX3NXSkNsZ21Rd25XZXdfZUpXaXROOFctX1VscTV0cFgtTWhtU1RqNjBDdXNxSXZzRG4tNlRyRXBVYXlWdm8wQjNzSTNMaFlvOW92dmNieUdjdUNOTTZMR0tjLVlOSnFTazFQb2N4MkR3RTMxT1lNaGwxV2pDQ1ZmcEFJUnNCZ2RZWkFFVXgzSEtTWEoxcG93UzFXTzUtN2RCZ0ViMmRXYzhBQ29zeW5PMGZSMFR1dGZpakxLTFZlbjMzQmdNaTVERA?oc=5",
         "sentiment": "negative",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "KMC Speciality Hospitals (India) (NSEI:KMCSHIL) - Stock Analysis - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Sat, 22 Aug 2026 16:19:13 GMT",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZDFQV3NKdzQxb0J3M29ETWFRZnRzeXVoVHU3bFphaW5lRlhqSU1pSjRfUHBuZTNvWUpLTzVWb2hMNm1uMW90b1RzMUxUcWgwTkhCVnhzbmdtUC1qQmRuR05MajJtbFhoV213QUVTY2NINDZ1a3lxWHc4OGlvMVk1X0NYWnZtNW1fcTRHenhDNDFrZUNpc3g4?oc=5",
+        "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
       },
@@ -254,15 +254,6 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "KMC Speciality Hospitals (India) (NSEI:KMCSHIL) - Stock Analysis - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Sat, 22 Aug 2026 16:19:13 GMT",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZDFQV3NKdzQxb0J3M29ETWFRZnRzeXVoVHU3bFphaW5lRlhqSU1pSjRfUHBuZTNvWUpLTzVWb2hMNm1uMW90b1RzMUxUcWgwTkhCVnhzbmdtUC1qQmRuR05MajJtbFhoV213QUVTY2NINDZ1a3lxWHc4OGlvMVk1X0NYWnZtNW1fcTRHenhDNDFrZUNpc3g4?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
         "headline": "KMC Speciality Hospitals sets \u20b965 crore related-party limit for FY27 - scanx.trade",
         "source": "scanx.trade",
         "published": "Mon, 28 Sep 2026 07:00:00 GMT",
@@ -272,28 +263,10 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "PARKHOSPS Stock Price and Chart \u2014 NSE:PARKHOSPS - TradingView",
-        "source": "TradingView",
-        "published": "Tue, 09 Jun 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0xRm9Vb21hRzdOR1RJaC0wLWtPUm9kNlJPVmZCVXdZTUZnbi1ZWVNOM0NMQWRBcEQydWRHbWs2YTE3aGd4TmVxSTBGWVd3U05HT3BDUTRpanp5NTlBRUMw?oc=5",
-        "sentiment": "neutral",
-        "relevance": "low",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "KMC Speciality Hospitals (India) Limited (KMCSHIL.BO) stock price, news, quote and history - Yahoo Finance UK",
-        "source": "Yahoo Finance UK",
-        "published": "Sun, 12 Nov 2017 12:15:39 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBaVGI5Qk0yMy1YN0I1VFljLWw4cVdyZ2lPdnlZek42OElvQlI4VXFvRWpxbVVSVF9ZVFVUWURxVlowbmF4RDZxTnpqQURTRk9oYmJTajB0VWZLZw?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "KMC Speciality Hospitals (India) Limited (KMCSHIL) Company Information - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Sat, 22 Aug 2026 16:44:31 GMT",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSXVtTmtFTElMcFlxQi1LelhBUmZjZDlkQWtIYWNBMER0T3hOakhTRk9iX2ZiMllaUHVCOGZSWkFOM0JwVzA1R28tWGVIRVhMdjl0cXVkampDckVxYkhxcVRGNlBKV2loOVp5Rm45bXlCWWhIaHNEUVFEMWlfNkNnX0x3RWpKQlNTYmJ6dDFBZmFyOU5DVS1lMGpOUlR2REJYVHJ5Tk00QQ?oc=5",
+        "headline": "KMC Speciality Hospitals (India) Limited (KMCSHIL.BO) stock price, news, quote and history - Yahoo Finance Singapore",
+        "source": "Yahoo Finance Singapore",
+        "published": "Sun, 15 Apr 2018 17:24:07 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBXSU5qdGF2MU50MzY0YkRBUkZsTDJmcEtaMXJwTXdrYU45aGE0MEhJLTBNd2gxSGJDZG9tTDRlck9xMkhMMGJQUXJuLTdqZ29VcUMyMWJ1NFpWUQ?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -304,6 +277,15 @@
         "published": "Mon, 25 May 2026 14:19:40 GMT",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNb0JRNE1xU0NFUUVWUEtLcklKcmdUcU5KSHM2elhfcTB0Y1BsNzdUeERyVEdpRFNOQTl6Y2MtQ1BfNklpVjZTSEVSb1Qyd2dIRkxGNXBjZjFMamRCZjdwTV9DLXc3SFoxZVlnTEZDWlhuVlVtdWt5Nk9DQnRiakZULXJpWWJSWVhCVVY0SFJ2Tmh4aGVidXphdWpwUzRTc1oxeXpIaVRDNFYzSnhBQURKdWU4WjJEME9iV2owZzhGaw?oc=5",
         "sentiment": "positive",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "KMC Speciality Hospitals (India) (BSE:524520) Stock Price - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Mon, 28 Jul 2025 20:36:18 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB1RVpFUFoxOWxoYU5GdVVJR1o4QzlkX0R6Z2R1ZnU0RW9Lck1xMUN4eTJTTEJydWd5a2o0dU5NNnZlNXdfRm91dVpiR3VDdHc?oc=5",
+        "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
       },
@@ -326,48 +308,21 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "KMC Speciality Hospitals Reports Strong Q3 FY26 Performance with 33% Revenue Growth - scanx.trade",
-        "source": "scanx.trade",
-        "published": "Sat, 28 Mar 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZjdQb216YTdMSUVhOWVieVVhLVZHVGJKYmhYTm5WV180M2ZPMjFPMVJPZG9VVUFOQjNRRm84NnpNV2R3ZVpJOWh4R3p4UEZVN0xOOGNlSzFud3luZUZoUlRTTU92MmdSb2xNSEc5ZE9MTTZKbTRzV1NCYm9OMjhNcXVWU3NsdzV0VFJpR0RfVDZTWHRPbXo2ZWRvdENZbzBxZEs2dVNwWnlXVHNrNW1jY0o0UHdadDBtMk1lUEMyNzB4OE5QVnRfZlV4Q0NzejFyWlByeDd3?oc=5",
-        "sentiment": "positive",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "KMC Speciality Hospitals (India) (BSE:524520) Stock Price - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Mon, 28 Jul 2025 20:36:18 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB1RVpFUFoxOWxoYU5GdVVJR1o4QzlkX0R6Z2R1ZnU0RW9Lck1xMUN4eTJTTEJydWd5a2o0dU5NNnZlNXdfRm91dVpiR3VDdHc?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "YATHARTH Stock Price and Chart \u2014 NSE:YATHARTH - TradingView",
-        "source": "TradingView",
-        "published": "Tue, 08 Aug 2023 11:34:26 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB6anA5eHE4SUJOa0VkNjdCcjhUM0ZCRjJGWjJwamR3Zm1lYVhlcEhSSnVLLUpiN0VtR1hqdkd5V28yc19SS0hBTUdwd2I5V3lTNldwM0xQT1Z6b19DaUE?oc=5",
-        "sentiment": "neutral",
-        "relevance": "low",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "KMC Speciality Hospitals Submits Q4FY26 Regulatory Compliance Certificate to Stock Exchanges - scanx.trade",
-        "source": "scanx.trade",
-        "published": "Tue, 07 Apr 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQZGNnWDI0UnR1bEJQSFk4NGtWRFM2T25tbkdpVWdmaENPeXpKcFNtTlVLZTNNM0pFRlZLUFc4UjVwZ3hHSDR1SHZvUDhobzZxV0JLdUFzV2xnNXBNbEp6WHZwRFdBRTFiaC1OYW9LdnlVTDFvN2FxSW5hUTZoS2tHNjhHeHEyVGJLNTVUMlJBS2tVQ1ZVbWh4a2xhbmVJOGJoYUEtaDVQQi1UN21ndlg1T0JNdG1mWUw1a2lEMHZWOGxNdTBwbXk0dVV3OC1rYVA1bW1UMEoyWXRBYzNaZzJvSlhvYw?oc=5",
-        "sentiment": "neutral",
-        "relevance": "high",
-        "verification_status": "unverified"
-      },
-      {
         "headline": "KMC Speciality Hospitals (India) (BSE:524520) - Earnings & Revenue Performance - Simply Wall St",
         "source": "Simply Wall St",
         "published": "Mon, 14 Nov 2022 15:58:25 GMT",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZXc3LVpRRUF5Ty11czZKM3NFTjYyUUhMVW1yMkxXZFBaWFJlWHZmNW5aR1pSdTJpVmZzazBTVFBmWk8yRFQ4VVREOHgxM2c5MzNaRkZ5M0M2c0V5dlNRdWhUaE9wOUQzRW9ucmFzRU9zR2czUjJrMEIzU1hPNlBjaWtYeTNHOEFCbE03TWJWODZMdzYwZmVybEN3bEE?oc=5",
         "sentiment": "neutral",
         "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "KMC Speciality Hospitals Reports Strong Q3 FY26 Performance with 33% Revenue Growth - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Sat, 28 Mar 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZjdQb216YTdMSUVhOWVieVVhLVZHVGJKYmhYTm5WV180M2ZPMjFPMVJPZG9VVUFOQjNRRm84NnpNV2R3ZVpJOWh4R3p4UEZVN0xOOGNlSzFud3luZUZoUlRTTU92MmdSb2xNSEc5ZE9MTTZKbTRzV1NCYm9OMjhNcXVWU3NsdzV0VFJpR0RfVDZTWHRPbXo2ZWRvdENZbzBxZEs2dVNwWnlXVHNrNW1jY0o0UHdadDBtMk1lUEMyNzB4OE5QVnRfZlV4Q0NzejFyWlByeDd3?oc=5",
+        "sentiment": "positive",
+        "relevance": "medium",
         "verification_status": "unverified"
       },
       {
@@ -380,12 +335,21 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "RAINBOW Stock Price and Chart \u2014 NSE:RAINBOW - TradingView",
-        "source": "TradingView",
-        "published": "Sat, 14 May 2022 01:51:57 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBtbE4za0lUb0gwZDVPRmpvV0dDOHV2SUxhVVJRMG9YWW03TEJIdEFod0RfNkJMbGNoX0xjdVM0ODNDVnJib3JET1hGNG1zZWVTTzBJNVpXZmhoRmhZ?oc=5",
+        "headline": "KMC Speciality Hospitals Submits Q4FY26 Regulatory Compliance Certificate to Stock Exchanges - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Tue, 07 Apr 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQZGNnWDI0UnR1bEJQSFk4NGtWRFM2T25tbkdpVWdmaENPeXpKcFNtTlVLZTNNM0pFRlZLUFc4UjVwZ3hHSDR1SHZvUDhobzZxV0JLdUFzV2xnNXBNbEp6WHZwRFdBRTFiaC1OYW9LdnlVTDFvN2FxSW5hUTZoS2tHNjhHeHEyVGJLNTVUMlJBS2tVQ1ZVbWh4a2xhbmVJOGJoYUEtaDVQQi1UN21ndlg1T0JNdG1mWUw1a2lEMHZWOGxNdTBwbXk0dVV3OC1rYVA1bW1UMEoyWXRBYzNaZzJvSlhvYw?oc=5",
         "sentiment": "neutral",
-        "relevance": "low",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "KMC Speciality Hospitals (India) (BSE:524520) - Stock Analysis - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Sun, 03 Dec 2017 15:56:07 GMT",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQ2czUmN3OS10RmwzaENyRTJHVkxjMl9TR0FJRU1jd2t1ODBIVDJJTVh1MGpodXFGZ0VRX0FVdWFPd2p2R0xEZGxNc2V5VjZodmdCcHVUSVp0eEdiZE9OYi1ZS3hCQkNMWGV4aS0xeEJ6Q3FKMWlzZ1BSem52MkdxMHdWdWVnRWFKLUJmZUkta0hnWTNyalE?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
         "verification_status": "unverified"
       },
       {
@@ -395,6 +359,15 @@
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1JVGJBVnZsVEI0NkQxR3VuM29nTUNoX2c0a2p1ZFZWZGktMDVqTEpGTVNfYlYwZG9adXA1MElMSjBsT3h3ajFFb0pDT2NyZGl5OTlKUTZFZkw?oc=5",
         "sentiment": "neutral",
         "relevance": "low",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "KMC Speciality Hospitals (India) Limited (524520) Company Information - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Mon, 14 Nov 2022 15:58:25 GMT",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcktsRGRab2tka2VRbDE5aWI3VkpFNExQU2JvYVpaVFR0T1hrYlFxWFNfTlJDd25ESnNLbkRtODBUdHB6NU5lUGkzVmJXbWszWW10ckxVa3ZoeE93RWtvQkF6YTBiSTJSTmJ4WDIyMlJydmpwWjF2WU82ZHV2dTUwWERyczVISnZvRUYxX1lnLS1zbmVxVS03Zkw2YUd3T1lmTTdXMmRn?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
         "verification_status": "unverified"
       },
       {
@@ -434,6 +407,15 @@
         "verification_status": "unverified"
       },
       {
+        "headline": "INDRAMEDCO Stock Price and Chart \u2014 NSE:INDRAMEDCO - TradingView",
+        "source": "TradingView",
+        "published": "Thu, 24 Aug 2017 07:32:39 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5RaFAyNlBJVmROUXAteGsxMktrN25WYlNXeWd1bFpWeS10T1F1TmRrc3RhWEhVTnVFQlo2MGhxbXlEWlZlemNkTTgweXpGczBnOVJOc25RcWcxckVleWQyeQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "low",
+        "verification_status": "unverified"
+      },
+      {
         "headline": "Healthcare stock under \u20b9100 jumps 14% after announcing 83% YoY increase in net profits - Trade Brains",
         "source": "Trade Brains",
         "published": "Wed, 11 Feb 2026 08:00:00 GMT",
@@ -452,8 +434,8 @@
         "verification_status": "unverified"
       }
     ],
-    "stored_new": 27,
-    "duplicates_skipped": 0,
+    "stored_new": 25,
+    "duplicates_skipped": 2,
     "note": "headlines are unverified signals, not confirmed financial evidence",
     "_run_id": 1077
   },
@@ -465,8 +447,8 @@
         "severity": "moderate",
         "evidence": "ATR 5.5% of price (>4%)",
         "source": "computed",
-        "date": "2026-11-24",
-        "detected_at": "2026-11-24 22:59:11.672969+00:00"
+        "date": "2026-11-25",
+        "detected_at": "2026-11-25 22:10:44.972118+00:00"
       }
     ],
     "unassessed_governance_items": [
@@ -511,7 +493,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 128.22753347415772,
+      "ema_200_daily": 128.22752948574458,
       "price_vs_ema_200": "above"
     },
     "business_classification": "average"
@@ -558,7 +540,7 @@
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-25 04:29 IST",
+    "generated_at": "2026-11-26 03:40 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-24 06:05 IST"
   }

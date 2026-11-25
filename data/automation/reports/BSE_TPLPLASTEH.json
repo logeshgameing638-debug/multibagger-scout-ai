@@ -5,11 +5,11 @@
     "name": "TPL Plastech Limited",
     "sector": "Consumer Cyclical",
     "industry": "Packaging & Containers",
-    "market_cap": 5615435776,
+    "market_cap": 5667698176,
     "website": "https://www.tplplastech.in"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-24 22:59:17.268272+00:00",
+    "generated_at": "2026-11-25 22:10:50.748879+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -81,8 +81,8 @@
       "emas": {
         "ema_20": 70.19723879389842,
         "ema_50": 69.547172024198,
-        "ema_100": 70.07112920378475,
-        "ema_200": 70.5769258018022
+        "ema_100": 70.07112920376957,
+        "ema_200": 70.57692237971247
       },
       "smas": {
         "sma_20": 68.61299934387208,
@@ -142,7 +142,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 70.5769258018022,
+      "ema_200_daily": 70.57692237971247,
       "price_vs_ema_200": "above"
     }
   },
@@ -155,7 +155,7 @@
     ],
     "sector": "Consumer Cyclical",
     "industry": "Packaging & Containers",
-    "market_cap": 5615435776,
+    "market_cap": 5667698176,
     "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
     "unassessed_areas": [
       "business model detail (needs annual report reading)",
@@ -170,12 +170,12 @@
   },
   "6_valuation": {
     "multiples": {
-      "pe_trailing": 17.775307,
-      "pe_forward": 3.9360304,
-      "pb": 3.245863,
-      "ev_ebitda": 11.493,
-      "ev_sales": 1.171,
-      "peg": null,
+      "pe_trailing": 17.94074,
+      "pe_forward": 3.9726627,
+      "pb": 3.276072,
+      "ev_ebitda": 11.779,
+      "ev_sales": 1.2,
+      "peg": 0.86,
       "dividend_yield": 1.84,
       "industry_pe": null
     },
@@ -205,9 +205,172 @@
     "_run_id": 1089
   },
   "7_news_intelligence": {
-    "items": [],
-    "stored_new": 0,
-    "duplicates_skipped": 21,
+    "items": [
+      {
+        "headline": "TPL Plastech (NSEI:TPLPLASTEH) - Stock Analysis - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Sun, 22 Nov 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVnRTb2NFY1BHQi1rNXpPcEJtRC02WUNzdXdfQ1B0NldRQTFJRVhEM2VjVmdMbEtMRXhON3JVcXM0U1c3Z1J3cUxKa1g3dnRkdmNfSExydVQ0M3hmOVMtS0hLQTg4R3ZZZlpYU1Z3RmpwS0QxNkRQWTNsVlZSVnFLcDdB?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "TPL Plastech Q2 EBITDA up 15% to \u20b9137M; margins contract to 9.24% - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Wed, 04 Nov 2026 16:31:46 GMT",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQy13dUxGSVJHUks2MS1NalVnMk9iUjFMSEZ2Y2JKUHNnQjlqVGJQaF9TUmVYaEsybFRtaEJETnhPaXVIS1dNSjk2M3UxcU9ORG5yTFQ5MkJpZl85R3ZGX2lkSkJyeDF0c25RVDJQTG05WGlvUmEtcjFQUW53THJHdmVnaHAwV0R6TGswMkdZM1g4LTkyajh5T1lCeTN0ZXVVTDZPLXlIT0FQUG05UXREUmVn?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "TPL Plastech Ltd (NSE: TPLPLASTEH) Rises 12.00% as Stock Draws Market Attention - Kalkine India",
+        "source": "Kalkine India",
+        "published": "Wed, 30 Sep 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYVRjRTJXZ0pDVVduOGFnSjJ5UUZiSkVzckhycmZZTXJxcGxtcVAxSlRoQ0xjdWt5eXZ5bWtvV3g0Vk11MnpiNU1ib1RsZV9CUzM0al9ENGZHRDQyelhjM1JjNEJSVnV2MjNPTUc0THdQR0dZcEdiOXI5Y2pRclRCbzc3aVIzaWwxZVB5d1o1dXFPTnAwc1FCRkxfUktUSnFHOThsaThDSFNSSUFnYzVGTTNvcGt6Sk04b3Rj?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "TPL Plastech Board Meets To Consider Merger With Time Technoplast - Sahi",
+        "source": "Sahi",
+        "published": "Wed, 26 Aug 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORk4wVnV3TzBIMGFCLTIycDdBbGtGNTdSaWxNZ1JvdmFwa1V0VzhuTlZ5RkZZdE5kN2d3Z3RjNmxFSDJfbk1hTm9Id3A4N0gzdjVUN3VCS0h3T1Z5TmM3QjFCZWU3NXU3SWdQR0dtZFFzRGVJSmdRUmVzQU1MLWMzQWgtN2pEcS1ETnl2a1JNWEpfRGlYMG1nVFkwbWJhZFpPQ1RKY3V5WQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Time Technoplast approves merger with subsidiary TPL Plastech - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRG80UGh3VzhqemQ1OU8wZWM3cE5iS2ZCeXJDT0l2X0t0aW1rSG9SLWczc3MxdzVHdENUZWRfdUZTQjVaM0xTSVdJS0lIWDd0TEZLS01UWFR5SndzTkRNUzBaTEU2d09KZURVRG1ZcDRmU1Vrdkgxb2gwREVRTHhPOHdSX1R0WG5mai1Za1VyWXRTdWpqR1AtM3d3X3E0NjU2anFPVGgySnpjOWlTQWhRODFDZw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Time Technoplast To Merge With TPL Plastech And Invest \u20b950 Crore For Future Growth - Sahi",
+        "source": "Sahi",
+        "published": "Thu, 27 Aug 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOa3ZHUjY5OTh2UWRQa0NZZXFpMV9Tdl8tc0JmejFFQWJIVlV0SGNZUF84TnFIYU9HNGdkbTNKcEo0OXdJVENfSkE3MWllYjhtb21lRTJDUlRnQUlfNF9jbzRRanBQZ3k5N1lHSjZvYmo2c0pibERTYkRKVkZKRXc3YjZiRWNoalNQalJ0S21wSHhyRFZEdGkteGExWnlOMzBBWElOYWNJT2RiQV9kYVh5d2Q2NFVYN2hfc05tdA?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Time Technoplast approves TPL Plastech merger, \u20b950 crore venture - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Fri, 21 Aug 2026 14:17:10 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeW1mV3d5N1RXYVVDblZvQk9SVFJEeVBJNEZpZDZCLVBoQWdLMnNIak1GM0FXM0dTMklUOG5CZ0d1dWNDOVNkZ2pqM25La1VoNWtGYTA3TGJfTzA1a0FaQjdqV3QwZTBkd1FxRS10NUxlRVdSM214MTRZUmlUdmJmVjlTZHlZZzlwaUl1RllLdTVoOFNnQWMtM1pibjNfTFA2Mk9EM253by1sSlhqanJCaDhlNA?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "TPL Plastech Limited (TPLPLASTEH.NS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "source": "Yahoo! Finance Canada",
+        "published": "Wed, 21 Feb 2018 18:31:51 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBGSG12UUp5Vk0zdjVGbnZtWE1wSFlVRS1IbDIzSE44X0FUQm1hU2trYkxqR1h0SkZ2d2xFUzJ5YWlReENiOEEzNjBMNlRHODFzenczOFBXaEQ5bURjbXc?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "TPLPLASTEH Stock Price and Chart \u2014 NSE:TPLPLASTEH - TradingView",
+        "source": "TradingView",
+        "published": "Fri, 21 Jul 2017 02:27:01 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBtZkgzcFpta240NzFCTFZBVmMtRDJCUG5iR0pmSEUzLVJxemd3RkhleWhuT3ZoZWdwY0prajNOZ3ZUb0tQcC01Uzc0dWZiTm9VLTJkY3MtZ000NHRMTnRKdw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "TPL Plastech board approves merger with Time Technoplast; exchange ratio 403:1000 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQU1dPQWFTLUFUMUJ0d0haZjU2MmdSLU1IMFhrdzhyRTE5UGJkYkJiVVQwNlhZRWtJYzJXc3N3UjJCSm9ma3hkWHlTa2hULUVtc1lMczJMSjFORjdDY0JMOFA5Q2twaGRkYmpSbmdiVW03V2tpaUNBdFJSM1E5b2Z5ZDZGbTFrSE1Ud0Z6c0hucUdRNGFNQVQ3a3p5QUdIS0VXNW9fWjhRTHhFU3gxdHdhX1h3?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "TPL Plastech sets Sept 15 record date for \u20b91.30 dividend; AGM on Sept 22 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Fri, 28 Aug 2026 11:36:22 GMT",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSHl3NkJVdTF6MlAtQ3FwOGJVVV9iaWNON3ZsWFVnMENPaHpfUGowaVRVUG9ZVDlmUVFOOHV3ZFBmd3FlZUl5TjZCWFBBXzFuUDYtRG1OTkEtNlpLenRxdUhaZVZyTXJVMWZVeGlGRFBCNTRkYW5xVmNkR0lQaWFjcDFqX3RMN1h4WDRUOFhQa2pSM3kwdWZGX25pRklhT05HRW9MQU16Nkt3bGZWWGFpcHpZVm8wQQ?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "TPL Plastech Limited (526582) Company Information - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Mon, 08 Aug 2022 10:26:31 GMT",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOOVJuYnpybVN2N1VKaDh2aks3M0pNS0U5R0gzNnc5eUZ2dXJJWlU1cXppS1g4U0o5b3d6YjRvcjhnLWI5ekpSVEFJSEJGWHB3OHlBdEl1QUFMSUpYVTdKMndPZzFrbnp2WUM0VTc1ekstVENMRXhveXdaeG5NVmJJMlJwcXZrWkN0dHU4SA?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "TPL Plastech Shareholders Overwhelmingly Approve Related Party Transactions for FY2026 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Mon, 28 Jul 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMGU0dlpCRWp5WHhpeE5aRVN5TVNaOXR0WUZNSmtFeFl0UDExem1EeDRKZXR6d0tZRV9ER3QySE5SNHR6R3hQZTVQS085dkNFRnZsMk9CbV9GN0tkRURjM2pESDR0WDhUQTZYZUV2WWJEU05vZktFeFNHTkRqeDBBSXhwSzVPYVVQZzFtVmRJLU9LVTlRTi1fNGphLUZqY3l5RHZDLU5aaG90blRnMTVtOHZpM0JUVGdzeG1YQl9nNURDQnRBd3NSR0duclNEUWdlRHo3WXJkdw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Time Technoplast Board to Consider Merger with Subsidiary TPL Plastech - Whalesbook",
+        "source": "Whalesbook",
+        "published": "Fri, 21 Aug 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNcmZZbUFQQ1pDbXVCTy1xMzBkay1rYWlXZ1NGb1FxRDZTUjdhTDd3RjhJSnNqaTlLRTRSTTMyM3c2ajhhM0tiX0V3SkFtNEFlNjRxVWEwXzJqQWwzQ2liX1ViY0JFT085RWdBUWpxSzczcFFBcTIxLTFMQmxnbnAtcTduWWhpeTU3ZTFsUVpZdXdfYzhWbVNfNFE2bjNMcldndkVyMXIyNEsyV09MUnAwTEFUd09RZl85ZlVIWUJONTFJaU9tTE9KQmRfWVJlODR1blBGdHdnd0wzaFp2WWg0dVFKMkxNQl93YlZJS2RJLU1Ua1duN2RKemwzX1lhTFU?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Time Technoplast Approves Merger With TPL Plastech; Check How Many Shares Shareholders Will Receive - Trade Brains",
+        "source": "Trade Brains",
+        "published": "Wed, 30 Sep 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOeWZJMkYxRndKZkJHaEc5QXNSaE14eDZPVDVfOHZJLXVPdWxMUXFLejQyLWVhblY1WmtRcDFRdVI3U3pkVGJZbzhYTWtMTGFuTXBZcktyMlBSMjhEQk1OZEVEVjBjNVR2NUYtZHUxQ0NrSk94ZHpCMWVJWU14NlpGekVNbE1ZNWNWT3JhRkV0LUp5aVVoVDJ3c1NQdVZmSHR6V2xubFZIcDdrdk9HWnplQjl5dXR2aUF4VFFteGVfUkFBSXVQR1Z4MF9hTmJvSGwtaC15Sk9yc0k3NzdyRXc?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "TPL Plastech Ltd arm commences operations for manufacturing of IBCs at Bhuj, Gujarat - EquityBulls",
+        "source": "EquityBulls",
+        "published": "Thu, 20 Aug 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQd2cxNlJJeTFEcTV4RWRYekpMTlk4dWI0d2o4ZF84LVhhM1FNWmNZbEN3eTY0M0ZJeVRtTmVPRGM0OC1YY2N3U1Nyc2ZkVUw2dDY0XzBONzBzcDBtaEtiRHBJRUVFek1EZkNuc0xITlh3MFk1X040c2R5bFdtWXVwMjVHWkdIT0dfdDBxbFgyV1QyY0hyMGdBZE51REhoUUdxYmFndnhJRUw0aHBKRFhSQklzT2VWSTdmQTJxRQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "20% Upper Circuit: 7 Stocks That Hit the Upper Circuit Today; Do You Own Any? - Trade Brains",
+        "source": "Trade Brains",
+        "published": "Fri, 03 Jul 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeVdmNGd2VHpiTXB1VUFkNnhBLTVXcmRoejM0OWJYX08xTFpMOVN3X29QZHgxMF9CR3h0SUFwaGo1WG11OWhOVHRnU29XbEtVQXZteDlzbDRuU0x4Ni1EeElVT1NjVTU2Yy1FcUs1amRfWDUwR213N1NpQzlnUGFyZGZqQ0VDODBmNGxZajRicjN5blZfN0F1VnJUSDhCSWZw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "low",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Strong Financial Performance Drives Growth for TPL PLASTECH LIMITED in Q3 FY24 - EquityBulls",
+        "source": "EquityBulls",
+        "published": "Fri, 09 Feb 2024 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVExmZDUwZ0lLNXloU0EzOUtQZl9zdmpNOEg2ZjZucFVRZGM1emFwd21hVHBWcV9Pc2J1eTRWSm1BVTJmcHVleWFRRnhRcXNvR2NOWG8tTzhXUUg4eFhQd2dWa1RQNmZBcmc1Q2FvX3dxZ2dUdkhXYnZENC1sNElISzBETjMtRV9QeGg5OVZyUWZFWllUMi1kekFid1kzdmJXLXdveUZDamhHSHZGVDYwbDFtNy1qaEF3blE?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      }
+    ],
+    "stored_new": 18,
+    "duplicates_skipped": 0,
     "note": "headlines are unverified signals, not confirmed financial evidence",
     "_run_id": 1091
   },
@@ -219,8 +382,8 @@
         "severity": "moderate",
         "evidence": "ATR 4.5% of price (>4%)",
         "source": "computed",
-        "date": "2026-11-24",
-        "detected_at": "2026-11-24 22:59:17.256823+00:00"
+        "date": "2026-11-25",
+        "detected_at": "2026-11-25 22:10:50.454473+00:00"
       }
     ],
     "unassessed_governance_items": [
@@ -265,7 +428,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 70.5769258018022,
+      "ema_200_daily": 70.57692237971247,
       "price_vs_ema_200": "above"
     },
     "business_classification": "average"
@@ -312,7 +475,7 @@
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-25 04:29 IST",
+    "generated_at": "2026-11-26 03:40 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-25 04:24 IST"
   }

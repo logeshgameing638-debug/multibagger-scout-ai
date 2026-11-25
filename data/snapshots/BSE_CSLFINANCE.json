@@ -1,7 +1,7 @@
 {
   "symbol": "CSLFINANCE",
   "exchange": "BSE",
-  "updated_at": "2026-11-25 04:28 IST",
+  "updated_at": "2026-11-26 03:33 IST",
   "status": "complete",
   "agent_statuses": {
     "fundamental": "success",
@@ -71,7 +71,7 @@
         "points": 8,
         "max": 10,
         "detail": [
-          "P/E 6.2 (no industry benchmark): value 6.2 vs threshold 15"
+          "P/E 6.0 (no industry benchmark): value 5.99 vs threshold 15"
         ]
       },
       "industry_growth": {
@@ -163,7 +163,7 @@
         "points": 15,
         "max": 15,
         "detail": [
-          "1233 validated daily bars (value 1.23e+03 vs threshold 200); providers may delay quotes ~15 min"
+          "1231 validated daily bars (value 1.23e+03 vs threshold 200); providers may delay quotes ~15 min"
         ]
       },
       "cross_source_consistency": {

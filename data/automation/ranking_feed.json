@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-25 04:28 IST",
-  "rotation_last_run_at": "2026-11-25 04:28 IST",
+  "generated_at": "2026-11-26 03:40 IST",
+  "rotation_last_run_at": "2026-11-26 03:40 IST",
   "cycle_started_at": "2026-11-19 09:36 IST",
-  "universe_size": 4985,
-  "ranked_count": 1091,
+  "universe_size": 4989,
+  "ranked_count": 1196,
   "excluded_count": 0,
   "top": [
     {
@@ -119,6 +119,22 @@
       "rank": 7
     },
     {
+      "symbol": "PRIVISCL",
+      "exchange": "BSE",
+      "verdict": "neutral - balanced 62.0, stored risk 0.0",
+      "name": "Privi Speciality Chemicals Limited",
+      "balanced": 62.0,
+      "long_term": 61.6,
+      "short_term": 62.4,
+      "risk": 0.0,
+      "data_confidence": 72.0,
+      "classification": "neutral",
+      "status": "complete",
+      "data_date": "2026-11-26 03:33 IST",
+      "missing_agents": [],
+      "rank": 8
+    },
+    {
       "symbol": "JAMNAAUTO",
       "exchange": "BSE",
       "verdict": "neutral - balanced 61.7, stored risk 10.0",
@@ -132,7 +148,7 @@
       "status": "complete",
       "data_date": "2026-11-21 02:22 IST",
       "missing_agents": [],
-      "rank": 8
+      "rank": 9
     },
     {
       "symbol": "BANCOINDIA",
@@ -148,7 +164,7 @@
       "status": "complete",
       "data_date": "2026-11-19 14:11 IST",
       "missing_agents": [],
-      "rank": 9
+      "rank": 10
     },
     {
       "symbol": "CEMPRO",
@@ -164,7 +180,7 @@
       "status": "complete",
       "data_date": "2026-11-19 20:44 IST",
       "missing_agents": [],
-      "rank": 10
+      "rank": 11
     },
     {
       "symbol": "GABRIEL",
@@ -180,7 +196,7 @@
       "status": "complete",
       "data_date": "2026-11-24 06:05 IST",
       "missing_agents": [],
-      "rank": 11
+      "rank": 12
     },
     {
       "symbol": "TITANBIO",
@@ -196,7 +212,7 @@
       "status": "complete",
       "data_date": "2026-11-25 04:21 IST",
       "missing_agents": [],
-      "rank": 12
+      "rank": 13
     },
     {
       "symbol": "AJAXENGG",
@@ -212,7 +228,7 @@
       "status": "complete",
       "data_date": "2026-11-19 09:57 IST",
       "missing_agents": [],
-      "rank": 13
+      "rank": 14
     },
     {
       "symbol": "ALLDIGI",
@@ -228,7 +244,7 @@
       "status": "complete",
       "data_date": "2026-11-19 09:58 IST",
       "missing_agents": [],
-      "rank": 14
+      "rank": 15
     },
     {
       "symbol": "CUPID",
@@ -244,7 +260,7 @@
       "status": "complete",
       "data_date": "2026-11-20 03:54 IST",
       "missing_agents": [],
-      "rank": 15
+      "rank": 16
     },
     {
       "symbol": "ENDURANCE",
@@ -260,7 +276,23 @@
       "status": "complete",
       "data_date": "2026-11-21 02:28 IST",
       "missing_agents": [],
-      "rank": 16
+      "rank": 17
+    },
+    {
+      "symbol": "GULFOILLUB",
+      "exchange": "NSE",
+      "verdict": "neutral - balanced 60.0, stored risk 0.0",
+      "name": "Gulf Oil Lubricants India Limited",
+      "balanced": 60.0,
+      "long_term": 62.8,
+      "short_term": 57.2,
+      "risk": 0.0,
+      "data_confidence": 72.0,
+      "classification": "neutral",
+      "status": "complete",
+      "data_date": "2026-11-26 03:37 IST",
+      "missing_agents": [],
+      "rank": 18
     },
     {
       "symbol": "BBOX",
@@ -276,7 +308,23 @@
       "status": "complete",
       "data_date": "2026-11-19 14:11 IST",
       "missing_agents": [],
-      "rank": 17
+      "rank": 19
+    },
+    {
+      "symbol": "ARYAMAN",
+      "exchange": "BSE",
+      "verdict": "strong_technical_trend - balanced 59.5, stored risk 10.0",
+      "name": "Aryaman Financial Services Limited",
+      "balanced": 59.5,
+      "long_term": 55.3,
+      "short_term": 63.7,
+      "risk": 10.0,
+      "data_confidence": 72.0,
+      "classification": "strong_technical_trend",
+      "status": "complete",
+      "data_date": "2026-11-26 03:34 IST",
+      "missing_agents": [],
+      "rank": 20
     },
     {
       "symbol": "BROOKS",
@@ -292,7 +340,7 @@
       "status": "complete",
       "data_date": "2026-11-19 20:39 IST",
       "missing_agents": [],
-      "rank": 18
+      "rank": 21
     },
     {
       "symbol": "DIVISLAB",
@@ -308,7 +356,7 @@
       "status": "complete",
       "data_date": "2026-11-20 04:03 IST",
       "missing_agents": [],
-      "rank": 19
+      "rank": 22
     },
     {
       "symbol": "ECOSMOBLTY",
@@ -324,7 +372,7 @@
       "status": "complete",
       "data_date": "2026-11-21 02:24 IST",
       "missing_agents": [],
-      "rank": 20
+      "rank": 23
     },
     {
       "symbol": "SAFARI",
@@ -340,7 +388,7 @@
       "status": "complete",
       "data_date": "2026-11-24 05:58 IST",
       "missing_agents": [],
-      "rank": 21
+      "rank": 24
     },
     {
       "symbol": "ANTHEM",
@@ -355,54 +403,6 @@
       "classification": "neutral",
       "status": "complete",
       "data_date": "2026-11-19 10:00 IST",
-      "missing_agents": [],
-      "rank": 22
-    },
-    {
-      "symbol": "EMAMILTD",
-      "exchange": "NSE",
-      "verdict": "neutral - balanced 59.0, stored risk 0.0",
-      "name": "Emami Limited",
-      "balanced": 59.0,
-      "long_term": 61.0,
-      "short_term": 57.0,
-      "risk": 0.0,
-      "data_confidence": 72.0,
-      "classification": "neutral",
-      "status": "complete",
-      "data_date": "2026-11-21 02:26 IST",
-      "missing_agents": [],
-      "rank": 23
-    },
-    {
-      "symbol": "ACE",
-      "exchange": "NSE",
-      "verdict": "neutral - balanced 58.5, stored risk 0.0",
-      "name": "Action Construction Equipment Limited",
-      "balanced": 58.5,
-      "long_term": 61.1,
-      "short_term": 55.9,
-      "risk": 0.0,
-      "data_confidence": 72.0,
-      "classification": "neutral",
-      "status": "complete",
-      "data_date": "2026-11-19 09:38 IST",
-      "missing_agents": [],
-      "rank": 24
-    },
-    {
-      "symbol": "BBTC",
-      "exchange": "NSE",
-      "verdict": "attractive_valuation - balanced 58.2, stored risk 0.0",
-      "name": "The Bombay Burmah Trading Corporation Limited",
-      "balanced": 58.2,
-      "long_term": 59.5,
-      "short_term": 57.0,
-      "risk": 0.0,
-      "data_confidence": 72.0,
-      "classification": "attractive_valuation",
-      "status": "complete",
-      "data_date": "2026-11-19 14:11 IST",
       "missing_agents": [],
       "rank": 25
     }

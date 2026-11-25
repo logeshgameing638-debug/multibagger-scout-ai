@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25 04:28 IST",
+  "generated_at": "2026-11-26 03:40 IST",
   "reports": [
     {
       "symbol": "SYNCOMF",
@@ -142,6 +142,26 @@
       }
     },
     {
+      "symbol": "PRIVISCL",
+      "exchange": "BSE",
+      "status": "success",
+      "agent_statuses": {
+        "fundamental": "success",
+        "technical": "success",
+        "business": "success",
+        "valuation": "success",
+        "risk": "success",
+        "news": "success",
+        "scoring": "success"
+      },
+      "file": "data/automation/reports/BSE_PRIVISCL.json",
+      "exports": {
+        "json": "data/automation/reports/BSE_PRIVISCL.json",
+        "html": "data/automation/reports/BSE_PRIVISCL.html",
+        "csv": "data/automation/reports/BSE_PRIVISCL.csv"
+      }
+    },
+    {
       "symbol": "JAMNAAUTO",
       "exchange": "BSE",
       "status": "success",
@@ -179,26 +199,6 @@
         "json": "data/automation/reports/NSE_BANCOINDIA.json",
         "html": "data/automation/reports/NSE_BANCOINDIA.html",
         "csv": "data/automation/reports/NSE_BANCOINDIA.csv"
-      }
-    },
-    {
-      "symbol": "CEMPRO",
-      "exchange": "NSE",
-      "status": "success",
-      "agent_statuses": {
-        "fundamental": "success",
-        "technical": "success",
-        "business": "success",
-        "valuation": "success",
-        "risk": "success",
-        "news": "success",
-        "scoring": "success"
-      },
-      "file": "data/automation/reports/NSE_CEMPRO.json",
-      "exports": {
-        "json": "data/automation/reports/NSE_CEMPRO.json",
-        "html": "data/automation/reports/NSE_CEMPRO.html",
-        "csv": "data/automation/reports/NSE_CEMPRO.csv"
       }
     }
   ]
