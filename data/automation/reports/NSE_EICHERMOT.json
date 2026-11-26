@@ -5,11 +5,11 @@
     "name": "Eicher Motors Limited",
     "sector": "Consumer Cyclical",
     "industry": "Auto Manufacturers",
-    "market_cap": 2288629055488,
+    "market_cap": 2245799444480,
     "website": "https://eicher.in"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-25 22:10:42.739673+00:00",
+    "generated_at": "2026-11-26 22:09:45.766880+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -73,42 +73,42 @@
       "2026-06-30",
       "2026-09-30"
     ],
-    "_run_id": 1065
+    "_run_id": 1072
   },
   "4_technical_analysis": {
     "assessment": "bullish",
     "daily": {
       "timeframe": "1d",
-      "last_close": 8172.5,
+      "last_close": 8336.0,
       "emas": {
-        "ema_20": 7656.422431958614,
-        "ema_50": 7520.2521265516225,
-        "ema_100": 7488.200319462943,
-        "ema_200": 7336.366837431561
+        "ema_20": 7721.144105105412,
+        "ema_50": 7552.242239235873,
+        "ema_100": 7504.988431947204,
+        "ema_200": 7346.31306157897
       },
       "smas": {
-        "sma_20": 7568.45,
-        "sma_50": 7385.14,
-        "sma_100": 7573.97,
-        "sma_200": 7426.0075
+        "sma_20": 7630.275,
+        "sma_50": 7397.17,
+        "sma_100": 7585.94,
+        "sma_200": 7432.075
       },
-      "rsi_14": 71.21352484606332,
+      "rsi_14": 74.27655511671693,
       "macd": {
-        "macd_line": 195.21364768197418,
-        "signal_line": 124.27167162323926,
-        "histogram": 70.94197605873492
+        "macd_line": 224.11328172005506,
+        "signal_line": 144.23999364260243,
+        "histogram": 79.87328807745263
       },
-      "adx_14": 37.43251931546236,
-      "atr_14": 208.43329275521904,
+      "adx_14": 39.5519738185812,
+      "atr_14": 207.58091470127482,
       "bollinger": {
-        "middle": 7568.45,
-        "upper": 8197.52918504194,
-        "lower": 6939.370814958061
+        "middle": 7630.275,
+        "upper": 8306.571452826476,
+        "lower": 6953.978547173523
       },
-      "volume_sma_20": 594391.45,
-      "relative_volume": 1.2802606766971498,
-      "support": 6931.5,
-      "resistance": 8275.0,
+      "volume_sma_20": 622508.4,
+      "relative_volume": 1.436012750992597,
+      "support": 7067.5,
+      "resistance": 8360.0,
       "price_structure": {
         "structure": "uptrend (higher highs, higher lows)",
         "higher_highs": true,
@@ -122,19 +122,19 @@
       "breakdown": false,
       "momentum_divergence": null,
       "entry_zone": {
-        "low": 6931.5,
-        "high": 7035.72,
+        "low": 7067.5,
+        "high": 7171.29,
         "basis": "near identified support plus half ATR buffer"
       },
-      "invalidation_level": 6514.63,
-      "atr_risk_distance": 208.43329275521904,
+      "invalidation_level": 6652.34,
+      "atr_risk_distance": 207.58091470127482,
       "provisional_last_bar": false
     },
     "short_term_report": {
       "timeframe": "daily",
       "trend": "bullish",
-      "rsi_14": 71.21352484606332,
-      "macd_histogram": 70.94197605873492,
+      "rsi_14": 74.27655511671693,
+      "macd_histogram": 79.87328807745263,
       "breakout": false,
       "breakdown": false
     },
@@ -144,7 +144,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 7336.366837431561,
+      "ema_200_daily": 7346.31306157897,
       "price_vs_ema_200": "above"
     }
   },
@@ -158,7 +158,7 @@
     ],
     "sector": "Consumer Cyclical",
     "industry": "Auto Manufacturers",
-    "market_cap": 2288629055488,
+    "market_cap": 2245799444480,
     "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
     "unassessed_areas": [
       "business model detail (needs annual report reading)",
@@ -169,17 +169,17 @@
       "expansion projects / order book",
       "management quality and corporate governance depth"
     ],
-    "_run_id": 1067
+    "_run_id": 1074
   },
   "6_valuation": {
     "multiples": {
-      "pe_trailing": 38.33525,
-      "pe_forward": 30.220438,
-      "pb": 8.8220415,
-      "ev_ebitda": 36.202,
-      "ev_sales": 8.419,
+      "pe_trailing": 37.617844,
+      "pe_forward": 29.654892,
+      "pb": 8.656946,
+      "ev_ebitda": 35.497,
+      "ev_sales": 8.255,
       "peg": 1.3,
-      "dividend_yield": 1.0,
+      "dividend_yield": 0.98,
       "industry_pe": null
     },
     "valuation_view_vs_industry": null,
@@ -203,17 +203,26 @@
       }
     },
     "dcf_not_calculated_reason": null,
-    "margin_of_safety_vs_base_case": -2.9216417009017808,
-    "current_price": 8172.5,
-    "_run_id": 1068
+    "margin_of_safety_vs_base_case": -3.000098527833251,
+    "current_price": 8336.0,
+    "_run_id": 1075
   },
   "7_news_intelligence": {
     "items": [
       {
         "headline": "Eicher Motors Share Price - Live NSE: EICHERMOT Stock Price & Chart - Upstox",
         "source": "Upstox",
-        "published": "Wed, 25 Nov 2026 11:39:23 GMT",
+        "published": "Wed, 25 Nov 2026 22:03:39 GMT",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pOTR6MUtLaU9iZ3l6QVAxNVpGYUdyaWI5TVFnRGVUQ1V4TVl5VGtsWklwV3JONHFqOW5fMlNsR2pEczQxaGVibnp0Z0xQYk9IeVVwNjBSQkc4YlNieFFLSktoR2Qwb2M?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "EICHERMOT Stock Price and Chart \u2014 NSE:EICHERMOT - TradingView",
+        "source": "TradingView",
+        "published": "Fri, 20 Nov 2026 09:08:17 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9uTklEWlNBdDNoWWJmSVh2d2lvbXJ4OHE1Wl9pYW52VEc2cU4wOFJkR1YxQVBZQnZWbnZkUnVFQkFjeDlxLTVFcnVtVTN6S20tUmNYMU9lSGVTakJIMGlz?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -264,9 +273,18 @@
         "verification_status": "unverified"
       },
       {
+        "headline": "EICHER MOTORS SHARE PRICE - ICICI Direct",
+        "source": "ICICI Direct",
+        "published": "Sat, 08 Jan 2022 00:39:35 GMT",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5scklTeFhCakVmTmFVZ1BsbVRGMzFQUzBIZnozRWpKZ2Z6Z3Y3N2tpTWhUaVdJZlpVN3J4TklTZVdXNWxBS19PMFhWWDFCRmpWMXAzLWhsZEFtNExZR3ZhaUFrWUVsTWQzZGhRZUJ2MW9OUQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
         "headline": "Earnings Miss: Eicher Motors Limited Missed EPS By 5.9% And Analysts Are Revising Their Forecasts - Simply Wall St",
         "source": "Simply Wall St",
-        "published": "Tue, 17 Nov 2026 00:03:08 GMT",
+        "published": "Tue, 17 Nov 2026 08:00:00 GMT",
         "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQc2FVNXFpNkVFQlI4ZVgxOGd1RVJyMS1UT2ZRM1ZITVZBeVlWaVZjMjNYNDdwWjVqOEVaZFdyWmdCUWpKUlBsUUxxQUhER3FlaGVXLWFFZ3c4Tzdoc01WTy1wRm1pNGV6ckNmNjdCZXhyZmpDbUR1M1ZKLW1Za241NnE2S0V1dGo4SEVxYjVMdnBaSFlQNFl4cWhhWWlaN2xCWEtxbUNNRlBORjROaUktQk1YRmU1dGZSQ0hOQU5ZVVg3OFg1Y1ZHQklRQWV4anFRcGVYTTVFY1BqUjRB0gHiAUFVX3lxTE0xZVNRaHZRdjVCZG5Qb1hWRU5udF9MVGFTOEItRzNaWEFsbkJ1enlJV2RiRnFwdk11aVlwSnp3UldkOU5OVndjRUJfY1ZoNTZReGZOc3F4S1FQejR5MzRZMzdMSU5Ma1dHVkpJYlNWZ2llT0FtNUx3ZEUtdlVvcElGNlNGV1ZUMWdWZlMtYWcyVHdaWHVyT09wdTBGZ09NQ2hoT2gzbnVjS2V1R2lEYW5rbWFPTE1qSXRFNk1LeEtBa3lMdFpnTldYRmVodHR5ZGEycWhSR3djUEdQTGV1Ylh5TGc?oc=5",
         "sentiment": "neutral",
         "relevance": "high",
@@ -279,15 +297,6 @@
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaTh5SU5zSExXajBXeVRQdWZiVVhiZXNUWFd6QldTZ2MyYWxFamZwWEJTWU9NMXhRZVBsTHZ3LWx3enhoUkZqU2NTWkdSWVdERi14OEo3bk1LdVJMZldVS3RPZ3FDZG9uaXJBOWJQaFdfWDJSLXNqSFd6SmRuY3ZxV1JaeXptRTRMR2JkTWxpVG1VWGNad0FqNUkyTXZZQ3dCb082VlFRejV5N2c?oc=5",
         "sentiment": "neutral",
         "relevance": "high",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "EICHER MOTORS SHARE PRICE - ICICI Direct",
-        "source": "ICICI Direct",
-        "published": "Sat, 08 Jan 2022 00:39:35 GMT",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5scklTeFhCakVmTmFVZ1BsbVRGMzFQUzBIZnozRWpKZ2Z6Z3Y3N2tpTWhUaVdJZlpVN3J4TklTZVdXNWxBS19PMFhWWDFCRmpWMXAzLWhsZEFtNExZR3ZhaUFrWUVsTWQzZGhRZUJ2MW9OUQ?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
         "verification_status": "unverified"
       },
       {
@@ -304,15 +313,6 @@
         "source": "Yahoo Finance Singapore",
         "published": "Sat, 20 May 2017 04:58:26 GMT",
         "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1KZ2h0b1VKWTZuTzlVYTk3dUFCX01wd0FHS0tsYU8zTkJTdWhBNzV0MmNvX2VILWdfbDhwWE12Mmp4RjBDYXludEhROGxiOW9XRmNTLTRiOWpOaEYw?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "EICHERMOT Stock Price and Chart \u2014 NSE:EICHERMOT - TradingView",
-        "source": "TradingView",
-        "published": "Fri, 21 Jul 2017 18:45:36 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9uTklEWlNBdDNoWWJmSVh2d2lvbXJ4OHE1Wl9pYW52VEc2cU4wOFJkR1YxQVBZQnZWbnZkUnVFQkFjeDlxLTVFcnVtVTN6S20tUmNYMU9lSGVTakJIMGlz?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -381,15 +381,6 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Concerns Surrounding Eicher Motors' (NSE:EICHERMOT) Performance - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Fri, 21 Nov 2025 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxObm5JS1NQZzhudUlrbTFnN2dpd0QtMW43eVZqUElCYnZZVC1rVlhXSEVtZVF6VzVNeWVYY0Z3dktYYTNRLWxEZlZBZTRFUUYtSldkeEMxdGloT2tKUzRXRFV1TUZMZFhidXVpdGhpaDg3emJtbTY4bDVRVWhFVmpfSkFLZk9VUkdmaW56ZEw5cnVzWWJXQlNOVUh4Rkt0NzJwSzdSYXZFN002dFRMMGdqOFpnRks1WVVQUFEwNF9KUXZaUjJBWHBoS3RMN1huUkQ3cm9ubjVZLThyM0XSAeABQVVfeXFMUGJUamQ0TjByWk1vUnFUc1pFUGRfQUVSSW5tZzZTaGxuS2QyYzhCTUhYdXBaSEtwYVQzWFFzVHg2bkhoMU15OFpKTms2YkZKRjNGU0xGZFh3VnUtellKNi1icU9iWmxnS1hzR0hJNkhraXplVTJlNXR5ekNrWHptTHc1anlKUnQzMWotaHNpS0ZjWnpJTGNEYXh2eDFDa0RlN1RJclFTYWg4cExySDA5Q2RkTFgxUDQtR0MwSHRLa2Z6aTBrTGxBTVlPUGhPYWpTNmRSV2NTdF9XSFUxbjQ2UEw?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
         "headline": "Eicher Motors Limited (EICHERMOT.NS) Stock Historical Prices & Data - Yahoo Finance - Yahoo! Finance Canada",
         "source": "Yahoo! Finance Canada",
         "published": "Wed, 21 Jun 2017 21:30:09 GMT",
@@ -435,12 +426,21 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Bharti Airtel, Eicher Motors, and 4 Other Stocks Trading Near Their Resistance Zones to Keep an Eye On - Trade Brains",
+        "headline": "Eicher Motors, Milky Mist and 3 Other Stocks Breaking Their All-Time Highs - Trade Brains",
         "source": "Trade Brains",
-        "published": "Tue, 24 Nov 2026 11:15:37 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQc0R0Rkd2amJZZmgtQXh1V2daQ2NQMmtpb0NteVp4anc0THdvWGNlM3dLbEJJbjNGRHVUR3U1bmp3Q3EtOXBYTDNhUXVpc056eG1aTW1SVXpIZmw4UkoybVVJQnNydGMyS1BPVUhxRkRsSS1DODZQb2VaM1AxX1c2aFl6OVlaWThkNktMdTJuMVplQUtWZ0Y1WWpURUtoSGVQWnBET09LZEwxV3gxN1UxRHVqNXNPZWxDaV80ekkzLTBicmFLaVpsek9zQ2VLZ1dnR0FJUDNXRUI3ZDVHallUbQ?oc=5",
-        "sentiment": "neutral",
+        "published": "Thu, 26 Nov 2026 01:30:37 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOV29LdTk5VkthME5lU1puSkR6aVJVWjFGQm1mNVFjUVAwMFBYakNjSVJxNmZfUThvTmYyYU9oM0c0Qklyd1RELW43MF9vTnlZMm5DN0p2dkF4ajhBeTJhdVpGblFrbTA4Ml9QWXhjNFNtUUdhbTlzVWJzX2t4anJSRzRPUWtjYzZucVhSeUc5TkZDY3BGbzZ0N1ZvV2ZOcGU4TXJzOEZabm50dE1JQjhlT3Nnb3g4N1F5ZXNwQw?oc=5",
+        "sentiment": "positive",
         "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Eicher Motors Receives GST Demand Order of \u20b91.41 Crore - PSU Connect",
+        "source": "PSU Connect",
+        "published": "Thu, 26 Nov 2026 06:25:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQR3VHeTFQZXVlbHdndDBOYzhNQ3Y4U3Znd0FzdVRCdHE0ZTl1enhUSnJGZkMtUWw3TkJuWEFIWHd5dGxWLXJZbDJPN1dVSEN0bFpLeU1yUGozRVNjZ2ZaTnR1ZWxIQlhUOHl6SnFWaUE1ZkNZdWdNUHM5WVRHQUszazV1QkJUenBUR2xHX3puOEtrN1k?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
         "verification_status": "unverified"
       },
       {
@@ -465,7 +465,7 @@
     "stored_new": 28,
     "duplicates_skipped": 0,
     "note": "headlines are unverified signals, not confirmed financial evidence",
-    "_run_id": 1070
+    "_run_id": 1077
   },
   "8_risk_analysis": {
     "classification": "LOW",
@@ -479,10 +479,10 @@
       "promoter selling (source unavailable)"
     ],
     "shares_outstanding_growth_yoy": 0.0005475699077720174,
-    "atr_pct_of_price": 0.02550422670605311,
+    "atr_pct_of_price": 0.02490174120696675,
     "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
     "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
-    "_run_id": 1069
+    "_run_id": 1076
   },
   "9_fundamental_score": 66.0,
   "10_technical_score": 66.0,
@@ -492,17 +492,17 @@
     "technical_view": {
       "timeframe": "daily",
       "trend": "bullish",
-      "rsi_14": 71.21352484606332,
-      "macd_histogram": 70.94197605873492,
+      "rsi_14": 74.27655511671693,
+      "macd_histogram": 79.87328807745263,
       "breakout": false,
       "breakdown": false
     },
     "entry_zone": {
-      "low": 6931.5,
-      "high": 7035.72,
+      "low": 7067.5,
+      "high": 7171.29,
       "basis": "near identified support plus half ATR buffer"
     },
-    "invalidation_level": 6514.63
+    "invalidation_level": 6652.34
   },
   "13_long_term_assessment": {
     "score": 66.0,
@@ -512,14 +512,14 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 7336.366837431561,
+      "ema_200_daily": 7346.31306157897,
       "price_vs_ema_200": "above"
     },
     "business_classification": "average"
   },
   "14_investment_thesis": "Eicher Motors Limited (EICHERMOT) is classified as a 'average' business with a bullish technical trend. Balanced research score 66.0/100 (fundamental 66.0, technical 66.0, data confidence 72.0, risk 0/100 higher=worse). Supporting evidence: ROE 22.0% (>15%): capital allocated effectively; operating margin 21.6%: pricing power evidence.",
   "15_thesis_invalidation": [
-    "Daily close below invalidation level 6514.63 (2x ATR under support)",
+    "Daily close below invalidation level 6652.34 (2x ATR under support)",
     "Operating cash flow turning negative in the next annual report",
     "New critical governance or regulatory finding (currently unassessed items must be checked manually)"
   ],
@@ -559,7 +559,7 @@
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-26 03:40 IST",
+    "generated_at": "2026-11-27 03:39 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-21 02:24 IST"
   }

@@ -1,0 +1,322 @@
+{
+  "1_company_profile": {
+    "symbol": "HMVL",
+    "exchange": "NSE",
+    "name": "Hindustan Media Ventures Limited",
+    "sector": "Communication Services",
+    "industry": "Publishing",
+    "market_cap": 7219890688,
+    "website": "https://www.hmvl.in"
+  },
+  "2_source_and_timestamp": {
+    "generated_at": "2026-11-26 22:10:02.057377+00:00",
+    "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
+    "agent_statuses": {
+      "fundamental": "success",
+      "technical": "success",
+      "business": "success",
+      "valuation": "success",
+      "risk": "success",
+      "news": "success",
+      "scoring": "success"
+    }
+  },
+  "3_financial_analysis": {
+    "is_financial_sector": false,
+    "growth": {
+      "sales_growth_1y": 0.06350760291168622,
+      "sales_cagr_3y": 0.002887038851444368,
+      "sales_cagr_5y": null,
+      "profit_growth_1y": -0.3740035998971458,
+      "profit_cagr_3y": null,
+      "profit_cagr_5y": null,
+      "eps_growth_1y": -0.3740530303030303
+    },
+    "profitability": {
+      "roe": 0.03067299151437265,
+      "roce": 0.10183762191512136,
+      "operating_margin": 0.1419090463676451,
+      "net_margin": 0.07229076655828248,
+      "gross_margin": 0.46954107463661604
+    },
+    "balance_sheet": {
+      "total_debt": 848800000.0,
+      "debt_to_equity": 0.05347142164181455,
+      "interest_coverage": 22.174479166666668,
+      "current_ratio": 1.511513157894737,
+      "working_capital": 4260700000.0
+    },
+    "cash_flow": {
+      "operating_cash_flow": 724000000.0,
+      "free_cash_flow": 695400000.0,
+      "ocf_to_net_profit": 1.4869583076607107,
+      "fcf_conversion": 0.9604972375690608
+    },
+    "ownership": {
+      "promoter_or_insider_holding_pct": 0.88549006,
+      "institutional_holding_pct": 0.0,
+      "promoter_pledge_pct": null
+    },
+    "red_flags": [],
+    "annual_periods": [
+      "2022-03-31",
+      "2023-03-31",
+      "2024-03-31",
+      "2025-03-31",
+      "2026-03-31"
+    ],
+    "quarterly_periods": [
+      "2025-06-30",
+      "2025-09-30",
+      "2025-12-31",
+      "2026-03-31",
+      "2026-06-30",
+      "2026-09-30"
+    ],
+    "_run_id": 1114
+  },
+  "4_technical_analysis": {
+    "assessment": "bullish",
+    "daily": {
+      "timeframe": "1d",
+      "last_close": 99.79000091552734,
+      "emas": {
+        "ema_20": 88.00932336054115,
+        "ema_50": 84.16629132106492,
+        "ema_100": 82.74103665151841,
+        "ema_200": 80.82772973186638
+      },
+      "smas": {
+        "sma_20": 85.75099983215333,
+        "sma_50": 80.4297998046875,
+        "sma_100": 85.8073998260498,
+        "sma_200": 77.84599966049194
+      },
+      "rsi_14": 68.3040277038711,
+      "macd": {
+        "macd_line": 4.549523412404767,
+        "signal_line": 3.4954122106336705,
+        "histogram": 1.0541112017710965
+      },
+      "adx_14": 33.06117465532422,
+      "atr_14": 5.313692926307688,
+      "bollinger": {
+        "middle": 85.75099983215333,
+        "upper": 103.74792923505976,
+        "lower": 67.7540704292469
+      },
+      "volume_sma_20": 44668.5,
+      "relative_volume": 2.602214088227722,
+      "support": 72.0,
+      "resistance": 101.5,
+      "price_structure": {
+        "structure": "uptrend (higher highs, higher lows)",
+        "higher_highs": true,
+        "higher_lows": true,
+        "lower_highs": false,
+        "lower_lows": false
+      },
+      "trend": "bullish",
+      "trend_strength": "strong",
+      "breakout": false,
+      "breakdown": false,
+      "momentum_divergence": "possible bearish divergence (price new high, RSI lower high)",
+      "entry_zone": {
+        "low": 72.0,
+        "high": 74.66,
+        "basis": "near identified support plus half ATR buffer"
+      },
+      "invalidation_level": 61.37,
+      "atr_risk_distance": 5.313692926307688,
+      "provisional_last_bar": false
+    },
+    "short_term_report": {
+      "timeframe": "daily",
+      "trend": "bullish",
+      "rsi_14": 68.3040277038711,
+      "macd_histogram": 1.0541112017710965,
+      "breakout": false,
+      "breakdown": false
+    },
+    "long_term_report": {
+      "timeframes": [
+        "weekly",
+        "monthly"
+      ],
+      "trend": "sideways",
+      "ema_200_daily": 80.82772973186638,
+      "price_vs_ema_200": "above"
+    }
+  },
+  "5_business_quality": {
+    "classification": "weak",
+    "positive_evidence_count": 0,
+    "negative_evidence_count": 1,
+    "evidence": [
+      "ROE 3.1% (<8%): weak returns on equity"
+    ],
+    "sector": "Communication Services",
+    "industry": "Publishing",
+    "market_cap": 7219890688,
+    "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
+    "unassessed_areas": [
+      "business model detail (needs annual report reading)",
+      "industry growth rate",
+      "market share and competitor comparison",
+      "customer concentration",
+      "supplier dependency",
+      "expansion projects / order book",
+      "management quality and corporate governance depth"
+    ],
+    "_run_id": 1116
+  },
+  "6_valuation": {
+    "multiples": {
+      "pe_trailing": 4.159678,
+      "pe_forward": 3.3404763,
+      "pb": 0.42869616,
+      "ev_ebitda": -1.974,
+      "ev_sales": -0.33,
+      "peg": 0.18,
+      "dividend_yield": 0.0,
+      "industry_pe": null
+    },
+    "valuation_view_vs_industry": null,
+    "dcf": {
+      "scenarios": {
+        "bear": 115.78139530102833,
+        "base": 153.33505259943314,
+        "bull": 176.68870583802072
+      },
+      "assumptions": {
+        "base_fcf": 695400000.0,
+        "growth_rates": {
+          "bear": 0.04,
+          "base": 0.08,
+          "bull": 0.1
+        },
+        "cost_of_equity": 0.13,
+        "terminal_growth": 0.05,
+        "projection_years": 10,
+        "shares_outstanding": 73514821
+      }
+    },
+    "dcf_not_calculated_reason": null,
+    "margin_of_safety_vs_base_case": 0.3492029433334133,
+    "current_price": 99.79000091552734,
+    "_run_id": 1117
+  },
+  "7_news_intelligence": {
+    "items": [],
+    "stored_new": 0,
+    "duplicates_skipped": 40,
+    "note": "headlines are unverified signals, not confirmed financial evidence",
+    "_run_id": 1119
+  },
+  "8_risk_analysis": {
+    "classification": "MODERATE",
+    "findings": [
+      {
+        "category": "high_volatility",
+        "severity": "moderate",
+        "evidence": "ATR 5.3% of price (>4%)",
+        "source": "computed",
+        "date": "2026-11-26",
+        "detected_at": "2026-11-26 22:10:02.041839+00:00"
+      }
+    ],
+    "unassessed_governance_items": [
+      "auditor resignation history",
+      "qualified audit opinions",
+      "related-party transactions",
+      "regulatory actions",
+      "promoter pledging (source unavailable)",
+      "promoter selling (source unavailable)"
+    ],
+    "shares_outstanding_growth_yoy": 0.0,
+    "atr_pct_of_price": 0.05324875115299128,
+    "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
+    "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
+    "_run_id": 1118
+  },
+  "9_fundamental_score": 52.5,
+  "10_technical_score": 71.0,
+  "11_data_confidence": 72.0,
+  "12_short_term_assessment": {
+    "score": 65.4,
+    "technical_view": {
+      "timeframe": "daily",
+      "trend": "bullish",
+      "rsi_14": 68.3040277038711,
+      "macd_histogram": 1.0541112017710965,
+      "breakout": false,
+      "breakdown": false
+    },
+    "entry_zone": {
+      "low": 72.0,
+      "high": 74.66,
+      "basis": "near identified support plus half ATR buffer"
+    },
+    "invalidation_level": 61.37
+  },
+  "13_long_term_assessment": {
+    "score": 58.0,
+    "trend": {
+      "timeframes": [
+        "weekly",
+        "monthly"
+      ],
+      "trend": "sideways",
+      "ema_200_daily": 80.82772973186638,
+      "price_vs_ema_200": "above"
+    },
+    "business_classification": "weak"
+  },
+  "14_investment_thesis": "Hindustan Media Ventures Limited (HMVL) is classified as a 'weak' business with a bullish technical trend. Balanced research score 61.7/100 (fundamental 52.5, technical 71.0, data confidence 72.0, risk 10/100 higher=worse). Supporting evidence: ROE 3.1% (<8%): weak returns on equity.",
+  "15_thesis_invalidation": [
+    "Daily close below invalidation level 61.37 (2x ATR under support)",
+    "Operating cash flow turning negative in the next annual report",
+    "New critical governance or regulatory finding (currently unassessed items must be checked manually)"
+  ],
+  "16_missing_evidence": {
+    "fundamental_gaps": [],
+    "unassessed_governance": [
+      "auditor resignation history",
+      "qualified audit opinions",
+      "related-party transactions",
+      "regulatory actions",
+      "promoter pledging (source unavailable)",
+      "promoter selling (source unavailable)"
+    ],
+    "valuation_gaps": null,
+    "business_unassessed": [
+      "business model detail (needs annual report reading)",
+      "industry growth rate",
+      "market share and competitor comparison",
+      "customer concentration",
+      "supplier dependency",
+      "expansion projects / order book",
+      "management quality and corporate governance depth"
+    ]
+  },
+  "17_sources": [
+    "yahoo_finance (prices, statements, profile)",
+    "rss_news (headlines, unverified)"
+  ],
+  "labels": [
+    "attractive_valuation",
+    "strong_technical_trend"
+  ],
+  "combined_scores": {
+    "long_term": 58.0,
+    "short_term": 65.4,
+    "balanced": 61.7,
+    "risk_score_higher_is_worse": 10
+  },
+  "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
+  "automation": {
+    "generated_at": "2026-11-27 03:40 IST",
+    "source": "scheduled GitHub Actions run",
+    "rotation_data_date": "2026-11-27 03:35 IST"
+  }
+}

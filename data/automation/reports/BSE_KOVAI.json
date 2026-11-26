@@ -5,11 +5,11 @@
     "name": "Kovai Medical Center and Hospital Limited",
     "sector": "Healthcare",
     "industry": "Medical Care Facilities",
-    "market_cap": 72874917888,
+    "market_cap": 72792850432,
     "website": "https://www.kmchhospitals.com"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-25 22:10:53.490888+00:00",
+    "generated_at": "2026-11-26 22:09:57.225213+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -71,42 +71,42 @@
       "2026-06-30",
       "2026-09-30"
     ],
-    "_run_id": 1093
+    "_run_id": 1100
   },
   "4_technical_analysis": {
     "assessment": "bullish",
     "daily": {
       "timeframe": "1d",
-      "last_close": 6618.2001953125,
+      "last_close": 6659.9501953125,
       "emas": {
-        "ema_20": 6267.2733931972325,
-        "ema_50": 6110.663610040257,
-        "ema_100": 6003.729675548907,
-        "ema_200": 5893.955399070392
+        "ema_20": 6304.671183874877,
+        "ema_50": 6132.20426044309,
+        "ema_100": 6016.72414128579,
+        "ema_200": 5901.577012989883
       },
       "smas": {
-        "sma_20": 6164.365014648438,
-        "sma_50": 6074.24201171875,
-        "sma_100": 6022.437509765625,
-        "sma_200": 5734.757497558594
+        "sma_20": 6206.697534179688,
+        "sma_50": 6084.43001953125,
+        "sma_100": 6028.543012695312,
+        "sma_200": 5740.9249975585935
       },
-      "rsi_14": 67.472409592572,
+      "rsi_14": 68.58646199331346,
       "macd": {
-        "macd_line": 170.5659820413939,
-        "signal_line": 114.61900289930352,
-        "histogram": 55.946979142090385
+        "macd_line": 179.91108034814624,
+        "signal_line": 127.67741838907207,
+        "histogram": 52.23366195907417
       },
-      "adx_14": 29.114167347137776,
-      "atr_14": 180.47470527817157,
+      "adx_14": 30.7474594897913,
+      "atr_14": 184.69794759089146,
       "bollinger": {
-        "middle": 6164.365014648438,
-        "upper": 6794.94750011819,
-        "lower": 5533.782529178686
+        "middle": 6206.697534179688,
+        "upper": 6851.560609423673,
+        "lower": 5561.834458935703
       },
-      "volume_sma_20": 830.85,
-      "relative_volume": 0.42606968766925435,
+      "volume_sma_20": 892.45,
+      "relative_volume": 1.9429659924925766,
       "support": 5710.60009765625,
-      "resistance": 6750.0,
+      "resistance": 6808.60009765625,
       "price_structure": {
         "structure": "consolidation / mixed",
         "higher_highs": true,
@@ -121,18 +121,18 @@
       "momentum_divergence": "possible bearish divergence (price new high, RSI lower high)",
       "entry_zone": {
         "low": 5710.6,
-        "high": 5800.84,
+        "high": 5802.95,
         "basis": "near identified support plus half ATR buffer"
       },
-      "invalidation_level": 5349.65,
-      "atr_risk_distance": 180.47470527817157,
+      "invalidation_level": 5341.2,
+      "atr_risk_distance": 184.69794759089146,
       "provisional_last_bar": false
     },
     "short_term_report": {
       "timeframe": "daily",
       "trend": "bullish",
-      "rsi_14": 67.472409592572,
-      "macd_histogram": 55.946979142090385,
+      "rsi_14": 68.58646199331346,
+      "macd_histogram": 52.23366195907417,
       "breakout": false,
       "breakdown": false
     },
@@ -142,7 +142,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 5893.955399070392,
+      "ema_200_daily": 5901.577012989883,
       "price_vs_ema_200": "above"
     }
   },
@@ -156,7 +156,7 @@
     ],
     "sector": "Healthcare",
     "industry": "Medical Care Facilities",
-    "market_cap": 72874917888,
+    "market_cap": 72792850432,
     "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
     "unassessed_areas": [
       "business model detail (needs annual report reading)",
@@ -167,15 +167,15 @@
       "expansion projects / order book",
       "management quality and corporate governance depth"
     ],
-    "_run_id": 1095
+    "_run_id": 1102
   },
   "6_valuation": {
     "multiples": {
-      "pe_trailing": 26.914328,
-      "pe_forward": 100.67952,
-      "pb": 5.0193505,
-      "ev_ebitda": 15.014,
-      "ev_sales": 4.235,
+      "pe_trailing": 26.884018,
+      "pe_forward": 100.56614,
+      "pb": 5.013698,
+      "ev_ebitda": 14.997,
+      "ev_sales": 4.23,
       "peg": 1.31,
       "dividend_yield": 0.23,
       "industry_pe": null
@@ -201,9 +201,9 @@
       }
     },
     "dcf_not_calculated_reason": null,
-    "margin_of_safety_vs_base_case": -3.0658137926253954,
-    "current_price": 6618.2001953125,
-    "_run_id": 1096
+    "margin_of_safety_vs_base_case": -3.0914624162439948,
+    "current_price": 6659.9501953125,
+    "_run_id": 1103
   },
   "7_news_intelligence": {
     "items": [
@@ -264,7 +264,7 @@
       {
         "headline": "Kovai Medical Center FY26 Results: Net profit rises 17% to \u20b92,444.60 crore - scanx.trade",
         "source": "scanx.trade",
-        "published": "Mon, 27 Jul 2026 07:00:00 GMT",
+        "published": "Sun, 26 Jul 2026 07:00:00 GMT",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYjBDeVhZNHJEY2cxaGdZM3ROT3ZfODdaMVN1Z0R0aGgzbnd4LW42SF94dWpQX2V1aW1zeHJrcGdyZTA5SjZoczc4RVZxaDVtdmhyandiM2pqUlZPWjlvYzVNTkVvd0FhWnhJQko2OGx3VTNOQXlOTXhkbXNKanNrQ2I5dV9wNUlVUzVObDNxT0R4THEtak1DT3lGTFUxZWVsMTVQbk1QczJzaktKRXh0WWFhUE9YZ3ppVmpnR0NwODdsOHU0VVhv?oc=5",
         "sentiment": "positive",
         "relevance": "high",
@@ -307,12 +307,12 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Kovai Medical Center receives \u20b92.01 crore customs order for duty non-compliance - scanx.trade",
+        "headline": "Kovai Medical Center Files Q4FY26 Dematerialization Certificate with BSE - scanx.trade",
         "source": "scanx.trade",
-        "published": "Wed, 28 Oct 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQS1dNVUg5UElsMlRIcU1VZXJBWk5yWkt3T013R01wcDREQlF3WE5tTk92aHVxNG1pMzkwWnlTNVprS3had01vUjlIT2RvYVFfYWdhSWZIc2pSaGVCUGx0N0pHcGRuN3JKOGlhdU9BejBqbGNXSWNKUmFEWXRuOXp5LWhVYlgzWFRfd3dTZ3cyZVFGVHR0M0xMVl9qcVhSU0JTQWE1UHNmQkctci0xSVVMcWt6ZGREQXdTNFNjOA?oc=5",
+        "published": "Mon, 06 Apr 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZ1FRREZZSXhtdUxqeHpBbnN0LWU2Qk9sT1RqZFNpaWlPbFdnV3pUYW8tby1uMFpnblRBLXFZYXpkVkdBbVdPMHI0UnJYeGhoZUlERjNoZm9SdThMLS1WaklPRG5GYUhGZ0YtTWRBV2ktbFJEY3BJTl9fYXFUZ2V5MzczZ203bnFPUTdiN0JLRWNqdkU5c1VyV2JJcDBXQ3BIcVg3N1ljcWNJQ0ZLOVp5YUc5YVdlY1ZNcFNfRjRwLUpyeWJ4YjZ0emxac0RieEJYb2Z4T3BMbGg2cUU4VDBBY29JNUpkNUJZU2t3?oc=5",
         "sentiment": "neutral",
-        "relevance": "high",
+        "relevance": "medium",
         "verification_status": "unverified"
       },
       {
@@ -320,15 +320,6 @@
         "source": "Simply Wall St",
         "published": "Tue, 10 Aug 2021 01:20:37 GMT",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRXBLRkNCbkRsZEN6UGEwVW5PaGdrN21UU3poejIwSEx0X3lJTlBKUGZIZWlieVJTUXVpdThjZDFNN2pMRTlPS25yRHRJUVZRRFdhQ1h1NTBYbWhsZnVmNS1hYmFINTI2VV9UUDk5cXZXU1BTekxxTnlRQVR1ajNBOFhxR3c2aGZqR29pX1hNX3NFODFpd3hpRA?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Kovai Medical Center Files Q4FY26 Dematerialization Certificate with BSE - scanx.trade",
-        "source": "scanx.trade",
-        "published": "Mon, 06 Apr 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZ1FRREZZSXhtdUxqeHpBbnN0LWU2Qk9sT1RqZFNpaWlPbFdnV3pUYW8tby1uMFpnblRBLXFZYXpkVkdBbVdPMHI0UnJYeGhoZUlERjNoZm9SdThMLS1WaklPRG5GYUhGZ0YtTWRBV2ktbFJEY3BJTl9fYXFUZ2V5MzczZ203bnFPUTdiN0JLRWNqdkU5c1VyV2JJcDBXQ3BIcVg3N1ljcWNJQ0ZLOVp5YUc5YVdlY1ZNcFNfRjRwLUpyeWJ4YjZ0emxac0RieEJYb2Z4T3BMbGg2cUU4VDBBY29JNUpkNUJZU2t3?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -343,12 +334,21 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "KMCH revises Q4FY26 net profit to \u20b9633.53 crore after tax correction - scanx.trade",
-        "source": "scanx.trade",
-        "published": "Fri, 22 May 2026 17:05:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNN0t4eTVsQVFESVZaWmtTRUN6NmhFd1UteUFJS2lkbDU5ZV80ZzFSWWdsLU1XalBiekk0N1NFMUx6RnVIMUtVN0NMRzJWX1RobkZBZGQxZ3ZkanFVSmszU1o4bHJMMzJBdW1VYkRla3RQYUNfTmt5U1A1Zk41SkNYUk5TY1B5eDhhci1McWwwbTJsQThQXzNjQnVZT2RXZXhxSTBJ?oc=5",
+        "headline": "Kovai Medical Center and Hospital (523323) Balance Sheet & Financial Health Metrics - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Thu, 11 Aug 2022 15:35:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOa2xhbFAwMmZTTzhoMXBla2IwbWVnLUROV0U3MmVvOGJFR3RBSkx3WV9MTUotODFHZ1lfekU4bk93NGZXUXBwRWJhUFVmMURpM2lRZ050MWQ4WXRxQnNFU0tJcTFrR0I4clFINkVJZ2ZOTmh0Q1ZwWEtJdWExSHRLTHNNYlhacEp1TWNCVnI0eEVqQU5HZHd1QmFhS3IyYlJPQ0RB?oc=5",
         "sentiment": "neutral",
-        "relevance": "low",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Kovai Medical Center receives \u20b92.01 crore customs order for duty non-compliance - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Wed, 28 Oct 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQS1dNVUg5UElsMlRIcU1VZXJBWk5yWkt3T013R01wcDREQlF3WE5tTk92aHVxNG1pMzkwWnlTNVprS3had01vUjlIT2RvYVFfYWdhSWZIc2pSaGVCUGx0N0pHcGRuN3JKOGlhdU9BejBqbGNXSWNKUmFEWXRuOXp5LWhVYlgzWFRfd3dTZ3cyZVFGVHR0M0xMVl9qcVhSU0JTQWE1UHNmQkctci0xSVVMcWt6ZGREQXdTNFNjOA?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
         "verification_status": "unverified"
       },
       {
@@ -381,17 +381,8 @@
       {
         "headline": "Kovai Medical Center Issues Postal Ballot Notice for Independent Directors Re-appointment - scanx.trade",
         "source": "scanx.trade",
-        "published": "Mon, 09 Mar 2026 07:00:00 GMT",
+        "published": "Fri, 06 Mar 2026 06:49:53 GMT",
         "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPem9ORkdtcFlkRGRaUHllOUc5X2lNbUFzcEVFX2lYQnBKZHNOblg5NU0xQjdGdmJwUGhDaVhxRFR3cHg1T1dMWDcxOUZUSi00RUlUeVBGdzN5dnUzLWlvTTNxU1QwSUpkM1JEbFlvenBMaUhTc1BncWJ0eFVIRnVVZV85NlFZaGVhMWU3SGo2dVh2LWpjYTI0RUlXOHU4aV93X1JCa2lLZTNFTVRteHQ3OEhKLXpMSnRtZjhnVk1tV0lxa1ZuYldKMjhvSk04SzF2ZWpOdlNrVHF6U2lVbFdCakJZRDExNEtJcTFGcjJGc0JISEhmU0RaM3hn?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Kovai Medical Center and Hospital (523323) Balance Sheet & Financial Health Metrics - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Thu, 11 Aug 2022 15:35:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOa2xhbFAwMmZTTzhoMXBla2IwbWVnLUROV0U3MmVvOGJFR3RBSkx3WV9MTUotODFHZ1lfekU4bk93NGZXUXBwRWJhUFVmMURpM2lRZ050MWQ4WXRxQnNFU0tJcTFrR0I4clFINkVJZ2ZOTmh0Q1ZwWEtJdWExSHRLTHNNYlhacEp1TWNCVnI0eEVqQU5HZHd1QmFhS3IyYlJPQ0RB?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -406,10 +397,28 @@
         "verification_status": "unverified"
       },
       {
+        "headline": "Kovai Medical Center and Hospital (KOVAI) Balance Sheet & Financial Health Metrics - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Thu, 11 Aug 2022 11:54:46 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdGkxZFFBUGdRZlZndUxsMGRncEZnXzM5QVpuaUpzNW1nTGY0WW9NdEM0YjlEN3dzSUZNdnVLYkxLWE9HS29SSXJBYjloTFJBMWRuZ1l5Nk5QenlKSGlxdXB2Y3JXVXFWOG0zMDdTT3JfbjA1SHRlOFAzMzRFS0NiMmtRamhGRlpaUkQ2QWdEMFVHWkpLLVlIcXdZVU1pczRGR2c?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
         "headline": "Kovai Medical Center and Hospital Limited (523323) Company Information - Simply Wall St",
         "source": "Simply Wall St",
         "published": "Thu, 11 Aug 2022 12:49:18 GMT",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUmt5b2p4TFA4LURHTHp1ZHJEdXZOZHdDRG43amlVTnFaX2QyOG9XUFZKUFVPYkd5WE1venJlZnRhSmhlY29oU3BFbDNYZVZ0eTNLdEhNTFRaQjZSVl93OV9nblE0NzFvcU5mWkdCWV9NcEdwNzlrT1J5aXoxeUVvc1VRVHpFN0F4ajVGM3NjV2V5VXRrZnZRMjJlMk9qY0JkbEt6WUI1M0lFUQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Kovai Medical Center and Hospital Limited Company Information - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Thu, 11 Aug 2022 11:55:32 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRkxkV0dGWWhMUGQ3WUdZYTUzR3hPVWd5QlZNSlgtUEFFczlJOHQ0TWFrRXl3Z3o5eDFFZ1JmdF9QVm9HYWVOTmlFTU5rOWtrUDRyUVlZMUFxdUNmX3o0U3R4LUJBenZMS09iOGFiQ0JCdzRQamJMMnVhcUlXYjJwZDBaUWt4ODZ2a3R5M2t1bzAzQ1llcHA0SW5kNVd3SVVVeElyWnY2bzY?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -442,15 +451,6 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Kovai Medical Center to Divest Allied Health Sciences Division in Strategic Slump Sale - EquityBulls",
-        "source": "EquityBulls",
-        "published": "Mon, 11 May 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNU2VVbjBucDVERGQ4bFJtLUl4UGRyWFQ0amFTbGZwZkgyTDV1MmJud0ZIdEFoeEVjUGNiXzZoMzhKVm1tUFRwUllkN1BXUW5WeC1kMTdnYTBqbEZiYnlYQjVUNVcxLS1oaGVBOHh4WkMxZFROeXZEOWlROHQtQmdRTzk2bVdMQXdGTm9saElKdEtfeGFyVEJuODRHTjhUdXJITE9uUmk2YkJEZ1Z1Z1d4LV9LZ2xRdnRITzM0SQ?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
         "headline": "Minor Fire at records storage room of Kovai Medical Center and Hospital Ltd - EquityBulls",
         "source": "EquityBulls",
         "published": "Mon, 27 Sep 2021 07:00:00 GMT",
@@ -463,7 +463,7 @@
     "stored_new": 28,
     "duplicates_skipped": 1,
     "note": "headlines are unverified signals, not confirmed financial evidence",
-    "_run_id": 1098
+    "_run_id": 1105
   },
   "8_risk_analysis": {
     "classification": "LOW",
@@ -477,47 +477,47 @@
       "promoter selling (source unavailable)"
     ],
     "shares_outstanding_growth_yoy": 0.0,
-    "atr_pct_of_price": 0.027269453922834964,
+    "atr_pct_of_price": 0.02773263195284676,
     "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
     "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
-    "_run_id": 1097
+    "_run_id": 1104
   },
   "9_fundamental_score": 63.0,
-  "10_technical_score": 51.0,
+  "10_technical_score": 66.0,
   "11_data_confidence": 72.0,
   "12_short_term_assessment": {
-    "score": 54.6,
+    "score": 65.1,
     "technical_view": {
       "timeframe": "daily",
       "trend": "bullish",
-      "rsi_14": 67.472409592572,
-      "macd_histogram": 55.946979142090385,
+      "rsi_14": 68.58646199331346,
+      "macd_histogram": 52.23366195907417,
       "breakout": false,
       "breakdown": false
     },
     "entry_zone": {
       "low": 5710.6,
-      "high": 5800.84,
+      "high": 5802.95,
       "basis": "near identified support plus half ATR buffer"
     },
-    "invalidation_level": 5349.65
+    "invalidation_level": 5341.2
   },
   "13_long_term_assessment": {
-    "score": 59.4,
+    "score": 63.9,
     "trend": {
       "timeframes": [
         "weekly",
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 5893.955399070392,
+      "ema_200_daily": 5901.577012989883,
       "price_vs_ema_200": "above"
     },
     "business_classification": "average"
   },
-  "14_investment_thesis": "Kovai Medical Center and Hospital Limited (KOVAI) is classified as a 'average' business with a bullish technical trend. Balanced research score 57.0/100 (fundamental 63.0, technical 51.0, data confidence 72.0, risk 0/100 higher=worse). Supporting evidence: ROE 18.5% (>15%): capital allocated effectively; operating margin 21.1%: pricing power evidence.",
+  "14_investment_thesis": "Kovai Medical Center and Hospital Limited (KOVAI) is classified as a 'average' business with a bullish technical trend. Balanced research score 64.5/100 (fundamental 63.0, technical 66.0, data confidence 72.0, risk 0/100 higher=worse). Supporting evidence: ROE 18.5% (>15%): capital allocated effectively; operating margin 21.1%: pricing power evidence.",
   "15_thesis_invalidation": [
-    "Daily close below invalidation level 5349.65 (2x ATR under support)",
+    "Daily close below invalidation level 5341.2 (2x ATR under support)",
     "Operating cash flow turning negative in the next annual report",
     "New critical governance or regulatory finding (currently unassessed items must be checked manually)"
   ],
@@ -547,17 +547,17 @@
     "rss_news (headlines, unverified)"
   ],
   "labels": [
-    "neutral"
+    "strong_technical_trend"
   ],
   "combined_scores": {
-    "long_term": 59.4,
-    "short_term": 54.6,
-    "balanced": 57.0,
+    "long_term": 63.9,
+    "short_term": 65.1,
+    "balanced": 64.5,
     "risk_score_higher_is_worse": 0
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-26 03:40 IST",
+    "generated_at": "2026-11-27 03:39 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-24 05:59 IST"
   }

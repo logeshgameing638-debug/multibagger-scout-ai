@@ -1,6 +1,198 @@
 {
-  "generated_at": "2026-11-26 03:40 IST",
+  "generated_at": "2026-11-27 03:39 IST",
   "alerts": [
+    {
+      "symbol": "ACL",
+      "type": "risk_high",
+      "severity": "critical",
+      "message": "ACL stored risk score 85 >= 70 (high stored risk)",
+      "data_date": "2026-11-27 03:35 IST",
+      "detected_at": "2026-11-27 03:39 IST"
+    },
+    {
+      "symbol": "APOLLOPIPE",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "APOLLOPIPE balanced score moved -14.4 pts (47.2 -> 32.8)",
+      "data_date": "2026-11-27 03:32 IST",
+      "detected_at": "2026-11-27 03:39 IST"
+    },
+    {
+      "symbol": "ARCHIES",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "ARCHIES balanced score moved -11.0 pts (26.5 -> 15.5)",
+      "data_date": "2026-11-27 03:37 IST",
+      "detected_at": "2026-11-27 03:39 IST"
+    },
+    {
+      "symbol": "ATULAUTO",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "ATULAUTO balanced score moved -14.0 pts (42.5 -> 28.5)",
+      "data_date": "2026-11-27 03:33 IST",
+      "detected_at": "2026-11-27 03:39 IST"
+    },
+    {
+      "symbol": "AXISBANK",
+      "type": "classification_change",
+      "severity": "info",
+      "message": "AXISBANK classification changed high_risk -> high_risk,strong_technical_trend",
+      "data_date": "2026-11-27 03:37 IST",
+      "detected_at": "2026-11-27 03:39 IST"
+    },
+    {
+      "symbol": "BANKBARODA",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "BANKBARODA balanced score moved -31.0 pts (53.0 -> 22.0)",
+      "data_date": "2026-11-27 03:34 IST",
+      "detected_at": "2026-11-27 03:39 IST"
+    },
+    {
+      "symbol": "BHAGCHEM",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "BHAGCHEM RSI(14) 25 <= 30 (oversold zone)",
+      "data_date": "2026-11-27 03:32 IST",
+      "detected_at": "2026-11-27 03:39 IST"
+    },
+    {
+      "symbol": "HERANBA",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "HERANBA RSI(14) 28 <= 30 (oversold zone)",
+      "data_date": "2026-11-27 03:31 IST",
+      "detected_at": "2026-11-27 03:39 IST"
+    },
+    {
+      "symbol": "HERITGFOOD",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "HERITGFOOD balanced score moved +16.5 pts (25.5 -> 42.0)",
+      "data_date": "2026-11-27 03:32 IST",
+      "detected_at": "2026-11-27 03:39 IST"
+    },
+    {
+      "symbol": "HIKAL",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "HIKAL balanced score moved +24.0 pts (13.5 -> 37.5)",
+      "data_date": "2026-11-27 03:33 IST",
+      "detected_at": "2026-11-27 03:39 IST"
+    },
+    {
+      "symbol": "HINDADH",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "HINDADH RSI(14) 27 <= 30 (oversold zone)",
+      "data_date": "2026-11-27 03:33 IST",
+      "detected_at": "2026-11-27 03:39 IST"
+    },
+    {
+      "symbol": "HINDCOMPOS",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "HINDCOMPOS balanced score moved +12.4 pts (22.8 -> 35.2)",
+      "data_date": "2026-11-27 03:33 IST",
+      "detected_at": "2026-11-27 03:39 IST"
+    },
+    {
+      "symbol": "HINDOILEXP",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "HINDOILEXP RSI(14) 71 >= 70 (overbought zone)",
+      "data_date": "2026-11-27 03:33 IST",
+      "detected_at": "2026-11-27 03:39 IST"
+    },
+    {
+      "symbol": "HINDUNILVR",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "HINDUNILVR RSI(14) 70 >= 70 (overbought zone)",
+      "data_date": "2026-11-27 03:34 IST",
+      "detected_at": "2026-11-27 03:39 IST"
+    },
+    {
+      "symbol": "HIRECT",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "HIRECT RSI(14) 27 <= 30 (oversold zone)",
+      "data_date": "2026-11-27 03:34 IST",
+      "detected_at": "2026-11-27 03:39 IST"
+    },
+    {
+      "symbol": "HMAAGRO",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "HMAAGRO RSI(14) 89 >= 70 (overbought zone)",
+      "data_date": "2026-11-27 03:35 IST",
+      "detected_at": "2026-11-27 03:39 IST"
+    },
+    {
+      "symbol": "HONASA",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "HONASA RSI(14) 72 >= 70 (overbought zone)",
+      "data_date": "2026-11-27 03:35 IST",
+      "detected_at": "2026-11-27 03:39 IST"
+    },
+    {
+      "symbol": "ICEMAKE",
+      "type": "risk_high",
+      "severity": "critical",
+      "message": "ICEMAKE stored risk score 70 >= 70 (high stored risk)",
+      "data_date": "2026-11-27 03:37 IST",
+      "detected_at": "2026-11-27 03:39 IST"
+    },
+    {
+      "symbol": "ICICIBANK",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "ICICIBANK RSI(14) 71 >= 70 (overbought zone)",
+      "data_date": "2026-11-27 03:37 IST",
+      "detected_at": "2026-11-27 03:39 IST"
+    },
+    {
+      "symbol": "ICIL",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "ICIL balanced score moved +24.5 pts (18.5 -> 43.0)",
+      "data_date": "2026-11-27 03:37 IST",
+      "detected_at": "2026-11-27 03:39 IST"
+    },
+    {
+      "symbol": "IFBAGRO",
+      "type": "classification_change",
+      "severity": "info",
+      "message": "IFBAGRO classification changed neutral -> attractive_valuation",
+      "data_date": "2026-11-27 03:38 IST",
+      "detected_at": "2026-11-27 03:39 IST"
+    },
+    {
+      "symbol": "IGARASHI",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "IGARASHI RSI(14) 29 <= 30 (oversold zone)",
+      "data_date": "2026-11-27 03:39 IST",
+      "detected_at": "2026-11-27 03:39 IST"
+    },
+    {
+      "symbol": "PRAVEG",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "PRAVEG RSI(14) 29 <= 30 (oversold zone)",
+      "data_date": "2026-11-27 03:32 IST",
+      "detected_at": "2026-11-27 03:39 IST"
+    },
+    {
+      "symbol": "VAIBHAVGBL",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "VAIBHAVGBL RSI(14) 29 <= 30 (oversold zone)",
+      "data_date": "2026-11-27 03:35 IST",
+      "detected_at": "2026-11-27 03:39 IST"
+    },
     {
       "symbol": "AKCAPIT",
       "type": "score_change",
@@ -1067,8 +1259,8 @@
     }
   ],
   "stats": {
-    "snapshots_scanned": 1196,
-    "new_alerts": 18,
-    "active_alerts": 133
+    "snapshots_scanned": 1295,
+    "new_alerts": 24,
+    "active_alerts": 157
   }
 }

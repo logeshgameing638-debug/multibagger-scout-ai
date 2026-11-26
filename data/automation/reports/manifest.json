@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-11-26 03:40 IST",
+  "generated_at": "2026-11-27 03:39 IST",
   "reports": [
+    {
+      "symbol": "HEROMOTOCO",
+      "exchange": "NSE",
+      "status": "success",
+      "agent_statuses": {
+        "fundamental": "success",
+        "technical": "success",
+        "business": "success",
+        "valuation": "success",
+        "risk": "success",
+        "news": "success",
+        "scoring": "success"
+      },
+      "file": "data/automation/reports/NSE_HEROMOTOCO.json",
+      "exports": {
+        "json": "data/automation/reports/NSE_HEROMOTOCO.json",
+        "html": "data/automation/reports/NSE_HEROMOTOCO.html",
+        "csv": "data/automation/reports/NSE_HEROMOTOCO.csv"
+      }
+    },
     {
       "symbol": "SYNCOMF",
       "exchange": "BSE",
@@ -162,27 +182,7 @@
       }
     },
     {
-      "symbol": "JAMNAAUTO",
-      "exchange": "BSE",
-      "status": "success",
-      "agent_statuses": {
-        "fundamental": "success",
-        "technical": "success",
-        "business": "success",
-        "valuation": "success",
-        "risk": "success",
-        "news": "success",
-        "scoring": "success"
-      },
-      "file": "data/automation/reports/BSE_JAMNAAUTO.json",
-      "exports": {
-        "json": "data/automation/reports/BSE_JAMNAAUTO.json",
-        "html": "data/automation/reports/BSE_JAMNAAUTO.html",
-        "csv": "data/automation/reports/BSE_JAMNAAUTO.csv"
-      }
-    },
-    {
-      "symbol": "BANCOINDIA",
+      "symbol": "HMVL",
       "exchange": "NSE",
       "status": "success",
       "agent_statuses": {
@@ -194,11 +194,11 @@
         "news": "success",
         "scoring": "success"
       },
-      "file": "data/automation/reports/NSE_BANCOINDIA.json",
+      "file": "data/automation/reports/NSE_HMVL.json",
       "exports": {
-        "json": "data/automation/reports/NSE_BANCOINDIA.json",
-        "html": "data/automation/reports/NSE_BANCOINDIA.html",
-        "csv": "data/automation/reports/NSE_BANCOINDIA.csv"
+        "json": "data/automation/reports/NSE_HMVL.json",
+        "html": "data/automation/reports/NSE_HMVL.html",
+        "csv": "data/automation/reports/NSE_HMVL.csv"
       }
     }
   ]

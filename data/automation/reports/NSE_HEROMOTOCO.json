@@ -1,0 +1,311 @@
+{
+  "1_company_profile": {
+    "symbol": "HEROMOTOCO",
+    "exchange": "NSE",
+    "name": "Hero MotoCorp Limited",
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Manufacturers",
+    "market_cap": 1158736773120,
+    "website": "https://www.heromotocorp.com"
+  },
+  "2_source_and_timestamp": {
+    "generated_at": "2026-11-26 22:09:36.780013+00:00",
+    "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
+    "agent_statuses": {
+      "fundamental": "success",
+      "technical": "success",
+      "business": "success",
+      "valuation": "success",
+      "risk": "success",
+      "news": "success",
+      "scoring": "success"
+    }
+  },
+  "3_financial_analysis": {
+    "is_financial_sector": false,
+    "growth": {
+      "sales_growth_1y": 0.15562574424353418,
+      "sales_cagr_3y": 0.11723108913184443,
+      "sales_cagr_5y": null,
+      "profit_growth_1y": 0.31135234145182805,
+      "profit_cagr_3y": 0.2689588614144012,
+      "profit_cagr_5y": null,
+      "eps_growth_1y": 0.3107873584216294
+    },
+    "profitability": {
+      "roe": 0.2656831946783125,
+      "roce": 0.3355925466060438,
+      "operating_margin": 0.13186147283679633,
+      "net_margin": 0.12203882003188632,
+      "gross_margin": 0.32407974002936124
+    },
+    "balance_sheet": {
+      "total_debt": 7786100000.0,
+      "debt_to_equity": 0.03602809470464144,
+      "interest_coverage": 95.99910565989524,
+      "current_ratio": 1.9087136636198512,
+      "working_capital": 90002000000.0
+    },
+    "cash_flow": {
+      "operating_cash_flow": 83146200000.0,
+      "free_cash_flow": 72145200000.0,
+      "ocf_to_net_profit": 1.4481036203374245,
+      "fcf_conversion": 0.8676908866550727
+    },
+    "ownership": {
+      "promoter_or_insider_holding_pct": 0.37562,
+      "institutional_holding_pct": 0.38422,
+      "promoter_pledge_pct": null
+    },
+    "red_flags": [],
+    "annual_periods": [
+      "2022-03-31",
+      "2023-03-31",
+      "2024-03-31",
+      "2025-03-31",
+      "2026-03-31"
+    ],
+    "quarterly_periods": [
+      "2025-09-30",
+      "2025-12-31",
+      "2026-03-31",
+      "2026-06-30",
+      "2026-09-30"
+    ],
+    "_run_id": 1051
+  },
+  "4_technical_analysis": {
+    "assessment": "bullish",
+    "daily": {
+      "timeframe": "1d",
+      "last_close": 5751.5,
+      "emas": {
+        "ema_20": 5398.934533901446,
+        "ema_50": 5321.529499502997,
+        "ema_100": 5291.794805241058,
+        "ema_200": 5261.113950457523
+      },
+      "smas": {
+        "sma_20": 5376.75,
+        "sma_50": 5259.28,
+        "sma_100": 5298.893999023438,
+        "sma_200": 5260.888500976563
+      },
+      "rsi_14": 68.04384709438024,
+      "macd": {
+        "macd_line": 92.64785966697491,
+        "signal_line": 59.868122100652684,
+        "histogram": 32.779737566322225
+      },
+      "adx_14": 18.35091773922568,
+      "atr_14": 148.60693304723358,
+      "bollinger": {
+        "middle": 5376.75,
+        "upper": 5690.534790480748,
+        "lower": 5062.965209519252
+      },
+      "volume_sma_20": 669686.9,
+      "relative_volume": 1.6425332494931586,
+      "support": 5051.5,
+      "resistance": 5751.5,
+      "price_structure": {
+        "structure": "uptrend (higher highs, higher lows)",
+        "higher_highs": true,
+        "higher_lows": true,
+        "lower_highs": false,
+        "lower_lows": false
+      },
+      "trend": "bullish",
+      "trend_strength": "weak",
+      "breakout": false,
+      "breakdown": false,
+      "momentum_divergence": null,
+      "entry_zone": {
+        "low": 5051.5,
+        "high": 5125.8,
+        "basis": "near identified support plus half ATR buffer"
+      },
+      "invalidation_level": 4754.29,
+      "atr_risk_distance": 148.60693304723358,
+      "provisional_last_bar": false
+    },
+    "short_term_report": {
+      "timeframe": "daily",
+      "trend": "bullish",
+      "rsi_14": 68.04384709438024,
+      "macd_histogram": 32.779737566322225,
+      "breakout": false,
+      "breakdown": false
+    },
+    "long_term_report": {
+      "timeframes": [
+        "weekly",
+        "monthly"
+      ],
+      "trend": "sideways",
+      "ema_200_daily": 5261.113950457523,
+      "price_vs_ema_200": "above"
+    }
+  },
+  "5_business_quality": {
+    "classification": "average",
+    "positive_evidence_count": 1,
+    "negative_evidence_count": 0,
+    "evidence": [
+      "ROE 26.6% (>15%): capital allocated effectively"
+    ],
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Manufacturers",
+    "market_cap": 1158736773120,
+    "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
+    "unassessed_areas": [
+      "business model detail (needs annual report reading)",
+      "industry growth rate",
+      "market share and competitor comparison",
+      "customer concentration",
+      "supplier dependency",
+      "expansion projects / order book",
+      "management quality and corporate governance depth"
+    ],
+    "_run_id": 1053
+  },
+  "6_valuation": {
+    "multiples": {
+      "pe_trailing": 19.319206,
+      "pe_forward": 17.97442,
+      "pb": 4.950004,
+      "ev_ebitda": 14.775,
+      "ev_sales": 2.009,
+      "peg": 1.19,
+      "dividend_yield": 3.22,
+      "industry_pe": null
+    },
+    "valuation_view_vs_industry": null,
+    "dcf": {
+      "scenarios": {
+        "bear": 4411.692082357235,
+        "base": 5842.622951139554,
+        "bull": 6732.48204135798
+      },
+      "assumptions": {
+        "base_fcf": 72145200000.0,
+        "growth_rates": {
+          "bear": 0.04,
+          "base": 0.08,
+          "bull": 0.1
+        },
+        "cost_of_equity": 0.13,
+        "terminal_growth": 0.05,
+        "projection_years": 10,
+        "shares_outstanding": 200161822
+      }
+    },
+    "dcf_not_calculated_reason": null,
+    "margin_of_safety_vs_base_case": 0.015596240233469337,
+    "current_price": 5751.5,
+    "_run_id": 1054
+  },
+  "7_news_intelligence": {
+    "items": [],
+    "stored_new": 0,
+    "duplicates_skipped": 40,
+    "note": "headlines are unverified signals, not confirmed financial evidence",
+    "_run_id": 1056
+  },
+  "8_risk_analysis": {
+    "classification": "LOW",
+    "findings": [],
+    "unassessed_governance_items": [
+      "auditor resignation history",
+      "qualified audit opinions",
+      "related-party transactions",
+      "regulatory actions",
+      "promoter pledging (source unavailable)",
+      "promoter selling (source unavailable)"
+    ],
+    "shares_outstanding_growth_yoy": 0.00039468361604168284,
+    "atr_pct_of_price": 0.025837943675081906,
+    "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
+    "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
+    "_run_id": 1055
+  },
+  "9_fundamental_score": 66.0,
+  "10_technical_score": 71.0,
+  "11_data_confidence": 72.0,
+  "12_short_term_assessment": {
+    "score": 69.5,
+    "technical_view": {
+      "timeframe": "daily",
+      "trend": "bullish",
+      "rsi_14": 68.04384709438024,
+      "macd_histogram": 32.779737566322225,
+      "breakout": false,
+      "breakdown": false
+    },
+    "entry_zone": {
+      "low": 5051.5,
+      "high": 5125.8,
+      "basis": "near identified support plus half ATR buffer"
+    },
+    "invalidation_level": 4754.29
+  },
+  "13_long_term_assessment": {
+    "score": 67.5,
+    "trend": {
+      "timeframes": [
+        "weekly",
+        "monthly"
+      ],
+      "trend": "sideways",
+      "ema_200_daily": 5261.113950457523,
+      "price_vs_ema_200": "above"
+    },
+    "business_classification": "average"
+  },
+  "14_investment_thesis": "Hero MotoCorp Limited (HEROMOTOCO) is classified as a 'average' business with a bullish technical trend. Balanced research score 68.5/100 (fundamental 66.0, technical 71.0, data confidence 72.0, risk 0/100 higher=worse). Supporting evidence: ROE 26.6% (>15%): capital allocated effectively.",
+  "15_thesis_invalidation": [
+    "Daily close below invalidation level 4754.29 (2x ATR under support)",
+    "Operating cash flow turning negative in the next annual report",
+    "New critical governance or regulatory finding (currently unassessed items must be checked manually)"
+  ],
+  "16_missing_evidence": {
+    "fundamental_gaps": [],
+    "unassessed_governance": [
+      "auditor resignation history",
+      "qualified audit opinions",
+      "related-party transactions",
+      "regulatory actions",
+      "promoter pledging (source unavailable)",
+      "promoter selling (source unavailable)"
+    ],
+    "valuation_gaps": null,
+    "business_unassessed": [
+      "business model detail (needs annual report reading)",
+      "industry growth rate",
+      "market share and competitor comparison",
+      "customer concentration",
+      "supplier dependency",
+      "expansion projects / order book",
+      "management quality and corporate governance depth"
+    ]
+  },
+  "17_sources": [
+    "yahoo_finance (prices, statements, profile)",
+    "rss_news (headlines, unverified)"
+  ],
+  "labels": [
+    "strong_technical_trend"
+  ],
+  "combined_scores": {
+    "long_term": 67.5,
+    "short_term": 69.5,
+    "balanced": 68.5,
+    "risk_score_higher_is_worse": 0
+  },
+  "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
+  "automation": {
+    "generated_at": "2026-11-27 03:39 IST",
+    "source": "scheduled GitHub Actions run",
+    "rotation_data_date": "2026-11-27 03:32 IST"
+  }
+}

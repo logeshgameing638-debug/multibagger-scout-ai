@@ -5,11 +5,11 @@
     "name": "Privi Speciality Chemicals Limited",
     "sector": "Basic Materials",
     "industry": "Specialty Chemicals",
-    "market_cap": 142608171008,
+    "market_cap": 142516371456,
     "website": "https://privi.com"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-25 22:10:55.494657+00:00",
+    "generated_at": "2026-11-26 22:10:00.048408+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -73,40 +73,40 @@
       "2026-06-30",
       "2026-09-30"
     ],
-    "_run_id": 1100
+    "_run_id": 1107
   },
   "4_technical_analysis": {
     "assessment": "bullish",
     "daily": {
       "timeframe": "1d",
-      "last_close": 3616.10009765625,
+      "last_close": 3650.75,
       "emas": {
-        "ema_20": 3431.55111835198,
-        "ema_50": 3428.1569234102417,
-        "ema_100": 3416.339613889867,
-        "ema_200": 3281.452497110554
+        "ema_20": 3452.427202318458,
+        "ema_50": 3436.8860636686636,
+        "ema_100": 3420.9814037135197,
+        "ema_200": 3285.127030188015
       },
       "smas": {
-        "sma_20": 3397.4050415039064,
-        "sma_50": 3434.27001953125,
-        "sma_100": 3499.6960107421874,
-        "sma_200": 3303.2407604980467
+        "sma_20": 3412.847546386719,
+        "sma_50": 3436.55501953125,
+        "sma_100": 3499.395009765625,
+        "sma_200": 3307.4340100097656
       },
-      "rsi_14": 62.74700530799412,
+      "rsi_14": 64.38298607056936,
       "macd": {
-        "macd_line": 36.75707932670548,
-        "signal_line": 4.622857282144105,
-        "histogram": 32.134222044561376
+        "macd_line": 49.16409693021615,
+        "signal_line": 13.531105211758515,
+        "histogram": 35.63299171845763
       },
-      "adx_14": 17.140264052331258,
-      "atr_14": 121.51656547657977,
+      "adx_14": 17.481825684729433,
+      "atr_14": 121.136807311958,
       "bollinger": {
-        "middle": 3397.4050415039064,
-        "upper": 3623.408947058128,
-        "lower": 3171.401135949685
+        "middle": 3412.847546386719,
+        "upper": 3663.720889846365,
+        "lower": 3161.974202927073
       },
-      "volume_sma_20": 8264.6,
-      "relative_volume": 1.7537448878348618,
+      "volume_sma_20": 8074.5,
+      "relative_volume": 0.3280698495262865,
       "support": 3153.800048828125,
       "resistance": 3707.10009765625,
       "price_structure": {
@@ -123,18 +123,18 @@
       "momentum_divergence": null,
       "entry_zone": {
         "low": 3153.8,
-        "high": 3214.56,
+        "high": 3214.37,
         "basis": "near identified support plus half ATR buffer"
       },
-      "invalidation_level": 2910.77,
-      "atr_risk_distance": 121.51656547657977,
+      "invalidation_level": 2911.53,
+      "atr_risk_distance": 121.136807311958,
       "provisional_last_bar": false
     },
     "short_term_report": {
       "timeframe": "daily",
       "trend": "bullish",
-      "rsi_14": 62.74700530799412,
-      "macd_histogram": 32.134222044561376,
+      "rsi_14": 64.38298607056936,
+      "macd_histogram": 35.63299171845763,
       "breakout": false,
       "breakdown": false
     },
@@ -144,7 +144,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 3281.452497110554,
+      "ema_200_daily": 3285.127030188015,
       "price_vs_ema_200": "above"
     }
   },
@@ -158,7 +158,7 @@
     ],
     "sector": "Basic Materials",
     "industry": "Specialty Chemicals",
-    "market_cap": 142608171008,
+    "market_cap": 142516371456,
     "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
     "unassessed_areas": [
       "business model detail (needs annual report reading)",
@@ -169,15 +169,15 @@
       "expansion projects / order book",
       "management quality and corporate governance depth"
     ],
-    "_run_id": 1102
+    "_run_id": 1109
   },
   "6_valuation": {
     "multiples": {
-      "pe_trailing": 38.235756,
-      "pe_forward": 26.014847,
-      "pb": 9.053271,
-      "ev_ebitda": 22.414,
-      "ev_sales": 5.492,
+      "pe_trailing": 38.363827,
+      "pe_forward": 25.9981,
+      "pb": 9.047443,
+      "ev_ebitda": 22.401,
+      "ev_sales": 5.488,
       "peg": 1.5,
       "dividend_yield": 0.41,
       "industry_pe": null
@@ -203,16 +203,233 @@
       }
     },
     "dcf_not_calculated_reason": null,
-    "margin_of_safety_vs_base_case": -2.7876627723376437,
-    "current_price": 3616.10009765625,
-    "_run_id": 1103
+    "margin_of_safety_vs_base_case": -2.8239566086884738,
+    "current_price": 3650.75,
+    "_run_id": 1110
   },
   "7_news_intelligence": {
-    "items": [],
-    "stored_new": 0,
-    "duplicates_skipped": 24,
+    "items": [
+      {
+        "headline": "Privi Speciality to host analyst meet at Kotak Midcap Conference on Nov 26 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Mon, 23 Nov 2026 07:19:51 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdXhGS01TTlpKdkZYbkFWeHpEc05jYllNUVpvSVNseWs5WE1FR285SlNhbXBtWVdHeFVhY24xWFgxRFQ1N3JfQm1lb2dCa3I4QmJmNnh4SDhBdEFCNkw4RUFDeG52c3hYazZ1ajhxRkRWSUFMRDk3V19nQjZPRzU3WF9uLTFpTGNBbzZlWXlmT1FyNllzUzkzUVdBajN1YVJIdWJyUDRZQ0NYUGJLVEVHZ2w1eEQ3enJmZlM2ajRvVQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Stock Research Platform and Advisory Services in Indian Stock Market | marketsmithindia.com - MarketSmith India",
+        "source": "MarketSmith India",
+        "published": "Fri, 27 Mar 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWW4xMXpjeGRSQ3puSEdQWFM5dUlnXzdiOWF4R1JGZjN2c1JUbHpmdmx6cWdJUmpOWkN0blhNdHpyM01FZVIwdXh3bDV6bHZ6cXIwLTYtWk00VngyLVRNYWVPX09SQVZHckhvNE5rd204MWt6dmViSko4MWVINGk4V2VvZmFzN2FLX2w1c3RDR0VVS2lkRXhVV081UmJtanM3VnI0UTRwM0VHdi1WeTBkZkxEbGFVaW56Y0xaV1NpLVI0VXdyZHRB?oc=5",
+        "sentiment": "neutral",
+        "relevance": "low",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Specialty chemical stocks rally as earnings hopes lift trading volumes - ET Chemicals",
+        "source": "ET Chemicals",
+        "published": "Thu, 08 Oct 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNWTdNRU1GYS00TEQwZ28zcmZSenN1SDlvWmVncDNqUk1NNThxSnlDWWpiR1diTlBIaE9tXzc0Qm9aei1tb0pnT29Fd0NVY2tOdXh6QVhjVGRWTUdvbG82Umw2RlYzSlJjZDA2cmlvdkxJbVFIa0tGejVMMENENWtxMWRvbDhldXpGalo0SWJXZTVNMmpZWlJzYlpManNPX2t2R2w2VjJGUmpFVWZLVmZtaUJDNTN3ZEtLNU5kc3dnNjFxZmFLWlRya1BfODJpUVhJWWVsdXVEUVQxMmdyaDRnaFJGNEJXUlHSAewBQVVfeXFMT0VtZXRVODljZi1KbnNqOWFseG9tWVVCSHhVODRNTmUzQUJLMHEwVG1wU0Y5dGs1ejhaT3BrZHRkV2JpX3J3LWlCVGZoWWJTZkFwMkpEcW93R0h4d3VocGpZaEZnUHdYYUF3NFVOM2FweTJpd0RJalBWaGFVQ3MwdjE2enAwdlVXeFAwOUVvQTg3eWRFUXJDM0V1X1d6TWZDcWFXQ0ktWWwzYmN1Zkd4OXBBT3RXRHJFc2V3YkZpdjlRa3c5SW5jN285eTJFaXB6alpVNGdMWTB0Q2h1SGd2QXNNTllEcjRETFljX0Y?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "PRIVISCL Forecast \u2014 Price Target \u2014 Prediction for 2027 - TradingView",
+        "source": "TradingView",
+        "published": "Fri, 26 Jun 2026 05:04:53 GMT",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBEdVdqU3FTM2dRdHlCTnVIZ1FWaDhhUGxxUGlMdzl1R2ZzWGl1UEdiLU5vQWRzSXNIUGlLTWJKVFVQRURXUlMzbTJUMTZyQUcwREc2SWp6OFRwcC0yMlhtbHU2YV9Hc3JMVzZUVk9fRDF0eWFwd0lCemdCNA?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Privi Speciality Chemicals Limited (NSE:PRIVISCL) Looks Like A Good Stock, And It's Going Ex-Dividend Soon - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Sun, 01 Nov 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQbUZud0doQVhEZFRaWUZvMXpVYU1RdnJmdU5sX0t1bDZqQm1YSXE5LVY2MkxOSWRYUzV4ck45RklGMFlzbHFSVERMVDRjX1VodnBDU2hvcGFia1g1OVdjVTc5dGFQcnNEVkR5SmFrMVZIVWd5MFBta2x3S1kwUm1oRDJNYTBrejF2S0kwS3ViamhJdFRiVk4wblV4UEFiekVRd1dIaGptb1pYSF9ja2tFREZIRy1rbl8wX1lLclZDZkdHNkNtbFlyQTdyaWdEWkdkVmVYbzJvMkZhWVVuNVhEVkkzcTliRHVv0gHuAUFVX3lxTFBoM1h0VWMtc3hyemJ0VmJncG1mWlNuLXN1Q0xBM3E4bENhYllLT3Zka1hRZzdURWV6TTN4MWkxUlNuUmYzZmpSSWtfTmIxSHdWUXRSd2w3aUZDa0RrbmhkYldlWTBOQ2o2Z3pmZDBJSFBwSEFaU0hRclNEek9pbEZaMkRQN3ZOQU9NUXhDbTVqUTBkVzlwZUx6Nnk0ZmRfMlU4SW0wSFp1bDA0Y1hwS3VvUDM1a1ZGbXh4MjZvc3ZIa2dmMkhLMFhsV0tLdENLTS1lU3EwSXd6bHczUnJOQzhEWmpUdjg0cldlU3FWTGc?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Privi Speciality Chemicals (PRIVISCL.NS) Slips 1.55% to \u20b93475.9 as Stock Consolidates Below Resistance - Rectangle Pattern - siam website",
+        "source": "siam website",
+        "published": "Wed, 28 Oct 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOLVlEaVo1RUFVcUdYM2RCelQySmFGaGJ5VUp5a0RTV0VFc2JjN3VtWGNZSXJRM0I0ckFOQXVUc2lHbzZEdm1wMlZsMmViSEtxV3ZvdEE5U0xXRGxxd0RuN3NqWjNCc1FoT0ZBTERuVzRubHRPY2ZUZmFHeVlFRFdtZkR4SFFqNlhray05WkNVS1VQOUFvUVFvWTNkNllmVXN2WnpLcE1UcFlfeEtfNm8zOUdCTy1qSlpXTnlUTG9vX3RTOFpLQy1xV2hsVGVlY2RYc2hJMg?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Privi Speciality Chemicals Q2FY27 net profit rises 25% YoY to \u20b9117.03 crore - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Wed, 04 Nov 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPX2Y3V3I4d0ZfZ3RlLW95OVc3S1VnanhFS0J1Q2Y0cHpVTm1XdnN6Yi1Ecko2OFNCRTV1c3ozWXhpcnUxcDFKYy1xR3JLZmFaQ09fQ1FBSktzZm96NGpQUk1LaXptMXRDUi1GcW5QZWVVcnR6TE41RnV2TFR6T3JQNW9MMHE4SW93Tmo3YmVnZHNTSmsxc1RiWHVtb29ZMUc5TWpPVjRtUGVhSFVlVUJwdDJReGtzUQ?oc=5",
+        "sentiment": "positive",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Privi Speciality Chemicals Ltd Share Price Today NSE/BSE Charts - Alice Blue",
+        "source": "Alice Blue",
+        "published": "Sat, 29 Aug 2026 21:34:17 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcEo0V3NhLXNyQWlHcUNOUEtTdE8yQjdvSHpVMU94YkVKVlhvS09UbWR5R1Z5eERqdlpqTC1FSkZnRlFkV2xEdk1iZWpaNUNCd3lGY1ZpeHdpN00tMmhjaTZmbnVIYXJtRWJWelYyZFB4MU4zaUd0cnFVM0RfS3U5eXhB?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Privi Speciality Chemicals Posts Q1 Consolidated Net Profit Of 842M Rupees vs 619M YoY - Sahi",
+        "source": "Sahi",
+        "published": "Thu, 30 Jul 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUHlvdVFlSVFQZDI0UDQ1NmNvU1FSbXI5VExUU3ZmYk5NQmxyRzEyX2thSDNqZmlPY1NaTEZ3WnNpQ1JOa0xvaTJ3TXRMcmJ5LTlCT1pLLWdDZmQyTkxjY3g4dTh4MVlzS0FsaVVNSVlDaHdNNXptb0hiMVA0ZldoZ2hfN1gyX19ObVd4M2lFaE5qZzZCazY0Z05KSjlSSjRHX2lhODRCaWd2SmEwdElRRzN4YmlORjhxekM3ekNJRHc4bjA?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Earnings Beat: Privi Speciality Chemicals Limited Just Beat Analyst Forecasts, And Analysts Have Been Updating Their Models - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Thu, 14 May 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPbXYxYUlkc2NTa3ZTZ0dwcUgzZHhHVFpKMGI5TkJrbk9xX1hiTnRfUUUyQm5Tc24wSWJrekZJLU42WXRyTzJJRUs3U3p3UXpTcTVDNlV0dmp3eE9RYkhVOUNMU2lGMXBqaExnOXJKTWlaVEVXMk00RkxXLVNRd2xhek9Qc19YU0UwODNZZGkzYVFEZDZpNXdESUgyMWNDazZxUGpVRWp0a0VWNWk0Tm8xU3pLZ0huOElObHlWaDlmNGZWVDhaS0FDaU5CUER1RGQxckFZaFF3R05zam9EdVhKcTMtZGpzRVN3dUHSAe8BQVVfeXFMT0JuR2pEQk1fNUhlSEFOVS1kc2pIYWZzRXh5WTNkZ2RtOUZ1S0xtMHJCR2pBd0YyRjVxYXg1MkpVWENPdGFPeHJOSzUxWVZ6TmVEM1hOaXFVNDFwdkZhX1FVYnI5cEZhMjB4bl9EZ2dJemZVNkEwTGJCSVJtelpZNkdoLS1qMXhFSWVDUXNXMHp3aFptc2JuR3ZQU0w0bGJRbENUdWpzOEpHNWk0NHB6Ui1CTHVzYi1RTzNKUDFiNFAyLUZVZXY2bjVLd2g0Z09qWkN2bmoxendSU1ZRUlJNM0ZGX3FvcUlseExtQkRBOEk?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Privi Speciality Chemicals Ltd. Share Price Today | Privi Spec Chem Live NSE/BSE - Value Research",
+        "source": "Value Research",
+        "published": "Fri, 25 Mar 2022 08:38:14 GMT",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObnhzbVJvN1d3ak1CT01RSFktc3BubGlhdVVOQkxscnZlZ0w3dl9iSjJNYUp2eFMtbFEtT25Wb1k2bzgzXzItd0NBNGxBMHBEbWhQY2dDUkhOU2d4Z1FPUnRjUGNGMmJIWUxPYndHSndjSlJmMVRIYkM5ajY3ZVk0Z2tNQm1LdmM?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "PRIVISCL: Q1 FY27 saw strong revenue and profit growth, with a \u20b910 dividend proposed - TradingView",
+        "source": "TradingView",
+        "published": "Thu, 30 Jul 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOTE0zZlBodUtJOXh5NV9SblFlQ2xEYWhqOWhOOXM4dHFWbFB2akJ1S19kR0luUm1RUERlQ2J1UHlRcHVTSWdjcXhkOGg2c1hrTDVUVzNoM3hCeHlvamVQRWI0S014U3FsMk1mSi0zOFJpemlZYWdURXp1MU5WWlFycDAtbkNaWVJENG1QLUJXUk4zaE9jVFVtX3hpbmlEeWZBRVlBT01WLTdJcWJUcDk5UGdqendBT1VndzlXSE83YWQ3MDNWLVZpNGtDdG1PSmRVU0xvY2pIajIyUmVrZEs2enotNVRseXBiZkJaODlIN0dUSWU1Q2xj?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Privi Speciality Chemicals Receives BSE and NSE No-Objection Letters for Scheme of Amalgamation - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Wed, 06 May 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNLWVlcWlzLUJIajZWMWU4YnBHZFVXRnU0N0tfTGE5Z1VPQ1RjTjFqdloxTkhhZkJ0V2dLWFZTdXcydUIyVUpNMUdhU2RWYnRpY1gxR2RIUWhSQWM1ZG1KZ0xlcTRhNlVVemVGd0k1dnhNYjBsRDJXMGNKS01JRGpzcGFVZGk0VjNFX2g5bFVtX0d6NXAzWnVDTnJQVzBhZUwxRjdKbnJYQzV5UG04b2k5ZkxNc296RmF6amZnTHg5cFhzZDRPMmpjclNRaUFycnNQdng3T2ZHcFh1aTA?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Privi Speciality Chemicals exports 66% of turnover in FY26 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Fri, 10 Jul 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOenk5SUN0YnNlSUhPMHh2UjhpbDlEYXFROC1PNjlTMFNEY1JnRmtwU0pqUzByV0NQMU1jbFdGRVBsd2pWektGWVNCeXNIMTEtTmlIb0dBaTl0cmtkUURhSkdBSmQ2VTFNUUFvRDJKVVJ5T2RsMVdhMUlrSHZYVFdaU2ZFWXJ5X2pid3lnckloWkhkNWV2cV8wd1BKN29jOUFDTmNnTXZKQmFIUkJYcGF2N1l6eUM?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "PRIVISCL Stock Price and Chart \u2014 NSE:PRIVISCL - TradingView",
+        "source": "TradingView",
+        "published": "Wed, 14 Oct 2020 15:53:16 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4tZTlFZmd0dGY4a3pxNWdsX1dEOHczY2tRYmhFT3hYODNtTmM1Sk5zd1lWdktVbG15TE5FckE3NWY1SjJoTmVFZUF6Qnp2clpKb0ZXZG8tdFVwY053T0E?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Privi Speciality Chemicals Announces Q4FY26 Earnings Call on May 12, 2026 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Tue, 12 May 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQbml6ZE1PWDgzV2VBOUNyWldfeUVqSUFhTzlSaXd5cFlxcFNBRGw2SUVNZ0dJYkpuTnZ5eG1YUnY5d0xXc3REZGlXSXRtSWtxRFJoUlNlenNzQlllbjhTVGFMOXBBR3ppXy1RUWdxZXByWFRFQ05WX3B2MVFXcFpSeWw0bnRLajNSdF9odlQ1X01aMmlfaGdzU3JmdWtSU2R3RGZQZE84emtEMmY2dEV3Zmd2RENqV2w0NEFJclJ3X2RabUJVQmQ0TDZYZXFpSnloeG9tYUVocFp4N0NMdjNVZGtWYU9EZ3VfWFV5Z3NaZ2E3aW00TzZJRlRSYVAtUQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "SBI Mutual Fund reduces stake in Privi Speciality to 7.34% - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQR0dTRzl1cDdqemVXQjhsbVBobDBHNUVVQUNrS2NBb0ctQ0w0aFphcHEtekRMMVo3bjlOLWdUTWRReFlkWVRUVFJoenhGOHJ5UmJ2NnR5SGJDejY3WUZXSXgtMGtjTkFoUWs0QWMzWEU5T19VTk5PdjlLNl9qWnF3bHpIX3hyOWF6T3FIdFM4ME40V2ZYZENwQnZOcmliSjdfSm1pa1V4T2V0aGltMU1iUA?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Privi Speciality Chemicals Invests \u20b925.50 Crore in Joint Venture with Givaudan SA - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Thu, 26 Mar 2026 20:17:11 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQU0Nra0xEbGxBand1YU5WN3JzNmtXcEM1SFVIWW40Q0JVSlI5Vkg5VTR3ZGxMdFUxU0c2aXpNTHJFek1TS1V1ckFQMG1Nc2hPc0EtZTVtWGNlUERWR2szN2hHWk5Wd0Q4OU5VTnR3Z1ZhYlFWLXNaOXJSMFhlYl9xYlkyWmFyZDhmNlBHb0FaMDkzLUVkUXJDRGpsbGlNLU9zWEZJbFM3N0trdF9PX0ZFUEJ2S0toNFhUUkdGSmdFX0ZrV3FhbEpGbF9nMTYzcEZfTmMw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Privi Speciality shareholders approve subsidiary amalgamation with 89.72% votes - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Tue, 27 Oct 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZUN5NnZ5S1hqMTY1MmJDM2Zjdm5Db3JJdzBDakZnUGF3RTlocEdvSnZMZ1VsTFY3V3FRVUV3bjZERTczMUdNUjFBeF9wWUZBY0NqLVNEVEl4TlFjX2xIY09YNFgycjJOdVZVcDBWQUFHaUhXR1cyMlpPeG5sSjJsdGlKUkh4VkxNRklHX05wNExrUWdUYWo4VDJlRkg1Z1BRSzNmRFBpSVRPQnRVZkdWay1IaUdqTFZqSHBfTzV5aDFmUQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Privi Speciality Chemicals Limited (PRIVISCL.NS) stock price, news, quote and history - Yahoo Finance UK",
+        "source": "Yahoo Finance UK",
+        "published": "Tue, 01 Jun 2021 12:48:37 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9JVFNxeUJfNXRjdm95Q1RTdVdGZHR6SU5WQlQ2azFkSzhPa19NNUprY3VCZVVMYjN4V21zYTJadG9CUGE4WFc4eWFrWWJfdFRKWUxkcno2cDBrdVE?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Privi Speciality Chemicals (NSE:PRIVISCL) Seems To Use Debt Quite Sensibly - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Mon, 24 Nov 2025 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQeXZjSjh3bjNiLTZJOUJKMW9uTGUwY09SN1ppdENGTHlQVzRaTUZlcTRROTB5ZUtzQ3FkOWxLd2pFRG01TWJyZXAwQWl1SGlEUm4yY2lrMHZ3WUt2T3pGbXQxU0MzQUpGdVZmYlo1My05TEg4SEhNV3lyZkp2dUJteDZRdXRPdndIX3BIbm56T3V5Qm5aSHlJRXljcUVwTkRqZWpnY0RHbnNLWnh4YjBqa0R6OXh5VVhUaC1ETW91NDRXSkZXT2t0VDZBcWl0UWxHa3dfZmlvclY0QVJhOERpWDlUdFJCbFNSLVHSAe8BQVVfeXFMTzdXV1M0V2tjU2YtS3NDOUJHem9DOGEyWTRqcVlpTWZKUVhIeHZwaHRwbmN1YWx6OU93alNISk42a3hIV1pFQ0JnamxmTUtPMXU3cFRhWmhRZ2lnRHZ4Y0NWVHFsXzlYMlpkUlZQMmpLN0NnNllvQWQ1X1F3ZVQ4NWxEUEh3Z001TmYyYllWS2FjTFRwakEzNEI0NVUtQVQ3N18zeXFnY3JRU3lJQmVxYVR6aFJpQ3FzV25XdHd2VEtYZUxsOThmTGhXaF9Bdm82SW5ScVVOV1NGSktDblZUUjFfRFREdUpJNnk2Vk5PRFE?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "AETHER Stock Price and Chart \u2014 NSE:AETHER - TradingView",
+        "source": "TradingView",
+        "published": "Sun, 31 Jul 2022 07:23:28 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ieWJTWG5xam1XMDRObExyMUxxbW1VZ3dlY01HNkJ2QTdURjM4NXE4V25xNWlqT0Flb1BwSVZoTnJKbTBYenU0NUluRVhsTXdkbDZiZllFaWp4OG8?oc=5",
+        "sentiment": "neutral",
+        "relevance": "low",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Privi Speciality Chemicals Ltd consolidated Q4 FY2025-26 profit increases to Rs. 93.69 crores - EquityBulls",
+        "source": "EquityBulls",
+        "published": "Tue, 12 May 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcUp6dXIzeVRweTNBMHRlemdEQ2ZwaU4zTVc5Tl9WYzFDd0diM2JXVElNOHlfVDI5LXh5T2dYZmJ6bkFabVZZOW05VHVDaWZncklLQzRjT3FlemNwTkJwM2d0UzBQbk45ekQ2VUJGbUlVWUxlaGVRaXM2Mnh2bkJKaWp1NjlpeWFJSzlhLXhDZ0RGejZWN1VQZENqR3hueEVINjhvaWI2Sk9zZFFRUFJPYnRlX2MxTVhoWjNz?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "BHEL and 5 Other Stocks With a Piotroski Score of 9 and Debt-to-Equity Below 1 to Look Out For - Trade Brains",
+        "source": "Trade Brains",
+        "published": "Fri, 05 Jun 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOODJlY3NBZHVRUkJHa0ExbkJsajZkT1ZEOXdTQUpjQ2pNZTl4X3Fja1ZBZ3ViXzA4OUZRcGhLZnQyUlF0SmpoSjItR2FrQXdhTWZDYVRmbWk2QUMzNC1fSUdYVVd6SXM0SDRfVG5td19kdWo2SWdCRjVpUW0tNHlyN09oa24xV1JhWTRSa0otTW9reW56cG9PNVpSMUo5cXVDd1c5WldtWGszeEFCaVVVRDY0WGp2UHZqR3c?oc=5",
+        "sentiment": "neutral",
+        "relevance": "low",
+        "verification_status": "unverified"
+      }
+    ],
+    "stored_new": 24,
+    "duplicates_skipped": 0,
     "note": "headlines are unverified signals, not confirmed financial evidence",
-    "_run_id": 1105
+    "_run_id": 1112
   },
   "8_risk_analysis": {
     "classification": "LOW",
@@ -226,47 +443,47 @@
       "promoter selling (source unavailable)"
     ],
     "shares_outstanding_growth_yoy": 0.0,
-    "atr_pct_of_price": 0.03360431464697006,
+    "atr_pct_of_price": 0.03318134830157036,
     "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
     "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
-    "_run_id": 1104
+    "_run_id": 1111
   },
   "9_fundamental_score": 61.0,
-  "10_technical_score": 63.0,
+  "10_technical_score": 48.0,
   "11_data_confidence": 72.0,
   "12_short_term_assessment": {
-    "score": 62.4,
+    "score": 51.9,
     "technical_view": {
       "timeframe": "daily",
       "trend": "bullish",
-      "rsi_14": 62.74700530799412,
-      "macd_histogram": 32.134222044561376,
+      "rsi_14": 64.38298607056936,
+      "macd_histogram": 35.63299171845763,
       "breakout": false,
       "breakdown": false
     },
     "entry_zone": {
       "low": 3153.8,
-      "high": 3214.56,
+      "high": 3214.37,
       "basis": "near identified support plus half ATR buffer"
     },
-    "invalidation_level": 2910.77
+    "invalidation_level": 2911.53
   },
   "13_long_term_assessment": {
-    "score": 61.6,
+    "score": 57.1,
     "trend": {
       "timeframes": [
         "weekly",
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 3281.452497110554,
+      "ema_200_daily": 3285.127030188015,
       "price_vs_ema_200": "above"
     },
     "business_classification": "average"
   },
-  "14_investment_thesis": "Privi Speciality Chemicals Limited (PRIVISCL) is classified as a 'average' business with a bullish technical trend. Balanced research score 62.0/100 (fundamental 61.0, technical 63.0, data confidence 72.0, risk 0/100 higher=worse). Supporting evidence: ROE 23.2% (>15%): capital allocated effectively; operating margin 20.0%: pricing power evidence.",
+  "14_investment_thesis": "Privi Speciality Chemicals Limited (PRIVISCL) is classified as a 'average' business with a bullish technical trend. Balanced research score 54.5/100 (fundamental 61.0, technical 48.0, data confidence 72.0, risk 0/100 higher=worse). Supporting evidence: ROE 23.2% (>15%): capital allocated effectively; operating margin 20.0%: pricing power evidence.",
   "15_thesis_invalidation": [
-    "Daily close below invalidation level 2910.77 (2x ATR under support)",
+    "Daily close below invalidation level 2911.53 (2x ATR under support)",
     "Operating cash flow turning negative in the next annual report",
     "New critical governance or regulatory finding (currently unassessed items must be checked manually)"
   ],
@@ -299,14 +516,14 @@
     "neutral"
   ],
   "combined_scores": {
-    "long_term": 61.6,
-    "short_term": 62.4,
-    "balanced": 62.0,
+    "long_term": 57.1,
+    "short_term": 51.9,
+    "balanced": 54.5,
     "risk_score_higher_is_worse": 0
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-26 03:40 IST",
+    "generated_at": "2026-11-27 03:40 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-26 03:33 IST"
   }
