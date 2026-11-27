@@ -5,11 +5,11 @@
     "name": "Syncom Formulations (India) Limited",
     "sector": "Healthcare",
     "industry": "Drug Manufacturers - Specialty & Generic",
-    "market_cap": 22024200192,
+    "market_cap": 22569400320,
     "website": "https://www.syncomformulations.com"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-26 22:09:39.757835+00:00",
+    "generated_at": "2026-11-27 21:54:26.795032+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -79,34 +79,34 @@
     "assessment": "bullish",
     "daily": {
       "timeframe": "1d",
-      "last_close": 23.579999923706055,
+      "last_close": 23.43000030517578,
       "emas": {
-        "ema_20": 21.428303357317162,
-        "ema_50": 20.665471323759313,
-        "ema_100": 19.112453029253164,
-        "ema_200": 17.511811186190002
+        "ema_20": 21.618941161875128,
+        "ema_50": 20.77388422499133,
+        "ema_100": 19.19794901490147,
+        "ema_200": 17.570695606522932
       },
       "smas": {
-        "sma_20": 20.808999919891356,
-        "sma_50": 21.300200004577636,
-        "sma_100": 18.35929991722107,
-        "sma_200": 15.919399943351745
+        "sma_20": 20.94749994277954,
+        "sma_50": 21.382200012207033,
+        "sma_100": 18.451099920272828,
+        "sma_200": 15.971549944877625
       },
-      "rsi_14": 66.5207776318753,
+      "rsi_14": 65.11426086829971,
       "macd": {
-        "macd_line": 0.4336398583982799,
-        "signal_line": 0.08080492488765167,
-        "histogram": 0.3528349335106282
+        "macd_line": 0.5364046299192076,
+        "signal_line": 0.17192486589396286,
+        "histogram": 0.36447976402524473
       },
-      "adx_14": 23.939298731796857,
-      "atr_14": 1.3219614750409698,
+      "adx_14": 25.920131587541245,
+      "atr_14": 1.2911070403700748,
       "bollinger": {
-        "middle": 20.808999919891356,
-        "upper": 23.184496691925098,
-        "lower": 18.433503147857614
+        "middle": 20.94749994277954,
+        "upper": 23.59396631423807,
+        "lower": 18.30103357132101
       },
-      "volume_sma_20": 940521.4,
-      "relative_volume": 1.6855629228638498,
+      "volume_sma_20": 957880.55,
+      "relative_volume": 0.7805889784483044,
       "support": 18.90999984741211,
       "resistance": 27.530000686645508,
       "price_structure": {
@@ -117,24 +117,24 @@
         "lower_lows": false
       },
       "trend": "bullish",
-      "trend_strength": "weak",
+      "trend_strength": "strong",
       "breakout": false,
       "breakdown": false,
       "momentum_divergence": null,
       "entry_zone": {
         "low": 18.91,
-        "high": 19.57,
+        "high": 19.56,
         "basis": "near identified support plus half ATR buffer"
       },
-      "invalidation_level": 16.27,
-      "atr_risk_distance": 1.3219614750409698,
+      "invalidation_level": 16.33,
+      "atr_risk_distance": 1.2911070403700748,
       "provisional_last_bar": false
     },
     "short_term_report": {
       "timeframe": "daily",
       "trend": "bullish",
-      "rsi_14": 66.5207776318753,
-      "macd_histogram": 0.3528349335106282,
+      "rsi_14": 65.11426086829971,
+      "macd_histogram": 0.36447976402524473,
       "breakout": false,
       "breakdown": false
     },
@@ -144,7 +144,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 17.511811186190002,
+      "ema_200_daily": 17.570695606522932,
       "price_vs_ema_200": "above"
     }
   },
@@ -158,7 +158,7 @@
     ],
     "sector": "Healthcare",
     "industry": "Drug Manufacturers - Specialty & Generic",
-    "market_cap": 22024200192,
+    "market_cap": 22569400320,
     "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
     "unassessed_areas": [
       "business model detail (needs annual report reading)",
@@ -173,13 +173,13 @@
   },
   "6_valuation": {
     "multiples": {
-      "pe_trailing": 22.314287,
+      "pe_trailing": 22.866669,
       "pe_forward": null,
-      "pb": 4.7467585,
-      "ev_ebitda": 20.866,
-      "ev_sales": 4.002,
+      "pb": 4.8642626,
+      "ev_ebitda": 21.422,
+      "ev_sales": 4.109,
       "peg": 0.84,
-      "dividend_yield": 0.42,
+      "dividend_yield": 0.43,
       "industry_pe": null
     },
     "valuation_view_vs_industry": null,
@@ -203,26 +203,17 @@
       }
     },
     "dcf_not_calculated_reason": null,
-    "margin_of_safety_vs_base_case": -1.9463479586114136,
-    "current_price": 23.579999923706055,
+    "margin_of_safety_vs_base_case": -1.9276053347234106,
+    "current_price": 23.43000030517578,
     "_run_id": 1061
   },
   "7_news_intelligence": {
     "items": [
       {
-        "headline": "Syncom Formulations (India)'s (NSE:SYNCOMF) Solid Profits Have Weak Fundamentals - Simply Wall St",
+        "headline": "Syncom Formulations (India) (BSE:524470) - Stock Analysis - Simply Wall St",
         "source": "Simply Wall St",
-        "published": "Sat, 21 Nov 2026 02:12:09 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNVDdtS1I1cktoVEtxSGY3d25sdHdtMTliSkpNSG9GUnZWWlFLbThBZ2ZNRWZRQUN0V0hmOTd3dmgzWUM0RHN2bkZLNmJRRGhXMnAxUERBZ1ZFdUxHLTJweE1IajJiQTdHLUo4dDZQN1MyVGs2VDZURkt5bmxyak16c2UwYnVOREdDMnlMTDJRNnl3RVBHZXlWRy00U0ZhRDVTaVNaSkhxVWtmLV91enZhdnB6eDI2UmNtRTNwUUdxUExLQUdKaGJoSzVHelBSZDNwWFdZOUZsV1hlbHh0SlZ6SmdQSF9GX2VOQklYa202ZjFScFpyQW1MMTNn0gH_AUFVX3lxTFBXd21xOWE4V2dWclhER1d1WWVXWEtqR3VWOXRwYk1pdEQ2MHIwRW0tTVZiMmNfdkdLVlppeVdyXzk4bm4xVXlqMWtMTWtXckxUQXdfX0t5dGFKLVZBbGFsekpGQlBmT1E2dDNSWV92LVROSXVDREtiSGZFN3VpbmkybVE3OEtaWGxDNWp5UVZfRDJqNWY3dmVlNHpBaEozNGxfNVlmVzhtdGpaX1hIai1hb0VfeVUzcVN2anZSeTd0SmNuNmg0a0NOR2FmYzN5YXNpd0lZblhsT0JRLWZqOWZzclNIN2JJQV9GZjhVV0ZlNXhoSHd3LVFKVUk5eGgxWQ?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Syncom Formulations (India) Share Price Today Live NSE/BSE Graph & Chart - Kotak Neo",
-        "source": "Kotak Neo",
-        "published": "Sun, 18 Jan 2026 06:41:35 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9qeGNXekhYby1IQXdILWZOck1uQVd6SFp4cUc1eFlzWllSdDF2WE9TcHlCYlNPREpadml4dTJuNUQxTzBuU0szY2szb25iRDdBNW1OSjE3WHNlYl84UkZqYzl4amQ1MnFoRVlxSnZ0b0poVmUtdDU4LTZ3?oc=5",
+        "published": "Wed, 25 Nov 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNThDaU1IZDlRTVhqMk9EYWo4TzFiYXdnMzJWeWd3S3RIdUllYXR6cTItdm1RSDlLN3pZNzRKb1lwaS1DTnpDaU9TZ2I2X0xUYUw3Y1lBUzJWMUZlTHo2R3Y0cFZwQW5pekw2LUhuNGp4U2NYWG9YTUtYNVBUTW1CQ1dDVEZZby0zVVF6OWJkaUdpWWViUGhyVnN2SjZ1XzZ6?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -234,6 +225,15 @@
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcmZTWGdMUnpOWmpfbGw5aWx0dFdNQ3JjTzQ5TnpqVGYtX0FkMVRxSG1CMzAyZzZOa0t5Nmxpb0hsLXBYVFE2T1k0R3dKa2Z1UWZZOWxaLXo5MHduZVRacDB6VU5oRC1weDh2RFktZDFUMUtJdmtGM1FtclBKU0h0SUlkZHMtODRIbmI0S19UTzBUeGppY29uczU4NmhtcTVjNkpuVGdYQlZ4ZkxSNTc4MUM3Y2dvZzRxYkg4U1YzWTRNOS1U?oc=5",
         "sentiment": "positive",
         "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Syncom Formulations (India)'s (NSE:SYNCOMF) Solid Profits Have Weak Fundamentals - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Sat, 21 Nov 2026 02:12:09 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNVDdtS1I1cktoVEtxSGY3d25sdHdtMTliSkpNSG9GUnZWWlFLbThBZ2ZNRWZRQUN0V0hmOTd3dmgzWUM0RHN2bkZLNmJRRGhXMnAxUERBZ1ZFdUxHLTJweE1IajJiQTdHLUo4dDZQN1MyVGs2VDZURkt5bmxyak16c2UwYnVOREdDMnlMTDJRNnl3RVBHZXlWRy00U0ZhRDVTaVNaSkhxVWtmLV91enZhdnB6eDI2UmNtRTNwUUdxUExLQUdKaGJoSzVHelBSZDNwWFdZOUZsV1hlbHh0SlZ6SmdQSF9GX2VOQklYa202ZjFScFpyQW1MMTNn0gH_AUFVX3lxTFBXd21xOWE4V2dWclhER1d1WWVXWEtqR3VWOXRwYk1pdEQ2MHIwRW0tTVZiMmNfdkdLVlppeVdyXzk4bm4xVXlqMWtMTWtXckxUQXdfX0t5dGFKLVZBbGFsekpGQlBmT1E2dDNSWV92LVROSXVDREtiSGZFN3VpbmkybVE3OEtaWGxDNWp5UVZfRDJqNWY3dmVlNHpBaEozNGxfNVlmVzhtdGpaX1hIai1hb0VfeVUzcVN2anZSeTd0SmNuNmg0a0NOR2FmYzN5YXNpd0lZblhsT0JRLWZqOWZzclNIN2JJQV9GZjhVV0ZlNXhoSHd3LVFKVUk5eGgxWQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
         "verification_status": "unverified"
       },
       {
@@ -291,24 +291,6 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Syncom Formulations (India) Limited (SYNCOMF.NS) stock price, news, quote and history - Yahoo Finance Singapore",
-        "source": "Yahoo Finance Singapore",
-        "published": "Wed, 14 Feb 2024 06:16:43 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VY2tJX2NDZUZKQTNNVS1hREliTThmNjhPRlprY2hLN0plQkJtMFJrSkdDNVRxcGl4VTdEcXZ6WjFPczFZbFZVcEZoMWoyN3lGcXAxT1pZSDlFUQ?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Syncom Formulations (India) (NSEI:SYNCOMF) - Stock Analysis - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Mon, 21 Nov 2022 16:01:24 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTS1QOENpdlhzb2lXbmxKZ1VVd1h2Q1k0S0xrajJ1dm1BOFJGbkRjOGt0UjVySnFxY2Zja25ZaURKdWRSdmZKNzJaNkdqOUJKay0wbGJ1bldNaUVRcms0WDdVWDlZa3hNMDRubW1ZODU1NHVSM0VKNFNZZ0V1YWxybFo3SlNfSGdObURaRFZhVVNFekVpQS1KeVlDTE1ock1HRVE?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
         "headline": "Syncom Formulations promoters waive \u20b94.75 crore dividend for FY26 - scanx.trade",
         "source": "scanx.trade",
         "published": "Sat, 26 Sep 2026 07:00:00 GMT",
@@ -327,12 +309,12 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Syncom Formulations (India) Limited (SYNCOMF) Company Information - Simply Wall St",
+        "headline": "Syncom Formulations (India) (NSEI:SYNCOMF) - Earnings & Revenue Performance - Simply Wall St",
         "source": "Simply Wall St",
-        "published": "Mon, 21 Nov 2022 16:01:23 GMT",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdVAwaGZHTDhzckczdU84R0RPd1ZCS0NseUhtWThZdmxnbkZVdlNaYnFzWVN1ZGZhWlZIckNBRWFrXzZycEdnZHJCYlNVYTRNSHhOMWw0UzRIVkdkTU1nZ2VlV2NBMUhfc1B5UHQxT3BqQlNHTUZqcWJtRElteEkwM2JSQ251UlNzQ3hnamdjN1U3NXVIbkh6T1JYYURxZE00TmJ3dUpEb2tHYllBTjVoeENn?oc=5",
+        "published": "Mon, 21 Nov 2022 16:11:57 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZGxTZ0R5bGU0N1VsQXpRZGJQV1o5WjdLOHBQQ2hkY2VPR1E3bXZDT2xGREUxd0Zha05FTTN0MEF3SEF2WnJ5VllDelJlbEJNTG9WV3BIREIzRGlSOVA0MFNWZ1Nhc1luYmx4T2tpN0VRU3ZVQmRDeDd4em9mVmFXXzczX3ZYYURTVTFqZWRkMlNJR2FRZDE4ZTJlT2U2YUpWWW0zZUlSTmw?oc=5",
         "sentiment": "neutral",
-        "relevance": "medium",
+        "relevance": "high",
         "verification_status": "unverified"
       },
       {
@@ -372,7 +354,7 @@
         "verification_status": "unverified"
       }
     ],
-    "stored_new": 18,
+    "stored_new": 16,
     "duplicates_skipped": 0,
     "note": "headlines are unverified signals, not confirmed financial evidence",
     "_run_id": 1063
@@ -383,10 +365,10 @@
       {
         "category": "high_volatility",
         "severity": "moderate",
-        "evidence": "ATR 5.6% of price (>4%)",
+        "evidence": "ATR 5.5% of price (>4%)",
         "source": "computed",
-        "date": "2026-11-26",
-        "detected_at": "2026-11-26 22:09:39.474058+00:00"
+        "date": "2026-11-27",
+        "detected_at": "2026-11-27 21:54:26.550891+00:00"
       }
     ],
     "unassessed_governance_items": [
@@ -398,47 +380,47 @@
       "promoter selling (source unavailable)"
     ],
     "shares_outstanding_growth_yoy": 0.0,
-    "atr_pct_of_price": 0.056062827791273286,
+    "atr_pct_of_price": 0.05510486656224516,
     "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
     "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
     "_run_id": 1062
   },
   "9_fundamental_score": 67.0,
-  "10_technical_score": 70.0,
+  "10_technical_score": 60.0,
   "11_data_confidence": 72.0,
   "12_short_term_assessment": {
-    "score": 69.1,
+    "score": 62.1,
     "technical_view": {
       "timeframe": "daily",
       "trend": "bullish",
-      "rsi_14": 66.5207776318753,
-      "macd_histogram": 0.3528349335106282,
+      "rsi_14": 65.11426086829971,
+      "macd_histogram": 0.36447976402524473,
       "breakout": false,
       "breakdown": false
     },
     "entry_zone": {
       "low": 18.91,
-      "high": 19.57,
+      "high": 19.56,
       "basis": "near identified support plus half ATR buffer"
     },
-    "invalidation_level": 16.27
+    "invalidation_level": 16.33
   },
   "13_long_term_assessment": {
-    "score": 67.9,
+    "score": 64.9,
     "trend": {
       "timeframes": [
         "weekly",
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 17.511811186190002,
+      "ema_200_daily": 17.570695606522932,
       "price_vs_ema_200": "above"
     },
     "business_classification": "average"
   },
-  "14_investment_thesis": "Syncom Formulations (India) Limited (SYNCOMF) is classified as a 'average' business with a bullish technical trend. Balanced research score 68.5/100 (fundamental 67.0, technical 70.0, data confidence 72.0, risk 10/100 higher=worse). Supporting evidence: ROE 18.4% (>15%): capital allocated effectively; operating margin 16.1%: pricing power evidence.",
+  "14_investment_thesis": "Syncom Formulations (India) Limited (SYNCOMF) is classified as a 'average' business with a bullish technical trend. Balanced research score 63.5/100 (fundamental 67.0, technical 60.0, data confidence 72.0, risk 10/100 higher=worse). Supporting evidence: ROE 18.4% (>15%): capital allocated effectively; operating margin 16.1%: pricing power evidence.",
   "15_thesis_invalidation": [
-    "Daily close below invalidation level 16.27 (2x ATR under support)",
+    "Daily close below invalidation level 16.33 (2x ATR under support)",
     "Operating cash flow turning negative in the next annual report",
     "New critical governance or regulatory finding (currently unassessed items must be checked manually)"
   ],
@@ -468,17 +450,17 @@
     "rss_news (headlines, unverified)"
   ],
   "labels": [
-    "strong_technical_trend"
+    "neutral"
   ],
   "combined_scores": {
-    "long_term": 67.9,
-    "short_term": 69.1,
-    "balanced": 68.5,
+    "long_term": 64.9,
+    "short_term": 62.1,
+    "balanced": 63.5,
     "risk_score_higher_is_worse": 10
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-27 03:39 IST",
+    "generated_at": "2026-11-28 03:24 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-24 06:05 IST"
   }

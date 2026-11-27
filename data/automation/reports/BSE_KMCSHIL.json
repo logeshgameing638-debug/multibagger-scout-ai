@@ -5,11 +5,11 @@
     "name": "KMC Speciality Hospitals (India) Limited",
     "sector": "Healthcare",
     "industry": "Medical Care Facilities",
-    "market_cap": 30619207680,
+    "market_cap": 30317498368,
     "website": "https://www.kauveryhospital.com"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-26 22:09:48.595287+00:00",
+    "generated_at": "2026-11-27 21:54:36.773856+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -78,34 +78,34 @@
     "assessment": "bullish",
     "daily": {
       "timeframe": "1d",
-      "last_close": 191.0,
+      "last_close": 187.75,
       "emas": {
-        "ema_20": 176.4850897297867,
-        "ema_50": 163.1258513359836,
-        "ema_100": 148.76059754876013,
-        "ema_200": 128.85213095934947
+        "ema_20": 177.55793832694985,
+        "ema_50": 164.09150422476858,
+        "ema_100": 149.53266492402423,
+        "ema_200": 129.43817762304602
       },
       "smas": {
-        "sma_20": 169.50250015258788,
-        "sma_50": 162.77300018310547,
-        "sma_100": 147.55099975585938,
-        "sma_200": 120.56904972076416
+        "sma_20": 171.50250015258788,
+        "sma_50": 163.78400024414063,
+        "sma_100": 148.09249969482423,
+        "sma_200": 121.13769973754883
       },
-      "rsi_14": 63.12924292182488,
+      "rsi_14": 60.37501940181828,
       "macd": {
-        "macd_line": 10.94188218148426,
-        "signal_line": 7.8517838732673475,
-        "histogram": 3.0900983082169127
+        "macd_line": 10.449698759874536,
+        "signal_line": 8.371366850588785,
+        "histogram": 2.078331909285751
       },
-      "adx_14": 30.654292050571073,
-      "atr_14": 10.405404444142912,
+      "adx_14": 30.68889128150112,
+      "atr_14": 10.505017540487614,
       "bollinger": {
-        "middle": 169.50250015258788,
-        "upper": 210.0916825303689,
-        "lower": 128.91331777480687
+        "middle": 171.50250015258788,
+        "upper": 211.51654554654957,
+        "lower": 131.4884547586262
       },
-      "volume_sma_20": 96406.3,
-      "relative_volume": 0.904339239240589,
+      "volume_sma_20": 98130.15,
+      "relative_volume": 0.4598688578382893,
       "support": 139.0,
       "resistance": 210.0,
       "price_structure": {
@@ -122,18 +122,18 @@
       "momentum_divergence": null,
       "entry_zone": {
         "low": 139.0,
-        "high": 144.2,
+        "high": 144.25,
         "basis": "near identified support plus half ATR buffer"
       },
-      "invalidation_level": 118.19,
-      "atr_risk_distance": 10.405404444142912,
+      "invalidation_level": 117.99,
+      "atr_risk_distance": 10.505017540487614,
       "provisional_last_bar": false
     },
     "short_term_report": {
       "timeframe": "daily",
       "trend": "bullish",
-      "rsi_14": 63.12924292182488,
-      "macd_histogram": 3.0900983082169127,
+      "rsi_14": 60.37501940181828,
+      "macd_histogram": 2.078331909285751,
       "breakout": false,
       "breakdown": false
     },
@@ -143,7 +143,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 128.85213095934947,
+      "ema_200_daily": 129.43817762304602,
       "price_vs_ema_200": "above"
     }
   },
@@ -157,7 +157,7 @@
     ],
     "sector": "Healthcare",
     "industry": "Medical Care Facilities",
-    "market_cap": 30619207680,
+    "market_cap": 30317498368,
     "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
     "unassessed_areas": [
       "business model detail (needs annual report reading)",
@@ -172,11 +172,11 @@
   },
   "6_valuation": {
     "multiples": {
-      "pe_trailing": 50.066666,
+      "pe_trailing": 49.57333,
       "pe_forward": null,
-      "pb": 12.655028,
-      "ev_ebitda": 29.249,
-      "ev_sales": 8.806,
+      "pb": 12.530331,
+      "ev_ebitda": 28.961,
+      "ev_sales": 8.719,
       "peg": 2.12,
       "dividend_yield": 0.0,
       "industry_pe": null
@@ -202,8 +202,8 @@
       }
     },
     "dcf_not_calculated_reason": null,
-    "margin_of_safety_vs_base_case": -2.0766271361249533,
-    "current_price": 191.0,
+    "margin_of_safety_vs_base_case": -2.0242761508243983,
+    "current_price": 187.75,
     "_run_id": 1082
   },
   "7_news_intelligence": {
@@ -236,10 +236,10 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "KMC Speciality Hospitals (India) (NSEI:KMCSHIL) - Stock Analysis - Simply Wall St",
+        "headline": "KMC Speciality Hospitals (India) Limited (KMCSHIL) Company Information - Simply Wall St",
         "source": "Simply Wall St",
-        "published": "Sat, 22 Aug 2026 16:19:13 GMT",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZDFQV3NKdzQxb0J3M29ETWFRZnRzeXVoVHU3bFphaW5lRlhqSU1pSjRfUHBuZTNvWUpLTzVWb2hMNm1uMW90b1RzMUxUcWgwTkhCVnhzbmdtUC1qQmRuR05MajJtbFhoV213QUVTY2NINDZ1a3lxWHc4OGlvMVk1X0NYWnZtNW1fcTRHenhDNDFrZUNpc3g4?oc=5",
+        "published": "Sat, 22 Aug 2026 16:44:31 GMT",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSXVtTmtFTElMcFlxQi1LelhBUmZjZDlkQWtIYWNBMER0T3hOakhTRk9iX2ZiMllaUHVCOGZSWkFOM0JwVzA1R28tWGVIRVhMdjl0cXVkampDckVxYkhxcVRGNlBKV2loOVp5Rm45bXlCWWhIaHNEUVFEMWlfNkNnX0x3RWpKQlNTYmJ6dDFBZmFyOU5DVS1lMGpOUlR2REJYVHJ5Tk00QQ?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -258,15 +258,6 @@
         "source": "Alice Blue",
         "published": "Mon, 31 Aug 2026 10:17:21 GMT",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNblVZVGJUMFQyb2tnckoydlpnY3ZpMUVlZ3pfX2xNZWhoenc3NzZfUE9tZ3hXN2h1Z2IwbEFJVFN1WDNzc1pQVF9lUGlUWUhfNjh4UTBIb1hPMmNJY0RrOF9mS3N0Ui1RbW4zbWllWFBONmxoai1yZEZRdjctZkwzeWtrUjhpRHM?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "KMC Speciality Hospitals (India) Limited (KMCSHIL) Company Information - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Sat, 22 Aug 2026 16:44:31 GMT",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSXVtTmtFTElMcFlxQi1LelhBUmZjZDlkQWtIYWNBMER0T3hOakhTRk9iX2ZiMllaUHVCOGZSWkFOM0JwVzA1R28tWGVIRVhMdjl0cXVkampDckVxYkhxcVRGNlBKV2loOVp5Rm45bXlCWWhIaHNEUVFEMWlfNkNnX0x3RWpKQlNTYmJ6dDFBZmFyOU5DVS1lMGpOUlR2REJYVHJ5Tk00QQ?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -308,15 +299,6 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "KMC Speciality Hospitals acquires land for \u20b962.50 crore expansion - scanx.trade",
-        "source": "scanx.trade",
-        "published": "Fri, 29 May 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUENEZXNvQkx4RFd6OUhEeHZqUmNRR2E0UlA4OEl6YTdoVG5TYTVsZUozUGRQR3ZlQmFfXzNKZHE4MHE0a1M2bVd5bDBBSHRUZHcwcHNuTXpJYU5KMWVsZ3RyakRLYnc4cWpCNTFqOGFyTDR2bjNGTzlWSlNYRS1EZlZLR09VZzFKZklmTDVRMTUwR2Nuc2dqWFlJNWpCU0RTdEFJMDhiSHNTZGFIVzdtQlNlODdMbjBXZFlvUTd3?oc=5",
-        "sentiment": "positive",
-        "relevance": "high",
-        "verification_status": "unverified"
-      },
-      {
         "headline": "KMC Speciality Hospitals (India) (BSE:524520) Stock Price - Simply Wall St",
         "source": "Simply Wall St",
         "published": "Mon, 28 Jul 2025 20:36:18 GMT",
@@ -326,20 +308,11 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "JLHL Stock Price and Chart \u2014 NSE:JLHL - TradingView",
-        "source": "TradingView",
-        "published": "Fri, 29 Sep 2023 16:15:13 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9JVXFMQ0JmS09XMXFzc1ozQ2VsdGpTZXpra25jOC15SEJseGtZQXZRRDRmUUItU3B4UE9qbHFoazBKY2JXWV9Demlxdk81Zzk4SzgwNENlQjg?oc=5",
-        "sentiment": "neutral",
-        "relevance": "low",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "KMC Speciality Hospitals Submits Q4FY26 Regulatory Compliance Certificate to Stock Exchanges - scanx.trade",
+        "headline": "KMC Speciality Hospitals acquires land for \u20b962.50 crore expansion - scanx.trade",
         "source": "scanx.trade",
-        "published": "Tue, 07 Apr 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQZGNnWDI0UnR1bEJQSFk4NGtWRFM2T25tbkdpVWdmaENPeXpKcFNtTlVLZTNNM0pFRlZLUFc4UjVwZ3hHSDR1SHZvUDhobzZxV0JLdUFzV2xnNXBNbEp6WHZwRFdBRTFiaC1OYW9LdnlVTDFvN2FxSW5hUTZoS2tHNjhHeHEyVGJLNTVUMlJBS2tVQ1ZVbWh4a2xhbmVJOGJoYUEtaDVQQi1UN21ndlg1T0JNdG1mWUw1a2lEMHZWOGxNdTBwbXk0dVV3OC1rYVA1bW1UMEoyWXRBYzNaZzJvSlhvYw?oc=5",
-        "sentiment": "neutral",
+        "published": "Fri, 29 May 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUENEZXNvQkx4RFd6OUhEeHZqUmNRR2E0UlA4OEl6YTdoVG5TYTVsZUozUGRQR3ZlQmFfXzNKZHE4MHE0a1M2bVd5bDBBSHRUZHcwcHNuTXpJYU5KMWVsZ3RyakRLYnc4cWpCNTFqOGFyTDR2bjNGTzlWSlNYRS1EZlZLR09VZzFKZklmTDVRMTUwR2Nuc2dqWFlJNWpCU0RTdEFJMDhiSHNTZGFIVzdtQlNlODdMbjBXZFlvUTd3?oc=5",
+        "sentiment": "positive",
         "relevance": "high",
         "verification_status": "unverified"
       },
@@ -353,12 +326,12 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "YATHARTH Stock Price and Chart \u2014 NSE:YATHARTH - TradingView",
-        "source": "TradingView",
-        "published": "Tue, 08 Aug 2023 11:34:26 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB6anA5eHE4SUJOa0VkNjdCcjhUM0ZCRjJGWjJwamR3Zm1lYVhlcEhSSnVLLUpiN0VtR1hqdkd5V28yc19SS0hBTUdwd2I5V3lTNldwM0xQT1Z6b19DaUE?oc=5",
+        "headline": "KMC Speciality Hospitals Submits Q4FY26 Regulatory Compliance Certificate to Stock Exchanges - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Tue, 07 Apr 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQZGNnWDI0UnR1bEJQSFk4NGtWRFM2T25tbkdpVWdmaENPeXpKcFNtTlVLZTNNM0pFRlZLUFc4UjVwZ3hHSDR1SHZvUDhobzZxV0JLdUFzV2xnNXBNbEp6WHZwRFdBRTFiaC1OYW9LdnlVTDFvN2FxSW5hUTZoS2tHNjhHeHEyVGJLNTVUMlJBS2tVQ1ZVbWh4a2xhbmVJOGJoYUEtaDVQQi1UN21ndlg1T0JNdG1mWUw1a2lEMHZWOGxNdTBwbXk0dVV3OC1rYVA1bW1UMEoyWXRBYzNaZzJvSlhvYw?oc=5",
         "sentiment": "neutral",
-        "relevance": "low",
+        "relevance": "high",
         "verification_status": "unverified"
       },
       {
@@ -377,15 +350,6 @@
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQ2czUmN3OS10RmwzaENyRTJHVkxjMl9TR0FJRU1jd2t1ODBIVDJJTVh1MGpodXFGZ0VRX0FVdWFPd2p2R0xEZGxNc2V5VjZodmdCcHVUSVp0eEdiZE9OYi1ZS3hCQkNMWGV4aS0xeEJ6Q3FKMWlzZ1BSem52MkdxMHdWdWVnRWFKLUJmZUkta0hnWTNyalE?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "MEDANTA Stock Price and Chart \u2014 NSE:MEDANTA - TradingView",
-        "source": "TradingView",
-        "published": "Sun, 27 Nov 2022 22:47:48 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9XZVVZc0RVcTZaYURTWmR6TDBtR296WkhyUXFDYXhpU1MyeVFGVFdFcTdOZ0pfeEN0enZ6LXFfa1Bha2d5aWJLSzRybHdoWl8xUGhOR2cxSmRFT3gz?oc=5",
-        "sentiment": "neutral",
-        "relevance": "low",
         "verification_status": "unverified"
       },
       {
@@ -416,15 +380,6 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "ARTEMISMED Stock Price and Chart \u2014 NSE:ARTEMISMED - TradingView",
-        "source": "TradingView",
-        "published": "Mon, 27 Jan 2020 22:59:35 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB3NjREdEZIdS11TVFzU2wxRUwxdGRSYW8xS3JnQi1tWGxXb3h2Y1RHejNnLU52UmFIcmxfeXd4b3l5RE5vQ3NyQ0psVkUwZ2owejhDSWJ0VFdvRDV3aGNMQg?oc=5",
-        "sentiment": "neutral",
-        "relevance": "low",
-        "verification_status": "unverified"
-      },
-      {
         "headline": "Healthcare stock under \u20b9100 jumps 14% after announcing 83% YoY increase in net profits - Trade Brains",
         "source": "Trade Brains",
         "published": "Wed, 11 Feb 2026 08:00:00 GMT",
@@ -443,8 +398,8 @@
         "verification_status": "unverified"
       }
     ],
-    "stored_new": 26,
-    "duplicates_skipped": 2,
+    "stored_new": 21,
+    "duplicates_skipped": 0,
     "note": "headlines are unverified signals, not confirmed financial evidence",
     "_run_id": 1084
   },
@@ -454,10 +409,10 @@
       {
         "category": "high_volatility",
         "severity": "moderate",
-        "evidence": "ATR 5.4% of price (>4%)",
+        "evidence": "ATR 5.6% of price (>4%)",
         "source": "computed",
-        "date": "2026-11-26",
-        "detected_at": "2026-11-26 22:09:48.274762+00:00"
+        "date": "2026-11-27",
+        "detected_at": "2026-11-27 21:54:36.408426+00:00"
       }
     ],
     "unassessed_governance_items": [
@@ -469,47 +424,47 @@
       "promoter selling (source unavailable)"
     ],
     "shares_outstanding_growth_yoy": 0.0,
-    "atr_pct_of_price": 0.05447855729917755,
+    "atr_pct_of_price": 0.0559521573394813,
     "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
     "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
     "_run_id": 1083
   },
   "9_fundamental_score": 63.0,
-  "10_technical_score": 65.0,
+  "10_technical_score": 60.0,
   "11_data_confidence": 72.0,
   "12_short_term_assessment": {
-    "score": 64.4,
+    "score": 60.9,
     "technical_view": {
       "timeframe": "daily",
       "trend": "bullish",
-      "rsi_14": 63.12924292182488,
-      "macd_histogram": 3.0900983082169127,
+      "rsi_14": 60.37501940181828,
+      "macd_histogram": 2.078331909285751,
       "breakout": false,
       "breakdown": false
     },
     "entry_zone": {
       "low": 139.0,
-      "high": 144.2,
+      "high": 144.25,
       "basis": "near identified support plus half ATR buffer"
     },
-    "invalidation_level": 118.19
+    "invalidation_level": 117.99
   },
   "13_long_term_assessment": {
-    "score": 63.6,
+    "score": 62.1,
     "trend": {
       "timeframes": [
         "weekly",
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 128.85213095934947,
+      "ema_200_daily": 129.43817762304602,
       "price_vs_ema_200": "above"
     },
     "business_classification": "average"
   },
-  "14_investment_thesis": "KMC Speciality Hospitals (India) Limited (KMCSHIL) is classified as a 'average' business with a bullish technical trend. Balanced research score 64.0/100 (fundamental 63.0, technical 65.0, data confidence 72.0, risk 10/100 higher=worse). Supporting evidence: ROE 22.2% (>15%): capital allocated effectively; operating margin 22.2%: pricing power evidence.",
+  "14_investment_thesis": "KMC Speciality Hospitals (India) Limited (KMCSHIL) is classified as a 'average' business with a bullish technical trend. Balanced research score 61.5/100 (fundamental 63.0, technical 60.0, data confidence 72.0, risk 10/100 higher=worse). Supporting evidence: ROE 22.2% (>15%): capital allocated effectively; operating margin 22.2%: pricing power evidence.",
   "15_thesis_invalidation": [
-    "Daily close below invalidation level 118.19 (2x ATR under support)",
+    "Daily close below invalidation level 117.99 (2x ATR under support)",
     "Operating cash flow turning negative in the next annual report",
     "New critical governance or regulatory finding (currently unassessed items must be checked manually)"
   ],
@@ -539,17 +494,17 @@
     "rss_news (headlines, unverified)"
   ],
   "labels": [
-    "strong_technical_trend"
+    "neutral"
   ],
   "combined_scores": {
-    "long_term": 63.6,
-    "short_term": 64.4,
-    "balanced": 64.0,
+    "long_term": 62.1,
+    "short_term": 60.9,
+    "balanced": 61.5,
     "risk_score_higher_is_worse": 10
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-27 03:39 IST",
+    "generated_at": "2026-11-28 03:24 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-24 06:05 IST"
   }

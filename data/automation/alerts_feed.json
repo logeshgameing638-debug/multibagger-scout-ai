@@ -1,6 +1,118 @@
 {
-  "generated_at": "2026-11-27 03:39 IST",
+  "generated_at": "2026-11-28 03:24 IST",
   "alerts": [
+    {
+      "symbol": "AMBICAAGAR",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "AMBICAAGAR balanced score moved -16.0 pts (31.2 -> 15.2)",
+      "data_date": "2026-11-28 03:15 IST",
+      "detected_at": "2026-11-28 03:24 IST"
+    },
+    {
+      "symbol": "ASTRAMICRO",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "ASTRAMICRO balanced score moved -25.0 pts (52.0 -> 27.0)",
+      "data_date": "2026-11-28 03:22 IST",
+      "detected_at": "2026-11-28 03:24 IST"
+    },
+    {
+      "symbol": "AXISCADES",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "AXISCADES balanced score moved -13.5 pts (36.0 -> 22.5)",
+      "data_date": "2026-11-28 03:18 IST",
+      "detected_at": "2026-11-28 03:24 IST"
+    },
+    {
+      "symbol": "IITL",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "IITL RSI(14) 28 <= 30 (oversold zone)",
+      "data_date": "2026-11-28 03:15 IST",
+      "detected_at": "2026-11-28 03:24 IST"
+    },
+    {
+      "symbol": "IMAGICAA",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "IMAGICAA RSI(14) 30 <= 30 (oversold zone)",
+      "data_date": "2026-11-28 03:15 IST",
+      "detected_at": "2026-11-28 03:24 IST"
+    },
+    {
+      "symbol": "IMFA",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "IMFA RSI(14) 23 <= 30 (oversold zone)",
+      "data_date": "2026-11-28 03:15 IST",
+      "detected_at": "2026-11-28 03:24 IST"
+    },
+    {
+      "symbol": "INDNIPPON",
+      "type": "score_change",
+      "severity": "warning",
+      "message": "INDNIPPON balanced score moved +16.0 pts (28.0 -> 44.0)",
+      "data_date": "2026-11-28 03:17 IST",
+      "detected_at": "2026-11-28 03:24 IST"
+    },
+    {
+      "symbol": "INDOBORAX",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "INDOBORAX RSI(14) 27 <= 30 (oversold zone)",
+      "data_date": "2026-11-28 03:18 IST",
+      "detected_at": "2026-11-28 03:24 IST"
+    },
+    {
+      "symbol": "INDOTHAI",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "INDOTHAI RSI(14) 30 <= 30 (oversold zone)",
+      "data_date": "2026-11-28 03:19 IST",
+      "detected_at": "2026-11-28 03:24 IST"
+    },
+    {
+      "symbol": "INDTONER",
+      "type": "classification_change",
+      "severity": "info",
+      "message": "INDTONER classification changed attractive_valuation -> neutral",
+      "data_date": "2026-11-28 03:20 IST",
+      "detected_at": "2026-11-28 03:24 IST"
+    },
+    {
+      "symbol": "IOC",
+      "type": "classification_change",
+      "severity": "info",
+      "message": "IOC classification changed attractive_valuation -> neutral",
+      "data_date": "2026-11-28 03:22 IST",
+      "detected_at": "2026-11-28 03:24 IST"
+    },
+    {
+      "symbol": "IONEXCHANG",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "IONEXCHANG RSI(14) 21 <= 30 (oversold zone)",
+      "data_date": "2026-11-28 03:23 IST",
+      "detected_at": "2026-11-28 03:24 IST"
+    },
+    {
+      "symbol": "MARUTI",
+      "type": "rsi_overbought",
+      "severity": "info",
+      "message": "MARUTI RSI(14) 74 >= 70 (overbought zone)",
+      "data_date": "2026-11-28 03:22 IST",
+      "detected_at": "2026-11-28 03:24 IST"
+    },
+    {
+      "symbol": "MPSLTD",
+      "type": "rsi_oversold",
+      "severity": "info",
+      "message": "MPSLTD RSI(14) 28 <= 30 (oversold zone)",
+      "data_date": "2026-11-28 03:19 IST",
+      "detected_at": "2026-11-28 03:24 IST"
+    },
     {
       "symbol": "ACL",
       "type": "risk_high",
@@ -1259,8 +1371,8 @@
     }
   ],
   "stats": {
-    "snapshots_scanned": 1295,
-    "new_alerts": 24,
-    "active_alerts": 157
+    "snapshots_scanned": 1398,
+    "new_alerts": 14,
+    "active_alerts": 171
   }
 }

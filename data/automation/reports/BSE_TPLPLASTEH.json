@@ -5,11 +5,11 @@
     "name": "TPL Plastech Limited",
     "sector": "Consumer Cyclical",
     "industry": "Packaging & Containers",
-    "market_cap": 5780802560,
+    "market_cap": 5749601280,
     "website": "https://www.tplplastech.in"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-26 22:09:54.481253+00:00",
+    "generated_at": "2026-11-27 21:54:42.956543+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -77,36 +77,36 @@
     "assessment": "sideways",
     "daily": {
       "timeframe": "1d",
-      "last_close": 72.66000366210938,
+      "last_close": 74.11000061035156,
       "emas": {
-        "ema_20": 70.43178782896614,
-        "ema_50": 69.66924385313571,
-        "ema_100": 70.12239404454056,
-        "ema_200": 70.59765217013513
+        "ema_20": 70.7820938081457,
+        "ema_50": 69.8433911769481,
+        "ema_100": 70.20135655072443,
+        "ema_200": 70.63258541022893
       },
       "smas": {
-        "sma_20": 69.13749961853027,
-        "sma_50": 67.82819969177245,
-        "sma_100": 72.79059978485107,
-        "sma_200": 69.22794973373414
+        "sma_20": 69.67849960327149,
+        "sma_50": 67.95759971618652,
+        "sma_100": 72.80609981536865,
+        "sma_200": 69.2937497329712
       },
-      "rsi_14": 57.744521645253016,
+      "rsi_14": 60.931272615456884,
       "macd": {
-        "macd_line": 1.5353590281020928,
-        "signal_line": 1.235406341733268,
-        "histogram": 0.2999526863688249
+        "macd_line": 1.6301295315780209,
+        "signal_line": 1.3143509797022186,
+        "histogram": 0.3157785518758023
       },
-      "adx_14": 13.22705636271554,
-      "atr_14": 3.2003753949623652,
+      "adx_14": 13.502087796276717,
+      "atr_14": 3.2453481668693502,
       "bollinger": {
-        "middle": 69.13749961853027,
-        "upper": 78.10494595093809,
-        "lower": 60.17005328612245
+        "middle": 69.67849960327149,
+        "upper": 78.46426081768348,
+        "lower": 60.89273838885949
       },
-      "volume_sma_20": 7150.95,
-      "relative_volume": 1.2342416042623707,
+      "volume_sma_20": 7968.95,
+      "relative_volume": 2.5328305485666243,
       "support": 57.189998626708984,
-      "resistance": 81.55000305175781,
+      "resistance": 78.76000213623047,
       "price_structure": {
         "structure": "downtrend (lower highs, lower lows)",
         "higher_highs": false,
@@ -121,18 +121,18 @@
       "momentum_divergence": null,
       "entry_zone": {
         "low": 57.19,
-        "high": 58.79,
+        "high": 58.81,
         "basis": "near identified support plus half ATR buffer"
       },
-      "invalidation_level": 50.79,
-      "atr_risk_distance": 3.2003753949623652,
+      "invalidation_level": 50.7,
+      "atr_risk_distance": 3.2453481668693502,
       "provisional_last_bar": false
     },
     "short_term_report": {
       "timeframe": "daily",
       "trend": "sideways",
-      "rsi_14": 57.744521645253016,
-      "macd_histogram": 0.2999526863688249,
+      "rsi_14": 60.931272615456884,
+      "macd_histogram": 0.3157785518758023,
       "breakout": false,
       "breakdown": false
     },
@@ -142,7 +142,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 70.59765217013513,
+      "ema_200_daily": 70.63258541022893,
       "price_vs_ema_200": "above"
     }
   },
@@ -155,7 +155,7 @@
     ],
     "sector": "Consumer Cyclical",
     "industry": "Packaging & Containers",
-    "market_cap": 5780802560,
+    "market_cap": 5749601280,
     "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
     "unassessed_areas": [
       "business model detail (needs annual report reading)",
@@ -170,13 +170,13 @@
   },
   "6_valuation": {
     "multiples": {
-      "pe_trailing": 18.298765,
-      "pe_forward": 4.051941,
-      "pb": 3.341449,
-      "ev_ebitda": 12.003,
-      "ev_sales": 1.223,
+      "pe_trailing": 18.199999,
+      "pe_forward": 4.030071,
+      "pb": 3.3234138,
+      "ev_ebitda": 11.941,
+      "ev_sales": 1.217,
       "peg": 0.86,
-      "dividend_yield": 1.79,
+      "dividend_yield": 1.75,
       "industry_pe": null
     },
     "valuation_view_vs_industry": null,
@@ -200,8 +200,8 @@
       }
     },
     "dcf_not_calculated_reason": null,
-    "margin_of_safety_vs_base_case": 0.040274990648879454,
-    "current_price": 72.66000366210938,
+    "margin_of_safety_vs_base_case": 0.02112279873347334,
+    "current_price": 74.11000061035156,
     "_run_id": 1096
   },
   "7_news_intelligence": {
@@ -261,21 +261,21 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "TPL Plastech Limited (TPLPLASTEH.NS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-        "source": "Yahoo! Finance Canada",
-        "published": "Wed, 21 Feb 2018 18:31:51 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBGSG12UUp5Vk0zdjVGbnZtWE1wSFlVRS1IbDIzSE44X0FUQm1hU2trYkxqR1h0SkZ2d2xFUzJ5YWlReENiOEEzNjBMNlRHODFzenczOFBXaEQ5bURjbXc?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
         "headline": "TPL Plastech Board Meets To Consider Merger With Time Technoplast - Sahi",
         "source": "Sahi",
         "published": "Wed, 26 Aug 2026 07:00:00 GMT",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORk4wVnV3TzBIMGFCLTIycDdBbGtGNTdSaWxNZ1JvdmFwa1V0VzhuTlZ5RkZZdE5kN2d3Z3RjNmxFSDJfbk1hTm9Id3A4N0gzdjVUN3VCS0h3T1Z5TmM3QjFCZWU3NXU3SWdQR0dtZFFzRGVJSmdRUmVzQU1MLWMzQWgtN2pEcS1ETnl2a1JNWEpfRGlYMG1nVFkwbWJhZFpPQ1RKY3V5WQ?oc=5",
         "sentiment": "neutral",
         "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "TPL Plastech Limited (TPLPLASTEH.NS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "source": "Yahoo! Finance Canada",
+        "published": "Wed, 21 Feb 2018 18:31:51 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBGSG12UUp5Vk0zdjVGbnZtWE1wSFlVRS1IbDIzSE44X0FUQm1hU2trYkxqR1h0SkZ2d2xFUzJ5YWlReENiOEEzNjBMNlRHODFzenczOFBXaEQ5bURjbXc?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
         "verification_status": "unverified"
       },
       {
@@ -306,15 +306,6 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "TPL Plastech Limited (526582) Company Information - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Mon, 08 Aug 2022 10:26:31 GMT",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOOVJuYnpybVN2N1VKaDh2aks3M0pNS0U5R0gzNnc5eUZ2dXJJWlU1cXppS1g4U0o5b3d6YjRvcjhnLWI5ekpSVEFJSEJGWHB3OHlBdEl1QUFMSUpYVTdKMndPZzFrbnp2WUM0VTc1ekstVENMRXhveXdaeG5NVmJJMlJwcXZrWkN0dHU4SA?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
         "headline": "TPL Plastech Shareholders Overwhelmingly Approve Related Party Transactions for FY2026 - scanx.trade",
         "source": "scanx.trade",
         "published": "Mon, 28 Jul 2025 07:00:00 GMT",
@@ -324,10 +315,10 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Time Technoplast Board to Consider Merger with Subsidiary TPL Plastech - Whalesbook",
-        "source": "Whalesbook",
-        "published": "Fri, 21 Aug 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNcmZZbUFQQ1pDbXVCTy1xMzBkay1rYWlXZ1NGb1FxRDZTUjdhTDd3RjhJSnNqaTlLRTRSTTMyM3c2ajhhM0tiX0V3SkFtNEFlNjRxVWEwXzJqQWwzQ2liX1ViY0JFT085RWdBUWpxSzczcFFBcTIxLTFMQmxnbnAtcTduWWhpeTU3ZTFsUVpZdXdfYzhWbVNfNFE2bjNMcldndkVyMXIyNEsyV09MUnAwTEFUd09RZl85ZlVIWUJONTFJaU9tTE9KQmRfWVJlODR1blBGdHdnd0wzaFp2WWg0dVFKMkxNQl93YlZJS2RJLU1Ua1duN2RKemwzX1lhTFU?oc=5",
+        "headline": "TPL Plastech Board Approves Merger with Parent Company Time Technoplast - EquityBulls",
+        "source": "EquityBulls",
+        "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeVlJdVRwaVQwVXRqUzZ1VUhzSWd5NGZlNmRWUDBrZllhdXNfeHlLTG9xM3JDVkpEaWdTWU92eGtCZUJtWEpmRHFVZDk1bmxIRVphNWNSVU8yenBDdGs5ZkN1NEdoQjVidGZBdVhlMlFFel9xWklVaUhUOFdpRFFlOE00anlWdnBkLTlDZ1VLRW9ISW1DeHZoUktEVi1jVUQzakF3d3d6M2FHMERETlBzdw?oc=5",
         "sentiment": "neutral",
         "relevance": "high",
         "verification_status": "unverified"
@@ -353,14 +344,14 @@
       {
         "headline": "20% Upper Circuit: 7 Stocks That Hit the Upper Circuit Today; Do You Own Any? - Trade Brains",
         "source": "Trade Brains",
-        "published": "Fri, 03 Jul 2026 07:00:00 GMT",
+        "published": "Fri, 03 Jul 2026 10:47:26 GMT",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeVdmNGd2VHpiTXB1VUFkNnhBLTVXcmRoejM0OWJYX08xTFpMOVN3X29QZHgxMF9CR3h0SUFwaGo1WG11OWhOVHRnU29XbEtVQXZteDlzbDRuU0x4Ni1EeElVT1NjVTU2Yy1FcUs1amRfWDUwR213N1NpQzlnUGFyZGZqQ0VDODBmNGxZajRicjN5blZfN0F1VnJUSDhCSWZw?oc=5",
         "sentiment": "neutral",
         "relevance": "low",
         "verification_status": "unverified"
       }
     ],
-    "stored_new": 17,
+    "stored_new": 16,
     "duplicates_skipped": 0,
     "note": "headlines are unverified signals, not confirmed financial evidence",
     "_run_id": 1098
@@ -373,8 +364,8 @@
         "severity": "moderate",
         "evidence": "ATR 4.4% of price (>4%)",
         "source": "computed",
-        "date": "2026-11-26",
-        "detected_at": "2026-11-26 22:09:54.229858+00:00"
+        "date": "2026-11-27",
+        "detected_at": "2026-11-27 21:54:42.494342+00:00"
       }
     ],
     "unassessed_governance_items": [
@@ -386,47 +377,47 @@
       "promoter selling (source unavailable)"
     ],
     "shares_outstanding_growth_yoy": 0.0,
-    "atr_pct_of_price": 0.04404590192212297,
+    "atr_pct_of_price": 0.04379096127569112,
     "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
     "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
     "_run_id": 1097
   },
   "9_fundamental_score": 69.0,
-  "10_technical_score": 55.0,
+  "10_technical_score": 60.0,
   "11_data_confidence": 72.0,
   "12_short_term_assessment": {
-    "score": 59.2,
+    "score": 62.7,
     "technical_view": {
       "timeframe": "daily",
       "trend": "sideways",
-      "rsi_14": 57.744521645253016,
-      "macd_histogram": 0.2999526863688249,
+      "rsi_14": 60.931272615456884,
+      "macd_histogram": 0.3157785518758023,
       "breakout": false,
       "breakdown": false
     },
     "entry_zone": {
       "low": 57.19,
-      "high": 58.79,
+      "high": 58.81,
       "basis": "near identified support plus half ATR buffer"
     },
-    "invalidation_level": 50.79
+    "invalidation_level": 50.7
   },
   "13_long_term_assessment": {
-    "score": 64.8,
+    "score": 66.3,
     "trend": {
       "timeframes": [
         "weekly",
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 70.59765217013513,
+      "ema_200_daily": 70.63258541022893,
       "price_vs_ema_200": "above"
     },
     "business_classification": "average"
   },
-  "14_investment_thesis": "TPL Plastech Limited (TPLPLASTEH) is classified as a 'average' business with a sideways technical trend. Balanced research score 62.0/100 (fundamental 69.0, technical 55.0, data confidence 72.0, risk 10/100 higher=worse). Supporting evidence: ROE 17.2% (>15%): capital allocated effectively.",
+  "14_investment_thesis": "TPL Plastech Limited (TPLPLASTEH) is classified as a 'average' business with a sideways technical trend. Balanced research score 64.5/100 (fundamental 69.0, technical 60.0, data confidence 72.0, risk 10/100 higher=worse). Supporting evidence: ROE 17.2% (>15%): capital allocated effectively.",
   "15_thesis_invalidation": [
-    "Daily close below invalidation level 50.79 (2x ATR under support)",
+    "Daily close below invalidation level 50.7 (2x ATR under support)",
     "Operating cash flow turning negative in the next annual report",
     "New critical governance or regulatory finding (currently unassessed items must be checked manually)"
   ],
@@ -459,14 +450,14 @@
     "neutral"
   ],
   "combined_scores": {
-    "long_term": 64.8,
-    "short_term": 59.2,
-    "balanced": 62.0,
+    "long_term": 66.3,
+    "short_term": 62.7,
+    "balanced": 64.5,
     "risk_score_higher_is_worse": 10
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-27 03:39 IST",
+    "generated_at": "2026-11-28 03:24 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-25 04:24 IST"
   }

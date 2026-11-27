@@ -5,11 +5,11 @@
     "name": "Filatex India Limited",
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
-    "market_cap": 48868626432,
+    "market_cap": 49987649536,
     "website": "https://www.filatex.com"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-26 22:09:42.710973+00:00",
+    "generated_at": "2026-11-27 21:54:30.164250+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -78,34 +78,34 @@
     "assessment": "bullish",
     "daily": {
       "timeframe": "1d",
-      "last_close": 111.87999725341797,
+      "last_close": 110.05000305175781,
       "emas": {
-        "ema_20": 103.29172822978829,
-        "ema_50": 97.80392669286277,
-        "ema_100": 88.02178270118065,
-        "ema_200": 75.42601156289605
+        "ema_20": 103.93537345092825,
+        "ema_50": 98.2841649814469,
+        "ema_100": 88.45798508431923,
+        "ema_200": 75.77051936666324
       },
       "smas": {
-        "sma_20": 99.58750038146972,
-        "sma_50": 100.7954002380371,
-        "sma_100": 87.46159996032715,
-        "sma_200": 66.5061499786377
+        "sma_20": 100.29250068664551,
+        "sma_50": 101.47140029907227,
+        "sma_100": 88.03790000915528,
+        "sma_200": 66.8228999900818
       },
-      "rsi_14": 64.02803375764289,
+      "rsi_14": 60.86838344467444,
       "macd": {
-        "macd_line": 3.5136121146086197,
-        "signal_line": 1.9219256846530837,
-        "histogram": 1.591686429955536
+        "macd_line": 3.60229712352168,
+        "signal_line": 2.257999972426803,
+        "histogram": 1.3442971510948771
       },
-      "adx_14": 27.41895332261398,
-      "atr_14": 6.2988989935455635,
+      "adx_14": 28.134082555519758,
+      "atr_14": 6.156834605334719,
       "bollinger": {
-        "middle": 99.58750038146972,
-        "upper": 115.9114550556471,
-        "lower": 83.26354570729235
+        "middle": 100.29250068664551,
+        "upper": 117.16372582710238,
+        "lower": 83.42127554618864
       },
-      "volume_sma_20": 2615555.25,
-      "relative_volume": 1.1210128327436402,
+      "volume_sma_20": 2770372.0,
+      "relative_volume": 1.649403401420459,
       "support": 84.19999694824219,
       "resistance": 119.77999877929688,
       "price_structure": {
@@ -122,18 +122,18 @@
       "momentum_divergence": null,
       "entry_zone": {
         "low": 84.2,
-        "high": 87.35,
+        "high": 87.28,
         "basis": "near identified support plus half ATR buffer"
       },
-      "invalidation_level": 71.6,
-      "atr_risk_distance": 6.2988989935455635,
+      "invalidation_level": 71.89,
+      "atr_risk_distance": 6.156834605334719,
       "provisional_last_bar": false
     },
     "short_term_report": {
       "timeframe": "daily",
       "trend": "bullish",
-      "rsi_14": 64.02803375764289,
-      "macd_histogram": 1.591686429955536,
+      "rsi_14": 60.86838344467444,
+      "macd_histogram": 1.3442971510948771,
       "breakout": false,
       "breakdown": false
     },
@@ -143,7 +143,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 75.42601156289605,
+      "ema_200_daily": 75.77051936666324,
       "price_vs_ema_200": "above"
     }
   },
@@ -154,7 +154,7 @@
     "evidence": [],
     "sector": "Consumer Cyclical",
     "industry": "Textile Manufacturing",
-    "market_cap": 48868626432,
+    "market_cap": 49987649536,
     "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
     "unassessed_areas": [
       "business model detail (needs annual report reading)",
@@ -169,11 +169,11 @@
   },
   "6_valuation": {
     "multiples": {
-      "pe_trailing": 25.833332,
-      "pe_forward": 8.280663,
-      "pb": 3.057709,
-      "ev_ebitda": 14.259,
-      "ev_sales": 1.097,
+      "pe_trailing": 25.526077,
+      "pe_forward": 8.470279,
+      "pb": 3.1277263,
+      "ev_ebitda": 14.582,
+      "ev_sales": 1.122,
       "peg": 12.06,
       "dividend_yield": 0.27,
       "industry_pe": null
@@ -199,8 +199,8 @@
       }
     },
     "dcf_not_calculated_reason": null,
-    "margin_of_safety_vs_base_case": -4.767500800755746,
-    "current_price": 111.87999725341797,
+    "margin_of_safety_vs_base_case": -4.673163177565191,
+    "current_price": 110.05000305175781,
     "_run_id": 1068
   },
   "7_news_intelligence": {
@@ -215,12 +215,30 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Filatex India Limited Reports Earnings Results for the Second Quarter and Six Months Ended September 30, 2026 - www.marketscreener.com",
-        "source": "www.marketscreener.com",
-        "published": "Fri, 13 Nov 2026 11:33:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNWm9vSG80aTFVMHc0TkdtbEdmX0hqd2Z5T2pJRzJCOXRSVkFqQU4yOTNBSUFhQWUydV9BWDZLdlFVMGljZjJDLUJtVHhtSGVMYzhsTXVQVVFab2FtZHhPenpNNTBveHN6eUlmNXZpNWc3RzdXcTRKS2twWFEwd3pIVzdPNThNQ1RBc2N2bGdRWThhQ1RaRmFwVnVYRlJ0WFJMZWlpNTNuM096LWRMRjRIYTZwdFkyRHlRbEZ2aGVINWJUc1dIRW1QUHRxQ3ZnZ092aGdiQzJEWTR6d0RkaTlYSk9Ycm5NNTFC?oc=5",
-        "sentiment": "neutral",
+        "headline": "Filatex India shareholders approve \u20b90.30 per share dividend for FY26 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Tue, 22 Sep 2026 13:23:07 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQjROemFwaE5aaTRwR1MzZ3RJV2tCdlZkc3VPOFVRTjhMdUlDUW5mV0ppeTctdXZPVXpFRWs0TlAxa0dkWjI0SFFmSlNkYXVtNF96dWM2MnNpQWxPczFLUDJjaWZjRm9JZFZ4dXBqbTM0UHhpUU5tdjNwUzAyZDZvT0NaaHFPbjhWSE5hVEZyNlR2QTBRRHBsM1dXazNEamN4M1JwOHhtNlBJZE8tdDFGaGx0bGYwbEwtTDNHYw?oc=5",
+        "sentiment": "positive",
         "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Filatex India Slips 5.78% to \u20b997.17 \u2014 Polyester Yarn Stock Tests Key Support Zone - Hull Moving Average - SIAM India",
+        "source": "SIAM India",
+        "published": "Wed, 21 Oct 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaXByME9NZTk5cENSMENRR2hWRWF0MGZUX0g0S0hrUkxmbERZQ1h5blVaM2I2QkN4RmxfaFBpZmpwbURQVERtX2JZWnhQeXRldkZkUWtSbzdJUWc4bjliY0ZSVGZVLTdXbFlsdkFDWGF5VHRwMWhBVGh1ZW9mUGI0NEI5OGZtcnJTejRzY1gtSnpwM05CbklsWEdZcHRSZXNaTC14OHU0OWhHOHYzR1lMQW1uNFYzRDlLaEE?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Filatex India (NSE:FILATEX) Puts \u20b913 Crore More Into Ecosis - Kalkine India",
+        "source": "Kalkine India",
+        "published": "Mon, 09 Nov 2026 08:41:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNdWFGZU91aWpfalg0eUlCMnBXU3JhRGk0VGJiZ0JCeHV6WjA3M09OcjE3RkhfcXdzcm40VEJ1bXFrc2hHRVVpclBBVDJDZzN4WTI0bmltZTQzdFFKUWctR2VpcUlLX01waXBLbFZsalBhMEd0RmtTQnV3X2QweWtUVi1mSnZieFlSMTlmY2t2OFhoZ2RKRHhycFZCTjN6cElVTnNYMHhwVXVGaEFXRDF1cXZwWHhZQjMxNGxER3NacmhUems1dWlLd1hELV9hT3cxdXFxeEpSdFBzQm4yT3ozOTlkTzM5WHR4MktVUDBB?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
         "verification_status": "unverified"
       },
       {
@@ -233,12 +251,21 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Filatex India Slips 5.78% to \u20b997.17 \u2014 Polyester Yarn Stock Tests Key Support Zone - Hull Moving Average - SIAM India",
-        "source": "SIAM India",
-        "published": "Wed, 21 Oct 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaXByME9NZTk5cENSMENRR2hWRWF0MGZUX0g0S0hrUkxmbERZQ1h5blVaM2I2QkN4RmxfaFBpZmpwbURQVERtX2JZWnhQeXRldkZkUWtSbzdJUWc4bjliY0ZSVGZVLTdXbFlsdkFDWGF5VHRwMWhBVGh1ZW9mUGI0NEI5OGZtcnJTejRzY1gtSnpwM05CbklsWEdZcHRSZXNaTC14OHU0OWhHOHYzR1lMQW1uNFYzRDlLaEE?oc=5",
+        "headline": "Be Sure To Check Out Filatex India Limited (NSE:FILATEX) Before It Goes Ex-Dividend - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Fri, 11 Sep 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOLUp5THJsRTJFTHdxWkJOX0t0QjhoUUFPUDNJR0VoQ2NfcXBKNzc1VlJfMkU1YW5XSldCaVpucnZhSVlUMXdobDZIRXpvQXdHSThuYkxheTVhNzRKTmtjdUNhLTU4OHR3c2RsczNEWENUcVBwQkhycllwYXg3amtFeXZQRmtmRTBLX2lNUVBHWS1fMEkyVGQzek5FU1NoRGlpcVVxSnVYSzRCdHo0emMzQ2dnTGRMWjVCMGw1THQxNlRuVDBvV0EtaWZsYkkwc3JaRnUwZUZtWUdoR3lXSDJEUEhB0gHnAUFVX3lxTE92QWhxeVR5a2hmUnlUZzdabVlzdUprTFdYV0xHTzkzUEh2cEVISmx3NmZ0YmhHV1RINTZuVXhLT2VxMXczSldQUlJxckU4S1EyT09sLXlWLXNEb2l1Y3dBOEhoMFNpLWhkSEEyTEFkcjJyWDAwTldtMEFITGl1VFNob2FXSl9PajZNMDM2Y0JpZWpiS3VGYkJLYnlOa09oaVlyNTcxcml1QnRGV1VGOUlCbHpHRkJGd3B2T0htZzRjS1dqMXhkVElJclotN2NpZk5KRndBN0F4dF9mYTRfVUZDaFlGTWZUYw?oc=5",
+        "sentiment": "positive",
+        "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Filatex India (NSE:FILATEX) Q2 & H1 FY27 Earnings Call Highlights and Compliance Update - Kalkine Media",
+        "source": "Kalkine Media",
+        "published": "Mon, 16 Nov 2026 13:08:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMEhBNjZfdnJsU2RiYlRCeVYyT2JBMERaNWQyZVNBMnM2Q0ljMWZqSmZaR2NuMC1hM0FFSk84Y1hxYU9fYUh2OExrT3NoMEhJeUJObThMbkdYTEpVRXlOanVzcVJjZG9QRFRxVEdMQzRqU0NGb1lVS21TemtfSW9IbXhienNoYVRGRDh2UGdvdWxtWFdKQW1HcVpVYkZHa3hORmc3U3BxN0ZqdGNxcVhQZktOeGpueWR0a3d6R1pqN251TWpVT2ZpbA?oc=5",
         "sentiment": "neutral",
-        "relevance": "medium",
+        "relevance": "high",
         "verification_status": "unverified"
       },
       {
@@ -260,30 +287,12 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Be Sure To Check Out Filatex India Limited (NSE:FILATEX) Before It Goes Ex-Dividend - Simply Wall St",
+        "headline": "Earnings Working Against Filatex India Limited's (NSE:FILATEX) Share Price - Simply Wall St",
         "source": "Simply Wall St",
-        "published": "Fri, 11 Sep 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOLUp5THJsRTJFTHdxWkJOX0t0QjhoUUFPUDNJR0VoQ2NfcXBKNzc1VlJfMkU1YW5XSldCaVpucnZhSVlUMXdobDZIRXpvQXdHSThuYkxheTVhNzRKTmtjdUNhLTU4OHR3c2RsczNEWENUcVBwQkhycllwYXg3amtFeXZQRmtmRTBLX2lNUVBHWS1fMEkyVGQzek5FU1NoRGlpcVVxSnVYSzRCdHo0emMzQ2dnTGRMWjVCMGw1THQxNlRuVDBvV0EtaWZsYkkwc3JaRnUwZUZtWUdoR3lXSDJEUEhB0gHnAUFVX3lxTE92QWhxeVR5a2hmUnlUZzdabVlzdUprTFdYV0xHTzkzUEh2cEVISmx3NmZ0YmhHV1RINTZuVXhLT2VxMXczSldQUlJxckU4S1EyT09sLXlWLXNEb2l1Y3dBOEhoMFNpLWhkSEEyTEFkcjJyWDAwTldtMEFITGl1VFNob2FXSl9PajZNMDM2Y0JpZWpiS3VGYkJLYnlOa09oaVlyNTcxcml1QnRGV1VGOUlCbHpHRkJGd3B2T0htZzRjS1dqMXhkVElJclotN2NpZk5KRndBN0F4dF9mYTRfVUZDaFlGTWZUYw?oc=5",
-        "sentiment": "positive",
+        "published": "Mon, 02 Feb 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPaHY0UGxGM3doRy1lUncxT053WjVET3o1bFJfVGk0WEYzNDFFVDVOeUpSOV9PczhfbHhfWWlLODlEUk0wV0d4eFpyOEVwRlUwM0dkbDlHNHQwa0VfU0VmN21BVmZxdmppU1ZaQ04xN2M2YTRHcGc3ZnJtSW5sUkNwS0lCcE1BOGFMMlF3ZXdveEJmTS1NNWtKMmp5UjgzbTk2TEpLR2w1VXRXT1h5MUlGSFNjcUx6ZXB1VHpUQXpScms3dEpKbFRuUXZ5Ti00TGw4MEx5T2NsQnp3enE2dVN2WnJoOUzSAeoBQVVfeXFMUHdsYWlWeHFsQi15YlA5djdvSExJWC1ndlF0OW5FTEFZRkY4TFVjcHNTUkhjTUxxMHdleEZmNG1hOXlHNFdXVVl4bGd0OEJkejNVMmcyREkyMmE3OWlEOGtIWXNBaGZDcWprQzlwZXFaYXJiYmp4bjdNNHA5MzdQV0NXaHRJV1FpTlhuRkMxRmRJWkVpbWhDTGMzSTR6bmlPM19KWUVRSDJRTFNEQ1czTWh6aFF3ZHFJWU5iWlpPLW5oZ0RVRE5DeEw2ckJua1BoMUhabkdCdl94NWNKbUVBSGR1VTBqUlNGVGln?oc=5",
+        "sentiment": "neutral",
         "relevance": "high",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Filatex India Ltd Share Price Today NSE/BSE Charts - Alice Blue",
-        "source": "Alice Blue",
-        "published": "Sat, 05 Sep 2026 06:33:27 GMT",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBPajM1M1JjZUZUeW92Tm1Tb3NyNVpRTjhHXzZYZ3dzYWl4TmpUWGFRVHlRbUJiTWU3OWhuWG90WENQeHVQMnRMclR6VGZuR2xIUUNaeVRPZVFGWjVZODRpX2FiY2I1TFhCN2x3MWpkZjg?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Here's why Filatex India share price is buzzing in trade today; details - Business Standard",
-        "source": "Business Standard",
-        "published": "Thu, 23 Oct 2025 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeHQyTGg2bWRlLXNCRG1Hblk1MHJlT3BJaXgyRTU4dXpQQjZzOXlwdzktel8wekk1TThSeFNCbEcyV3ROcDlzT2NWaFFKOHRZV0FZQmlfUUxXYkh2SGh6enQwUVBDM0ZGc24zX2p0QnZqTkl0bm1rWUdFUHAtU21zem11T2R2RVc1Wk5wbXZlcUNzeWowcjY0Y3U3V3NrRHFUamRpVDBubW1URUY0MWoyNE5yY2phMWV5Y0xQcnJ0NjBJTm1PRVFQRjBqeHlneWJiS1hR0gHYAUFVX3lxTFBtTnlwMW5SeXlRRTRCNDBjeTFZWkFyZ05haURNMlVMX18zLVFLcjZYMW9lYU9yYnBHUHg5MVZRWlNrVEp0SGdqMVlOdXR4RFR3OWNFVFI3X2lTT0ctRmFGVHEzckctRzBNLUpVMTNmbVJfck81c2lxcm02OGM1czQ1a0hsSGUyMDE5b3p2aE9oOHhfVWxMZXNBY0xuNkpPVURHY0lGUVZDbHdfMldpM2lOTlFxMFVHdFlwM2FnVXB0bTY3VUY0ajBVYUJtNGl0YktDY0hubDl3cQ?oc=5",
-        "sentiment": "neutral",
-        "relevance": "medium",
         "verification_status": "unverified"
       },
       {
@@ -296,37 +305,19 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Filatex India Ltd. Share Price Today | Filatex India Live NSE/BSE - Value Research",
-        "source": "Value Research",
-        "published": "Thu, 24 Mar 2022 19:17:28 GMT",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5rejEwLXJfTk5MY2xDQ2FmVHQ5SlUycklJa2phYWxnd0NSRW1XdG5EV3N4WTgyb3NjRkEzaHpvYWR4V0E4eHFFY0FObWJzRG1IcGl0X3E0TWJLbTk4cG9Mek1ZLXRoT1ExckVwa0plZGhycFhzRkE?oc=5",
+        "headline": "Filatex India sees stable margins, targets Ecosis ops by Oct 2026 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Thu, 30 Jul 2026 15:23:12 GMT",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZVFrTC1TTXFGaWJ2V1dyQUNGRFAzdTZUQmJwZFdCWVVNbG1EaXdQMDZoUkE1R0lLTk9FLUY5WFNHTDFIWUR4WUdCSUZ3V1Zuc241b240eU9Qbl9aaE1vZFNUVHV0SFd2MVhoZWR2ZzlSdVRweWN2S0U3Tm1ILWpXY01PNVpIMkNuSmxGNlhDYU5FZTl3eG9tb1VXd3BoMlVRZHc5M1FlTmdaaHdqbmJqZVBER3U?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
       },
       {
-        "headline": "Earnings Working Against Filatex India Limited's (NSE:FILATEX) Share Price - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Mon, 02 Feb 2026 08:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPaHY0UGxGM3doRy1lUncxT053WjVET3o1bFJfVGk0WEYzNDFFVDVOeUpSOV9PczhfbHhfWWlLODlEUk0wV0d4eFpyOEVwRlUwM0dkbDlHNHQwa0VfU0VmN21BVmZxdmppU1ZaQ04xN2M2YTRHcGc3ZnJtSW5sUkNwS0lCcE1BOGFMMlF3ZXdveEJmTS1NNWtKMmp5UjgzbTk2TEpLR2w1VXRXT1h5MUlGSFNjcUx6ZXB1VHpUQXpScms3dEpKbFRuUXZ5Ti00TGw4MEx5T2NsQnp3enE2dVN2WnJoOUzSAeoBQVVfeXFMUHdsYWlWeHFsQi15YlA5djdvSExJWC1ndlF0OW5FTEFZRkY4TFVjcHNTUkhjTUxxMHdleEZmNG1hOXlHNFdXVVl4bGd0OEJkejNVMmcyREkyMmE3OWlEOGtIWXNBaGZDcWprQzlwZXFaYXJiYmp4bjdNNHA5MzdQV0NXaHRJV1FpTlhuRkMxRmRJWkVpbWhDTGMzSTR6bmlPM19KWUVRSDJRTFNEQ1czTWh6aFF3ZHFJWU5iWlpPLW5oZ0RVRE5DeEw2ckJua1BoMUhabkdCdl94NWNKbUVBSGR1VTBqUlNGVGln?oc=5",
-        "sentiment": "neutral",
-        "relevance": "high",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Filatex India shareholders approve \u20b90.30 per share dividend for FY26 - scanx.trade",
+        "headline": "Filatex India invests \u20b920 crore in subsidiary Ecosis for recycling project - scanx.trade",
         "source": "scanx.trade",
-        "published": "Tue, 22 Sep 2026 13:23:07 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQjROemFwaE5aaTRwR1MzZ3RJV2tCdlZkc3VPOFVRTjhMdUlDUW5mV0ppeTctdXZPVXpFRWs0TlAxa0dkWjI0SFFmSlNkYXVtNF96dWM2MnNpQWxPczFLUDJjaWZjRm9JZFZ4dXBqbTM0UHhpUU5tdjNwUzAyZDZvT0NaaHFPbjhWSE5hVEZyNlR2QTBRRHBsM1dXazNEamN4M1JwOHhtNlBJZE8tdDFGaGx0bGYwbEwtTDNHYw?oc=5",
-        "sentiment": "positive",
-        "relevance": "high",
-        "verification_status": "unverified"
-      },
-      {
-        "headline": "Filatex India sees stable margins, targets Ecosis ops by Oct 2026 - scanx.trade",
-        "source": "scanx.trade",
-        "published": "Thu, 30 Jul 2026 15:23:12 GMT",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZVFrTC1TTXFGaWJ2V1dyQUNGRFAzdTZUQmJwZFdCWVVNbG1EaXdQMDZoUkE1R0lLTk9FLUY5WFNHTDFIWUR4WUdCSUZ3V1Zuc241b240eU9Qbl9aaE1vZFNUVHV0SFd2MVhoZWR2ZzlSdVRweWN2S0U3Tm1ILWpXY01PNVpIMkNuSmxGNlhDYU5FZTl3eG9tb1VXd3BoMlVRZHc5M1FlTmdaaHdqbmJqZVBER3U?oc=5",
+        "published": "Thu, 24 Sep 2026 10:02:14 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWlBxeHRLcFo4YzY4eUdiYXFGaTEwdWRvWXhhOUs1blNBU0g2aUhqRzdlbXJtdFZmNFNTR1M5RURlWUd2cXJXR2ZheEdPejJlRWJ6amJsaV9lLWFKUDgzQ0NVbWVNT0dJZVF6Ry1rN0R4aGxoZlFEUFBZdlYzQl85NXYzT1lEazhLZkdzWWt0UzVQSElNVjN1WFFWSUotWG40VElMMGlSa2JpbzV5NWp1VjFkYW10YUQxYlBOREsxSl8?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -338,6 +329,15 @@
         "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOTzJIRmlESVFMd1FnYkQ4QUVDeVFrM3Q3QXF3SzE0YTQ3NkVQLVV6TnBOdklwd3MzUEZJaHdqN0xHdTJKZzI4UmxXamNYRzZBbHYzWmJLR0JYS0hsbHNmUG9oRXhJSnFLRUtpNmUzckh4bVdPRk9PRG96TFdGQktmcGN6ek5PRXJMSjJOdDd4QUZtOW8zekt4OS15LVF2d2Vqbl90V2FIVlhZWU1wVWEycVhQVndhQ0FnU3h4LUF2TERVbjRUMTBYUG9JTzE2YXVqOFRWYk92UzRfdkNJOHFF?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Filatex India Q1 Results: Earnings call scheduled for July 31 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Tue, 28 Jul 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNS2pKblZUUGg3MDFBaDF0RWhFcE42eTVleF9vZ29XZU8xNHZsMFJtb05oOGtkNVM2UWd6MXBkMVJkUVBOMUlva1VVR0ZpeVlVbjJnWXM5SS1wWm9RWk1QSmJrZ2pJN0kxMFdOM1ZDdU9pbG9YREVZanlaQnVUM1p5WkpUVzNXbHJNbEw5czNDS2xCV0o3UGJ5UTg4NkZPOXg4ZzM3TWpyYjlJWFlSaXJlUzRTcExVNU92?oc=5",
+        "sentiment": "neutral",
+        "relevance": "high",
         "verification_status": "unverified"
       },
       {
@@ -386,12 +386,48 @@
         "verification_status": "unverified"
       },
       {
+        "headline": "Filatex India Ltd Share Price Today NSE/BSE Charts - Alice Blue",
+        "source": "Alice Blue",
+        "published": "Sat, 05 Sep 2026 06:33:27 GMT",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBPajM1M1JjZUZUeW92Tm1Tb3NyNVpRTjhHXzZYZ3dzYWl4TmpUWGFRVHlRbUJiTWU3OWhuWG90WENQeHVQMnRMclR6VGZuR2xIUUNaeVRPZVFGWjVZODRpX2FiY2I1TFhCN2x3MWpkZjg?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Here's why Filatex India share price is buzzing in trade today; details - Business Standard",
+        "source": "Business Standard",
+        "published": "Thu, 23 Oct 2025 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeHQyTGg2bWRlLXNCRG1Hblk1MHJlT3BJaXgyRTU4dXpQQjZzOXlwdzktel8wekk1TThSeFNCbEcyV3ROcDlzT2NWaFFKOHRZV0FZQmlfUUxXYkh2SGh6enQwUVBDM0ZGc24zX2p0QnZqTkl0bm1rWUdFUHAtU21zem11T2R2RVc1Wk5wbXZlcUNzeWowcjY0Y3U3V3NrRHFUamRpVDBubW1URUY0MWoyNE5yY2phMWV5Y0xQcnJ0NjBJTm1PRVFQRjBqeHlneWJiS1hR0gHYAUFVX3lxTFBtTnlwMW5SeXlRRTRCNDBjeTFZWkFyZ05haURNMlVMX18zLVFLcjZYMW9lYU9yYnBHUHg5MVZRWlNrVEp0SGdqMVlOdXR4RFR3OWNFVFI3X2lTT0ctRmFGVHEzckctRzBNLUpVMTNmbVJfck81c2lxcm02OGM1czQ1a0hsSGUyMDE5b3p2aE9oOHhfVWxMZXNBY0xuNkpPVURHY0lGUVZDbHdfMldpM2lOTlFxMFVHdFlwM2FnVXB0bTY3VUY0ajBVYUJtNGl0YktDY0hubDl3cQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Filatex India Ltd. Share Price Today | Filatex India Live NSE/BSE - Value Research",
+        "source": "Value Research",
+        "published": "Thu, 24 Mar 2022 19:17:28 GMT",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5rejEwLXJfTk5MY2xDQ2FmVHQ5SlUycklJa2phYWxnd0NSRW1XdG5EV3N4WTgyb3NjRkEzaHpvYWR4V0E4eHFFY0FObWJzRG1IcGl0X3E0TWJLbTk4cG9Mek1ZLXRoT1ExckVwa0plZGhycFhzRkE?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
         "headline": "Filatex India Reports Strong Q2 FY26 Performance with Revenue Growth and Margin Expansion - scanx.trade",
         "source": "scanx.trade",
         "published": "Mon, 10 Nov 2025 08:00:00 GMT",
         "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQaUN3ZV9QcXRHZVRucERhWE96bXBNOG92VEFsRkRXR2w5S3IzSmxwUE1MYmpTeHNULW52aU5WUjZGTzd6bmxFQ3gyRFVhalg2Z1Vhc1g5TUgySHkxZVlMYlA4ejhpR09DdktseHMyc0ZoajNReTNwdFpOeURSWlo3WWJCV3UwVGpPQmpUS1R3eUNCZXNqV3RLalkwVUhkRFdHSmJ3R2JNcU4xUmh1a0dZY3dQWmdEVXg1Nm94VkRILWhWbW5ERmdkTkR2dTAzM0hwUkluV1BvMmV5cGtPSHc?oc=5",
         "sentiment": "positive",
         "relevance": "high",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Filatex India Limited's Exchange with Fibre2Fashion | Bharat Tex 2024 - Fibre2Fashion",
+        "source": "Fibre2Fashion",
+        "published": "Fri, 01 Mar 2024 00:12:48 GMT",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTXBJX0hCZWpOb1JYUFlXb3pSMjdKekhFR0JVcWxDaFVKbnFmMkliVHRYaUF6RFpzMUlMMC0wYTRJa3dlS1gyN2tNejItMlM2OEhiOFVEQ0s3Zjl6bVVDblF4Y2FOZ3ZXRnFtVVA2dHdBMkE5WHdnaTVUR3V4YkstcjBoTVFzMXZvcEZYRXk0WWo5S0lVNWxqSno3TllVZFdvU0ZkQ1dhNVZlbl9sOUdB?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
         "verification_status": "unverified"
       },
       {
@@ -413,12 +449,12 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Filatex India Reports 27.75% EBITDA Growth in Q1 FY26, Announces INR700 Crore Expansion Plan - scanx.trade",
-        "source": "scanx.trade",
-        "published": "Thu, 31 Jul 2025 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNEU4Y1Q5VXE1T0VlMDYxcG5uNFBJSHlRNXI2TldaUkZpRWl4ZVJGNUYxTUN0alcyc1Q5RXZDZ2dBX2JoSGdUS0tSbmFCZllLcnpDSl9FMkIwM1B4TlZDd0QtbVVlOXVvdWN6UHRZeHJVb1NnQzBXeTVSdmRwNG80UVVWRE03ZG93UlM2TjRjbmNuc1AyQTc5NFZEbWE1YXkzWDlOLW1iRFJXY0RvUWVadFNneUpUb3hJQVdrTWo2cHVUeXJuckpwMERYa2czbWIzYU81dGV0Ml9meHN2VkNn?oc=5",
-        "sentiment": "positive",
-        "relevance": "high",
+        "headline": "Filatex India (NSEI:FILATEX) - Stock Analysis - Simply Wall St",
+        "source": "Simply Wall St",
+        "published": "Sat, 02 Dec 2017 07:19:54 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOb0FLNTZBMVFYc2tJaHNZRTFWelo0d0ptRnJaVC1SMTlNVC1MQjJsWUw1RnRwVWRYaXBHUzFRZnVHR3VjdVl2NC1kdTF5S1pKX3AtNlJ0aGhhemgxTGNsQlIyMUlFTWhEVjFBQVZBeVg4MlBqdWMtMUxEZmhhdEd2UlVoejF0SFZnN0E?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
         "verification_status": "unverified"
       },
       {
@@ -426,6 +462,15 @@
         "source": "TradingView",
         "published": "Mon, 31 Jul 2017 01:50:22 GMT",
         "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1JZ2MyZDJoZ1F2SGw5Mm5TN1FmNHZ5NW5sVk5TTk9BX1hobE14LWxmR0lyZ1Z3WTdxNWNZdDY1QlRveERFZzI1LS1RVUVRNGc4dFV2NHdMZThsamxy?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Filatex India Stock Price Forecast. Should You Buy FILATEX.NS? - StockInvest.us",
+        "source": "StockInvest.us",
+        "published": "Mon, 14 Dec 2020 07:23:40 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0zakd6TmRra2FfUkVhX0JhQi04MTRyZ0VFVmFrZU5MYmE0N1RROUZSWTNLVXVlQmJzT05mazRtelRPUDFiQmE2eFRmTEI3aEgy?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -440,19 +485,19 @@
         "verification_status": "unverified"
       },
       {
-        "headline": "Filatex India (NSEI:FILATEX) - Stock Analysis - Simply Wall St",
-        "source": "Simply Wall St",
-        "published": "Sat, 02 Dec 2017 07:19:54 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOb0FLNTZBMVFYc2tJaHNZRTFWelo0d0ptRnJaVC1SMTlNVC1MQjJsWUw1RnRwVWRYaXBHUzFRZnVHR3VjdVl2NC1kdTF5S1pKX3AtNlJ0aGhhemgxTGNsQlIyMUlFTWhEVjFBQVZBeVg4MlBqdWMtMUxEZmhhdEd2UlVoejF0SFZnN0E?oc=5",
+        "headline": "Minor Fire Incident Occurred at Filatex India Ltd's Dahej Plant - EquityBulls",
+        "source": "EquityBulls",
+        "published": "Sat, 03 Oct 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWXJWbEJfb1BJd1JSSFVGazVFa3MtYUhQYXNzdl9OQnlaQkhYX3AyeTNOX0lrWkVrUVN4Q1ZjeS15VTMzWFZSYTk2U2tKdmc0TUFjbG5RcUlNdmFwSWhQOHR2VjUtWUpZdUR4c0JBdWFTenRMWHRVOGNYQUNwM3lMUFpVYmhzeWRIZFl1Mk1Gb1Ruc3hKSERXR211S2FlbjhqdFYwY1ln?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
       },
       {
-        "headline": "Minor Fire Incident Occurred at Filatex India Ltd's Dahej Plant - EquityBulls",
-        "source": "EquityBulls",
-        "published": "Sat, 03 Oct 2026 07:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWXJWbEJfb1BJd1JSSFVGazVFa3MtYUhQYXNzdl9OQnlaQkhYX3AyeTNOX0lrWkVrUVN4Q1ZjeS15VTMzWFZSYTk2U2tKdmc0TUFjbG5RcUlNdmFwSWhQOHR2VjUtWUpZdUR4c0JBdWFTenRMWHRVOGNYQUNwM3lMUFpVYmhzeWRIZFl1Mk1Gb1Ruc3hKSERXR211S2FlbjhqdFYwY1ln?oc=5",
+        "headline": "Filatex India Stock Forms An Ascending Triangle Pattern Signalling At A Short-Term Bullish Breakout - Trade Brains",
+        "source": "Trade Brains",
+        "published": "Tue, 22 Sep 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOQ2ppY0x3Q2ZBdmlObjQ3WVk2Z24yS0hEOEM3dHh1SE9GWHB0WlZDTGlVTFFGclZrOEJpUWVFcWtSa2l1cGNJOEJ4M1loYW5VanZYWlVwdnFXeWptelpWWE5CY2g4Ni1aSzM1aXdqaWFKYlZUekYtSUl1ZGtweEtuV2k4VFFBMGFVODJtMG9zaGNkdnlZY25OUUVnNVQ2WGhYNVA3c1g2am9ZZVlTSzBiOXZmUTY3WWtaVXdTbVQ3d1ZpZVBBdFBFdU5tczZSaVRnSFRrTjBkd3luNnAwTUlr?oc=5",
         "sentiment": "neutral",
         "relevance": "medium",
         "verification_status": "unverified"
@@ -467,8 +512,8 @@
         "verification_status": "unverified"
       }
     ],
-    "stored_new": 29,
-    "duplicates_skipped": 0,
+    "stored_new": 34,
+    "duplicates_skipped": 1,
     "note": "headlines are unverified signals, not confirmed financial evidence",
     "_run_id": 1070
   },
@@ -480,8 +525,8 @@
         "severity": "moderate",
         "evidence": "ATR 5.6% of price (>4%)",
         "source": "computed",
-        "date": "2026-11-26",
-        "detected_at": "2026-11-26 22:09:42.434059+00:00"
+        "date": "2026-11-27",
+        "detected_at": "2026-11-27 21:54:29.690085+00:00"
       }
     ],
     "unassessed_governance_items": [
@@ -493,47 +538,47 @@
       "promoter selling (source unavailable)"
     ],
     "shares_outstanding_growth_yoy": 0.0004570744307550543,
-    "atr_pct_of_price": 0.05630049292259104,
+    "atr_pct_of_price": 0.055945792227185015,
     "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
     "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
     "_run_id": 1069
   },
   "9_fundamental_score": 55.0,
-  "10_technical_score": 70.0,
+  "10_technical_score": 75.0,
   "11_data_confidence": 72.0,
   "12_short_term_assessment": {
-    "score": 65.5,
+    "score": 69.0,
     "technical_view": {
       "timeframe": "daily",
       "trend": "bullish",
-      "rsi_14": 64.02803375764289,
-      "macd_histogram": 1.591686429955536,
+      "rsi_14": 60.86838344467444,
+      "macd_histogram": 1.3442971510948771,
       "breakout": false,
       "breakdown": false
     },
     "entry_zone": {
       "low": 84.2,
-      "high": 87.35,
+      "high": 87.28,
       "basis": "near identified support plus half ATR buffer"
     },
-    "invalidation_level": 71.6
+    "invalidation_level": 71.89
   },
   "13_long_term_assessment": {
-    "score": 59.5,
+    "score": 61.0,
     "trend": {
       "timeframes": [
         "weekly",
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 75.42601156289605,
+      "ema_200_daily": 75.77051936666324,
       "price_vs_ema_200": "above"
     },
     "business_classification": "insufficient_evidence"
   },
-  "14_investment_thesis": "Filatex India Limited (FILATEX) is classified as a 'insufficient_evidence' business with a bullish technical trend. Balanced research score 62.5/100 (fundamental 55.0, technical 70.0, data confidence 72.0, risk 10/100 higher=worse).",
+  "14_investment_thesis": "Filatex India Limited (FILATEX) is classified as a 'insufficient_evidence' business with a bullish technical trend. Balanced research score 65.0/100 (fundamental 55.0, technical 75.0, data confidence 72.0, risk 10/100 higher=worse).",
   "15_thesis_invalidation": [
-    "Daily close below invalidation level 71.6 (2x ATR under support)",
+    "Daily close below invalidation level 71.89 (2x ATR under support)",
     "Operating cash flow turning negative in the next annual report",
     "New critical governance or regulatory finding (currently unassessed items must be checked manually)"
   ],
@@ -566,14 +611,14 @@
     "strong_technical_trend"
   ],
   "combined_scores": {
-    "long_term": 59.5,
-    "short_term": 65.5,
-    "balanced": 62.5,
+    "long_term": 61.0,
+    "short_term": 69.0,
+    "balanced": 65.0,
     "risk_score_higher_is_worse": 10
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-27 03:39 IST",
+    "generated_at": "2026-11-28 03:24 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-24 06:02 IST"
   }

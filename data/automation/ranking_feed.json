@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-27 03:39 IST",
-  "rotation_last_run_at": "2026-11-27 03:39 IST",
+  "generated_at": "2026-11-28 03:24 IST",
+  "rotation_last_run_at": "2026-11-28 03:24 IST",
   "cycle_started_at": "2026-11-19 09:36 IST",
-  "universe_size": 4960,
-  "ranked_count": 1295,
+  "universe_size": 4958,
+  "ranked_count": 1398,
   "excluded_count": 0,
   "top": [
     {
@@ -343,6 +343,22 @@
       "rank": 21
     },
     {
+      "symbol": "INDGN",
+      "exchange": "NSE",
+      "verdict": "neutral - balanced 60.0, stored risk 0.0",
+      "name": "Indegene Limited",
+      "balanced": 60.0,
+      "long_term": 59.6,
+      "short_term": 60.4,
+      "risk": 0.0,
+      "data_confidence": 72.0,
+      "classification": "neutral",
+      "status": "complete",
+      "data_date": "2026-11-28 03:16 IST",
+      "missing_agents": [],
+      "rank": 22
+    },
+    {
       "symbol": "BBOX",
       "exchange": "NSE",
       "verdict": "strong_technical_trend - balanced 59.8, stored risk 30.0",
@@ -356,7 +372,7 @@
       "status": "complete",
       "data_date": "2026-11-19 14:11 IST",
       "missing_agents": [],
-      "rank": 22
+      "rank": 23
     },
     {
       "symbol": "ARYAMAN",
@@ -372,7 +388,7 @@
       "status": "complete",
       "data_date": "2026-11-26 03:34 IST",
       "missing_agents": [],
-      "rank": 23
+      "rank": 24
     },
     {
       "symbol": "BROOKS",
@@ -387,22 +403,6 @@
       "classification": "neutral",
       "status": "complete",
       "data_date": "2026-11-19 20:39 IST",
-      "missing_agents": [],
-      "rank": 24
-    },
-    {
-      "symbol": "DIVISLAB",
-      "exchange": "NSE",
-      "verdict": "neutral - balanced 59.5, stored risk 10.0",
-      "name": "Divi's Laboratories Limited",
-      "balanced": 59.5,
-      "long_term": 59.3,
-      "short_term": 59.7,
-      "risk": 10.0,
-      "data_confidence": 72.0,
-      "classification": "neutral",
-      "status": "complete",
-      "data_date": "2026-11-20 04:03 IST",
       "missing_agents": [],
       "rank": 25
     }

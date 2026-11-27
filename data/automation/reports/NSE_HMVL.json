@@ -5,11 +5,11 @@
     "name": "Hindustan Media Ventures Limited",
     "sector": "Communication Services",
     "industry": "Publishing",
-    "market_cap": 7219890688,
+    "market_cap": 7569821696,
     "website": "https://www.hmvl.in"
   },
   "2_source_and_timestamp": {
-    "generated_at": "2026-11-26 22:10:02.057377+00:00",
+    "generated_at": "2026-11-27 21:54:52.434660+00:00",
     "price_note": "Yahoo Finance NSE/BSE quotes typically delayed ~15 minutes",
     "agent_statuses": {
       "fundamental": "success",
@@ -79,34 +79,34 @@
     "assessment": "bullish",
     "daily": {
       "timeframe": "1d",
-      "last_close": 99.79000091552734,
+      "last_close": 98.20999908447266,
       "emas": {
-        "ema_20": 88.00932336054115,
-        "ema_50": 84.16629132106492,
-        "ema_100": 82.74103665151841,
-        "ema_200": 80.82772973186638
+        "ema_20": 88.98081628662986,
+        "ema_50": 84.71702495884561,
+        "ema_100": 83.04735273923855,
+        "ema_200": 81.00067364286714
       },
       "smas": {
-        "sma_20": 85.75099983215333,
-        "sma_50": 80.4297998046875,
-        "sma_100": 85.8073998260498,
-        "sma_200": 77.84599966049194
+        "sma_20": 86.83999977111816,
+        "sma_50": 80.81879974365235,
+        "sma_100": 85.8973998260498,
+        "sma_200": 77.98124963760375
       },
-      "rsi_14": 68.3040277038711,
+      "rsi_14": 65.49203615277423,
       "macd": {
-        "macd_line": 4.549523412404767,
-        "signal_line": 3.4954122106336705,
-        "histogram": 1.0541112017710965
+        "macd_line": 4.782640021770391,
+        "signal_line": 3.7528577728610144,
+        "histogram": 1.0297822489093762
       },
-      "adx_14": 33.06117465532422,
-      "atr_14": 5.313692926307688,
+      "adx_14": 34.01202068449296,
+      "atr_14": 5.276286354109092,
       "bollinger": {
-        "middle": 85.75099983215333,
-        "upper": 103.74792923505976,
-        "lower": 67.7540704292469
+        "middle": 86.83999977111816,
+        "upper": 105.09608562317251,
+        "lower": 68.5839139190638
       },
-      "volume_sma_20": 44668.5,
-      "relative_volume": 2.602214088227722,
+      "volume_sma_20": 46695.3,
+      "relative_volume": 0.8925737708077686,
       "support": 72.0,
       "resistance": 101.5,
       "price_structure": {
@@ -120,21 +120,21 @@
       "trend_strength": "strong",
       "breakout": false,
       "breakdown": false,
-      "momentum_divergence": "possible bearish divergence (price new high, RSI lower high)",
+      "momentum_divergence": null,
       "entry_zone": {
         "low": 72.0,
-        "high": 74.66,
+        "high": 74.64,
         "basis": "near identified support plus half ATR buffer"
       },
-      "invalidation_level": 61.37,
-      "atr_risk_distance": 5.313692926307688,
+      "invalidation_level": 61.45,
+      "atr_risk_distance": 5.276286354109092,
       "provisional_last_bar": false
     },
     "short_term_report": {
       "timeframe": "daily",
       "trend": "bullish",
-      "rsi_14": 68.3040277038711,
-      "macd_histogram": 1.0541112017710965,
+      "rsi_14": 65.49203615277423,
+      "macd_histogram": 1.0297822489093762,
       "breakout": false,
       "breakdown": false
     },
@@ -144,7 +144,7 @@
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 80.82772973186638,
+      "ema_200_daily": 81.00067364286714,
       "price_vs_ema_200": "above"
     }
   },
@@ -157,7 +157,7 @@
     ],
     "sector": "Communication Services",
     "industry": "Publishing",
-    "market_cap": 7219890688,
+    "market_cap": 7569821696,
     "moat_assessment": "No competitive moat claimed: insufficient qualitative evidence.",
     "unassessed_areas": [
       "business model detail (needs annual report reading)",
@@ -172,11 +172,11 @@
   },
   "6_valuation": {
     "multiples": {
-      "pe_trailing": 4.159678,
-      "pe_forward": 3.3404763,
-      "pb": 0.42869616,
-      "ev_ebitda": -1.974,
-      "ev_sales": -0.33,
+      "pe_trailing": 4.3612876,
+      "pe_forward": 3.502381,
+      "pb": 0.449474,
+      "ev_ebitda": -1.71,
+      "ev_sales": -0.286,
       "peg": 0.18,
       "dividend_yield": 0.0,
       "industry_pe": null
@@ -202,14 +202,159 @@
       }
     },
     "dcf_not_calculated_reason": null,
-    "margin_of_safety_vs_base_case": 0.3492029433334133,
-    "current_price": 99.79000091552734,
+    "margin_of_safety_vs_base_case": 0.3595071875637409,
+    "current_price": 98.20999908447266,
     "_run_id": 1117
   },
   "7_news_intelligence": {
-    "items": [],
-    "stored_new": 0,
-    "duplicates_skipped": 40,
+    "items": [
+      {
+        "headline": "HT Media confirms no encumbrance on Hindustan Media Ventures shares - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Wed, 04 Nov 2026 02:18:52 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeW91cVpxRkctTGg2V05OQjkyMmJlTlBqSXgwWG1YSmFkeTd0OUVVM1c3V21BZ3FwWTRkTWFfcy1vcnNkSERzNEU3OHdKVmhzcnRFdFo5WHR4V290bDRZZW84czZrd2VJQUxFczhrT3g3cmFla3dpS1JtOUNaMkQtSHNwN3N5QkJoQ1huYjBtT0JKeWFoTHVSRnNyNFpPYjFRdVFJNkEzMWtxV0FsX2VCeFU3YVNBTGgwaG5KVnI0SnJDdw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Hindustan Media Ventures (HMVL.NS) Jumps 5.00% to \u20b977.92, Nearing Resistance - Bull Pennant - SIAM India",
+        "source": "SIAM India",
+        "published": "Thu, 22 Oct 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOd1JlMFp1ZWhkNmxIdFBvb3lyX0JRS2JMVTBXWVBQamVMclBmTmN2bTlUYUJ3eFVBRTZwaVJVWGZCNHQ5djJfd1hVZUFIVjR3YkxWcEpFNlF4enR5NWg2RTdLQ2NGRzJ3MzEtYmJpb0s4LWwwZEFlMXlIeENNMTQ5T0FpMEFLZlJmejU1aEVJaWRMajNxOWw0YVJZc0w3NmlFWkVQbTcyN0prcGVYc1lvVw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Hindustan Media Ventures posts 5% revenue growth in Q2 FY27 - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Fri, 13 Nov 2026 13:42:41 GMT",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOFFmWWpQZ2d0TzlwM2J0NlJnY0tPeDV5Sm00UVZfc3JmMWhpV29fX09tWGN6akkwSE9CU2hIOVhFNWhHRzBrQ09aSExIWDB6YXZDRHRicFg5ck1BdGJ0MFVyWE9EalBWVndyV0lZWkRWUFpqdTUtVkl2XzcxSkNZUFdwMHBwM3A2ajFDMUVHRlFUc0ZlcHVMR0dtVTJtdHc3VDJvRWVucktYM3FmenhiLXZB?oc=5",
+        "sentiment": "positive",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Hindustan Media Ventures HMVL Board Meeting Outcome November 2026 - Kalkine India",
+        "source": "Kalkine India",
+        "published": "Wed, 04 Nov 2026 07:39:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ2FsVDBuMkwzekkxY3NXMGRCTzZ1cXVXNjEtR0lzeDlybmVBN21NcDF4NmRjcFZLLXJ3TlY1UVFfMlBXbS1vZE1tc2U2aDZ2bTUtSnkweEJnNC14OEVDaVB5ekI2ZG1scnVzcTh0ZXczclhyQV9jUW9NZTVPLXc1dVMxXzN6bFFiUUR1WXFMN3dQTzNYZ3ctdEJxbVRhSTE4Rmh2YVRqZG9DNnRxOXRCRlU5ZVl0TmdtN0Nvam4wWFAwbms?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Hindustan Media Ventures Ltd Share Price Today NSE/BSE Charts - Alice Blue",
+        "source": "Alice Blue",
+        "published": "Fri, 25 Sep 2026 16:15:19 GMT",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBOeGV5cUlYZHhZUG94R183cllGUFJ1M0RNb2M1NTNCbm44RnVCRnYwR3pOZ21FeVU0WkhOYXJESnUxbUdjRlAtb3RCWkhEZ191Z2tOLWRZNVAtWlA5cG5sRS10LTV0TVNFTGhQOXNnazVndndWWUN2Ym1OWHBuVEk?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "HMVL Q2 FY27 Depository Compliance Certificate Filed - Kalkine India",
+        "source": "Kalkine India",
+        "published": "Fri, 09 Oct 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNM0NmS1dpdDJZNHJMMUpsTHI3T1g1WHZnVW9EX1h5UXJUMkVlVDlqb3RmbUJzaDMtUDZkb3RucUpRV3JKV1Vlc3QzS1NleFN5ai1rNVdLdzd2ekVtdWNLS1FxeVNSbi1FaFQzMWtXeVJnSlE2eXRRVEZMTkx2eXh5V2REZzJPNWxNbnZfSjhsYS1MbGtoWlJUd2xnZ1BYRFZydlZJWl91RW9BeGR0b0JmbGRZX3hvak9DSXBMZDFJamE3djZrRkZvaU0wZWhPbk5IMk5aOS1oal8?oc=5",
+        "sentiment": "neutral",
+        "relevance": "low",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Hindustan Media Ventures Shareholders Approve Sameer Singh's Appointment as Managing Director - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Thu, 05 Mar 2026 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOY1JaTzU4WmpMcm52M25vZFNXOWZLeFhkNDdSZ3Y0OUdUNVpYdWRHNmxPMzdsWm5yT2tCUEoyaFJ6TXpWMkdRV0NucmxadFRmUGs1Q0dzS2l4VFB1MEVjdERPZ2VkR0lyZUhlMTVrUG1Gd2RsNTVYY3VyaGlMM01HUzJjOWF5UXU3YmhXYVRzTF91M3Z4Rl9henNMdlNyUDR3YnEwZWdGbmZQQmcxV1d5cG5HYkVQbWlFWm9YVWs2aURPaTg5ck9kUnp5U2haSklyZ0twMUlCdmZOWDZOVExMSA?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "HINDUSTAN MEDIA VENTURES Share Price - Upstox",
+        "source": "Upstox",
+        "published": "Sun, 24 Oct 2021 06:26:33 GMT",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBkTEczNzdfMkJZTXZpUWQ5TlNZMG40eG9xVVVsWUZ5ZDlLb2ZYUnBNT2JnYnkwTjUtYWNfbWh5Y3pWdWs5ckdXSUN4VXNQSzYwamZYV2J5ODJmTHZwTGVwdkItb2tmWWRsMDZtMTBKSmY?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "HMVL Q1 FY27 Earnings Call: Key Takeaways for Investors - Kalkine India",
+        "source": "Kalkine India",
+        "published": "Wed, 12 Aug 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdE5rbVh1Sy1sTVNNc2Y0T3h5eW4zUC1qZXZVcndzU0plVFFoUDJ3Q2s1Z0tfTTJQYy1OMy03ZktUQllyanJGOTJ5MTdWOExnLVdfNFlBMmF3RG85MWVfYTlQRWhzbWRWSXhENHhqQVN2MlVCanFsMHNoYjdpRkNJT3M1X3FCV2R5U0pNTkt0OWp1ZkM0Y192dFpuSVI2dF9YTVJZVjJuR29DMl85Q0Ztcl9Ld0V5T0N6QlNXUFJwUUwwYVo4OUJ5X1VXblRtQQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Who Owns Your Media: Hindustan Times\u2019s journey from broadsheet to media conglomerate - Newslaundry",
+        "source": "Newslaundry",
+        "published": "Tue, 19 Jul 2022 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQanFYdm9pcVVnSHBGcm5UUVpFc0JOT2ZlOUFhQVFBdlphZlhPaGFEMG5BOHUxVWZPN1ZJRXN0UHhydHVlYWlIV2F4bzY1SDNfQUlvMktiSkgzX1RSTXRZTGJDRjkyaGRUX01XdHptbjgwQU1rai1yQjB5aE9yRTA5WGFyYlBfa09jdG5vWGIxZDN1LTFQSjhKZnN5dldHQkhOTHlqMVFVR05VWWhvYnhod1htSWJ1dHdpRkVJMU130gHTAUFVX3lxTE9UemQxUXBqMWtKaGJoMndHclU2dUI0MVBSU1BzWjdLcXNNNmpMZzB1TmtzaVh6RnRTaVJzZEhYbXlXaUk5OFZLSmJ1MG8zdjlwVy1ZQXFfclhkazcyZE4tZ3NPYVdVSWxmM0NyVDlZZkg3aEN5anFtUm1ZVUQyeUxlTXp5cUN1cERGU1BtQ2h1Q3lOQ0Z5bzBKTFg0c2ZjWmk5VzUxc3JLNG45eWF6YmVRWVlSSTJDdDBIV0JJUi14UmFldThiRTdmc2E2TlZEcTc3cG8?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Hindustan Media Ventures Limited Announces Rs. 9.34 Crore Investment in KSKT Agromart Private Limited - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Fri, 20 Mar 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNMHRibXc2d3c0RjF5b2ZySUt1TFN5VzRscjJXd0hPSTRNOVhjajV6T3FDUFZMTUlmY2VwZm5KN190SlpOcFh5NTFZMkFWRGRnUGZfY1gwVG5XNGtYUWxONUhFVE5EckhhUHBEV1gzZ01qczRLSWxiYnp0RDVBcGF0aFlVZnBZbEdIWDlWMEFaamN2X0pRTkdtVzZ4cVJqYld0ODRITVFUTnBrQVNxZUcybmtUNjh2M2FCOUlzQ3E4T0I4ZVgzbEk2UnZTLTVWRk9wTy1vUENOTmoxakIzU1gtRHhIelFJSWJuRGZVZnV3?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "HMVL FY26 PAT rises 44% to \u20b9153 crore, revenue stable - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Thu, 21 May 2026 15:08:40 GMT",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQ29YQlJ4bDFDa2I5d2d2RHJHaWt0bHJEdTl5QldmRlNaR01Jc3hwQ284Y0hjVGdzNXVfZUpyTWtEUXFualByckVrUmgyaWRLWjRtMmN3SGlWX3RHb0ZaUEJPVHptNFdzNm5rdk5mTWhpRm5xRjJTQ2NTb21vU3JFNzNDNjEyTzh2LUtURFI4U1lGN0d4T3Ntd1l3ZW1IdDN3OGlZM0htSlA4ZGRrOF9F?oc=5",
+        "sentiment": "neutral",
+        "relevance": "low",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "JAGRAN Stock Price and Chart \u2014 NSE:JAGRAN - TradingView",
+        "source": "TradingView",
+        "published": "Fri, 11 Aug 2017 21:16:58 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FcUFUcnNjYTdtRTJ6NUNTbTBWWXBSdmRJY2VQaHhNNGI4NXRWM2E5NjhyRWJnVXV3Q1BIS0JWQjlWbTJzcHFhTlhzV2RaNVRESGhnbUJydGR2TGc?oc=5",
+        "sentiment": "neutral",
+        "relevance": "low",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "Hindustan Media Ventures Announces Closure of OTTplay Business Operations - scanx.trade",
+        "source": "scanx.trade",
+        "published": "Thu, 26 Mar 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOa0x3SU9EbTY5Z2RHOVVRR0kwcno5c1ZWTElGWWJKWEFPV2pfZkg3YWgzMm5Qc3hySjF2QUpDOVQzVGhZS3lyWTJZbHBEb05TQ1R2ZFk4ZGl2eGJlNUw5LUNRVWVtNDdKUVVaY3hKa093N0xYcU9nT2kwb215eEVSN2Z0REx1NUlDcDlaQ25TbEhPczZXZDNrUzhCeXlRNnMyQjZxRVlpcEhsSGdvWC01QWZRWng4UWU3SWtadE44LUNrS3lsNW1RQVlB?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "KSKT Agromart raises funds from Hindustan Media Ventures Ltd to boost B2C, Kaze Living, and D2C growth - Livemint",
+        "source": "Livemint",
+        "published": "Thu, 09 Apr 2026 07:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNekNSZXNaZ1lWemVsekdWZkpNWVhpd24tZy01ZDJZOEl2RHhXTl85RXJoNWFpaU9OV08yMGh3bU5vR0RZeUxwOFVGQjQtYjhPOERYR0pPQlpTNldoQ2JidVJvRDJuT2l3VDU5dUdRLU9EMHNZZ3lKaVVkMEM2UDFRbnAzeHRnWXU3SmhNNVhWcTRSTkZnRVllOHpvcER6cURBcEx6UmVKTk1jME1TRlhqQ3B3OTkyUHNyUGJOUExrTERVY09VMkRUQmE5MEU4Z2M3UWllbWVlU3dwUFlnSTZuWEI0blhYQQ?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      },
+      {
+        "headline": "BankBazaar Secures Investment from Hindustan Media Ventures Limited for Growth. - Livemint",
+        "source": "Livemint",
+        "published": "Tue, 18 Nov 2025 08:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObmxOXzNXc2FnTGlPZUJIalUya2tOQ3Iwd3lXajdNbTNHMWx4WjRxTFVmd0h2S2s2WkFxWllTd0gxcml1cWs3elF5YVVNYWF5ZmY2WjUzUm1HZXNJRG1yVGtteEpCTkR5c1ZVUnA2SEE1UEdiOE5BVGFRbmpqMFlvQ0d1N250eE1veE1EVjhHTWJoeGh1alVUSjM1Z21MX0ZTYTR2QUo0bXpvZTZqSzdTWWZJdnVKY3ZtaEtDbXcxU2R6Rk5oVE9GTw?oc=5",
+        "sentiment": "neutral",
+        "relevance": "medium",
+        "verification_status": "unverified"
+      }
+    ],
+    "stored_new": 16,
+    "duplicates_skipped": 0,
     "note": "headlines are unverified signals, not confirmed financial evidence",
     "_run_id": 1119
   },
@@ -219,10 +364,10 @@
       {
         "category": "high_volatility",
         "severity": "moderate",
-        "evidence": "ATR 5.3% of price (>4%)",
+        "evidence": "ATR 5.4% of price (>4%)",
         "source": "computed",
-        "date": "2026-11-26",
-        "detected_at": "2026-11-26 22:10:02.041839+00:00"
+        "date": "2026-11-27",
+        "detected_at": "2026-11-27 21:54:52.089337+00:00"
       }
     ],
     "unassessed_governance_items": [
@@ -234,47 +379,47 @@
       "promoter selling (source unavailable)"
     ],
     "shares_outstanding_growth_yoy": 0.0,
-    "atr_pct_of_price": 0.05324875115299128,
+    "atr_pct_of_price": 0.053724533176818766,
     "coverage": "quantitative checks only (debt, cash flow, profit quality, valuation, volatility, liquidity); governance items UNASSESSED - a LOW class does not clear them",
     "note": "governance items without a free verifiable source are UNASSESSED, not cleared",
     "_run_id": 1118
   },
   "9_fundamental_score": 52.5,
-  "10_technical_score": 71.0,
+  "10_technical_score": 61.0,
   "11_data_confidence": 72.0,
   "12_short_term_assessment": {
-    "score": 65.4,
+    "score": 58.4,
     "technical_view": {
       "timeframe": "daily",
       "trend": "bullish",
-      "rsi_14": 68.3040277038711,
-      "macd_histogram": 1.0541112017710965,
+      "rsi_14": 65.49203615277423,
+      "macd_histogram": 1.0297822489093762,
       "breakout": false,
       "breakdown": false
     },
     "entry_zone": {
       "low": 72.0,
-      "high": 74.66,
+      "high": 74.64,
       "basis": "near identified support plus half ATR buffer"
     },
-    "invalidation_level": 61.37
+    "invalidation_level": 61.45
   },
   "13_long_term_assessment": {
-    "score": 58.0,
+    "score": 55.0,
     "trend": {
       "timeframes": [
         "weekly",
         "monthly"
       ],
       "trend": "sideways",
-      "ema_200_daily": 80.82772973186638,
+      "ema_200_daily": 81.00067364286714,
       "price_vs_ema_200": "above"
     },
     "business_classification": "weak"
   },
-  "14_investment_thesis": "Hindustan Media Ventures Limited (HMVL) is classified as a 'weak' business with a bullish technical trend. Balanced research score 61.7/100 (fundamental 52.5, technical 71.0, data confidence 72.0, risk 10/100 higher=worse). Supporting evidence: ROE 3.1% (<8%): weak returns on equity.",
+  "14_investment_thesis": "Hindustan Media Ventures Limited (HMVL) is classified as a 'weak' business with a bullish technical trend. Balanced research score 56.8/100 (fundamental 52.5, technical 61.0, data confidence 72.0, risk 10/100 higher=worse). Supporting evidence: ROE 3.1% (<8%): weak returns on equity.",
   "15_thesis_invalidation": [
-    "Daily close below invalidation level 61.37 (2x ATR under support)",
+    "Daily close below invalidation level 61.45 (2x ATR under support)",
     "Operating cash flow turning negative in the next annual report",
     "New critical governance or regulatory finding (currently unassessed items must be checked manually)"
   ],
@@ -304,18 +449,17 @@
     "rss_news (headlines, unverified)"
   ],
   "labels": [
-    "attractive_valuation",
-    "strong_technical_trend"
+    "attractive_valuation"
   ],
   "combined_scores": {
-    "long_term": 58.0,
-    "short_term": 65.4,
-    "balanced": 61.7,
+    "long_term": 55.0,
+    "short_term": 58.4,
+    "balanced": 56.8,
     "risk_score_higher_is_worse": 10
   },
   "disclaimer": "Research only. A multibagger label is a hypothesis, not a prediction. Not investment advice; no trades are placed by this software.",
   "automation": {
-    "generated_at": "2026-11-27 03:40 IST",
+    "generated_at": "2026-11-28 03:24 IST",
     "source": "scheduled GitHub Actions run",
     "rotation_data_date": "2026-11-27 03:35 IST"
   }
