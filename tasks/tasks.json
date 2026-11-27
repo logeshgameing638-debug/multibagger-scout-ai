@@ -1,0 +1,111 @@
+{
+  "project": "Multibagger Scout AI",
+  "format": "task-master-style breakdown (adapted from github.com/eyaltoledano/claude-task-master; no tooling or API keys required)",
+  "spec": "../SPEC.md",
+  "owner": "Logeshwaran S (zero-coding; agents maintain this file)",
+  "last_updated": "2026-11-27",
+  "status_values": ["pending", "in-progress", "blocked", "deferred", "done"],
+  "priority_values": ["high", "medium", "low"],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Expand scan coverage toward the full NSE+BSE listed universe",
+      "status": "in-progress",
+      "priority": "high",
+      "dependencies": [],
+      "description": "Owner's scope: every SEBI-listed stock, not a sample. As of 2026-11-21: 873 saved reports (417 complete / 456 partial) plus 150 more listings (86 complete / 64 partial) out of a 4,945-entry NSE/BSE rotation. Batches are resumable; coverage count is always shown against the full universe.",
+      "details": "Continue overnight batch runs; each stock ends complete / partial / unavailable. Never present a partial batch as a full-market result (constitution rule 3).",
+      "test_strategy": "Coverage counter on the dashboard and public site rises run over run; batch logs show per-stock status."
+    },
+    {
+      "id": 2,
+      "title": "Make the automatic daily refresh land on time",
+      "status": "in-progress",
+      "priority": "high",
+      "dependencies": [],
+      "description": "Overnight runs do run (confirmed 2026-11-20 and 2026-11-21) but landed ~8 hours late; evening timing is not reliable. Price data is previous day's close, not live. GitHub Actions workflow: .github/workflows/daily_update.yml.",
+      "details": "Check workflow schedule vs actual start, keep provider load bounded, and surface the real last-run timestamp so lateness is visible instead of silent.",
+      "test_strategy": "Last-run timestamp on Data Source Health and the public site matches the intended schedule within an acceptable window, several days in a row."
+    },
+    {
+      "id": 3,
+      "title": "ETF market-price technicals (not NAV-only)",
+      "status": "pending",
+      "priority": "medium",
+      "dependencies": [],
+      "description": "ETF section currently has NAV-based indicators for 16 funds. Market-price technicals are a known gap from the owner's 'fix all the problems' list (2026-11-19).",
+      "details": "Source ETF market prices from a permitted free source; mark funds unavailable where the source has no coverage.",
+      "test_strategy": "ETF detail shows market-price indicators with a data date, or an explicit unavailable note."
+    },
+    {
+      "id": 4,
+      "title": "Verified long-term entry / stop-loss / target logic",
+      "status": "pending",
+      "priority": "medium",
+      "dependencies": [],
+      "description": "Owner wants 1:5 reward:risk trade-style views (entry zone, SL, supported target, R/R, potential P/L), with 'no qualifying setup' shown instead of a forced target. Long-term levels are not yet verified.",
+      "details": "Base targets on support/resistance from real price history; show the evidence; never invent a target to hit the 1:5 ratio.",
+      "test_strategy": "Spot-check reports: every shown target cites its price evidence; setups without evidence show 'no qualifying setup'."
+    },
+    {
+      "id": 5,
+      "title": "Confirm TejHQ data-use permission and wire it in",
+      "status": "blocked",
+      "priority": "medium",
+      "dependencies": [],
+      "description": "Permission email sent to TejHQ support 2026-11-21 (owner approved). TejHQ passed an offline test (498 days of Reliance NSE+BSE) but lacks financial statements. Connection built and tested offline only; do not go live until a reply arrives.",
+      "details": "Blocked on TejHQ's reply. On approval: enable the source, keep failures visible on Data Source Health. On refusal or no reply: keep offline and record the outcome here.",
+      "test_strategy": "Reply recorded; if approved, TejHQ rows appear with source + date and failures surface honestly."
+    },
+    {
+      "id": 6,
+      "title": "Find a free financial-statements source",
+      "status": "pending",
+      "priority": "medium",
+      "dependencies": [5],
+      "description": "Fundamental / valuation / growth analysis on the ZIP-based private version stays blocked without statements. Five providers checked 2026-11-21; none qualified for public republishing, so the real-data version is private, only-for-the-owner (his 'Mm' 2026-11-21 15:32).",
+      "details": "Evaluate candidates against: free, no key or key the owner never handles, permitted use, NSE/BSE coverage. Record rejects with reasons.",
+      "test_strategy": "A candidate passes an offline load test and its licence/permission is recorded in SPEC.md section 4 before any live use."
+    },
+    {
+      "id": 7,
+      "title": "Long-term chart expansion on the public site",
+      "status": "deferred",
+      "priority": "low",
+      "dependencies": [6],
+      "description": "Paused 2026-11-20: permission to republish historical price data on the public Pages site is not confirmed. Do not buy data or change access without asking the owner.",
+      "details": "Stays paused until a source with confirmed republish permission exists.",
+      "test_strategy": "Permission evidence recorded before any republish; public site states the data date."
+    },
+    {
+      "id": 8,
+      "title": "Windows local launch blocked by Smart App Control",
+      "status": "in-progress",
+      "priority": "medium",
+      "dependencies": [],
+      "description": "On the owner's laptop (C:\\Users\\vijay\\Downloads\\multibagger_scout_ai), Windows Smart App Control blocked a pandas file (CodeIntegrity 3077). Smart App Control stays ON. Owner approved a ~57 MB Python 3.14 test ('Mm', 2026-11-26); step 1 (download installer only) sent; waiting on his download result. If it fails, stop - no larger workarounds.",
+      "details": "Automatic research/scheduler stay OFF for local launches. Respect the owner's sub-200 MB constraint.",
+      "test_strategy": "Dashboard opens locally with Smart App Control still on, or the attempt is stopped and reported."
+    },
+    {
+      "id": 9,
+      "title": "Keep the eight-floor Streamlit app within free-tier resources",
+      "status": "pending",
+      "priority": "low",
+      "dependencies": [],
+      "description": "The older Streamlit app hit a resource limit overnight 2026-11-19→20; startup was fixed by clearing temporary scan data (GitHub-saved research kept). Watch for recurrence as coverage grows.",
+      "details": "Prefer bounded scan state on the free tier; back up the database (scripts/backup_database.bat) before large runs.",
+      "test_strategy": "App starts cleanly after overnight runs; no resource-limit errors in logs."
+    },
+    {
+      "id": 10,
+      "title": "Methodology: keep SPEC.md and this task file current",
+      "status": "in-progress",
+      "priority": "medium",
+      "dependencies": [],
+      "description": "Task-master + spec-kit way of working, approved by the owner 2026-11-27. Every project agent: read SPEC.md first, pick the top pending task here, update statuses as work lands, and record decisions in SPEC.md. Same pattern can be copied to the owner's other repos (my-algo-platform, my-personal-assistant, stock screener).",
+      "details": "One source of truth: spec for WHAT/WHY, this file for WHAT'S NEXT. Status changes ride along with the commit that did the work.",
+      "test_strategy": "last_updated and statuses reflect the repo's real state after each work session."
+    }
+  ]
+}
